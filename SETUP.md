@@ -17,7 +17,7 @@ This guide walks you through setting up GitHub Pages to host your daily AI podca
    - Folder: `/ (root)`
 4. Click **Save**
 
-GitHub will provide your site URL (e.g., `https://tylernwatson.github.io/daily-podcast`)
+GitHub will provide your site URL (e.g., `https://your-username.github.io/your-repo-name`)
 
 ## Step 2: Initialize gh-pages Branch
 
@@ -64,7 +64,7 @@ Add the following variables:
 
 1. **GITHUB_PAGES_BASE_URL**
    - Your GitHub Pages URL
-   - Example: `https://tylernwatson.github.io/daily-podcast`
+   - Example: `https://your-username.github.io/your-repo-name`
    - No trailing slash
 
 2. **PODCAST_TITLE** (optional)
@@ -162,10 +162,10 @@ The feed follows RSS 2.0 with iTunes podcast extensions, compatible with all maj
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>The Data & AI Daily</title>
-    <link>https://tylernwatson.github.io/daily-podcast</link>
+    <link>https://your-username.github.io/your-repo-name</link>
     <description>Daily briefing on Databricks releases and AI developments.</description>
     <language>en-us</language>
-    <itunes:author>Tyler Watson</itunes:author>
+    <itunes:author>Your Name</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
