@@ -196,8 +196,8 @@ synthesizeScript({ releaseNotes: [], blogPosts: [], aiNews: [] }).then(console.l
 
 ## 📄 License
 
-Internal use only - Databricks Field Engineering
+MIT License - Feel free to use and modify for your own podcast automation!
 
 ## 👤 Author
 
-Tyler Watson - tyler.watson@databricks.com
+Tyler Watson - [howdy@tyler.rodeo](mailto:howdy@tyler.rodeo)
