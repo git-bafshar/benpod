@@ -1,14 +1,17 @@
 /**
  * Content Fetcher
  *
- * Fetches content from:
- * - Databricks release notes
- * - Databricks blog
- * - AI news sources (Hacker News, RSS feeds)
+ * Fetches content from Databricks and AI/ML news sources
  */
 
 const axios = require('axios');
 const cheerio = require('cheerio');
+
+const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36';
+
+// ============================================================================
+// DATABRICKS SOURCES
+// ============================================================================
 
 /**
  * Fetch recent Databricks release notes
@@ -18,15 +21,12 @@ async function fetchDatabricksReleaseNotes() {
 
   try {
     const { data } = await axios.get('https://docs.databricks.com/en/release-notes/index.html', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-      }
+      headers: { 'User-Agent': USER_AGENT }
     });
 
     const $ = cheerio.load(data);
     const items = [];
 
-    // Find recent release note entries
     $('article').slice(0, 5).each((_, el) => {
       const title = $(el).find('h1, h2, h3').first().text().trim();
       const summary = $(el).find('p').first().text().trim().slice(0, 300);
@@ -46,37 +46,28 @@ async function fetchDatabricksReleaseNotes() {
 }
 
 /**
- * Fetch recent Databricks blog posts
+ * Fetch recent Databricks blog posts (RSS)
  */
 async function fetchDatabricksBlog() {
   console.log('Fetching Databricks blog posts...');
 
   try {
-    // Databricks blog RSS feed
     const { data } = await axios.get('https://www.databricks.com/feed', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-      }
+      headers: { 'User-Agent': USER_AGENT }
     });
 
     const $ = cheerio.load(data, { xmlMode: true });
     const items = [];
 
-    // Parse RSS feed
     $('item').slice(0, 5).each((_, el) => {
       const title = $(el).find('title').text().trim();
       const description = $(el).find('description').text().trim()
-        .replace(/<[^>]*>/g, '') // Strip HTML tags
+        .replace(/<[^>]*>/g, '')
         .slice(0, 300);
       const pubDate = $(el).find('pubDate').text().trim();
 
       if (title) {
-        items.push({
-          title,
-          summary: description,
-          date: pubDate,
-          source: 'Databricks Blog'
-        });
+        items.push({ title, summary: description, date: pubDate, source: 'Databricks Blog' });
       }
     });
 
@@ -89,22 +80,264 @@ async function fetchDatabricksBlog() {
 }
 
 /**
- * Fetch AI news from Hacker News
+ * Fetch Databricks newsroom (press releases & announcements)
+ */
+async function fetchDatabricksNewsroom() {
+  console.log('Fetching Databricks newsroom...');
+
+  try {
+    const { data } = await axios.get('https://www.databricks.com/company/newsroom', {
+      headers: { 'User-Agent': USER_AGENT }
+    });
+
+    const $ = cheerio.load(data);
+    const items = [];
+
+    // Inspect the page to find the right selectors - this is a best guess
+    $('.news-item, article, .newsroom-item').slice(0, 5).each((_, el) => {
+      const title = $(el).find('h2, h3, .title').first().text().trim();
+      const summary = $(el).find('p, .summary, .description').first().text().trim().slice(0, 300);
+      const date = $(el).find('time, .date, .publish-date').text().trim();
+
+      if (title) {
+        items.push({ title, summary, date, source: 'Databricks Newsroom' });
+      }
+    });
+
+    console.log(`  Found ${items.length} newsroom items`);
+    return items;
+  } catch (error) {
+    console.error('Error fetching Databricks newsroom:', error.message);
+    return [];
+  }
+}
+
+/**
+ * Fetch tweets from Databricks execs (Ali Ghodsi & Reynold Xin)
+ * Requires TWITTER_BEARER_TOKEN environment variable
+ */
+async function fetchDatabricksExecTweets() {
+  const token = process.env.TWITTER_BEARER_TOKEN;
+
+  if (!token) {
+    console.log('  Skipping Twitter (no TWITTER_BEARER_TOKEN set)');
+    return [];
+  }
+
+  console.log('Fetching Databricks exec tweets...');
+
+  try {
+    // User IDs for @ghodsi and @rxin (lookup these via Twitter API first)
+    // For now, using usernames - in production, look up numeric IDs once
+    const users = ['ghodsi', 'rxin'];
+    const items = [];
+
+    for (const username of users) {
+      try {
+        // Get user ID first
+        const userRes = await axios.get(
+          `https://api.twitter.com/2/users/by/username/${username}`,
+          { headers: { Authorization: `Bearer ${token}` } }
+        );
+        const userId = userRes.data.data.id;
+
+        // Get recent tweets
+        const tweetsRes = await axios.get(
+          `https://api.twitter.com/2/users/${userId}/tweets?max_results=10&tweet.fields=created_at`,
+          { headers: { Authorization: `Bearer ${token}` } }
+        );
+
+        const tweets = tweetsRes.data.data || [];
+
+        for (const tweet of tweets.slice(0, 3)) {
+          items.push({
+            title: `@${username}: ${tweet.text.slice(0, 100)}...`,
+            summary: tweet.text.slice(0, 300),
+            date: tweet.created_at,
+            source: `Twitter (@${username})`
+          });
+        }
+      } catch (err) {
+        console.error(`  Error fetching tweets from @${username}:`, err.message);
+      }
+    }
+
+    console.log(`  Found ${items.length} exec tweets`);
+    return items;
+  } catch (error) {
+    console.error('Error fetching exec tweets:', error.message);
+    return [];
+  }
+}
+
+// ============================================================================
+// AI/ML NEWS SOURCES
+// ============================================================================
+
+/**
+ * Fetch from RSS feed helper
+ */
+async function fetchRSSFeed(url, sourceName, maxItems = 5) {
+  try {
+    const { data } = await axios.get(url, {
+      headers: { 'User-Agent': USER_AGENT }
+    });
+
+    const $ = cheerio.load(data, { xmlMode: true });
+    const items = [];
+
+    $('item').slice(0, maxItems).each((_, el) => {
+      const title = $(el).find('title').text().trim();
+      const description = $(el).find('description').text().trim()
+        .replace(/<[^>]*>/g, '')
+        .slice(0, 300);
+      const pubDate = $(el).find('pubDate').text().trim();
+
+      if (title) {
+        items.push({ title, summary: description, date: pubDate, source: sourceName });
+      }
+    });
+
+    return items;
+  } catch (error) {
+    console.error(`Error fetching ${sourceName}:`, error.message);
+    return [];
+  }
+}
+
+/**
+ * Scrape blog posts from a page
+ */
+async function scrapeBlog(url, sourceName, selectors, maxItems = 5) {
+  try {
+    const { data } = await axios.get(url, {
+      headers: { 'User-Agent': USER_AGENT }
+    });
+
+    const $ = cheerio.load(data);
+    const items = [];
+
+    $(selectors.container).slice(0, maxItems).each((_, el) => {
+      const title = $(el).find(selectors.title).first().text().trim();
+      const summary = $(el).find(selectors.summary).first().text().trim().slice(0, 300);
+      const date = $(el).find(selectors.date).first().text().trim();
+
+      if (title) {
+        items.push({ title, summary, date, source: sourceName });
+      }
+    });
+
+    return items;
+  } catch (error) {
+    console.error(`Error scraping ${sourceName}:`, error.message);
+    return [];
+  }
+}
+
+/**
+ * Fetch OpenAI blog
+ */
+async function fetchOpenAIBlog() {
+  console.log('Fetching OpenAI blog...');
+  return scrapeBlog(
+    'https://openai.com/blog',
+    'OpenAI Blog',
+    { container: 'article, .post', title: 'h2, h3, .title', summary: 'p', date: 'time, .date' },
+    5
+  );
+}
+
+/**
+ * Fetch Anthropic news
+ */
+async function fetchAnthropicNews() {
+  console.log('Fetching Anthropic news...');
+  return scrapeBlog(
+    'https://www.anthropic.com/news',
+    'Anthropic News',
+    { container: 'article, .news-item', title: 'h2, h3, .title', summary: 'p', date: 'time, .date' },
+    5
+  );
+}
+
+/**
+ * Fetch Google DeepMind blog
+ */
+async function fetchDeepMindBlog() {
+  console.log('Fetching DeepMind blog...');
+  return scrapeBlog(
+    'https://deepmind.google/discover/blog/',
+    'Google DeepMind',
+    { container: 'article, .blog-post', title: 'h2, h3, .title', summary: 'p', date: 'time, .date' },
+    5
+  );
+}
+
+/**
+ * Fetch Meta AI blog
+ */
+async function fetchMetaAIBlog() {
+  console.log('Fetching Meta AI blog...');
+  return scrapeBlog(
+    'https://ai.meta.com/blog/',
+    'Meta AI',
+    { container: 'article, .blog-item', title: 'h2, h3, .title', summary: 'p', date: 'time, .date' },
+    5
+  );
+}
+
+/**
+ * Fetch The Verge AI RSS
+ */
+async function fetchVergeAI() {
+  console.log('Fetching The Verge AI...');
+  return fetchRSSFeed(
+    'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',
+    'The Verge AI',
+    5
+  );
+}
+
+/**
+ * Fetch TechCrunch AI RSS
+ */
+async function fetchTechCrunchAI() {
+  console.log('Fetching TechCrunch AI...');
+  return fetchRSSFeed(
+    'https://techcrunch.com/category/artificial-intelligence/feed/',
+    'TechCrunch AI',
+    5
+  );
+}
+
+/**
+ * Fetch VentureBeat AI RSS
+ */
+async function fetchVentureBeatAI() {
+  console.log('Fetching VentureBeat AI...');
+  return fetchRSSFeed(
+    'https://venturebeat.com/category/ai/feed/',
+    'VentureBeat AI',
+    5
+  );
+}
+
+/**
+ * Fetch Hacker News AI stories
  */
 async function fetchHackerNewsAI() {
   console.log('Fetching Hacker News AI stories...');
 
   try {
-    // Get top stories
     const { data: topStories } = await axios.get(
       'https://hacker-news.firebaseio.com/v0/topstories.json'
     );
 
     const items = [];
     const aiKeywords = ['ai', 'ml', 'machine learning', 'deep learning', 'llm', 'gpt',
-                        'neural', 'artificial intelligence', 'openai', 'anthropic', 'claude'];
+                        'neural', 'artificial intelligence', 'openai', 'anthropic', 'claude',
+                        'databricks'];
 
-    // Fetch details for top 30 stories
     const storyPromises = topStories.slice(0, 30).map(id =>
       axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)
         .then(res => res.data)
@@ -113,7 +346,6 @@ async function fetchHackerNewsAI() {
 
     const stories = await Promise.all(storyPromises);
 
-    // Filter for AI-related stories
     for (const story of stories) {
       if (!story || !story.title) continue;
 
@@ -123,10 +355,9 @@ async function fetchHackerNewsAI() {
       if (isAIRelated && items.length < 5) {
         items.push({
           title: story.title,
-          summary: story.title, // HN doesn't have summaries
+          summary: story.title,
           date: new Date(story.time * 1000).toLocaleDateString(),
-          source: 'Hacker News',
-          url: story.url || `https://news.ycombinator.com/item?id=${story.id}`
+          source: 'Hacker News'
         });
       }
     }
@@ -140,61 +371,61 @@ async function fetchHackerNewsAI() {
 }
 
 /**
- * Fetch AI news from arXiv CS.AI RSS
+ * Fetch arXiv CS.AI papers (RSS)
  */
 async function fetchArxivAI() {
   console.log('Fetching arXiv AI papers...');
+  return fetchRSSFeed(
+    'http://export.arxiv.org/rss/cs.AI',
+    'arXiv CS.AI',
+    3
+  );
+}
 
-  try {
-    const { data } = await axios.get('http://export.arxiv.org/rss/cs.AI', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-      }
-    });
+// ============================================================================
+// MAIN EXPORT FUNCTIONS
+// ============================================================================
 
-    const $ = cheerio.load(data, { xmlMode: true });
-    const items = [];
+/**
+ * Fetch all Databricks content
+ */
+async function fetchDatabricksContent() {
+  const [releaseNotes, blog, newsroom, execTweets] = await Promise.all([
+    fetchDatabricksReleaseNotes(),
+    fetchDatabricksBlog(),
+    fetchDatabricksNewsroom(),
+    fetchDatabricksExecTweets()
+  ]);
 
-    // Parse RSS feed
-    $('item').slice(0, 3).each((_, el) => {
-      const title = $(el).find('title').text().trim();
-      const description = $(el).find('description').text().trim()
-        .replace(/<[^>]*>/g, '')
-        .slice(0, 300);
-      const pubDate = $(el).find('pubDate').text().trim();
-
-      if (title) {
-        items.push({
-          title,
-          summary: description,
-          date: pubDate,
-          source: 'arXiv CS.AI'
-        });
-      }
-    });
-
-    console.log(`  Found ${items.length} papers`);
-    return items;
-  } catch (error) {
-    console.error('Error fetching arXiv:', error.message);
-    return [];
-  }
+  return [...releaseNotes, ...blog, ...newsroom, ...execTweets];
 }
 
 /**
- * Fetch all AI news
+ * Fetch all AI/ML news
  */
 async function fetchAINews() {
-  const [hnStories, arxivPapers] = await Promise.all([
+  const [
+    openai, anthropic, deepmind, meta,
+    verge, techcrunch, venturebeat,
+    hn, arxiv
+  ] = await Promise.all([
+    fetchOpenAIBlog(),
+    fetchAnthropicNews(),
+    fetchDeepMindBlog(),
+    fetchMetaAIBlog(),
+    fetchVergeAI(),
+    fetchTechCrunchAI(),
+    fetchVentureBeatAI(),
     fetchHackerNewsAI(),
     fetchArxivAI()
   ]);
 
-  return [...hnStories, ...arxivPapers];
+  return [...openai, ...anthropic, ...deepmind, ...meta, ...verge, ...techcrunch, ...venturebeat, ...hn, ...arxiv];
 }
 
 module.exports = {
   fetchDatabricksReleaseNotes,
   fetchDatabricksBlog,
+  fetchDatabricksContent,
   fetchAINews
 };

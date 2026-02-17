@@ -28,7 +28,7 @@ async function convertToAudio(script, outputPath) {
       },
       audioConfig: {
         audioEncoding: 'MP3',
-        speakingRate: 1.05,  // Slightly faster than default
+        speakingRate: 1.1,  // Natural pacing for 8-12 minute episodes
         pitch: 0,
         effectsProfileId: ['large-home-entertainment-class-device']
       },

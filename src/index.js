@@ -13,7 +13,7 @@ const path = require('path');
 const fs = require('fs');
 const axios = require('axios');
 
-const { fetchDatabricksReleaseNotes, fetchDatabricksBlog, fetchAINews } = require('./fetcher');
+const { fetchDatabricksContent, fetchAINews } = require('./fetcher');
 const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
@@ -62,19 +62,17 @@ async function run() {
     console.log('STEP 1: Fetching content from sources...');
     console.log();
 
-    const [releaseNotes, blogPosts, aiNews] = await Promise.all([
-      fetchDatabricksReleaseNotes(),
-      fetchDatabricksBlog(),
+    const [databricksContent, aiNews] = await Promise.all([
+      fetchDatabricksContent(),
       fetchAINews(),
     ]);
 
     const contentBundle = {
-      releaseNotes,
-      blogPosts,
-      aiNews,
+      databricks: databricksContent,
+      aiNews: aiNews,
     };
 
-    const totalItems = releaseNotes.length + blogPosts.length + aiNews.length;
+    const totalItems = databricksContent.length + aiNews.length;
     console.log();
     console.log(`  Total items collected: ${totalItems}`);
     console.log();
@@ -105,8 +103,8 @@ async function run() {
     console.log();
 
     const fileSizeBytes = fs.statSync(audioPath).size;
-    // Estimate duration: MP3 at 128 kbps ≈ 16,000 bytes/second
-    const durationSeconds = Math.round(fileSizeBytes / 16000);
+    // Estimate duration: MP3 at 128 kbps = (fileSize * 8 bits) / (128,000 bits/sec)
+    const durationSeconds = Math.round((fileSizeBytes * 8) / (128 * 1000));
 
     // 4. Build updated RSS feed
     console.log('STEP 4: Building RSS feed...');

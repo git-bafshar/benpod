@@ -3,15 +3,17 @@ name: Daily AI Briefing
 on:
   schedule:
     # Run at 11:00 AM UTC, Monday-Friday
-    # (5:00 AM CST / 6:00 AM EST / 3:00 AM PST)
+    # (6:00 AM EST / 7:00 AM EDT)
     - cron: '0 11 * * 1-5'
   workflow_dispatch:  # Allow manual trigger
+
+# Required so the Action can commit to gh-pages
+permissions:
+  contents: write
 
 jobs:
   run-briefing:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # Required for pushing to gh-pages
 
     steps:
       - name: Checkout code
@@ -25,23 +27,24 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Write service account key
-        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > service-account.json
+      - name: Write GCP credentials
+        run: echo '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}' > gcp-key.json
 
       - name: Run pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GOOGLE_APPLICATION_CREDENTIALS: ./service-account.json
+          GOOGLE_APPLICATION_CREDENTIALS: ./gcp-key.json
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_PAGES_BASE_URL: ${{ vars.GITHUB_PAGES_BASE_URL }}
           PODCAST_TITLE: ${{ vars.PODCAST_TITLE }}
-          PODCAST_AUTHOR: ${{ vars.PODCAST_AUTHOR }}
+          PODCAST_AUTHOR: ${{ secrets.PODCAST_AUTHOR }}
         run: node src/index.js
 
       - name: Cleanup
         if: always()
         run: |
-          rm -f service-account.json
+          rm -f gcp-key.json
           rm -f /tmp/*.mp3
           rm -f /tmp/*.txt
