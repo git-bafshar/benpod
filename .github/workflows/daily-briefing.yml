@@ -1,0 +1,41 @@
+name: Daily AI Briefing
+
+on:
+  schedule:
+    # Run at 11:00 AM UTC, Monday-Friday
+    # (5:00 AM CST / 6:00 AM EST / 3:00 AM PST)
+    - cron: '0 11 * * 1-5'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  run-briefing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Write service account key
+        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > service-account.json
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_APPLICATION_CREDENTIALS: ./service-account.json
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+        run: node src/index.js
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f service-account.json
+          rm -f /tmp/*.mp3
+          rm -f /tmp/*.txt
