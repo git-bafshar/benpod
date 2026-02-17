@@ -5,17 +5,49 @@
  * 1. Fetch content from multiple sources
  * 2. Synthesize script with Claude
  * 3. Convert to audio with TTS
- * 4. Upload to Google Drive
+ * 4. Publish to GitHub Pages with RSS feed
  */
 
 require('dotenv').config();
 const path = require('path');
 const fs = require('fs');
+const axios = require('axios');
+
 const { fetchDatabricksReleaseNotes, fetchDatabricksBlog, fetchAINews } = require('./fetcher');
 const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
-const { uploadToDrive } = require('./uploader');
-const { getAustinWeather, formatWeatherForSpeech } = require('./weather');
+const { buildUpdatedFeed } = require('./publisher');
+const { publishEpisode } = require('./githubCommitter');
+
+const BASE_URL = process.env.GITHUB_PAGES_BASE_URL;
+const REPO = process.env.GITHUB_REPOSITORY;
+const GH_TOKEN = process.env.GITHUB_TOKEN;
+const PODCAST_TITLE = process.env.PODCAST_TITLE || 'The Data & AI Daily';
+const PODCAST_AUTHOR = process.env.PODCAST_AUTHOR || 'Unknown';
+
+/**
+ * Get current feed.xml from gh-pages branch
+ */
+async function getCurrentFeed() {
+  try {
+    const response = await axios.get(
+      `https://api.github.com/repos/${REPO}/contents/feed.xml?ref=gh-pages`,
+      {
+        headers: {
+          Authorization: `Bearer ${GH_TOKEN}`,
+          Accept: 'application/vnd.github.v3+json',
+        },
+      }
+    );
+    return Buffer.from(response.data.content, 'base64').toString('utf-8');
+  } catch (error) {
+    if (error.response && error.response.status === 404) {
+      console.log('  No existing feed.xml found (first run)');
+      return ''; // First run
+    }
+    throw error;
+  }
+}
 
 async function run() {
   console.log('='.repeat(60));
@@ -30,26 +62,21 @@ async function run() {
     console.log('STEP 1: Fetching content from sources...');
     console.log();
 
-    const [releaseNotes, blogPosts, aiNews, weather] = await Promise.all([
+    const [releaseNotes, blogPosts, aiNews] = await Promise.all([
       fetchDatabricksReleaseNotes(),
       fetchDatabricksBlog(),
       fetchAINews(),
-      getAustinWeather(),
     ]);
-
-    const weatherSpeech = formatWeatherForSpeech(weather);
 
     const contentBundle = {
       releaseNotes,
       blogPosts,
       aiNews,
-      weather: weatherSpeech,
     };
 
     const totalItems = releaseNotes.length + blogPosts.length + aiNews.length;
     console.log();
     console.log(`  Total items collected: ${totalItems}`);
-    console.log(`  Weather: ${weather.temperature}°F in Austin`);
     console.log();
 
     // 2. Synthesize script with Claude
@@ -60,9 +87,9 @@ async function run() {
     const wordCount = script.split(/\s+/).length;
     console.log();
 
-    // Save script to file
-    const date = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
-    const scriptFileName = `AI-Briefing-${date}-script.txt`;
+    // Save script to file for reference
+    const dateStr = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+    const scriptFileName = `AI-Briefing-${dateStr}-script.txt`;
     const scriptPath = path.join('/tmp', scriptFileName);
     fs.writeFileSync(scriptPath, script, 'utf8');
     console.log(`  Script saved to: ${scriptPath}`);
@@ -72,26 +99,46 @@ async function run() {
     console.log('STEP 3: Converting to audio...');
     console.log();
 
-    const audioFileName = `AI-Briefing-${date}.mp3`;
-    const audioPath = path.join('/tmp', audioFileName);
+    const episodeFileName = `AI-Briefing-${dateStr}.mp3`;
+    const audioPath = path.join('/tmp', episodeFileName);
     await convertToAudio(script, audioPath);
     console.log();
 
-    // 4. Upload to Google Drive (or save locally if no Drive access)
-    console.log('STEP 4: Uploading to Google Drive...');
+    const fileSizeBytes = fs.statSync(audioPath).size;
+    // Estimate duration: MP3 at 128 kbps ≈ 16,000 bytes/second
+    const durationSeconds = Math.round(fileSizeBytes / 16000);
+
+    // 4. Build updated RSS feed
+    console.log('STEP 4: Building RSS feed...');
     console.log();
 
-    let driveFile = null;
-    try {
-      driveFile = await uploadToDrive(audioPath, audioFileName);
-      console.log();
-    } catch (error) {
-      console.log(`  ⚠️  Drive upload failed: ${error.message}`);
-      console.log('  📁 Files saved locally instead:');
-      console.log(`     ${audioPath}`);
-      console.log(`     ${scriptPath}`);
-      console.log();
-    }
+    const existingFeed = await getCurrentFeed();
+    const updatedFeed = buildUpdatedFeed(
+      existingFeed,
+      {
+        title: `The Data & AI Daily — ${dateStr}`,
+        date: dateStr,
+        fileName: episodeFileName,
+        fileSizeBytes,
+        durationSeconds,
+        description: script.slice(0, 250) + '...',
+      },
+      BASE_URL,
+      {
+        title: PODCAST_TITLE,
+        author: PODCAST_AUTHOR,
+        description: 'Daily briefing on Databricks releases and AI developments.',
+      }
+    );
+
+    console.log('  Feed updated successfully');
+    console.log();
+
+    // 5. Publish to GitHub Pages
+    console.log('STEP 5: Publishing to GitHub Pages...');
+    console.log();
+
+    await publishEpisode(audioPath, updatedFeed, episodeFileName);
 
     // Summary
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
@@ -101,26 +148,12 @@ async function run() {
     console.log(`  Duration: ${duration}s`);
     console.log(`  Items processed: ${totalItems}`);
     console.log(`  Script words: ${wordCount}`);
-    console.log(`  Audio file: ${audioFileName}`);
-    if (driveFile) {
-      console.log(`  Drive link: ${driveFile.webViewLink}`);
-    } else {
-      console.log(`  Local files: ${audioPath}`);
-    }
+    console.log(`  Audio file: ${episodeFileName}`);
+    console.log(`  Episode URL: ${BASE_URL}/episodes/${episodeFileName}`);
+    console.log(`  RSS feed: ${BASE_URL}/feed.xml`);
     console.log();
-
-    // Upload transcript as well
-    if (driveFile) {
-      try {
-        await uploadToDrive(scriptPath, scriptFileName);
-        console.log(`  Transcript uploaded: ${scriptFileName}`);
-      } catch (error) {
-        console.log(`  (Transcript upload skipped)`);
-      }
-    }
-
-    console.log();
-    console.log('Briefing delivered successfully! 🎉');
+    console.log('🎉 Episode published! Subscribe in your podcast app:');
+    console.log(`   ${BASE_URL}/feed.xml`);
     console.log();
 
   } catch (error) {

@@ -1,279 +1,188 @@
-# Daily AI Audio Briefing - Setup Guide
+# GitHub Pages Setup Guide
 
-## ✨ What Was Built
+This guide walks you through setting up GitHub Pages to host your daily AI podcast with an RSS feed.
 
-A fully automated daily podcast system with:
+## Prerequisites
 
-- **🎭 Two-Host Format**: Alex (male voice) and Jordan (female voice) alternate speaking
-- **📅 Friday Special**: Automatic "Week in Review" format on Fridays
-- **📝 Transcripts**: Saved alongside MP3 files
-- **🤖 AI-Powered**: Claude generates natural conversational scripts
-- **🎙️ High-Quality Audio**: Google Cloud TTS with Journey voices
-- **☁️ Auto-Delivery**: Uploads to Google Drive daily
-- **⚙️ GitHub Actions**: Runs automatically Monday-Friday at 8 AM UTC
+- GitHub repository (this one!)
+- Anthropic API key
+- Google Cloud TTS credentials
 
-## 📁 Project Structure
+## Step 1: Enable GitHub Pages
 
-```
-daily-podcast/
-├── .github/workflows/
-│   └── daily-briefing.yml       # GitHub Actions automation
-├── src/
-│   ├── index.js                 # Main orchestrator
-│   ├── fetcher.js               # Scrapes Databricks & AI news
-│   ├── synthesizer.js           # Claude two-host script generation
-│   ├── tts.js                   # Multi-voice audio synthesis
-│   └── uploader.js              # Google Drive upload
-├── .env.example                 # Environment template
-├── .gitignore
-├── package.json
-├── README.md                    # Full documentation
-└── SETUP.md                     # This file
-```
+1. Go to your repository on GitHub
+2. Click **Settings** → **Pages** (in the left sidebar)
+3. Under **Source**, select:
+   - Branch: `gh-pages`
+   - Folder: `/ (root)`
+4. Click **Save**
 
-## 🚀 Quick Setup
+GitHub will provide your site URL (e.g., `https://tylernwatson.github.io/daily-podcast`)
 
-### 1. Install Dependencies
+## Step 2: Initialize gh-pages Branch
+
+The workflow will automatically create and populate the `gh-pages` branch on the first run. Alternatively, you can initialize it manually:
 
 ```bash
-npm install
+# Create empty gh-pages branch
+git checkout --orphan gh-pages
+git rm -rf .
+echo "# Daily Podcast Episodes" > README.md
+mkdir episodes
+git add README.md
+git commit -m "Initialize gh-pages"
+git push origin gh-pages
+git checkout main
 ```
 
-**Already installed:**
-- `@anthropic-ai/sdk` - Claude API
-- `@google-cloud/text-to-speech` - Google TTS
-- `googleapis` - Google Drive API
-- `fluent-ffmpeg` + `@ffmpeg-installer/ffmpeg` - Audio processing
-- `axios` + `cheerio` - Web scraping
-- `dotenv` - Environment configuration
+## Step 3: Configure Repository Secrets
 
-### 2. Configure Environment
+Go to **Settings** → **Secrets and variables** → **Actions** → **Repository secrets**
 
-Copy the example:
-```bash
-cp .env.example .env
+Add the following secrets:
+
+### Required Secrets
+
+1. **ANTHROPIC_API_KEY**
+   - Your Anthropic API key for Claude
+   - Get from: https://console.anthropic.com/
+
+2. **GOOGLE_SERVICE_ACCOUNT_JSON**
+   - Your Google Cloud service account JSON (for Text-to-Speech)
+   - Get from: Google Cloud Console → IAM & Admin → Service Accounts
+   - Ensure the service account has "Cloud Text-to-Speech User" role
+
+### Built-in Secret (No Action Needed)
+
+- **GITHUB_TOKEN** - Automatically provided by GitHub Actions
+
+## Step 4: Configure Repository Variables
+
+Go to **Settings** → **Secrets and variables** → **Actions** → **Variables**
+
+Add the following variables:
+
+1. **GITHUB_PAGES_BASE_URL**
+   - Your GitHub Pages URL
+   - Example: `https://tylernwatson.github.io/daily-podcast`
+   - No trailing slash
+
+2. **PODCAST_TITLE** (optional)
+   - Default: "The Data & AI Daily"
+   - Customize your podcast name
+
+3. **PODCAST_AUTHOR** (optional)
+   - Default: "Unknown"
+   - Your name or organization
+
+## Step 5: Verify Configuration
+
+After setup, manually trigger the workflow:
+
+1. Go to **Actions** tab
+2. Select "Daily AI Briefing"
+3. Click **Run workflow**
+4. Select branch: `main`
+5. Click **Run workflow**
+
+## Step 6: Subscribe to Your Podcast
+
+Once the first episode is published, your RSS feed will be available at:
+
+```
+https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/feed.xml
 ```
 
-Edit `.env` with your credentials:
-```
-ANTHROPIC_API_KEY=sk-ant-your-key-here
-GOOGLE_APPLICATION_CREDENTIALS=./service-account.json
-GOOGLE_DRIVE_FOLDER_ID=your-folder-id-here
-```
+You can add this URL to any podcast app (Apple Podcasts, Overcast, Pocket Casts, etc.)
 
-### 3. Google Cloud Setup
+### Apple Podcasts
 
-#### Create Service Account:
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create/select project
-3. Enable APIs:
-   - **Cloud Text-to-Speech API** (for multi-voice audio)
-   - **Google Drive API** (for uploads)
-4. Create Service Account:
-   - IAM & Admin → Service Accounts → Create
-   - Name: `daily-ai-briefing`
-   - Roles: Service Account User
-5. Create JSON key → Save as `service-account.json` in project root
+1. Open Apple Podcasts
+2. File → Import from URL
+3. Paste your feed.xml URL
 
-#### Share Google Drive Folder:
-1. Create a folder in Google Drive
-2. Share it with your service account email (from JSON file)
-3. Give "Editor" permission
-4. Copy folder ID from URL: `https://drive.google.com/drive/folders/<FOLDER_ID>`
+### Overcast
 
-### 4. Test Locally
+1. Open Overcast
+2. + (Add podcast)
+3. Add URL
+4. Paste your feed.xml URL
 
-```bash
-npm start
-```
+## Automated Schedule
 
-**What happens:**
-1. Fetches Databricks release notes, blog posts, Hacker News AI stories, arXiv papers
-2. Claude generates a two-host conversational script
-3. Google TTS creates audio with Alex (male) and Jordan (female) voices
-4. Combines segments into single MP3
-5. Uploads MP3 + transcript to Google Drive
+The workflow runs automatically at:
+- **11:00 AM UTC** (5:00 AM CST)
+- **Monday through Friday**
 
-**Expected output:**
-```
-====================================================================
-Starting Daily AI Audio Briefing Pipeline
-====================================================================
+You can also trigger it manually anytime from the Actions tab.
 
-STEP 1: Fetching content from sources...
-  Found 5 release notes
-  Found 5 blog posts
-  Found 5 AI stories
-  Found 3 papers
-  Total items collected: 18
+## Troubleshooting
 
-STEP 2: Synthesizing audio script...
-  Synthesizing two-host script with Claude...
-  Generated script: 687 words, 32 lines
+### "Failed to publish to GitHub Pages"
 
-STEP 3: Converting to audio...
-  Found 32 segments from 2 speakers
-  Generating segment 32/32 (jordan)...
-  Combining audio segments...
-  ✅ Audio saved to /tmp/AI-Briefing-2026-02-17.mp3 (1234.56 KB)
-
-STEP 4: Uploading to Google Drive...
-  ✅ Uploaded: https://drive.google.com/file/d/.../view
-  File ID: abc123xyz
-
-====================================================================
-✅ PIPELINE COMPLETE!
-====================================================================
-  Duration: 45.23s
-  Items processed: 18
-  Script words: 687
-  Audio file: AI-Briefing-2026-02-17.mp3
-  Drive link: https://drive.google.com/file/d/.../view
-
-  Transcript uploaded: AI-Briefing-2026-02-17-script.txt
-
-Briefing delivered successfully! 🎉
-```
-
-## 🤖 GitHub Actions Setup
-
-### Add Repository Secrets
-
-Settings → Secrets and variables → Actions → New repository secret
-
-**Required secrets:**
-1. `ANTHROPIC_API_KEY` - Your Claude API key
-2. `GOOGLE_SERVICE_ACCOUNT_JSON` - Entire contents of `service-account.json`
-3. `GOOGLE_DRIVE_FOLDER_ID` - Your Drive folder ID
-
-### Test Manual Run
-
-1. Go to "Actions" tab in GitHub
-2. Select "Daily AI Briefing" workflow
-3. Click "Run workflow" → "Run workflow"
-4. Wait 1-2 minutes for completion
-5. Check your Google Drive folder for files
-
-### Schedule
-
-The workflow runs automatically:
-- **Time**: 8:00 AM UTC (3:00 AM EST / 12:00 AM PST)
-- **Days**: Monday through Friday
-- **Special**: Friday runs "Week in Review" format
-
-To change schedule, edit `.github/workflows/daily-briefing.yml`:
-```yaml
-schedule:
-  - cron: '0 13 * * 1-5'  # Example: 1:00 PM UTC = 8:00 AM EST
-```
-
-## 🎭 Two-Host Feature
-
-### How It Works
-
-1. **Claude generates script** with speaker labels:
-   ```
-   Alex: Welcome to The Data & AI Daily for Monday, February 17th.
-   Jordan: Thanks Alex! What's on the agenda today?
-   Alex: Let's start with some exciting news from Databricks...
-   ```
-
-2. **TTS processes each segment** with appropriate voice:
-   - **Alex** = `en-US-Journey-D` (male)
-   - **Jordan** = `en-US-Journey-F` (female)
-
-3. **FFmpeg combines segments** into single MP3
-
-### Customizing Voices
-
-Edit `src/tts.js`:
-```javascript
-const VOICES = {
-  alex: {
-    languageCode: 'en-US',
-    name: 'en-US-Journey-D',  // Change to any Google TTS voice
-  },
-  jordan: {
-    languageCode: 'en-US',
-    name: 'en-US-Journey-F',
-  }
-};
-```
-
-**Available Journey voices:**
-- `en-US-Journey-D` - Male
-- `en-US-Journey-F` - Female
-- `en-US-Journey-O` - Female
-
-## 📅 Friday Special Edition
-
-On Fridays, Claude automatically generates a "Week in Review" format:
-
-- **Opens** with "It's Friday, time for our week in review!"
-- **Summarizes** top 3 Databricks stories from the week
-- **Highlights** top 3 AI industry moments
-- **Identifies** common themes and trends
-- **Closes** with weekend wishes and next week teaser
-
-No configuration needed - automatically detects Friday!
-
-## 💰 Cost Estimate
-
-| Service | Daily Cost |
-|---------|-----------|
-| Claude API (Sonnet 4.5) | ~$0.01 |
-| Google TTS (Journey voices) | ~$0.02 |
-| GitHub Actions | Free |
-| Google Drive API | Free |
-| **Total** | **~$0.03/day** |
-
-**Annual**: ~$11/year (weekdays only)
-
-## 🔧 Troubleshooting
+- Verify `gh-pages` branch exists
+- Check that GitHub Pages is enabled in Settings
+- Ensure workflow has `contents: write` permission
 
 ### "Authentication failed"
-- Verify `ANTHROPIC_API_KEY` is correct
-- Check `service-account.json` is valid
-- Ensure Drive folder is shared with service account
 
-### "Voice not found"
-- Journey voices may require TTS API v1 or v1beta1
-- Fallback: Use `en-US-Neural2-A` or `en-US-Neural2-F`
+- Verify `GITHUB_TOKEN` is working (it's automatic, but check Actions logs)
+- Check that secrets are properly configured
 
-### FFmpeg errors
-- ffmpeg is auto-installed via `@ffmpeg-installer/ffmpeg`
-- If issues persist, install system ffmpeg: `brew install ffmpeg`
+### "Feed not updating"
 
-### No content fetched
-- Databricks site structure may have changed
-- Check `src/fetcher.js` CSS selectors
-- Test individual fetchers
+- Check the Actions tab for workflow run results
+- Verify the `feed.xml` file exists in the `gh-pages` branch
+- GitHub Pages can take a few minutes to deploy changes
 
-### GitHub Actions fails
-- Check Actions logs for specific errors
-- Verify all secrets are set
-- Test locally first
+### "Audio not generating"
 
-## 📝 Files Generated
+- Check `GOOGLE_SERVICE_ACCOUNT_JSON` is valid
+- Ensure service account has Text-to-Speech API enabled
+- Verify `GOOGLE_APPLICATION_CREDENTIALS` path is correct
 
-**Daily output:**
-- `AI-Briefing-YYYY-MM-DD.mp3` - Multi-voice audio podcast
-- `AI-Briefing-YYYY-MM-DD-script.txt` - Full transcript with speaker labels
+## File Structure (gh-pages branch)
 
-Both uploaded to Google Drive automatically.
+```
+gh-pages/
+├── feed.xml                    # RSS 2.0 podcast feed
+├── episodes/
+│   ├── AI-Briefing-2024-01-15.mp3
+│   ├── AI-Briefing-2024-01-16.mp3
+│   └── ...
+└── README.md
+```
 
-## 🎉 You're All Set!
+## RSS Feed Format
 
-The project is now:
-- ✅ Rebuilt from scratch
-- ✅ Two-host format implemented
-- ✅ Friday special edition added
-- ✅ Transcripts saved
-- ✅ Ready to run locally or on GitHub Actions
+The feed follows RSS 2.0 with iTunes podcast extensions, compatible with all major podcast apps:
 
-**Next steps:**
-1. Test locally: `npm start`
-2. Verify audio quality
-3. Set up GitHub Actions secrets
-4. Trigger manual workflow run
-5. Let it run automatically Monday-Friday!
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Data & AI Daily</title>
+    <link>https://tylernwatson.github.io/daily-podcast</link>
+    <description>Daily briefing on Databricks releases and AI developments.</description>
+    <language>en-us</language>
+    <itunes:author>Tyler Watson</itunes:author>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>The Data & AI Daily — 2024-01-15</title>
+      <description>...</description>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+      <enclosure url="..." length="..." type="audio/mpeg"/>
+      <guid isPermaLink="true">...</guid>
+      <itunes:duration>...</itunes:duration>
+    </item>
+  </channel>
+</rss>
+```
+
+## Next Steps
+
+After setup is complete:
+- Monitor the Actions tab for the first run
+- Subscribe to your feed in a podcast app
+- Enjoy your daily AI briefing!
