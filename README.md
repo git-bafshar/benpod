@@ -200,4 +200,4 @@ MIT License - Feel free to use and modify for your own podcast automation!
 
 ## 👤 Author
 
-Tyler Watson - [howdy@tyler.rodeo](mailto:howdy@tyler.rodeo)
+Tyler - [howdy@tyler.rodeo](mailto:howdy@tyler.rodeo)
