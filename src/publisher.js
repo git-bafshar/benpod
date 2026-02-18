@@ -18,15 +18,15 @@ function escapeXml(str) {
  * Build or update RSS 2.0 feed
  *
  * @param {string} existingFeedXml - Current feed.xml contents (empty string if first run)
- * @param {object} episode - { title, pubDate, fileName, fileSizeBytes, durationSeconds, description }
+ * @param {object} episode - { title, date, fileName, fileSizeBytes, durationSeconds, description }
  * @param {string} baseUrl - e.g. "https://username.github.io/repo-name"
  * @param {object} podcastInfo - { title, author, description }
  * @returns {string} Updated feed XML
  */
 function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo) {
   const episodeUrl = `${baseUrl}/episodes/${episode.fileName}`;
-  // Use the pubDate passed in from index.js (actual Central Time timestamp)
-  const pubDate = episode.pubDate;
+  // Convert Central Time date to midnight UTC for pubDate
+  const pubDate = new Date(episode.date).toUTCString();
 
   const newItem = `
     <item>

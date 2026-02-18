@@ -119,7 +119,7 @@ async function run() {
       existingFeed,
       {
         title: `The Data & AI Daily — ${dateStr}`,
-        pubDate: centralTime.toUTCString(), // Use actual Central Time timestamp
+        date: dateStr, // Use Central Time date
         fileName: episodeFileName,
         fileSizeBytes,
         durationSeconds,
