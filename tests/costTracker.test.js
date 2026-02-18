@@ -138,10 +138,11 @@ describe('CostTracker.trackTTS()', () => {
 // ─────────────────────────────────────────────
 
 describe('CostTracker.trackTwitter()', () => {
-  test('returns correct flat monthly rate', () => {
+  test('returns per-call rate and total cost', () => {
     const tracker = new CostTracker();
     const result = tracker.trackTwitter(5);
-    expect(result.flatRatePerMonth).toBe(100.00);
+    expect(result.costPerCall).toBe(RATES.twitter.perCall);
+    expect(result.totalCost).toBeCloseTo(5 * RATES.twitter.perCall);
   });
 
   test('records the number of calls', () => {
@@ -150,11 +151,12 @@ describe('CostTracker.trackTwitter()', () => {
     expect(result.calls).toBe(7);
   });
 
-  test('does NOT add to costs.total (flat rate is tracked separately)', () => {
+  test('adds to costs.twitter and costs.total', () => {
     const tracker = new CostTracker();
     tracker.trackTwitter(10);
-    expect(tracker.costs.total).toBe(0);
-    expect(tracker.costs.twitter).toBe(0);
+    const expected = 10 * RATES.twitter.perCall;
+    expect(tracker.costs.twitter).toBeCloseTo(expected);
+    expect(tracker.costs.total).toBeCloseTo(expected);
   });
 
   test('accumulates twitterCalls', () => {
@@ -177,11 +179,11 @@ describe('CostTracker — combined cost accumulation', () => {
     expect(tracker.costs.total).toBeCloseTo(claudeCost + ttsCost);
   });
 
-  test('Twitter does not inflate costs.total', () => {
+  test('costs.total includes Twitter pay-per-use cost', () => {
     const tracker = new CostTracker();
     const { totalCost: claudeCost } = tracker.trackClaude(10_000, 2_000);
-    tracker.trackTwitter(5);
-    expect(tracker.costs.total).toBeCloseTo(claudeCost);
+    const { totalCost: twitterCost } = tracker.trackTwitter(5);
+    expect(tracker.costs.total).toBeCloseTo(claudeCost + twitterCost);
   });
 });
 
