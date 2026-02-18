@@ -48,12 +48,13 @@ function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo) {
     <link>${baseUrl}</link>
     <description>${escapeXml(podcastInfo.description)}</description>
     <language>en-us</language>
+    <itunes:image href="${baseUrl}/artwork.jpg"/>
     <itunes:author>${escapeXml(podcastInfo.author)}</itunes:author>
+    <itunes:email>howdy@tyler.rodeo</itunes:email>
     <itunes:owner>
       <itunes:name>${escapeXml(podcastInfo.author)}</itunes:name>
       <itunes:email>howdy@tyler.rodeo</itunes:email>
     </itunes:owner>
-    <itunes:image href="${baseUrl}/artwork.jpg"/>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     ${newItem}
