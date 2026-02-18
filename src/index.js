@@ -56,6 +56,10 @@ async function run() {
   console.log('='.repeat(60));
   console.log();
 
+  const required = ['GITHUB_PAGES_BASE_URL', 'GITHUB_REPOSITORY', 'GITHUB_TOKEN'];
+  const missing = required.filter(k => !process.env[k]);
+  if (missing.length) throw new Error(`Missing required env vars: ${missing.join(', ')}`);
+
   const startTime = Date.now();
   const costTracker = new CostTracker();
 

@@ -171,7 +171,8 @@ function generateReport(logFile = '/tmp/podcast-costs.jsonl', days = 30) {
     .trim()
     .split('\n')
     .filter(line => line.length > 0)
-    .map(line => JSON.parse(line));
+    .map(line => { try { return JSON.parse(line); } catch { return null; } })
+    .filter(Boolean);
 
   const cutoffDate = new Date();
   cutoffDate.setDate(cutoffDate.getDate() - days);
