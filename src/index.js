@@ -68,19 +68,25 @@ async function run() {
     console.log('STEP 1: Fetching content from sources...');
     console.log();
 
-    const [databricksContent, aiNews] = await Promise.all([
+    const [databricksData, aiNews] = await Promise.all([
       fetchDatabricksContent(),
       fetchAINews(),
     ]);
 
     const contentBundle = {
-      databricks: databricksContent,
+      databricks: databricksData.items,
       aiNews: aiNews,
     };
 
-    const totalItems = databricksContent.length + aiNews.length;
+    const totalItems = databricksData.items.length + aiNews.length;
     console.log();
     console.log(`  Total items collected: ${totalItems}`);
+
+    // Track Twitter API costs if any calls were made
+    if (databricksData.twitterApiCalls > 0) {
+      const twitterCost = costTracker.trackTwitter(databricksData.twitterApiCalls);
+      console.log(`  💰 Twitter API cost: $${twitterCost.totalCost.toFixed(4)} (${databricksData.twitterApiCalls} calls)`);
+    }
     console.log();
 
     // 2. Synthesize script with Claude

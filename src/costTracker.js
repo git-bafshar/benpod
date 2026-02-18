@@ -21,9 +21,13 @@ const RATES = {
     wavenet: 16.00 / 1_000_000,  // $16 per million characters (Journey voices)
   },
 
-  // Twitter API (if enabled)
+  // Twitter/X API (pay-per-use model, 2026)
   twitter: {
-    basic: 100.00,  // $100/month flat rate
+    perCall: 0.00015,      // $0.00015 per API call (15 credits)
+    listCall: 0.0015,      // $0.0015 per list function call (150 credits)
+    // Legacy flat-rate tiers (still available)
+    basic: 200.00,         // $200/month
+    pro: 5000.00,          // $5,000/month
   },
 
   // GitHub (free)
@@ -90,15 +94,20 @@ class CostTracker {
   }
 
   /**
-   * Track Twitter API usage (if enabled)
+   * Track Twitter/X API usage (pay-per-use model)
    */
   trackTwitter(calls) {
     this.usage.twitterCalls += calls;
-    // Twitter is flat $100/month regardless of usage
-    // We'll note it's being used but cost is tracked separately
+
+    // Calculate pay-per-use costs (standard API calls)
+    const cost = calls * RATES.twitter.perCall;
+    this.costs.twitter += cost;
+    this.costs.total += cost;
+
     return {
       calls,
-      flatRatePerMonth: RATES.twitter.basic,
+      costPerCall: RATES.twitter.perCall,
+      totalCost: cost,
     };
   }
 
@@ -146,9 +155,9 @@ class CostTracker {
     console.log();
 
     if (this.usage.twitterCalls > 0) {
-      console.log(`  Twitter API:`);
+      console.log(`  Twitter/X API:`);
       console.log(`    - API calls: ${this.usage.twitterCalls}`);
-      console.log(`    - Cost: $${RATES.twitter.basic}/month (flat rate)`);
+      console.log(`    - Cost: $${this.costs.twitter.toFixed(4)} (pay-per-use)`);
       console.log();
     }
 
@@ -207,7 +216,7 @@ function generateReport(logFile = '/tmp/podcast-costs.jsonl', days = 30) {
   console.log(`  Claude API: $${totals.claude.toFixed(4)}`);
   console.log(`  Google TTS: $${totals.tts.toFixed(4)}`);
   if (totals.twitter > 0) {
-    console.log(`  Twitter API: Flat $${RATES.twitter.basic}/month`);
+    console.log(`  Twitter API: $${totals.twitter.toFixed(4)} (pay-per-use)`);
   }
   console.log();
   console.log(`  Total: $${totals.total.toFixed(4)}`);

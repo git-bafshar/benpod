@@ -14,7 +14,9 @@ The podcast pipeline includes comprehensive cost tracking for all API usage.
   - Typical cost: ~$0.04 per episode
 
 - **Twitter API** (if enabled)
-  - Flat $100/month regardless of usage
+  - Pay-per-use: $0.00015 per API call
+  - ~6 API calls per run (3 execs × 2 calls each: user lookup + tweets fetch)
+  - Typical cost: ~$0.0009 per episode
   - Currently disabled (no token set)
 
 - **GitHub Actions & Pages**
@@ -92,6 +94,7 @@ npm run cost-report -- 90  # Last 90 days
 | Claude Sonnet 4.6 (input) | $3 per 1M tokens | ~8,000 tokens | $0.024 |
 | Claude Sonnet 4.6 (output) | $15 per 1M tokens | ~1,500 tokens | $0.023 |
 | Google TTS (Journey-D) | $16 per 1M chars | ~9,000 chars | $0.144 |
+| Twitter API (if enabled) | $0.00015 per call | ~6 calls | $0.0009 |
 | **Total per episode** | | | **~$0.19** |
 
 **Note:** The actual cost per episode varies based on:
@@ -102,13 +105,13 @@ npm run cost-report -- 90  # Last 90 days
 ### Monthly Projections
 
 **Weekday-only schedule (22 days/month):**
-- Variable costs: ~$1.78/month
-- Twitter API (if enabled): $100/month
-- **Total: $1.78-101.78/month**
+- Variable costs: ~$4.18/month (Claude + TTS)
+- Twitter API (if enabled): ~$0.02/month (6 calls/day × 22 days)
+- **Total: ~$4.18-4.20/month**
 
 **Annual:**
-- Without Twitter: ~$21/year
-- With Twitter: ~$1,221/year
+- Without Twitter: ~$50/year
+- With Twitter: ~$50.24/year
 
 ## Monitoring Actual Costs
 
@@ -130,8 +133,9 @@ The cost tracker uses estimated rates. For actual costs:
 ### Twitter API
 
 1. Go to [developer.twitter.com](https://developer.twitter.com)
-2. View subscription details
-3. Flat $100/month (no usage-based tracking needed)
+2. Navigate to Dashboard → Usage
+3. View pay-per-use costs by day/month
+4. ~$0.00015 per API call (varies by endpoint)
 
 ## Cost Optimization Tips
 

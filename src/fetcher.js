@@ -131,7 +131,7 @@ async function fetchDatabricksExecTweets() {
 
   if (!token) {
     console.log('  Skipping Twitter (no TWITTER_BEARER_TOKEN set)');
-    return [];
+    return { items: [], apiCalls: 0 };
   }
 
   console.log('Fetching Databricks exec tweets...');
@@ -140,6 +140,7 @@ async function fetchDatabricksExecTweets() {
     // Databricks co-founders and executive team Twitter handles
     const users = ['alighodsi', 'rxin', 'matei_zaharia'];
     const items = [];
+    let apiCalls = 0;
 
     for (const username of users) {
       try {
@@ -148,6 +149,8 @@ async function fetchDatabricksExecTweets() {
           `https://api.twitter.com/2/users/by/username/${username}`,
           { headers: { Authorization: `Bearer ${token}` }, timeout: 10000 }
         );
+        apiCalls++; // Count user lookup API call
+
         const userId = userRes.data.data.id;
 
         // Get recent tweets
@@ -155,6 +158,7 @@ async function fetchDatabricksExecTweets() {
           `https://api.twitter.com/2/users/${userId}/tweets?max_results=10&tweet.fields=created_at`,
           { headers: { Authorization: `Bearer ${token}` }, timeout: 10000 }
         );
+        apiCalls++; // Count tweets fetch API call
 
         const tweets = tweetsRes.data.data || [];
 
@@ -171,11 +175,11 @@ async function fetchDatabricksExecTweets() {
       }
     }
 
-    console.log(`  Found ${items.length} exec tweets`);
-    return items;
+    console.log(`  Found ${items.length} exec tweets (${apiCalls} API calls)`);
+    return { items, apiCalls };
   } catch (error) {
     console.error('Error fetching exec tweets:', error.message);
-    return [];
+    return { items: [], apiCalls: 0 };
   }
 }
 
@@ -437,7 +441,10 @@ async function fetchDatabricksContent() {
     fetchDatabricksExecTweets()
   ]);
 
-  return [...releaseNotes, ...blog, ...newsroom, ...execTweets];
+  return {
+    items: [...releaseNotes, ...blog, ...newsroom, ...execTweets.items],
+    twitterApiCalls: execTweets.apiCalls
+  };
 }
 
 /**
