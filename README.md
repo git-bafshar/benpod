@@ -351,7 +351,7 @@ MIT License - Feel free to use and modify for your own podcast automation!
 
 ## 👤 Author
 
-Tyler Watson - Senior Solutions Architect @ Databricks
+Tyler
 - Email: [howdy@tyler.rodeo](mailto:howdy@tyler.rodeo)
 - Podcast: [The Data & AI Daily](https://tylernwatson.github.io/daily-podcast/feed.xml)
 
