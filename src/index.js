@@ -20,7 +20,7 @@ const { buildUpdatedFeed } = require('./publisher');
 const { publishEpisode } = require('./githubCommitter');
 const { CostTracker } = require('./costTracker');
 
-const BASE_URL = process.env.GITHUB_PAGES_BASE_URL;
+const BASE_URL = process.env.PAGES_BASE_URL;
 const REPO = process.env.GITHUB_REPOSITORY;
 const GH_TOKEN = process.env.GITHUB_TOKEN;
 const PODCAST_TITLE = process.env.PODCAST_TITLE || 'The Data & AI Daily';

@@ -37,7 +37,7 @@ jobs:
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_PAGES_BASE_URL: ${{ vars.GITHUB_PAGES_BASE_URL }}
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
           PODCAST_TITLE: ${{ vars.PODCAST_TITLE }}
           PODCAST_AUTHOR: ${{ secrets.PODCAST_AUTHOR }}
         run: node src/index.js
