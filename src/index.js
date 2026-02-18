@@ -85,8 +85,12 @@ async function run() {
     const wordCount = script.split(/\s+/).length;
     console.log();
 
+    // Get current time in Central Time (America/Chicago)
+    const now = new Date();
+    const centralTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Chicago' }));
+    const dateStr = centralTime.toISOString().slice(0, 10); // YYYY-MM-DD in Central Time
+
     // Save script to file for reference
-    const dateStr = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
     const scriptFileName = `AI-Briefing-${dateStr}-script.txt`;
     const scriptPath = path.join('/tmp', scriptFileName);
     fs.writeFileSync(scriptPath, script, 'utf8');
@@ -115,7 +119,7 @@ async function run() {
       existingFeed,
       {
         title: `The Data & AI Daily — ${dateStr}`,
-        date: dateStr,
+        pubDate: centralTime.toUTCString(), // Use actual Central Time timestamp
         fileName: episodeFileName,
         fileSizeBytes,
         durationSeconds,
