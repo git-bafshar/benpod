@@ -137,7 +137,9 @@ async function convertToAudio(script, outputPath) {
     // Cleanup temp directory
     try {
       fs.rmdirSync(tmpDir);
-    } catch (e) {}
+    } catch (e) {
+      console.warn('Warning: could not remove temp directory:', e.message);
+    }
 
     const sizeKB = (fs.statSync(outputPath).size / 1024).toFixed(2);
     console.log(`  ✅ Audio saved to ${outputPath} (${sizeKB} KB)`);

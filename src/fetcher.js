@@ -151,6 +151,10 @@ async function fetchDatabricksExecTweets() {
         );
         apiCalls++; // Count user lookup API call
 
+        if (!userRes.data?.data?.id) {
+          console.warn(`  Warning: invalid Twitter response for @${username}, skipping`);
+          continue;
+        }
         const userId = userRes.data.data.id;
 
         // Get recent tweets

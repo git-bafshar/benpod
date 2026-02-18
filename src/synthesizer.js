@@ -134,6 +134,9 @@ Return ONLY the spoken script. No labels, no headers, no stage directions, no ma
       messages: [{ role: 'user', content: prompt }],
     });
 
+    if (!message.content || message.content.length === 0) {
+      throw new Error('Empty response from Claude API');
+    }
     const script = message.content[0].text;
     const wordCount = script.split(/\s+/).length;
 

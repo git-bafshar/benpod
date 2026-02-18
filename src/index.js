@@ -126,6 +126,9 @@ async function run() {
     console.log(`  💰 TTS cost: $${ttsCost.cost.toFixed(4)} (${ttsCharacters} characters)`);
     console.log();
 
+    if (!fs.existsSync(finalAudioPath)) {
+      throw new Error(`Audio file not created by TTS conversion: ${finalAudioPath}`);
+    }
     const fileSizeBytes = fs.statSync(finalAudioPath).size;
     // Estimate duration: MP3 at 128 kbps = (fileSize * 8 bits) / (128,000 bits/sec)
     const durationSeconds = Math.round((fileSizeBytes * 8) / (128 * 1000));
