@@ -18,6 +18,7 @@ const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
 const { publishEpisode } = require('./githubCommitter');
+const { CostTracker } = require('./costTracker');
 
 const BASE_URL = process.env.GITHUB_PAGES_BASE_URL;
 const REPO = process.env.GITHUB_REPOSITORY;
@@ -56,6 +57,7 @@ async function run() {
   console.log();
 
   const startTime = Date.now();
+  const costTracker = new CostTracker();
 
   try {
     // 1. Fetch content from all sources
@@ -81,8 +83,12 @@ async function run() {
     console.log('STEP 2: Synthesizing audio script...');
     console.log();
 
-    const script = await synthesizeScript(contentBundle);
+    const { script, usage: claudeUsage } = await synthesizeScript(contentBundle);
     const wordCount = script.split(/\s+/).length;
+
+    // Track Claude costs
+    const claudeCost = costTracker.trackClaude(claudeUsage.inputTokens, claudeUsage.outputTokens);
+    console.log(`  💰 Claude cost: $${claudeCost.totalCost.toFixed(4)} (${claudeUsage.inputTokens} in + ${claudeUsage.outputTokens} out tokens)`);
     console.log();
 
     // Get current time in Central Time (America/Chicago)
@@ -103,10 +109,14 @@ async function run() {
 
     const episodeFileName = `AI-Briefing-${dateStr}.mp3`;
     const audioPath = path.join('/tmp', episodeFileName);
-    await convertToAudio(script, audioPath);
+    const { outputPath: finalAudioPath, characters: ttsCharacters } = await convertToAudio(script, audioPath);
+
+    // Track TTS costs (Journey-D is a WaveNet/Neural voice)
+    const ttsCost = costTracker.trackTTS(ttsCharacters, 'wavenet');
+    console.log(`  💰 TTS cost: $${ttsCost.cost.toFixed(4)} (${ttsCharacters} characters)`);
     console.log();
 
-    const fileSizeBytes = fs.statSync(audioPath).size;
+    const fileSizeBytes = fs.statSync(finalAudioPath).size;
     // Estimate duration: MP3 at 128 kbps = (fileSize * 8 bits) / (128,000 bits/sec)
     const durationSeconds = Math.round((fileSizeBytes * 8) / (128 * 1000));
 
@@ -140,7 +150,7 @@ async function run() {
     console.log('STEP 5: Publishing to GitHub Pages...');
     console.log();
 
-    await publishEpisode(audioPath, updatedFeed, episodeFileName);
+    await publishEpisode(finalAudioPath, updatedFeed, episodeFileName);
 
     // Summary
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
@@ -156,7 +166,10 @@ async function run() {
     console.log();
     console.log('🎉 Episode published! Subscribe in your podcast app:');
     console.log(`   ${BASE_URL}/feed.xml`);
-    console.log();
+
+    // Print cost summary and log to file
+    costTracker.printSummary();
+    costTracker.logToFile('/tmp/podcast-costs.jsonl');
 
   } catch (error) {
     console.error();

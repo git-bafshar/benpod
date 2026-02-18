@@ -99,7 +99,12 @@ async function convertToAudio(script, outputPath) {
 
       const sizeKB = (audioContent.length / 1024).toFixed(2);
       console.log(`  ✅ Audio saved to ${outputPath} (${sizeKB} KB)`);
-      return outputPath;
+
+      // Return path and character count for cost tracking
+      return {
+        outputPath,
+        characters: scriptBytes,
+      };
     }
 
     // For longer scripts, split into chunks
@@ -137,7 +142,11 @@ async function convertToAudio(script, outputPath) {
     const sizeKB = (fs.statSync(outputPath).size / 1024).toFixed(2);
     console.log(`  ✅ Audio saved to ${outputPath} (${sizeKB} KB)`);
 
-    return outputPath;
+    // Return path and character count for cost tracking
+    return {
+      outputPath,
+      characters: scriptBytes, // Total characters processed
+    };
 
   } catch (error) {
     console.error('Error converting to audio:', error.message);

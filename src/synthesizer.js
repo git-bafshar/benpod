@@ -138,7 +138,15 @@ Return ONLY the spoken script. No labels, no headers, no stage directions, no ma
     const wordCount = script.split(/\s+/).length;
 
     console.log(`  Generated script: ${wordCount} words`);
-    return script;
+
+    // Return script and usage data for cost tracking
+    return {
+      script,
+      usage: {
+        inputTokens: message.usage.input_tokens,
+        outputTokens: message.usage.output_tokens,
+      },
+    };
 
   } catch (error) {
     console.error('Error synthesizing script:', error.message);
