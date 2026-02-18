@@ -93,14 +93,20 @@ async function fetchDatabricksNewsroom() {
     const $ = cheerio.load(data);
     const items = [];
 
-    // Inspect the page to find the right selectors - this is a best guess
-    $('.news-item, article, .newsroom-item').slice(0, 5).each((_, el) => {
-      const title = $(el).find('h2, h3, .title').first().text().trim();
-      const summary = $(el).find('p, .summary, .description').first().text().trim().slice(0, 300);
-      const date = $(el).find('time, .date, .publish-date').text().trim();
+    // Correct selectors based on actual page structure
+    $('div[data-cy="CtaImageBlock"]').slice(0, 5).each((_, el) => {
+      const title = $(el).find('h3.h3 a').text().trim();
+      const date = $(el).find('p.h4').text().trim();
+      const url = $(el).find('h3.h3 a').attr('href');
 
       if (title) {
-        items.push({ title, summary, date, source: 'Databricks Newsroom' });
+        items.push({
+          title,
+          summary: title, // No separate summary on listing page
+          date,
+          source: 'Databricks Newsroom',
+          url
+        });
       }
     });
 
@@ -252,12 +258,39 @@ async function fetchOpenAIBlog() {
  */
 async function fetchAnthropicNews() {
   console.log('Fetching Anthropic news...');
-  return scrapeBlog(
-    'https://www.anthropic.com/news',
-    'Anthropic News',
-    { container: 'article, .news-item', title: 'h2, h3, .title', summary: 'p', date: 'time, .date' },
-    5
-  );
+
+  try {
+    const { data } = await axios.get('https://www.anthropic.com/news', {
+      headers: { 'User-Agent': USER_AGENT }
+    });
+
+    const $ = cheerio.load(data);
+    const items = [];
+
+    // Correct selectors based on actual page structure
+    $('a.PublicationList-module-scss-module__KxYrHG__listItem').slice(0, 5).each((_, el) => {
+      const title = $(el).find('span.PublicationList-module-scss-module__KxYrHG__title').text().trim();
+      const category = $(el).find('span.PublicationList-module-scss-module__KxYrHG__subject').text().trim();
+      const date = $(el).find('time.PublicationList-module-scss-module__KxYrHG__date').text().trim();
+      const url = $(el).attr('href');
+
+      if (title) {
+        items.push({
+          title,
+          summary: category ? `${category}: ${title}` : title,
+          date,
+          source: 'Anthropic News',
+          url: url.startsWith('http') ? url : `https://www.anthropic.com${url}`
+        });
+      }
+    });
+
+    console.log(`  Found ${items.length} news items`);
+    return items;
+  } catch (error) {
+    console.error('Error fetching Anthropic news:', error.message);
+    return [];
+  }
 }
 
 /**
