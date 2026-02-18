@@ -119,7 +119,8 @@ async function fetchDatabricksNewsroom() {
 }
 
 /**
- * Fetch tweets from Databricks execs (Ali Ghodsi & Reynold Xin)
+ * Fetch tweets from Databricks exec team
+ * Includes: Ali Ghodsi (CEO), Reynold Xin (Chief Architect), Matei Zaharia (CTO)
  * Requires TWITTER_BEARER_TOKEN environment variable
  */
 async function fetchDatabricksExecTweets() {
@@ -133,9 +134,8 @@ async function fetchDatabricksExecTweets() {
   console.log('Fetching Databricks exec tweets...');
 
   try {
-    // User IDs for @ghodsi and @rxin (lookup these via Twitter API first)
-    // For now, using usernames - in production, look up numeric IDs once
-    const users = ['ghodsi', 'rxin'];
+    // Databricks co-founders and executive team Twitter handles
+    const users = ['alighodsi', 'rxin', 'matei_zaharia'];
     const items = [];
 
     for (const username of users) {
