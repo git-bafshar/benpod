@@ -60,6 +60,25 @@ async function synthesizeChunk(client, text, voiceConfig) {
 }
 
 /**
+ * Synthesize a single chunk with retries
+ */
+async function synthesizeChunkWithRetry(client, text, voiceConfig, maxRetries = 2) {
+  for (let attempt = 1; attempt <= maxRetries + 1; attempt++) {
+    try {
+      return await synthesizeChunk(client, text, voiceConfig);
+    } catch (error) {
+      if (attempt <= maxRetries) {
+        const delaySec = attempt * 3;
+        process.stdout.write(`\n  Chunk attempt ${attempt} failed (${error.message}). Retrying in ${delaySec}s...\n`);
+        await new Promise(resolve => setTimeout(resolve, delaySec * 1000));
+      } else {
+        throw error;
+      }
+    }
+  }
+}
+
+/**
  * Combine multiple MP3 files using simple concatenation
  */
 function combineMP3Files(files, outputPath) {
@@ -94,7 +113,7 @@ async function convertToAudio(script, outputPath) {
 
     // If script is under 5000 bytes, use single request
     if (scriptBytes < 5000) {
-      const audioContent = await synthesizeChunk(client, script, voiceConfig);
+      const audioContent = await synthesizeChunkWithRetry(client, script, voiceConfig);
       fs.writeFileSync(outputPath, audioContent, 'binary');
 
       const sizeKB = (audioContent.length / 1024).toFixed(2);
@@ -122,7 +141,7 @@ async function convertToAudio(script, outputPath) {
     for (let i = 0; i < chunks.length; i++) {
       process.stdout.write(`  Synthesizing chunk ${i + 1}/${chunks.length}...\r`);
 
-      const audioContent = await synthesizeChunk(client, chunks[i], voiceConfig);
+      const audioContent = await synthesizeChunkWithRetry(client, chunks[i], voiceConfig);
       const chunkPath = path.join(tmpDir, `chunk-${i.toString().padStart(3, '0')}.mp3`);
       fs.writeFileSync(chunkPath, audioContent, 'binary');
       chunkFiles.push(chunkPath);
