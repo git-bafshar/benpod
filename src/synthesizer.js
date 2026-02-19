@@ -45,7 +45,8 @@ async function fetchAustinWeather() {
  */
 async function synthesizeScript(contentBundle) {
   const client = new Anthropic({
-    apiKey: process.env.ANTHROPIC_API_KEY
+    apiKey: process.env.ANTHROPIC_API_KEY,
+    timeout: 60 * 1000, // 60 seconds
   });
 
   const today = new Date().toLocaleDateString('en-US', {
