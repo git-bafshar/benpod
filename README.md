@@ -4,6 +4,8 @@ Automated daily audio briefing covering Databricks releases and top AI/ML news, 
 
 Wake up to a personalized 8-12 minute episode in your podcast app every weekday morning.
 
+![Pipeline Flow](docs/pipeline-flow.png)
+
 ## 🎯 Features
 
 - **Automated Daily Pipeline**: Runs Monday-Friday at 6:00 AM UTC via GitHub Actions

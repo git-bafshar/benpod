@@ -10,7 +10,9 @@ I’m a solutions architect at Databricks. Every day I need to catch up on Datab
 
 I wanted a **personalized 8-12 minute podcast, automatically generated and delivered to my phone every morning.**
 
-Since I’m pretty mediocre at coding but pretty good at asking for what I want, I went to Claude Code. Three hours later, it was live.
+Since I’m pretty mediocre at coding but pretty good at asking for what I want, I went to Claude Code. Three hours later, it was live on Spotify.
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/4p5vgnRnYD6koHrkZQqhJ0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ---
 
@@ -36,7 +38,9 @@ I wrote a spec file laying out what I wanted:
 - Publish to GitHub Pages as RSS feed  
 - Run daily via GitHub Actions
 
-Then I said: **"Implement this spec."**
+I took that spec, asked Claude Code to implement it, and focused on validating outputs.
+
+![Pipeline Flow](docs/pipeline-flow.png)
 
 Claude created the entire project structure (\~500 lines) in 10 minutes. I hadn't written a single line of code.
 
@@ -56,11 +60,11 @@ The pattern: every external service has constraints that aren't obvious until yo
 
 Generic CSS selectors like `article`, `.post`, and `h2` returned zero results on almost every site. Databricks uses `div[data-cy="CtaImageBlock"]`. Anthropic uses CSS module classes with generated hashes like `__KxYrHG__`. OpenAI just returns 403 outright.
 
-Modern web apps are built for browsers, not for you. The lesson isn't to get smarter about scraping — it's to build redundancy so that when individual sources fail (and they will), the pipeline continues. Eleven working sources is good enough. Perfect coverage isn't worth the fragility.
+Modern web apps are built for browsers, not for you. The lesson is to build redundancy so that when individual sources fail (and they will), the pipeline continues. Eleven working sources is good enough.
 
 #### Theme 3: Metadata Bites You at the Finish Line
 
-Three separate errors came from metadata problems that only surfaced during Spotify validation: missing cover art, a missing email address, and artwork hosted in the wrong GitHub branch. These weren't hard problems — they were invisible problems until the very end.
+Three separate errors came from metadata problems that only surfaced during Spotify validation: missing cover art, a missing email address, and artwork hosted in the wrong GitHub branch. These were invisible problems until the very end.
 
 The RSS spec is also a trap. Podcast RSS isn't just RSS 2.0 — it's RSS 2.0 plus iTunes extensions. Spotify and Apple Podcasts validate different things. You need `<itunes:email>` at the channel level *and* nested inside `<itunes:owner>` to satisfy both. The spec you read and the validator you face aren't always aligned.
 
@@ -231,6 +235,4 @@ What's yours?
 
 ---
 
-*Tyler lives in Austin, Texas, and builds tools that scratch his own itches. You can reach him at [howdy@tyler.rodeo](mailto:howdy@tyler.rodeo).*
-
-**Listen:** [https://tylernwatson.github.io/daily-podcast/feed.xml](https://tylernwatson.github.io/daily-podcast/feed.xml)  
+*Tyler lives in Austin, Texas, and divides his time between trail running, going to concerts, and doing things related to AI. You can reach him at [howdy@tyler.rodeo](mailto:howdy@tyler.rodeo).*
