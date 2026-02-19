@@ -64,25 +64,46 @@ async function synthesizeScript(contentBundle) {
     + `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
 
   const prompt = `
-You are the host of "The Data & AI Daily," a personal morning podcast for Tyler.
+You are writing the script for "The Data & AI Daily," a two-host personal morning podcast for Tyler.
 Today is ${today}. Tyler is based in Austin, Texas.
 
 Austin weather right now: ${weatherSummary}
+
+The show has two hosts:
+- HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
+- COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
 
 Below is the raw content gathered from Databricks sources (blog, newsroom, release notes, exec social posts)
 and core AI/ML news sources (major tech outlets, foundation model lab blogs, startup/funding news).
 
 YOUR TASK:
-Produce a complete, ready-to-record podcast script for an 8–12 minute episode.
+Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
+
+═══════════════════════════════════════════════
+FORMAT RULES (critical):
+═══════════════════════════════════════════════
+- Every speaker turn MUST start with a speaker tag on its own line: [HOST] or [COHOST]
+- The spoken text for that turn follows on the next line(s).
+- Alternate between speakers naturally. Not every exchange needs to be equal length.
+- Example:
+
+[HOST]
+Good morning, Tyler! Big day in the data world.
+
+[COHOST]
+No kidding. I saw the Databricks news drop last night and almost spilled my coffee.
+
+[HOST]
+Let's get right into it.
 
 ═══════════════════════════════════════════════
 STRUCTURE (follow this exactly):
 ═══════════════════════════════════════════════
 
 [COLD OPEN — 15–30 seconds]
-- Greet Tyler by name.
+- HOST greets Tyler by name.
 - One sentence on what today's episode covers (the "headline of headlines").
-- Weave in the Austin weather forecast naturally (not as a weather report — more like what a friend would say: "it's looking like a scorcher out there" or "grab a jacket this morning").
+- COHOST reacts and weaves in the Austin weather naturally (not as a weather report — more like what a friend would say: "it's looking like a scorcher out there" or "grab a jacket this morning").
 
 [THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
 Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
@@ -91,11 +112,12 @@ Good examples: "Databricks Product & Platform", "Lakehouse Ecosystem & Partners"
 "Open Source & Research". Discard low-signal or redundant items — not everything needs coverage.
 
 For each theme segment:
-- Open with a punchy 1-sentence framing of the theme.
-- Explain what happened, why it matters, and who it impacts (call out data engineers,
+- HOST introduces the theme with a punchy framing sentence, then delivers the core story.
+- COHOST jumps in with reactions, follow-up questions, counterpoints, or "why it matters" color.
+- Together they explain what happened, why it matters, and who it impacts (call out data engineers,
   ML practitioners, founders, or infra teams specifically when relevant).
 - Where relevant, connect Databricks-specific news to the broader AI landscape.
-- Add light, confident commentary — you have opinions. Examples of the right tone:
+- Add light, confident commentary — both hosts have opinions. Examples of the right tone:
   "This puts real pressure on Snowflake's AI roadmap."
   "Honestly, this is great news for early-stage teams with lean data stacks."
   "I think this is being undersold — here's why it matters."
@@ -104,26 +126,27 @@ For each theme segment:
 - Transitions between segments should feel natural, not formulaic.
 
 [WRAP-UP — 15–30 seconds]
-- Quick recap sentence of the 1–2 biggest themes from today.
-- Preview: what Tyler should keep an eye on over the coming days in Databricks and AI.
-- Sign off warmly and personally.
+- HOST gives a quick recap of the 1–2 biggest themes.
+- COHOST adds what Tyler should keep an eye on over the coming days.
+- Both sign off warmly and personally.
 
 ═══════════════════════════════════════════════
 STYLE RULES:
 ═══════════════════════════════════════════════
 - Write for the ear, not the eye. Short sentences. Active voice. No bullet points, no URLs, no markdown in the script.
-- Conversational and smart — like a well-informed colleague who's genuinely excited about this space.
+- Conversational and smart — like two well-informed colleagues riffing on the news.
+- The banter should feel natural, not forced. Don't overdo the back-and-forth — let each host make substantive points.
 - Do NOT pad with filler. If today is a slow news day, say so honestly and go deeper on fewer items.
 - Target word count: 1,200–1,800 words (8–12 minutes at a natural speaking pace).
-- Do NOT include stage directions, segment headers, or any bracketed labels in the output —
-  just the raw spoken script from start to finish.
+- The ONLY bracketed labels allowed are [HOST] and [COHOST] at the start of each speaker turn.
+  No other stage directions, segment headers, or bracketed labels.
 
 ═══════════════════════════════════════════════
 RAW CONTENT:
 ═══════════════════════════════════════════════
 ${JSON.stringify(contentBundle, null, 2)}
 
-Return ONLY the spoken script. No labels, no headers, no stage directions, no markdown.
+Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other labels, headers, stage directions, or markdown.
 `;
 
   console.log('Synthesizing script with Claude Sonnet 4.6...');

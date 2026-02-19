@@ -1,14 +1,40 @@
 /**
  * Text-to-Speech Converter
  *
- * Converts script text to MP3 audio using Google Cloud TTS
- * Handles long scripts by chunking (5000 byte limit per request)
+ * Converts two-speaker script to MP3 audio using Google Cloud TTS
+ * Parses [HOST]/[COHOST] tags, synthesizes each segment with the appropriate voice,
+ * and concatenates all MP3 chunks in order.
  */
 
 const textToSpeech = require('@google-cloud/text-to-speech');
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
+
+const VOICE_CONFIGS = {
+  HOST: { languageCode: 'en-US', name: 'en-US-Studio-O' },
+  COHOST: { languageCode: 'en-US', name: 'en-US-Studio-Q' },
+};
+
+/**
+ * Parse a two-speaker script into ordered segments by speaker.
+ * Expects [HOST] and [COHOST] tags at the start of each turn.
+ */
+function parseScriptBySpeaker(script) {
+  const segments = [];
+  const parts = script.split(/\[(HOST|COHOST)\]/);
+
+  // parts alternates: [preamble, tag, text, tag, text, ...]
+  for (let i = 1; i < parts.length; i += 2) {
+    const speaker = parts[i]; // 'HOST' or 'COHOST'
+    const text = (parts[i + 1] || '').trim();
+    if (text) {
+      segments.push({ speaker, text });
+    }
+  }
+
+  return segments;
+}
 
 /**
  * Split script into chunks under the byte limit
@@ -50,7 +76,6 @@ async function synthesizeChunk(client, text, voiceConfig) {
     voice: voiceConfig,
     audioConfig: {
       audioEncoding: 'MP3',
-      speakingRate: 1.1,
       pitch: 0,
       effectsProfileId: ['large-home-entertainment-class-device']
     },
@@ -93,7 +118,7 @@ function combineMP3Files(files, outputPath) {
 }
 
 /**
- * Convert script to audio using Google Cloud TTS
+ * Convert two-speaker script to audio using Google Cloud TTS
  */
 async function convertToAudio(script, outputPath) {
   console.log('Converting script to audio with Google Cloud TTS...');
@@ -103,33 +128,9 @@ async function convertToAudio(script, outputPath) {
       keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS
     });
 
-    const voiceConfig = {
-      languageCode: 'en-US',
-      name: 'en-US-Journey-D',  // Best neural voice (male)
-    };
-
-    const scriptBytes = Buffer.byteLength(script, 'utf8');
-    console.log(`  Script size: ${scriptBytes} bytes`);
-
-    // If script is under 5000 bytes, use single request
-    if (scriptBytes < 5000) {
-      const audioContent = await synthesizeChunkWithRetry(client, script, voiceConfig);
-      fs.writeFileSync(outputPath, audioContent, 'binary');
-
-      const sizeKB = (audioContent.length / 1024).toFixed(2);
-      console.log(`  ✅ Audio saved to ${outputPath} (${sizeKB} KB)`);
-
-      // Return path and character count for cost tracking
-      return {
-        outputPath,
-        characters: scriptBytes,
-      };
-    }
-
-    // For longer scripts, split into chunks
-    console.log(`  Script exceeds 5000 bytes, splitting into chunks...`);
-    const chunks = chunkScript(script, 4500);
-    console.log(`  Split into ${chunks.length} chunks`);
+    const segments = parseScriptBySpeaker(script);
+    const totalChars = Buffer.byteLength(script, 'utf8');
+    console.log(`  Script size: ${totalChars} bytes, ${segments.length} speaker segments`);
 
     const tmpDir = '/tmp/tts-chunks';
     if (!fs.existsSync(tmpDir)) {
@@ -137,21 +138,35 @@ async function convertToAudio(script, outputPath) {
     }
 
     const chunkFiles = [];
+    let chunkIndex = 0;
 
-    for (let i = 0; i < chunks.length; i++) {
-      process.stdout.write(`  Synthesizing chunk ${i + 1}/${chunks.length}...\r`);
+    for (let s = 0; s < segments.length; s++) {
+      const { speaker, text } = segments[s];
+      const voiceConfig = VOICE_CONFIGS[speaker];
+      const segmentBytes = Buffer.byteLength(text, 'utf8');
 
-      const audioContent = await synthesizeChunkWithRetry(client, chunks[i], voiceConfig);
-      const chunkPath = path.join(tmpDir, `chunk-${i.toString().padStart(3, '0')}.mp3`);
-      fs.writeFileSync(chunkPath, audioContent, 'binary');
-      chunkFiles.push(chunkPath);
+      const textChunks = segmentBytes > 4500 ? chunkScript(text, 4500) : [text];
+
+      for (const chunk of textChunks) {
+        process.stdout.write(`  Synthesizing segment ${s + 1}/${segments.length} [${speaker}] chunk ${chunkIndex + 1}...\r`);
+
+        const audioContent = await synthesizeChunkWithRetry(client, chunk, voiceConfig);
+        const chunkPath = path.join(tmpDir, `chunk-${chunkIndex.toString().padStart(3, '0')}.mp3`);
+        fs.writeFileSync(chunkPath, audioContent, 'binary');
+        chunkFiles.push(chunkPath);
+        chunkIndex++;
+      }
     }
 
     console.log(); // New line after progress
 
-    // Combine all chunks
-    console.log(`  Combining ${chunkFiles.length} audio chunks...`);
-    combineMP3Files(chunkFiles, outputPath);
+    if (chunkFiles.length === 1) {
+      // Single chunk — just move it
+      fs.renameSync(chunkFiles[0], outputPath);
+    } else {
+      console.log(`  Combining ${chunkFiles.length} audio chunks...`);
+      combineMP3Files(chunkFiles, outputPath);
+    }
 
     // Cleanup temp directory
     try {
@@ -161,12 +176,11 @@ async function convertToAudio(script, outputPath) {
     }
 
     const sizeKB = (fs.statSync(outputPath).size / 1024).toFixed(2);
-    console.log(`  ✅ Audio saved to ${outputPath} (${sizeKB} KB)`);
+    console.log(`  Audio saved to ${outputPath} (${sizeKB} KB)`);
 
-    // Return path and character count for cost tracking
     return {
       outputPath,
-      characters: scriptBytes, // Total characters processed
+      characters: totalChars,
     };
 
   } catch (error) {
@@ -175,4 +189,4 @@ async function convertToAudio(script, outputPath) {
   }
 }
 
-module.exports = { convertToAudio };
+module.exports = { convertToAudio, parseScriptBySpeaker };
