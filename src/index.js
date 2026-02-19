@@ -205,9 +205,10 @@ async function runWithRetry(maxRetries = 2) {
       await run();
       return;
     } catch (error) {
+      console.error(`Attempt ${attempt} failed: ${error.message}`);
       if (attempt <= maxRetries) {
         const delaySec = attempt * 5;
-        console.error(`Attempt ${attempt} failed. Retrying in ${delaySec}s...`);
+        console.error(`Retrying in ${delaySec}s...`);
         await new Promise(resolve => setTimeout(resolve, delaySec * 1000));
       } else {
         console.error('All retry attempts exhausted. Exiting.');
