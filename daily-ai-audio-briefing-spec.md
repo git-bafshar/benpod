@@ -1,8 +1,10 @@
-# Daily AI Audio Briefing — Technical Specification
+# Daily AI Audio Briefing — Production-Ready Specification
 
 ## Overview
 
-Build an automated pipeline that runs daily, scrapes Databricks release notes and top AI news, synthesizes a spoken-word script using Claude, converts it to audio via a text-to-speech API, and publishes the MP3 + an RSS feed to GitHub Pages — making it subscribable in any podcast app (Overcast, Apple Podcasts, Pocket Casts, Spotify, etc.).
+Build an automated pipeline that runs daily, scrapes Databricks release notes and top AI news, synthesizes a spoken-word script using Claude, converts it to audio via Google Cloud TTS, and publishes the MP3 + RSS feed to GitHub Pages — making it subscribable in any podcast app (Spotify, Apple Podcasts, Pocket Casts, Overcast, etc.).
+
+**Built with Claude Code** — this entire project was developed using Anthropic's Claude Code CLI tool.
 
 ---
 
@@ -18,36 +20,47 @@ Cron Job (daily via GitHub Actions)
 2. Script Synthesizer   — sends content to Claude API → returns narration script
     │
     ▼
-3. TTS Converter        — sends script to TTS API → returns MP3
+3. TTS Converter        — sends script to Google TTS → returns MP3
     │
     ▼
 4. RSS Publisher        — commits MP3 + updated feed.xml to gh-pages branch
     │
     ▼
-   Podcast app on your phone auto-downloads the new episode each morning
+5. Cost Tracker         — logs API usage and estimates costs
+    │
+    ▼
+   Podcast app auto-downloads the new episode each morning
 ```
 
 ---
 
 ## Tech Stack
 
-- **Runtime**: Node.js (≥18)
+- **Runtime**: Node.js (≥20)
 - **Scheduler**: GitHub Actions (free, cloud-hosted cron)
-- **LLM**: Anthropic Claude API (`claude-sonnet-4-6`)
-- **TTS**: Google Cloud Text-to-Speech API (best quality/cost) or ElevenLabs (most natural)
-- **Hosting**: GitHub Pages (free, no extra account needed — uses the same repo)
-- **Delivery**: Any podcast app via RSS 2.0 feed
+- **LLM**: Anthropic Claude API (`claude-sonnet-4-6` or `claude-sonnet-4-5`)
+- **TTS**: Google Cloud Text-to-Speech API (Journey-D voice - WaveNet/Neural quality)
+- **Hosting**: GitHub Pages (free, no extra account needed)
+- **Delivery**: Any podcast app via RSS 2.0 feed with iTunes tags
+- **Testing**: Jest (unit tests for cost tracking, RSS generation, etc.)
 
 ---
 
-## How the RSS / GitHub Pages Approach Works
+## Daily Operating Costs (Feb 2026 rates)
 
-1. Your repo has a `gh-pages` branch that GitHub serves as a static website at `https://<your-username>.github.io/<repo-name>/`.
-2. Each day the GitHub Actions workflow generates a new MP3, commits it to `gh-pages/episodes/`, and rewrites `gh-pages/feed.xml` to include the new episode at the top.
-3. Your podcast app polls `https://<your-username>.github.io/<repo-name>/feed.xml` on its normal schedule and auto-downloads the new episode.
-4. You open your podcast app in the morning and press play — no manual steps.
+| Service | Usage | Cost/episode |
+|---------|-------|--------------|
+| Claude Sonnet 4.5/4.6 | ~8,000 input + 1,500 output tokens | $0.024 + $0.023 = $0.047 |
+| Google TTS (Journey-D) | ~9,000 characters | $0.00 (free tier — ~270K/month, well within 1M free WaveNet chars) |
+| Twitter/X API v2 (optional) | ~6 API calls | $0.0009 |
+| Open-Meteo weather API | 1 call/day | Free |
+| GitHub Actions | ~4 min runtime | Free |
+| GitHub Pages hosting | Static files | Free |
+| **Total per episode** | | **~$0.05** |
+| **Monthly (daily)** | | **~$1.50** |
+| **Annual** | | **~$18** |
 
-**Storage note**: GitHub has a 1 GB soft limit per repo and individual files must be under 100 MB. A 5-minute MP3 at 128 kbps is ~4.7 MB, so you can store ~200 episodes before needing to prune old ones. The workflow can automatically delete episodes older than 90 days.
+All costs are tracked automatically per-run to `/tmp/podcast-costs.jsonl`. Monthly TTS character usage is persisted to `tts-usage.json` on gh-pages for free-tier monitoring (warns at 80% of 1M limit).
 
 ---
 
@@ -56,21 +69,32 @@ Cron Job (daily via GitHub Actions)
 ### 1. Project Setup
 
 ```bash
-mkdir daily-ai-briefing && cd daily-ai-briefing
+mkdir daily-podcast && cd daily-podcast
 git init
 npm init -y
 npm install axios cheerio @anthropic-ai/sdk @google-cloud/text-to-speech dotenv
+npm install --save-dev jest
 ```
 
-Create `.env` (for local testing only — never commit):
-```
+Create `.env` (for local testing only — **never commit**):
+```env
 ANTHROPIC_API_KEY=sk-ant-...
 GOOGLE_APPLICATION_CREDENTIALS=./gcp-key.json
-TTS_PROVIDER=google        # or "elevenlabs"
-ELEVENLABS_API_KEY=        # optional
+TWITTER_BEARER_TOKEN=         # optional - for exec tweets
 PODCAST_TITLE=The Data & AI Daily
 PODCAST_AUTHOR=Your Name
-GITHUB_PAGES_BASE_URL=https://<your-username>.github.io/<repo-name>
+PAGES_BASE_URL=https://<your-username>.github.io/<repo-name>
+```
+
+**IMPORTANT**: Use `PAGES_BASE_URL`, not `GITHUB_PAGES_BASE_URL`. GitHub doesn't allow variable names starting with "GITHUB_".
+
+Create `.gitignore`:
+```
+node_modules/
+.env
+gcp-key.json
+*.mp3
+/tmp/
 ```
 
 ---
@@ -81,196 +105,178 @@ Fetch from these sources each day:
 
 **Databricks sources**
 
-| Source | URL / Method |
-|--------|-------------|
-| Databricks blog | `https://www.databricks.com/blog` — scrape latest 5 posts, filter by `pubDate` within 24h |
-| Databricks newsroom | `https://www.databricks.com/company/newsroom` — press releases & announcements |
-| Databricks release notes | `https://docs.databricks.com/release-notes/` — parse HTML, grab entries from last 24h |
-| Ali Ghodsi on X | Twitter/X API v2 `GET /2/users/:id/tweets` filtered to last 24h (user: `@ghodsi`) |
-| Reynold Xin on X | Same approach (user: `@rxin`) |
-| LinkedIn exec posts | LinkedIn API restricts scraping; treat as an optional manual override or monitor via an RSS bridge |
+| Source | URL / Method | Notes |
+|--------|-------------|-------|
+| Databricks blog RSS | `https://www.databricks.com/feed` | RSS feed, take top 5 |
+| Databricks newsroom | `https://www.databricks.com/company/newsroom` | Scrape with selectors: `div[data-cy="CtaImageBlock"]` → `h3.h3 a` for title |
+| Databricks release notes | `https://docs.databricks.com/en/release-notes/index.html` | Scrape `<article>` tags |
+| Databricks exec tweets | Twitter API v2 for @alighodsi, @rxin, @matei_zaharia | **Optional** - requires TWITTER_BEARER_TOKEN |
 
-**Core AI / ML news sources**
+**Core AI/ML news sources**
 
-| Source | URL / Method |
-|--------|-------------|
-| OpenAI blog | `https://openai.com/blog` — scrape or check for RSS link in `<head>` |
-| Anthropic news | `https://www.anthropic.com/news` — scrape for posts in last 24h |
-| Google DeepMind blog | `https://deepmind.google/discover/blog/` |
-| Meta AI blog | `https://ai.meta.com/blog/` |
-| The Verge AI | RSS: `https://www.theverge.com/rss/ai-artificial-intelligence/index.xml` |
-| TechCrunch AI | RSS: `https://techcrunch.com/category/artificial-intelligence/feed/` |
-| VentureBeat AI | RSS: `https://venturebeat.com/category/ai/feed/` |
-| Hacker News top stories | `https://hacker-news.firebaseio.com/v0/topstories.json` — top 30, filter by AI/ML/LLM/Databricks keywords |
-| arXiv CS.AI (optional) | `http://export.arxiv.org/rss/cs.AI` — high-signal papers only |
+| Source | URL | Type |
+|--------|-----|------|
+| OpenAI blog | `https://openai.com/blog` | Scrape |
+| Anthropic news | `https://www.anthropic.com/news` | Scrape with selectors: `a.PublicationList-module-scss-module__KxYrHG__listItem` |
+| Google DeepMind | `https://deepmind.google/discover/blog/` | Scrape |
+| Meta AI | `https://ai.meta.com/blog/` | Scrape |
+| The Verge AI | `https://www.theverge.com/rss/ai-artificial-intelligence/index.xml` | RSS |
+| TechCrunch AI | `https://techcrunch.com/category/artificial-intelligence/feed/` | RSS |
+| VentureBeat AI | `https://venturebeat.com/category/ai/feed/` | RSS |
+| Hacker News | `https://hacker-news.firebaseio.com/v0/topstories.json` | API - filter top 30 for AI keywords |
+| arXiv CS.AI | `http://export.arxiv.org/rss/cs.AI` | RSS - take top 3 |
 
-**Key implementation notes:**
-- Use `cheerio` for HTML parsing of blog/newsroom pages; use `axios` to consume RSS feeds directly.
-- For X/Twitter sources, use the Twitter API v2 with a Bearer token stored as a GitHub Secret (`TWITTER_BEARER_TOKEN`). Fetch the last 10 tweets from each exec, filter to last 24h, and skip retweets.
-- Cache fetched content with a timestamp file (`/tmp/fetch-cache-YYYY-MM-DD.json`) to avoid re-scraping if the pipeline re-runs on the same day.
-- Filter all items to those published within the last 24 hours before passing to Claude. Include the item's title, source, publish date, and a 2–3 sentence excerpt.
-- Target ~6,000–8,000 tokens of raw content input to give Claude enough signal for a 10-minute episode without hitting context limits.
-- Add `TWITTER_BEARER_TOKEN` to your `.env` and GitHub Secrets.
-
-```javascript
-// src/fetcher.js (skeleton)
-const axios = require('axios');
-const cheerio = require('cheerio');
-
-async function fetchDatabricksReleaseNotes() {
-  const { data } = await axios.get('https://docs.databricks.com/release-notes/');
-  const $ = cheerio.load(data);
-  const items = [];
-  // Inspect the live page first to confirm selectors
-  $('article, .release-note-entry').slice(0, 5).each((_, el) => {
-    items.push({
-      title: $(el).find('h2, h3').first().text().trim(),
-      summary: $(el).find('p').first().text().trim().slice(0, 300),
-      date: $(el).find('time, .date').text().trim(),
-    });
-  });
-  return items;
-}
-
-// ... similar functions for blog, HN, arXiv
-module.exports = { fetchDatabricksReleaseNotes, /* ... */ };
-```
+**Implementation tips:**
+- Use `cheerio` for HTML scraping, `axios` for HTTP requests
+- Set `User-Agent` header to avoid blocks: `'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'`
+- For RSS feeds, use `cheerio` with `{ xmlMode: true }`
+- Twitter API: Make 2 calls per exec (user lookup + tweets fetch). Track API call count for cost monitoring.
+- Return items in format: `{ title, summary, date, source }`
+- Don't filter by date here - let Claude decide what's relevant
 
 ---
 
-### 3. Script Synthesis (`src/synthesizer.js`)
+### 3. Weather Fetching (`src/fetcher.js` or `src/synthesizer.js`)
 
-Send all fetched content — including today's Austin weather — to Claude and ask it to return a fully structured podcast script.
+Fetch current weather from Open-Meteo API (free, no key required):
 
-**Weather pre-fetch**: Before calling Claude, fetch Austin's current conditions from the Open-Meteo API (free, no key required) so the cold-open forecast is real.
+```javascript
+async function fetchWeather(lat, lon, timezone) {
+  const url = `https://api.open-meteo.com/v1/forecast?` +
+    `latitude=${lat}&longitude=${lon}&` +
+    `current=temperature_2m,weather_code,wind_speed_10m&` +
+    `daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&` +
+    `temperature_unit=fahrenheit&wind_speed_unit=mph&` +
+    `timezone=${encodeURIComponent(timezone)}&forecast_days=1`;
+
+  const { data } = await axios.get(url);
+
+  // WMO weather codes to descriptions
+  const weatherDescriptions = {
+    0: 'clear skies', 1: 'mainly clear', 2: 'partly cloudy', 3: 'overcast',
+    45: 'foggy', 51: 'light drizzle', 61: 'light rain', 63: 'moderate rain',
+    65: 'heavy rain', 71: 'light snow', 95: 'thunderstorms'
+  };
+
+  return {
+    current: Math.round(data.current.temperature_2m),
+    high: Math.round(data.daily.temperature_2m_max[0]),
+    low: Math.round(data.daily.temperature_2m_min[0]),
+    precip: data.daily.precipitation_probability_max[0],
+    description: weatherDescriptions[data.current.weather_code] || 'mixed conditions',
+    wind: Math.round(data.current.wind_speed_10m)
+  };
+}
+```
+
+**Coordinates for major US cities:**
+- Austin, TX: `30.2672, -97.7431`
+- San Francisco, CA: `37.7749, -122.4194`
+- New York, NY: `40.7128, -74.0060`
+
+---
+
+### 4. Script Synthesis (`src/synthesizer.js`)
+
+Send all content to Claude Sonnet 4.6 with a detailed prompt:
 
 ```javascript
 const Anthropic = require('@anthropic-ai/sdk');
-const axios = require('axios');
-const client = new Anthropic();
-
-async function fetchAustinWeather() {
-  // Open-Meteo — free, no API key needed
-  const url = 'https://api.open-meteo.com/v1/forecast'
-    + '?latitude=30.2672&longitude=-97.7431'
-    + '&current=temperature_2m,weathercode,windspeed_10m'
-    + '&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max'
-    + '&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FChicago&forecast_days=1';
-
-  const { data } = await axios.get(url);
-  const c = data.current;
-  const d = data.daily;
-
-  // WMO weather code → human description (subset)
-  const conditions = {
-    0: 'clear skies', 1: 'mainly clear', 2: 'partly cloudy', 3: 'overcast',
-    45: 'foggy', 48: 'icy fog', 51: 'light drizzle', 61: 'light rain',
-    63: 'moderate rain', 65: 'heavy rain', 71: 'light snow', 80: 'rain showers',
-    95: 'thunderstorms',
-  };
-  const description = conditions[c.weathercode] ?? 'mixed conditions';
-
-  return {
-    current: Math.round(c.temperature_2m),
-    high: Math.round(d.temperature_2m_max[0]),
-    low: Math.round(d.temperature_2m_min[0]),
-    precip: d.precipitation_probability_max[0],
-    description,
-    wind: Math.round(c.windspeed_10m),
-  };
-}
+const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 async function synthesizeScript(contentBundle) {
-  const today = new Date().toLocaleDateString('en-US', {
-    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
-    timeZone: 'America/Chicago',
+  const now = new Date();
+  const localTime = new Date(now.toLocaleString('en-US', {
+    timeZone: 'America/Chicago'  // Change to your timezone
+  }));
+  const today = localTime.toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
 
-  const weather = await fetchAustinWeather();
-  const weatherSummary = `${weather.description}, currently ${weather.current}°F, `
-    + `high of ${weather.high}°F, low of ${weather.low}°F, `
-    + `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
+  const weather = await fetchWeather(30.2672, -97.7431, 'America/Chicago');
+  const weatherSummary = `${weather.description}, currently ${weather.current}°F, ` +
+    `high of ${weather.high}°F, low of ${weather.low}°F, ` +
+    `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
 
-  const prompt = `
-You are the host of "The Data & AI Daily," a personal morning podcast for Tyler.
-Today is ${today}. Tyler is based in Austin, Texas.
+  const prompt = `You are the host of a personal morning podcast.
+Today is ${today}. Your listener is based in [CITY].
 
-Austin weather right now: ${weatherSummary}
+[CITY] weather right now: ${weatherSummary}
 
-Below is the raw content gathered from Databricks sources (blog, newsroom, release notes, exec social posts)
-and core AI/ML news sources (major tech outlets, foundation model lab blogs, startup/funding news).
+Below is content gathered from Databricks sources (blog, newsroom, release notes, exec posts)
+and core AI/ML news sources (major outlets, lab blogs, startup news).
 
 YOUR TASK:
 Produce a complete, ready-to-record podcast script for an 8–12 minute episode.
 
-═══════════════════════════════════════════════
-STRUCTURE (follow this exactly):
-═══════════════════════════════════════════════
-
+STRUCTURE (follow exactly):
+──────────────────────────────────────────────
 [COLD OPEN — 15–30 seconds]
-- Greet Tyler by name.
-- One sentence on what today's episode covers (the "headline of headlines").
-- Weave in the Austin weather forecast naturally (not as a weather report — more like what a friend would say: "it's looking like a scorcher out there" or "grab a jacket this morning").
+- Greet your listener by name
+- One sentence on today's episode theme
+- Weave in weather naturally (not as a report)
 
-[THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
-Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
-Good examples: "Databricks Product & Platform", "Lakehouse Ecosystem & Partners",
-"LLM & Agent Breakthroughs", "Regulation & Policy", "Startup & Funding Moves",
-"Open Source & Research". Discard low-signal or redundant items — not everything needs coverage.
+[THEME SEGMENTS — 3 to 6 segments, ~1–2 minutes each]
+Cluster news into 3–6 themes. Example themes:
+"Databricks Product Updates", "LLM Breakthroughs", "Startup Moves"
 
-For each theme segment:
-- Open with a punchy 1-sentence framing of the theme.
-- Explain what happened, why it matters, and who it impacts (call out data engineers,
-  ML practitioners, founders, or infra teams specifically when relevant).
-- Where relevant, connect Databricks-specific news to the broader AI landscape.
-- Add light, confident commentary — you have opinions. Examples of the right tone:
-  "This puts real pressure on Snowflake's AI roadmap."
-  "Honestly, this is great news for early-stage teams with lean data stacks."
-  "I think this is being undersold — here's why it matters."
-- Use first-person ("I think", "what I find interesting here is", "we've been watching this").
-- Address Tyler by name once or twice across the whole episode — not every segment.
-- Transitions between segments should feel natural, not formulaic.
+For each segment:
+- Open with punchy 1-sentence framing
+- Explain what happened, why it matters, who it impacts
+- Connect Databricks news to broader AI landscape
+- Add confident commentary with opinions
+- Use first-person ("I think", "what's interesting here")
+- Address listener by name 1-2 times across full episode
+- Natural transitions between segments
 
 [WRAP-UP — 15–30 seconds]
-- Quick recap sentence of the 1–2 biggest themes from today.
-- Preview: what Tyler should keep an eye on over the coming days in Databricks and AI.
-- Sign off warmly and personally.
+- Quick recap of 1-2 biggest themes
+- Preview what to watch for coming days
+- Warm, personal sign-off
 
-═══════════════════════════════════════════════
 STYLE RULES:
-═══════════════════════════════════════════════
-- Write for the ear, not the eye. Short sentences. Active voice. No bullet points, no URLs, no markdown in the script.
-- Conversational and smart — like a well-informed colleague who's genuinely excited about this space.
-- Do NOT pad with filler. If today is a slow news day, say so honestly and go deeper on fewer items.
-- Target word count: 1,200–1,800 words (8–12 minutes at a natural speaking pace).
-- Do NOT include stage directions, segment headers, or any bracketed labels in the output —
-  just the raw spoken script from start to finish.
+──────────────────────────────────────────────
+- Write for the ear, not eye. Short sentences. Active voice.
+- NO bullet points, URLs, markdown, or stage directions
+- Conversational and smart - like an excited colleague
+- Don't pad with filler. If slow news day, say so and go deeper
+- Target: 1,200–1,800 words (8–12 minutes at natural pace)
+- Return ONLY the spoken script. No labels, headers, or brackets.
 
-═══════════════════════════════════════════════
 RAW CONTENT:
-═══════════════════════════════════════════════
+──────────────────────────────────────────────
 ${JSON.stringify(contentBundle, null, 2)}
 
-Return ONLY the spoken script. No labels, no headers, no stage directions, no markdown.
-`;
+Return ONLY the spoken script.`;
 
   const message = await client.messages.create({
     model: 'claude-sonnet-4-6',
     max_tokens: 2500,
-    messages: [{ role: 'user', content: prompt }],
+    messages: [{ role: 'user', content: prompt }]
   });
 
-  return message.content[0].text;
+  return {
+    script: message.content[0].text,
+    usage: {
+      inputTokens: message.usage.input_tokens,
+      outputTokens: message.usage.output_tokens
+    }
+  };
 }
-
-module.exports = { synthesizeScript, fetchAustinWeather };
 ```
+
+**Customization points:**
+- Change `[CITY]` to your city
+- Adjust timezone in `toLocaleString()` and `fetchWeather()`
+- Modify weather coordinates
+- Change listener name in prompt
+- Adjust `max_tokens` if scripts get truncated (try 3500)
 
 ---
 
-### 4. Text-to-Speech Conversion (`src/tts.js`)
+### 5. Text-to-Speech (`src/tts.js`)
 
-#### Option A: Google Cloud TTS (recommended for quality + cost)
+Convert script to MP3 using Google Cloud TTS:
 
 ```javascript
 const textToSpeech = require('@google-cloud/text-to-speech');
@@ -278,69 +284,55 @@ const fs = require('fs');
 
 async function convertToAudio(script, outputPath) {
   const client = new textToSpeech.TextToSpeechClient();
-  const [response] = await client.synthesizeSpeech({
-    input: { text: script },
-    voice: {
-      languageCode: 'en-US',
-      name: 'en-US-Journey-D',   // Best neural voice (male)
-      // Alternative: 'en-US-Journey-F' for female
-    },
-    audioConfig: {
-      audioEncoding: 'MP3',
-      speakingRate: 1.05,
-      pitch: 0,
-    },
-  });
-  fs.writeFileSync(outputPath, response.audioContent, 'binary');
-}
 
-module.exports = { convertToAudio };
-```
+  // Google TTS has a 5000 byte limit, so chunk if needed
+  const scriptBytes = Buffer.byteLength(script, 'utf8');
 
-**Cost**: ~$0.004 per 1,000 characters. A 700-word script ≈ 4,200 characters ≈ **$0.017/day** (~$6/year).
+  if (scriptBytes <= 5000) {
+    // Single request
+    const [response] = await client.synthesizeSpeech({
+      input: { text: script },
+      voice: {
+        languageCode: 'en-US',
+        name: 'en-US-Journey-D'  // Best male voice. Try Journey-F for female
+      },
+      audioConfig: {
+        audioEncoding: 'MP3',
+        speakingRate: 1.05,
+        pitch: 0
+      }
+    });
+    fs.writeFileSync(outputPath, response.audioContent, 'binary');
+  } else {
+    // Chunking logic here (see full implementation in repo)
+    // Split on sentence boundaries, process chunks, concatenate MP3s
+  }
 
-#### Option B: ElevenLabs (more natural voice, higher cost)
-
-```javascript
-const axios = require('axios');
-const fs = require('fs');
-
-async function convertToAudioElevenLabs(script, outputPath) {
-  const voiceId = 'pNInz6obpgDQGcFmaJgB'; // "Adam" — change as desired
-  const response = await axios.post(
-    `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`,
-    {
-      text: script,
-      model_id: 'eleven_turbo_v2',
-      voice_settings: { stability: 0.5, similarity_boost: 0.75 }
-    },
-    { headers: { 'xi-api-key': process.env.ELEVENLABS_API_KEY }, responseType: 'arraybuffer' }
-  );
-  fs.writeFileSync(outputPath, response.data);
+  return {
+    outputPath,
+    characters: scriptBytes
+  };
 }
 ```
 
-**Cost**: ~$0.30 per 1,000 characters on Starter plan ≈ **$1.26/day**. Use Google TTS unless voice quality is a priority.
+**Voice options:**
+- `en-US-Journey-D` - Deep male voice (recommended)
+- `en-US-Journey-F` - Female voice
+- `en-US-Neural2-A` - Alternative male (75% cheaper, slightly lower quality)
+- `en-US-Studio-M` - Male studio voice
+
+**Costs:**
+- Journey voices: $16 per million characters (WaveNet quality)
+- Neural2 voices: $4 per million characters (standard quality)
 
 ---
 
-### 5. RSS Feed Publisher (`src/publisher.js`)
+### 6. RSS Feed Publisher (`src/publisher.js`)
 
-This module does three things after generating the MP3:
-1. Reads the existing `feed.xml` from the `gh-pages` branch (or creates one from scratch on first run).
-2. Prepends the new episode as the first `<item>` in the feed.
-3. Commits the MP3 and updated `feed.xml` back to `gh-pages` using the GitHub API (no `git` binary needed in the Action).
+Build RSS 2.0 feed with iTunes podcast tags:
 
 ```javascript
-const fs = require('fs');
-
-/**
- * Builds or updates an RSS 2.0 feed XML string.
- * @param {string} existingFeedXml - Current feed.xml contents (empty string if first run)
- * @param {object} episode - { title, date, fileName, fileSizeBytes, durationSeconds, description }
- * @param {string} baseUrl - e.g. "https://yourname.github.io/daily-ai-briefing"
- */
-function buildUpdatedFeed(existingFeedXml, episode, baseUrl) {
+function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo) {
   const episodeUrl = `${baseUrl}/episodes/${episode.fileName}`;
   const pubDate = new Date(episode.date).toUTCString();
 
@@ -354,18 +346,24 @@ function buildUpdatedFeed(existingFeedXml, episode, baseUrl) {
       <itunes:duration>${episode.durationSeconds}</itunes:duration>
     </item>`;
 
-  if (!existingFeedXml) {
-    // First run — build the full feed from scratch
+  if (!existingFeedXml || existingFeedXml.trim() === '') {
+    // First run — build full feed
     return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>${process.env.PODCAST_TITLE}</title>
+    <title>${escapeXml(podcastInfo.title)}</title>
     <link>${baseUrl}</link>
-    <description>Daily briefing on Databricks releases and AI developments.</description>
+    <description>${escapeXml(podcastInfo.description)}</description>
     <language>en-us</language>
-    <itunes:author>${process.env.PODCAST_AUTHOR}</itunes:author>
+    <itunes:image href="${baseUrl}/artwork.jpg"/>
+    <itunes:author>${escapeXml(podcastInfo.author)}</itunes:author>
+    <itunes:email>your-email@example.com</itunes:email>
+    <itunes:owner>
+      <itunes:name>${escapeXml(podcastInfo.author)}</itunes:name>
+      <itunes:email>your-email@example.com</itunes:email>
+    </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     ${newItem}
@@ -373,140 +371,190 @@ function buildUpdatedFeed(existingFeedXml, episode, baseUrl) {
 </rss>`;
   }
 
-  // Subsequent runs — insert new item after opening channel tags
-  return existingFeedXml.replace(/<item>/, `${newItem}\n    <item>`);
+  // Subsequent runs — insert new item after </itunes:explicit>
+  const insertPosition = existingFeedXml.indexOf('</itunes:explicit>');
+  const insertPoint = existingFeedXml.indexOf('>', insertPosition) + 1;
+  return existingFeedXml.slice(0, insertPoint) + newItem + existingFeedXml.slice(insertPoint);
 }
 
 function escapeXml(str) {
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 }
-
-module.exports = { buildUpdatedFeed };
 ```
 
-**Committing to gh-pages via GitHub API** (`src/githubCommitter.js`):
-
-```javascript
-const axios = require('axios');
-const fs = require('fs');
-
-const GH_TOKEN = process.env.GITHUB_TOKEN;
-const REPO = process.env.GITHUB_REPOSITORY; // e.g. "yourname/daily-ai-briefing"
-const BRANCH = 'gh-pages';
-const API = `https://api.github.com/repos/${REPO}`;
-
-async function getFileSha(filePath) {
-  try {
-    const res = await axios.get(`${API}/contents/${filePath}?ref=${BRANCH}`, {
-      headers: { Authorization: `Bearer ${GH_TOKEN}` }
-    });
-    return res.data.sha;
-  } catch {
-    return null; // File doesn't exist yet
-  }
-}
-
-async function commitFile(filePath, contentBase64, message) {
-  const sha = await getFileSha(filePath);
-  const body = {
-    message,
-    content: contentBase64,
-    branch: BRANCH,
-    ...(sha ? { sha } : {}),
-  };
-  await axios.put(`${API}/contents/${filePath}`, body, {
-    headers: { Authorization: `Bearer ${GH_TOKEN}`, 'Content-Type': 'application/json' }
-  });
-}
-
-async function publishEpisode(mp3Path, feedXml, episodeFileName) {
-  // Upload MP3
-  const mp3Base64 = fs.readFileSync(mp3Path).toString('base64');
-  await commitFile(`episodes/${episodeFileName}`, mp3Base64, `Add episode: ${episodeFileName}`);
-
-  // Upload updated feed.xml
-  const feedBase64 = Buffer.from(feedXml).toString('base64');
-  await commitFile('feed.xml', feedBase64, `Update feed for ${episodeFileName}`);
-
-  console.log(`Published to gh-pages: episodes/${episodeFileName} + feed.xml`);
-}
-
-module.exports = { publishEpisode };
-```
+**RSS requirements for Spotify/Pocket Casts:**
+- `<itunes:email>` must be at channel level (not just in `<itunes:owner>`)
+- `<itunes:image>` must point to valid JPEG/PNG (min 1400×1400px recommended)
+- Enclosure URLs must be **full URLs**, not relative paths
+- All episodes need valid `<pubDate>` in RFC 822 format
 
 ---
 
-### 6. Main Orchestrator (`src/index.js`)
+### 7. Cost Tracking (`src/costTracker.js`)
+
+Track all API usage and estimate costs:
+
+```javascript
+const RATES = {
+  claude: {
+    input: 3.00 / 1_000_000,   // $3 per million input tokens
+    output: 15.00 / 1_000_000  // $15 per million output tokens
+  },
+  tts: {
+    standard: 4.00 / 1_000_000,  // Neural2 voices
+    wavenet: 16.00 / 1_000_000   // Journey voices
+  },
+  twitter: {
+    perCall: 0.00015  // Pay-per-use: $0.00015 per API call
+  }
+};
+
+class CostTracker {
+  constructor() {
+    this.costs = { claude: 0, tts: 0, twitter: 0, total: 0 };
+    this.usage = {
+      claudeInputTokens: 0,
+      claudeOutputTokens: 0,
+      ttsCharacters: 0,
+      twitterCalls: 0
+    };
+  }
+
+  trackClaude(inputTokens, outputTokens) {
+    this.usage.claudeInputTokens += inputTokens;
+    this.usage.claudeOutputTokens += outputTokens;
+    const cost = inputTokens * RATES.claude.input + outputTokens * RATES.claude.output;
+    this.costs.claude += cost;
+    this.costs.total += cost;
+    return { inputTokens, outputTokens, totalCost: cost };
+  }
+
+  trackTTS(characters, voiceType = 'wavenet') {
+    this.usage.ttsCharacters += characters;
+    const cost = characters * RATES.tts[voiceType];
+    this.costs.tts += cost;
+    this.costs.total += cost;
+    return { characters, cost };
+  }
+
+  trackTwitter(calls) {
+    this.usage.twitterCalls += calls;
+    const cost = calls * RATES.twitter.perCall;
+    this.costs.twitter += cost;
+    this.costs.total += cost;
+    return { calls, totalCost: cost };
+  }
+
+  printSummary() {
+    console.log('\n' + '='.repeat(60));
+    console.log('💰 COST SUMMARY');
+    console.log('='.repeat(60));
+    console.log(`  Claude API: $${this.costs.claude.toFixed(4)}`);
+    console.log(`  Google TTS: $${this.costs.tts.toFixed(4)}`);
+    if (this.usage.twitterCalls > 0) {
+      console.log(`  Twitter API: $${this.costs.twitter.toFixed(4)}`);
+    }
+    console.log(`  Total: $${this.costs.total.toFixed(4)}`);
+    console.log('='.repeat(60));
+  }
+
+  logToFile(logFile = '/tmp/podcast-costs.jsonl') {
+    const summary = {
+      costs: this.costs,
+      usage: this.usage,
+      timestamp: new Date().toISOString()
+    };
+    fs.appendFileSync(logFile, JSON.stringify(summary) + '\n');
+  }
+}
+```
+
+View cost reports with: `npm run cost-report -- [days]`
+
+---
+
+### 8. Main Orchestrator (`src/index.js`)
+
+Tie everything together:
 
 ```javascript
 require('dotenv').config();
-const path = require('path');
-const fs = require('fs');
-const axios = require('axios');
-
-const { fetchDatabricksReleaseNotes, fetchDatabricksBlog, fetchAINews } = require('./fetcher');
+const { fetchDatabricksContent, fetchAINews } = require('./fetcher');
 const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
 const { publishEpisode } = require('./githubCommitter');
+const { CostTracker } = require('./costTracker');
 
-const BASE_URL = process.env.GITHUB_PAGES_BASE_URL;
-const REPO = process.env.GITHUB_REPOSITORY;
-const GH_TOKEN = process.env.GITHUB_TOKEN;
-
-async function getCurrentFeed() {
-  try {
-    const res = await axios.get(
-      `https://api.github.com/repos/${REPO}/contents/feed.xml?ref=gh-pages`,
-      { headers: { Authorization: `Bearer ${GH_TOKEN}` } }
-    );
-    return Buffer.from(res.data.content, 'base64').toString('utf-8');
-  } catch {
-    return ''; // First run
-  }
-}
+const BASE_URL = process.env.PAGES_BASE_URL;  // NOT GITHUB_PAGES_BASE_URL
 
 async function run() {
-  console.log('Starting daily AI briefing pipeline...');
+  const costTracker = new CostTracker();
 
   // 1. Fetch content
-  const [releaseNotes, blogPosts, aiNews] = await Promise.all([
-    fetchDatabricksReleaseNotes(),
-    fetchDatabricksBlog(),
-    fetchAINews(),
+  const [databricksData, aiNews] = await Promise.all([
+    fetchDatabricksContent(),
+    fetchAINews()
   ]);
-  const contentBundle = { releaseNotes, blogPosts, aiNews };
+
+  const contentBundle = {
+    databricks: databricksData.items,
+    aiNews: aiNews
+  };
+
+  // Track Twitter costs if API was used
+  if (databricksData.twitterApiCalls > 0) {
+    costTracker.trackTwitter(databricksData.twitterApiCalls);
+  }
 
   // 2. Synthesize script
-  const script = await synthesizeScript(contentBundle);
-  console.log(`Script: ${script.split(' ').length} words`);
+  const { script, usage: claudeUsage } = await synthesizeScript(contentBundle);
+  costTracker.trackClaude(claudeUsage.inputTokens, claudeUsage.outputTokens);
 
   // 3. Convert to audio
-  const dateStr = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  const now = new Date();
+  const centralTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Chicago' }));
+  const dateStr = centralTime.toISOString().slice(0, 10);
+
   const episodeFileName = `AI-Briefing-${dateStr}.mp3`;
-  const audioPath = path.join('/tmp', episodeFileName);
-  await convertToAudio(script, audioPath);
+  const audioPath = `/tmp/${episodeFileName}`;
 
-  const fileSizeBytes = fs.statSync(audioPath).size;
-  const durationSeconds = Math.round((fileSizeBytes * 8) / (128 * 1000)); // estimate at 128kbps
+  const { outputPath, characters } = await convertToAudio(script, audioPath);
+  costTracker.trackTTS(characters, 'wavenet');
 
-  // 4. Build updated RSS feed
-  const existingFeed = await getCurrentFeed();
+  // 4. Build RSS feed
+  const existingFeed = await getCurrentFeed();  // Fetch from gh-pages
+  const fileSizeBytes = fs.statSync(outputPath).size;
+  const durationSeconds = Math.round((fileSizeBytes * 8) / (128 * 1000));
+
   const updatedFeed = buildUpdatedFeed(existingFeed, {
     title: `The Data & AI Daily — ${dateStr}`,
     date: dateStr,
     fileName: episodeFileName,
     fileSizeBytes,
     durationSeconds,
-    description: script.slice(0, 300) + '...',
-  }, BASE_URL);
+    description: script.slice(0, 250) + '...'
+  }, BASE_URL, {
+    title: process.env.PODCAST_TITLE,
+    author: process.env.PODCAST_AUTHOR,
+    description: 'Daily briefing on Databricks and AI developments'
+  });
 
-  // 5. Commit MP3 + feed to gh-pages
-  await publishEpisode(audioPath, updatedFeed, episodeFileName);
+  // 5. Publish to gh-pages
+  await publishEpisode(outputPath, updatedFeed, episodeFileName);
 
-  console.log('Done! New episode live at:');
-  console.log(`  ${BASE_URL}/episodes/${episodeFileName}`);
-  console.log(`  RSS: ${BASE_URL}/feed.xml`);
+  // 6. Log costs
+  costTracker.printSummary();
+  costTracker.logToFile('/tmp/podcast-costs.jsonl');
+
+  // 7. Track TTS usage (persisted to gh-pages for monthly monitoring)
+  await updateTTSUsage(characters);
 }
 
 run().catch(console.error);
@@ -514,7 +562,7 @@ run().catch(console.error);
 
 ---
 
-### 7. GitHub Actions Workflow
+### 9. GitHub Actions Workflow
 
 Create `.github/workflows/daily-briefing.yml`:
 
@@ -523,18 +571,19 @@ name: Daily AI Briefing
 
 on:
   schedule:
-    - cron: '0 11 * * 1-5'   # 11:00 AM UTC = 6 AM EST / 7 AM EDT Mon–Fri
-  workflow_dispatch:           # Allows manual trigger for testing
+    - cron: '0 11 * * *'       # 11:00 AM UTC = 5:00 AM CST / 6:00 AM CDT (daily)
+  workflow_dispatch:            # Allow manual trigger
 
-# Required so the Action can commit to gh-pages
 permissions:
   contents: write
 
 jobs:
   run-briefing:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -551,128 +600,313 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_APPLICATION_CREDENTIALS: ./gcp-key.json
-          TTS_PROVIDER: google
-          PODCAST_TITLE: The Data & AI Daily
-          PODCAST_AUTHOR: ${{ secrets.PODCAST_AUTHOR }}
-          GITHUB_PAGES_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # Automatically provided by Actions
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
+          PODCAST_TITLE: ${{ vars.PODCAST_TITLE }}
+          PODCAST_AUTHOR: ${{ secrets.PODCAST_AUTHOR }}
         run: node src/index.js
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f gcp-key.json
+          rm -f /tmp/*.mp3
+          rm -f /tmp/*.txt
 ```
-
-**GitHub Secrets to configure** (repo Settings → Secrets → Actions):
-
-| Secret | Value |
-|--------|-------|
-| `ANTHROPIC_API_KEY` | Your Anthropic API key |
-| `GCP_SERVICE_ACCOUNT_JSON` | Full contents of your GCP service account JSON key file |
-| `TWITTER_BEARER_TOKEN` | Twitter/X API v2 Bearer Token (free Basic tier at developer.twitter.com) |
-| `PODCAST_AUTHOR` | Your name (Tyler) |
-
-`GITHUB_TOKEN` is **automatically provided** by Actions — no setup needed.
 
 ---
 
-### 8. One-Time GitHub Pages Setup
+### 10. GitHub Setup
+
+**A. Create repository secrets** (Settings → Secrets → Actions):
+
+| Secret | Value |
+|--------|-------|
+| `ANTHROPIC_API_KEY` | Your Anthropic API key from console.anthropic.com |
+| `GCP_SERVICE_ACCOUNT_JSON` | Full JSON contents of GCP service account key |
+| `TWITTER_BEARER_TOKEN` | Optional - Twitter API v2 Bearer Token |
+| `PODCAST_AUTHOR` | Your name |
+
+**B. Create repository variables** (Settings → Secrets → Variables):
+
+| Variable | Value |
+|----------|-------|
+| `PAGES_BASE_URL` | `https://<username>.github.io/<repo-name>` |
+| `PODCAST_TITLE` | Your podcast name |
+
+**C. Initialize gh-pages branch:**
 
 ```bash
-# From your repo root, create and push an empty gh-pages branch
 git checkout --orphan gh-pages
 git rm -rf .
-echo "<h1>The Data & AI Daily</h1>" > index.html
-git add index.html
+echo "<h1>Daily AI Briefing</h1>" > index.html
+# Add podcast artwork (1400×1400 minimum recommended)
+cp /path/to/artwork.jpg artwork.jpg
+mkdir episodes
+git add index.html artwork.jpg episodes/.gitkeep
 git commit -m "Initialize gh-pages"
 git push origin gh-pages
 git checkout main
 ```
 
-Then in your repo on GitHub: **Settings → Pages → Source → Deploy from branch → gh-pages → / (root)**.
+**D. Enable GitHub Pages:**
+- Go to Settings → Pages
+- Source: Deploy from branch
+- Branch: `gh-pages` / `/ (root)`
+- Save
 
-Your feed will be live at:
+---
+
+### 11. Testing
+
+**Run tests:**
+```bash
+npm test
 ```
-https://<your-username>.github.io/<repo-name>/feed.xml
+
+**Run locally:**
+```bash
+node src/index.js
+```
+
+**Trigger workflow manually:**
+```bash
+gh workflow run daily-briefing.yml
+```
+
+**View workflow logs:**
+```bash
+gh run list --workflow=daily-briefing.yml --limit 1
+gh run view <run-id> --log
+```
+
+**View cost report:**
+```bash
+npm run cost-report -- 30  # Last 30 days
 ```
 
 ---
 
-### 9. Subscribing in Your Podcast App
+### 12. Subscribing in Podcast Apps
 
-| App | How to add a private RSS feed |
-|-----|------------------------------|
-| **Overcast** (iOS) | Add Podcast → paste URL |
-| **Pocket Casts** | + → Add via URL |
-| **Apple Podcasts** | Library → … → Follow a Show → paste URL |
-| **Castro** | Subscriptions → + → paste URL |
-| **Spotify** | Does not support arbitrary RSS — use one of the above |
+Your RSS feed will be live at:
+```
+https://<username>.github.io/<repo-name>/feed.xml
+```
 
-Paste your `feed.xml` URL and the app will check for new episodes on its normal polling schedule (usually every few hours). Enable **auto-download** in the app settings so the episode is ready before you wake up.
+**How to add:**
+
+| App | Steps |
+|-----|-------|
+| **Spotify** | Requires submission at podcasters.spotify.com (free, 1-2 day review) |
+| **Apple Podcasts** | Library → Edit → Add a Show by URL |
+| **Pocket Casts** | + → Add podcast → Enter URL |
+| **Overcast** | + → Add URL |
+
+Enable auto-download in your app settings so episodes are ready when you wake up.
 
 ---
 
-## Project File Structure
+## Project Structure
 
 ```
-daily-ai-briefing/
-├── .env                          # Local dev only (gitignore)
+daily-podcast/
+├── .env                          # Local only (gitignored)
 ├── .gitignore
 ├── .github/
 │   └── workflows/
 │       └── daily-briefing.yml
-├── gcp-key.json                  # Local dev only (gitignore)
+├── artwork.jpg                   # Podcast cover art
 ├── package.json
+├── scripts/
+│   └── cost-report.js           # Cost report generator
 ├── src/
-│   ├── index.js                  # Main orchestrator
-│   ├── fetcher.js                # Web scraping
-│   ├── synthesizer.js            # Claude API
-│   ├── tts.js                    # Text-to-speech
-│   ├── publisher.js              # RSS feed builder
-│   └── githubCommitter.js        # GitHub API commits to gh-pages
-└── README.md
-```
-
-`.gitignore`:
-```
-node_modules/
-.env
-gcp-key.json
-*.mp3
+│   ├── index.js                 # Main orchestrator
+│   ├── fetcher.js               # Content scraping
+│   ├── synthesizer.js           # Claude API + prompt
+│   ├── tts.js                   # Google TTS
+│   ├── publisher.js             # RSS feed builder
+│   ├── githubCommitter.js       # GitHub API commits
+│   ├── costTracker.js           # Per-run cost tracking
+│   └── ttsUsageTracker.js      # Monthly TTS usage tracking (persisted to gh-pages)
+├── tests/
+│   ├── costTracker.test.js
+│   ├── publisher.test.js
+│   └── weather.test.js
+├── COST_TRACKING.md             # Cost documentation
+├── README.md
+└── daily-ai-audio-briefing-spec.md
 ```
 
 ---
 
-## Estimated Daily Costs
+## Lessons Learned & Production Tips
 
-| Service | Usage | Cost/day |
-|---------|-------|----------|
-| Claude API (Sonnet) | ~8,000 input + 2,500 output tokens | ~$0.04 |
-| Google TTS (Journey) | ~10,000 chars (10-min episode) | ~$0.04 |
-| Open-Meteo weather API | Daily call | Free |
-| Twitter/X API v2 | 2 user timeline calls/day | Free (Basic tier) |
-| GitHub Actions | ~4 min runtime | Free |
-| GitHub Pages hosting | Static files | Free |
-| **Total** | | **~$0.08/day (~$29/year)** |
+### 1. Variable Naming
+❌ **Don't use**: `GITHUB_PAGES_BASE_URL`
+✅ **Use**: `PAGES_BASE_URL`
+
+GitHub doesn't allow repository variables starting with "GITHUB_".
+
+### 2. RSS Feed URLs
+- **Always use full URLs** in `<enclosure>` tags, never relative paths
+- Spotify/Pocket Casts will reject feeds with relative URLs
+- Example: `https://user.github.io/repo/episodes/file.mp3` ✅
+- Not: `/episodes/file.mp3` ❌
+
+### 3. RSS Feed Requirements for Spotify
+- `<itunes:email>` must be at channel level (not just in `<itunes:owner>`)
+- `<itunes:image>` must point to valid, publicly accessible image
+- Minimum 1400×1400px artwork recommended
+- All episodes need proper `<pubDate>` in RFC 822 format
+
+### 4. Timezone Handling
+- Use Central Time (or your timezone) for episode dates
+- Convert using: `new Date(now.toLocaleString('en-US', { timeZone: 'America/Chicago' }))`
+- This ensures episodes are dated for "today" not "yesterday" if running early morning
+
+### 5. Cost Optimization
+- Google TTS offers 1M free WaveNet/Journey characters per month — at ~9K chars/episode daily, usage (~270K/month) stays well within the free tier
+- Journey voices cost 4× more than Neural2 ($16 vs $4 per million chars) if you exceed the free tier
+- Twitter API is pay-per-use ($0.00015/call) - very affordable
+- Total cost ~$1.50/month for daily episodes (essentially just Claude API)
+- Monthly TTS usage is tracked in `tts-usage.json` on gh-pages with threshold warnings at 80% and 100%
+
+### 6. Content Scraping
+- Web scraping is fragile - selectors break when sites redesign
+- Use RSS feeds when available (more reliable)
+- Set proper `User-Agent` headers to avoid blocks
+- Twitter API requires free developer account at developer.twitter.com
+
+### 7. Testing
+- Test locally first: `node src/index.js`
+- Use `workflow_dispatch` for manual triggers during development
+- Cost tracker logs to `/tmp/` - view with `npm run cost-report`
+- Validate RSS feed at podba.se/validate before submitting to Spotify
+
+### 8. GitHub Actions Cron
+- Can run up to 15 minutes late during peak times
+- Use `workflow_dispatch` for immediate testing
+- Logs are in Actions tab - use `gh run view --log` for CLI access
+
+### 9. Google Cloud TTS
+- 1M free WaveNet/Journey characters per month — daily episodes stay well within this
+- Journey voices may require `v1beta1` endpoint
+- 5000 byte limit per request - implement chunking for longer scripts
+- Speaking rate 1.05-1.1 sounds more natural than 1.0
+- Test different voices - Journey-D (male), Journey-F (female)
+
+### 10. Anthropic Claude
+- Sonnet 4.6 produces best quality scripts
+- Set `max_tokens: 2500` minimum (bump to 3500 if truncating)
+- Include detailed style guidelines in prompt
+- Return token usage for cost tracking
 
 ---
 
-## Potential Enhancements (Post-MVP)
+## API Setup Guides
 
-- **Auto-prune old episodes**: Add a workflow step that deletes `gh-pages/episodes/` files older than 90 days to keep the repo under the 1 GB limit.
-- **Transcript file**: Commit the script as a `.txt` alongside each MP3 and link it from the RSS `<description>` field.
-- **Episode artwork**: Add a static `artwork.jpg` to `gh-pages` and reference it via `<itunes:image>` so podcast apps show cover art.
-- **Friday "week in review"**: Detect Friday in the workflow and adjust the Claude prompt to summarize the full week instead of just the day.
-- **Deduplication log**: Maintain a `seen-items.json` in `gh-pages` to avoid repeating the same stories on consecutive days.
-- **Slack/email ping**: After publishing, POST to a Slack webhook or send a quick email confirming delivery with the episode URL.
+### Anthropic API
+1. Go to console.anthropic.com
+2. Create API key
+3. Add to GitHub Secrets as `ANTHROPIC_API_KEY`
+4. Cost: $3/million input tokens, $15/million output tokens
+
+### Google Cloud TTS
+1. Create project at console.cloud.google.com
+2. Enable Cloud Text-to-Speech API
+3. Create service account with "Cloud Text-to-Speech User" role
+4. Download JSON key
+5. Add full JSON contents to GitHub Secrets as `GCP_SERVICE_ACCOUNT_JSON`
+6. Cost: 1M free WaveNet/Journey characters per month; $16/million characters beyond that
+
+### Twitter API (Optional)
+1. Sign up at developer.twitter.com
+2. Create project and app
+3. Generate Bearer Token (free Basic tier)
+4. Add to GitHub Secrets as `TWITTER_BEARER_TOKEN`
+5. Cost: $0.00015 per API call (~$0.02/month for this use case)
 
 ---
 
-## Handoff Notes for Claude Code
+## Potential Enhancements
 
-1. **Start with `src/fetcher.js`** — use `curl` or a browser to inspect the live Databricks blog and newsroom pages to confirm CSS selectors before writing the scraper. This is the most fragile part of the system and will need updating if Databricks redesigns their site.
-2. **Twitter/X API setup**: Sign up at [developer.twitter.com](https://developer.twitter.com), create a project/app, and generate a Bearer Token. The free Basic tier allows ~500k tweet reads/month — far more than needed. Look up the numeric user IDs for `@ghodsi` and `@rxin` using `GET /2/users/by/username/:username` before hardcoding them.
-3. **Weather API**: Open-Meteo requires no API key and is free. The `synthesizeScript` function fetches Austin weather automatically before calling Claude — no additional setup needed.
-4. **Initialize `gh-pages` manually first** (Step 8 above) before the first workflow run, otherwise the GitHub API committer will fail.
-5. **Test locally** with `node src/index.js` — it will commit to your real `gh-pages` branch, so consider using a throwaway test repo for the first run.
-6. **GCP TTS note**: The `Journey` voices may require the `v1beta1` API endpoint. If you get a voice-not-found error, check the current Node.js SDK docs and switch the client to the beta endpoint. For a 10-minute episode, consider bumping the `speakingRate` to `1.1` — it sounds more natural at longer lengths.
-7. **RSS validation**: After the first run, paste your feed URL into [podba.se/validate](https://podba.se/validate/) or [castfeedvalidator.com](https://castfeedvalidator.com) before subscribing in Spotify.
-8. **Cron timing**: GitHub Actions scheduled jobs can run up to 15 minutes late during peak periods. The workflow is currently set for 11 AM UTC (6 AM CST / 7 AM CDT) — adjust to your preferred wake-up window, keeping the 15-minute buffer in mind.
-9. **`max_tokens` for Claude**: The prompt targets 1,200–1,800 words. At ~1.3 tokens/word, set `max_tokens: 2500` minimum. If Claude truncates, bump to `3500`.
+- **Auto-prune old episodes**: Delete files >90 days old from gh-pages to stay under 1GB limit
+- **Transcript files**: Save script as `.txt` alongside MP3 for accessibility
+- **Two-host conversation**: Use separate synthesis for 2 voices, stitch audio together
+- **Friday wrap-up**: Detect Friday and summarize full week instead of single day
+- **Deduplication**: Track seen stories to avoid repeating same news
+- **Slack/email notifications**: POST to webhook after successful publish
+- **Multiple timezone support**: Generate different versions for different listeners
+- **Voice cloning**: Use ElevenLabs voice cloning for truly personal podcast
+
+---
+
+## Troubleshooting
+
+### Feed returns 404
+- GitHub Pages takes 1-2 minutes to deploy after commit
+- Check if file exists in gh-pages branch on GitHub
+- Verify PAGES_BASE_URL is set correctly
+
+### Spotify rejects feed
+- Check `<itunes:email>` is at channel level
+- Verify artwork.jpg exists and is accessible
+- Validate feed at podba.se/validate
+- Ensure all enclosure URLs are full URLs (not relative)
+
+### Script gets truncated
+- Increase `max_tokens` in Claude API call (try 3500)
+- Check Claude API response for finish_reason
+
+### TTS fails
+- Check GCP service account has correct permissions
+- Verify credentials JSON is valid
+- For long scripts, implement chunking (see src/tts.js)
+
+### Cost higher than expected
+- Run `npm run cost-report` to see actual usage
+- Check script length - longer scripts = more TTS costs
+- Consider switching from Journey to Neural2 voices (75% cheaper)
+
+### Twitter API not working
+- Verify TWITTER_BEARER_TOKEN is set in GitHub Secrets
+- Check token hasn't expired at developer.twitter.com
+- Pipeline will gracefully skip Twitter if token not set
+
+---
+
+## Built With Claude Code
+
+This entire project was built using [Claude Code](https://www.anthropic.com/claude/code), Anthropic's AI-powered development tool. Claude Code helped with:
+
+- Architecture design
+- Code implementation across all modules
+- RSS feed debugging and Spotify compatibility fixes
+- Cost tracking integration
+- Test writing
+- Documentation
+
+To build your own version:
+```bash
+claude code
+> help me build a daily AI podcast following the spec in daily-ai-audio-briefing-spec.md
+```
+
+---
+
+## License
+
+MIT - feel free to use and modify for your own personal podcast!
+
+---
+
+## Credits
+
+Created by [Your Name] using Claude Code.
+
+**Inspiration**: Personal need for a daily AI/Databricks briefing delivered as a podcast during morning routine.
+
+**Tech choices**: Prioritized quality (Journey voices, Sonnet 4.6) over cost. Total ~$18/year thanks to Google TTS free tier — essentially just paying for Claude API.

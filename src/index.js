@@ -19,11 +19,12 @@ const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
 const { publishEpisode } = require('./githubCommitter');
 const { CostTracker } = require('./costTracker');
+const { updateTTSUsage } = require('./ttsUsageTracker');
 
 const BASE_URL = process.env.PAGES_BASE_URL;
 const REPO = process.env.GITHUB_REPOSITORY;
 const GH_TOKEN = process.env.GITHUB_TOKEN;
-const PODCAST_TITLE = process.env.PODCAST_TITLE || 'The Data & AI Daily';
+const PODCAST_TITLE = process.env.PODCAST_TITLE || 'Daily Databricks and AI Podcast';
 const PODCAST_AUTHOR = process.env.PODCAST_AUTHOR || 'Unknown';
 
 /**
@@ -141,7 +142,7 @@ async function run() {
     const updatedFeed = buildUpdatedFeed(
       existingFeed,
       {
-        title: `The Data & AI Daily — ${dateStr}`,
+        title: `${PODCAST_TITLE} — ${dateStr}`,
         date: dateStr, // Use Central Time date
         fileName: episodeFileName,
         fileSizeBytes,
@@ -183,6 +184,15 @@ async function run() {
     // Print cost summary and log to file
     costTracker.printSummary();
     costTracker.logToFile('/tmp/podcast-costs.jsonl');
+
+    // Persist TTS usage to gh-pages and check free-tier thresholds
+    console.log('Tracking TTS usage...');
+    try {
+      await updateTTSUsage(ttsCharacters);
+    } catch (err) {
+      console.error(`  Failed to update TTS usage tracking: ${err.message}`);
+    }
+    console.log();
 
   } catch (error) {
     console.error();
