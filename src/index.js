@@ -93,7 +93,7 @@ async function run() {
     console.log('STEP 2: Synthesizing audio script...');
     console.log();
 
-    const { script, usage: claudeUsage } = await synthesizeScript(contentBundle);
+    const { script, summary, usage: claudeUsage } = await synthesizeScript(contentBundle);
     const wordCount = script.split(/\s+/).length;
 
     // Track Claude costs
@@ -146,7 +146,7 @@ async function run() {
         fileName: episodeFileName,
         fileSizeBytes,
         durationSeconds,
-        description: script.slice(0, 250) + '...',
+        description: summary,
       },
       BASE_URL,
       {

@@ -143,12 +143,25 @@ Return ONLY the spoken script. No labels, no headers, no stage directions, no ma
 
     console.log(`  Generated script: ${wordCount} words`);
 
-    // Return script and usage data for cost tracking
+    // Generate a short summary for the episode description
+    console.log('  Generating episode summary...');
+    const summaryMessage = await client.messages.create({
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 150,
+      messages: [{
+        role: 'user',
+        content: `In 2-3 sentences, summarize the key topics covered in this podcast episode. Write it as a listener-facing description — informative and engaging, no host names or personal references.\n\nScript:\n${script}`,
+      }],
+    });
+    const summary = summaryMessage.content[0].text.trim();
+
+    // Return script, summary, and combined usage data for cost tracking
     return {
       script,
+      summary,
       usage: {
-        inputTokens: message.usage.input_tokens,
-        outputTokens: message.usage.output_tokens,
+        inputTokens: message.usage.input_tokens + summaryMessage.usage.input_tokens,
+        outputTokens: message.usage.output_tokens + summaryMessage.usage.output_tokens,
       },
     };
 
