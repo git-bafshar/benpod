@@ -77,7 +77,7 @@ Then in GitHub: **Settings → Pages → Source → Deploy from branch → gh-pa
 
 ### 5. Add Podcast Artwork
 
-Create `artwork.jpg` (1400x1400 to 3000x3000 pixels, under 500KB) and commit it to the repo root.
+`artwork.jpg` is hosted on the `gh-pages` branch (1400x1400 to 3000x3000 pixels, under 500KB). To update it, commit a new version to `gh-pages`.
 
 ### 6. Test Locally
 
@@ -151,7 +151,6 @@ daily-podcast/
 │   ├── tts.js                 # Google TTS with chunking for long scripts
 │   ├── publisher.js           # RSS 2.0 + iTunes feed builder
 │   └── githubCommitter.js     # GitHub API commits to gh-pages
-├── artwork.jpg                # Podcast cover art (1400x1400 to 3000x3000 px)
 ├── .env                       # Local config (gitignored)
 ├── service-account.json       # GCP credentials (gitignored)
 ├── package.json
@@ -302,7 +301,7 @@ Edit `src/synthesizer.js` — change the Claude prompt to:
 - For local testing, create Personal Access Token with `repo` scope
 
 ### Podcast artwork not showing
-- Verify `artwork.jpg` exists in repo root
+- Verify `artwork.jpg` exists on the `gh-pages` branch
 - Check file size (must be under 500 KB)
 - Dimensions must be square (1400x1400 to 3000x3000 px)
 - Wait for podcast apps to refresh feed (or unsubscribe/resubscribe)
