@@ -41,8 +41,9 @@ Optional: `TWITTER_BEARER_TOKEN`, `PODCAST_TITLE`, `PODCAST_AUTHOR`
 
 ## Git Workflow
 
-- Always create a feature branch for changes — never commit directly to `main`
-- Use PRs to merge into `main`
+- **Never commit directly to `main`** — always create a feature branch first
+- Push the branch and open a PR to merge into `main`
+- Wait for CI checks to pass before merging
 
 ## Conventions
 
@@ -55,4 +56,4 @@ Optional: `TWITTER_BEARER_TOKEN`, `PODCAST_TITLE`, `PODCAST_AUTHOR`
 
 ## Schedule
 
-Runs daily at 5:00 AM Central (11:00 UTC) via GitHub Actions. See `.github/workflows/daily-briefing.yml`.
+Runs daily at 5:30 AM Central (11:30 UTC) via GitHub Actions. See `.github/workflows/daily-briefing.yml`.
