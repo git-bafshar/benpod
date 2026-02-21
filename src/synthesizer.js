@@ -43,7 +43,7 @@ async function fetchAustinWeather() {
 /**
  * Synthesize audio script from content bundle
  */
-async function synthesizeScript(contentBundle) {
+async function synthesizeScript(contentBundle, episodeMemory = null) {
   const client = new Anthropic({
     apiKey: process.env.ANTHROPIC_API_KEY,
     timeout: 60 * 1000, // 60 seconds
@@ -63,13 +63,24 @@ async function synthesizeScript(contentBundle) {
     + `high of ${weather.high}°F, low of ${weather.low}°F, `
     + `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
 
+  const memoryContext = episodeMemory
+    ? `═══════════════════════════════════════════════
+RECENT EPISODE CONTEXT (last 7 days):
+═══════════════════════════════════════════════
+The following summaries capture what this podcast covered recently. Use this context to create natural continuity — for example, noting when a story has developed since a previous episode, or briefly recapping something relevant before diving deeper. Only reference prior coverage when it genuinely adds value. Never force connections that aren't there.
+
+${episodeMemory}
+
+`
+    : '';
+
   const prompt = `
 You are writing the script for "The Data & AI Daily," a two-host personal morning podcast for Tyler.
 Today is ${today}. Tyler is based in Austin, Texas.
 
 Austin weather right now: ${weatherSummary}
 
-The show has two hosts:
+${memoryContext}The show has two hosts:
 - HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
 - COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
 

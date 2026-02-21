@@ -20,6 +20,13 @@ const { buildUpdatedFeed } = require('./publisher');
 const { publishEpisode } = require('./githubCommitter');
 const { CostTracker } = require('./costTracker');
 const { updateTTSUsage } = require('./ttsUsageTracker');
+const {
+  getEpisodeMemory,
+  commitEpisodeMemory,
+  extractKeyTopics,
+  addEpisodeToMemory,
+  formatMemoryForPrompt,
+} = require('./episodeMemory');
 
 const BASE_URL = process.env.PAGES_BASE_URL;
 const REPO = process.env.GITHUB_REPOSITORY;
@@ -92,11 +99,33 @@ async function run({ dryRun = false } = {}) {
     }
     console.log();
 
+    // 1.5. Fetch episode memory for cross-episode continuity
+    console.log('STEP 1.5: Fetching episode memory...');
+    let episodeMemoryData = { episodes: [] };
+    let episodeMemorySha = null;
+    let episodeMemoryForPrompt = '';
+
+    try {
+      const { data, sha } = await getEpisodeMemory();
+      episodeMemoryData = data;
+      episodeMemorySha = sha;
+      episodeMemoryForPrompt = formatMemoryForPrompt(data, 7);
+      const count = data.episodes.length;
+      console.log(`  Loaded ${count} episode${count !== 1 ? 's' : ''} from memory`);
+    } catch (err) {
+      console.error(`  Warning: could not load episode memory: ${err.message}`);
+      console.error('  Continuing without cross-episode context.');
+    }
+    console.log();
+
     // 2. Synthesize script with Claude
     console.log('STEP 2: Synthesizing audio script...');
     console.log();
 
-    const { script, summary, usage: claudeUsage } = await synthesizeScript(contentBundle);
+    const { script, summary, usage: claudeUsage } = await synthesizeScript(
+      contentBundle,
+      episodeMemoryForPrompt || null
+    );
     const wordCount = script.split(/\s+/).length;
 
     // Track Claude costs
@@ -199,6 +228,23 @@ async function run({ dryRun = false } = {}) {
     console.log();
     console.log('Episode published! Subscribe in your podcast app:');
     console.log(`   ${BASE_URL}/feed.xml`);
+
+    // 5.5. Extract key topics and update episode memory on gh-pages
+    console.log('Updating episode memory...');
+    try {
+      const { topics: keyTopics, usage: topicsUsage } = await extractKeyTopics(script);
+      const newRecord = { date: dateStr, summary, keyTopics };
+      const updatedMemory = addEpisodeToMemory(episodeMemoryData, newRecord);
+      await commitEpisodeMemory(updatedMemory, episodeMemorySha);
+      console.log(`  Memory updated: ${keyTopics.length} topics extracted for ${dateStr}`);
+      if (topicsUsage) {
+        const topicsCost = costTracker.trackClaude(topicsUsage.inputTokens, topicsUsage.outputTokens);
+        console.log(`  Memory topics cost: $${topicsCost.totalCost.toFixed(4)} (${topicsUsage.inputTokens} in + ${topicsUsage.outputTokens} out tokens)`);
+      }
+    } catch (err) {
+      console.error(`  Warning: failed to update episode memory: ${err.message}`);
+    }
+    console.log();
 
     // Print cost summary and log to file
     costTracker.printSummary();
