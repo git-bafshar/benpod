@@ -2,9 +2,9 @@ name: Daily AI Briefing
 
 on:
   schedule:
-    # Run at 11:30 AM UTC every day
+    # Run at 11:30 AM UTC on weekdays only
     # (5:30 AM CST / 6:30 AM CDT)
-    - cron: '30 11 * * *'
+    - cron: '30 11 * * 1-5'
   workflow_dispatch:  # Allow manual trigger
 
 # Required so the Action can commit to gh-pages
