@@ -817,9 +817,9 @@ async function fetchAdditionalSourcing() {
 }
 
 module.exports = {
-  fetchDatabricksReleaseNotes,
+  /**fetchDatabricksReleaseNotes,
   fetchDatabricksBlog,
-  fetchDatabricksContent,
+  fetchDatabricksContent,*/
   fetchAINews,
   fetchNewsletters,
   fetchRealEstateNews,
