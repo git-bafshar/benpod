@@ -1,10 +1,11 @@
 /**
  * Script Synthesizer
  *
- * Uses Claude API to generate a spoken-word audio script with Chicago weather integration
+ * Uses Gemini API (or Claude API) to generate a spoken-word audio script with Chicago weather integration
  */
 
-const Anthropic = require('@anthropic-ai/sdk');
+// const Anthropic = require('@anthropic-ai/sdk');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 const axios = require('axios');
 
 /**
@@ -41,9 +42,185 @@ async function fetchChicagoWeather() {
 }
 
 /**
+ * Synthesize audio script from content bundle using Gemini
+ */
+async function synthesizeScriptGemini(contentBundle, episodeMemory = null) {
+  const apiKey = process.env.GOOGLE_API_KEY;
+  if (!apiKey) {
+    throw new Error('GOOGLE_API_KEY not found in environment');
+  }
+
+  const genAI = new GoogleGenerativeAI(apiKey);
+  const modelPro = genAI.getGenerativeModel({ model: "gemini-2.5-pro" });
+  const modelFlash = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
+
+  const today = new Date().toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'America/Chicago',
+  });
+
+  // Fetch Chicago weather
+  const weather = await fetchChicagoWeather();
+  const weatherSummary = `${weather.description}, currently ${weather.current}°F, `
+    + `high of ${weather.high}°F, low of ${weather.low}°F, `
+    + `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
+
+  const memoryContext = episodeMemory
+    ? `═══════════════════════════════════════════════
+RECENT EPISODE CONTEXT (last 7 days):
+═══════════════════════════════════════════════
+The following summaries capture what this podcast covered recently. Use this context to create natural continuity — for example, noting when a story has developed since a previous episode, or briefly recapping something relevant before diving deeper. Only reference prior coverage when it genuinely adds value. Never force connections that aren't there.
+
+${episodeMemory}
+
+`
+    : '';
+
+  const prompt = `
+You are writing the script for "The Daily Briefing," a two-host personal morning podcast for Ben.
+Today is ${today}. Ben is based in Chicago, Illinois.
+
+Chicago weather right now: ${weatherSummary}
+
+${memoryContext}The show has two hosts:
+- HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
+- COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
+
+Below is the raw content gathered from two main sources:
+1. AI/ML news (major tech outlets, foundation model labs, startup/funding news, community discussions)
+2. Axios newsletters (Chicago, Future of Energy, AI, Daily Essentials, PM, Finish Line)
+
+YOUR TASK:
+Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
+
+═══════════════════════════════════════════════
+FORMAT RULES (critical):
+═══════════════════════════════════════════════
+- Every speaker turn MUST start with a speaker tag on its own line: [HOST] or [COHOST]
+- The spoken text for that turn follows on the next line(s).
+- Alternate between speakers naturally. Not every exchange needs to be equal length.
+- Example:
+
+[HOST]
+Good morning, Tyler! Big day in the data world.
+
+[COHOST]
+No kidding. I saw the Databricks news drop last night and almost spilled my coffee.
+
+[HOST]
+Let's get right into it.
+
+═══════════════════════════════════════════════
+STRUCTURE (follow this exactly):
+═══════════════════════════════════════════════
+
+[COLD OPEN — 15–30 seconds]
+- HOST greets Ben by name.
+- One sentence on what today's episode covers (the "headline of headlines").
+- COHOST reacts and weaves in the Chicago weather naturally (not as a weather report — more like what a friend would say: "it's looking like a scorcher out there" or "grab a jacket this morning").
+
+[THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
+Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
+Good examples: "LLM & Agent Breakthroughs", "Regulation & Policy", "Startup & Funding Moves",
+"Open Source & Research", "Chicago & Local Developments", "Energy Sector & Climate",
+"Tech Industry Moves", "AI Safety & Security".
+Discard low-signal or redundant items — not everything needs coverage.
+
+For each theme segment:
+- HOST introduces the theme with a punchy framing sentence, then delivers the core story.
+- COHOST jumps in with reactions, follow-up questions, counterpoints, or "why it matters" color.
+- Together they explain what happened, why it matters, and who it impacts (call out ML practitioners,
+  founders, tech teams, Chicago residents, or policy watchers specifically when relevant).
+- Where relevant, connect topics across categories — how AI developments impact local Chicago tech scene,
+  how energy policy affects the broader tech landscape, how national politics plays out locally, etc.
+- Add light, confident commentary — both hosts have opinions. Examples of the right tone:
+  "This is a significant shift in how the industry thinks about model safety."
+  "Honestly, this is great news for early-stage teams building on top of foundation models."
+  "I think this is being undersold — here's why it matters."
+  "This could be significant for Chicago's tech sector."
+- Use first-person ("I think", "what I find interesting here is", "we've been watching this").
+- Address Ben by name once or twice across the whole episode — not every segment.
+- Transitions between segments should feel natural, not formulaic.
+
+[WRAP-UP — 15–30 seconds]
+- HOST gives a quick recap of the 1–2 biggest themes.
+- COHOST adds what Ben should keep an eye on over the coming days.
+- Both sign off warmly and personally.
+
+═══════════════════════════════════════════════
+STYLE RULES:
+═══════════════════════════════════════════════
+- Write for the ear, not the eye. Short sentences. Active voice. No bullet points, no URLs, no markdown in the script.
+- Conversational and smart — like two well-informed colleagues riffing on the news.
+- The banter should feel natural, not forced. Don't overdo the back-and-forth — let each host make substantive points.
+- Do NOT pad with filler. If today is a slow news day, say so honestly and go deeper on fewer items.
+- Target word count: 1,200–1,800 words (8–12 minutes at a natural speaking pace).
+- The ONLY bracketed labels allowed are [HOST] and [COHOST] at the start of each speaker turn.
+  No other stage directions, segment headers, or bracketed labels.
+
+═══════════════════════════════════════════════
+RAW CONTENT:
+═══════════════════════════════════════════════
+${JSON.stringify(contentBundle, null, 2)}
+
+Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other labels, headers, stage directions, or markdown.
+`;
+
+  console.log('Synthesizing script with Gemini 1.5 Pro...');
+
+  try {
+    const result = await modelPro.generateContent(prompt);
+    const response = await result.response;
+    const script = response.text();
+
+    if (!script) {
+      throw new Error('Empty response from Gemini API');
+    }
+
+    const wordCount = script.split(/\s+/).length;
+    console.log(`  Generated script: ${wordCount} words`);
+
+    // Generate a short summary for the episode description
+    console.log('  Generating episode summary with Gemini 1.5 Flash...');
+    const summaryPrompt = `In 2-3 sentences, summarize the key topics covered in this podcast episode. Write it as a listener-facing description — informative and engaging, no host names or personal references.\n\nScript:\n${script}`;
+    
+    const summaryResult = await modelFlash.generateContent(summaryPrompt);
+    const summaryResponse = await summaryResult.response;
+    const summary = summaryResponse.text().trim();
+
+    // Usage details (Gemini SDK usage object structure)
+    const usage = response.usageMetadata;
+    const summaryUsage = summaryResponse.usageMetadata;
+
+    return {
+      script,
+      summary,
+      usage: {
+        geminiPro: {
+          promptTokens: usage.promptTokenCount || 0,
+          candidatesTokens: usage.candidatesTokenCount || 0
+        },
+        geminiFlash: {
+          promptTokens: summaryUsage.promptTokenCount || 0,
+          candidatesTokens: summaryUsage.candidatesTokenCount || 0
+        }
+      },
+    };
+
+  } catch (error) {
+    console.error('Error synthesizing script with Gemini:', error.message);
+    throw error;
+  }
+}
+
+/**
  * Synthesize audio script from content bundle
  */
 async function synthesizeScript(contentBundle, episodeMemory = null) {
+  /*
   const client = new Anthropic({
     apiKey: process.env.ANTHROPIC_API_KEY,
     timeout: 60 * 1000, // 60 seconds
@@ -207,6 +384,8 @@ Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other label
     console.error('Error synthesizing script:', error.message);
     throw error;
   }
+  */
+  return synthesizeScriptGemini(contentBundle, episodeMemory);
 }
 
 module.exports = { synthesizeScript, fetchChicagoWeather };

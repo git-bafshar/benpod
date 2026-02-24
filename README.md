@@ -1,6 +1,6 @@
 # The Data & AI Daily — Personal Podcast Automation
 
-Automated daily audio briefing covering Databricks releases and top AI/ML news, synthesized with Claude Sonnet 4.6 and delivered as a podcast RSS feed via GitHub Pages.
+Automated daily audio briefing covering Databricks releases and top AI/ML news, synthesized with Gemini 1.5 Pro and delivered as a podcast RSS feed via GitHub Pages.
 
 Wake up to a personalized 8-12 minute episode in your podcast app every weekday morning.
 
@@ -10,14 +10,14 @@ Wake up to a personalized 8-12 minute episode in your podcast app every weekday 
 
 - **Automated Daily Pipeline**: Runs Monday-Friday at 6:00 AM UTC via GitHub Actions
 - **13+ Content Sources**: Databricks (blog, newsroom, release notes), AI labs (OpenAI, Anthropic, DeepMind, Meta), tech media (The Verge, TechCrunch, VentureBeat), Hacker News, arXiv
-- **AI-Powered Script**: Claude Sonnet 4.6 generates personalized, conversational 8-12 minute scripts with Austin weather integration
-- **High-Quality Audio**: Google Cloud Text-to-Speech with Journey-D voice at 1.1x speed, with automatic chunking for long scripts
+- **AI-Powered Script**: Gemini 1.5 Pro generates personalized, conversational 8-12 minute scripts with Chicago weather integration
+- **High-Quality Audio**: Google Cloud Text-to-Speech with Studio voices, with automatic chunking for long scripts
 - **Podcast RSS Feed**: Published to GitHub Pages with iTunes tags, artwork, and owner email for Spotify submission
 - **Zero Infrastructure**: Completely free hosting via GitHub Pages + Actions
 
 ## 📋 Prerequisites
 
-1. **Anthropic API Key** - Get from https://console.anthropic.com (requires $10 minimum credit purchase)
+1. **Google API Key** - Get from https://aistudio.google.com/
 2. **Google Cloud Project** with:
    - Text-to-Speech API enabled
    - Service Account with JSON key
@@ -29,7 +29,7 @@ Wake up to a personalized 8-12 minute episode in your podcast app every weekday 
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/tylernwatson/daily-podcast.git
+git clone https://github.com/git-bafshar/benpod.git
 cd daily-podcast
 npm install
 ```
@@ -39,7 +39,7 @@ npm install
 Create `.env` file:
 
 ```bash
-ANTHROPIC_API_KEY=sk-ant-your-key-here
+GOOGLE_API_KEY=your-gemini-api-key
 GOOGLE_APPLICATION_CREDENTIALS=./service-account.json
 TWITTER_BEARER_TOKEN=your-twitter-token  # Optional
 GITHUB_TOKEN=ghp_your-personal-token-here  # For local testing
@@ -166,17 +166,17 @@ daily-podcast/
    - AI Labs: OpenAI blog, Anthropic news, DeepMind blog, Meta AI
    - Tech Media: The Verge AI (RSS), TechCrunch AI (RSS), VentureBeat AI (RSS)
    - Community: Hacker News (filtered for AI/ML/Databricks), arXiv CS.AI (RSS)
-   - Weather: Austin conditions from Open-Meteo API (free, no key)
+   - Weather: Chicago conditions from Open-Meteo API (free, no key)
 
 2. **Synthesize**:
-   - Send ~34 items + weather to Claude Sonnet 4.6
-   - Claude writes 1,200-1,800 word script (8-12 minutes)
-   - Personalized cold open with Austin weather
+   - Send items + weather to Gemini 1.5 Pro
+   - Gemini writes 1,200-1,800 word script (8-12 minutes)
+   - Personalized cold open with Chicago weather
    - 3-6 themed segments with opinionated commentary
    - Natural, conversational tone
 
 3. **Convert to Audio**:
-   - Google Cloud TTS (Journey-D voice, 1.1x speed)
+   - Google Cloud TTS (Studio voices)
    - Automatic chunking for scripts >5,000 bytes
    - Sentence-based splitting to preserve natural pauses
    - Binary MP3 concatenation
@@ -195,13 +195,13 @@ daily-podcast/
 
 | Service | Usage | Cost/day |
 |---------|-------|----------|
-| Claude API (Sonnet 4.6) | ~8,000 input + 2,500 output tokens | ~$0.04 |
-| Google TTS (Journey-D) | ~10,000 characters (8-12 min) | ~$0.04 |
+| Gemini API (1.5 Pro) | ~15,000 input + 2,500 output tokens | ~$0.03 |
+| Google TTS (Studio) | ~10,000 characters (8-12 min) | ~$0.16 |
 | Open-Meteo Weather API | Daily forecast call | Free |
 | Twitter API v2 | User timeline calls (if used) | Free |
 | GitHub Actions | ~4 min runtime | Free |
 | GitHub Pages | Static hosting | Free |
-| **Total** | | **~$0.08/day (~$29/year)** |
+| **Total** | | **~$0.19/day (~$69/year)** |
 
 ## 🎨 Customization
 

@@ -40,7 +40,7 @@ src/ttsUsageTracker.js — monthly TTS usage persistence to gh-pages
 
 ## Environment Variables
 
-Required: `ANTHROPIC_API_KEY`, `GOOGLE_APPLICATION_CREDENTIALS`, `PAGES_BASE_URL`, `GITHUB_REPOSITORY`, `GITHUB_TOKEN`
+Required: `GOOGLE_API_KEY` (Gemini), `ANTHROPIC_API_KEY` (Optional), `GOOGLE_APPLICATION_CREDENTIALS` (TTS), `PAGES_BASE_URL`, `GITHUB_REPOSITORY`, `GITHUB_TOKEN`
 Optional: `PODCAST_TITLE`, `PODCAST_AUTHOR`
 
 **Do NOT use `GITHUB_PAGES_BASE_URL`** — GitHub rejects env vars starting with `GITHUB_`. Use `PAGES_BASE_URL`.

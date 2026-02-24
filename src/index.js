@@ -112,19 +112,24 @@ async function run({ dryRun = false } = {}) {
     }
     console.log();
 
-    // 2. Synthesize script with Claude
+    // 2. Synthesize script with Claude/Gemini
     console.log('STEP 2: Synthesizing audio script...');
     console.log();
 
-    const { script, summary, usage: claudeUsage } = await synthesizeScript(
+    const { script, summary, usage: synthesizerUsage } = await synthesizeScript(
       contentBundle,
       episodeMemoryForPrompt || null
     );
     const wordCount = script.split(/\s+/).length;
 
-    // Track Claude costs
-    const claudeCost = costTracker.trackClaude(claudeUsage.inputTokens, claudeUsage.outputTokens);
-    console.log(`  💰 Claude cost: $${claudeCost.totalCost.toFixed(4)} (${claudeUsage.inputTokens} in + ${claudeUsage.outputTokens} out tokens)`);
+    // Track LLM costs (handles Claude or Gemini)
+    if (synthesizerUsage.geminiPro || synthesizerUsage.geminiFlash || synthesizerUsage.gemini2Flash || synthesizerUsage.gemini25Flash) {
+      const geminiCost = costTracker.trackGemini(synthesizerUsage);
+      console.log(`  💰 Gemini cost: $${geminiCost.totalCost.toFixed(4)}`);
+    } else {
+      const claudeCost = costTracker.trackClaude(synthesizerUsage.inputTokens, synthesizerUsage.outputTokens);
+      console.log(`  💰 Claude cost: $${claudeCost.totalCost.toFixed(4)} (${synthesizerUsage.inputTokens} in + ${synthesizerUsage.outputTokens} out tokens)`);
+    }
     console.log();
 
     // Get current time in Central Time (America/Chicago)
@@ -232,8 +237,13 @@ async function run({ dryRun = false } = {}) {
       await commitEpisodeMemory(updatedMemory, episodeMemorySha);
       console.log(`  Memory updated: ${keyTopics.length} topics extracted for ${dateStr}`);
       if (topicsUsage) {
-        const topicsCost = costTracker.trackClaude(topicsUsage.inputTokens, topicsUsage.outputTokens);
-        console.log(`  Memory topics cost: $${topicsCost.totalCost.toFixed(4)} (${topicsUsage.inputTokens} in + ${topicsUsage.outputTokens} out tokens)`);
+        if (topicsUsage.geminiFlash || topicsUsage.gemini2Flash || topicsUsage.gemini25Flash) {
+          const topicsCost = costTracker.trackGemini(topicsUsage);
+          console.log(`  Memory topics cost (Gemini): $${topicsCost.totalCost.toFixed(4)}`);
+        } else {
+          const topicsCost = costTracker.trackClaude(topicsUsage.inputTokens, topicsUsage.outputTokens);
+          console.log(`  Memory topics cost (Claude): $${topicsCost.totalCost.toFixed(4)} (${topicsUsage.inputTokens} in + ${topicsUsage.outputTokens} out tokens)`);
+        }
       }
     } catch (err) {
       console.error(`  Warning: failed to update episode memory: ${err.message}`);
