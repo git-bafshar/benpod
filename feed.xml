@@ -5,14 +5,14 @@
   <channel>
     <title>The Daily Ben</title>
     <link>https://git-bafshar.github.io/benpod</link>
-    <description>Daily briefing on Databricks releases and AI developments.</description>
+    <description>Daily briefing Ben's Current Interests.</description>
     <language>en-us</language>
     <itunes:image href="https://git-bafshar.github.io/benpod/artwork.jpg"/>
     <itunes:author>Ben</itunes:author>
-    <itunes:email>howdy@tyler.rodeo</itunes:email>
+    <itunes:email>ben.afshar@gmail.com</itunes:email>
     <itunes:owner>
       <itunes:name>Ben</itunes:name>
-      <itunes:email>howdy@tyler.rodeo</itunes:email>
+      <itunes:email>ben.afshar@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
