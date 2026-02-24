@@ -13,7 +13,7 @@ const path = require('path');
 const fs = require('fs');
 const axios = require('axios');
 
-const { fetchDatabricksContent, fetchAINews, fetchLocalNews } = require('./fetcher');
+const { fetchAINews, fetchNewsletters } = require('./fetcher');
 const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
@@ -78,27 +78,19 @@ async function run({ dryRun = false } = {}) {
     console.log('STEP 1: Fetching content from sources...');
     console.log();
 
-    const [databricksData, aiNews, localNews] = await Promise.all([
-      fetchDatabricksContent(),
+    const [aiNews, newsletters] = await Promise.all([
       fetchAINews(),
-      fetchLocalNews(),
+      fetchNewsletters(),
     ]);
 
     const contentBundle = {
-      databricks: databricksData.items,
       aiNews: aiNews,
-      localNews: localNews,
+      newsletters: newsletters,
     };
 
-    const totalItems = databricksData.items.length + aiNews.length + localNews.length;
+    const totalItems = aiNews.length + newsletters.length;
     console.log();
     console.log(`  Total items collected: ${totalItems}`);
-
-    // Track Twitter API costs if any calls were made
-    if (databricksData.twitterApiCalls > 0) {
-      const twitterCost = costTracker.trackTwitter(databricksData.twitterApiCalls);
-      console.log(`  💰 Twitter API cost: $${twitterCost.totalCost.toFixed(4)} (${databricksData.twitterApiCalls} calls)`);
-    }
     console.log();
 
     // 1.5. Fetch episode memory for cross-episode continuity

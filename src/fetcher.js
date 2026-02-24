@@ -431,15 +431,17 @@ async function fetchArxivAI() {
 }
 
 // ============================================================================
-// LOCAL NEWS SOURCES (Chicago, Politics, Energy)
+// AXIOS NEWSLETTERS (via Kill The Newsletter)
 // ============================================================================
 
 /**
- * Fetch Kill The Newsletter feed (Chicago, AI, Political, Energy topics)
+ * Fetch Axios newsletters via Kill The Newsletter feed
+ * Sources: Axios Chicago, Axios Future of Energy, Axios AI,
+ *          Axios Daily Essentials, Axios PM, Axios Finish Line
  * Filters for items published/updated today
  */
 async function fetchKillTheNewsletter() {
-  console.log('Fetching Kill The Newsletter feed...');
+  console.log('Fetching Axios newsletters (via Kill The Newsletter)...');
 
   try {
     const { data } = await axios.get(
@@ -475,15 +477,15 @@ async function fetchKillTheNewsletter() {
           title,
           summary: description || title,
           date: pubDateText,
-          source: 'Chicago/Political/Energy News'
+          source: 'Axios Newsletters'
         });
       }
     });
 
-    console.log(`  Found ${items.length} items from today`);
+    console.log(`  Found ${items.length} newsletter items from today`);
     return items;
   } catch (error) {
-    console.error('Error fetching Kill The Newsletter feed:', error.message);
+    console.error('Error fetching Axios newsletters:', error.message);
     return [];
   }
 }
@@ -533,9 +535,9 @@ async function fetchAINews() {
 }
 
 /**
- * Fetch local news (Chicago, politics, energy)
+ * Fetch Axios newsletters (Chicago, Energy, AI, Politics, General)
  */
-async function fetchLocalNews() {
+async function fetchNewsletters() {
   const killTheNewsletter = await fetchKillTheNewsletter();
   return killTheNewsletter;
 }
@@ -545,5 +547,5 @@ module.exports = {
   fetchDatabricksBlog,
   fetchDatabricksContent,
   fetchAINews,
-  fetchLocalNews
+  fetchNewsletters
 };

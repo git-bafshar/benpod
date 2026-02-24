@@ -2,9 +2,13 @@
 
 ## Project Overview
 
-Automated daily podcast pipeline: scrapes Databricks + AI news sources, synthesizes a script via Claude API, converts to audio via Google Cloud TTS, and publishes to GitHub Pages as an RSS feed.
+Automated daily podcast pipeline: aggregates AI news and Axios newsletters, synthesizes a script via Claude API, converts to audio via Google Cloud TTS, and publishes to GitHub Pages as an RSS feed.
 
-You must Source Chicago, AI, Political, Energy based on `udpated_at_current_date` content from this RSS feed - https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml
+Content sources:
+- AI/ML news (OpenAI, Anthropic, DeepMind, Meta, tech media, Hacker News, arXiv)
+- Axios newsletters via Kill The Newsletter RSS feed (Chicago, Future of Energy, AI, Daily Essentials, PM, Finish Line)
+  - Feed URL: https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml
+  - Filters for today's content only
 
 ## Quick Commands
 
@@ -17,13 +21,13 @@ You must Source Chicago, AI, Political, Energy based on `udpated_at_current_date
 
 ```text
 src/index.js          — main orchestrator (runs steps 1-5, retry logic)
-src/fetcher.js        — scrapes 13+ content sources (RSS, HTML, APIs)
+src/fetcher.js        — scrapes AI news sources + Axios newsletters via RSS
 src/synthesizer.js    — Claude API script generation + weather integration
 src/weather.js        — Open-Meteo weather API (Chicago, IL)
 src/tts.js            — Google Cloud TTS with sentence-based chunking
 src/publisher.js      — RSS 2.0 feed builder with iTunes tags
 src/githubCommitter.js — commits files to gh-pages via GitHub API
-src/costTracker.js    — per-run cost tracking (Claude, TTS, Twitter)
+src/costTracker.js    — per-run cost tracking (Claude, TTS)
 src/ttsUsageTracker.js — monthly TTS usage persistence to gh-pages
 ```
 
@@ -37,7 +41,7 @@ src/ttsUsageTracker.js — monthly TTS usage persistence to gh-pages
 ## Environment Variables
 
 Required: `ANTHROPIC_API_KEY`, `GOOGLE_APPLICATION_CREDENTIALS`, `PAGES_BASE_URL`, `GITHUB_REPOSITORY`, `GITHUB_TOKEN`
-Optional: `TWITTER_BEARER_TOKEN`, `PODCAST_TITLE`, `PODCAST_AUTHOR`
+Optional: `PODCAST_TITLE`, `PODCAST_AUTHOR`
 
 **Do NOT use `GITHUB_PAGES_BASE_URL`** — GitHub rejects env vars starting with `GITHUB_`. Use `PAGES_BASE_URL`.
 

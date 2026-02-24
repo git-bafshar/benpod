@@ -84,10 +84,9 @@ ${memoryContext}The show has two hosts:
 - HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
 - COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
 
-Below is the raw content gathered from three main categories:
-1. Databricks sources (blog, newsroom, release notes, exec social posts)
-2. Core AI/ML news (major tech outlets, foundation model lab blogs, startup/funding news)
-3. Local news (Chicago topics, politics, and energy sector developments)
+Below is the raw content gathered from two main sources:
+1. AI/ML news (major tech outlets, foundation model labs, startup/funding news, community discussions)
+2. Axios newsletters (Chicago, Future of Energy, AI, Daily Essentials, PM, Finish Line)
 
 YOUR TASK:
 Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
@@ -120,21 +119,21 @@ STRUCTURE (follow this exactly):
 
 [THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
 Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
-Good examples: "Databricks Product & Platform", "Lakehouse Ecosystem & Partners",
-"LLM & Agent Breakthroughs", "Regulation & Policy", "Startup & Funding Moves",
-"Open Source & Research", "Chicago & Local Politics", "Energy Sector Developments".
+Good examples: "LLM & Agent Breakthroughs", "Regulation & Policy", "Startup & Funding Moves",
+"Open Source & Research", "Chicago & Local Developments", "Energy Sector & Climate",
+"Tech Industry Moves", "AI Safety & Security".
 Discard low-signal or redundant items — not everything needs coverage.
 
 For each theme segment:
 - HOST introduces the theme with a punchy framing sentence, then delivers the core story.
 - COHOST jumps in with reactions, follow-up questions, counterpoints, or "why it matters" color.
-- Together they explain what happened, why it matters, and who it impacts (call out data engineers,
-  ML practitioners, founders, infra teams, Chicago residents, or policy watchers specifically when relevant).
+- Together they explain what happened, why it matters, and who it impacts (call out ML practitioners,
+  founders, tech teams, Chicago residents, or policy watchers specifically when relevant).
 - Where relevant, connect topics across categories — how AI developments impact local Chicago tech scene,
-  how energy policy affects the broader tech landscape, etc.
+  how energy policy affects the broader tech landscape, how national politics plays out locally, etc.
 - Add light, confident commentary — both hosts have opinions. Examples of the right tone:
-  "This puts real pressure on Snowflake's AI roadmap."
-  "Honestly, this is great news for early-stage teams with lean data stacks."
+  "This is a significant shift in how the industry thinks about model safety."
+  "Honestly, this is great news for early-stage teams building on top of foundation models."
   "I think this is being undersold — here's why it matters."
   "This could be significant for Chicago's tech sector."
 - Use first-person ("I think", "what I find interesting here is", "we've been watching this").
