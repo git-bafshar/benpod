@@ -1,18 +1,18 @@
 /**
  * Script Synthesizer
  *
- * Uses Claude API to generate a spoken-word audio script with Austin weather integration
+ * Uses Claude API to generate a spoken-word audio script with Chicago weather integration
  */
 
 const Anthropic = require('@anthropic-ai/sdk');
 const axios = require('axios');
 
 /**
- * Fetch current Austin, TX weather from Open-Meteo API (free, no key needed)
+ * Fetch current Chicago, IL weather from Open-Meteo API (free, no key needed)
  */
-async function fetchAustinWeather() {
+async function fetchChicagoWeather() {
   const url = 'https://api.open-meteo.com/v1/forecast'
-    + '?latitude=30.2672&longitude=-97.7431'
+    + '?latitude=41.8781&longitude=-87.6298'
     + '&current=temperature_2m,weathercode,windspeed_10m'
     + '&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max'
     + '&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FChicago&forecast_days=1';
@@ -57,8 +57,8 @@ async function synthesizeScript(contentBundle, episodeMemory = null) {
     timeZone: 'America/Chicago',
   });
 
-  // Fetch Austin weather
-  const weather = await fetchAustinWeather();
+  // Fetch Chicago weather
+  const weather = await fetchChicagoWeather();
   const weatherSummary = `${weather.description}, currently ${weather.current}°F, `
     + `high of ${weather.high}°F, low of ${weather.low}°F, `
     + `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
@@ -75,17 +75,19 @@ ${episodeMemory}
     : '';
 
   const prompt = `
-You are writing the script for "The Data & AI Daily," a two-host personal morning podcast for Tyler.
-Today is ${today}. Tyler is based in Austin, Texas.
+You are writing the script for "The Daily Briefing," a two-host personal morning podcast for Ben.
+Today is ${today}. Ben is based in Chicago, Illinois.
 
-Austin weather right now: ${weatherSummary}
+Chicago weather right now: ${weatherSummary}
 
 ${memoryContext}The show has two hosts:
 - HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
 - COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
 
-Below is the raw content gathered from Databricks sources (blog, newsroom, release notes, exec social posts)
-and core AI/ML news sources (major tech outlets, foundation model lab blogs, startup/funding news).
+Below is the raw content gathered from three main categories:
+1. Databricks sources (blog, newsroom, release notes, exec social posts)
+2. Core AI/ML news (major tech outlets, foundation model lab blogs, startup/funding news)
+3. Local news (Chicago topics, politics, and energy sector developments)
 
 YOUR TASK:
 Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
@@ -112,33 +114,36 @@ STRUCTURE (follow this exactly):
 ═══════════════════════════════════════════════
 
 [COLD OPEN — 15–30 seconds]
-- HOST greets Tyler by name.
+- HOST greets Ben by name.
 - One sentence on what today's episode covers (the "headline of headlines").
-- COHOST reacts and weaves in the Austin weather naturally (not as a weather report — more like what a friend would say: "it's looking like a scorcher out there" or "grab a jacket this morning").
+- COHOST reacts and weaves in the Chicago weather naturally (not as a weather report — more like what a friend would say: "it's looking like a scorcher out there" or "grab a jacket this morning").
 
 [THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
 Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
 Good examples: "Databricks Product & Platform", "Lakehouse Ecosystem & Partners",
 "LLM & Agent Breakthroughs", "Regulation & Policy", "Startup & Funding Moves",
-"Open Source & Research". Discard low-signal or redundant items — not everything needs coverage.
+"Open Source & Research", "Chicago & Local Politics", "Energy Sector Developments".
+Discard low-signal or redundant items — not everything needs coverage.
 
 For each theme segment:
 - HOST introduces the theme with a punchy framing sentence, then delivers the core story.
 - COHOST jumps in with reactions, follow-up questions, counterpoints, or "why it matters" color.
 - Together they explain what happened, why it matters, and who it impacts (call out data engineers,
-  ML practitioners, founders, or infra teams specifically when relevant).
-- Where relevant, connect Databricks-specific news to the broader AI landscape.
+  ML practitioners, founders, infra teams, Chicago residents, or policy watchers specifically when relevant).
+- Where relevant, connect topics across categories — how AI developments impact local Chicago tech scene,
+  how energy policy affects the broader tech landscape, etc.
 - Add light, confident commentary — both hosts have opinions. Examples of the right tone:
   "This puts real pressure on Snowflake's AI roadmap."
   "Honestly, this is great news for early-stage teams with lean data stacks."
   "I think this is being undersold — here's why it matters."
+  "This could be significant for Chicago's tech sector."
 - Use first-person ("I think", "what I find interesting here is", "we've been watching this").
-- Address Tyler by name once or twice across the whole episode — not every segment.
+- Address Ben by name once or twice across the whole episode — not every segment.
 - Transitions between segments should feel natural, not formulaic.
 
 [WRAP-UP — 15–30 seconds]
 - HOST gives a quick recap of the 1–2 biggest themes.
-- COHOST adds what Tyler should keep an eye on over the coming days.
+- COHOST adds what Ben should keep an eye on over the coming days.
 - Both sign off warmly and personally.
 
 ═══════════════════════════════════════════════
@@ -205,4 +210,4 @@ Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other label
   }
 }
 
-module.exports = { synthesizeScript, fetchAustinWeather };
+module.exports = { synthesizeScript, fetchChicagoWeather };
