@@ -1,0 +1,18 @@
+{
+  "episodes": [
+    {
+      "date": "2026-02-24",
+      "summary": "Explore the high-stakes world of AI as we discuss Anthropic’s public accusations of corporate espionage and the shifting venture capital landscape where investor loyalty is a thing of the past. This episode also dives into the rise of autonomous AI agents—from their potential to go \"rogue\" in your inbox to new tools that give users an \"AI kill switch\" for better digital control.",
+      "keyTopics": [
+        "Anthropic distillation attack allegations against Chinese labs",
+        "Venture capital firms backing both OpenAI and Anthropic",
+        "OpenClaw AI agent rogue behavior security incident",
+        "OpenAI enterprise agent partnerships with consulting firms",
+        "Salesforce Slackbot transformation into autonomous AI agent",
+        "Anthropic Cowork desktop agent for local files",
+        "Railway AI-native cloud infrastructure hundred million funding",
+        "Firefox AI Kill Switch feature for user control"
+      ]
+    }
+  ]
+}
