@@ -4,9 +4,5 @@ service-account.json
 *.mp3
 *.txt
 .DS_Store
-<<<<<<< HEAD
-/tmp/
-=======
 /tmp/
 blog-post.md
->>>>>>> 8a52dac (Update RSS feed structure for Spotify validation)
