@@ -30,9 +30,8 @@ jobs:
 
       - name: Write GCP credentials
         run: |
-          cat > gcp-key.json << 'EOF'
-          ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
-          EOF
+          echo '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}' | jq '.' > gcp-key.json
+          cat gcp-key.json  # Debug: verify file was written correctly
 
       - name: Run pipeline
         env:
