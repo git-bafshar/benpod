@@ -2,17 +2,19 @@
 
 ## Project Overview
 
-Automated daily podcast pipeline: aggregates AI news and Axios newsletters, synthesizes a script via Claude API, converts to audio via Google Cloud TTS, and publishes to GitHub Pages as an RSS feed.
+Automated daily podcast pipeline: aggregates AI news, SF Sports (Warriors/Giants/49ers), Real Estate trends, Iran-focused global affairs, and Axios newsletters. Synthesizes a script via Gemini 1.5 Pro, converts to audio via Google Cloud TTS, and publishes to GitHub Pages as an RSS feed.
 
 Content sources:
 - AI/ML news (OpenAI, Anthropic, DeepMind, Meta, tech media, Hacker News, arXiv)
-- Axios newsletters via Kill The Newsletter RSS feed (Chicago, Future of Energy, AI, Daily Essentials, PM, Finish Line)
-  - Feed URL: https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml
-  - Filters for today's content only
+- SF Sports recaps (Warriors, Giants, 49ers via ESPN API)
+- Real Estate market analysis (summarized from Zillow/Redfin RSS)
+- International relations centered on Iran (Foreign Policy, IranWire)
+- Axios newsletters via Kill The Newsletter RSS feed (Chicago, Energy, AI, Daily Essentials, PM, Finish Line)
 
 ## Quick Commands
 
 - `npm start` — run the full pipeline locally
+- `npm start -- --dry-run` — run pipeline without publishing
 - `npm test` — run Jest tests
 - `npm run cost-report -- 30` — view cost report for last N days
 - `gh workflow run daily-briefing.yml` — trigger pipeline manually on GitHub Actions
@@ -21,27 +23,20 @@ Content sources:
 
 ```text
 src/index.js          — main orchestrator (runs steps 1-5, retry logic)
-src/fetcher.js        — scrapes AI news sources + Axios newsletters via RSS
-src/synthesizer.js    — Claude API script generation + weather integration
-src/weather.js        — Open-Meteo weather API (Chicago, IL)
+src/fetcher.js        — scrapes AI news, sports API, real estate, and newsletters
+src/synthesizer.js    — Gemini 1.5 Pro script generation + weather integration
+src/episodeMemory.js  — cross-episode context and continuity management
 src/tts.js            — Google Cloud TTS with sentence-based chunking
 src/publisher.js      — RSS 2.0 feed builder with iTunes tags
 src/githubCommitter.js — commits files to gh-pages via GitHub API
-src/costTracker.js    — per-run cost tracking (Claude, TTS)
+src/costTracker.js    — per-run cost tracking (Gemini, TTS)
 src/ttsUsageTracker.js — monthly TTS usage persistence to gh-pages
 ```
 
-## Key Patterns
-
-- **GitHub Pages publishing**: all audio + feed files go to `gh-pages` branch via GitHub API (no git binary needed). See `githubCommitter.js` for the `getFileSha()` → `commitFile()` pattern.
-- **TTS chunking**: Google TTS has a 5000-byte limit per request. Scripts are split on sentence boundaries, each chunk is synthesized separately, and MP3 buffers are concatenated.
-- **Feed updates**: `publisher.js` inserts new episodes into existing `feed.xml`. Channel metadata is NOT updated on subsequent runs — if you change podcast title/description, you must regenerate or manually edit the live feed.
-- **Cost tracking**: ephemeral per-run logs go to `/tmp/podcast-costs.jsonl`. Monthly TTS character usage is persisted to `tts-usage.json` on gh-pages for free-tier monitoring.
-
 ## Environment Variables
 
-Required: `GOOGLE_API_KEY` (Gemini), `ANTHROPIC_API_KEY` (Optional), `GOOGLE_APPLICATION_CREDENTIALS` (TTS), `PAGES_BASE_URL`, `GITHUB_REPOSITORY`, `GITHUB_TOKEN`
-Optional: `PODCAST_TITLE`, `PODCAST_AUTHOR`
+Required: `GOOGLE_API_KEY` (Gemini), `GOOGLE_APPLICATION_CREDENTIALS` (TTS), `PAGES_BASE_URL`, `GITHUB_REPOSITORY`, `GITHUB_TOKEN`
+Optional: `PODCAST_TITLE`, `PODCAST_AUTHOR`, `TWITTER_BEARER_TOKEN`, `ANTHROPIC_API_KEY`
 
 **Do NOT use `GITHUB_PAGES_BASE_URL`** — GitHub rejects env vars starting with `GITHUB_`. Use `PAGES_BASE_URL`.
 
@@ -55,11 +50,7 @@ Optional: `PODCAST_TITLE`, `PODCAST_AUTHOR`
 
 - Node.js with CommonJS (`require`/`module.exports`)
 - No TypeScript
-- Tests live in `tests/` with `.test.js` suffix
+- All summarization and script tasks use Gemini (Pro for scripts, Flash for sub-tasks)
 - Pipeline failures retry up to 2x (`runWithRetry` in index.js)
 - Individual TTS chunks retry on gRPC INTERNAL errors
 - All content fetching is gracefully degraded — individual source failures don't break the pipeline
-
-## Schedule
-
-Runs daily at 5:30 AM Central (11:30 UTC) via GitHub Actions. See `.github/workflows/daily-briefing.yml`.
