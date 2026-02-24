@@ -1,16 +1,16 @@
 /**
  * Weather Fetcher
  *
- * Fetches current weather and forecast for Austin, TX
+ * Fetches current weather and forecast for Chicago, IL
  */
 
 const axios = require('axios');
 
 /**
- * Get weather for Austin, TX
+ * Get weather for Chicago, IL
  */
-async function getAustinWeather() {
-  console.log('Fetching Austin weather...');
+async function getChicagoWeather() {
+  console.log('Fetching Chicago weather...');
 
   try {
     // Using wttr.in - free weather API, no key needed
@@ -69,7 +69,7 @@ function formatWeatherForSpeech(weather) {
     speech += ` and ${weather.condition.toLowerCase()}`;
   }
 
-  speech += ` in Austin. Today's high will be ${weather.high} with a low of ${weather.low}`;
+  speech += ` in Chicago. Today's high will be ${weather.high} with a low of ${weather.low}`;
 
   const rainChance = parseInt(weather.chanceOfRain);
   if (rainChance > 30) {
@@ -79,4 +79,4 @@ function formatWeatherForSpeech(weather) {
   return speech;
 }
 
-module.exports = { getAustinWeather, formatWeatherForSpeech };
+module.exports = { getChicagoWeather, formatWeatherForSpeech };
