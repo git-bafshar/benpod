@@ -659,7 +659,7 @@ async function fetchHackerNewsAI() {
 
 /**
  * Fetch arXiv CS.AI papers (RSS)
- 
+ */
 async function fetchArxivAI() {
   console.log('Fetching arXiv AI papers...');
   return fetchRSSFeed(
@@ -668,7 +668,6 @@ async function fetchArxivAI() {
     3
   );
 }
-*/
 // ============================================================================
 // AXIOS NEWSLETTERS (via Kill The Newsletter)
 // ============================================================================
