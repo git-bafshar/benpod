@@ -6,8 +6,246 @@
 
 const axios = require('axios');
 const cheerio = require('cheerio');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36';
+
+// Initialize Gemini
+const genAI = process.env.GOOGLE_API_KEY ? new GoogleGenerativeAI(process.env.GOOGLE_API_KEY) : null;
+const modelFlash = genAI ? genAI.getGenerativeModel({ model: "gemini-flash-latest" }) : null;
+
+// ============================================================================
+// REAL ESTATE SOURCES
+// ============================================================================
+
+/**
+ * Fetch and summarize real estate news
+ */
+async function fetchRealEstateNews() {
+  console.log('Fetching Real Estate news...');
+  const feeds = [
+    { url: 'https://www.zillow.com/research/feed/', name: 'Zillow Research' },
+    { url: 'https://www.redfin.com/news/feed/', name: 'Redfin News' }
+  ];
+
+  const allItems = [];
+  for (const feed of feeds) {
+    const items = await fetchRSSFeed(feed.url, feed.name, 3);
+    allItems.push(...items);
+  }
+
+  if (!modelFlash || allItems.length === 0) {
+    return { items: allItems, usage: null };
+  }
+
+  console.log('  Summarizing Real Estate news with Gemini Flash...');
+  const prompt = `
+Act as a real estate data analyst and article summarizer. Analyze the provided RSS feed text and extract information strictly related to the following categories to be used in a short podcast segment on market conditions.
+
+Extraction Categories:
+1. Mortgage Rates: Any specific percentages, year-over-year changes, or forecasted movements.
+2. Target Price Bracket ($600k–$1.5m): Any mention of 'mid-to-high tier,' 'luxury,' or specific data points involving these price ranges.
+3. Geographic Specifics: Explicit data for California, Chicago (specifically north shore suburbs), and Montana.
+4. Market Dynamics: Evidence of buyer leverage (e.g., inventory levels, price cuts, concessions) and emerging national trends.
+
+Strict Constraints:
+- No Inference: Only report what is explicitly stated in the text. If a category (e.g., Montana or the $600k-$1.5m bracket) is not mentioned, explicitly state 'No data available for this topic.'
+
+Output: Transform the extracted facts into a summary that will be used to build a conversational podcast script segment. If data for a category is missing, skip it in the script rather than speculating.
+
+RSS Content:
+${allItems.map(i => `Title: ${i.title}\nSummary: ${i.summary}`).join('\n\n')}
+`;
+
+  try {
+    const result = await modelFlash.generateContent(prompt);
+    const response = await result.response;
+    const summary = response.text();
+    const usage = response.usageMetadata;
+
+    return {
+      items: [{
+        title: 'Real Estate Market Analysis',
+        summary: summary,
+        date: new Date().toLocaleDateString(),
+        source: 'Real Estate Analysis'
+      }],
+      usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null
+    };
+  } catch (error) {
+    console.error('Error summarizing Real Estate news:', error.message);
+    return { items: allItems, usage: null };
+  }
+}
+
+// ============================================================================
+// SPORTS SOURCES
+// ============================================================================
+
+/**
+ * Get YYYYMMDD for yesterday
+ */
+function getYesterdayDate() {
+  const d = new Date();
+  d.setDate(d.getDate() - 1);
+  return d.toISOString().slice(0, 10).replace(/-/g, '');
+}
+
+/**
+ * Fetch and summarize Warriors game
+ */
+async function fetchWarriorsGame() {
+  const date = getYesterdayDate();
+  console.log(`Fetching Warriors game for ${date}...`);
+
+  try {
+    const scoreboardUrl = `https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=${date}`;
+    const { data: scoreboard } = await axios.get(scoreboardUrl);
+
+    const event = scoreboard.events?.find(e => 
+      e.competitions[0].competitors.some(c => c.team.name === 'Warriors')
+    );
+
+    if (!event) {
+      console.log('  No Warriors game found for yesterday.');
+      return { items: [], usage: null };
+    }
+
+    const summaryUrl = `https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=${event.id}`;
+    const { data: summaryData } = await axios.get(summaryUrl);
+
+    if (!modelFlash) return { items: [{ title: `Warriors Game: ${event.name}`, summary: event.status.type.detail, source: 'ESPN' }], usage: null };
+
+    console.log('  Summarizing Warriors game with Gemini Flash...');
+    const prompt = `Analyze the provided NBA game JSON data to write a concise narrative of the event. Identify the winner, final score, and game flow. Highlight top performers and those who struggled (using efficiency and +/-). Describe the game's style (e.g., defensive struggle, shootout) based on shooting percentages and turnover counts (specify counts for both teams). Note any notable stat lines or major lead swings.\n\nJSON Data:\n${JSON.stringify(summaryData)}`;
+
+    const result = await modelFlash.generateContent(prompt);
+    const response = await result.response;
+    const usage = response.usageMetadata;
+
+    return {
+      items: [{
+        title: `Warriors Recap: ${event.name}`,
+        summary: response.text(),
+        date: new Date().toLocaleDateString(),
+        source: 'ESPN Warriors'
+      }],
+      usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null
+    };
+  } catch (error) {
+    console.error('Error fetching Warriors game:', error.message);
+    return { items: [], usage: null };
+  }
+}
+
+/**
+ * Fetch and summarize SF Giants game
+ */
+async function fetchGiantsGame() {
+  const date = getYesterdayDate();
+  console.log(`Fetching SF Giants game for ${date}...`);
+
+  try {
+    const scoreboardUrl = `https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=${date}`;
+    const { data: scoreboard } = await axios.get(scoreboardUrl);
+
+    const event = scoreboard.events?.find(e => 
+      e.competitions[0].competitors.some(c => c.team.name === 'San Francisco Giants')
+    );
+
+    if (!event) {
+      console.log('  No SF Giants game found for yesterday.');
+      return { items: [], usage: null };
+    }
+
+    const summaryUrl = `https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard/summary?event=${event.id}`;
+    const { data: summaryData } = await axios.get(summaryUrl);
+
+    if (!modelFlash) return { items: [{ title: `Giants Game: ${event.name}`, summary: event.status.type.detail, source: 'ESPN' }], usage: null };
+
+    console.log('  Summarizing SF Giants game with Gemini Flash...');
+    const prompt = `Analyze the provided MLB game JSON data to write a (no more than 5 sentence) concise narrative of the event. Identify the winner, final score, and game flow. Highlight top performers and those who struggled (ERA, at bats). Describe the game's style.\n\nJSON Data:\n${JSON.stringify(summaryData)}`;
+
+    const result = await modelFlash.generateContent(prompt);
+    const response = await result.response;
+    const usage = response.usageMetadata;
+
+    return {
+      items: [{
+        title: `Giants Recap: ${event.name}`,
+        summary: response.text(),
+        date: new Date().toLocaleDateString(),
+        source: 'ESPN Giants'
+      }],
+      usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null
+    };
+  } catch (error) {
+    console.error('Error fetching SF Giants game:', error.message);
+    return { items: [], usage: null };
+  }
+}
+
+/**
+ * Fetch and summarize 49ers game
+ */
+async function fetchNinersGame() {
+  const date = getYesterdayDate();
+  console.log(`Fetching 49ers game for ${date}...`);
+
+  try {
+    const scoreboardUrl = `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=${date}`;
+    const { data: scoreboard } = await axios.get(scoreboardUrl);
+
+    const event = scoreboard.events?.find(e => 
+      e.competitions[0].competitors.some(c => c.team.name === '49ers')
+    );
+
+    if (!event) {
+      console.log('  No 49ers game found for yesterday.');
+      return { items: [], usage: null };
+    }
+
+    const summaryUrl = `https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=${event.id}`;
+    const { data: summaryData } = await axios.get(summaryUrl);
+
+    if (!modelFlash) return { items: [{ title: `49ers Game: ${event.name}`, summary: event.status.type.detail, source: 'ESPN' }], usage: null };
+
+    console.log('  Summarizing 49ers game with Gemini Flash...');
+    const prompt = `Analyze the provided NFL game JSON data to write a concise narrative of the event. Identify the winner, final score, and game flow. Highlight top performers and those who struggled. Describe the game's style (e.g., defensive struggle, shootout) based on score and turnover counts. Note any notable stat lines or major lead swings.\n\nJSON Data:\n${JSON.stringify(summaryData)}`;
+
+    const result = await modelFlash.generateContent(prompt);
+    const response = await result.response;
+    const usage = response.usageMetadata;
+
+    return {
+      items: [{
+        title: `49ers Recap: ${event.name}`,
+        summary: response.text(),
+        date: new Date().toLocaleDateString(),
+        source: 'ESPN 49ers'
+      }],
+      usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null
+    };
+  } catch (error) {
+    console.error('Error fetching 49ers game:', error.message);
+    return { items: [], usage: null };
+  }
+}
+
+// ============================================================================
+// IRAN NEWS
+// ============================================================================
+
+/**
+ * Fetch Iran international relations news
+ */
+async function fetchIranNews() {
+  console.log('Fetching Iran international relations news...');
+  const [fp, wire] = await Promise.all([
+    fetchRSSFeed('https://foreignpolicy.com/tag/iran/feed', 'Foreign Policy - Iran', 3)
+  ]);
+  return { items: [...fp, ...wire], usage: null };
+}
 
 // ============================================================================
 // DATABRICKS SOURCES
@@ -15,7 +253,7 @@ const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/
 
 /**
  * Fetch recent Databricks release notes
- */
+ 
 async function fetchDatabricksReleaseNotes() {
   console.log('Fetching Databricks release notes...');
 
@@ -45,10 +283,11 @@ async function fetchDatabricksReleaseNotes() {
     return [];
   }
 }
+*/
 
 /**
  * Fetch recent Databricks blog posts (RSS)
- */
+ 
 async function fetchDatabricksBlog() {
   console.log('Fetching Databricks blog posts...');
 
@@ -80,10 +319,10 @@ async function fetchDatabricksBlog() {
     return [];
   }
 }
-
+*/
 /**
  * Fetch Databricks newsroom (press releases & announcements)
- */
+ 
 async function fetchDatabricksNewsroom() {
   console.log('Fetching Databricks newsroom...');
 
@@ -120,12 +359,12 @@ async function fetchDatabricksNewsroom() {
     return [];
   }
 }
-
+*/
 /**
  * Fetch tweets from Databricks exec team
  * Includes: Ali Ghodsi (CEO), Reynold Xin (Chief Architect), Matei Zaharia (CTO)
  * Requires TWITTER_BEARER_TOKEN environment variable
- */
+ 
 async function fetchDatabricksExecTweets() {
   const token = process.env.TWITTER_BEARER_TOKEN;
 
@@ -186,7 +425,7 @@ async function fetchDatabricksExecTweets() {
     return { items: [], apiCalls: 0 };
   }
 }
-
+*/
 // ============================================================================
 // AI/ML NEWS SOURCES
 // ============================================================================
@@ -420,7 +659,7 @@ async function fetchHackerNewsAI() {
 
 /**
  * Fetch arXiv CS.AI papers (RSS)
- */
+ 
 async function fetchArxivAI() {
   console.log('Fetching arXiv AI papers...');
   return fetchRSSFeed(
@@ -429,7 +668,7 @@ async function fetchArxivAI() {
     3
   );
 }
-
+*/
 // ============================================================================
 // AXIOS NEWSLETTERS (via Kill The Newsletter)
 // ============================================================================
@@ -496,7 +735,7 @@ async function fetchKillTheNewsletter() {
 
 /**
  * Fetch all Databricks content
- */
+ 
 async function fetchDatabricksContent() {
   const [releaseNotes, blog, newsroom, execTweets] = await Promise.all([
     fetchDatabricksReleaseNotes(),
@@ -510,7 +749,7 @@ async function fetchDatabricksContent() {
     twitterApiCalls: execTweets.apiCalls
   };
 }
-
+*/
 /**
  * Fetch all AI/ML news
  */
@@ -542,10 +781,50 @@ async function fetchNewsletters() {
   return killTheNewsletter;
 }
 
+/**
+ * Fetch all additional sourcing (Sports, Real Estate, Iran)
+ */
+async function fetchAdditionalSourcing() {
+  const [realEstate, warriors, niners, giants, iran] = await Promise.all([
+    fetchRealEstateNews(),
+    fetchWarriorsGame(),
+    fetchNinersGame(),
+    fetchGiantsGame(),
+    fetchIranNews()
+  ]);
+
+  const items = {
+    realEstate: realEstate.items,
+    sports: [...warriors.items, ...niners.items, ...giants.items],
+    iran: iran.items
+  };
+
+  // Combine usage
+  const usage = {
+    geminiFlash: {
+      promptTokens: (realEstate.usage?.geminiFlash?.promptTokens || 0) +
+                   (warriors.usage?.geminiFlash?.promptTokens || 0) +
+                   (niners.usage?.geminiFlash?.promptTokens || 0) +
+                   (giants.usage?.geminiFlash?.promptTokens || 0),
+      candidatesTokens: (realEstate.usage?.geminiFlash?.candidatesTokens || 0) +
+                       (warriors.usage?.geminiFlash?.candidatesTokens || 0) +
+                       (niners.usage?.geminiFlash?.candidatesTokens || 0) +
+                       (giants.usage?.geminiFlash?.candidatesTokens || 0)
+    }
+  };
+
+  return { items, usage };
+}
+
 module.exports = {
   fetchDatabricksReleaseNotes,
   fetchDatabricksBlog,
   fetchDatabricksContent,
   fetchAINews,
-  fetchNewsletters
+  fetchNewsletters,
+  fetchRealEstateNews,
+  fetchWarriorsGame,
+  fetchGiantsGame,
+  fetchIranNews,
+  fetchAdditionalSourcing
 };

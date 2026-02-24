@@ -13,7 +13,7 @@ const path = require('path');
 const fs = require('fs');
 const axios = require('axios');
 
-const { fetchAINews, fetchNewsletters } = require('./fetcher');
+const { fetchAINews, fetchNewsletters, fetchAdditionalSourcing } = require('./fetcher');
 const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
@@ -78,19 +78,32 @@ async function run({ dryRun = false } = {}) {
     console.log('STEP 1: Fetching content from sources...');
     console.log();
 
-    const [aiNews, newsletters] = await Promise.all([
+    const [aiNews, newsletters, additionalSourcingData] = await Promise.all([
       fetchAINews(),
       fetchNewsletters(),
+      fetchAdditionalSourcing()
     ]);
+
+    const { items: additionalSourcing, usage: fetcherUsage } = additionalSourcingData;
 
     const contentBundle = {
       aiNews: aiNews,
       newsletters: newsletters,
+      additionalSourcing: additionalSourcing
     };
 
-    const totalItems = aiNews.length + newsletters.length;
+    const totalItems = aiNews.length + newsletters.length + 
+                     additionalSourcing.realEstate.length + 
+                     additionalSourcing.sports.length + 
+                     additionalSourcing.iran.length;
     console.log();
     console.log(`  Total items collected: ${totalItems}`);
+
+    // Track fetcher-level LLM costs
+    if (fetcherUsage && (fetcherUsage.geminiFlash?.promptTokens > 0)) {
+      const fetcherCost = costTracker.trackGemini(fetcherUsage);
+      console.log(`  💰 Fetcher LLM cost: $${fetcherCost.totalCost.toFixed(4)}`);
+    }
     console.log();
 
     // 1.5. Fetch episode memory for cross-episode continuity

@@ -89,12 +89,16 @@ ${memoryContext}The show has two hosts:
 - HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
 - COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
 
-Below is the raw content gathered from two main sources:
-1. AI/ML news (major tech outlets, foundation model labs, startup/funding news, community discussions)
+Below is the raw content gathered from several sources:
+1. AI/ML news (major tech outlets, foundation model labs, startup/funding news, research)
 2. Axios newsletters (Chicago, Future of Energy, AI, Daily Essentials, PM, Finish Line)
+3. Additional Sourcing:
+   - Real Estate Market Analysis (Zillow/Redfin data)
+   - SF Sports Recaps (Warriors/Giants game results)
+   - International Relations (Iran-centered news)
 
 YOUR TASK:
-Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
+Produce a complete, ready-to-record two-speaker podcast script for an 8–15 minute episode.
 
 ═══════════════════════════════════════════════
 FORMAT RULES (critical):
@@ -120,30 +124,25 @@ STRUCTURE (follow this exactly):
 [COLD OPEN — 15–30 seconds]
 - HOST greets Ben by name.
 - One sentence on what today's episode covers (the "headline of headlines").
-- COHOST reacts and weaves in the Chicago weather naturally (not as a weather report — more like what a friend would say: "it's looking like a scorcher out there" or "grab a jacket this morning").
+- COHOST reacts and weaves in the Chicago weather naturally.
 
-[THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
-Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
-Good examples: "LLM & Agent Breakthroughs", "Regulation & Policy", "Startup & Funding Moves",
-"Open Source & Research", "Chicago & Local Developments", "Energy Sector & Climate",
-"Tech Industry Moves", "AI Safety & Security".
-Discard low-signal or redundant items — not everything needs coverage.
+[THEME SEGMENTS — 4 to 8 segments, each ~1–2 minutes]
+Cluster today's news into themes. Choose names that fit the actual news.
+Mandatory Themes (if data exists):
+- "AI & Tech Briefing": Coverage of major AI/ML news.
+- "Real Estate Report": Market analysis based on Zillow/Redfin summaries.
+- "Sports Desk": Quick recaps of Warriors or Giants games from yesterday.
+- "Global Affairs": International relations updates, specifically centered on Iran.
+- "Local & Regional": Chicago news from Axios.
+- "Energy & Policy": Future of Energy and politics.
 
 For each theme segment:
-- HOST introduces the theme with a punchy framing sentence, then delivers the core story.
-- COHOST jumps in with reactions, follow-up questions, counterpoints, or "why it matters" color.
-- Together they explain what happened, why it matters, and who it impacts (call out ML practitioners,
-  founders, tech teams, Chicago residents, or policy watchers specifically when relevant).
-- Where relevant, connect topics across categories — how AI developments impact local Chicago tech scene,
-  how energy policy affects the broader tech landscape, how national politics plays out locally, etc.
-- Add light, confident commentary — both hosts have opinions. Examples of the right tone:
-  "This is a significant shift in how the industry thinks about model safety."
-  "Honestly, this is great news for early-stage teams building on top of foundation models."
-  "I think this is being undersold — here's why it matters."
-  "This could be significant for Chicago's tech sector."
-- Use first-person ("I think", "what I find interesting here is", "we've been watching this").
-- Address Ben by name once or twice across the whole episode — not every segment.
-- Transitions between segments should feel natural, not formulaic.
+- HOST introduces the theme, then delivers the core story.
+- COHOST adds reactions, follow-up questions, or "why it matters" color.
+- Together they explain what happened, why it matters, and who it impacts.
+- Use first-person ("I think", "what I find interesting here is").
+- Address Ben by name once or twice across the whole episode.
+- Transitions between segments should feel natural.
 
 [WRAP-UP — 15–30 seconds]
 - HOST gives a quick recap of the 1–2 biggest themes.
@@ -169,7 +168,7 @@ ${JSON.stringify(contentBundle, null, 2)}
 Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other labels, headers, stage directions, or markdown.
 `;
 
-  console.log('Synthesizing script with Gemini 1.5 Pro...');
+  console.log('Synthesizing script with Gemini Pro...');
 
   try {
     const result = await modelPro.generateContent(prompt);
@@ -184,7 +183,7 @@ Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other label
     console.log(`  Generated script: ${wordCount} words`);
 
     // Generate a short summary for the episode description
-    console.log('  Generating episode summary with Gemini 1.5 Flash...');
+    console.log('  Generating episode summary with Gemini Flash...');
     const summaryPrompt = `In 2-3 sentences, summarize the key topics covered in this podcast episode. Write it as a listener-facing description — informative and engaging, no host names or personal references.\n\nScript:\n${script}`;
     
     const summaryResult = await modelFlash.generateContent(summaryPrompt);
@@ -261,12 +260,16 @@ ${memoryContext}The show has two hosts:
 - HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
 - COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
 
-Below is the raw content gathered from two main sources:
-1. AI/ML news (major tech outlets, foundation model labs, startup/funding news, community discussions)
+Below is the raw content gathered from several sources:
+1. AI/ML news (major tech outlets, foundation model labs, startup/funding news, research)
 2. Axios newsletters (Chicago, Future of Energy, AI, Daily Essentials, PM, Finish Line)
+3. Additional Sourcing:
+   - Real Estate Market Analysis (Zillow/Redfin data)
+   - SF Sports Recaps (Warriors/Giants game results)
+   - International Relations (Iran-centered news)
 
 YOUR TASK:
-Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
+Produce a complete, ready-to-record two-speaker podcast script for an 8–15 minute episode.
 
 ═══════════════════════════════════════════════
 FORMAT RULES (critical):
@@ -292,30 +295,25 @@ STRUCTURE (follow this exactly):
 [COLD OPEN — 15–30 seconds]
 - HOST greets Ben by name.
 - One sentence on what today's episode covers (the "headline of headlines").
-- COHOST reacts and weaves in the Chicago weather naturally (not as a weather report — more like what a friend would say: "it's looking like a scorcher out there" or "grab a jacket this morning").
+- COHOST reacts and weaves in the Chicago weather naturally.
 
-[THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
-Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
-Good examples: "LLM & Agent Breakthroughs", "Regulation & Policy", "Startup & Funding Moves",
-"Open Source & Research", "Chicago & Local Developments", "Energy Sector & Climate",
-"Tech Industry Moves", "AI Safety & Security".
-Discard low-signal or redundant items — not everything needs coverage.
+[THEME SEGMENTS — 4 to 8 segments, each ~1–2 minutes]
+Cluster today's news into themes. Choose names that fit the actual news.
+Mandatory Themes (if data exists):
+- "AI & Tech Briefing": Coverage of major AI/ML news.
+- "Real Estate Report": Market analysis based on Zillow/Redfin summaries.
+- "Sports Desk": Quick recaps of Warriors or Giants games from yesterday.
+- "Global Affairs": International relations updates, specifically centered on Iran.
+- "Local & Regional": Chicago news from Axios.
+- "Energy & Policy": Future of Energy and politics.
 
 For each theme segment:
-- HOST introduces the theme with a punchy framing sentence, then delivers the core story.
-- COHOST jumps in with reactions, follow-up questions, counterpoints, or "why it matters" color.
-- Together they explain what happened, why it matters, and who it impacts (call out ML practitioners,
-  founders, tech teams, Chicago residents, or policy watchers specifically when relevant).
-- Where relevant, connect topics across categories — how AI developments impact local Chicago tech scene,
-  how energy policy affects the broader tech landscape, how national politics plays out locally, etc.
-- Add light, confident commentary — both hosts have opinions. Examples of the right tone:
-  "This is a significant shift in how the industry thinks about model safety."
-  "Honestly, this is great news for early-stage teams building on top of foundation models."
-  "I think this is being undersold — here's why it matters."
-  "This could be significant for Chicago's tech sector."
-- Use first-person ("I think", "what I find interesting here is", "we've been watching this").
-- Address Ben by name once or twice across the whole episode — not every segment.
-- Transitions between segments should feel natural, not formulaic.
+- HOST introduces the theme, then delivers the core story.
+- COHOST adds reactions, follow-up questions, or "why it matters" color.
+- Together they explain what happened, why it matters, and who it impacts.
+- Use first-person ("I think", "what I find interesting here is").
+- Address Ben by name once or twice across the whole episode.
+- Transitions between segments should feel natural.
 
 [WRAP-UP — 15–30 seconds]
 - HOST gives a quick recap of the 1–2 biggest themes.
