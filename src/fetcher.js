@@ -241,10 +241,15 @@ async function fetchNinersGame() {
  */
 async function fetchIranNews() {
   console.log('Fetching Iran international relations news...');
-  const [fp, wire] = await Promise.all([
-    fetchRSSFeed('https://foreignpolicy.com/tag/iran/feed', 'Foreign Policy - Iran', 3)
-  ]);
-  return { items: [...fp, ...wire], usage: null };
+  try {
+    const [fp] = await Promise.all([
+      fetchRSSFeed('https://foreignpolicy.com/tag/iran/feed', 'Foreign Policy - Iran', 3)
+    ]);
+    return { items: [...fp], usage: null };
+  } catch (error) {
+    console.error('Error fetching Iran news:', error.message);
+    return { items: [], usage: null };
+  }
 }
 
 // ============================================================================
