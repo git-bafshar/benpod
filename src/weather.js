@@ -14,7 +14,7 @@ async function getAustinWeather() {
 
   try {
     // Using wttr.in - free weather API, no key needed
-    const response = await axios.get('https://wttr.in/Austin,TX?format=j1', {
+    const response = await axios.get('https://wttr.in/Chicago,IL?format=j1', {
       timeout: 5000,
       headers: {
         'User-Agent': 'Mozilla/5.0'
