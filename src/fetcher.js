@@ -431,6 +431,64 @@ async function fetchArxivAI() {
 }
 
 // ============================================================================
+// LOCAL NEWS SOURCES (Chicago, Politics, Energy)
+// ============================================================================
+
+/**
+ * Fetch Kill The Newsletter feed (Chicago, AI, Political, Energy topics)
+ * Filters for items published/updated today
+ */
+async function fetchKillTheNewsletter() {
+  console.log('Fetching Kill The Newsletter feed...');
+
+  try {
+    const { data } = await axios.get(
+      'https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml',
+      {
+        headers: { 'User-Agent': USER_AGENT },
+        timeout: 10000
+      }
+    );
+
+    const $ = cheerio.load(data, { xmlMode: true });
+    const items = [];
+    const today = new Date();
+    today.setHours(0, 0, 0, 0); // Start of today
+
+    $('item, entry').each((_, el) => {
+      const title = $(el).find('title').text().trim();
+      const description = $(el).find('description, summary, content').first().text().trim()
+        .replace(/<[^>]*>/g, '')
+        .slice(0, 300);
+
+      // Try multiple date field names (RSS 2.0, Atom, custom)
+      const pubDateText = $(el).find('pubDate, published, updated, date').first().text().trim();
+
+      if (!title || !pubDateText) return;
+
+      const pubDate = new Date(pubDateText);
+      pubDate.setHours(0, 0, 0, 0);
+
+      // Only include items from today
+      if (pubDate.getTime() === today.getTime()) {
+        items.push({
+          title,
+          summary: description || title,
+          date: pubDateText,
+          source: 'Chicago/Political/Energy News'
+        });
+      }
+    });
+
+    console.log(`  Found ${items.length} items from today`);
+    return items;
+  } catch (error) {
+    console.error('Error fetching Kill The Newsletter feed:', error.message);
+    return [];
+  }
+}
+
+// ============================================================================
 // MAIN EXPORT FUNCTIONS
 // ============================================================================
 
@@ -474,9 +532,18 @@ async function fetchAINews() {
   return [...openai, ...anthropic, ...deepmind, ...meta, ...verge, ...techcrunch, ...venturebeat, ...hn, ...arxiv];
 }
 
+/**
+ * Fetch local news (Chicago, politics, energy)
+ */
+async function fetchLocalNews() {
+  const killTheNewsletter = await fetchKillTheNewsletter();
+  return killTheNewsletter;
+}
+
 module.exports = {
   fetchDatabricksReleaseNotes,
   fetchDatabricksBlog,
   fetchDatabricksContent,
-  fetchAINews
+  fetchAINews,
+  fetchLocalNews
 };

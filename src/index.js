@@ -13,7 +13,7 @@ const path = require('path');
 const fs = require('fs');
 const axios = require('axios');
 
-const { fetchDatabricksContent, fetchAINews } = require('./fetcher');
+const { fetchDatabricksContent, fetchAINews, fetchLocalNews } = require('./fetcher');
 const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
@@ -78,17 +78,19 @@ async function run({ dryRun = false } = {}) {
     console.log('STEP 1: Fetching content from sources...');
     console.log();
 
-    const [databricksData, aiNews] = await Promise.all([
+    const [databricksData, aiNews, localNews] = await Promise.all([
       fetchDatabricksContent(),
       fetchAINews(),
+      fetchLocalNews(),
     ]);
 
     const contentBundle = {
       databricks: databricksData.items,
       aiNews: aiNews,
+      localNews: localNews,
     };
 
-    const totalItems = databricksData.items.length + aiNews.length;
+    const totalItems = databricksData.items.length + aiNews.length + localNews.length;
     console.log();
     console.log(`  Total items collected: ${totalItems}`);
 
