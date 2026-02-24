@@ -16,6 +16,14 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>The Daily Ben — 2026-02-24</title>
+      <description>Today’s episode explores the massive $100 billion investment reshaping the AI arms race and the physical infrastructure bottlenecks threatening to slow it down. We also dive into a shifting housing market where buyers are gaining leverage despite a deepening affordability crisis, and examine critical global tensions between the U.S. and Iran. The show concludes with a look at the future of the blues in Chicago through the eyes of a local legend.</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/episodes/AI-Briefing-2026-02-24.mp3" length="2969280" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/episodes/AI-Briefing-2026-02-24.mp3</guid>
+      <itunes:duration>186</itunes:duration>
+    </item>
     
     <item>
       <title>The Daily Ben — 2026-02-24.5</title>
