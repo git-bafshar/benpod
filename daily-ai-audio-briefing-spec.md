@@ -2,9 +2,9 @@
 
 ## Overview
 
-Build an automated pipeline that runs daily, scrapes AI news, SF Sports recaps, Real Estate market analysis, and Iran-focused global affairs. It synthesizes a spoken-word script using Gemini 1.5 Pro, converts it to audio via Google Cloud TTS, and publishes the MP3 + RSS feed to GitHub Pages — making it subscribable in any podcast app.
+Build an automated pipeline that runs daily, scrapes AI news, SF Sports recaps, Real Estate market analysis, and Iran-focused global affairs. It synthesizes a spoken-word script using Gemini Pro, converts it to audio via Google Cloud TTS, and publishes the MP3 + RSS feed to GitHub Pages — making it subscribable in any podcast app.
 
-**Powered by Gemini 1.5 Pro** — using multi-modal capabilities and long context to generate high-quality, conversational scripts.
+**Powered by Gemini Pro** — using multi-modal capabilities and long context to generate high-quality, conversational scripts.
 
 ---
 
@@ -41,7 +41,7 @@ Cron Job (daily via GitHub Actions)
 
 - **Runtime**: Node.js (≥20)
 - **Scheduler**: GitHub Actions
-- **LLM**: Google Gemini API (`gemini-1.5-pro` for scripts, `gemini-flash-latest` for summaries)
+- **LLM**: Google Gemini API (`gemini-2.5-pro` for scripts, `gemini-flash-latest` for summaries)
 - **TTS**: Google Cloud Text-to-Speech API (Journey-D voice - Studio quality)
 - **Hosting**: GitHub Pages
 - **Delivery**: RSS 2.0 feed with iTunes tags
@@ -108,8 +108,8 @@ To bypass the lack of public RSS feeds for premium newsletters (like Axios Chica
 
 | Service | Usage | Cost/episode |
 |---------|-------|--------------|
-| Gemini 1.5 Pro | ~15,000 input + 2,000 output tokens | ~$0.03 |
-| Gemini 1.5 Flash | ~5,000 tokens (summaries + memory) | ~$0.001 |
+| Gemini 2.5 Pro | ~15,000 input + 2,000 output tokens | ~$0.03 |
+| Gemini 2.5 Flash | ~5,000 tokens (summaries + memory) | ~$0.001 |
 | Google TTS (Journey-D) | ~10,000 characters | ~$0.00 (within 1M char free tier) |
 | **Total per episode** | | **~$0.04** |
 
