@@ -757,7 +757,7 @@ async function fetchAINews() {
   const [
     openai, anthropic, deepmind, meta,
     verge, techcrunch, venturebeat,
-    hn, arxiv
+    hn
   ] = await Promise.all([
     fetchOpenAIBlog(),
     fetchAnthropicNews(),
@@ -766,11 +766,10 @@ async function fetchAINews() {
     fetchVergeAI(),
     fetchTechCrunchAI(),
     fetchVentureBeatAI(),
-    fetchHackerNewsAI(),
-    fetchArxivAI()
+    fetchHackerNewsAI()
   ]);
 
-  return [...openai, ...anthropic, ...deepmind, ...meta, ...verge, ...techcrunch, ...venturebeat, ...hn, ...arxiv];
+  return [...openai, ...anthropic, ...deepmind, ...meta, ...verge, ...techcrunch, ...venturebeat, ...hn];
 }
 
 /**
