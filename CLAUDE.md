@@ -4,6 +4,8 @@
 
 Automated daily podcast pipeline: scrapes Databricks + AI news sources, synthesizes a script via Claude API, converts to audio via Google Cloud TTS, and publishes to GitHub Pages as an RSS feed.
 
+You must Source Chicago, AI, Political, Energy based on `udpated_at_current_date` content from this RSS feed - https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml
+
 ## Quick Commands
 
 - `npm start` — run the full pipeline locally
@@ -17,7 +19,7 @@ Automated daily podcast pipeline: scrapes Databricks + AI news sources, synthesi
 src/index.js          — main orchestrator (runs steps 1-5, retry logic)
 src/fetcher.js        — scrapes 13+ content sources (RSS, HTML, APIs)
 src/synthesizer.js    — Claude API script generation + weather integration
-src/weather.js        — Open-Meteo weather API (Austin, TX)
+src/weather.js        — Open-Meteo weather API (Chicago, IL)
 src/tts.js            — Google Cloud TTS with sentence-based chunking
 src/publisher.js      — RSS 2.0 feed builder with iTunes tags
 src/githubCommitter.js — commits files to gh-pages via GitHub API
