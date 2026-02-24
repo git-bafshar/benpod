@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Daily Ben</title>
+    <link>https://git-bafshar.github.io/benpod</link>
+    <description>Daily briefing on Databricks releases and AI developments.</description>
+    <language>en-us</language>
+    <itunes:image href="https://git-bafshar.github.io/benpod/artwork.jpg"/>
+    <itunes:author>Ben</itunes:author>
+    <itunes:email>howdy@tyler.rodeo</itunes:email>
+    <itunes:owner>
+      <itunes:name>Ben</itunes:name>
+      <itunes:email>howdy@tyler.rodeo</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    
+    <item>
+      <title>The Daily Ben — 2026-02-24</title>
+      <description>Explore the high-stakes world of AI as we discuss Anthropic’s public accusations of corporate espionage and the shifting venture capital landscape where investor loyalty is a thing of the past. This episode also dives into the rise of autonomous AI agents—from their potential to go &quot;rogue&quot; in your inbox to new tools that give users an &quot;AI kill switch&quot; for better digital control.</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/episodes/AI-Briefing-2026-02-24.mp3" length="3130560" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/episodes/AI-Briefing-2026-02-24.mp3</guid>
+      <itunes:duration>196</itunes:duration>
+    </item>
+  </channel>
+</rss>
