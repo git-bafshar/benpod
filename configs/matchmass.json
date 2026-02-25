@@ -4,7 +4,8 @@
     "title": "The Daily Matchmass",
     "author": "Matt",
     "description": "Daily briefing covering Lakers basketball, surf conditions, and California news",
-    "email": "ben.afshar@gmail.com"
+    "email": "ben.afshar@gmail.com",
+    "recipientName": "Matt"
   },
   "location": {
     "city": "Santa Barbara",

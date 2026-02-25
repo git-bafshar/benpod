@@ -181,10 +181,11 @@ ${episodeMemory}
   const wordsPerMinute = 150; // Natural conversational pace
   const minWords = minDuration * wordsPerMinute;
   const maxWords = maxDuration * wordsPerMinute;
+  const recipientName = config.metadata.recipientName || 'the listener';
 
   const prompt = `
-You are writing the script for "${config.metadata.title}," a two-host personal morning podcast for Ben.
-Today is ${today}. Ben is based in ${weather.location}.
+You are writing the script for "${config.metadata.title}," a two-host personal morning podcast for ${recipientName}.
+Today is ${today}. ${recipientName} is based in ${weather.location}.
 
 ${weather.location} weather right now: ${weatherSummary}
 
@@ -219,7 +220,7 @@ STRUCTURE (follow this exactly):
 ═══════════════════════════════════════════════
 
 [COLD OPEN — 15–30 seconds]
-- HOST greets Ben by name.
+- HOST greets ${recipientName} by name.
 - One sentence on what today's episode covers (the "headline of headlines").
 - COHOST reacts and weaves in the ${weather.location} weather naturally.
 
@@ -232,7 +233,7 @@ For each theme segment:
 - COHOST adds reactions, follow-up questions, or "why it matters" color.
 - Together they explain what happened, why it matters, and who it impacts.
 - Use first-person ("I think", "what I find interesting here is").
-- Address Ben by name once or twice across the whole episode.
+- Address ${recipientName} by name once or twice across the whole episode.
 - Transitions between segments should feel natural.
 
 [ARTICLE DISCUSSION — 2–4 minutes] (ONLY if articles are provided in the content bundle)
@@ -249,7 +250,7 @@ For each theme segment:
 
 [WRAP-UP — 15–30 seconds]
 - HOST gives a quick recap of the 1–2 biggest themes.
-- COHOST adds what Ben should keep an eye on over the coming days.
+- COHOST adds what ${recipientName} should keep an eye on over the coming days.
 - Both sign off warmly and personally.
 
 ═══════════════════════════════════════════════

@@ -4,7 +4,8 @@
     "title": "The Daily Ben",
     "author": "Ben",
     "description": "Daily briefing on Current Affairs and AI developments",
-    "email": "howdy@tyler.rodeo"
+    "email": "howdy@tyler.rodeo",
+    "recipientName": "Ben"
   },
   "location": {
     "city": "Chicago",
