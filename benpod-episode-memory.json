@@ -2,20 +2,16 @@
   "episodes": [
     {
       "date": "2026-02-25",
-      "summary": "This episode explores the high-stakes standoff between the Pentagon and AI developers over safety guardrails, alongside a deep dive into the philosophical debate over whether AI will ultimately save or endanger humanity. It also breaks down shifting leverage in the housing market, key political battles shaping the future of Illinois, and the latest headlines from the world of sports. Dive in for an essential look at the intersection of national security, emerging technology, and local headlines.",
+      "summary": "Explore the jarring contrast of modern AI, from wargame simulations that suggest nuclear escalation to new consumer tools that automate video editing. This episode also dives into record-breaking shifts in the housing market, the brewing political battles over Illinois stadium funding, and high-stakes legal accountability in Chicago’s justice system. Plus, stay updated on the latest in pro sports and the complex ideological factors driving global tensions with Iran.",
       "keyTopics": [
-        "Pentagon deadline for Anthropic to loosen AI safety guardrails",
-        "Dario Amodei essays on AI utopian and catastrophic futures",
-        "Kim Foxx under scrutiny for Illinois wrongful conviction reviews",
-        "Illinois Republican gubernatorial candidates debate Bears stadium funding",
-        "Record January home-sale cancellations increase buyer market leverage",
-        "San Francisco 49ers trade rumors involving quarterback Mac Jones",
-        "AI war game simulations frequently recommending nuclear strikes",
-        "Uber engineers develop CEO AI chatbot for pitch practice"
-      ],
-      "articles": [
-        "Dario Amodei — The Adolescence of Technology",
-        "Dario Amodei — Machines of Loving Grace"
+        "AI geopolitical wargame simulations recommending nuclear escalation",
+        "Adobe Firefly AI text-to-video draft generation feature",
+        "Chip startup MatX $500 million raise to challenge Nvidia",
+        "Kim Foxx questioning over Mendoza and Mulero wrongful convictions",
+        "January home-purchase agreement cancellations hit record 14 percent",
+        "Illinois 2026 gubernatorial GOP candidates on Bears stadium funding",
+        "Analysis of Ayatollah Khamenei’s politics of martyrdom in Iran",
+        "San Francisco 49ers Mac Jones trade rumors and Trent Williams"
       ]
     },
     {
