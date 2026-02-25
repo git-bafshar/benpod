@@ -378,7 +378,7 @@ ONLY include items that are genuinely newsworthy, such as:
 
 EXCLUDE:
 - Game previews or routine game analysis
-- Minor roster moves or practice squad changes
+- Minor roster moves or practice squad changes, undrafted rookie signings
 - Generic feature stories or player profiles
 - Historical content or anniversary pieces
 
