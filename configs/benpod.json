@@ -16,7 +16,7 @@
   "paths": {
     "feedFile": "feed.xml",
     "episodesDir": "episodes",
-    "episodeMemoryFile": "episode-memory.json"
+    "episodeMemoryFile": "benpod-episode-memory.json"
   },
   "content": {
     "aiNews": {
