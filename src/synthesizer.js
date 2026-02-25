@@ -219,6 +219,18 @@ For each theme segment:
 - Address Ben by name once or twice across the whole episode.
 - Transitions between segments should feel natural.
 
+[ARTICLE DISCUSSION — 2–4 minutes] (ONLY if articles are provided in the content bundle)
+- If articles are present, include a dedicated segment for in-depth discussion.
+- HOST introduces the article discussion segment naturally (e.g., "Before we wrap, let's go deeper on something interesting I've been reading...")
+- For each article:
+  * HOST provides the article title and main thesis
+  * COHOST engages with the key points, asking clarifying questions
+  * Both hosts explore implications, counterarguments, and why it matters
+  * Use the analysis provided in the article data to guide discussion
+  * Make it conversational and thought-provoking, not a dry summary
+- This should feel like a deeper dive, not rushed news coverage.
+- If NO articles are provided, skip this section entirely.
+
 [WRAP-UP — 15–30 seconds]
 - HOST gives a quick recap of the 1–2 biggest themes.
 - COHOST adds what Ben should keep an eye on over the coming days.

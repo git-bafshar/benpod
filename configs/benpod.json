@@ -51,6 +51,12 @@
       "sources": [
         {"type": "rss", "url": "https://foreignpolicy.com/tag/iran/feed", "name": "Foreign Policy"}
       ]
+    },
+    "articles": {
+      "enabled": true,
+      "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/poxbj6f42z66128xxi06.xml",
+      "maxPerEpisode": 2,
+      "includeInDepthDiscussion": true
     }
   },
   "voices": {

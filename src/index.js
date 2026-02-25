@@ -14,7 +14,7 @@ const fs = require('fs');
 const axios = require('axios');
 
 const { loadConfig } = require('./config');
-const { fetchAINews, fetchNewsletters, fetchAdditionalSourcing } = require('./fetcher');
+const { fetchAINews, fetchNewsletters, fetchAdditionalSourcing, fetchArticles } = require('./fetcher');
 const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
@@ -124,6 +124,28 @@ async function run({ dryRun = false, config = null } = {}) {
       console.error('  Continuing without cross-episode context.');
     }
     console.log();
+
+    // 1.6. Fetch articles for in-depth discussion (after episode memory is loaded)
+    let articlesData = { items: [], usage: null };
+    if (config?.content?.articles?.enabled) {
+      console.log('STEP 1.6: Fetching articles for in-depth discussion...');
+      console.log();
+      articlesData = await fetchArticles(config, episodeMemoryData);
+
+      if (articlesData.items.length > 0) {
+        console.log(`  Found ${articlesData.items.length} article(s) for discussion`);
+      }
+
+      // Track article fetching costs
+      if (articlesData.usage && articlesData.usage.geminiFlash?.promptTokens > 0) {
+        const articleCost = costTracker.trackGemini(articlesData.usage);
+        console.log(`  💰 Article analysis cost: $${articleCost.totalCost.toFixed(4)}`);
+      }
+      console.log();
+    }
+
+    // Add articles to content bundle
+    contentBundle.articles = articlesData.items;
 
     // 2. Synthesize script with Claude/Gemini
     console.log('STEP 2: Synthesizing audio script...');
@@ -248,10 +270,22 @@ async function run({ dryRun = false, config = null } = {}) {
     console.log('Updating episode memory...');
     try {
       const { topics: keyTopics, usage: topicsUsage } = await extractKeyTopics(script);
-      const newRecord = { date: dateStr, summary, keyTopics };
+
+      // Include article titles in memory to prevent duplicates
+      const articleTitles = articlesData.items.map(article => article.title);
+      const newRecord = {
+        date: dateStr,
+        summary,
+        keyTopics,
+        ...(articleTitles.length > 0 && { articles: articleTitles })
+      };
+
       const updatedMemory = addEpisodeToMemory(episodeMemoryData, newRecord);
       await commitEpisodeMemory(updatedMemory, episodeMemorySha, config);
-      console.log(`  Memory updated: ${keyTopics.length} topics extracted for ${dateStr}`);
+
+      const memoryMsg = `${keyTopics.length} topics extracted`;
+      const articlesMsg = articleTitles.length > 0 ? `, ${articleTitles.length} article(s) recorded` : '';
+      console.log(`  Memory updated: ${memoryMsg}${articlesMsg} for ${dateStr}`);
       if (topicsUsage) {
         if (topicsUsage.geminiFlash || topicsUsage.gemini2Flash || topicsUsage.gemini25Flash) {
           const topicsCost = costTracker.trackGemini(topicsUsage);

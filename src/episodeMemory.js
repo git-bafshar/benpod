@@ -201,10 +201,51 @@ function formatMemoryForPrompt(memoryData, days = 7) {
   }).join('\n');
 }
 
+/**
+ * Get list of article titles that have been covered in recent episodes
+ * @param {Object} memoryData - Episode memory data
+ * @param {number} days - Number of days to look back (default 30)
+ * @returns {Array<string>} Array of article titles that have been covered
+ */
+function getCoveredArticles(memoryData, days = 30) {
+  if (!memoryData.episodes || memoryData.episodes.length === 0) return [];
+
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - days);
+  cutoff.setHours(0, 0, 0, 0);
+
+  const relevant = memoryData.episodes.filter(ep => new Date(ep.date) >= cutoff);
+
+  const coveredArticles = [];
+  for (const ep of relevant) {
+    if (ep.articles && Array.isArray(ep.articles)) {
+      coveredArticles.push(...ep.articles);
+    }
+  }
+
+  return coveredArticles;
+}
+
+/**
+ * Check if an article title has been covered recently
+ * @param {Object} memoryData - Episode memory data
+ * @param {string} articleTitle - Title to check
+ * @param {number} days - Number of days to look back
+ * @returns {boolean} True if article has been covered
+ */
+function hasArticleBeenCovered(memoryData, articleTitle, days = 30) {
+  const covered = getCoveredArticles(memoryData, days);
+  // Normalize titles for comparison (lowercase, trim)
+  const normalizedTitle = articleTitle.toLowerCase().trim();
+  return covered.some(title => title.toLowerCase().trim() === normalizedTitle);
+}
+
 module.exports = {
   getEpisodeMemory,
   commitEpisodeMemory,
   extractKeyTopics,
   addEpisodeToMemory,
   formatMemoryForPrompt,
+  getCoveredArticles,
+  hasArticleBeenCovered,
 };

@@ -10,6 +10,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const { fetchSurflineConditions } = require('./surfConditions');
 const { areOlympicsActive, fetchOlympicsUpdates } = require('./olympics');
 const { isWorldCupActive, fetchWorldCupUpdates } = require('./worldcup');
+const { hasArticleBeenCovered } = require('./episodeMemory');
 
 const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36';
 
@@ -1016,6 +1017,167 @@ async function fetchNewsletters(config) {
 }
 
 /**
+ * Fetch article content from links in RSS feed and summarize with Gemini
+ * @param {Object} config - Configuration object
+ * @param {Object} episodeMemory - Episode memory to check for previously covered articles
+ * @returns {Promise<Object>} Articles and usage data
+ */
+async function fetchArticles(config, episodeMemory) {
+  if (!config?.content?.articles?.enabled) {
+    return { items: [], usage: null };
+  }
+
+  console.log('Fetching articles from RSS feed...');
+
+  try {
+    const feedUrl = config.content.articles.killTheNewsletterFeedUrl;
+    const maxArticles = config.content.articles.maxPerEpisode || 2;
+
+    // Fetch RSS feed to get article links
+    const { data } = await axios.get(feedUrl, {
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 10000
+    });
+
+    const $ = cheerio.load(data, { xmlMode: true });
+    const articleLinks = [];
+
+    $('item').each((_, el) => {
+      const title = $(el).find('title').text().trim();
+      const link = $(el).find('link').text().trim();
+
+      if (title && link) {
+        // Check if article has been covered before
+        if (!hasArticleBeenCovered(episodeMemory, title, 30)) {
+          articleLinks.push({ title, link });
+        } else {
+          console.log(`  Skipping previously covered article: ${title}`);
+        }
+      }
+    });
+
+    if (articleLinks.length === 0) {
+      console.log('  No new articles found');
+      return { items: [], usage: null };
+    }
+
+    // Limit to maxArticles
+    const articlesToFetch = articleLinks.slice(0, maxArticles);
+    console.log(`  Found ${articlesToFetch.length} new article(s) to analyze`);
+
+    if (!modelFlash) {
+      console.log('  Gemini not available, skipping article analysis');
+      return { items: [], usage: null };
+    }
+
+    // Fetch and summarize each article
+    const articles = [];
+    let totalPromptTokens = 0;
+    let totalCandidatesTokens = 0;
+
+    for (const { title, link } of articlesToFetch) {
+      try {
+        console.log(`  Fetching article: ${title}`);
+
+        // Fetch article web page
+        const articleResponse = await axios.get(link, {
+          headers: { 'User-Agent': USER_AGENT },
+          timeout: 15000
+        });
+
+        // Extract article content
+        const $page = cheerio.load(articleResponse.data);
+
+        // Remove scripts, styles, nav, headers, footers
+        $page('script, style, nav, header, footer, aside, .ad, .advertisement').remove();
+
+        // Try to find article content (common selectors)
+        let articleText = '';
+        const contentSelectors = ['article', 'main', '.post-content', '.article-content', '.entry-content', 'body'];
+
+        for (const selector of contentSelectors) {
+          const content = $page(selector).first().text().trim();
+          if (content.length > 500) {
+            articleText = content;
+            break;
+          }
+        }
+
+        // Fallback to body if no content found
+        if (!articleText) {
+          articleText = $page('body').text().trim();
+        }
+
+        // Clean up whitespace
+        articleText = articleText
+          .replace(/\s+/g, ' ')
+          .replace(/\n+/g, '\n')
+          .trim()
+          .slice(0, 15000); // Limit to ~15k chars to stay within context limits
+
+        if (articleText.length < 200) {
+          console.log(`  ⚠️  Article content too short, skipping: ${title}`);
+          continue;
+        }
+
+        // Summarize with Gemini
+        const prompt = `You are analyzing an article for in-depth discussion on a daily podcast.
+
+Article Title: ${title}
+Article URL: ${link}
+
+Article Content:
+${articleText}
+
+Provide a comprehensive analysis including:
+1. Main thesis or argument (2-3 sentences)
+2. Key supporting points or evidence (3-4 bullet points)
+3. Potential counterarguments or limitations
+4. Why this matters / implications (1-2 sentences)
+5. Discussion angles for podcast hosts (2-3 thought-provoking questions or angles)
+
+Format as structured text (not JSON), keeping it conversational and suitable for podcast discussion.`;
+
+        const result = await modelFlash.generateContent(prompt);
+        const response = await result.response;
+        const analysis = response.text().trim();
+        const usage = response.usageMetadata;
+
+        totalPromptTokens += usage.promptTokenCount || 0;
+        totalCandidatesTokens += usage.candidatesTokenCount || 0;
+
+        articles.push({
+          title,
+          link,
+          analysis,
+          source: 'Curated Articles'
+        });
+
+        console.log(`  ✅ Analyzed: ${title}`);
+
+      } catch (articleError) {
+        console.error(`  ❌ Failed to fetch/analyze article "${title}":`, articleError.message);
+        continue;
+      }
+    }
+
+    return {
+      items: articles,
+      usage: articles.length > 0 ? {
+        geminiFlash: {
+          promptTokens: totalPromptTokens,
+          candidatesTokens: totalCandidatesTokens
+        }
+      } : null
+    };
+
+  } catch (error) {
+    console.error('Error fetching articles:', error.message);
+    return { items: [], usage: null };
+  }
+}
+
+/**
  * Fetch all additional sourcing (Sports, Real Estate, Iran, Surf, Olympics, World Cup)
  * @param {Object} config - Configuration object with content settings
  * @returns {Promise<Object>} Object with items and usage data
@@ -1178,6 +1340,7 @@ module.exports = {
   fetchAINews,
   fetchNewsletters,
   fetchAdditionalSourcing,
+  fetchArticles,
   // Legacy functions kept for backward compatibility
   fetchRealEstateNews,
   fetchWarriorsGame,
