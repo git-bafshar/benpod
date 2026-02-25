@@ -2,16 +2,20 @@
   "episodes": [
     {
       "date": "2026-02-25",
-      "summary": "Explore the jarring contrast of modern AI, from wargame simulations that suggest nuclear escalation to new consumer tools that automate video editing. This episode also dives into record-breaking shifts in the housing market, the brewing political battles over Illinois stadium funding, and high-stakes legal accountability in Chicago’s justice system. Plus, stay updated on the latest in pro sports and the complex ideological factors driving global tensions with Iran.",
+      "summary": "Discover the dual reality of AI as groundbreaking creative tools arrive alongside sobering warnings about the future of human progress and technological safety. This episode also examines record-high cancellations in the housing market, the high-stakes political battles brewing in Illinois, and the deep-seated ideological motivations driving global tensions.",
       "keyTopics": [
-        "AI geopolitical wargame simulations recommending nuclear escalation",
-        "Adobe Firefly AI text-to-video draft generation feature",
-        "Chip startup MatX $500 million raise to challenge Nvidia",
-        "Kim Foxx questioning over Mendoza and Mulero wrongful convictions",
-        "January home-purchase agreement cancellations hit record 14 percent",
-        "Illinois 2026 gubernatorial GOP candidates on Bears stadium funding",
-        "Analysis of Ayatollah Khamenei’s politics of martyrdom in Iran",
-        "San Francisco 49ers Mac Jones trade rumors and Trent Williams"
+        "Adobe Firefly Quick Cut automated video editing feature",
+        "Atlassian Jira integration of autonomous AI task agents",
+        "Kim Foxx questioning over Cook County wrongful conviction reviews",
+        "Record high US home sale cancellation rate in January",
+        "Anthropic CEO Dario Amodei essays on AI safety and progress",
+        "Illinois 2026 gubernatorial race and Bears stadium funding debate",
+        "San Francisco 49ers Trent Williams contract and Mac Jones trade",
+        "Ayatollah Khamenei politics of martyrdom and US-Iran tensions"
+      ],
+      "articles": [
+        "Dario Amodei — The Adolescence of Technology",
+        "Dario Amodei — Machines of Loving Grace"
       ]
     },
     {
