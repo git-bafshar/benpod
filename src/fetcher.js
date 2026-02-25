@@ -1033,7 +1033,7 @@ async function fetchArticles(config, episodeMemory) {
     const feedUrl = config.content.articles.killTheNewsletterFeedUrl;
     const maxArticles = config.content.articles.maxPerEpisode || 2;
 
-    // Fetch RSS feed to get article links
+    // Fetch RSS/Atom feed to get article links
     const { data } = await axios.get(feedUrl, {
       headers: { 'User-Agent': USER_AGENT },
       timeout: 10000
@@ -1042,11 +1042,35 @@ async function fetchArticles(config, episodeMemory) {
     const $ = cheerio.load(data, { xmlMode: true });
     const articleLinks = [];
 
-    $('item').each((_, el) => {
-      const title = $(el).find('title').text().trim();
-      const link = $(el).find('link').text().trim();
+    // Try RSS format first (item tags)
+    let entries = $('item');
+    let isAtom = false;
 
-      if (title && link) {
+    // If no items found, try Atom format (entry tags)
+    if (entries.length === 0) {
+      entries = $('entry');
+      isAtom = true;
+    }
+
+    entries.each((_, el) => {
+      const title = $(el).find('title').text().trim();
+      let link = '';
+
+      if (isAtom) {
+        // For Atom feeds, extract link from content HTML (handle entity-encoded quotes)
+        const content = $(el).find('content').html() || '';
+        const linkMatch = content.match(/href=(?:&quot;|["'])([^&"']+)(?:&quot;|["'])/);
+        if (linkMatch) {
+          link = linkMatch[1];
+          // Decode HTML entities
+          link = link.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
+        }
+      } else {
+        // For RSS feeds, get link element
+        link = $(el).find('link').text().trim();
+      }
+
+      if (title && link && !link.includes('kill-the-newsletter.com/feeds')) {
         // Check if article has been covered before
         if (!hasArticleBeenCovered(episodeMemory, title, 30)) {
           articleLinks.push({ title, link });
