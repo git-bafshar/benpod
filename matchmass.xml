@@ -16,6 +16,14 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>The Daily Matchmass — 2026-02-25</title>
+      <description>Experience the highs and lows of the sports and tech worlds, from the Lakers&apos; heartbreaking buzzer-beater loss to the rapid integration of AI agents as official team members in the workplace. This episode also dives into major policy moves regarding international data privacy and the latest creative updates from Adobe and Amazon.</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-02-25.mp3" length="2577024" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-02-25.mp3</guid>
+      <itunes:duration>161</itunes:duration>
+    </item>
     
     <item>
       <title>The Daily Matchmass — 2026-02-24</title>
