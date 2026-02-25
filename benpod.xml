@@ -16,6 +16,14 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>The Daily Ben — 2026-02-25</title>
+      <description>Explore the rapid transformation of AI as it moves from a passive tool to an active workplace teammate, alongside a critical look at the &quot;technological adolescence&quot; and safety challenges facing the industry. This episode also breaks down the deepening housing affordability crisis and covers essential local updates, from high-stakes legal investigations in Cook County to the latest shifts in Illinois politics and professional sports.</description>
+      <pubDate>Wed, 25 Feb 2026 09:43:33 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-02-25-094333.mp3" length="3907392" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-02-25-094333.mp3</guid>
+      <itunes:duration>244</itunes:duration>
+    </item>
     
     <item>
       <title>The Daily Ben — 2026-02-25</title>
