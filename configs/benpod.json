@@ -26,7 +26,8 @@
     },
     "newsletters": {
       "enabled": true,
-      "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml"
+      "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml",
+      "killTheNewsletterFeedUrl": "https://wirepoints.org/feed/"
     },
     "sports": {
       "enabled": true,

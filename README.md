@@ -1,6 +1,6 @@
 # The Data & AI Daily — Personal Podcast Automation
 
-Automated daily audio briefing covering Databricks releases, AI/ML news, SF Sports, Real Estate, and Global Affairs, synthesized with Gemini 2.5 Pro and delivered as a podcast RSS feed via GitHub Pages.
+Automated daily audio briefing covering AI releases and news, SF Sports, Real Estate, and Global Affairs, synthesized with Gemini 2.5 Pro and delivered as a podcast RSS feed via GitHub Pages.
 
 Wake up to a personalized 8-15 minute episode in your podcast app every weekday morning.
 
