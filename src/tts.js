@@ -11,11 +11,6 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const VOICE_CONFIGS = {
-  HOST: { languageCode: 'en-US', name: 'en-US-Studio-O' },
-  COHOST: { languageCode: 'en-US', name: 'en-US-Studio-Q' },
-};
-
 /**
  * Parse a two-speaker script into ordered segments by speaker.
  * Expects [HOST] and [COHOST] tags at the start of each turn.
@@ -119,14 +114,23 @@ function combineMP3Files(files, outputPath) {
 
 /**
  * Convert two-speaker script to audio using Google Cloud TTS
+ * @param {string} script - Script text with [HOST]/[COHOST] tags
+ * @param {string} outputPath - Output path for final MP3
+ * @param {Object} config - Podcast configuration with voice settings
  */
-async function convertToAudio(script, outputPath) {
+async function convertToAudio(script, outputPath, config) {
   console.log('Converting script to audio with Google Cloud TTS...');
 
   try {
     const client = new textToSpeech.TextToSpeechClient({
       keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS
     });
+
+    // Build voice configs from config
+    const VOICE_CONFIGS = {
+      HOST: config.voices.host,
+      COHOST: config.voices.cohost
+    };
 
     const segments = parseScriptBySpeaker(script);
     const totalChars = Buffer.byteLength(script, 'utf8');

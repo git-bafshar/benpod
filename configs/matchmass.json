@@ -1,0 +1,65 @@
+{
+  "id": "matchmass",
+  "metadata": {
+    "title": "The Daily Matchmass",
+    "author": "Ben",
+    "description": "Daily briefing covering Lakers basketball, surf conditions, and California news",
+    "email": "ben.afshar@gmail.com"
+  },
+  "location": {
+    "city": "Santa Barbara",
+    "state": "CA",
+    "latitude": 34.4208,
+    "longitude": -119.6982,
+    "timezone": "America/Los_Angeles"
+  },
+  "paths": {
+    "feedFile": "matchmass.xml",
+    "episodesDir": "matchmass",
+    "episodeMemoryFile": "matchmass-memory.json"
+  },
+  "content": {
+    "aiNews": {
+      "enabled": true,
+      "sources": ["verge", "techcrunch", "venturebeat", "hackernews"],
+      "focus": "B2B SaaS"
+    },
+    "newsletters": {
+      "enabled": true,
+      "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/tgcwe9cs5pfpw3ipkpjm.xml"
+    },
+    "sports": {
+      "enabled": true,
+      "teams": [
+        {"league": "nba", "name": "Lakers", "espnApiName": "la-lakers", "espnNewsId": "13"}
+      ],
+      "includeTeamNews": true,
+      "events": [
+        {"type": "olympics", "enabled": true, "onlyDuringEvent": true},
+        {"type": "worldcup", "enabled": true, "onlyDuringEvent": true}
+      ]
+    },
+    "surfConditions": {
+      "enabled": true,
+      "location": "Santa Barbara County",
+      "provider": "surfline",
+      "spotIds": ["5842041f4e65fad6a7708814"]
+    },
+    "realEstate": {
+      "enabled": false
+    },
+    "internationalRelations": {
+      "enabled": false
+    }
+  },
+  "voices": {
+    "host": {
+      "languageCode": "en-US",
+      "name": "en-US-Studio-O"
+    },
+    "cohost": {
+      "languageCode": "en-US",
+      "name": "en-US-Studio-Q"
+    }
+  }
+}

@@ -1,12 +1,15 @@
 /**
  * Content Fetcher
  *
- * Fetches content from Databricks and AI/ML news sources
+ * Fetches content from AI/ML news sources, sports, newsletters, and other configured sources
  */
 
 const axios = require('axios');
 const cheerio = require('cheerio');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { fetchSurflineConditions } = require('./surfConditions');
+const { areOlympicsActive, fetchOlympicsUpdates } = require('./olympics');
+const { isWorldCupActive, fetchWorldCupUpdates } = require('./worldcup');
 
 const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36';
 
@@ -21,9 +24,11 @@ const modelFlash = genAI ? genAI.getGenerativeModel({ model: "gemini-flash-lates
 /**
  * Fetch and summarize real estate news
  */
-async function fetchRealEstateNews() {
+async function fetchRealEstateNews(config) {
   console.log('Fetching Real Estate news...');
-  const feeds = [
+
+  // Use feeds from config if provided, otherwise fall back to defaults
+  const feeds = config?.feeds || [
     { url: 'https://www.zillow.com/research/feed/', name: 'Zillow Research' },
     { url: 'https://www.redfin.com/news/feed/', name: 'Redfin News' }
   ];
@@ -39,17 +44,22 @@ async function fetchRealEstateNews() {
   }
 
   console.log('  Summarizing Real Estate news with Gemini Flash...');
+
+  // Build prompt with dynamic target markets and price range from config
+  const targetMarkets = config?.targetMarkets?.join(', ') || 'California, Chicago (specifically north shore suburbs), and Montana';
+  const priceRange = config?.priceRange || '$600k–$1.5m';
+
   const prompt = `
 Act as a real estate data analyst and article summarizer. Analyze the provided RSS feed text and extract information strictly related to the following categories to be used in a short podcast segment on market conditions.
 
 Extraction Categories:
 1. Mortgage Rates: Any specific percentages, year-over-year changes, or forecasted movements.
-2. Target Price Bracket ($600k–$1.5m): Any mention of 'mid-to-high tier,' 'luxury,' or specific data points involving these price ranges.
-3. Geographic Specifics: Explicit data for California, Chicago (specifically north shore suburbs), and Montana.
+2. Target Price Bracket (${priceRange}): Any mention of 'mid-to-high tier,' 'luxury,' or specific data points involving these price ranges.
+3. Geographic Specifics: Explicit data for ${targetMarkets}.
 4. Market Dynamics: Evidence of buyer leverage (e.g., inventory levels, price cuts, concessions) and emerging national trends.
 
 Strict Constraints:
-- No Inference: Only report what is explicitly stated in the text. If a category (e.g., Montana or the $600k-$1.5m bracket) is not mentioned, explicitly state 'No data available for this topic.'
+- No Inference: Only report what is explicitly stated in the text. If a category is not mentioned, explicitly state 'No data available for this topic.'
 
 Output: Transform the extracted facts into a summary that will be used to build a conversational podcast script segment. If data for a category is missing, skip it in the script rather than speculating.
 
@@ -196,7 +206,7 @@ async function fetchNinersGame() {
     const scoreboardUrl = `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=${date}`;
     const { data: scoreboard } = await axios.get(scoreboardUrl);
 
-    const event = scoreboard.events?.find(e => 
+    const event = scoreboard.events?.find(e =>
       e.competitions[0].competitors.some(c => c.team.name === '49ers')
     );
 
@@ -228,6 +238,200 @@ async function fetchNinersGame() {
     };
   } catch (error) {
     console.error('Error fetching 49ers game:', error.message);
+    return { items: [], usage: null };
+  }
+}
+
+/**
+ * Generic function to fetch and summarize a sports game by league
+ */
+async function fetchSportsGame(league, teamName, espnApiName) {
+  const date = getYesterdayDate();
+  console.log(`Fetching ${teamName} game for ${date}...`);
+
+  try {
+    const leagueMap = {
+      'nba': { sport: 'basketball', league: 'nba' },
+      'mlb': { sport: 'baseball', league: 'mlb' },
+      'nfl': { sport: 'football', league: 'nfl' }
+    };
+
+    const leagueInfo = leagueMap[league.toLowerCase()];
+    if (!leagueInfo) {
+      console.error(`  Unknown league: ${league}`);
+      return { items: [], usage: null };
+    }
+
+    const scoreboardUrl = `https://site.api.espn.com/apis/site/v2/sports/${leagueInfo.sport}/${leagueInfo.league}/scoreboard?dates=${date}`;
+    const { data: scoreboard } = await axios.get(scoreboardUrl);
+
+    const event = scoreboard.events?.find(e =>
+      e.competitions[0].competitors.some(c =>
+        c.team.name === teamName ||
+        c.team.displayName === teamName ||
+        c.team.shortDisplayName === teamName
+      )
+    );
+
+    if (!event) {
+      console.log(`  No ${teamName} game found for yesterday.`);
+      return { items: [], usage: null };
+    }
+
+    let summaryUrl;
+    if (league.toLowerCase() === 'mlb') {
+      summaryUrl = `https://site.api.espn.com/apis/site/v2/sports/${leagueInfo.sport}/${leagueInfo.league}/scoreboard/summary?event=${event.id}`;
+    } else {
+      summaryUrl = `https://site.api.espn.com/apis/site/v2/sports/${leagueInfo.sport}/${leagueInfo.league}/summary?event=${event.id}`;
+    }
+
+    const { data: summaryData } = await axios.get(summaryUrl);
+
+    if (!modelFlash) return { items: [{ title: `${teamName} Game: ${event.name}`, summary: event.status.type.detail, source: 'ESPN' }], usage: null };
+
+    console.log(`  Summarizing ${teamName} game with Gemini Flash...`);
+
+    let prompt;
+    if (league.toLowerCase() === 'nba') {
+      prompt = `Analyze the provided NBA game JSON data to write a concise narrative of the event. Identify the winner, final score, and game flow. Highlight top performers and those who struggled (using efficiency and +/-). Describe the game's style (e.g., defensive struggle, shootout) based on shooting percentages and turnover counts (specify counts for both teams). Note any notable stat lines or major lead swings.\n\nJSON Data:\n${JSON.stringify(summaryData)}`;
+    } else if (league.toLowerCase() === 'mlb') {
+      prompt = `Analyze the provided MLB game JSON data to write a (no more than 5 sentence) concise narrative of the event. Identify the winner, final score, and game flow. Highlight top performers and those who struggled (ERA, at bats). Describe the game's style.\n\nJSON Data:\n${JSON.stringify(summaryData)}`;
+    } else if (league.toLowerCase() === 'nfl') {
+      prompt = `Analyze the provided NFL game JSON data to write a concise narrative of the event. Identify the winner, final score, and game flow. Highlight top performers and those who struggled. Describe the game's style (e.g., defensive struggle, shootout) based on score and turnover counts. Note any notable stat lines or major lead swings.\n\nJSON Data:\n${JSON.stringify(summaryData)}`;
+    }
+
+    const result = await modelFlash.generateContent(prompt);
+    const response = await result.response;
+    const usage = response.usageMetadata;
+
+    return {
+      items: [{
+        title: `${teamName} Recap: ${event.name}`,
+        summary: response.text(),
+        date: new Date().toLocaleDateString(),
+        source: `ESPN ${teamName}`
+      }],
+      usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null
+    };
+  } catch (error) {
+    console.error(`Error fetching ${teamName} game:`, error.message);
+    return { items: [], usage: null };
+  }
+}
+
+/**
+ * Fetch team news from ESPN and filter for newsworthy items
+ * @param {string} league - 'nba', 'mlb', or 'nfl'
+ * @param {string} teamName - Team display name
+ * @param {string} espnNewsId - ESPN team ID for news API
+ */
+async function fetchTeamNews(league, teamName, espnNewsId) {
+  if (!espnNewsId) {
+    return { items: [], usage: null };
+  }
+
+  try {
+    // Map league to ESPN API sport path
+    const sportPath = {
+      'nba': 'basketball/nba',
+      'mlb': 'baseball/mlb',
+      'nfl': 'football/nfl'
+    }[league];
+
+    if (!sportPath) {
+      console.error(`Unknown league: ${league}`);
+      return { items: [], usage: null };
+    }
+
+    const url = `https://site.api.espn.com/apis/site/v2/sports/${sportPath}/news?team=${espnNewsId}&limit=10`;
+    const { data } = await axios.get(url, {
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 10000
+    });
+
+    if (!data.articles || data.articles.length === 0) {
+      return { items: [], usage: null };
+    }
+
+    // Extract article data for Gemini filtering
+    const articles = data.articles.map(article => ({
+      headline: article.headline,
+      description: article.description,
+      published: article.published
+    }));
+
+    if (!modelFlash) {
+      return { items: [], usage: null };
+    }
+
+    // Use Gemini to identify truly newsworthy items
+    const prompt = `You are filtering ${teamName} team news for a sports podcast. Review the following news headlines and descriptions.
+
+ONLY include items that are genuinely newsworthy, such as:
+- Trades (completed or rumored)
+- Major signings or contract extensions
+- Significant injuries to star players
+- Major statements by ownership, coaches, or GMs about team direction
+- Playoff implications or standings changes
+- Roster moves of significant impact
+- Controversial incidents or team drama
+
+EXCLUDE:
+- Game previews or routine game analysis
+- Minor roster moves or practice squad changes
+- Generic feature stories or player profiles
+- Historical content or anniversary pieces
+
+Return a JSON array of newsworthy items with this structure:
+[
+  {
+    "headline": "original headline",
+    "summary": "1-2 sentence summary explaining why this is newsworthy"
+  }
+]
+
+If NO items are newsworthy, return an empty array: []
+
+News items:
+${JSON.stringify(articles, null, 2)}
+
+Return ONLY valid JSON, no other text.`;
+
+    const result = await modelFlash.generateContent(prompt);
+    const response = await result.response;
+    const usage = response.usageMetadata;
+
+    let newsItems = [];
+    try {
+      const text = response.text().trim();
+      // Remove markdown code fences if present
+      const jsonText = text.replace(/^```json?\n?/i, '').replace(/\n?```$/i, '');
+      newsItems = JSON.parse(jsonText);
+    } catch (parseError) {
+      console.error(`Failed to parse team news JSON for ${teamName}:`, parseError.message);
+      return { items: [], usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null };
+    }
+
+    if (!Array.isArray(newsItems) || newsItems.length === 0) {
+      return { items: [], usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null };
+    }
+
+    console.log(`  Found ${newsItems.length} newsworthy ${teamName} items`);
+
+    const formattedItems = newsItems.map(item => ({
+      title: `${teamName}: ${item.headline}`,
+      summary: item.summary,
+      date: new Date().toLocaleDateString(),
+      source: `ESPN ${teamName} News`
+    }));
+
+    return {
+      items: formattedItems,
+      usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null
+    };
+
+  } catch (error) {
+    console.error(`Error fetching ${teamName} team news:`, error.message);
     return { items: [], usage: null };
   }
 }
@@ -684,12 +888,15 @@ async function fetchArxivAI() {
  *          Axios Daily Essentials, Axios PM, Axios Finish Line
  * Filters for items published/updated today
  */
-async function fetchKillTheNewsletter() {
+async function fetchKillTheNewsletter(feedUrl) {
   console.log('Fetching Axios newsletters (via Kill The Newsletter)...');
+
+  // Use provided URL or fall back to default
+  const url = feedUrl || 'https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml';
 
   try {
     const { data } = await axios.get(
-      'https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml',
+      url,
       {
         headers: { 'User-Agent': USER_AGENT },
         timeout: 10000
@@ -757,78 +964,226 @@ async function fetchDatabricksContent() {
 */
 /**
  * Fetch all AI/ML news
+ * @param {Object} config - Configuration object with content.aiNews settings
+ * @returns {Promise<Array>} Array of news items
  */
-async function fetchAINews() {
-  const [
-    openai, anthropic, deepmind, meta,
-    verge, techcrunch, venturebeat,
-    hn
-  ] = await Promise.all([
-    fetchOpenAIBlog(),
-    fetchAnthropicNews(),
-    fetchDeepMindBlog(),
-    fetchMetaAIBlog(),
-    fetchVergeAI(),
-    fetchTechCrunchAI(),
-    fetchVentureBeatAI(),
-    fetchHackerNewsAI()
-  ]);
+async function fetchAINews(config) {
+  // Check if AI news is enabled
+  if (config?.content?.aiNews?.enabled === false) {
+    console.log('AI news fetching disabled by configuration');
+    return [];
+  }
 
-  return [...openai, ...anthropic, ...deepmind, ...meta, ...verge, ...techcrunch, ...venturebeat, ...hn];
+  // Define source mapping
+  const sourceMap = {
+    'openai': fetchOpenAIBlog,
+    'anthropic': fetchAnthropicNews,
+    'deepmind': fetchDeepMindBlog,
+    'meta': fetchMetaAIBlog,
+    'verge': fetchVergeAI,
+    'techcrunch': fetchTechCrunchAI,
+    'venturebeat': fetchVentureBeatAI,
+    'hackernews': fetchHackerNewsAI
+  };
+
+  // Get enabled sources from config, or use all by default
+  const enabledSources = config?.content?.aiNews?.sources || Object.keys(sourceMap);
+
+  // Build promise array for enabled sources
+  const promises = enabledSources
+    .filter(source => sourceMap[source.toLowerCase()])
+    .map(source => sourceMap[source.toLowerCase()]());
+
+  const results = await Promise.all(promises);
+
+  return results.flat();
 }
 
 /**
  * Fetch Axios newsletters (Chicago, Energy, AI, Politics, General)
+ * @param {Object} config - Configuration object with content.newsletters settings
+ * @returns {Promise<Array>} Array of newsletter items
  */
-async function fetchNewsletters() {
-  const killTheNewsletter = await fetchKillTheNewsletter();
+async function fetchNewsletters(config) {
+  // Check if newsletters are enabled
+  if (config?.content?.newsletters?.enabled === false) {
+    console.log('Newsletters fetching disabled by configuration');
+    return [];
+  }
+
+  const killTheNewsletter = await fetchKillTheNewsletter(config?.content?.newsletters?.killTheNewsletterFeedUrl);
   return killTheNewsletter;
 }
 
 /**
- * Fetch all additional sourcing (Sports, Real Estate, Iran)
+ * Fetch all additional sourcing (Sports, Real Estate, Iran, Surf, Olympics, World Cup)
+ * @param {Object} config - Configuration object with content settings
+ * @returns {Promise<Object>} Object with items and usage data
  */
-async function fetchAdditionalSourcing() {
-  const [realEstate, warriors, niners, giants, iran] = await Promise.all([
-    fetchRealEstateNews(),
-    fetchWarriorsGame(),
-    fetchNinersGame(),
-    fetchGiantsGame(),
-    fetchIranNews()
-  ]);
+async function fetchAdditionalSourcing(config) {
+  const promises = [];
+  const results = {};
 
+  // Fetch Real Estate if enabled
+  if (config?.content?.realEstate?.enabled) {
+    promises.push(
+      fetchRealEstateNews(config.content.realEstate).then(res => {
+        results.realEstate = res;
+      })
+    );
+  }
+
+  // Fetch Sports if enabled
+  if (config?.content?.sports?.enabled) {
+    const teams = config.content.sports.teams || [];
+
+    // Fetch game recaps
+    const sportsPromises = teams.map(team => fetchSportsGame(team.league, team.name, team.espnApiName));
+    promises.push(
+      Promise.all(sportsPromises).then(sportsResults => {
+        results.sports = sportsResults;
+      })
+    );
+
+    // Fetch team news if enabled
+    if (config.content.sports.includeTeamNews) {
+      const teamNewsPromises = teams
+        .filter(team => team.espnNewsId)
+        .map(team => fetchTeamNews(team.league, team.name, team.espnNewsId));
+
+      promises.push(
+        Promise.all(teamNewsPromises).then(newsResults => {
+          results.teamNews = newsResults;
+        })
+      );
+    }
+  }
+
+  // Fetch Iran international relations if enabled
+  if (config?.content?.internationalRelations?.enabled) {
+    promises.push(
+      fetchIranNews().then(res => {
+        results.iran = res;
+      })
+    );
+  }
+
+  // Fetch Surf Conditions if enabled
+  if (config?.content?.surfConditions?.enabled) {
+    promises.push(
+      fetchSurflineConditions(
+        config.content.surfConditions.spotIds,
+        config.content.surfConditions.location
+      ).then(res => {
+        results.surf = res;
+      })
+    );
+  }
+
+  // Fetch Olympics if enabled and active
+  if (config?.content?.sports?.events) {
+    const olympicsEvent = config.content.sports.events.find(e => e.type === 'olympics');
+    if (olympicsEvent?.enabled) {
+      const olympicsStatus = areOlympicsActive();
+      if (!olympicsEvent.onlyDuringEvent || olympicsStatus.active) {
+        promises.push(
+          fetchOlympicsUpdates().then(res => {
+            results.olympics = res;
+          })
+        );
+      }
+    }
+  }
+
+  // Fetch World Cup if enabled and active
+  if (config?.content?.sports?.events) {
+    const worldcupEvent = config.content.sports.events.find(e => e.type === 'worldcup');
+    if (worldcupEvent?.enabled) {
+      const worldcupStatus = isWorldCupActive();
+      if (!worldcupEvent.onlyDuringEvent || worldcupStatus.active) {
+        promises.push(
+          fetchWorldCupUpdates().then(res => {
+            results.worldcup = res;
+          })
+        );
+      }
+    }
+  }
+
+  // Wait for all promises to resolve
+  await Promise.all(promises);
+
+  // Build items object
   const items = {
-    realEstate: realEstate.items,
-    sports: [...warriors.items, ...niners.items, ...giants.items],
-    iran: iran.items
+    realEstate: results.realEstate?.items || [],
+    sports: [],
+    iran: results.iran?.items || [],
+    surf: results.surf ? [{ title: 'Surf Conditions', summary: results.surf.summary, source: 'Surfline' }] : [],
+    olympics: results.olympics ? [{ title: 'Olympics Update', summary: results.olympics.summary, source: 'Olympics' }] : [],
+    worldcup: results.worldcup ? [{ title: 'World Cup Update', summary: results.worldcup.summary, source: 'World Cup' }] : []
   };
+
+  // Flatten sports game results
+  if (results.sports) {
+    for (const sportResult of results.sports) {
+      items.sports.push(...(sportResult.items || []));
+    }
+  }
+
+  // Flatten team news results
+  if (results.teamNews) {
+    for (const newsResult of results.teamNews) {
+      items.sports.push(...(newsResult.items || []));
+    }
+  }
 
   // Combine usage
   const usage = {
     geminiFlash: {
-      promptTokens: (realEstate.usage?.geminiFlash?.promptTokens || 0) +
-                   (warriors.usage?.geminiFlash?.promptTokens || 0) +
-                   (niners.usage?.geminiFlash?.promptTokens || 0) +
-                   (giants.usage?.geminiFlash?.promptTokens || 0),
-      candidatesTokens: (realEstate.usage?.geminiFlash?.candidatesTokens || 0) +
-                       (warriors.usage?.geminiFlash?.candidatesTokens || 0) +
-                       (niners.usage?.geminiFlash?.candidatesTokens || 0) +
-                       (giants.usage?.geminiFlash?.candidatesTokens || 0)
+      promptTokens: 0,
+      candidatesTokens: 0
     }
   };
+
+  // Add real estate usage
+  if (results.realEstate?.usage?.geminiFlash) {
+    usage.geminiFlash.promptTokens += results.realEstate.usage.geminiFlash.promptTokens || 0;
+    usage.geminiFlash.candidatesTokens += results.realEstate.usage.geminiFlash.candidatesTokens || 0;
+  }
+
+  // Add sports usage
+  if (results.sports) {
+    for (const sportResult of results.sports) {
+      if (sportResult.usage?.geminiFlash) {
+        usage.geminiFlash.promptTokens += sportResult.usage.geminiFlash.promptTokens || 0;
+        usage.geminiFlash.candidatesTokens += sportResult.usage.geminiFlash.candidatesTokens || 0;
+      }
+    }
+  }
+
+  // Add team news usage
+  if (results.teamNews) {
+    for (const newsResult of results.teamNews) {
+      if (newsResult.usage?.geminiFlash) {
+        usage.geminiFlash.promptTokens += newsResult.usage.geminiFlash.promptTokens || 0;
+        usage.geminiFlash.candidatesTokens += newsResult.usage.geminiFlash.candidatesTokens || 0;
+      }
+    }
+  }
 
   return { items, usage };
 }
 
 module.exports = {
-  /**fetchDatabricksReleaseNotes,
-  fetchDatabricksBlog,
-  fetchDatabricksContent,*/
   fetchAINews,
   fetchNewsletters,
+  fetchAdditionalSourcing,
+  // Legacy functions kept for backward compatibility
   fetchRealEstateNews,
   fetchWarriorsGame,
   fetchGiantsGame,
+  fetchNinersGame,
   fetchIranNews,
-  fetchAdditionalSourcing
+  fetchSportsGame,
+  fetchTeamNews
 };

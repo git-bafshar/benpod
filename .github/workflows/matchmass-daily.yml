@@ -1,11 +1,10 @@
-name: Daily AI Briefing
+name: Matchmass Daily Briefing
 
 on:
   schedule:
-    # Run at 1:00 PM UTC on weekdays only
-    # (7:00 AM CST / 8:00 AM CDT)
-    # Note: Axios AM newsletter is available in Kill The Newsletter RSS feed by this time
-    - cron: '0 13 * * 1-5'
+    # Run at 2:00 PM UTC on weekdays only
+    # (7:00 AM Pacific / 8:00 AM PDT)
+    - cron: '0 14 * * 1-5'
   workflow_dispatch:  # Allow manual trigger
 
 # Required so the Action can commit to gh-pages
@@ -31,18 +30,15 @@ jobs:
       - name: Write GCP credentials
         run: |
           echo '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}' | jq '.' > gcp-key.json
-          cat gcp-key.json  # Debug: verify file was written correctly
 
-      - name: Run benpod pipeline
+      - name: Run matchmass pipeline
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_APPLICATION_CREDENTIALS: ./gcp-key.json
-          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
-        run: node src/index.js --config benpod
+        run: node src/index.js --config matchmass
 
       - name: Cleanup
         if: always()

@@ -12,7 +12,6 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const GH_TOKEN = process.env.GITHUB_TOKEN;
 const REPO = process.env.GITHUB_REPOSITORY;
 const BRANCH = 'gh-pages';
-const MEMORY_FILE = 'episode-memory.json';
 const API_BASE = `https://api.github.com/repos/${REPO}`;
 const MAX_EPISODES = 14;
 
@@ -33,11 +32,14 @@ Example output:
 /**
  * Fetch existing episode memory from gh-pages.
  * Returns { data: { episodes: [] }, sha: null } on first run (404).
+ * @param {Object} config - Podcast configuration
  */
-async function getEpisodeMemory() {
+async function getEpisodeMemory(config) {
+  const memoryFile = config.paths.episodeMemoryFile;
+
   try {
     const response = await axios.get(
-      `${API_BASE}/contents/${MEMORY_FILE}?ref=${BRANCH}`,
+      `${API_BASE}/contents/${memoryFile}?ref=${BRANCH}`,
       {
         headers: {
           Authorization: `Bearer ${GH_TOKEN}`,
@@ -57,21 +59,26 @@ async function getEpisodeMemory() {
 
 /**
  * Commit updated episode memory to gh-pages.
+ * @param {Object} memoryData - Memory data to commit
+ * @param {string|null} sha - SHA of existing file (null for first commit)
+ * @param {Object} config - Podcast configuration
  */
-async function commitEpisodeMemory(memoryData, sha) {
+async function commitEpisodeMemory(memoryData, sha, config) {
+  const memoryFile = config.paths.episodeMemoryFile;
+
   const contentBase64 = Buffer.from(
     JSON.stringify(memoryData, null, 2),
     'utf-8'
   ).toString('base64');
 
   const body = {
-    message: 'Update episode memory',
+    message: `Update ${config.id} episode memory`,
     content: contentBase64,
     branch: BRANCH,
     ...(sha ? { sha } : {}),
   };
 
-  await axios.put(`${API_BASE}/contents/${MEMORY_FILE}`, body, {
+  await axios.put(`${API_BASE}/contents/${memoryFile}`, body, {
     headers: {
       Authorization: `Bearer ${GH_TOKEN}`,
       Accept: 'application/vnd.github.v3+json',

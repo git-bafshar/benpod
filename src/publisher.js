@@ -20,12 +20,13 @@ function escapeXml(str) {
  * @param {string} existingFeedXml - Current feed.xml contents (empty string if first run)
  * @param {object} episode - { title, date, fileName, fileSizeBytes, durationSeconds, description }
  * @param {string} baseUrl - e.g. "https://username.github.io/repo-name"
- * @param {object} podcastInfo - { title, author, description }
+ * @param {object} podcastInfo - { title, author, description, email }
+ * @param {object} config - Podcast configuration
  * @returns {string} Updated feed XML
  */
-function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo) {
-  const episodeUrl = `${baseUrl}/episodes/${episode.fileName}`;
-  // Convert Central Time date to midnight UTC for pubDate
+function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo, config) {
+  const episodeUrl = `${baseUrl}/${config.paths.episodesDir}/${episode.fileName}`;
+  // Convert local time date to midnight UTC for pubDate
   const pubDate = new Date(episode.date).toUTCString();
 
   const newItem = `
@@ -51,10 +52,10 @@ function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo) {
     <language>en-us</language>
     <itunes:image href="${baseUrl}/artwork.jpg"/>
     <itunes:author>${escapeXml(podcastInfo.author)}</itunes:author>
-    <itunes:email>howdy@tyler.rodeo</itunes:email>
+    <itunes:email>${escapeXml(podcastInfo.email)}</itunes:email>
     <itunes:owner>
       <itunes:name>${escapeXml(podcastInfo.author)}</itunes:name>
-      <itunes:email>howdy@tyler.rodeo</itunes:email>
+      <itunes:email>${escapeXml(podcastInfo.email)}</itunes:email>
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>

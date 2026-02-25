@@ -60,25 +60,34 @@ async function commitFile(filePath, contentBase64, message) {
 }
 
 /**
- * Publish episode to gh-pages (MP3 + updated feed.xml)
+ * Publish episode to gh-pages (MP3 + updated feed)
+ * @param {string} mp3Path - Local path to MP3 file
+ * @param {string} feedXml - RSS feed XML content
+ * @param {string} episodeFileName - Episode filename (e.g., "benpod-2024-01-15.mp3")
+ * @param {Object} config - Podcast configuration
  */
-async function publishEpisode(mp3Path, feedXml, episodeFileName) {
+async function publishEpisode(mp3Path, feedXml, episodeFileName, config) {
   console.log('Publishing to GitHub Pages...');
 
   try {
-    // Upload MP3
-    console.log(`  Uploading MP3: episodes/${episodeFileName}`);
+    // Upload MP3 to podcast-specific directory
+    const episodePath = `${config.paths.episodesDir}/${episodeFileName}`;
+    console.log(`  Uploading MP3: ${episodePath}`);
     const mp3Base64 = fs.readFileSync(mp3Path).toString('base64');
     await commitFile(
-      `episodes/${episodeFileName}`,
+      episodePath,
       mp3Base64,
-      `Add episode: ${episodeFileName}`
+      `Add ${config.id} episode: ${episodeFileName}`
     );
 
-    // Upload updated feed.xml
-    console.log('  Updating feed.xml');
+    // Upload updated feed file
+    console.log(`  Updating ${config.paths.feedFile}`);
     const feedBase64 = Buffer.from(feedXml, 'utf-8').toString('base64');
-    await commitFile('feed.xml', feedBase64, `Update feed for ${episodeFileName}`);
+    await commitFile(
+      config.paths.feedFile,
+      feedBase64,
+      `Update ${config.id} feed for ${episodeFileName}`
+    );
 
     console.log();
     console.log(`✅ Published to gh-pages!`);

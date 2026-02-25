@@ -13,6 +13,7 @@ const path = require('path');
 const fs = require('fs');
 const axios = require('axios');
 
+const { loadConfig } = require('./config');
 const { fetchAINews, fetchNewsletters, fetchAdditionalSourcing } = require('./fetcher');
 const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
@@ -31,16 +32,15 @@ const {
 const BASE_URL = process.env.PAGES_BASE_URL;
 const REPO = process.env.GITHUB_REPOSITORY;
 const GH_TOKEN = process.env.GITHUB_TOKEN;
-const PODCAST_TITLE = process.env.PODCAST_TITLE || 'Daily Databricks and AI Podcast';
-const PODCAST_AUTHOR = process.env.PODCAST_AUTHOR || 'Unknown';
 
 /**
- * Get current feed.xml from gh-pages branch
+ * Get current feed from gh-pages branch
+ * @param {string} feedFile - Feed filename from config (e.g., 'feed.xml', 'matchmass.xml')
  */
-async function getCurrentFeed() {
+async function getCurrentFeed(feedFile) {
   try {
     const response = await axios.get(
-      `https://api.github.com/repos/${REPO}/contents/feed.xml?ref=gh-pages`,
+      `https://api.github.com/repos/${REPO}/contents/${feedFile}?ref=gh-pages`,
       {
         headers: {
           Authorization: `Bearer ${GH_TOKEN}`,
@@ -51,16 +51,16 @@ async function getCurrentFeed() {
     return Buffer.from(response.data.content, 'base64').toString('utf-8');
   } catch (error) {
     if (error.response && error.response.status === 404) {
-      console.log('  No existing feed.xml found (first run)');
+      console.log(`  No existing ${feedFile} found (first run)`);
       return ''; // First run
     }
     throw error;
   }
 }
 
-async function run({ dryRun = false } = {}) {
+async function run({ dryRun = false, config = null } = {}) {
   console.log('='.repeat(60));
-  console.log('Starting Daily AI Audio Briefing Pipeline');
+  console.log(`Starting ${config.metadata.title} Pipeline`);
   console.log('='.repeat(60));
   console.log();
 
@@ -79,9 +79,9 @@ async function run({ dryRun = false } = {}) {
     console.log();
 
     const [aiNews, newsletters, additionalSourcingData] = await Promise.all([
-      fetchAINews(),
-      fetchNewsletters(),
-      fetchAdditionalSourcing()
+      fetchAINews(config),
+      fetchNewsletters(config),
+      fetchAdditionalSourcing(config)
     ]);
 
     const { items: additionalSourcing, usage: fetcherUsage } = additionalSourcingData;
@@ -113,7 +113,7 @@ async function run({ dryRun = false } = {}) {
     let episodeMemoryForPrompt = '';
 
     try {
-      const { data, sha } = await getEpisodeMemory();
+      const { data, sha } = await getEpisodeMemory(config);
       episodeMemoryData = data;
       episodeMemorySha = sha;
       episodeMemoryForPrompt = formatMemoryForPrompt(data, 7);
@@ -131,7 +131,8 @@ async function run({ dryRun = false } = {}) {
 
     const { script, summary, usage: synthesizerUsage } = await synthesizeScript(
       contentBundle,
-      episodeMemoryForPrompt || null
+      episodeMemoryForPrompt || null,
+      config
     );
     const wordCount = script.split(/\s+/).length;
 
@@ -145,13 +146,13 @@ async function run({ dryRun = false } = {}) {
     }
     console.log();
 
-    // Get current time in Central Time (America/Chicago)
+    // Get current time in podcast's timezone
     const now = new Date();
-    const centralTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Chicago' }));
-    const dateStr = centralTime.toISOString().slice(0, 10); // YYYY-MM-DD in Central Time
+    const localTime = new Date(now.toLocaleString('en-US', { timeZone: config.location.timezone }));
+    const dateStr = localTime.toISOString().slice(0, 10); // YYYY-MM-DD in local time
 
     // Save script to file for reference
-    const scriptFileName = `AI-Briefing-${dateStr}-script.txt`;
+    const scriptFileName = `${config.id}-${dateStr}-script.txt`;
     const scriptPath = path.join('/tmp', scriptFileName);
     fs.writeFileSync(scriptPath, script, 'utf8');
     console.log(`  Script saved to: ${scriptPath}`);
@@ -161,9 +162,9 @@ async function run({ dryRun = false } = {}) {
     console.log('STEP 3: Converting to audio...');
     console.log();
 
-    const episodeFileName = `AI-Briefing-${dateStr}.mp3`;
+    const episodeFileName = `${config.id}-${dateStr}.mp3`;
     const audioPath = path.join('/tmp', episodeFileName);
-    const { outputPath: finalAudioPath, characters: ttsCharacters } = await convertToAudio(script, audioPath);
+    const { outputPath: finalAudioPath, characters: ttsCharacters } = await convertToAudio(script, audioPath, config);
 
     // Track TTS costs (Journey-D is a WaveNet/Neural voice)
     const ttsCost = costTracker.trackTTS(ttsCharacters, 'wavenet');
@@ -198,12 +199,12 @@ async function run({ dryRun = false } = {}) {
     console.log('STEP 4: Building RSS feed...');
     console.log();
 
-    const existingFeed = await getCurrentFeed();
+    const existingFeed = await getCurrentFeed(config.paths.feedFile);
     const updatedFeed = buildUpdatedFeed(
       existingFeed,
       {
-        title: `${PODCAST_TITLE} — ${dateStr}`,
-        date: dateStr, // Use Central Time date
+        title: `${config.metadata.title} — ${dateStr}`,
+        date: dateStr,
         fileName: episodeFileName,
         fileSizeBytes,
         durationSeconds,
@@ -211,10 +212,12 @@ async function run({ dryRun = false } = {}) {
       },
       BASE_URL,
       {
-        title: PODCAST_TITLE,
-        author: PODCAST_AUTHOR,
-        description: 'Daily briefing on Databricks releases and AI developments.',
-      }
+        title: config.metadata.title,
+        author: config.metadata.author,
+        description: config.metadata.description,
+        email: config.metadata.email,
+      },
+      config
     );
 
     console.log('  Feed updated successfully');
@@ -224,7 +227,7 @@ async function run({ dryRun = false } = {}) {
     console.log('STEP 5: Publishing to GitHub Pages...');
     console.log();
 
-    await publishEpisode(finalAudioPath, updatedFeed, episodeFileName);
+    await publishEpisode(finalAudioPath, updatedFeed, episodeFileName, config);
 
     // Summary
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
@@ -235,11 +238,11 @@ async function run({ dryRun = false } = {}) {
     console.log(`  Items processed: ${totalItems}`);
     console.log(`  Script words: ${wordCount}`);
     console.log(`  Audio file: ${episodeFileName}`);
-    console.log(`  Episode URL: ${BASE_URL}/episodes/${episodeFileName}`);
-    console.log(`  RSS feed: ${BASE_URL}/feed.xml`);
+    console.log(`  Episode URL: ${BASE_URL}/${config.paths.episodesDir}/${episodeFileName}`);
+    console.log(`  RSS feed: ${BASE_URL}/${config.paths.feedFile}`);
     console.log();
     console.log('Episode published! Subscribe in your podcast app:');
-    console.log(`   ${BASE_URL}/feed.xml`);
+    console.log(`   ${BASE_URL}/${config.paths.feedFile}`);
 
     // 5.5. Extract key topics and update episode memory on gh-pages
     console.log('Updating episode memory...');
@@ -247,7 +250,7 @@ async function run({ dryRun = false } = {}) {
       const { topics: keyTopics, usage: topicsUsage } = await extractKeyTopics(script);
       const newRecord = { date: dateStr, summary, keyTopics };
       const updatedMemory = addEpisodeToMemory(episodeMemoryData, newRecord);
-      await commitEpisodeMemory(updatedMemory, episodeMemorySha);
+      await commitEpisodeMemory(updatedMemory, episodeMemorySha, config);
       console.log(`  Memory updated: ${keyTopics.length} topics extracted for ${dateStr}`);
       if (topicsUsage) {
         if (topicsUsage.geminiFlash || topicsUsage.gemini2Flash || topicsUsage.gemini25Flash) {
@@ -287,14 +290,14 @@ async function run({ dryRun = false } = {}) {
   }
 }
 
-async function runWithRetry({ dryRun = false, maxRetries = 2 } = {}) {
+async function runWithRetry({ dryRun = false, maxRetries = 2, config = null } = {}) {
   for (let attempt = 1; attempt <= maxRetries + 1; attempt++) {
     try {
       if (attempt > 1) {
         console.log(`Retry attempt ${attempt - 1}/${maxRetries}...`);
         console.log();
       }
-      await run({ dryRun });
+      await run({ dryRun, config });
       return;
     } catch (error) {
       console.error(`Attempt ${attempt} failed: ${error.message}`);
@@ -313,11 +316,24 @@ async function runWithRetry({ dryRun = false, maxRetries = 2 } = {}) {
 // Run if called directly
 if (require.main === module) {
   const dryRun = process.argv.includes('--dry-run');
+
+  // Parse --config argument
+  const configArgIndex = process.argv.indexOf('--config');
+  const configId = configArgIndex !== -1 && process.argv[configArgIndex + 1]
+    ? process.argv[configArgIndex + 1]
+    : 'benpod'; // Default to benpod for backward compatibility
+
+  console.log(`Loading configuration: ${configId}`);
+  const config = loadConfig(configId);
+  console.log(`✅ Configuration loaded for: ${config.metadata.title}`);
+  console.log();
+
   if (dryRun) {
     console.log('*** DRY RUN MODE — will not publish to RSS/GitHub Pages ***');
     console.log();
   }
-  runWithRetry({ dryRun });
+
+  runWithRetry({ dryRun, config });
 }
 
 module.exports = { run };

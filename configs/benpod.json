@@ -1,0 +1,66 @@
+{
+  "id": "benpod",
+  "metadata": {
+    "title": "The Daily Ben",
+    "author": "Ben",
+    "description": "Daily briefing on Current Affairs and AI developments",
+    "email": "howdy@tyler.rodeo"
+  },
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298,
+    "timezone": "America/Chicago"
+  },
+  "paths": {
+    "feedFile": "feed.xml",
+    "episodesDir": "episodes",
+    "episodeMemoryFile": "episode-memory.json"
+  },
+  "content": {
+    "aiNews": {
+      "enabled": true,
+      "sources": ["openai", "anthropic", "deepmind", "meta", "verge", "techcrunch", "venturebeat", "hackernews"]
+    },
+    "newsletters": {
+      "enabled": true,
+      "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml"
+    },
+    "sports": {
+      "enabled": true,
+      "teams": [
+        {"league": "nba", "name": "Warriors", "espnApiName": "golden-state-warriors", "espnNewsId": "9"},
+        {"league": "mlb", "name": "Giants", "espnApiName": "sf-giants", "espnNewsId": "26"},
+        {"league": "nfl", "name": "49ers", "espnApiName": "sf-49ers", "espnNewsId": "25"}
+      ],
+      "includeTeamNews": true
+    },
+    "realEstate": {
+      "enabled": true,
+      "feeds": [
+        {"url": "https://www.zillow.com/research/feed/", "name": "Zillow Research"},
+        {"url": "https://www.redfin.com/news/feed/", "name": "Redfin News"}
+      ],
+      "targetMarkets": ["California", "Chicago north shore suburbs", "Montana"],
+      "priceRange": "$600k-$1.5m"
+    },
+    "internationalRelations": {
+      "enabled": true,
+      "focus": "Iran",
+      "sources": [
+        {"type": "rss", "url": "https://foreignpolicy.com/tag/iran/feed", "name": "Foreign Policy"}
+      ]
+    }
+  },
+  "voices": {
+    "host": {
+      "languageCode": "en-US",
+      "name": "en-US-Studio-O"
+    },
+    "cohost": {
+      "languageCode": "en-US",
+      "name": "en-US-Studio-Q"
+    }
+  }
+}
