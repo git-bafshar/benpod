@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Daily Matchmass</title>
+    <link>https://git-bafshar.github.io/benpod</link>
+    <description>Daily briefing covering Lakers basketball, surf conditions, and California news</description>
+    <language>en-us</language>
+    <itunes:image href="https://git-bafshar.github.io/benpod/artwork.jpg"/>
+    <itunes:author>Ben</itunes:author>
+    <itunes:email>ben.afshar@gmail.com</itunes:email>
+    <itunes:owner>
+      <itunes:name>Ben</itunes:name>
+      <itunes:email>ben.afshar@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    
+    <item>
+      <title>The Daily Matchmass — 2026-02-24</title>
+      <description>Dive into a high-stakes standoff between the Pentagon and Anthropic over AI safety guardrails and the latest $500 million investment in the race for chip dominance. This episode also explores the rise of workplace AI agents, regulatory battles facing tech giants, and a key preview of tonight’s Lakers matchup against the Orlando Magic.</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-02-24.mp3" length="2673216" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-02-24.mp3</guid>
+      <itunes:duration>167</itunes:duration>
+    </item>
+  </channel>
+</rss>
