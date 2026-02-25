@@ -14,8 +14,8 @@
     "timezone": "America/Chicago"
   },
   "paths": {
-    "feedFile": "feed.xml",
-    "episodesDir": "episodes",
+    "feedFile": "benpod.xml",
+    "episodesDir": "benpod",
     "episodeMemoryFile": "benpod-episode-memory.json",
     "artworkFile": "benpod-artwork.jpg"
   },

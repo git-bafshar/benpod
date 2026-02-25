@@ -27,8 +27,8 @@ function escapeXml(str) {
 function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo, config) {
   const episodeUrl = `${baseUrl}/${config.paths.episodesDir}/${episode.fileName}`;
   const artworkUrl = `${baseUrl}/${config.paths.artworkFile}`;
-  // Convert local time date to midnight UTC for pubDate
-  const pubDate = new Date(episode.date).toUTCString();
+  // Use timestamp if available (for new episodes), fallback to date for backward compatibility
+  const pubDate = new Date(episode.timestamp || episode.date).toUTCString();
 
   const newItem = `
     <item>

@@ -173,6 +173,8 @@ async function run({ dryRun = false, config = null } = {}) {
     const now = new Date();
     const localTime = new Date(now.toLocaleString('en-US', { timeZone: config.location.timezone }));
     const dateStr = localTime.toISOString().slice(0, 10); // YYYY-MM-DD in local time
+    const timestamp = localTime.toISOString(); // Full ISO 8601 timestamp
+    const timeStr = timestamp.slice(11, 19).replace(/:/g, ''); // HHMMSS format
 
     // Save script to file for reference
     const scriptFileName = `${config.id}-${dateStr}-script.txt`;
@@ -185,7 +187,7 @@ async function run({ dryRun = false, config = null } = {}) {
     console.log('STEP 3: Converting to audio...');
     console.log();
 
-    const episodeFileName = `${config.id}-${dateStr}.mp3`;
+    const episodeFileName = `${config.id}-${dateStr}-${timeStr}.mp3`;
     const audioPath = path.join('/tmp', episodeFileName);
     const { outputPath: finalAudioPath, characters: ttsCharacters } = await convertToAudio(script, audioPath, config);
 
@@ -228,6 +230,7 @@ async function run({ dryRun = false, config = null } = {}) {
       {
         title: `${config.metadata.title} — ${dateStr}`,
         date: dateStr,
+        timestamp: timestamp,
         fileName: episodeFileName,
         fileSizeBytes,
         durationSeconds,
