@@ -14,10 +14,27 @@ Content sources:
 ## Quick Commands
 
 - `npm start` — run the full pipeline locally
-- `npm start -- --dry-run` — run pipeline without publishing
+- `npm start -- --config benpod --dry-run` — run benpod pipeline without publishing
 - `npm test` — run Jest tests
 - `npm run cost-report -- 30` — view cost report for last N days
-- `gh workflow run daily-briefing.yml` — trigger pipeline manually on GitHub Actions
+- `gh workflow run "Daily Ben Briefing" --repo git-bafshar/benpod` — trigger benpod pipeline on GitHub Actions
+- `gh run watch <run-id> --repo git-bafshar/benpod` — watch workflow execution
+
+## Podcast Configurations
+
+### BenPod (Primary)
+- **Config:** `--config benpod`
+- **Workflow:** "Daily Ben Briefing" (weekdays 1:00 PM UTC / 7:00 AM CST)
+- **Feed URL:** `https://git-bafshar.github.io/benpod/benpod.xml`
+- **Episodes:** `benpod/benpod-YYYY-MM-DD-HHMMSS.mp3`
+- **Memory:** `benpod-episode-memory.json`
+
+### Matchmass (Secondary)
+- **Config:** `--config matchmass`
+- **Feed URL:** `https://git-bafshar.github.io/benpod/matchmass.xml`
+- **Episodes:** `matchmass/matchmass-YYYY-MM-DD-HHMMSS.mp3`
+
+**Episode Naming:** Timestamp-based format supports multiple episodes per day without collisions. Timestamp uses podcast's local timezone (America/Chicago) and is generated once at pipeline start.
 
 ## Architecture
 
