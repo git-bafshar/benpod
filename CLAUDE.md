@@ -29,16 +29,20 @@ Content sources:
 - **Episodes:** `benpod/benpod-YYYY-MM-DD-HHMMSS.mp3`
 - **Memory:** `benpod-episode-memory.json`
 - **Duration Target:** 15 minutes (12-18 min range, 1,800-2,700 words)
+- **Recipient:** Ben
 
 ### Matchmass (Secondary)
 - **Config:** `--config matchmass`
 - **Feed URL:** `https://git-bafshar.github.io/benpod/matchmass.xml`
 - **Episodes:** `matchmass/matchmass-YYYY-MM-DD-HHMMSS.mp3`
 - **Duration Target:** 10 minutes (8-12 min range, 1,200-1,800 words)
+- **Recipient:** Matt
 
 **Episode Naming:** Timestamp-based format supports multiple episodes per day without collisions. Timestamp uses podcast's local timezone and is generated once at pipeline start.
 
-**Duration Control:** Set `preferredDurationMinutes` in config to adjust episode length. Script generation targets 80%-120% of preferred duration using ~150 words/minute for natural conversational pace.
+**Personalization:**
+- `metadata.recipientName`: Name used in script greetings and references (e.g., "Good morning, Ben!")
+- `preferredDurationMinutes`: Episode length target. Script generation targets 80%-120% of preferred duration using ~150 words/minute for natural conversational pace.
 
 ## Architecture
 
