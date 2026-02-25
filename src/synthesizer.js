@@ -114,6 +114,10 @@ ${episodeMemory}
     const focus = config.content.internationalRelations.focus || 'international';
     additionalSources.push(`International Relations (${focus}-centered news)`);
   }
+  if (config.content.news?.enabled) {
+    const feedNames = config.content.news.feeds?.map(f => f.name).join(', ') || 'News feeds';
+    additionalSources.push(`General News (${feedNames})`);
+  }
   if (config.content.surfConditions?.enabled) {
     const location = config.content.surfConditions.location || 'local';
     additionalSources.push(`Surf Report (${location} conditions)`);
@@ -143,6 +147,10 @@ ${episodeMemory}
   if (config.content.internationalRelations?.enabled) {
     const focus = config.content.internationalRelations.focus || 'international';
     mandatoryThemes.push(`- "Global Affairs": International relations updates, specifically centered on ${focus}.`);
+  }
+  if (config.content.news?.enabled) {
+    const feedFocuses = config.content.news.feeds?.map(f => f.focus || f.name).join(', ') || 'general news';
+    mandatoryThemes.push(`- "News Briefing": Coverage of ${feedFocuses}.`);
   }
   if (config.content.newsletters?.enabled) {
     mandatoryThemes.push(`- "Local & Regional": ${weather.location} news from newsletters.`);

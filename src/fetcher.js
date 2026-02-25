@@ -559,6 +559,81 @@ async function fetchIranNews() {
 }
 
 // ============================================================================
+// GENERAL NEWS SOURCES
+// ============================================================================
+
+/**
+ * Fetch and summarize general RSS news feeds
+ * @param {Object} config - News configuration with feeds array
+ */
+async function fetchNewsFeeds(config) {
+  console.log('Fetching general news feeds...');
+
+  // Use feeds from config
+  const feeds = config?.feeds || [];
+  if (feeds.length === 0) {
+    return { items: [], usage: null };
+  }
+
+  const maxItemsPerFeed = config?.maxItemsPerFeed || 5;
+  const allItems = [];
+
+  for (const feed of feeds) {
+    const items = await fetchRSSFeed(feed.url, feed.name, maxItemsPerFeed);
+    allItems.push(...items);
+  }
+
+  if (!modelFlash || allItems.length === 0) {
+    return { items: allItems, usage: null };
+  }
+
+  console.log('  Summarizing news feeds with Gemini Flash...');
+
+  // Build prompt with dynamic focus areas from config
+  const feedDescriptions = feeds.map(f => `${f.name}${f.focus ? ` (${f.focus})` : ''}`).join(', ');
+
+  const prompt = `
+Act as a news analyst. Analyze the provided RSS feed text and extract the most newsworthy stories to be used in a short podcast segment.
+
+Sources: ${feedDescriptions}
+
+Extraction Guidelines:
+1. Identify the top 3-5 most significant stories
+2. For each story, provide:
+   - Clear headline/title
+   - Key facts and context (who, what, when, where, why)
+   - Why it matters (impact, implications)
+3. Skip: routine announcements, press releases without news value, opinion pieces without newsworthy content
+
+Output Format:
+Transform the extracted stories into a summary that will be used to build a conversational podcast script segment. Focus on facts and significance, not speculation.
+
+RSS Content:
+${allItems.map(i => `Title: ${i.title}\nSummary: ${i.summary}\nSource: ${i.source}`).join('\n\n')}
+`;
+
+  try {
+    const result = await modelFlash.generateContent(prompt);
+    const response = await result.response;
+    const summary = response.text();
+    const usage = response.usageMetadata;
+
+    return {
+      items: [{
+        title: 'News Update',
+        summary: summary,
+        date: new Date().toLocaleDateString(),
+        source: 'News Feeds'
+      }],
+      usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null
+    };
+  } catch (error) {
+    console.error('Error summarizing news feeds:', error.message);
+    return { items: allItems, usage: null };
+  }
+}
+
+// ============================================================================
 // DATABRICKS SOURCES
 // ============================================================================
 
@@ -1369,6 +1444,15 @@ async function fetchAdditionalSourcing(config) {
     );
   }
 
+  // Fetch general news feeds if enabled
+  if (config?.content?.news?.enabled) {
+    promises.push(
+      fetchNewsFeeds(config.content.news).then(res => {
+        results.news = res;
+      })
+    );
+  }
+
   // Fetch Surf Conditions if enabled
   if (config?.content?.surfConditions?.enabled) {
     promises.push(
@@ -1419,6 +1503,7 @@ async function fetchAdditionalSourcing(config) {
     realEstate: results.realEstate?.items || [],
     sports: [],
     iran: results.iran?.items || [],
+    news: results.news?.items || [],
     surf: results.surf ? [{ title: 'Surf Conditions', summary: results.surf.summary, source: 'Surfline' }] : [],
     olympics: results.olympics ? [{ title: 'Olympics Update', summary: results.olympics.summary, source: 'Olympics' }] : [],
     worldcup: results.worldcup ? [{ title: 'World Cup Update', summary: results.worldcup.summary, source: 'World Cup' }] : []
@@ -1489,6 +1574,12 @@ async function fetchAdditionalSourcing(config) {
     }
   }
 
+  // Add news feeds usage
+  if (results.news?.usage?.geminiFlash) {
+    usage.geminiFlash.promptTokens += results.news.usage.geminiFlash.promptTokens || 0;
+    usage.geminiFlash.candidatesTokens += results.news.usage.geminiFlash.candidatesTokens || 0;
+  }
+
   return { items, usage };
 }
 
@@ -1504,5 +1595,6 @@ module.exports = {
   fetchNinersGame,
   fetchIranNews,
   fetchSportsGame,
-  fetchTeamNews
+  fetchTeamNews,
+  fetchNewsFeeds
 };

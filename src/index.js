@@ -92,10 +92,11 @@ async function run({ dryRun = false, config = null } = {}) {
       additionalSourcing: additionalSourcing
     };
 
-    const totalItems = aiNews.length + newsletters.length + 
-                     additionalSourcing.realEstate.length + 
-                     additionalSourcing.sports.length + 
-                     additionalSourcing.iran.length;
+    const totalItems = aiNews.length + newsletters.length +
+                     additionalSourcing.realEstate.length +
+                     additionalSourcing.sports.length +
+                     additionalSourcing.iran.length +
+                     additionalSourcing.news.length;
     console.log();
     console.log(`  Total items collected: ${totalItems}`);
 

@@ -26,8 +26,7 @@
     },
     "newsletters": {
       "enabled": true,
-      "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml",
-      "killTheNewsletterFeedUrl": "https://wirepoints.org/feed/"
+      "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/fs23gw6u0bqlwqmjs3fj.xml"
     },
     "sports": {
       "enabled": true,
@@ -53,6 +52,13 @@
       "sources": [
         {"type": "rss", "url": "https://foreignpolicy.com/tag/iran/feed", "name": "Foreign Policy"}
       ]
+    },
+    "news": {
+      "enabled": true,
+      "feeds": [
+        {"url": "https://wirepoints.org/feed/", "name": "Wirepoints", "focus": "Illinois politics and policy"}
+      ],
+      "maxItemsPerFeed": 5
     },
     "articles": {
       "enabled": true,
