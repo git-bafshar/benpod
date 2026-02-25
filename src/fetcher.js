@@ -437,6 +437,107 @@ Return ONLY valid JSON, no other text.`;
   }
 }
 
+/**
+ * Fetch narrative content from team-specific RSS feeds (fan sites, analysis blogs)
+ * @param {string} teamName - Team display name
+ * @param {string} rssFeedUrl - RSS feed URL
+ * @param {number} maxItems - Maximum number of items to fetch (default 3)
+ */
+async function fetchTeamRSSFeed(teamName, rssFeedUrl, maxItems = 3) {
+  if (!rssFeedUrl) {
+    return { items: [], usage: null };
+  }
+
+  console.log(`Fetching ${teamName} RSS feed...`);
+
+  try {
+    const items = await fetchRSSFeed(rssFeedUrl, `${teamName} Fan Analysis`, maxItems);
+
+    if (items.length === 0) {
+      return { items: [], usage: null };
+    }
+
+    console.log(`  Found ${items.length} ${teamName} RSS items`);
+
+    // If no Gemini available, return raw items
+    if (!modelFlash) {
+      const formattedItems = items.map(item => ({
+        title: `${teamName} Analysis: ${item.title}`,
+        summary: item.summary,
+        date: item.date,
+        source: item.source
+      }));
+      return { items: formattedItems, usage: null };
+    }
+
+    console.log(`  Analyzing ${teamName} fan sentiment with Gemini Flash...`);
+
+    const prompt = `You are analyzing fan-generated content from ${teamName} fan sites. These are narrative pieces with strong fan perspective, not neutral journalism.
+
+Extract the key storylines and fan sentiment from the following articles. For each noteworthy item:
+1. Identify what happened (game results, player performance, team news, injuries, trades, etc.)
+2. Capture the fan perspective and emotional tone (optimistic, frustrated, angry, excited, disappointed, etc.)
+3. Note any specific criticisms or praise of players, coaches, or front office decisions
+
+Important: This is FAN content, so expect bias, emotion, and strong opinions. Capture that authentic voice rather than neutralizing it.
+
+Example outputs:
+- "Warriors fans frustrated after dropping winnable game to Blazers. Young players showing inconsistency, Kuminga specifically called out for poor decision-making. Fanbase questioning rotation decisions."
+- "Giants fans cautiously optimistic as pitching staff shows promise. Webb looking like ace material, but offense remains anemic. Calls for front office to make moves before deadline."
+- "49ers faithful fired up after dominant defensive performance. Bosa and Warner playing at All-Pro level. Fanbase demanding more creative play-calling from offensive coordinator."
+
+Return a JSON array of items with this structure:
+[
+  {
+    "summary": "2-3 sentence summary capturing storyline and fan sentiment"
+  }
+]
+
+If no items are relevant or newsworthy, return an empty array: []
+
+RSS Articles:
+${items.map(item => `Title: ${item.title}\nContent: ${item.summary}`).join('\n\n---\n\n')}
+
+Return ONLY valid JSON, no other text.`;
+
+    const result = await modelFlash.generateContent(prompt);
+    const response = await result.response;
+    const usage = response.usageMetadata;
+
+    let analyzedItems = [];
+    try {
+      const text = response.text().trim();
+      const jsonText = text.replace(/^```json?\n?/i, '').replace(/\n?```$/i, '');
+      analyzedItems = JSON.parse(jsonText);
+    } catch (parseError) {
+      console.error(`Failed to parse ${teamName} RSS analysis JSON:`, parseError.message);
+      return { items: [], usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null };
+    }
+
+    if (!Array.isArray(analyzedItems) || analyzedItems.length === 0) {
+      return { items: [], usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null };
+    }
+
+    console.log(`  Analyzed ${analyzedItems.length} ${teamName} fan narratives`);
+
+    const formattedItems = analyzedItems.map(item => ({
+      title: `${teamName} Fan Perspective`,
+      summary: item.summary,
+      date: new Date().toLocaleDateString(),
+      source: `${teamName} Fan Analysis`
+    }));
+
+    return {
+      items: formattedItems,
+      usage: usage ? { geminiFlash: { promptTokens: usage.promptTokenCount, candidatesTokens: usage.candidatesTokenCount } } : null
+    };
+
+  } catch (error) {
+    console.error(`Error fetching ${teamName} RSS feed:`, error.message);
+    return { items: [], usage: null };
+  }
+}
+
 // ============================================================================
 // IRAN NEWS
 // ============================================================================
@@ -1243,6 +1344,20 @@ async function fetchAdditionalSourcing(config) {
         })
       );
     }
+
+    // Fetch team RSS feeds if provided (narrative/analysis content)
+    const teamsWithRSS = teams.filter(team => team.rssFeedUrl);
+    if (teamsWithRSS.length > 0) {
+      const teamRSSPromises = teamsWithRSS.map(team =>
+        fetchTeamRSSFeed(team.name, team.rssFeedUrl, 3)
+      );
+
+      promises.push(
+        Promise.all(teamRSSPromises).then(rssResults => {
+          results.teamRSS = rssResults;
+        })
+      );
+    }
   }
 
   // Fetch Iran international relations if enabled
@@ -1323,6 +1438,13 @@ async function fetchAdditionalSourcing(config) {
     }
   }
 
+  // Flatten team RSS results
+  if (results.teamRSS) {
+    for (const rssResult of results.teamRSS) {
+      items.sports.push(...(rssResult.items || []));
+    }
+  }
+
   // Combine usage
   const usage = {
     geminiFlash: {
@@ -1353,6 +1475,16 @@ async function fetchAdditionalSourcing(config) {
       if (newsResult.usage?.geminiFlash) {
         usage.geminiFlash.promptTokens += newsResult.usage.geminiFlash.promptTokens || 0;
         usage.geminiFlash.candidatesTokens += newsResult.usage.geminiFlash.candidatesTokens || 0;
+      }
+    }
+  }
+
+  // Add team RSS usage
+  if (results.teamRSS) {
+    for (const rssResult of results.teamRSS) {
+      if (rssResult.usage?.geminiFlash) {
+        usage.geminiFlash.promptTokens += rssResult.usage.geminiFlash.promptTokens || 0;
+        usage.geminiFlash.candidatesTokens += rssResult.usage.geminiFlash.candidatesTokens || 0;
       }
     }
   }

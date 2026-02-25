@@ -16,7 +16,8 @@
   "paths": {
     "feedFile": "feed.xml",
     "episodesDir": "episodes",
-    "episodeMemoryFile": "benpod-episode-memory.json"
+    "episodeMemoryFile": "benpod-episode-memory.json",
+    "artworkFile": "benpod-artwork.jpg"
   },
   "content": {
     "aiNews": {
@@ -30,9 +31,9 @@
     "sports": {
       "enabled": true,
       "teams": [
-        {"league": "nba", "name": "Warriors", "espnApiName": "golden-state-warriors", "espnNewsId": "9"},
-        {"league": "mlb", "name": "Giants", "espnApiName": "sf-giants", "espnNewsId": "26"},
-        {"league": "nfl", "name": "49ers", "espnApiName": "sf-49ers", "espnNewsId": "25"}
+        {"league": "nba", "name": "Warriors", "espnApiName": "golden-state-warriors", "espnNewsId": "9", "rssFeedUrl": "https://www.goldenstateofmind.com/rss/index.xml"},
+        {"league": "mlb", "name": "Giants", "espnApiName": "sf-giants", "espnNewsId": "26", "rssFeedUrl": "https://www.mccoveychronicles.com/rss/index.xml"},
+        {"league": "nfl", "name": "49ers", "espnApiName": "sf-49ers", "espnNewsId": "25", "rssFeedUrl": "https://www.ninersnation.com/rss/index.xml"}
       ],
       "includeTeamNews": true
     },

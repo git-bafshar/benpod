@@ -1,21 +1,59 @@
 # The Data & AI Daily — Personal Podcast Automation
 
-Automated daily audio briefing covering Databricks releases, AI/ML news, SF Sports, Real Estate, and Global Affairs, synthesized with Gemini 1.5 Pro and delivered as a podcast RSS feed via GitHub Pages.
+Automated daily audio briefing covering Databricks releases, AI/ML news, SF Sports, Real Estate, and Global Affairs, synthesized with Gemini 2.5 Pro and delivered as a podcast RSS feed via GitHub Pages.
 
 Wake up to a personalized 8-15 minute episode in your podcast app every weekday morning.
 
-![Pipeline Flow](docs/pipeline-flow.png)
+## How It Works
+
+![Pipeline Overview](docs/pipeline-simple.png)
+
+**Key Metrics:**
+- ⚡ **Pipeline Runtime:** ~4 minutes
+- 💰 **Cost per Episode:** ~$0.25 (Gemini Pro + TTS)
+- 📅 **Annual Cost:** ~$90 (250 weekday episodes)
+- 🎵 **Episode Length:** 8-15 minutes
+- 📰 **Stories Processed:** 20-40 items daily
+
+<details>
+<summary><b>📐 View Full Architecture Diagram</b></summary>
+
+<br/>
+
+![Full Architecture](docs/architecture-full.png)
+
+**Architecture Details:**
+
+The pipeline consists of 5 main steps:
+
+1. **Fetch Content** - Parallel fetching from 13+ sources:
+   - AI/ML news (OpenAI, Anthropic, DeepMind, Hacker News, arXiv)
+   - Newsletters (Axios via Kill The Newsletter)
+   - Real Estate (Zillow, Redfin - summarized with Gemini Flash)
+   - Sports (Warriors, Giants, 49ers via ESPN API - summarized with Gemini Flash)
+   - Iran news (Foreign Policy, IranWire - summarized with Gemini Flash)
+   - Dynamic: Olympics, World Cup, Surfline (when enabled)
+
+2. **Episode Memory & Articles** - Load cross-episode context and curated articles with deduplication
+
+3. **Synthesize Script** - Gemini 2.5 Pro generates 1,200-2,000 word conversational script with Chicago weather
+
+4. **Convert to Audio** - Google Cloud TTS with Studio voices and automatic sentence-based chunking
+
+5. **Publish & Track** - Commit MP3 + RSS feed to GitHub Pages, update episode memory, track TTS usage and costs
+
+</details>
 
 ## 🎯 Features
 
 - **Automated Daily Pipeline**: Runs Monday-Friday at 6:00 AM UTC via GitHub Actions
 - **Expanded Content Sources**: 
   - **AI/ML**: Databricks, OpenAI, Anthropic, DeepMind, Meta, The Verge, TechCrunch, Hacker News, arXiv
-  - **Sports**: SF Giants, Golden State Warriors, San Francisco 49ers (game recaps via ESPN API)
+  - **Sports**: SF Giants, Golden State Warriors, San Francisco 49ers (game recaps via ESPN API, Fansites)
   - **Real Estate**: Market analysis and trends (summarized from Zillow & Redfin)
   - **Global Affairs**: International relations with a focus on Iran (Foreign Policy, IranWire)
   - **Local**: Axios Chicago and other regional newsletters
-- **AI-Powered Script**: Gemini 1.5 Pro generates personalized, conversational 8-15 minute scripts with Chicago weather and multi-episode continuity
+- **AI-Powered Script**: Gemini 2.5 Pro generates personalized, conversational 8-15 minute scripts with Chicago weather and multi-episode continuity
 - **High-Quality Audio**: Google Cloud Text-to-Speech with Studio voices, with automatic chunking for long scripts
 - **Podcast RSS Feed**: Published to GitHub Pages with iTunes tags, artwork, and owner email for Spotify submission
 - **Zero Infrastructure**: Completely free hosting via GitHub Pages + Actions
@@ -52,7 +90,7 @@ GITHUB_TOKEN=ghp_your-personal-token-here  # For local testing
 GITHUB_REPOSITORY=yourusername/yourrepo
 PAGES_BASE_URL=https://yourusername.github.io/yourrepo
 PODCAST_TITLE="Your Podcast Title"
-PODCAST_AUTHOR=YourName
+PODCAST_AUTHOR=yourName
 ```
 
 ### 3. Set Up Google Cloud
@@ -83,7 +121,21 @@ Then in GitHub: **Settings → Pages → Source → Deploy from branch → gh-pa
 
 ### 5. Add Podcast Artwork
 
-`artwork.jpg` is hosted on the `gh-pages` branch (1400x1400 to 3000x3000 pixels, under 500KB). To update it, commit a new version to `gh-pages`.
+Podcast artwork is configured per-podcast in the config file (`configs/benpod.json` or `configs/matchmass.json`):
+
+```json
+"paths": {
+  "artworkFile": "benpod-artwork.jpg"
+}
+```
+
+**Requirements:**
+- Size: 1400x1400 to 3000x3000 pixels (square)
+- Format: JPG or PNG
+- File size: Under 500KB
+- Location: Root of `gh-pages` branch
+
+Each podcast has its own artwork file (e.g., `benpod-artwork.jpg`, `matchmass-artwork.jpg`) hosted on `gh-pages`. To update artwork, commit the new file to `gh-pages`.
 
 ### 6. Test Locally
 
@@ -154,7 +206,7 @@ daily-podcast/
 ├── src/
 │   ├── index.js               # Main orchestrator
 │   ├── fetcher.js             # Content sources + Gemini Flash summarization
-│   ├── synthesizer.js         # Gemini 1.5 Pro script generation + Weather
+│   ├── synthesizer.js         # Gemini 2.5 Pro script generation + Weather
 │   ├── tts.js                 # Google TTS with chunking
 │   ├── publisher.js           # RSS 2.0 + iTunes feed builder
 │   ├── episodeMemory.js       # Cross-episode continuity logic
@@ -178,12 +230,12 @@ daily-podcast/
    - **Weather**: Chicago conditions from Open-Meteo API
 
 2. **Summarize**:
-   - Specialized topics (Sports, Real Estate) are summarized using **Gemini 1.5 Flash** before being passed to the script generator.
+   - Specialized topics (Sports, Real Estate) are summarized using **Gemini 2.5 Flash** before being passed to the script generator.
    - Real Estate analysis follows a strict data-driven analyst persona.
    - Sports recaps provide narrative game flows and key stats.
 
 3. **Synthesize**:
-   - Send all summarized content + weather + **Episode Memory** to **Gemini 1.5 Pro**.
+   - Send all summarized content + weather + **Episode Memory** to **Gemini 2.5 Pro**.
    - Gemini writes a 1,200-2,000 word conversational script.
    - Natural host banter between [HOST] and [COHOST].
    - Cross-episode context allows the hosts to reference stories from the past 7 days.
@@ -199,13 +251,13 @@ daily-podcast/
 
 ## 💰 Cost Estimate
 
-| Service | Usage | Cost/day |
-|---------|-------|----------|
-| Gemini 1.5 Pro (Script) | ~20,000 input + 2,000 output tokens | ~$0.04 |
-| Gemini 1.5 Flash (Summaries) | ~5,000 tokens | ~$0.005 |
-| Google TTS (Studio) | ~12,000 characters (10-15 min) | ~$0.20 |
-| GitHub Actions / Pages | Daily runtime + hosting | Free |
-| **Total** | | **~$0.25/day (~$90/year)** |
+| Service                      | Usage                               | Cost/day                   |
+| ---------------------------- | ----------------------------------- | -------------------------- |
+| Gemini 2.5 Pro (Script)      | ~20,000 input + 2,000 output tokens | ~$0.04                     |
+| Gemini 2.5 Flash (Summaries) | ~5,000 tokens                       | ~$0.005                    |
+| Google TTS (Studio)          | ~12,000 characters (10-15 min)      | ~$0.20                     |
+| GitHub Actions / Pages       | Daily runtime + hosting             | Free                       |
+| **Total**                    |                                     | **~$0.25/day (~$90/year)** |
 
 ## 🔧 Customization
 

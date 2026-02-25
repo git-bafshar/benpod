@@ -16,7 +16,8 @@
   "paths": {
     "feedFile": "matchmass.xml",
     "episodesDir": "matchmass",
-    "episodeMemoryFile": "matchmass-memory.json"
+    "episodeMemoryFile": "matchmass-memory.json",
+    "artworkFile": "matchmass-artwork.jpg"
   },
   "content": {
     "aiNews": {
@@ -31,7 +32,7 @@
     "sports": {
       "enabled": true,
       "teams": [
-        {"league": "nba", "name": "Lakers", "espnApiName": "la-lakers", "espnNewsId": "13"}
+        {"league": "nba", "name": "Lakers", "espnApiName": "la-lakers", "espnNewsId": "13", "rssFeedUrl": "https://www.silverscreenandroll.com/rss/index.xml"}
       ],
       "includeTeamNews": true,
       "events": [

@@ -54,6 +54,7 @@ function validateConfig(config, podcastId) {
     'paths.feedFile',
     'paths.episodesDir',
     'paths.episodeMemoryFile',
+    'paths.artworkFile',
     'content',
     'voices.host',
     'voices.cohost'

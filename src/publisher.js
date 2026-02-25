@@ -26,6 +26,7 @@ function escapeXml(str) {
  */
 function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo, config) {
   const episodeUrl = `${baseUrl}/${config.paths.episodesDir}/${episode.fileName}`;
+  const artworkUrl = `${baseUrl}/${config.paths.artworkFile}`;
   // Convert local time date to midnight UTC for pubDate
   const pubDate = new Date(episode.date).toUTCString();
 
@@ -50,7 +51,7 @@ function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo, config
     <link>${baseUrl}</link>
     <description>${escapeXml(podcastInfo.description)}</description>
     <language>en-us</language>
-    <itunes:image href="${baseUrl}/artwork.jpg"/>
+    <itunes:image href="${artworkUrl}"/>
     <itunes:author>${escapeXml(podcastInfo.author)}</itunes:author>
     <itunes:email>${escapeXml(podcastInfo.email)}</itunes:email>
     <itunes:owner>
