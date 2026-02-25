@@ -78,5 +78,6 @@
       "languageCode": "en-US",
       "name": "en-US-Studio-Q"
     }
-  }
+  },
+  "preferredDurationMinutes": 15
 }

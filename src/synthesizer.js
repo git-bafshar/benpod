@@ -174,6 +174,14 @@ ${episodeMemory}
     ? `Mandatory Themes (if data exists):\n${mandatoryThemes.join('\n')}`
     : 'Create themes based on the content provided.';
 
+  // Calculate duration and word count targets based on config
+  const preferredDuration = config.preferredDurationMinutes || 10;
+  const minDuration = Math.round(preferredDuration * 0.8);
+  const maxDuration = Math.round(preferredDuration * 1.2);
+  const wordsPerMinute = 150; // Natural conversational pace
+  const minWords = minDuration * wordsPerMinute;
+  const maxWords = maxDuration * wordsPerMinute;
+
   const prompt = `
 You are writing the script for "${config.metadata.title}," a two-host personal morning podcast for Ben.
 Today is ${today}. Ben is based in ${weather.location}.
@@ -187,7 +195,7 @@ ${memoryContext}The show has two hosts:
 ${contentSourcesText}
 
 YOUR TASK:
-Produce a complete, ready-to-record two-speaker podcast script for an 8–15 minute episode.
+Produce a complete, ready-to-record two-speaker podcast script for a ${minDuration}–${maxDuration} minute episode.
 
 ═══════════════════════════════════════════════
 FORMAT RULES (critical):
@@ -251,7 +259,7 @@ STYLE RULES:
 - Conversational and smart — like two well-informed colleagues riffing on the news.
 - The banter should feel natural, not forced. Don't overdo the back-and-forth — let each host make substantive points.
 - Do NOT pad with filler. If today is a slow news day, say so honestly and go deeper on fewer items.
-- Target word count: 1,200–1,800 words (8–12 minutes at a natural speaking pace).
+- Target word count: ${minWords.toLocaleString()}–${maxWords.toLocaleString()} words (${minDuration}–${maxDuration} minutes at a natural speaking pace).
 - The ONLY bracketed labels allowed are [HOST] and [COHOST] at the start of each speaker turn.
   No other stage directions, segment headers, or bracketed labels.
 
