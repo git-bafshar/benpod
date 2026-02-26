@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-02-26",
+      "summary": "This episode explores the reported chemistry crisis between Lakers superstars LeBron James and Luka Doncic alongside a seismic shift in Anthropic’s approach to AI safety. We also break down the breaking news of an FBI raid on the Los Angeles Schools Chief and provide an update on the glassy, foggy surf conditions greeting the coast today.",
+      "keyTopics": [
+        "LeBron James and Luka Doncic locker room friction",
+        "Tony Bennett hired as Lakers draft adviser",
+        "Figma integrates OpenAI Codex and Anthropic Claude Code",
+        "Anthropic reported shift away from AI safety guardrails",
+        "Marc Benioff addresses Salesforce SaaSpocalypse and AI agents",
+        "FBI raid on Los Angeles Schools Chief office"
+      ]
+    },
+    {
       "date": "2026-02-25",
       "summary": "Experience the highs and lows of the sports and tech worlds, from the Lakers' heartbreaking buzzer-beater loss to the rapid integration of AI agents as official team members in the workplace. This episode also dives into major policy moves regarding international data privacy and the latest creative updates from Adobe and Amazon.",
       "keyTopics": [
