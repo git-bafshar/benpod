@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-02-26</title>
+      <description>Explore the &quot;whiplash-inducing&quot; pace of AI development as industry leaders re-evaluate safety promises and prepare for a future of &quot;data center geniuses.&quot; Closer to home, the episode breaks down the local impact of Chicago’s recent credit downgrade and rising financial distress, while offering a glimmer of hope with the lowest mortgage rates in years. Finally, stay up to date with the latest sports highlights, from the Warriors&apos; dominant road win to the latest NFL trade rumors.</description>
+      <pubDate>Thu, 26 Feb 2026 08:12:14 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-02-26-081214.mp3" length="4443264" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-02-26-081214.mp3</guid>
+      <itunes:duration>278</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-02-25</title>
       <description>Today’s episode explores the evolution of AI into a proactive personal assistant and the growing public backlash against the massive data centers required to power it. We also analyze Chicago’s escalating fiscal challenges and the shifting real estate market where buyers are finally gaining new leverage. From local political updates to high-stakes NFL trade rumors, stay informed on the major headlines shaping technology, economics, and sports.</description>
       <pubDate>Wed, 25 Feb 2026 14:40:36 GMT</pubDate>
