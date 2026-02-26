@@ -57,7 +57,7 @@ async function synthesizeScriptGemini(contentBundle, episodeMemory = null, confi
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const modelPro = genAI.getGenerativeModel({ model: "gemini-2.5-pro" });
+  const modelPro = genAI.getGenerativeModel({ model: "gemini-2.5-pro", generationConfig: { maxOutputTokens: 8192 } });
   const modelFlash = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
 
   const today = new Date().toLocaleDateString('en-US', {
@@ -181,6 +181,9 @@ ${episodeMemory}
   const wordsPerMinute = 150; // Natural conversational pace
   const minWords = minDuration * wordsPerMinute;
   const maxWords = maxDuration * wordsPerMinute;
+  const targetSegments = Math.round((preferredDuration - 1) / 2);
+  const minSegments = Math.max(3, targetSegments - 1);
+  const maxSegments = targetSegments + 1;
   const recipientName = config.metadata.recipientName || 'the listener';
 
   const prompt = `
@@ -196,7 +199,7 @@ ${memoryContext}The show has two hosts:
 ${contentSourcesText}
 
 YOUR TASK:
-Produce a complete, ready-to-record two-speaker podcast script for a ${minDuration}–${maxDuration} minute episode.
+Produce a complete, ready-to-record two-speaker podcast script for a ${minDuration}–${maxDuration} minute episode (${minWords.toLocaleString()}–${maxWords.toLocaleString()} words). This word count is a hard requirement — write to fill the time with depth and analysis, not brevity.
 
 ═══════════════════════════════════════════════
 FORMAT RULES (critical):
@@ -224,7 +227,7 @@ STRUCTURE (follow this exactly):
 - One sentence on what today's episode covers (the "headline of headlines").
 - COHOST reacts and weaves in the ${weather.location} weather naturally.
 
-[THEME SEGMENTS — 4 to 8 segments, each ~1–2 minutes]
+[THEME SEGMENTS — ${minSegments} to ${maxSegments} segments, each ~2 minutes]
 Cluster today's news into themes. Choose names that fit the actual news.
 ${themesText}
 
@@ -259,8 +262,7 @@ STYLE RULES:
 - Write for the ear, not the eye. Short sentences. Active voice. No bullet points, no URLs, no markdown in the script.
 - Conversational and smart — like two well-informed colleagues riffing on the news.
 - The banter should feel natural, not forced. Don't overdo the back-and-forth — let each host make substantive points.
-- Do NOT pad with filler. If today is a slow news day, say so honestly and go deeper on fewer items.
-- Target word count: ${minWords.toLocaleString()}–${maxWords.toLocaleString()} words (${minDuration}–${maxDuration} minutes at a natural speaking pace).
+- Do NOT pad with filler. If today is a slow news day, go deeper on fewer items rather than skimming many.
 - The ONLY bracketed labels allowed are [HOST] and [COHOST] at the start of each speaker turn.
   No other stage directions, segment headers, or bracketed labels.
 
