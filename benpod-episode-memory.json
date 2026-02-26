@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-02-26",
+      "summary": "Explore the \"whiplash-inducing\" pace of AI development as industry leaders re-evaluate safety promises and prepare for a future of \"data center geniuses.\" Closer to home, the episode breaks down the local impact of Chicago’s recent credit downgrade and rising financial distress, while offering a glimmer of hope with the lowest mortgage rates in years. Finally, stay up to date with the latest sports highlights, from the Warriors' dominant road win to the latest NFL trade rumors.",
+      "keyTopics": [
+        "Anthropic safety policy shift and Vercept acquisition",
+        "Figma OpenAI Codex and Anthropic AI integrations",
+        "Salesforce CEO Marc Benioff SaaSpocalypse defense",
+        "Chicago credit rating downgrade and pension crisis",
+        "Illinois population battle and Chicago financial distress",
+        "Dario Amodei Adolescence of Technology AI essay",
+        "San Francisco 49ers Mac Jones trade rumors",
+        "US mortgage rates hit 6.01 percent low"
+      ],
+      "articles": [
+        "Dario Amodei — The Adolescence of Technology"
+      ]
+    },
+    {
       "date": "2026-02-25",
       "summary": "Today’s episode explores the evolution of AI into a proactive personal assistant and the growing public backlash against the massive data centers required to power it. We also analyze Chicago’s escalating fiscal challenges and the shifting real estate market where buyers are finally gaining new leverage. From local political updates to high-stakes NFL trade rumors, stay informed on the major headlines shaping technology, economics, and sports.",
       "keyTopics": [
