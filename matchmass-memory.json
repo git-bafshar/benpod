@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-02-27",
+      "summary": "Dive into a massive day for tech as OpenAI secures a historic $110 billion funding round while Anthropic takes a principled stand against the Pentagon over AI safety. This episode also breaks down the Lakers’ latest heartbreaker and the strategic addition of Tony Bennett to their front office, alongside major shifts in Hollywood ownership and the rise of \"AI-native\" corporate restructuring. Finally, stay informed with local updates on school budget proposals and the weekend surf outlook for the Central Coast.",
+      "keyTopics": [
+        "OpenAI $110 billion funding round from Amazon and Nvidia",
+        "Anthropic and Dario Amodei Pentagon AI safety standoff",
+        "Lakers hire Tony Bennett as front office special adviser",
+        "Megan Ellison and Annapurna Pictures Warner Brothers acquisition",
+        "Jack Dorsey Block layoffs inspired by Elon Musk",
+        "Study linking generative AI use to depressive symptoms",
+        "Lakers loss to Suns and LeBron-Luka chemistry crisis"
+      ]
+    },
+    {
       "date": "2026-02-26",
       "summary": "This episode explores the reported chemistry crisis between Lakers superstars LeBron James and Luka Doncic alongside a seismic shift in Anthropic’s approach to AI safety. We also break down the breaking news of an FBI raid on the Los Angeles Schools Chief and provide an update on the glassy, foggy surf conditions greeting the coast today.",
       "keyTopics": [
