@@ -138,7 +138,13 @@ ${episodeMemory}
     mandatoryThemes.push('- "AI & Tech Briefing": Coverage of major AI/ML news.');
   }
   if (config.content.realEstate?.enabled) {
-    mandatoryThemes.push('- "Real Estate Report": Market analysis based on Zillow/Redfin summaries.');
+    if (config.content.realEstate?.briefFormat) {
+      const markets = config.content.realEstate?.targetMarkets;
+      const marketClause = markets?.length ? ` Focus on the ${markets.join(', ')} markets.` : '';
+      mandatoryThemes.push(`- "Real Estate Report": Brief, high-level market trends only. Keep this segment short — no price ranges.${marketClause}`);
+    } else {
+      mandatoryThemes.push('- "Real Estate Report": Market analysis based on Zillow/Redfin summaries.');
+    }
   }
   if (config.content.sports?.enabled) {
     const teamNames = config.content.sports.teams?.map(t => t.name).join(' or ') || 'team';
