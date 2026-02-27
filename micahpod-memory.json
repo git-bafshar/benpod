@@ -2,16 +2,19 @@
   "episodes": [
     {
       "date": "2026-02-27",
-      "summary": "Dive into the dawn of the “agentic era” as AI moves from answering questions to executing complex tasks, sparking high-stakes ethical standoffs between tech giants and the military. This episode also explores the real-world friction of driverless cars in residential neighborhoods, the latest shifts in the housing market, and surprising developments in national security and global diplomacy.",
+      "summary": "This episode explores a landmark ethical standoff as Anthropic’s CEO draws a hard line against military AI access, alongside a look at the \"hardcore\" efficiency shifts and strategic partnerships reshaping the tech industry. We also track the growing pains of autonomous vehicles in local neighborhoods, falling mortgage rates, and the evolving science of \"AI neuroscience\" that prioritizes logical reasoning over raw computing power. From high-stakes corporate decisions to the latest updates in aerospace and housing, this briefing covers the essential shifts shaping our technology and our communities.",
       "keyTopics": [
-        "Anthropic Cowork and Salesforce Slackbot agentic AI tools",
-        "Anthropic CEO Dario Amodei refusal of Pentagon AI access",
-        "Google workers demand red lines on military AI use",
-        "Mistral and Accenture partnership for enterprise AI flexibility",
-        "Railway 100 million dollar Series B for AI infrastructure",
-        "Waymo driverless car residential staging friction in Orlando",
-        "US mortgage rates hit lowest level since September 2022",
-        "US military laser shootdown of Customs and Border drone"
+        "Anthropic CEO Dario Amodei Pentagon military access refusal",
+        "Mistral AI and Accenture enterprise consulting partnership",
+        "Block CEO Jack Dorsey workforce reduction and efficiency strategy",
+        "Waymo autonomous vehicle staging friction in Orlando neighborhoods",
+        "SpaceX Falcon 9 high-frequency launch cadence",
+        "US 30-year mortgage rates drop to 6.01 percent",
+        "Anthropic Sonnet 4.6 performance and mechanistic interpretability",
+        "AI training shift toward Process Reward Models"
+      ],
+      "articles": [
+        "4.5 → 4.6: Our Best Guesses on How Anthropic Did It"
       ]
     }
   ]
