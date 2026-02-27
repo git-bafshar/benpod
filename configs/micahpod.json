@@ -52,7 +52,7 @@
         {"url": "https://www.wesh.com/topstories-rss", "name": "WESH 2 Orlando", "focus": "Orlando local news"},
         {"url": "https://www.mindtheproduct.com/feed/", "name": "Mind the Product", "focus": "product management"},
         {"url": "https://review.firstround.com/feed.xml", "name": "First Round Review", "focus": "product leadership"},
-        {"url": "https://a16z.com/category/artificial-intelligence/feed/", "name": "a16z AI", "focus": "AI strategy and product"}
+        {"url": "https://www.lewis-lin.com/blog?format=rss", "name": "Lewis Lin Blog", "focus": "product management"}
       ],
       "maxItemsPerFeed": 5
     }
