@@ -51,10 +51,17 @@
         {"url": "https://www.oneusefulthing.org/feed", "name": "One Useful Thing", "focus": "AI in work and product management"},
         {"url": "https://www.wesh.com/topstories-rss", "name": "WESH 2 Orlando", "focus": "Orlando local news"},
         {"url": "https://www.mindtheproduct.com/feed/", "name": "Mind the Product", "focus": "product management"},
-        {"url": "https://review.firstround.com/feed.xml", "name": "First Round Review", "focus": "product leadership"},
-        {"url": "https://www.lewis-lin.com/blog?format=rss", "name": "Lewis Lin Blog", "focus": "product management"}
+        {"url": "https://review.firstround.com/feed.xml", "name": "First Round Review", "focus": "product leadership"}
       ],
       "maxItemsPerFeed": 5
+    },
+    "articles": {
+      "enabled": true,
+      "feeds": [
+        {"url": "https://www.lewis-lin.com/blog?format=rss", "name": "Lewis Lin Blog", "maxItems": 1}
+      ],
+      "maxPerEpisode": 2,
+      "includeInDepthDiscussion": true
     }
   },
   "voices": {

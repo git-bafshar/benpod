@@ -1206,63 +1206,88 @@ async function fetchArticles(config, episodeMemory) {
   console.log('Fetching articles from RSS feed...');
 
   try {
-    const feedUrl = config.content.articles.killTheNewsletterFeedUrl;
-    const maxArticles = config.content.articles.maxPerEpisode || 2;
+    const articlesConfig = config.content.articles;
+    const maxPerEpisode = articlesConfig.maxPerEpisode || 2;
 
-    // Fetch RSS/Atom feed to get article links
-    const { data } = await axios.get(feedUrl, {
-      headers: { 'User-Agent': USER_AGENT },
-      timeout: 10000
-    });
-
-    const $ = cheerio.load(data, { xmlMode: true });
-    const articleLinks = [];
-
-    // Try RSS format first (item tags)
-    let entries = $('item');
-    let isAtom = false;
-
-    // If no items found, try Atom format (entry tags)
-    if (entries.length === 0) {
-      entries = $('entry');
-      isAtom = true;
+    // Build list of feed sources: legacy KTN URL + any direct feeds[]
+    const feedSources = [];
+    if (articlesConfig.killTheNewsletterFeedUrl) {
+      feedSources.push({ url: articlesConfig.killTheNewsletterFeedUrl, name: 'Kill The Newsletter', maxItems: maxPerEpisode });
+    }
+    if (Array.isArray(articlesConfig.feeds)) {
+      for (const feed of articlesConfig.feeds) {
+        feedSources.push({ url: feed.url, name: feed.name || feed.url, maxItems: feed.maxItems ?? maxPerEpisode });
+      }
     }
 
-    entries.each((_, el) => {
-      const title = $(el).find('title').text().trim();
-      let link = '';
+    if (feedSources.length === 0) {
+      console.log('  No article feed sources configured');
+      return { items: [], usage: null };
+    }
 
-      if (isAtom) {
-        // For Atom feeds, extract link from content HTML (handle entity-encoded quotes)
-        const content = $(el).find('content').html() || '';
-        const linkMatch = content.match(/href=(?:&quot;|["'])([^&"']+)(?:&quot;|["'])/);
-        if (linkMatch) {
-          link = linkMatch[1];
-          // Decode HTML entities
-          link = link.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
-        }
-      } else {
-        // For RSS feeds, get link element
-        link = $(el).find('link').text().trim();
+    // Collect article links from all feed sources, respecting per-feed maxItems
+    const allArticleLinks = [];
+
+    for (const feedSource of feedSources) {
+      let feedData;
+      try {
+        const response = await axios.get(feedSource.url, {
+          headers: { 'User-Agent': USER_AGENT },
+          timeout: 10000
+        });
+        feedData = response.data;
+      } catch (feedError) {
+        console.error(`  Failed to fetch feed "${feedSource.name}": ${feedError.message}`);
+        continue;
       }
 
-      if (title && link && !link.includes('kill-the-newsletter.com/feeds')) {
-        // Check if article has been covered before
-        if (!hasArticleBeenCovered(episodeMemory, title, 30)) {
-          articleLinks.push({ title, link });
+      const $ = cheerio.load(feedData, { xmlMode: true });
+      let entries = $('item');
+      let isAtom = false;
+
+      if (entries.length === 0) {
+        entries = $('entry');
+        isAtom = true;
+      }
+
+      const feedLinks = [];
+      entries.each((_, el) => {
+        const title = $(el).find('title').text().trim();
+        let link = '';
+
+        if (isAtom) {
+          // For Atom feeds, extract link from content HTML (handle entity-encoded quotes)
+          const content = $(el).find('content').html() || '';
+          const linkMatch = content.match(/href=(?:&quot;|["'])([^&"']+)(?:&quot;|["'])/);
+          if (linkMatch) {
+            link = linkMatch[1];
+            link = link.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
+          }
         } else {
-          console.log(`  Skipping previously covered article: ${title}`);
+          // For standard RSS feeds, get link element
+          link = $(el).find('link').text().trim();
         }
-      }
-    });
 
-    if (articleLinks.length === 0) {
+        if (title && link && !link.includes('kill-the-newsletter.com/feeds')) {
+          if (!hasArticleBeenCovered(episodeMemory, title, 30)) {
+            feedLinks.push({ title, link, source: feedSource.name });
+          } else {
+            console.log(`  Skipping previously covered article: ${title}`);
+          }
+        }
+      });
+
+      // Apply per-feed cap before adding to global pool
+      allArticleLinks.push(...feedLinks.slice(0, feedSource.maxItems));
+    }
+
+    if (allArticleLinks.length === 0) {
       console.log('  No new articles found');
       return { items: [], usage: null };
     }
 
-    // Limit to maxArticles
-    const articlesToFetch = articleLinks.slice(0, maxArticles);
+    // Apply global cap across all sources
+    const articlesToFetch = allArticleLinks.slice(0, maxPerEpisode);
     console.log(`  Found ${articlesToFetch.length} new article(s) to analyze`);
 
     if (!modelFlash) {
@@ -1275,7 +1300,7 @@ async function fetchArticles(config, episodeMemory) {
     let totalPromptTokens = 0;
     let totalCandidatesTokens = 0;
 
-    for (const { title, link } of articlesToFetch) {
+    for (const { title, link, source: articleSource } of articlesToFetch) {
       try {
         console.log(`  Fetching article: ${title}`);
 
@@ -1350,7 +1375,7 @@ Format as structured text (not JSON), keeping it conversational and suitable for
           title,
           link,
           analysis,
-          source: 'Curated Articles'
+          source: articleSource || 'Curated Articles'
         });
 
         console.log(`  ✅ Analyzed: ${title}`);

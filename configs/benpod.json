@@ -67,6 +67,9 @@
     "articles": {
       "enabled": true,
       "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/poxbj6f42z66128xxi06.xml",
+      "feeds": [
+        {"url": "https://www.lewis-lin.com/blog?format=rss", "name": "Lewis Lin Blog", "maxItems": 1}
+      ],
       "maxPerEpisode": 2,
       "includeInDepthDiscussion": true
     }
