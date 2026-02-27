@@ -1,0 +1,48 @@
+name: Micahpod Daily Briefing
+
+on:
+  schedule:
+    # Run at 12:00 PM UTC on weekdays only
+    # (7:00 AM EST / 8:00 AM EDT)
+    - cron: '0 12 * * 1-5'
+  workflow_dispatch:  # Allow manual trigger
+
+# Required so the Action can commit to gh-pages
+permissions:
+  contents: write
+
+jobs:
+  run-briefing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Write GCP credentials
+        run: |
+          echo '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}' | jq '.' > gcp-key.json
+
+      - name: Run micahpod pipeline
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GOOGLE_APPLICATION_CREDENTIALS: ./gcp-key.json
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
+        run: node src/index.js --config micahpod
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f gcp-key.json
+          rm -f /tmp/*.mp3
+          rm -f /tmp/*.txt

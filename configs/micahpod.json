@@ -1,0 +1,71 @@
+{
+  "id": "micahpod",
+  "metadata": {
+    "title": "The Daily Micah",
+    "author": "Ben",
+    "description": "Daily briefing on AI, product leadership, and Orlando news",
+    "email": "ben.afshar@gmail.com",
+    "recipientName": "Micah"
+  },
+  "location": {
+    "city": "Orlando",
+    "state": "FL",
+    "latitude": 28.5383,
+    "longitude": -81.3792,
+    "timezone": "America/New_York"
+  },
+  "paths": {
+    "feedFile": "micahpod.xml",
+    "episodesDir": "micahpod",
+    "episodeMemoryFile": "micahpod-memory.json",
+    "artworkFile": "micahpod-artwork.jpg"
+  },
+  "content": {
+    "aiNews": {
+      "enabled": true,
+      "sources": ["openai", "anthropic", "deepmind", "meta", "verge", "techcrunch", "venturebeat", "hackernews"],
+      "focus": "AI in product management and product leadership"
+    },
+    "newsletters": {
+      "enabled": true,
+      "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/p2vjd4x4ntleatnaczug.xml"
+    },
+    "sports": {
+      "enabled": false
+    },
+    "realEstate": {
+      "enabled": true,
+      "feeds": [
+        {"url": "https://www.zillow.com/research/feed/", "name": "Zillow Research"},
+        {"url": "https://www.redfin.com/news/feed/", "name": "Redfin News"}
+      ],
+      "briefFormat": true,
+      "targetMarkets": ["Orlando", "Denver", "San Diego"]
+    },
+    "internationalRelations": {
+      "enabled": false
+    },
+    "news": {
+      "enabled": true,
+      "feeds": [
+        {"url": "https://www.oneusefulthing.org/feed", "name": "One Useful Thing", "focus": "AI in work and product management"},
+        {"url": "https://www.wesh.com/topstories-rss", "name": "WESH 2 Orlando", "focus": "Orlando local news"},
+        {"url": "https://www.mindtheproduct.com/feed/", "name": "Mind the Product", "focus": "product management"},
+        {"url": "https://review.firstround.com/feed.xml", "name": "First Round Review", "focus": "product leadership"},
+        {"url": "https://a16z.com/category/artificial-intelligence/feed/", "name": "a16z AI", "focus": "AI strategy and product"}
+      ],
+      "maxItemsPerFeed": 5
+    }
+  },
+  "voices": {
+    "host": {
+      "languageCode": "en-US",
+      "name": "en-US-Studio-O"
+    },
+    "cohost": {
+      "languageCode": "en-US",
+      "name": "en-US-Studio-Q"
+    }
+  },
+  "preferredDurationMinutes": 12
+}
