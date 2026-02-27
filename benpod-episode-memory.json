@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-02-27",
+      "summary": "Explore the high-stakes standoff between Anthropic and the Pentagon as AI safety advocates draw a \"red line\" against military demands for unrestricted access to powerful technology. This episode also breaks down Chicago’s mounting financial and operational crises—from a \"debt storm\" hitting residents to the \"ghost services\" straining public trust—while examining the shifting real estate market and a vision for the \"radical upside\" of an AI-driven future.",
+      "keyTopics": [
+        "Anthropic standoff with Pentagon over military AI access",
+        "Jack Dorsey halves Block workforce following Musk efficiency model",
+        "Cook County property tax sale delayed until December",
+        "Inspector General Deborah Witzburg exposes Chicago 311 ghost services",
+        "US homeowners with six percent mortgage rates outnumber three percent",
+        "Redfin and Compass partner to pool real estate listings",
+        "Golden State Warriors trade Jonathan Kuminga to Atlanta Hawks",
+        "Dario Amodei Machines of Loving Grace AI optimism essay"
+      ],
+      "articles": [
+        "Dario Amodei — Machines of Loving Grace"
+      ]
+    },
+    {
       "date": "2026-02-26",
       "summary": "Explore the \"whiplash-inducing\" pace of AI development as industry leaders re-evaluate safety promises and prepare for a future of \"data center geniuses.\" Closer to home, the episode breaks down the local impact of Chicago’s recent credit downgrade and rising financial distress, while offering a glimmer of hope with the lowest mortgage rates in years. Finally, stay up to date with the latest sports highlights, from the Warriors' dominant road win to the latest NFL trade rumors.",
       "keyTopics": [
