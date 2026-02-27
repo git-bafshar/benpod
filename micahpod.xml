@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Daily Micah</title>
+    <link>https://git-bafshar.github.io/benpod</link>
+    <description>Daily briefing on AI, product leadership, and Orlando news</description>
+    <language>en-us</language>
+    <itunes:image href="https://git-bafshar.github.io/benpod/micahpod-artwork.jpg"/>
+    <itunes:author>Ben</itunes:author>
+    <itunes:email>ben.afshar@gmail.com</itunes:email>
+    <itunes:owner>
+      <itunes:name>Ben</itunes:name>
+      <itunes:email>ben.afshar@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    
+    <item>
+      <title>The Daily Micah — 2026-02-27</title>
+      <description>Dive into the dawn of the “agentic era” as AI moves from answering questions to executing complex tasks, sparking high-stakes ethical standoffs between tech giants and the military. This episode also explores the real-world friction of driverless cars in residential neighborhoods, the latest shifts in the housing market, and surprising developments in national security and global diplomacy.</description>
+      <pubDate>Fri, 27 Feb 2026 00:20:45 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-02-27-002045.mp3" length="4984704" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-02-27-002045.mp3</guid>
+      <itunes:duration>312</itunes:duration>
+    </item>
+  </channel>
+</rss>
