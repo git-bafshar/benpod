@@ -57,6 +57,7 @@
     "news": {
       "enabled": true,
       "feeds": [
+        {"url": "https://feeds.npr.org/1001/rss.xml", "name": "NPR News", "focus": "NPR News"},
         {"url": "https://wirepoints.org/feed/", "name": "Wirepoints", "focus": "Illinois politics and policy"},
         {"url": "https://www.chicagomag.com/feed/", "name": "Chicago Mag", "focus": "Chicago Affairs"},
         {"url": "https://www.theinformation.com/feed", "name": "The Information", "focus": "Tech and AI"},
@@ -67,9 +68,6 @@
     "articles": {
       "enabled": true,
       "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/poxbj6f42z66128xxi06.xml",
-      "feeds": [
-        {"url": "https://www.lewis-lin.com/blog?format=rss", "name": "Lewis Lin Blog", "maxItems": 1}
-      ],
       "maxPerEpisode": 2,
       "includeInDepthDiscussion": true
     }
