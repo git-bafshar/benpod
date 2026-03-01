@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-03-01",
+      "summary": "Explore the global shockwaves following the death of Iran’s Supreme Leader and the complex reactions it’s sparking from the Middle East to the streets of Chicago. This episode also analyzes the high-stakes battle over AI ethics in military contracts and breaks down a significant new tipping point for the U.S. housing market.",
+      "keyTopics": [
+        "Assassination of Iranian Supreme Leader Ayatollah Ali Khamenei",
+        "OpenAI and Anthropic dispute over Pentagon military contracts",
+        "Judge Jeffrey Cummings orders release of Chicago ICE detainees",
+        "The Lancet editorial condemning Robert F. Kennedy Jr.",
+        "Redfin report on six percent mortgage rate tipping point",
+        "Anthropic Claude chatbot growth following Pentagon risk label",
+        "Illinois bill proposal to ban state hiring of ICE agents",
+        "San Francisco 49ers Trent Williams contract extension negotiations"
+      ]
+    },
+    {
       "date": "2026-02-28",
       "summary": "This episode explores the global fallout of \"Operation Epic Fury\" following coordinated US and Israeli strikes on Iran that have killed Supreme Leader Khamenei and sent shockwaves through international energy markets. We also analyze the escalating rift in Silicon Valley as OpenAI secures a major military contract rejected by Anthropic, alongside a look at the economic shifts redefining American cities and the housing market.",
       "keyTopics": [
