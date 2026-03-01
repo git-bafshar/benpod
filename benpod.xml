@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-01</title>
+      <description>Explore the global shockwaves following the death of Iran’s Supreme Leader and the complex reactions it’s sparking from the Middle East to the streets of Chicago. This episode also analyzes the high-stakes battle over AI ethics in military contracts and breaks down a significant new tipping point for the U.S. housing market.</description>
+      <pubDate>Sun, 01 Mar 2026 07:23:38 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-01-072338.mp3" length="4563456" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-01-072338.mp3</guid>
+      <itunes:duration>285</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-02-28</title>
       <description>This episode explores the global fallout of &quot;Operation Epic Fury&quot; following coordinated US and Israeli strikes on Iran that have killed Supreme Leader Khamenei and sent shockwaves through international energy markets. We also analyze the escalating rift in Silicon Valley as OpenAI secures a major military contract rejected by Anthropic, alongside a look at the economic shifts redefining American cities and the housing market.</description>
       <pubDate>Sat, 28 Feb 2026 17:47:36 GMT</pubDate>
