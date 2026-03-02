@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-03-02",
+      "summary": "This episode dives into a turbulent weekend for AI, covering Anthropic’s rapid rise and subsequent outage alongside OpenAI’s candid admissions regarding their controversial Pentagon partnership. We also break down the Lakers’ dominant bounce-back win over the Kings and Apple’s surprise launch of a powerful new M4-equipped iPad Air. Finally, explore the shifting tech landscape with a look at the \"SaaSpocalypse\" and the massive $100 million funding round for AI-native cloud platform Railway.",
+      "keyTopics": [
+        "Anthropic Claude App Store surge followed by service outage",
+        "Anthropic Cowork feature creates 10GB silent virtual machine files",
+        "Sam Altman admits OpenAI Pentagon deal was poorly handled",
+        "Apple releases new iPad Air with M4 silicon chip",
+        "Railway raises 100 million dollars for AI-native infrastructure",
+        "Lakers dominate Kings behind Luka and LeBron chemistry win",
+        "The SaaSpocalypse trend and shift toward AI-native platforms"
+      ]
+    },
+    {
       "date": "2026-02-27",
       "summary": "Dive into a massive day for tech as OpenAI secures a historic $110 billion funding round while Anthropic takes a principled stand against the Pentagon over AI safety. This episode also breaks down the Lakers’ latest heartbreaker and the strategic addition of Tony Bennett to their front office, alongside major shifts in Hollywood ownership and the rise of \"AI-native\" corporate restructuring. Finally, stay informed with local updates on school budget proposals and the weekend surf outlook for the Central Coast.",
       "keyTopics": [
