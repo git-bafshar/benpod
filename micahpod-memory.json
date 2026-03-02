@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-03-02",
+      "summary": "Discover the latest on a significant military escalation in the Middle East and the resulting congressional debate over U.S. war powers. This episode also explores the transition into the \"Agentic Era\" of AI, analyzing the ethical divide between tech giants and how autonomous agents are beginning to reshape the way we work. Finally, stay informed on a historic shift in the real estate market as mortgage rates reach a major five-year milestone.",
+      "keyTopics": [
+        "US and Israel military airstrikes inside Iran",
+        "Congress debates war powers resolutions for Middle East escalation",
+        "OpenAI Department of Defense contract vs Anthropic ethical stance",
+        "Anthropic Claude chatbot reaches number one in App Store",
+        "Transition from chatbots to agentic and ambient AI agents",
+        "US mortgage rates over six percent hit ten-year high",
+        "Redfin and Compass inventory sharing partnership for listings",
+        "OpenClaw lessons on proactive AI agents and persistent memory"
+      ],
+      "articles": [
+        "What We Learned from OpenClaw: 6 lessons on the future of AI agents"
+      ]
+    },
+    {
       "date": "2026-02-27",
       "summary": "This episode explores a landmark ethical standoff as Anthropic’s CEO draws a hard line against military AI access, alongside a look at the \"hardcore\" efficiency shifts and strategic partnerships reshaping the tech industry. We also track the growing pains of autonomous vehicles in local neighborhoods, falling mortgage rates, and the evolving science of \"AI neuroscience\" that prioritizes logical reasoning over raw computing power. From high-stakes corporate decisions to the latest updates in aerospace and housing, this briefing covers the essential shifts shaping our technology and our communities.",
       "keyTopics": [
