@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-03-03</title>
+      <description>This episode examines the fallout of OpenAI’s partnership with the Pentagon as users defect to safety-conscious alternatives like Anthropic and specialized tools like Cursor. We also dive into the alarming real-world consequences of AI-generated misinformation in journalism and the legal system, alongside a landmark California Supreme Court ruling on student privacy. Finally, we catch up on the latest tech business milestones and local California news.</description>
+      <pubDate>Tue, 03 Mar 2026 06:55:24 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-03-065524.mp3" length="3778944" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-03-065524.mp3</guid>
+      <itunes:duration>236</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-03-02</title>
       <description>This episode dives into a turbulent weekend for AI, covering Anthropic’s rapid rise and subsequent outage alongside OpenAI’s candid admissions regarding their controversial Pentagon partnership. We also break down the Lakers’ dominant bounce-back win over the Kings and Apple’s surprise launch of a powerful new M4-equipped iPad Air. Finally, explore the shifting tech landscape with a look at the &quot;SaaSpocalypse&quot; and the massive $100 million funding round for AI-native cloud platform Railway.</description>
       <pubDate>Mon, 02 Mar 2026 06:53:15 GMT</pubDate>
