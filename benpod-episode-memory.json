@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-03-03",
+      "summary": "Explore a day of major escalations as the U.S. shutters embassies in the Middle East while OpenAI faces a massive consumer backlash over its recent military partnership. This episode also dives into a \"pocket-sized\" breakthrough in biological AI, the expansion struggles of a Chicago food icon, and why the national housing market remains frozen despite dipping mortgage rates. From landmark reparations reports to the latest in tech ethics, stay informed on the essential stories shaping today’s global and local landscape.",
+      "keyTopics": [
+        "US embassy closures amid Operation Epic Fury escalation",
+        "OpenAI ChatGPT user backlash following Pentagon defense deal",
+        "Anthropic supply-chain risk and industry open letter",
+        "Portillo’s national expansion operational hurdles and brand dilution",
+        "Illinois African Descent-Citizens Reparations Commission landmark report",
+        "Miniaturized AI vision model integration with biological monkey neurons",
+        "Ars Technica reporter fired for AI-fabricated quotes",
+        "US homeowner tenure records and luxury real estate trends"
+      ]
+    },
+    {
       "date": "2026-03-02",
       "summary": "Dive into the global ripple effects of \"Operation Epic Fury\" as direct military conflict breaks out between the U.S., Israel, and Iran, sparking a constitutional debate over executive war powers. This episode also examines the ethical and technical roller coaster of the AI industry, the rising safety and funding crisis within Chicago's public transit, and how remote work is reshaping urban wealth and the housing market. From geopolitical shifts to local headlines and sports updates, get the essential news you need to start your week.",
       "keyTopics": [
