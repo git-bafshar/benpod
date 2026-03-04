@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-03-04",
+      "summary": "Explore the significant escalation of global conflict as direct strikes hit Tehran and the \"Agentic Era\" begins with AI taking on active roles in the workplace. This episode also breaks down the volatile housing market and the evolving human skills needed to excel in a career landscape increasingly shaped by automation. Plus, stay updated on local milestones, from SpaceX’s latest record-breaking launch to vital community housing initiatives.",
+      "keyTopics": [
+        "Direct U.S. and Israeli airstrikes on Tehran security targets",
+        "U.S. Senate votes on President Trump's Iran war powers",
+        "Salesforce Slackbot transformation into fully powered AI agent",
+        "Anthropic acquires Vercept for AI computer interaction capabilities",
+        "OpenAI GPT-5.3 Instant release targeting reduced conversational cringe",
+        "U.S. mortgage rates dip below six percent amid volatility",
+        "SpaceX Falcon 9 booster completes record-breaking 25th flight",
+        "Lewis Lin Google PM interview rubric for human-AI differentiation"
+      ],
+      "articles": [
+        "The Google PM Interview Isn't Pass/Fail: The 5 Performance Levels for Product Design, Analytical Thinking, and Technical Depth"
+      ]
+    },
+    {
       "date": "2026-03-03",
       "summary": "This episode explores a major military escalation in the Middle East following direct attacks on U.S. interests and the dramatic \"user rebellion\" as thousands migrate from OpenAI to Anthropic over ethical concerns. We also break down the arrival of the \"Agentic Era\" in the workplace and analyze the shifting real estate landscape as mortgage rates hit a ten-year high. Discover how these geopolitical, technological, and economic shifts are fundamentally reshaping the global landscape.",
       "keyTopics": [
