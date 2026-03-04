@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-03-04",
+      "summary": "This episode breaks down the Lakers' gritty win over the Pelicans and the sideline tension fueling rumors of a chemistry crisis within the team. We also dive into the high-stakes battle for the future of AI, covering a massive $125 million political push to block regulation and a futuristic plan to submerge data centers beneath the ocean. It is a deep dive into the intersection of professional sports, big-tech influence, and groundbreaking innovation.",
+      "keyTopics": [
+        "Lakers victory against Pelicans amid Luka Doncic Redick tension",
+        "CollectivIQ platform synthesizes responses from multiple AI models",
+        "Billionaire-backed super PAC spending $125 million against AI regulation",
+        "Aikido submerged data centers under offshore wind turbines",
+        "Lakers internal team chemistry and JJ Redick leadership narrative",
+        "AI industry political spending targeting regulation-friendly candidates"
+      ]
+    },
+    {
       "date": "2026-03-03",
       "summary": "This episode examines the fallout of OpenAI’s partnership with the Pentagon as users defect to safety-conscious alternatives like Anthropic and specialized tools like Cursor. We also dive into the alarming real-world consequences of AI-generated misinformation in journalism and the legal system, alongside a landmark California Supreme Court ruling on student privacy. Finally, we catch up on the latest tech business milestones and local California news.",
       "keyTopics": [
