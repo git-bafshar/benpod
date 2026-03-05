@@ -1,8 +1,8 @@
-# The Data & AI Daily — Personal Podcast Automation
+# Personal Podcast Automation
 
-Automated daily audio briefing covering AI releases and news, SF Sports, Real Estate, and Global Affairs, synthesized with Gemini 2.5 Pro and delivered as a podcast RSS feed via GitHub Pages.
+Automated daily audio briefing on your configured topics, synthesized with Gemini 2.5 Pro and delivered as a podcast RSS feed via GitHub Pages.
 
-Wake up to a personalized 8-15 minute episode in your podcast app every weekday morning.
+Wake up to a personalized 8–15 minute episode in your podcast app every weekday morning.
 
 ## How It Works
 
@@ -12,8 +12,8 @@ Wake up to a personalized 8-15 minute episode in your podcast app every weekday 
 - ⚡ **Pipeline Runtime:** ~4 minutes
 - 💰 **Cost per Episode:** ~$0.25 (Gemini Pro + TTS)
 - 📅 **Annual Cost:** ~$90 (250 weekday episodes)
-- 🎵 **Episode Length:** 8-15 minutes
-- 📰 **Stories Processed:** 20-40 items daily
+- 🎵 **Episode Length:** 8–15 minutes
+- 📰 **Stories Processed:** 20–40 items daily
 
 <details>
 <summary><b>📐 View Full Architecture Diagram</b></summary>
@@ -22,95 +22,104 @@ Wake up to a personalized 8-15 minute episode in your podcast app every weekday 
 
 ![Full Architecture](docs/architecture-full.png)
 
-**Architecture Details:**
+**Pipeline Steps:**
 
-The pipeline consists of 5 main steps:
-
-1. **Fetch Content** - Parallel fetching from 13+ sources:
-   - AI/ML news (OpenAI, Anthropic, DeepMind, Hacker News, arXiv)
-   - Newsletters (Axios via Kill The Newsletter)
-   - Real Estate (Zillow, Redfin - summarized with Gemini Flash)
-   - Sports (Warriors, Giants, 49ers via ESPN API - summarized with Gemini Flash)
-   - Iran news (Foreign Policy, IranWire - summarized with Gemini Flash)
-   - Dynamic: Olympics, World Cup, Surfline (when enabled)
-
-2. **Episode Memory & Articles** - Load cross-episode context and curated articles with deduplication
-
-3. **Synthesize Script** - Gemini 2.5 Pro generates 1,200-2,000 word conversational script with Chicago weather
-
-4. **Convert to Audio** - Google Cloud TTS with Studio voices and automatic sentence-based chunking
-
-5. **Publish & Track** - Commit MP3 + RSS feed to GitHub Pages, update episode memory, track TTS usage and costs
+1. **Fetch Content** — Parallel fetching across all enabled topic modules (AI/tech news, sports teams, real estate feeds, newsletters, international affairs, general news)
+2. **Episode Memory & Articles** — Load cross-episode context and curated articles with deduplication
+3. **Synthesize Script** — Gemini 2.5 Pro generates a 1,200–2,000 word conversational script including local weather
+4. **Convert to Audio** — Google Cloud TTS with Studio voices and automatic sentence-based chunking
+5. **Publish & Track** — Commit MP3 + RSS feed to GitHub Pages, update episode memory, track TTS usage and costs
 
 </details>
 
-## 🎯 Features
+## Features
 
-- **Automated Daily Pipeline**: Runs Monday-Friday at 6:00 AM UTC via GitHub Actions
-- **Expanded Content Sources**: 
-  - **AI/ML**: Databricks, OpenAI, Anthropic, DeepMind, Meta, The Verge, TechCrunch, Hacker News, arXiv
-  - **Sports**: SF Giants, Golden State Warriors, San Francisco 49ers (game recaps via ESPN API, Fansites)
-  - **Real Estate**: Market analysis and trends (summarized from Zillow & Redfin)
-  - **Global Affairs**: International relations with a focus on Iran (Foreign Policy, IranWire)
-  - **Local**: Axios Chicago and other regional newsletters
-- **AI-Powered Script**: Gemini 2.5 Pro generates personalized, conversational 8-15 minute scripts with Chicago weather and multi-episode continuity
-- **High-Quality Audio**: Google Cloud Text-to-Speech with Studio voices, with automatic chunking for long scripts
-- **Podcast RSS Feed**: Published to GitHub Pages with iTunes tags, artwork, and owner email for Spotify submission
-- **Zero Infrastructure**: Completely free hosting via GitHub Pages + Actions
+- **Automated Daily Pipeline** — Runs Monday–Friday on a configurable schedule via GitHub Actions
+- **Config-Driven Content** — All topics, sources, sports teams, real estate markets, and location defined in `configs/your-podcast-id.json`
+- **AI-Powered Script** — Gemini 2.5 Pro writes a conversational 8–15 minute script with local weather and multi-episode continuity
+- **High-Quality Audio** — Google Cloud Text-to-Speech with Studio voices, automatic chunking for long scripts
+- **Podcast RSS Feed** — Published to GitHub Pages with iTunes tags, artwork, and owner email for Spotify submission
+- **Zero Infrastructure** — Completely free hosting via GitHub Pages + Actions
+- **Multi-Podcast Support** — Run multiple podcasts from the same codebase via separate config files
 
-## 📋 Prerequisites
+## Prerequisites
 
-1. **Google API Key** - Get from https://aistudio.google.com/ (Required for Gemini and Weather)
+1. **Google API Key** — Get from https://aistudio.google.com/ (required for Gemini and weather)
 2. **Google Cloud Project** with:
    - Text-to-Speech API enabled
    - Service Account with JSON key
-3. **GitHub Personal Access Token** (for local testing) - Create with `repo` scope
-4. **Twitter API Bearer Token** (optional) - Free Basic tier from developer.twitter.com
-5. **Anthropic API Key** (optional) - Legacy support for Claude synthesis
+3. **GitHub Personal Access Token** (for local testing) — Create with `repo` scope
+4. **Twitter/X API Bearer Token** (optional) — Free Basic tier from developer.twitter.com
+5. **Anthropic API Key** (optional) — Legacy support for Claude synthesis
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/git-bafshar/benpod.git
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd daily-podcast
 npm install
 ```
 
-### 2. Configure Environment
+### 2. Configure Your Podcast
 
-Create `.env` file:
+Create a config file at `configs/your-podcast-id.json`. See existing configs in `configs/` for the full schema. Key fields:
+
+```json
+{
+  "id": "your-podcast-id",
+  "metadata": {
+    "title": "Your Podcast Title",
+    "author": "Your Name",
+    "description": "A short description of your podcast"
+  },
+  "location": {
+    "city": "Your City",
+    "timezone": "America/Chicago"
+  },
+  "content": {
+    "aiNews": { "enabled": true },
+    "sports": { "enabled": true, "teams": [] },
+    "realEstate": { "enabled": true, "targetMarkets": [] },
+    "news": { "enabled": true, "feeds": [] }
+  }
+}
+```
+
+### 3. Configure Environment
+
+Create `.env`:
 
 ```bash
 GOOGLE_API_KEY=your-gemini-api-key
 GOOGLE_APPLICATION_CREDENTIALS=./service-account.json
-TWITTER_BEARER_TOKEN=your-twitter-token  # Optional
-GITHUB_TOKEN=ghp_your-personal-token-here  # For local testing
-GITHUB_REPOSITORY=yourusername/yourrepo
-PAGES_BASE_URL=https://yourusername.github.io/yourrepo
+TWITTER_BEARER_TOKEN=your-twitter-token        # Optional
+GITHUB_TOKEN=ghp_your-personal-token-here      # For local testing
+GITHUB_REPOSITORY=YOUR_USERNAME/YOUR_REPO
+PAGES_BASE_URL=https://YOUR_USERNAME.github.io/YOUR_REPO
 PODCAST_TITLE="Your Podcast Title"
-PODCAST_AUTHOR=yourName
+PODCAST_AUTHOR=Your Name
 ```
 
-### 3. Set Up Google Cloud
+### 4. Set Up Google Cloud
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
 2. Create a new project
 3. Enable **Cloud Text-to-Speech API**
 4. Create Service Account:
    - IAM & Admin → Service Accounts → Create
-   - Grant roles: "Service Account User"
+   - Grant role: "Service Account User"
    - Create JSON key → Save as `service-account.json`
 
-### 4. Set Up GitHub Pages
+### 5. Set Up GitHub Pages
 
 ```bash
 # Create and push an empty gh-pages branch
 git checkout --orphan gh-pages
 git rm -rf .
 mkdir episodes
-echo "<h1>The Data & AI Daily</h1>" > index.html
+echo "<h1>$PODCAST_TITLE</h1>" > index.html
 git add .
 git commit -m "Initialize gh-pages"
 git push origin gh-pages
@@ -119,164 +128,141 @@ git checkout main
 
 Then in GitHub: **Settings → Pages → Source → Deploy from branch → gh-pages → / (root)**
 
-### 5. Add Podcast Artwork
+### 6. Add Podcast Artwork
 
-Podcast artwork is configured per-podcast in the config file (`configs/benpod.json` or `configs/matchmass.json`):
+Artwork is configured per-podcast in your config file:
 
 ```json
 "paths": {
-  "artworkFile": "benpod-artwork.jpg"
+  "artworkFile": "your-podcast-id-artwork.jpg"
 }
 ```
 
 **Requirements:**
-- Size: 1400x1400 to 3000x3000 pixels (square)
+- Size: 1400×1400 to 3000×3000 pixels (square)
 - Format: JPG or PNG
-- File size: Under 500KB
+- File size: Under 500 KB
 - Location: Root of `gh-pages` branch
 
-Each podcast has its own artwork file (e.g., `benpod-artwork.jpg`, `matchmass-artwork.jpg`) hosted on `gh-pages`. To update artwork, commit the new file to `gh-pages`.
+Each podcast has its own artwork file hosted on `gh-pages`. To update, commit the new file directly to `gh-pages`.
 
-### 6. Test Locally
+### 7. Run Locally
 
 ```bash
 node src/index.js
 ```
 
-This will:
-- Fetch content from all sources (AI, Sports, Real Estate, Iran)
-- Summarize specialized topics with Gemini Flash
-- Generate a script with Gemini Pro
-- Convert to MP3 with chunking
-- Commit to your `gh-pages` branch
+Verify output at: `https://YOUR_USERNAME.github.io/YOUR_REPO/feed.xml`
 
-Check your GitHub Pages URL to verify: `https://yourusername.github.io/yourrepo/feed.xml`
+## GitHub Actions Setup
 
-## 🤖 GitHub Actions Setup
-
-### Add Secrets
+### Secrets
 
 Go to: Settings → Secrets and variables → Actions → New repository secret
 
-Add these secrets:
+| Secret | Value |
+|---|---|
+| `GOOGLE_API_KEY` | Google AI Studio API key |
+| `GCP_SERVICE_ACCOUNT_JSON` | Full contents of `service-account.json` |
+| `TWITTER_BEARER_TOKEN` | Twitter/X API Bearer Token (optional) |
+| `PODCAST_AUTHOR` | Your name |
 
-1. `GOOGLE_API_KEY` - Your Google AI Studio API key
-2. `GCP_SERVICE_ACCOUNT_JSON` - Paste entire contents of `service-account.json`
-3. `TWITTER_BEARER_TOKEN` - Twitter/X API Bearer Token (optional)
-4. `PODCAST_AUTHOR` - Your name
-
-### Add Variables
+### Variables
 
 Go to: Settings → Secrets and variables → Actions → Variables tab
 
-1. `PAGES_BASE_URL` - `https://yourusername.github.io/yourrepo`
-2. `PODCAST_TITLE` - Your podcast title
+| Variable | Value |
+|---|---|
+| `PAGES_BASE_URL` | `https://YOUR_USERNAME.github.io/YOUR_REPO` |
+| `PODCAST_TITLE` | Your podcast title |
 
 ### Schedule
 
 The workflow runs automatically:
-- **Time**: 6:00 AM UTC (1:00 AM Central)
-- **Days**: Monday - Friday
-- **Manual**: Can also trigger via "Actions" tab → "Run workflow"
+- **Time**: Configurable via cron in `.github/workflows/daily-briefing.yml`
+- **Days**: Monday–Friday by default
+- **Manual**: Actions tab → "Run workflow"
 
-## 📱 Subscribe in Your Podcast App
+## Subscribe
 
-Add your RSS feed URL to any podcast app:
+Add your RSS feed to any podcast app:
 
 ```
-https://yourusername.github.io/yourrepo/feed.xml
+https://YOUR_USERNAME.github.io/YOUR_REPO/feed.xml
 ```
 
-**Tested apps:**
-- Pocket Casts: + → Add via URL
-- Overcast: Add Podcast → paste URL
-- Apple Podcasts: Library → … → Follow a Show → paste URL
-- Castro: Subscriptions → + → paste URL
+Tested apps: Pocket Casts, Overcast, Apple Podcasts, Castro — all support adding a custom RSS URL.
 
-Enable **auto-download** in app settings so episodes are ready when you wake up.
+Enable **auto-download** so episodes are ready when you wake up.
 
-**Note:** Spotify requires manual submission at [podcasters.spotify.com](https://podcasters.spotify.com) (RSS feed includes required iTunes tags and owner email).
+> **Spotify**: Requires manual submission at [podcasters.spotify.com](https://podcasters.spotify.com). The RSS feed includes required iTunes tags and owner email.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 daily-podcast/
 ├── .github/workflows/
-│   └── daily-briefing.yml    # GitHub Actions workflow
+│   └── daily-briefing.yml      # GitHub Actions workflow
+├── configs/
+│   └── your-podcast-id.json    # Podcast configuration
 ├── src/
-│   ├── index.js               # Main orchestrator
-│   ├── fetcher.js             # Content sources + Gemini Flash summarization
-│   ├── synthesizer.js         # Gemini 2.5 Pro script generation + Weather
-│   ├── tts.js                 # Google TTS with chunking
-│   ├── publisher.js           # RSS 2.0 + iTunes feed builder
-│   ├── episodeMemory.js       # Cross-episode continuity logic
-│   └── githubCommitter.js     # GitHub API commits to gh-pages
-├── .env                       # Local config (gitignored)
-├── service-account.json       # GCP credentials (gitignored)
+│   ├── index.js                # Main orchestrator
+│   ├── fetcher.js              # Content fetching + Gemini Flash summarization
+│   ├── synthesizer.js          # Gemini 2.5 Pro script generation + weather
+│   ├── tts.js                  # Google TTS with chunking
+│   ├── publisher.js            # RSS 2.0 + iTunes feed builder
+│   ├── episodeMemory.js        # Cross-episode continuity
+│   └── githubCommitter.js      # GitHub API commits to gh-pages
+├── .env                        # Local config (gitignored)
+├── service-account.json        # GCP credentials (gitignored)
 ├── package.json
 └── README.md
 ```
 
-## 🔧 How It Works
+## Pipeline Details
 
-### Content Pipeline
+1. **Fetch** (parallel) — All enabled content modules run concurrently:
+   - AI/tech news from configured sources
+   - Sports teams via ESPN API + fan site RSS feeds
+   - Real estate from configured research feeds
+   - International affairs from configured RSS sources
+   - Newsletters via Kill the Newsletter
+   - General news from configured RSS feeds
+   - Local weather from Open-Meteo API (coordinates from config)
 
-1. **Fetch** (parallel):
-   - **AI/ML**: Databricks, OpenAI, Anthropic, DeepMind, Meta, Hacker News, arXiv
-   - **Sports**: SF Giants, Warriors, 49ers (previous day results via ESPN API)
-   - **Real Estate**: Zillow & Redfin research feeds
-   - **International**: Iran-focused news (Foreign Policy, IranWire)
-   - **Newsletters**: Axios (Chicago, Energy, AI, Politics, etc.)
-   - **Weather**: Chicago conditions from Open-Meteo API
+2. **Summarize** — Specialized modules (sports, real estate) are pre-summarized with **Gemini 2.5 Flash** before script generation
 
-2. **Summarize**:
-   - Specialized topics (Sports, Real Estate) are summarized using **Gemini 2.5 Flash** before being passed to the script generator.
-   - Real Estate analysis follows a strict data-driven analyst persona.
-   - Sports recaps provide narrative game flows and key stats.
+3. **Synthesize** — All content + weather + **Episode Memory** sent to **Gemini 2.5 Pro**, which writes a 1,200–2,000 word conversational script with natural host/cohost banter and cross-episode continuity (7-day context window)
 
-3. **Synthesize**:
-   - Send all summarized content + weather + **Episode Memory** to **Gemini 2.5 Pro**.
-   - Gemini writes a 1,200-2,000 word conversational script.
-   - Natural host banter between [HOST] and [COHOST].
-   - Cross-episode context allows the hosts to reference stories from the past 7 days.
+4. **Convert to Audio** — Google Cloud TTS (Studio voices), automatic chunking at 5,000-byte limit with sentence-based splitting for natural flow
 
-4. **Convert to Audio**:
-   - Google Cloud TTS (Studio voices)
-   - Automatic chunking for long scripts (>5,000 bytes)
-   - Sentence-based splitting for natural flow
+5. **Publish** — MP3 committed to `gh-pages/episodes/`, RSS feed and episode memory updated
 
-5. **Publish**:
-   - Commit MP3 to `gh-pages/episodes/`
-   - Update `gh-pages/feed.xml` and `episode-memory.json`
+## Cost Estimate
 
-## 💰 Cost Estimate
+| Service | Usage | Cost/day |
+|---|---|---|
+| Gemini 2.5 Pro (script) | ~20,000 input + 2,000 output tokens | ~$0.04 |
+| Gemini 2.5 Flash (summaries) | ~5,000 tokens | ~$0.005 |
+| Google TTS (Studio) | ~12,000 characters (10–15 min) | ~$0.20 |
+| GitHub Actions / Pages | Daily runtime + hosting | Free |
+| **Total** | | **~$0.25/day (~$90/year)** |
 
-| Service                      | Usage                               | Cost/day                   |
-| ---------------------------- | ----------------------------------- | -------------------------- |
-| Gemini 2.5 Pro (Script)      | ~20,000 input + 2,000 output tokens | ~$0.04                     |
-| Gemini 2.5 Flash (Summaries) | ~5,000 tokens                       | ~$0.005                    |
-| Google TTS (Studio)          | ~12,000 characters (10-15 min)      | ~$0.20                     |
-| GitHub Actions / Pages       | Daily runtime + hosting             | Free                       |
-| **Total**                    |                                     | **~$0.25/day (~$90/year)** |
+## Customization
 
-## 🔧 Customization
+| What to change | Where |
+|---|---|
+| Topics, sources, sports teams, markets | `configs/your-podcast-id.json` |
+| Location and weather coordinates | `config.location` in your podcast config |
+| Host personalities and script style | `src/synthesizer.js` |
+| Publish schedule | `.github/workflows/daily-briefing.yml` |
 
-### Change Location/Weather
-Edit `src/synthesizer.js` to change coordinates and timezone.
+## Troubleshooting
 
-### Modify Content Sources
-Edit `src/fetcher.js` to add/remove RSS feeds or adjust scraping selectors.
+- GCP credentials and service account setup → `docs/`
+- GitHub Actions permissions → workflow file comments
+- TTS chunking limits → `src/tts.js`
 
-### Personalize the Prompt
-Edit `src/synthesizer.js` to adjust host personalities, segment mandatory themes, or change target length.
+## License
 
-## 🐛 Troubleshooting
-
-Refer to the original documentation for detailed troubleshooting on GCP credentials, GitHub Actions permissions, and TTS chunking limits.
-
-## 📄 License
-MIT License
-
-## 👤 Author
-Ben
-- Podcast: [The Data & AI Daily](https://git-bafshar.github.io/benpod/feed.xml)
+MIT
