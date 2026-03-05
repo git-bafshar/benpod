@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-03-05",
+      "summary": "Explore the sharp escalation of direct military conflict in the Middle East and the resulting constitutional showdown in Washington over presidential war powers. This episode also dives into the deepening public feud between AI giants OpenAI and Anthropic, alongside the latest updates on state-level political battles and a surprising surge in housing market inventory.",
+      "keyTopics": [
+        "U.S. and Israeli military strikes inside Iranian territory",
+        "House vote to constrain Trump’s military authority against Iran",
+        "Minnesota lawsuit against Trump administration over Medicaid funding",
+        "Anthropic CEO Dario Amodei public feud with OpenAI",
+        "Nvidia pausing direct investments in OpenAI and Anthropic",
+        "Railway $100 million raise for AI-native cloud infrastructure",
+        "Congressional Black Caucus rift with Illinois Governor Pritzker",
+        "Illinois House Bill 5112 statewide carryout bag tax"
+      ]
+    },
+    {
       "date": "2026-03-04",
       "summary": "Explore a significant military escalation in the Middle East and a historic move in Illinois that erased $2.5 billion in medical debt for thousands of families. This episode also dives into OpenAI’s latest user-friendly updates, the innovative proposal for underwater data centers, and how global instability is rattling both the housing market and the sports world.",
       "keyTopics": [
