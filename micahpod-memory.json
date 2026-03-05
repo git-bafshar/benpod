@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-03-05",
+      "summary": "This episode tracks the dangerous escalation of Middle East tensions and the resulting constitutional debate in Congress over presidential war powers. We also break down the erupting public feud between AI’s biggest players and explore how the \"Agentic Era\" is fundamentally reshaping the roles of human judgment and product management. From shifting real estate markets to critical local headlines, stay informed on the forces driving today’s global and corporate landscapes.",
+      "keyTopics": [
+        "Iran-Israel missile escalation and US House war powers resolution",
+        "Anthropic CEO Dario Amodei accuses OpenAI of military contract lies",
+        "Jensen Huang pulls Nvidia investment from OpenAI and Anthropic",
+        "Apple Music Transparency Tags for AI-generated music",
+        "Lewis Lin AI judgment pods and product team restructuring",
+        "Orlando real estate investor activity sixteen percent drop",
+        "ICE detention of Vietnamese man for expunged marijuana charge"
+      ],
+      "articles": [
+        "The Ratio Has Flipped: How AI Should Change How You Structure Product Teams"
+      ]
+    },
+    {
       "date": "2026-03-04",
       "summary": "Explore the significant escalation of global conflict as direct strikes hit Tehran and the \"Agentic Era\" begins with AI taking on active roles in the workplace. This episode also breaks down the volatile housing market and the evolving human skills needed to excel in a career landscape increasingly shaped by automation. Plus, stay updated on local milestones, from SpaceX’s latest record-breaking launch to vital community housing initiatives.",
       "keyTopics": [
