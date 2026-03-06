@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-03-06",
+      "summary": "Explore the landmark legal showdown between the Pentagon and AI powerhouse Anthropic, a high-stakes battle that could redefine the intersection of national security and private innovation. This update also breaks down a major shakeup at the Department of Homeland Security, the rise of autonomous AI agents in healthcare, and a record-breaking surge in housing inventory that offers fresh hope for spring homebuyers.",
+      "keyTopics": [
+        "Anthropic lawsuit against Pentagon supply-chain risk designation",
+        "Amazon Connect Health AI agent release for healthcare",
+        "Proposed US global export controls on advanced chips",
+        "Senator Markwayne Mullin replaces Kristi Noem at DHS",
+        "Representative Tony Gonzales withdraws from Texas reelection campaign",
+        "Record surge in US housing market inventory relistings",
+        "Lewis Lin on Decode and Conquer book culture"
+      ],
+      "articles": [
+        "You Made My Day: Decode and Conquer in the Wild"
+      ]
+    },
+    {
       "date": "2026-03-05",
       "summary": "This episode tracks the dangerous escalation of Middle East tensions and the resulting constitutional debate in Congress over presidential war powers. We also break down the erupting public feud between AI’s biggest players and explore how the \"Agentic Era\" is fundamentally reshaping the roles of human judgment and product management. From shifting real estate markets to critical local headlines, stay informed on the forces driving today’s global and corporate landscapes.",
       "keyTopics": [
