@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-06</title>
+      <description>This episode dives into a major escalation in the Middle East as Iran launches direct missile strikes against Israel, alongside a sudden leadership shakeup at the U.S. Department of Homeland Security. We also explore the high-stakes legal battle between AI firm Anthropic and the Pentagon, financial concerns surrounding Chicago’s newest bond offering, and the latest trends shifting the national housing market.</description>
+      <pubDate>Fri, 06 Mar 2026 07:57:49 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-06-075749.mp3" length="6019968" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-06-075749.mp3</guid>
+      <itunes:duration>376</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-05</title>
       <description>Explore the sharp escalation of direct military conflict in the Middle East and the resulting constitutional showdown in Washington over presidential war powers. This episode also dives into the deepening public feud between AI giants OpenAI and Anthropic, alongside the latest updates on state-level political battles and a surprising surge in housing market inventory.</description>
       <pubDate>Thu, 05 Mar 2026 08:03:29 GMT</pubDate>
