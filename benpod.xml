@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-08</title>
+      <description>Stay informed on a high-stakes morning as Israeli strikes on Iranian oil infrastructure and a developing security incident at the U.S. Embassy in Oslo send shockwaves through global markets. This episode also explores the deepening ethical rift within the AI industry, the latest volatility in the housing market, and a surprising youth-led political upheaval in Nepal. From the &quot;pro-human&quot; tech movement to a quiet sleep crisis among teens, get the essential stories shaping the start of your week.</description>
+      <pubDate>Sun, 08 Mar 2026 09:00:46 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-08-090046.mp3" length="5812416" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-08-090046.mp3</guid>
+      <itunes:duration>363</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-07</title>
       <description>Explore the collision of big tech and global conflict as a high-profile resignation rocks OpenAI and the White House issues a bold &quot;unconditional surrender&quot; ultimatum to Iran. This episode also breaks down a volatile housing market reaching a ten-year inventory high and provides essential updates on deadly Midwest storms and high-stakes political appointments.</description>
       <pubDate>Sat, 07 Mar 2026 17:10:30 GMT</pubDate>
