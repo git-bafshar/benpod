@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-03-09",
+      "summary": "Explore the geopolitical ripple effects of Iran's new leadership on global oil and real estate markets, alongside the growing friction between the Pentagon and the AI industry. This episode also dives into the \"Agentic Era\" of technology, examining how autonomous AI tools and hyper-competitive career shifts are redefining the future of the tech workforce.",
+      "keyTopics": [
+        "Mojtaba Khamenei named successor as Iran Supreme Leader",
+        "Pentagon Anthropic supply chain risk designation and lawsuit",
+        "Nvidia investment in Nscale data center startup",
+        "VS Code Agent Kanban open source project",
+        "NYC anti-Islam demonstration shrapnel IED attack",
+        "Lewis Lin product management interview preparation strategy",
+        "Titusville school zone automated speed camera rollout"
+      ],
+      "articles": [
+        "This Is What Three Years with Decode and Conquer Gets You"
+      ]
+    },
+    {
       "date": "2026-03-06",
       "summary": "Explore the landmark legal showdown between the Pentagon and AI powerhouse Anthropic, a high-stakes battle that could redefine the intersection of national security and private innovation. This update also breaks down a major shakeup at the Department of Homeland Security, the rise of autonomous AI agents in healthcare, and a record-breaking surge in housing inventory that offers fresh hope for spring homebuyers.",
       "keyTopics": [
