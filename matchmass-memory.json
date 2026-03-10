@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-03-10",
+      "summary": "Explore the shifting landscape of global AI as a new billion-dollar European venture launches alongside a growing movement for human-centric software and user-controlled technology. This episode also examines the \"fiscal cliff\" facing the Bay Area’s BART system and what its potential collapse could mean for the future of public infrastructure across California.",
+      "keyTopics": [
+        "Yann LeCun raises one billion dollars for European AI startup",
+        "Zoom AI office suite and Adobe Photoshop AI assistant",
+        "YouTube and Zoom expand deepfake detection for public figures",
+        "Redox OS adopts strict no-LLM policy for its codebase",
+        "Google adds toggle for Ask Photos AI search feature",
+        "BART faces fiscal cliff and potential Bay Area shutdown"
+      ]
+    },
+    {
       "date": "2026-03-09",
       "summary": "Explore the Lakers' gritty victory over the Knicks without LeBron James and the growing tension between AI innovators and the Pentagon over defense contracts. This episode also dives into Google CEO Sundar Pichai’s landmark pay package and a crucial legal ruling that changes how \"Terms of Service\" updates impact your digital rights. Plus, get the latest on the \"messy\" 2026 California governor's race and a security scare in the Hollywood Hills.",
       "keyTopics": [
