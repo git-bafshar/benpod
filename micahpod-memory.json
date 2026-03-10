@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-03-10",
+      "summary": "This episode explores a major shift in the AI arms race as a new billion-dollar rival emerges and industry giants form an unprecedented alliance against government intervention. We also break down how geopolitical tensions are impacting the spring housing market and reflect on a somber milestone in Orlando as the demolition of the Pulse nightclub begins. Finally, the discussion dives into the future of tech hiring and why human judgment is becoming the ultimate \"superpower\" in an era of AI-generated solutions.",
+      "keyTopics": [
+        "Yann LeCun raises $1B for AMI Labs world models",
+        "OpenAI and Google employees support Anthropic Pentagon lawsuit",
+        "Anthropic Claude Code agent launches new Code Review tool",
+        "OpenAI acquires Promptfoo for AI agent security and testing",
+        "Iran escalates drone and missile attacks in Middle East",
+        "Surge in January home relistings shifts power to buyers",
+        "Pulse nightclub demolition begins for permanent Orlando memorial",
+        "Lewis Lin PM frameworks debate in the Agentic AI era"
+      ],
+      "articles": [
+        "Decode and Conquer: The PM Interview Book MBA Students Recommend"
+      ]
+    },
+    {
       "date": "2026-03-09",
       "summary": "Explore the geopolitical ripple effects of Iran's new leadership on global oil and real estate markets, alongside the growing friction between the Pentagon and the AI industry. This episode also dives into the \"Agentic Era\" of technology, examining how autonomous AI tools and hyper-competitive career shifts are redefining the future of the tech workforce.",
       "keyTopics": [
