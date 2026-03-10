@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-10</title>
+      <description>This episode explores a massive wave of AI integrations from tech giants like Google and Adobe, alongside a breakdown of the conflicting White House messages regarding the ongoing conflict in Iran. Discover the latest on Chicago’s property tax crisis and groundbreaking research suggesting weight-loss drugs could be a new frontier in treating addiction.</description>
+      <pubDate>Tue, 10 Mar 2026 09:04:08 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-10-090408.mp3" length="6156096" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-10-090408.mp3</guid>
+      <itunes:duration>385</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-09</title>
       <description>This episode breaks down the global economic fallout from Iran’s new leadership and the high-stakes legislative standoff unfolding in Washington. Explore the intersection of technology and ethics through &quot;AI-enhanced&quot; political campaigns and the debate over making Universal Basic Income permanent in Cook County. Plus, stay informed on the latest shifts in the housing market and key updates from the world of sports.</description>
       <pubDate>Mon, 09 Mar 2026 09:08:41 GMT</pubDate>
