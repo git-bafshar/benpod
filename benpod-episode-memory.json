@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-03-10",
+      "summary": "This episode explores a massive wave of AI integrations from tech giants like Google and Adobe, alongside a breakdown of the conflicting White House messages regarding the ongoing conflict in Iran. Discover the latest on Chicago’s property tax crisis and groundbreaking research suggesting weight-loss drugs could be a new frontier in treating addiction.",
+      "keyTopics": [
+        "Google Gemini and Adobe Firefly integration updates",
+        "Yann LeCun European AI startup $1 billion seed round",
+        "President Trump contradictory statements on Iran conflict status",
+        "Chicago property tax collection decline and budget crisis",
+        "Illinois $1.5 billion CSL biotech investment and tax incentives",
+        "GLP-1 weight loss drugs for substance use disorder treatment",
+        "San Francisco 49ers sign wide receiver Mike Evans"
+      ]
+    },
+    {
       "date": "2026-03-09",
       "summary": "This episode breaks down the global economic fallout from Iran’s new leadership and the high-stakes legislative standoff unfolding in Washington. Explore the intersection of technology and ethics through \"AI-enhanced\" political campaigns and the debate over making Universal Basic Income permanent in Cook County. Plus, stay informed on the latest shifts in the housing market and key updates from the world of sports.",
       "keyTopics": [
@@ -183,18 +196,6 @@
         "Illinois Senate Bill 2876 school suspension evidence transparency",
         "US home sales record high January cancellation rate",
         "San Francisco 49ers gauging Mac Jones trade value"
-      ]
-    },
-    {
-      "date": "2026-02-24",
-      "summary": "Today’s episode explores the massive $100 billion investment reshaping the AI arms race and the physical infrastructure bottlenecks threatening to slow it down. We also dive into a shifting housing market where buyers are gaining leverage despite a deepening affordability crisis, and examine critical global tensions between the U.S. and Iran. The show concludes with a look at the future of the blues in Chicago through the eyes of a local legend.",
-      "keyTopics": [
-        "Meta $100 billion AMD AI chip deal for personal superintelligence",
-        "Anthropic industry-specific AI agent plugins and distillation defense",
-        "Data center construction delays and AI power grid constraints",
-        "US mortgage rate dip and housing affordability crisis",
-        "US diplomatic miscalculation of Iran escalation and martyrdom politics",
-        "Buddy Guy concerns for the future of Chicago blues"
       ]
     }
   ]
