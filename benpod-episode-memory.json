@@ -2,15 +2,30 @@
   "episodes": [
     {
       "date": "2026-03-10",
-      "summary": "This episode explores a massive wave of AI integrations from tech giants like Google and Adobe, alongside a breakdown of the conflicting White House messages regarding the ongoing conflict in Iran. Discover the latest on Chicago’s property tax crisis and groundbreaking research suggesting weight-loss drugs could be a new frontier in treating addiction.",
+      "summary": "Stay ahead of the curve as we analyze the escalating conflict with Iran and its threat to global energy supplies alongside a massive billion-dollar surge in artificial intelligence investment. We also break down critical safety failures in Chicago schools, the latest volatility in the housing market, and a surprising medical breakthrough using psychedelics to treat addiction.",
       "keyTopics": [
-        "Google Gemini and Adobe Firefly integration updates",
-        "Yann LeCun European AI startup $1 billion seed round",
-        "President Trump contradictory statements on Iran conflict status",
-        "Chicago property tax collection decline and budget crisis",
-        "Illinois $1.5 billion CSL biotech investment and tax incentives",
-        "GLP-1 weight loss drugs for substance use disorder treatment",
-        "San Francisco 49ers sign wide receiver Mike Evans"
+        "Iran oil supply threat and US military spending request",
+        "Yann LeCun European AI startup billion dollar seed round",
+        "Thinking Machines Lab gigawatt compute deal with Nvidia",
+        "Amazon healthcare AI assistant launch for prescriptions and appointments",
+        "RevenueCat report on AI app long-term user retention struggles",
+        "ICE immigration detention deaths reach highest level since 2004",
+        "Chicago Public Schools safety lawsuit involving Farragut Career Academy",
+        "Psilocybin clinical study for smoking cessation and addiction therapy"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Chicago Bulls at Golden State Warriors",
+        "ESPN Giants::Giants Recap: San Francisco Giants at Cleveland Guardians",
+        "ESPN Warriors News::Warriors: Steve Kerr: Playing 10 fewer games a season would improve league",
+        "ESPN Warriors News::Warriors: Porzingis, back from illness, says he 'will be healthy now'",
+        "ESPN Giants News::Giants: Mark DeRosa sets USA rotation for WBC; Logan Webb to start G1",
+        "ESPN Giants News::Giants: Giants scratch Rafael Devers from lineup with tight hamstring",
+        "ESPN 49ers News::49ers: Star WR Mike Evans leaving Buccaneers to sign with 49ers",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Trump Likely to Confront Democratic Wall on Iran War Funding",
+        "Foreign Policy - Iran::Iran Threatens to Stop Oil From Leaving the Middle East",
+        "Foreign Policy - Iran::State Department Refuses Former Staffers’ Help in Middle East Evacuation"
       ]
     },
     {
