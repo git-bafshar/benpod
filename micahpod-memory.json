@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-03-11",
+      "summary": "Explore the dawn of the \"Agentic Era\" as AI moves from a simple tool to a colleague with its own dedicated infrastructure and institutional oversight. This episode also breaks down the surge of AI-generated propaganda in global conflicts, local school closures in Orlando, and why the traditional job interview is being rewritten for a specialized tech landscape.",
+      "keyTopics": [
+        "Anthropic Institute launch for AI safety research",
+        "AgentMail seed funding for AI agent email platform",
+        "AI-generated propaganda in escalating Iran conflict",
+        "Debian project stance on AI-generated code contributions",
+        "Orange County School Board closing seven Orlando schools",
+        "Geopolitical volatility impacts national mortgage rate trends",
+        "Lewis C. Lin Question Bank for PM interviews"
+      ],
+      "articles": [
+        "The Lewis C. Lin Question Bank Hits 3,300 Real PM Interview Questions",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-03-10",
       "summary": "This episode explores a major shift in the AI arms race as a new billion-dollar rival emerges and industry giants form an unprecedented alliance against government intervention. We also break down how geopolitical tensions are impacting the spring housing market and reflect on a somber milestone in Orlando as the demolition of the Pulse nightclub begins. Finally, the discussion dives into the future of tech hiring and why human judgment is becoming the ultimate \"superpower\" in an era of AI-generated solutions.",
       "keyTopics": [
