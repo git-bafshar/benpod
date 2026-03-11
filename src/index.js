@@ -27,6 +27,7 @@ const {
   extractKeyTopics,
   addEpisodeToMemory,
   formatMemoryForPrompt,
+  hasArticleBeenCovered,
 } = require('./episodeMemory');
 
 const BASE_URL = process.env.PAGES_BASE_URL;
@@ -123,6 +124,22 @@ async function run({ dryRun = false, config = null } = {}) {
     } catch (err) {
       console.error(`  Warning: could not load episode memory: ${err.message}`);
       console.error('  Continuing without cross-episode context.');
+    }
+    console.log();
+
+    // 1.55. Dedup sports/news/realEstate/iran against 7-day episode memory
+    const storyKey = item => `${item.source || 'unknown'}::${item.title || ''}`;
+
+    const categories = ['sports', 'news', 'realEstate', 'iran'];
+    for (const cat of categories) {
+      const before = additionalSourcing[cat]?.length ?? 0;
+      additionalSourcing[cat] = (additionalSourcing[cat] || []).filter(item =>
+        item.title && !hasArticleBeenCovered(episodeMemoryData, storyKey(item), 7)
+      );
+      const after = additionalSourcing[cat].length;
+      if (before !== after) {
+        console.log(`  [dedup] ${cat}: ${before} → ${after} (${before - after} filtered)`);
+      }
     }
     console.log();
 
@@ -275,13 +292,17 @@ async function run({ dryRun = false, config = null } = {}) {
     try {
       const { topics: keyTopics, usage: topicsUsage } = await extractKeyTopics(script);
 
-      // Include article titles in memory to prevent duplicates
+      // Include article titles + story keys in memory to prevent duplicates
       const articleTitles = articlesData.items.map(article => article.title);
+      const storyKeys = ['sports', 'news', 'realEstate', 'iran'].flatMap(
+        cat => (additionalSourcing[cat] || []).map(storyKey)
+      );
+      const allCoveredKeys = [...new Set([...articleTitles, ...storyKeys])];
       const newRecord = {
         date: dateStr,
         summary,
         keyTopics,
-        ...(articleTitles.length > 0 && { articles: articleTitles })
+        ...(allCoveredKeys.length > 0 && { articles: allCoveredKeys })
       };
 
       const updatedMemory = addEpisodeToMemory(episodeMemoryData, newRecord);
