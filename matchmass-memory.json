@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-03-11",
+      "summary": "Explore how the Lakers are redefining their identity on the court despite looming injuries and personal drama, and dive into the tech industry’s massive shift toward AI \"agents\" that manage everything from healthcare to complex corporate tasks. The episode also covers Amazon’s strategic pivot in digital commerce and the latest polling updates in California’s high-stakes political landscape.",
+      "keyTopics": [
+        "Lakers sweep Timberwolves without injured LeBron James",
+        "Luka Doncic triple-double and reported legal custody battle",
+        "Amazon Shop Direct program expands to external retailer sites",
+        "Amazon Health AI assistant for prescriptions and medical appointments",
+        "Salesforce AI agent Slackbot and Anthropic Cowork desktop agent",
+        "Hacker News reports AI agent breach of McKinsey network",
+        "New polling for California 2026 gubernatorial primary race"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Minnesota Timberwolves at Los Angeles Lakers",
+        "ESPN Lakers News::Lakers: Lakers' LeBron James misses 3rd straight, sits out win vs. Wolves",
+        "ESPN Lakers News::Lakers: Lakers' Luka Doncic in custody battle for daughters, sources say"
+      ]
+    },
+    {
       "date": "2026-03-10",
       "summary": "Explore the shifting landscape of global AI as a new billion-dollar European venture launches alongside a growing movement for human-centric software and user-controlled technology. This episode also examines the \"fiscal cliff\" facing the Bay Area’s BART system and what its potential collapse could mean for the future of public infrastructure across California.",
       "keyTopics": [
