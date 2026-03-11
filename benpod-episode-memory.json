@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-03-11",
+      "summary": "Explore a landscape of high-stakes strategic moves, from Anthropic’s launch of a dedicated AI safety institute to the San Francisco 49ers’ blockbuster acquisition of star receiver Mike Evans. This episode dives into China’s emerging role as a Middle East mediator, a reported AI security breach at McKinsey, and the rise of autonomous robotic farming. Finally, the show examines the global expansion of AI giants and ongoing safety accountability struggles within the Chicago Public School system.",
+      "keyTopics": [
+        "Anthropic Institute launch for AI safety research",
+        "Autonomous AI agent exploits McKinsey internal systems",
+        "San Francisco 49ers sign Mike Evans to three-year contract",
+        "China mediates in Iran Israel US military conflict",
+        "Canopii autonomous robotic indoor farming technology",
+        "Google Gemini AI assistant expansion into India",
+        "Anthropic expands Asia-Pacific presence with Sydney office",
+        "Chicago Public Schools Farragut Career Academy safety lawsuit"
+      ],
+      "articles": [
+        "ESPN 49ers News::49ers: What does Mike Evans bring to 49ers' offense?",
+        "Foreign Policy - Iran::Why China Might Have a Role to Play in Iran"
+      ]
+    },
+    {
       "date": "2026-03-10",
       "summary": "Stay ahead of the curve as we analyze the escalating conflict with Iran and its threat to global energy supplies alongside a massive billion-dollar surge in artificial intelligence investment. We also break down critical safety failures in Chicago schools, the latest volatility in the housing market, and a surprising medical breakthrough using psychedelics to treat addiction.",
       "keyTopics": [
@@ -197,20 +215,6 @@
       ],
       "articles": [
         "Dario Amodei — The Adolescence of Technology"
-      ]
-    },
-    {
-      "date": "2026-02-25",
-      "summary": "Today’s episode explores the evolution of AI into a proactive personal assistant and the growing public backlash against the massive data centers required to power it. We also analyze Chicago’s escalating fiscal challenges and the shifting real estate market where buyers are finally gaining new leverage. From local political updates to high-stakes NFL trade rumors, stay informed on the major headlines shaping technology, economics, and sports.",
-      "keyTopics": [
-        "Anthropic Vercept acquisition for Claude computer use",
-        "Google Gemini multi-step task automation on Android",
-        "Growing public opposition to AI data center construction",
-        "OpenAI COO considers bringing advertisements to products",
-        "Fareed Zakaria Chicago public pension bankruptcy warning",
-        "Illinois Senate Bill 2876 school suspension evidence transparency",
-        "US home sales record high January cancellation rate",
-        "San Francisco 49ers gauging Mac Jones trade value"
       ]
     }
   ]
