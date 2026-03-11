@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-11</title>
+      <description>Explore a landscape of high-stakes strategic moves, from Anthropic’s launch of a dedicated AI safety institute to the San Francisco 49ers’ blockbuster acquisition of star receiver Mike Evans. This episode dives into China’s emerging role as a Middle East mediator, a reported AI security breach at McKinsey, and the rise of autonomous robotic farming. Finally, the show examines the global expansion of AI giants and ongoing safety accountability struggles within the Chicago Public School system.</description>
+      <pubDate>Wed, 11 Mar 2026 09:07:56 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-11-090756.mp3" length="4682880" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-11-090756.mp3</guid>
+      <itunes:duration>293</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-10</title>
       <description>Stay ahead of the curve as we analyze the escalating conflict with Iran and its threat to global energy supplies alongside a massive billion-dollar surge in artificial intelligence investment. We also break down critical safety failures in Chicago schools, the latest volatility in the housing market, and a surprising medical breakthrough using psychedelics to treat addiction.</description>
       <pubDate>Tue, 10 Mar 2026 19:54:31 GMT</pubDate>
