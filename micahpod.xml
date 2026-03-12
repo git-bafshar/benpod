@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-03-12</title>
+      <description>Explore how Google is integrating AI into the physical world through immersive navigation and flood forecasting, alongside the rise of autonomous AI &quot;agents&quot; in workplace tools like Slack. This episode also dives into the &quot;hidden cognitive tax&quot; of AI-driven productivity, examining why the constant oversight of machine output might be leading to a new wave of workplace burnout.</description>
+      <pubDate>Thu, 12 Mar 2026 08:36:36 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-12-083636.mp3" length="4541952" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-12-083636.mp3</guid>
+      <itunes:duration>284</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-11</title>
       <description>Explore the dawn of the &quot;Agentic Era&quot; as AI moves from a simple tool to a colleague with its own dedicated infrastructure and institutional oversight. This episode also breaks down the surge of AI-generated propaganda in global conflicts, local school closures in Orlando, and why the traditional job interview is being rewritten for a specialized tech landscape.</description>
       <pubDate>Wed, 11 Mar 2026 08:37:11 GMT</pubDate>
