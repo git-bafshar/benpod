@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-03-12",
+      "summary": "This episode explores the historic global effort to stabilize energy markets through a massive release of oil reserves amid escalating geopolitical tensions. It also dives into the rapidly evolving AI landscape, covering everything from Google’s new life-saving flood-prediction tools to the polarizing rise of automated job interviews. Finally, stay informed with the latest high-stakes NFL trades and an inside look at how \"cyber-first\" strategies are redefining modern warfare.",
+      "keyTopics": [
+        "IEA emergency release of 400 million barrels of oil",
+        "Google Maps Ask Maps and Immersive View AI updates",
+        "Google AI flood prediction via news archive analysis",
+        "Stephen Curry 10-day injury absence from Golden State Warriors",
+        "San Francisco 49ers trade for defensive tackle Osa Odighizuwa",
+        "AI bot job interviews and Claude Code agent research",
+        "Trump administration Cyber-First War Strategy regarding Iran conflict"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Kansas City Royals",
+        "ESPN Warriors News::Warriors: Warriors' Stephen Curry out 10 more days with knee issue",
+        "ESPN 49ers News::49ers: 49ers trade for Cowboys' DT Osa Odighizuwa",
+        "Foreign Policy - Iran::The Irresistible Urge to Invoke World War III",
+        "Foreign Policy - Iran::Countries Agree to Historic Emergency Oil Reserve Release",
+        "Foreign Policy - Iran::Trump’s New Cyber-First War Strategy"
+      ]
+    },
+    {
       "date": "2026-03-11",
       "summary": "Explore a landscape of high-stakes strategic moves, from Anthropic’s launch of a dedicated AI safety institute to the San Francisco 49ers’ blockbuster acquisition of star receiver Mike Evans. This episode dives into China’s emerging role as a Middle East mediator, a reported AI security breach at McKinsey, and the rise of autonomous robotic farming. Finally, the show examines the global expansion of AI giants and ongoing safety accountability struggles within the Chicago Public School system.",
       "keyTopics": [
@@ -198,23 +219,6 @@
       ],
       "articles": [
         "Dario Amodei — Machines of Loving Grace"
-      ]
-    },
-    {
-      "date": "2026-02-26",
-      "summary": "Explore the \"whiplash-inducing\" pace of AI development as industry leaders re-evaluate safety promises and prepare for a future of \"data center geniuses.\" Closer to home, the episode breaks down the local impact of Chicago’s recent credit downgrade and rising financial distress, while offering a glimmer of hope with the lowest mortgage rates in years. Finally, stay up to date with the latest sports highlights, from the Warriors' dominant road win to the latest NFL trade rumors.",
-      "keyTopics": [
-        "Anthropic safety policy shift and Vercept acquisition",
-        "Figma OpenAI Codex and Anthropic AI integrations",
-        "Salesforce CEO Marc Benioff SaaSpocalypse defense",
-        "Chicago credit rating downgrade and pension crisis",
-        "Illinois population battle and Chicago financial distress",
-        "Dario Amodei Adolescence of Technology AI essay",
-        "San Francisco 49ers Mac Jones trade rumors",
-        "US mortgage rates hit 6.01 percent low"
-      ],
-      "articles": [
-        "Dario Amodei — The Adolescence of Technology"
       ]
     }
   ]
