@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-03-12",
+      "summary": "Explore the cutting edge of AI as Google transforms its Maps experience and pioneers new ways to predict natural disasters using large language models. This episode also dives into the \"agent economy\" through recent tech acquisitions and the development of a formal programming language designed specifically for AI. Finally, get an inside look at the shifting landscape of California politics as leaders prepare for both the 2026 gubernatorial race and future national stages.",
+      "keyTopics": [
+        "Zendesk acquisition of agentic AI startup Forethought",
+        "Ford AI assistant for commercial fleet driver monitoring",
+        "Google Maps conversational AI Ask Maps feature",
+        "Google LLM flash flood prediction data modeling",
+        "Formal programming language for LLMs from Kotlin creator",
+        "2028 presidential polling for Gavin Newsom and Kamala Harris",
+        "LA Lakers chemistry shift without LeBron James"
+      ]
+    },
+    {
       "date": "2026-03-11",
       "summary": "Explore how the Lakers are redefining their identity on the court despite looming injuries and personal drama, and dive into the tech industry’s massive shift toward AI \"agents\" that manage everything from healthcare to complex corporate tasks. The episode also covers Amazon’s strategic pivot in digital commerce and the latest polling updates in California’s high-stakes political landscape.",
       "keyTopics": [
