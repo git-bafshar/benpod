@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-12</title>
+      <description>This episode explores the historic global effort to stabilize energy markets through a massive release of oil reserves amid escalating geopolitical tensions. It also dives into the rapidly evolving AI landscape, covering everything from Google’s new life-saving flood-prediction tools to the polarizing rise of automated job interviews. Finally, stay informed with the latest high-stakes NFL trades and an inside look at how &quot;cyber-first&quot; strategies are redefining modern warfare.</description>
+      <pubDate>Thu, 12 Mar 2026 09:05:56 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-12-090556.mp3" length="5564928" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-12-090556.mp3</guid>
+      <itunes:duration>348</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-11</title>
       <description>Explore a landscape of high-stakes strategic moves, from Anthropic’s launch of a dedicated AI safety institute to the San Francisco 49ers’ blockbuster acquisition of star receiver Mike Evans. This episode dives into China’s emerging role as a Middle East mediator, a reported AI security breach at McKinsey, and the rise of autonomous robotic farming. Finally, the show examines the global expansion of AI giants and ongoing safety accountability struggles within the Chicago Public School system.</description>
       <pubDate>Wed, 11 Mar 2026 09:07:56 GMT</pubDate>
