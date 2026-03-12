@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-03-12",
+      "summary": "Explore how Google is integrating AI into the physical world through immersive navigation and flood forecasting, alongside the rise of autonomous AI \"agents\" in workplace tools like Slack. This episode also dives into the \"hidden cognitive tax\" of AI-driven productivity, examining why the constant oversight of machine output might be leading to a new wave of workplace burnout.",
+      "keyTopics": [
+        "Google Maps Immersive Navigation and Ask Maps AI",
+        "Google LLM flash flood prediction using news archives",
+        "Zendesk acquisition of AI customer service startup Forethought",
+        "Salesforce Slackbot AI agent for enterprise task execution",
+        "Developer backlash against LLM reliability and logical flaws",
+        "AI-conducted job interviews and recruitment automation skepticism",
+        "Lewis Lin on AI cognitive tax and worker burnout"
+      ],
+      "articles": [
+        "The Hidden Cost of AI Speed"
+      ]
+    },
+    {
       "date": "2026-03-11",
       "summary": "Explore the dawn of the \"Agentic Era\" as AI moves from a simple tool to a colleague with its own dedicated infrastructure and institutional oversight. This episode also breaks down the surge of AI-generated propaganda in global conflicts, local school closures in Orlando, and why the traditional job interview is being rewritten for a specialized tech landscape.",
       "keyTopics": [
