@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-03-13</title>
+      <description>Explore the Lakers’ explosive new offensive identity following Luka Doncic’s 51-point masterpiece and LeBron James’ return to the court. This episode also dives into the accelerating AI landscape, covering everything from new family-focused fraud protection tools to the $100 million push for &quot;AI-native&quot; cloud and quantum infrastructure. Finally, we examine the complex financial and ethical dilemmas facing California communities as they struggle to rebuild in the face of increasing wildfire risks.</description>
+      <pubDate>Fri, 13 Mar 2026 07:53:37 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-13-075337.mp3" length="4360512" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-13-075337.mp3</guid>
+      <itunes:duration>273</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-03-12</title>
       <description>Explore the cutting edge of AI as Google transforms its Maps experience and pioneers new ways to predict natural disasters using large language models. This episode also dives into the &quot;agent economy&quot; through recent tech acquisitions and the development of a formal programming language designed specifically for AI. Finally, get an inside look at the shifting landscape of California politics as leaders prepare for both the 2026 gubernatorial race and future national stages.</description>
       <pubDate>Thu, 12 Mar 2026 07:59:22 GMT</pubDate>
