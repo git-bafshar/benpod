@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-13</title>
+      <description>This episode explores Anthropic’s $100 million push to build an AI ecosystem and the looming semiconductor crisis triggered by a global helium shortage. Discover how AI is integrating into daily life through scam protection and marketplace tools, alongside an analysis of the San Francisco 49ers&apos; latest roster moves and shifting geopolitical tensions in the Middle East. Finally, the discussion dives into the &quot;technological adolescence&quot; of humanity as autonomous AI begins to outpace our existing systems of governance.</description>
+      <pubDate>Fri, 13 Mar 2026 09:03:22 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-13-090322.mp3" length="5175552" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-13-090322.mp3</guid>
+      <itunes:duration>323</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-12</title>
       <description>This episode explores the historic global effort to stabilize energy markets through a massive release of oil reserves amid escalating geopolitical tensions. It also dives into the rapidly evolving AI landscape, covering everything from Google’s new life-saving flood-prediction tools to the polarizing rise of automated job interviews. Finally, stay informed with the latest high-stakes NFL trades and an inside look at how &quot;cyber-first&quot; strategies are redefining modern warfare.</description>
       <pubDate>Thu, 12 Mar 2026 09:05:56 GMT</pubDate>
