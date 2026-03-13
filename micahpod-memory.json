@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-03-13",
+      "summary": "Explore the intensifying battle for AI dominance as major players shift their focus from building smarter models to creating global ecosystems and specialized cloud infrastructure. This episode breaks down the \"margin migration\" of software value, the rise of AI-native enterprise tools, and the emerging security risks that could compromise the reliability of the entire industry.",
+      "keyTopics": [
+        "Anthropic $100M Claude Partner Network and global expansion",
+        "Google Gemini 3.1 Flash-Lite performance focused strategy",
+        "Railway $100M funding for AI-native cloud infrastructure",
+        "Rox AI $1.2B valuation and CRM market disruption",
+        "Meta AI automated responses for Facebook Marketplace",
+        "QuTwo launch for enterprise quantum computing infrastructure",
+        "Security risks of document poisoning in RAG systems",
+        "Lewis Lin Margin Migration and software profit shifts"
+      ],
+      "articles": [
+        "The Margin Migration: Why Software Profits Don't Disappear—They Move"
+      ]
+    },
+    {
       "date": "2026-03-12",
       "summary": "Explore how Google is integrating AI into the physical world through immersive navigation and flood forecasting, alongside the rise of autonomous AI \"agents\" in workplace tools like Slack. This episode also dives into the \"hidden cognitive tax\" of AI-driven productivity, examining why the constant oversight of machine output might be leading to a new wave of workplace burnout.",
       "keyTopics": [
