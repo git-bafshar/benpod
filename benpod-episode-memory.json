@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-03-14",
+      "summary": "Explore the complex duality of artificial intelligence, from sobering legal warnings about \"AI psychosis\" to a visionary outlook on how the technology could soon solve humanity’s most pressing medical and scientific challenges. This episode also breaks down the Golden State Warriors’ recent struggles on the court, tech industry setbacks at xAI, and the diplomatic tightrope India is walking amid escalating global tensions.",
+      "keyTopics": [
+        "Legal warnings linking AI chatbots to mass casualty events",
+        "ChatGPT app integrations for DoorDash Spotify and Uber",
+        "Elon Musk xAI coding tool rebuild with Cursor executives",
+        "Railway 100 million dollar Series B for AI cloud infrastructure",
+        "Golden State Warriors injury crisis and four-game losing streak",
+        "India diplomatic balancing amid US-Iran conflict escalation",
+        "Anthropic CEO Dario Amodei Machines of Loving Grace essay"
+      ],
+      "articles": [
+        "Dario Amodei — Machines of Loving Grace",
+        "ESPN Warriors::Warriors Recap: Minnesota Timberwolves at Golden State Warriors",
+        "ESPN Giants::Giants Recap: Cincinnati Reds at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Warriors lose four more players to injury as slide continues",
+        "Foreign Policy - Iran::Iran War Puts India in Tricky Position",
+        "Foreign Policy - Iran::5 Streaming Movies to Help Understand Iran Now"
+      ]
+    },
+    {
       "date": "2026-03-13",
       "summary": "This episode explores Anthropic’s $100 million push to build an AI ecosystem and the looming semiconductor crisis triggered by a global helium shortage. Discover how AI is integrating into daily life through scam protection and marketplace tools, alongside an analysis of the San Francisco 49ers' latest roster moves and shifting geopolitical tensions in the Middle East. Finally, the discussion dives into the \"technological adolescence\" of humanity as autonomous AI begins to outpace our existing systems of governance.",
       "keyTopics": [
@@ -212,19 +233,6 @@
         "Anthropic Claude chatbot growth following Pentagon risk label",
         "Illinois bill proposal to ban state hiring of ICE agents",
         "San Francisco 49ers Trent Williams contract extension negotiations"
-      ]
-    },
-    {
-      "date": "2026-02-28",
-      "summary": "This episode explores the global fallout of \"Operation Epic Fury\" following coordinated US and Israeli strikes on Iran that have killed Supreme Leader Khamenei and sent shockwaves through international energy markets. We also analyze the escalating rift in Silicon Valley as OpenAI secures a major military contract rejected by Anthropic, alongside a look at the economic shifts redefining American cities and the housing market.",
-      "keyTopics": [
-        "Operation Epic Fury US-Israel strikes and Ayatollah Khamenei death",
-        "OpenAI Pentagon contract for classified network AI deployment",
-        "Pentagon designates Anthropic a supply-chain risk after safety stance",
-        "Governor Pritzker and Trump clash over 2026 election integrity",
-        "The Lancet editorial criticizing Robert F. Kennedy Jr. leadership",
-        "Urban wealth flight and shrinking tax bases in major cities",
-        "US mortgage market shift toward rates above six percent"
       ]
     }
   ]
