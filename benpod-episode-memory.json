@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-03-15",
+      "summary": "Dive into the staggering costs of the AI arms race, from potential massive layoffs at Meta to a landmark $20 billion military contract for autonomous defense technology. This episode also tracks the injury crisis facing the Golden State Warriors and a collection of offbeat stories, including a $96 3D-printed rocket and the release of a long-imprisoned treasure hunter.",
+      "keyTopics": [
+        "Meta potential twenty percent layoffs for AI infrastructure spending",
+        "US Army twenty billion dollar Anduril autonomous defense contract",
+        "Golden State Warriors veteran injury crisis and road trip",
+        "San Francisco Giants spring training collapse against Diamondbacks",
+        "Low-cost 3D-printed rocket with autonomous trajectory correction",
+        "Critical reception of Spotify AI DJ generative music feature",
+        "Ship of Gold treasure hunter released from decade-long imprisonment"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Arizona Diamondbacks at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Warriors without several veterans for game vs. Knicks"
+      ]
+    },
+    {
       "date": "2026-03-14",
       "summary": "Explore the complex duality of artificial intelligence, from sobering legal warnings about \"AI psychosis\" to a visionary outlook on how the technology could soon solve humanity’s most pressing medical and scientific challenges. This episode also breaks down the Golden State Warriors’ recent struggles on the court, tech industry setbacks at xAI, and the diplomatic tightrope India is walking amid escalating global tensions.",
       "keyTopics": [
@@ -219,20 +236,6 @@
         "Wealthy city de-sticking and urban flight tax base impact",
         "Higher mortgage rates surpass low interest loans for homeowners",
         "Stephen Curry knee injury and Warriors Gui Santos extension"
-      ]
-    },
-    {
-      "date": "2026-03-01",
-      "summary": "Explore the global shockwaves following the death of Iran’s Supreme Leader and the complex reactions it’s sparking from the Middle East to the streets of Chicago. This episode also analyzes the high-stakes battle over AI ethics in military contracts and breaks down a significant new tipping point for the U.S. housing market.",
-      "keyTopics": [
-        "Assassination of Iranian Supreme Leader Ayatollah Ali Khamenei",
-        "OpenAI and Anthropic dispute over Pentagon military contracts",
-        "Judge Jeffrey Cummings orders release of Chicago ICE detainees",
-        "The Lancet editorial condemning Robert F. Kennedy Jr.",
-        "Redfin report on six percent mortgage rate tipping point",
-        "Anthropic Claude chatbot growth following Pentagon risk label",
-        "Illinois bill proposal to ban state hiring of ICE agents",
-        "San Francisco 49ers Trent Williams contract extension negotiations"
       ]
     }
   ]
