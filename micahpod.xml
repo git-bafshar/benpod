@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-03-16</title>
+      <description>This episode examines the shift from AI hype to hard-hitting reality, highlighting ByteDance’s strategic product delays and the US Army’s massive $20 billion defense contract. Explore the chilling safety warnings surrounding AI chatbots and dive into new procurement data that reveals which tech giants are truly winning the enterprise software race.</description>
+      <pubDate>Mon, 16 Mar 2026 08:46:49 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-16-084649.mp3" length="4616064" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-16-084649.mp3</guid>
+      <itunes:duration>289</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-13</title>
       <description>Explore the intensifying battle for AI dominance as major players shift their focus from building smarter models to creating global ecosystems and specialized cloud infrastructure. This episode breaks down the &quot;margin migration&quot; of software value, the rise of AI-native enterprise tools, and the emerging security risks that could compromise the reliability of the entire industry.</description>
       <pubDate>Fri, 13 Mar 2026 08:36:09 GMT</pubDate>
