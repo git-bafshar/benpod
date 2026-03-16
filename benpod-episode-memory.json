@@ -1,6 +1,29 @@
 {
   "episodes": [
     {
+      "date": "2026-03-16",
+      "summary": "Explore the evolving AI landscape as Google makes a record-breaking $32 billion bet on cloud security and the industry pivots from flashy software wrappers toward deep, defensible tech. This episode also analyzes the strategic and humanitarian stakes of rising tensions in Iran and recaps a rollercoaster day for Bay Area sports, including a heartbreaking collapse for the Warriors and dominant performances on the diamond.",
+      "keyTopics": [
+        "Google $32 billion acquisition of cloud security firm Wiz",
+        "Google Accel India accelerator rejection of AI wrapper startups",
+        "ByteDance pauses Seedance 2.0 video generator launch",
+        "US strategy shift regarding Iran proxy network and prisoners",
+        "Golden State Warriors injury crisis and loss to Knicks",
+        "Pitcher Robbie Ray dominant spring training for SF Giants",
+        "Wide receiver Mike Evans joins San Francisco 49ers"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Golden State Warriors at New York Knicks",
+        "ESPN Giants::Giants Recap: Milwaukee Brewers at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Al Horford, Seth Curry out at least a week for Warriors",
+        "ESPN Giants News::Giants: Giants near-perfect vs. Brewers; Hayden Birdsong hurting",
+        "ESPN 49ers News::49ers: Veteran Mike Evans gets 'second wind' by signing with 49ers",
+        "Foreign Policy - Iran::Iran’s Escalation Strategy Won’t Work",
+        "Foreign Policy - Iran::Iran’s Political Prisoners Are in the Firing Line",
+        "Foreign Policy - Iran::From Vietnam to Iran, War Is the Reason Americans Don’t Trust Their Government"
+      ]
+    },
+    {
       "date": "2026-03-15",
       "summary": "Dive into the staggering costs of the AI arms race, from potential massive layoffs at Meta to a landmark $20 billion military contract for autonomous defense technology. This episode also tracks the injury crisis facing the Golden State Warriors and a collection of offbeat stories, including a $96 3D-printed rocket and the release of a long-imprisoned treasure hunter.",
       "keyTopics": [
@@ -222,20 +245,6 @@
         "Miniaturized AI vision model integration with biological monkey neurons",
         "Ars Technica reporter fired for AI-fabricated quotes",
         "US homeowner tenure records and luxury real estate trends"
-      ]
-    },
-    {
-      "date": "2026-03-02",
-      "summary": "Dive into the global ripple effects of \"Operation Epic Fury\" as direct military conflict breaks out between the U.S., Israel, and Iran, sparking a constitutional debate over executive war powers. This episode also examines the ethical and technical roller coaster of the AI industry, the rising safety and funding crisis within Chicago's public transit, and how remote work is reshaping urban wealth and the housing market. From geopolitical shifts to local headlines and sports updates, get the essential news you need to start your week.",
-      "keyTopics": [
-        "Operation Epic Fury direct US and Israel strikes on Iran",
-        "Sam Altman admits OpenAI Pentagon deal was rushed",
-        "Anthropic Claude App Store surge followed by major outage",
-        "Federal threat to pull 50 million dollars from CTA",
-        "Portillo’s struggling with national expansion and operational hurdles",
-        "Wealthy city de-sticking and urban flight tax base impact",
-        "Higher mortgage rates surpass low interest loans for homeowners",
-        "Stephen Curry knee injury and Warriors Gui Santos extension"
       ]
     }
   ]
