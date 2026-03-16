@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-03-16",
+      "summary": "Explore the future of tech as we break down Nvidia’s industry-defining keynote and a maturing AI market that is shifting focus toward safety, legal liability, and foundational innovation. This episode also covers the Lakers' high-stakes battle for a top playoff seed and the unseasonal weather patterns currently settling over the coast.",
+      "keyTopics": [
+        "Jensen Huang Nvidia GTC keynote and Blackwell chip successors",
+        "Legal liability for AI chatbots in mass casualty cases",
+        "ByteDance pauses Seedance 2.0 video generator global launch",
+        "Google and Accel India accelerator rejects AI wrapper startups",
+        "LA Lakers Western Conference third seed playoff standings"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Are Lakers good enough to remain No. 3 seed?"
+      ]
+    },
+    {
       "date": "2026-03-13",
       "summary": "Explore the Lakers’ explosive new offensive identity following Luka Doncic’s 51-point masterpiece and LeBron James’ return to the court. This episode also dives into the accelerating AI landscape, covering everything from new family-focused fraud protection tools to the $100 million push for \"AI-native\" cloud and quantum infrastructure. Finally, we examine the complex financial and ethical dilemmas facing California communities as they struggle to rebuild in the face of increasing wildfire risks.",
       "keyTopics": [
@@ -172,20 +186,6 @@
         "Amazon Alexa+ customizable voice assistant personality options",
         "US government lobbying against foreign data sovereignty laws",
         "Paolo Banchero 36 point game against the Lakers"
-      ]
-    },
-    {
-      "date": "2026-02-24",
-      "summary": "Dive into a high-stakes standoff between the Pentagon and Anthropic over AI safety guardrails and the latest $500 million investment in the race for chip dominance. This episode also explores the rise of workplace AI agents, regulatory battles facing tech giants, and a key preview of tonight’s Lakers matchup against the Orlando Magic.",
-      "keyTopics": [
-        "Anthropic and Pentagon dispute over AI safety guardrails",
-        "MatX raises 500 million to challenge Nvidia chips",
-        "Salesforce rollout of new Slackbot AI agent",
-        "Uber engineers build Dara Khosrowshahi CEO chatbot",
-        "IRS corporate tax dispute with Meta",
-        "OpenAI and Persona identity surveillance machine allegations",
-        "Lakers versus Orlando Magic matchup featuring Luka Doncic",
-        "Lakers season ticket price hikes for 2026-27"
       ]
     }
   ]
