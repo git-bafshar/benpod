@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-03-16",
+      "summary": "This episode examines the shift from AI hype to hard-hitting reality, highlighting ByteDance’s strategic product delays and the US Army’s massive $20 billion defense contract. Explore the chilling safety warnings surrounding AI chatbots and dive into new procurement data that reveals which tech giants are truly winning the enterprise software race.",
+      "keyTopics": [
+        "ByteDance Seedance 2.0 global launch pause",
+        "Google and Accel India AI accelerator wrapper analysis",
+        "Anduril twenty billion dollar US Army defense contract",
+        "Legal warnings of AI chatbot mass casualty risks",
+        "Lewis Lin software market procurement data analysis",
+        "OpenAI enterprise adoption versus Anthropic market velocity",
+        "Future uncertainty for St. Petersburg Mahaffey Theater"
+      ],
+      "articles": [
+        "See the Real Software Market—Not the One Vendors Want You to See"
+      ]
+    },
+    {
       "date": "2026-03-13",
       "summary": "Explore the intensifying battle for AI dominance as major players shift their focus from building smarter models to creating global ecosystems and specialized cloud infrastructure. This episode breaks down the \"margin migration\" of software value, the rise of AI-native enterprise tools, and the emerging security risks that could compromise the reliability of the entire industry.",
       "keyTopics": [
