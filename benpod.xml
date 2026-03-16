@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-16</title>
+      <description>Explore the evolving AI landscape as Google makes a record-breaking $32 billion bet on cloud security and the industry pivots from flashy software wrappers toward deep, defensible tech. This episode also analyzes the strategic and humanitarian stakes of rising tensions in Iran and recaps a rollercoaster day for Bay Area sports, including a heartbreaking collapse for the Warriors and dominant performances on the diamond.</description>
+      <pubDate>Mon, 16 Mar 2026 09:22:44 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-16-092244.mp3" length="4838592" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-16-092244.mp3</guid>
+      <itunes:duration>302</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-15</title>
       <description>Dive into the staggering costs of the AI arms race, from potential massive layoffs at Meta to a landmark $20 billion military contract for autonomous defense technology. This episode also tracks the injury crisis facing the Golden State Warriors and a collection of offbeat stories, including a $96 3D-printed rocket and the release of a long-imprisoned treasure hunter.</description>
       <pubDate>Sun, 15 Mar 2026 10:17:52 GMT</pubDate>
