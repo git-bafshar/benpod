@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-03-17</title>
+      <description>Explore the Lakers&apos; high-stakes defensive victory and what it means for their playoff positioning, alongside a deep dive into the rapidly expanding ecosystem of AI agents and the infrastructure supporting them. This episode also examines the growing social friction around self-driving cars in California and a groundbreaking discovery of life’s fundamental building blocks found on a distant asteroid.</description>
+      <pubDate>Tue, 17 Mar 2026 08:07:22 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-17-080722.mp3" length="3977280" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-17-080722.mp3</guid>
+      <itunes:duration>249</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-03-16</title>
       <description>Explore the future of tech as we break down Nvidia’s industry-defining keynote and a maturing AI market that is shifting focus toward safety, legal liability, and foundational innovation. This episode also covers the Lakers&apos; high-stakes battle for a top playoff seed and the unseasonal weather patterns currently settling over the coast.</description>
       <pubDate>Mon, 16 Mar 2026 08:10:41 GMT</pubDate>
