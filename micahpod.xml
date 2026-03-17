@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-03-17</title>
+      <description>Explore the staggering economic scale of the AI boom as Nvidia projects one trillion dollars in chip sales and the &quot;Agentic Era&quot; moves into the mainstream through new consumer marketplaces. This episode also breaks down the hidden security risks of &quot;indirect prompt injection&quot; that can turn helpful AI assistants into data thieves and highlights a cosmic discovery regarding the building blocks of life found on a distant asteroid.</description>
+      <pubDate>Tue, 17 Mar 2026 08:53:09 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-17-085309.mp3" length="4276992" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-17-085309.mp3</guid>
+      <itunes:duration>267</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-16</title>
       <description>This episode examines the shift from AI hype to hard-hitting reality, highlighting ByteDance’s strategic product delays and the US Army’s massive $20 billion defense contract. Explore the chilling safety warnings surrounding AI chatbots and dive into new procurement data that reveals which tech giants are truly winning the enterprise software race.</description>
       <pubDate>Mon, 16 Mar 2026 08:46:49 GMT</pubDate>
