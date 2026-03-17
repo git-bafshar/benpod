@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-17</title>
+      <description>Explore the future of work as AI evolves from simple tools into specialized digital teammates capable of managing entire creative and corporate workflows. This episode also dives into a long-awaited victory for the Warriors, a profound scientific discovery regarding the origins of life found on an asteroid, and how global instability is unexpectedly reshaping remote work trends.</description>
+      <pubDate>Tue, 17 Mar 2026 09:22:02 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-17-092202.mp3" length="4845888" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-17-092202.mp3</guid>
+      <itunes:duration>303</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-16</title>
       <description>Explore the evolving AI landscape as Google makes a record-breaking $32 billion bet on cloud security and the industry pivots from flashy software wrappers toward deep, defensible tech. This episode also analyzes the strategic and humanitarian stakes of rising tensions in Iran and recaps a rollercoaster day for Bay Area sports, including a heartbreaking collapse for the Warriors and dominant performances on the diamond.</description>
       <pubDate>Mon, 16 Mar 2026 09:22:44 GMT</pubDate>
