@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-03-17",
+      "summary": "Explore the staggering economic scale of the AI boom as Nvidia projects one trillion dollars in chip sales and the \"Agentic Era\" moves into the mainstream through new consumer marketplaces. This episode also breaks down the hidden security risks of \"indirect prompt injection\" that can turn helpful AI assistants into data thieves and highlights a cosmic discovery regarding the building blocks of life found on a distant asteroid.",
+      "keyTopics": [
+        "Nvidia trillion dollar Blackwell and Vera Rubin chip projections",
+        "Nvidia NemoClaw open enterprise AI agent platform",
+        "Picsart AI agent marketplace for consumer photo editing",
+        "Senator Elizabeth Warren presses Pentagon over xAI security risks",
+        "Indirect prompt injection attacks and AI data exfiltration",
+        "Ryugu asteroid samples contain DNA and RNA building blocks",
+        "Anduril twenty billion dollar military AI defense contract"
+      ],
+      "articles": [
+        "What Are Data Exfiltration Attacks on AI? A Plain English Guide"
+      ]
+    },
+    {
       "date": "2026-03-16",
       "summary": "This episode examines the shift from AI hype to hard-hitting reality, highlighting ByteDance’s strategic product delays and the US Army’s massive $20 billion defense contract. Explore the chilling safety warnings surrounding AI chatbots and dive into new procurement data that reveals which tech giants are truly winning the enterprise software race.",
       "keyTopics": [
