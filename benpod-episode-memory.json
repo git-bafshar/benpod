@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-03-17",
+      "summary": "Explore the future of work as AI evolves from simple tools into specialized digital teammates capable of managing entire creative and corporate workflows. This episode also dives into a long-awaited victory for the Warriors, a profound scientific discovery regarding the origins of life found on an asteroid, and how global instability is unexpectedly reshaping remote work trends.",
+      "keyTopics": [
+        "Picsart launch of specialized AI agent marketplace",
+        "Salesforce Slackbot evolution into full AI agent",
+        "Niv-AI GPU power management twelve million seed round",
+        "Nvidia Blackwell and Vera Rubin chip demand forecast",
+        "Steve Kerr 600th victory as Warriors snap streak",
+        "San Francisco 49ers Christian Kirk signing and Aiyuk leverage",
+        "Ryugu asteroid samples reveal DNA and RNA components",
+        "Strait of Hormuz instability affecting Silicon Valley workplace policies"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Golden State Warriors at Washington Wizards",
+        "ESPN Giants::Giants Recap: San Francisco Giants at San Diego Padres",
+        "ESPN 49ers News::49ers: Will the 49ers move on from Brandon Aiyuk?",
+        "ESPN 49ers News::49ers: Source: 49ers reach 1-year deal with WR Christian Kirk"
+      ]
+    },
+    {
       "date": "2026-03-16",
       "summary": "Explore the evolving AI landscape as Google makes a record-breaking $32 billion bet on cloud security and the industry pivots from flashy software wrappers toward deep, defensible tech. This episode also analyzes the strategic and humanitarian stakes of rising tensions in Iran and recaps a rollercoaster day for Bay Area sports, including a heartbreaking collapse for the Warriors and dominant performances on the diamond.",
       "keyTopics": [
@@ -231,20 +251,6 @@
         "Mifepristone legal challenge targeting telehealth and mailing",
         "Stephen Curry knee injury update for Golden State Warriors",
         "Trump administration funding cuts for international gender-based violence programs"
-      ]
-    },
-    {
-      "date": "2026-03-03",
-      "summary": "Explore a day of major escalations as the U.S. shutters embassies in the Middle East while OpenAI faces a massive consumer backlash over its recent military partnership. This episode also dives into a \"pocket-sized\" breakthrough in biological AI, the expansion struggles of a Chicago food icon, and why the national housing market remains frozen despite dipping mortgage rates. From landmark reparations reports to the latest in tech ethics, stay informed on the essential stories shaping today’s global and local landscape.",
-      "keyTopics": [
-        "US embassy closures amid Operation Epic Fury escalation",
-        "OpenAI ChatGPT user backlash following Pentagon defense deal",
-        "Anthropic supply-chain risk and industry open letter",
-        "Portillo’s national expansion operational hurdles and brand dilution",
-        "Illinois African Descent-Citizens Reparations Commission landmark report",
-        "Miniaturized AI vision model integration with biological monkey neurons",
-        "Ars Technica reporter fired for AI-fabricated quotes",
-        "US homeowner tenure records and luxury real estate trends"
       ]
     }
   ]
