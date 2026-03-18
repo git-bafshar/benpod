@@ -216,10 +216,10 @@ FORMAT RULES (critical):
 - Example:
 
 [HOST]
-Good morning, Tyler! Big day in the data world.
+Good morning, Ben! Big day in the data world.
 
 [COHOST]
-No kidding. I saw the Databricks news drop last night and almost spilled my coffee.
+No kidding. I saw the Anthropic news drop last night and almost spilled my coffee.
 
 [HOST]
 Let's get right into it.
