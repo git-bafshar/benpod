@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-03-18</title>
+      <description>Explore the widening divide in the AI world between custom-built enterprise platforms and hyper-personalized assistants that integrate deeply with your private data. This episode also covers shifting military AI alliances, the rise of automation tools for non-coders, and practical strategies for navigating the competitive tech job market.</description>
+      <pubDate>Wed, 18 Mar 2026 08:46:10 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-18-084610.mp3" length="4853376" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-18-084610.mp3</guid>
+      <itunes:duration>303</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-17</title>
       <description>Explore the staggering economic scale of the AI boom as Nvidia projects one trillion dollars in chip sales and the &quot;Agentic Era&quot; moves into the mainstream through new consumer marketplaces. This episode also breaks down the hidden security risks of &quot;indirect prompt injection&quot; that can turn helpful AI assistants into data thieves and highlights a cosmic discovery regarding the building blocks of life found on a distant asteroid.</description>
       <pubDate>Tue, 17 Mar 2026 08:53:09 GMT</pubDate>
