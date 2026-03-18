@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-03-18",
+      "summary": "This episode explores a dangerous escalation in the Middle East following a direct strike on a top Iranian official and the Pentagon's controversial decision to blacklist safety-focused AI lab Anthropic. We also break down shifting wealth trends in the U.S. housing market, key primary results from Illinois politics, and the multi-million dollar roster move shaking up the NFL.",
+      "keyTopics": [
+        "Israel kills Iranian Intelligence Minister Esmail Khatib",
+        "Pentagon labels Anthropic a national security risk",
+        "Mistral launches Mistral Forge for custom AI training",
+        "Illinois primary sets Pritzker and Bailey gubernatorial rematch",
+        "Real estate wealth shift to Americans over seventy",
+        "Mike Evans signs three-year contract with San Francisco 49ers",
+        "Illinois legislative bill to block local sports betting taxes"
+      ],
+      "articles": [
+        "ESPN 49ers News::49ers: Breaking down Mike Evans' contract with the 49ers",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::The Populist International Is Falling Apart",
+        "Foreign Policy - Iran::Deepfakes are Already Shaping Opinions Around Conflicts",
+        "Foreign Policy - Iran::Making the U.S. More Resilient to Oil Price Shocks"
+      ]
+    },
+    {
       "date": "2026-03-17",
       "summary": "Explore the future of work as AI evolves from simple tools into specialized digital teammates capable of managing entire creative and corporate workflows. This episode also dives into a long-awaited victory for the Warriors, a profound scientific discovery regarding the origins of life found on an asteroid, and how global instability is unexpectedly reshaping remote work trends.",
       "keyTopics": [
@@ -237,20 +258,6 @@
         "Railway $100 million raise for AI-native cloud infrastructure",
         "Congressional Black Caucus rift with Illinois Governor Pritzker",
         "Illinois House Bill 5112 statewide carryout bag tax"
-      ]
-    },
-    {
-      "date": "2026-03-04",
-      "summary": "Explore a significant military escalation in the Middle East and a historic move in Illinois that erased $2.5 billion in medical debt for thousands of families. This episode also dives into OpenAI’s latest user-friendly updates, the innovative proposal for underwater data centers, and how global instability is rattling both the housing market and the sports world.",
-      "keyTopics": [
-        "Operation Epic Fury Israeli strikes on Iranian air defenses",
-        "Governor Pritzker erases 2.5 billion in Illinois medical debt",
-        "Mayor Brandon Johnson 500 million dollar Chicago debt deal",
-        "OpenAI GPT-5.3 Instant release to reduce model cringe",
-        "Aikido underwater data centers powered by offshore wind",
-        "Mifepristone legal challenge targeting telehealth and mailing",
-        "Stephen Curry knee injury update for Golden State Warriors",
-        "Trump administration funding cuts for international gender-based violence programs"
       ]
     }
   ]
