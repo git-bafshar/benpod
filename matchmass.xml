@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-03-18</title>
+      <description>This episode explores the growing rift between the Pentagon and Anthropic as national security concerns clash with AI safety protocols in the defense sector. We also examine Mistral’s new strategy for building sovereign enterprise AI from scratch and how a crowdsourced &quot;blind taste test&quot; is becoming the definitive ranking system for the world’s top language models.</description>
+      <pubDate>Wed, 18 Mar 2026 08:15:25 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-18-081525.mp3" length="3640896" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-18-081525.mp3</guid>
+      <itunes:duration>228</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-03-17</title>
       <description>Explore the Lakers&apos; high-stakes defensive victory and what it means for their playoff positioning, alongside a deep dive into the rapidly expanding ecosystem of AI agents and the infrastructure supporting them. This episode also examines the growing social friction around self-driving cars in California and a groundbreaking discovery of life’s fundamental building blocks found on a distant asteroid.</description>
       <pubDate>Tue, 17 Mar 2026 08:07:22 GMT</pubDate>
