@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-18</title>
+      <description>This episode explores a dangerous escalation in the Middle East following a direct strike on a top Iranian official and the Pentagon&apos;s controversial decision to blacklist safety-focused AI lab Anthropic. We also break down shifting wealth trends in the U.S. housing market, key primary results from Illinois politics, and the multi-million dollar roster move shaking up the NFL.</description>
+      <pubDate>Wed, 18 Mar 2026 09:23:28 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-18-092328.mp3" length="4782720" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-18-092328.mp3</guid>
+      <itunes:duration>299</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-17</title>
       <description>Explore the future of work as AI evolves from simple tools into specialized digital teammates capable of managing entire creative and corporate workflows. This episode also dives into a long-awaited victory for the Warriors, a profound scientific discovery regarding the origins of life found on an asteroid, and how global instability is unexpectedly reshaping remote work trends.</description>
       <pubDate>Tue, 17 Mar 2026 09:22:02 GMT</pubDate>
