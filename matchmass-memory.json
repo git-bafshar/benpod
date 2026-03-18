@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-03-18",
+      "summary": "This episode explores the growing rift between the Pentagon and Anthropic as national security concerns clash with AI safety protocols in the defense sector. We also examine Mistral’s new strategy for building sovereign enterprise AI from scratch and how a crowdsourced \"blind taste test\" is becoming the definitive ranking system for the world’s top language models.",
+      "keyTopics": [
+        "Pentagon labels Anthropic national security risk over safety features",
+        "Mistral Forge platform for training proprietary enterprise AI models",
+        "Large Model Systems Arena leaderboard for anonymous chatbot testing",
+        "Lakers secure NBA Western Conference third seed after victory",
+        "Bifurcation of commercial AI safety versus military AI requirements",
+        "Pentagon development of alternatives to Anthropic for warfighting"
+      ]
+    },
+    {
       "date": "2026-03-17",
       "summary": "Explore the Lakers' high-stakes defensive victory and what it means for their playoff positioning, alongside a deep dive into the rapidly expanding ecosystem of AI agents and the infrastructure supporting them. This episode also examines the growing social friction around self-driving cars in California and a groundbreaking discovery of life’s fundamental building blocks found on a distant asteroid.",
       "keyTopics": [
@@ -179,18 +191,6 @@
         "Jack Dorsey Block layoffs inspired by Elon Musk",
         "Study linking generative AI use to depressive symptoms",
         "Lakers loss to Suns and LeBron-Luka chemistry crisis"
-      ]
-    },
-    {
-      "date": "2026-02-26",
-      "summary": "This episode explores the reported chemistry crisis between Lakers superstars LeBron James and Luka Doncic alongside a seismic shift in Anthropic’s approach to AI safety. We also break down the breaking news of an FBI raid on the Los Angeles Schools Chief and provide an update on the glassy, foggy surf conditions greeting the coast today.",
-      "keyTopics": [
-        "LeBron James and Luka Doncic locker room friction",
-        "Tony Bennett hired as Lakers draft adviser",
-        "Figma integrates OpenAI Codex and Anthropic Claude Code",
-        "Anthropic reported shift away from AI safety guardrails",
-        "Marc Benioff addresses Salesforce SaaSpocalypse and AI agents",
-        "FBI raid on Los Angeles Schools Chief office"
       ]
     }
   ]
