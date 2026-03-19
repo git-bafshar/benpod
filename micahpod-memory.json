@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-03-19",
+      "summary": "Explore the \"Agentic Era\" of AI as a major data breach at Meta highlights the growing risks of autonomous systems, and stay informed on escalating Middle East tensions threatening global energy supplies and oil prices. This episode also breaks down the surprising advantages of adjustable-rate mortgages in today’s housing market and explores the evolving skills required for high-level tech roles in 2026.",
+      "keyTopics": [
+        "Meta rogue AI agent data exposure incident",
+        "Nothing CEO Carl Pei on AI agents replacing apps",
+        "ICML rejects papers for LLM-generated peer reviews",
+        "Iran-Israel conflict escalation threatening global energy infrastructure",
+        "Japan PM Sanae Takaichi meeting on Strait of Hormuz",
+        "Adjustable-rate mortgages vs 30-year fixed market trends",
+        "Afroman defamation lawsuit victory against Ohio police",
+        "Lewis Lin Meta Product Manager 2026 interview guide"
+      ],
+      "articles": [
+        "15 Meta PM Interview Questions Every Candidate Must Prepare For (2026)",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-03-18",
       "summary": "Explore the widening divide in the AI world between custom-built enterprise platforms and hyper-personalized assistants that integrate deeply with your private data. This episode also covers shifting military AI alliances, the rise of automation tools for non-coders, and practical strategies for navigating the competitive tech job market.",
       "keyTopics": [
@@ -211,23 +230,6 @@
       ],
       "articles": [
         "What We Learned from OpenClaw: 6 lessons on the future of AI agents"
-      ]
-    },
-    {
-      "date": "2026-02-27",
-      "summary": "This episode explores a landmark ethical standoff as Anthropic’s CEO draws a hard line against military AI access, alongside a look at the \"hardcore\" efficiency shifts and strategic partnerships reshaping the tech industry. We also track the growing pains of autonomous vehicles in local neighborhoods, falling mortgage rates, and the evolving science of \"AI neuroscience\" that prioritizes logical reasoning over raw computing power. From high-stakes corporate decisions to the latest updates in aerospace and housing, this briefing covers the essential shifts shaping our technology and our communities.",
-      "keyTopics": [
-        "Anthropic CEO Dario Amodei Pentagon military access refusal",
-        "Mistral AI and Accenture enterprise consulting partnership",
-        "Block CEO Jack Dorsey workforce reduction and efficiency strategy",
-        "Waymo autonomous vehicle staging friction in Orlando neighborhoods",
-        "SpaceX Falcon 9 high-frequency launch cadence",
-        "US 30-year mortgage rates drop to 6.01 percent",
-        "Anthropic Sonnet 4.6 performance and mechanistic interpretability",
-        "AI training shift toward Process Reward Models"
-      ],
-      "articles": [
-        "4.5 → 4.6: Our Best Guesses on How Anthropic Did It"
       ]
     }
   ]
