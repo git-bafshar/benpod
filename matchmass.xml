@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-03-19</title>
+      <description>Stay updated on the Lakers’ dominant winning streak and LeBron James’ surprising decision to drop his bid for a Las Vegas expansion team. This episode also dives into the rapidly evolving AI landscape, covering OpenAI’s latest acquisition, the rise of &quot;app-less&quot; technology, and the security risks of rogue agents. Finally, explore the difficult cultural conversations emerging in California as the state re-evaluates the legacy of Cesar Chavez.</description>
+      <pubDate>Thu, 19 Mar 2026 07:58:29 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-19-075829.mp3" length="3749568" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-19-075829.mp3</guid>
+      <itunes:duration>234</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-03-18</title>
       <description>This episode explores the growing rift between the Pentagon and Anthropic as national security concerns clash with AI safety protocols in the defense sector. We also examine Mistral’s new strategy for building sovereign enterprise AI from scratch and how a crowdsourced &quot;blind taste test&quot; is becoming the definitive ranking system for the world’s top language models.</description>
       <pubDate>Wed, 18 Mar 2026 08:15:25 GMT</pubDate>
