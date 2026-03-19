@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-03-19",
+      "summary": "Today’s episode explores the tightening grip of AI giants with OpenAI’s latest acquisition and a concerning data leak at Meta. We also break down the Golden State Warriors’ shift in expectations following a tough loss and a landmark legal victory for artistic expression involving rapper Afroman. Finally, we discuss a bold prediction for the future of technology: a world where AI agents replace traditional smartphone apps entirely.",
+      "keyTopics": [
+        "OpenAI acquisition of Astral AI team",
+        "Meta internal data leak from rogue AI agent",
+        "Steve Kerr concedes Warriors play-in tournament reality",
+        "Mike Evans officially joins San Francisco 49ers",
+        "Afroman court victory over police raid music video",
+        "Nothing CEO Carl Pei predicts AI agents replacing apps"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Golden State Warriors at Boston Celtics",
+        "ESPN Giants::Giants Recap: San Francisco Giants at Los Angeles Dodgers",
+        "ESPN Warriors News::Warriors: Steve Kerr says Warriors know they are bound for play-in",
+        "ESPN 49ers News::49ers: Bucs GM Licht not 'betrayed' by Evans leaving as free agent"
+      ]
+    },
+    {
       "date": "2026-03-18",
       "summary": "This episode explores a dangerous escalation in the Middle East following a direct strike on a top Iranian official and the Pentagon's controversial decision to blacklist safety-focused AI lab Anthropic. We also break down shifting wealth trends in the U.S. housing market, key primary results from Illinois politics, and the multi-million dollar roster move shaking up the NFL.",
       "keyTopics": [
@@ -244,20 +262,6 @@
         "Chicago memorial service for Reverend Jesse Jackson",
         "Chicago transparency concerns over 800 million dollar bond offering",
         "Illinois mayors challenge Governor Pritzker over state funding"
-      ]
-    },
-    {
-      "date": "2026-03-05",
-      "summary": "Explore the sharp escalation of direct military conflict in the Middle East and the resulting constitutional showdown in Washington over presidential war powers. This episode also dives into the deepening public feud between AI giants OpenAI and Anthropic, alongside the latest updates on state-level political battles and a surprising surge in housing market inventory.",
-      "keyTopics": [
-        "U.S. and Israeli military strikes inside Iranian territory",
-        "House vote to constrain Trump’s military authority against Iran",
-        "Minnesota lawsuit against Trump administration over Medicaid funding",
-        "Anthropic CEO Dario Amodei public feud with OpenAI",
-        "Nvidia pausing direct investments in OpenAI and Anthropic",
-        "Railway $100 million raise for AI-native cloud infrastructure",
-        "Congressional Black Caucus rift with Illinois Governor Pritzker",
-        "Illinois House Bill 5112 statewide carryout bag tax"
       ]
     }
   ]
