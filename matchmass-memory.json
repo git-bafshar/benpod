@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-03-19",
+      "summary": "Stay updated on the Lakers’ dominant winning streak and LeBron James’ surprising decision to drop his bid for a Las Vegas expansion team. This episode also dives into the rapidly evolving AI landscape, covering OpenAI’s latest acquisition, the rise of \"app-less\" technology, and the security risks of rogue agents. Finally, explore the difficult cultural conversations emerging in California as the state re-evaluates the legacy of Cesar Chavez.",
+      "keyTopics": [
+        "Lakers seven-game winning streak and playoff positioning",
+        "LeBron James cancels Las Vegas NBA expansion ownership bid",
+        "Carl Pei predicts AI agents replacing smartphone apps",
+        "Meta internal data exposure via rogue AI agent",
+        "OpenAI acquires Astral and Ruff Python linter tool",
+        "ICML rejects papers over LLM-generated peer reviews",
+        "Cesar Chavez abuse allegations and California legacy re-evaluation"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: LeBron says no plans to be part of Vegas expansion team bid",
+        "ESPN Lakers News::Lakers: Doncic drops 40, James adds 30 as Lakers stretch their streak to 7 with 124-116 win over Rockets"
+      ]
+    },
+    {
       "date": "2026-03-18",
       "summary": "This episode explores the growing rift between the Pentagon and Anthropic as national security concerns clash with AI safety protocols in the defense sector. We also examine Mistral’s new strategy for building sovereign enterprise AI from scratch and how a crowdsourced \"blind taste test\" is becoming the definitive ranking system for the world’s top language models.",
       "keyTopics": [
@@ -178,19 +195,6 @@
         "Railway raises 100 million dollars for AI-native infrastructure",
         "Lakers dominate Kings behind Luka and LeBron chemistry win",
         "The SaaSpocalypse trend and shift toward AI-native platforms"
-      ]
-    },
-    {
-      "date": "2026-02-27",
-      "summary": "Dive into a massive day for tech as OpenAI secures a historic $110 billion funding round while Anthropic takes a principled stand against the Pentagon over AI safety. This episode also breaks down the Lakers’ latest heartbreaker and the strategic addition of Tony Bennett to their front office, alongside major shifts in Hollywood ownership and the rise of \"AI-native\" corporate restructuring. Finally, stay informed with local updates on school budget proposals and the weekend surf outlook for the Central Coast.",
-      "keyTopics": [
-        "OpenAI $110 billion funding round from Amazon and Nvidia",
-        "Anthropic and Dario Amodei Pentagon AI safety standoff",
-        "Lakers hire Tony Bennett as front office special adviser",
-        "Megan Ellison and Annapurna Pictures Warner Brothers acquisition",
-        "Jack Dorsey Block layoffs inspired by Elon Musk",
-        "Study linking generative AI use to depressive symptoms",
-        "Lakers loss to Suns and LeBron-Luka chemistry crisis"
       ]
     }
   ]
