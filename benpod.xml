@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-19</title>
+      <description>Today’s episode explores the tightening grip of AI giants with OpenAI’s latest acquisition and a concerning data leak at Meta. We also break down the Golden State Warriors’ shift in expectations following a tough loss and a landmark legal victory for artistic expression involving rapper Afroman. Finally, we discuss a bold prediction for the future of technology: a world where AI agents replace traditional smartphone apps entirely.</description>
+      <pubDate>Thu, 19 Mar 2026 09:09:57 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-19-090957.mp3" length="3774528" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-19-090957.mp3</guid>
+      <itunes:duration>236</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-18</title>
       <description>This episode explores a dangerous escalation in the Middle East following a direct strike on a top Iranian official and the Pentagon&apos;s controversial decision to blacklist safety-focused AI lab Anthropic. We also break down shifting wealth trends in the U.S. housing market, key primary results from Illinois politics, and the multi-million dollar roster move shaking up the NFL.</description>
       <pubDate>Wed, 18 Mar 2026 09:23:28 GMT</pubDate>
