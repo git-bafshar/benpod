@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-03-20</title>
+      <description>Celebrate a historic night in the NBA as we break down Luka Doncic’s massive 60-point performance and LeBron James’s latest career milestone. This episode also explores California’s shifting cultural landscape with the proposal to rename Cesar Chavez Day, alongside a deep dive into Jeff Bezos’s $100 billion plan to overhaul global industry using AI. Finally, we look at the future of the internet as bot traffic rises and energy infrastructure becomes the new bottleneck for the tech revolution.</description>
+      <pubDate>Fri, 20 Mar 2026 07:53:20 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-20-075320.mp3" length="3810432" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-20-075320.mp3</guid>
+      <itunes:duration>238</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-03-19</title>
       <description>Stay updated on the Lakers’ dominant winning streak and LeBron James’ surprising decision to drop his bid for a Las Vegas expansion team. This episode also dives into the rapidly evolving AI landscape, covering OpenAI’s latest acquisition, the rise of &quot;app-less&quot; technology, and the security risks of rogue agents. Finally, explore the difficult cultural conversations emerging in California as the state re-evaluates the legacy of Cesar Chavez.</description>
       <pubDate>Thu, 19 Mar 2026 07:58:29 GMT</pubDate>
