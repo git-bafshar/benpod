@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-03-20",
+      "summary": "Celebrate a historic night in the NBA as we break down Luka Doncic’s massive 60-point performance and LeBron James’s latest career milestone. This episode also explores California’s shifting cultural landscape with the proposal to rename Cesar Chavez Day, alongside a deep dive into Jeff Bezos’s $100 billion plan to overhaul global industry using AI. Finally, we look at the future of the internet as bot traffic rises and energy infrastructure becomes the new bottleneck for the tech revolution.",
+      "keyTopics": [
+        "Luka Doncic 60-point game for Los Angeles Lakers",
+        "LeBron James ties NBA record for total games played",
+        "California proposal renaming Cesar Chavez holiday to Farmworkers Day",
+        "Jeff Bezos hundred-billion-dollar industrial AI and robotics plan",
+        "Cloudflare CEO predicts AI bots outnumbering human internet traffic",
+        "Energy technology bottlenecks for large-scale AI data centers",
+        "Nvidia NemoClaw platform and autonomous AI agent trends"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Miami Heat",
+        "ESPN Lakers News::Lakers: Luka Doncic scores 60, LeBron James ties games-played mark and Lakers top Heat for 8th straight win"
+      ]
+    },
+    {
       "date": "2026-03-19",
       "summary": "Stay updated on the Lakers’ dominant winning streak and LeBron James’ surprising decision to drop his bid for a Las Vegas expansion team. This episode also dives into the rapidly evolving AI landscape, covering OpenAI’s latest acquisition, the rise of \"app-less\" technology, and the security risks of rogue agents. Finally, explore the difficult cultural conversations emerging in California as the state re-evaluates the legacy of Cesar Chavez.",
       "keyTopics": [
@@ -182,19 +199,6 @@
         "Cursor AI code editor $2 billion annualized revenue",
         "California Supreme Court student gender identity notification ruling",
         "LeBron James and Luka Doncic Lakers team chemistry"
-      ]
-    },
-    {
-      "date": "2026-03-02",
-      "summary": "This episode dives into a turbulent weekend for AI, covering Anthropic’s rapid rise and subsequent outage alongside OpenAI’s candid admissions regarding their controversial Pentagon partnership. We also break down the Lakers’ dominant bounce-back win over the Kings and Apple’s surprise launch of a powerful new M4-equipped iPad Air. Finally, explore the shifting tech landscape with a look at the \"SaaSpocalypse\" and the massive $100 million funding round for AI-native cloud platform Railway.",
-      "keyTopics": [
-        "Anthropic Claude App Store surge followed by service outage",
-        "Anthropic Cowork feature creates 10GB silent virtual machine files",
-        "Sam Altman admits OpenAI Pentagon deal was poorly handled",
-        "Apple releases new iPad Air with M4 silicon chip",
-        "Railway raises 100 million dollars for AI-native infrastructure",
-        "Lakers dominate Kings behind Luka and LeBron chemistry win",
-        "The SaaSpocalypse trend and shift toward AI-native platforms"
       ]
     }
   ]
