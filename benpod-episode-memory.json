@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-03-20",
+      "summary": "Dive into the \"physical\" side of the AI boom, exploring how industry leaders are spending billions to overhaul traditional factories and why the global energy grid is becoming the ultimate bottleneck for tech growth. This episode also breaks down a major military security breach caused by fitness apps, the latest content-policing shifts at Meta, and the long-term geopolitical strategies shaping current Middle East tensions.",
+      "keyTopics": [
+        "Jeff Bezos $100 billion industrial AI transformation fund",
+        "AI data center growth driving energy and grid investment",
+        "Cloudflare CEO prediction on 2027 bot traffic dominance",
+        "Meta AI systems for automated social media content enforcement",
+        "French aircraft carrier Charles de Gaulle fitness app leak",
+        "Israel strategy for strikes on Iran critical infrastructure",
+        "SF Giants pitcher Hayden Birdsong 2026 Tommy John surgery"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Colorado Rockies",
+        "ESPN Giants News::Giants: Giants' Hayden Birdsong to undergo Tommy John surgery, out for 2026",
+        "Foreign Policy - Iran::Israel Attacking Iran’s Energy ‘Wasn’t a Surprise’ to the Trump Administration",
+        "Foreign Policy - Iran::The U.S. and Israel Aren’t Fighting the Same War",
+        "Foreign Policy - Iran::Iran Can Afford America’s Economic Warfare"
+      ]
+    },
+    {
       "date": "2026-03-19",
       "summary": "Today’s episode explores the tightening grip of AI giants with OpenAI’s latest acquisition and a concerning data leak at Meta. We also break down the Golden State Warriors’ shift in expectations following a tough loss and a landmark legal victory for artistic expression involving rapper Afroman. Finally, we discuss a bold prediction for the future of technology: a world where AI agents replace traditional smartphone apps entirely.",
       "keyTopics": [
@@ -249,19 +269,6 @@
         "Former Bears coach Matt Eberflus joins 49ers defensive staff",
         "Global instability from Iran conflict impacts US mortgage rates",
         "Warriors center Kristaps Porzingis sidelined by mysterious illness"
-      ]
-    },
-    {
-      "date": "2026-03-06",
-      "summary": "This episode dives into a major escalation in the Middle East as Iran launches direct missile strikes against Israel, alongside a sudden leadership shakeup at the U.S. Department of Homeland Security. We also explore the high-stakes legal battle between AI firm Anthropic and the Pentagon, financial concerns surrounding Chicago’s newest bond offering, and the latest trends shifting the national housing market.",
-      "keyTopics": [
-        "Iran direct missile strikes against Israel",
-        "Trump replaces Kristi Noem with Markwayne Mullin",
-        "Anthropic lawsuit against Department of Defense supply-chain label",
-        "Meta opens WhatsApp to rival AI chatbots",
-        "Chicago memorial service for Reverend Jesse Jackson",
-        "Chicago transparency concerns over 800 million dollar bond offering",
-        "Illinois mayors challenge Governor Pritzker over state funding"
       ]
     }
   ]
