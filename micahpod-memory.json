@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-03-20",
+      "summary": "Explore the massive shift from \"bits to atoms\" as industry leaders prepare a $100 billion investment to overhaul traditional manufacturing with AI and robotics. This episode also examines the physical limits of the tech boom—from power grid bottlenecks to supply chain hurdles—and the startling forecast that AI agents will soon account for the majority of all internet traffic.",
+      "keyTopics": [
+        "Jeff Bezos $100 billion AI industrial manufacturing fund",
+        "AI data center power grid and energy constraints",
+        "3M PFAS phase-out impact on AI chip cooling",
+        "Cloudflare prediction of AI bot traffic exceeding humans",
+        "OpenAI acquisition of Python toolmaker Astral",
+        "Meta AI systems replacing human content moderators",
+        "Google 24-hour verification delay for Android app sideloading"
+      ]
+    },
+    {
       "date": "2026-03-19",
       "summary": "Explore the \"Agentic Era\" of AI as a major data breach at Meta highlights the growing risks of autonomous systems, and stay informed on escalating Middle East tensions threatening global energy supplies and oil prices. This episode also breaks down the surprising advantages of adjustable-rate mortgages in today’s housing market and explores the evolving skills required for high-level tech roles in 2026.",
       "keyTopics": [
@@ -213,23 +226,6 @@
       ],
       "articles": [
         "When AI Can Build Anything: The 10 Moats That Still Matter"
-      ]
-    },
-    {
-      "date": "2026-03-02",
-      "summary": "Discover the latest on a significant military escalation in the Middle East and the resulting congressional debate over U.S. war powers. This episode also explores the transition into the \"Agentic Era\" of AI, analyzing the ethical divide between tech giants and how autonomous agents are beginning to reshape the way we work. Finally, stay informed on a historic shift in the real estate market as mortgage rates reach a major five-year milestone.",
-      "keyTopics": [
-        "US and Israel military airstrikes inside Iran",
-        "Congress debates war powers resolutions for Middle East escalation",
-        "OpenAI Department of Defense contract vs Anthropic ethical stance",
-        "Anthropic Claude chatbot reaches number one in App Store",
-        "Transition from chatbots to agentic and ambient AI agents",
-        "US mortgage rates over six percent hit ten-year high",
-        "Redfin and Compass inventory sharing partnership for listings",
-        "OpenClaw lessons on proactive AI agents and persistent memory"
-      ],
-      "articles": [
-        "What We Learned from OpenClaw: 6 lessons on the future of AI agents"
       ]
     }
   ]
