@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-20</title>
+      <description>Dive into the &quot;physical&quot; side of the AI boom, exploring how industry leaders are spending billions to overhaul traditional factories and why the global energy grid is becoming the ultimate bottleneck for tech growth. This episode also breaks down a major military security breach caused by fitness apps, the latest content-policing shifts at Meta, and the long-term geopolitical strategies shaping current Middle East tensions.</description>
+      <pubDate>Fri, 20 Mar 2026 09:03:33 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-20-090333.mp3" length="5456064" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-20-090333.mp3</guid>
+      <itunes:duration>341</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-19</title>
       <description>Today’s episode explores the tightening grip of AI giants with OpenAI’s latest acquisition and a concerning data leak at Meta. We also break down the Golden State Warriors’ shift in expectations following a tough loss and a landmark legal victory for artistic expression involving rapper Afroman. Finally, we discuss a bold prediction for the future of technology: a world where AI agents replace traditional smartphone apps entirely.</description>
       <pubDate>Thu, 19 Mar 2026 09:09:57 GMT</pubDate>
