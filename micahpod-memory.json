@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-03-23",
+      "summary": "This episode dives into the intensifying \"chip wars\" as tech titans like Amazon and Tesla shift toward custom silicon to power the next generation of AI infrastructure. It also provides a sobering reality check on the technology’s real-world limits, examining a failed retail experiment at Walmart and the massive energy demands of global data centers. Finally, the briefing looks toward the future of transportation with updates on flying cars and the latest trends in the real estate market.",
+      "keyTopics": [
+        "Tesla and SpaceX custom AI chip collaboration",
+        "Amazon Trainium chip lab and AI infrastructure investment",
+        "Railway $100 million AI-native cloud infrastructure funding",
+        "Cursor coding assistant reliance on Moonshot AI Kimi model",
+        "Walmart ChatGPT-powered checkout experiment conversion failure",
+        "Anthropic $100 million Claude Partner Network investment",
+        "AI data center energy demands and power grid bottlenecks",
+        "eVTOL flying car regulatory progress and air corridors"
+      ]
+    },
+    {
       "date": "2026-03-20",
       "summary": "Explore the massive shift from \"bits to atoms\" as industry leaders prepare a $100 billion investment to overhaul traditional manufacturing with AI and robotics. This episode also examines the physical limits of the tech boom—from power grid bottlenecks to supply chain hurdles—and the startling forecast that AI agents will soon account for the majority of all internet traffic.",
       "keyTopics": [
@@ -210,22 +224,6 @@
       ],
       "articles": [
         "The Google PM Interview Isn't Pass/Fail: The 5 Performance Levels for Product Design, Analytical Thinking, and Technical Depth"
-      ]
-    },
-    {
-      "date": "2026-03-03",
-      "summary": "This episode explores a major military escalation in the Middle East following direct attacks on U.S. interests and the dramatic \"user rebellion\" as thousands migrate from OpenAI to Anthropic over ethical concerns. We also break down the arrival of the \"Agentic Era\" in the workplace and analyze the shifting real estate landscape as mortgage rates hit a ten-year high. Discover how these geopolitical, technological, and economic shifts are fundamentally reshaping the global landscape.",
-      "keyTopics": [
-        "Iranian military strikes on U.S. Embassy and Kuwait port",
-        "OpenAI ChatGPT uninstalls surge following controversial defense deal",
-        "Anthropic Claude hits number one amid OpenAI user backlash",
-        "Salesforce releases autonomous AI agent version of Slackbot",
-        "U.S. mortgage rates reach ten-year high affecting market inventory",
-        "Lewis Lin's ten moats for the post-SaaS AI era",
-        "Texas Congressman Troy Nehls' twin brother running for seat"
-      ],
-      "articles": [
-        "When AI Can Build Anything: The 10 Moats That Still Matter"
       ]
     }
   ]
