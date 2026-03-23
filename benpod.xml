@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-23</title>
+      <description>This episode explores the intensifying AI chip wars as Amazon’s custom hardware becomes the essential infrastructure for industry giants like Apple and OpenAI. The discussion also analyzes the shift toward a long-term war of attrition in Iran and provides the latest updates on key injuries and roster moves across the NBA, MLB, and NFL.</description>
+      <pubDate>Mon, 23 Mar 2026 09:17:26 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-23-091726.mp3" length="4430400" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-23-091726.mp3</guid>
+      <itunes:duration>277</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-20</title>
       <description>Dive into the &quot;physical&quot; side of the AI boom, exploring how industry leaders are spending billions to overhaul traditional factories and why the global energy grid is becoming the ultimate bottleneck for tech growth. This episode also breaks down a major military security breach caused by fitness apps, the latest content-policing shifts at Meta, and the long-term geopolitical strategies shaping current Middle East tensions.</description>
       <pubDate>Fri, 20 Mar 2026 09:03:33 GMT</pubDate>
