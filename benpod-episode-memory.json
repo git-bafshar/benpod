@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-03-23",
+      "summary": "This episode explores the intensifying AI chip wars as Amazon’s custom hardware becomes the essential infrastructure for industry giants like Apple and OpenAI. The discussion also analyzes the shift toward a long-term war of attrition in Iran and provides the latest updates on key injuries and roster moves across the NBA, MLB, and NFL.",
+      "keyTopics": [
+        "Amazon Trainium chips powered Anthropic, OpenAI, and Apple models",
+        "Elon Musk Tesla and SpaceX semiconductor fabrication partnership",
+        "Railway raises one hundred million dollar Series B",
+        "GitHub uptime struggles and three nines availability issues",
+        "Iran attritional war strategy targeting regional energy infrastructure",
+        "Stephen Curry returns to Golden State Warriors practice",
+        "San Francisco 49ers Trent Williams contract extension talks"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Stephen Curry (knee) gearing up for live contact in practice",
+        "ESPN Warriors News::Warriors: Kristaps Porzingis leaves Warriors' loss with lower back spasms",
+        "ESPN Giants News::Giants: Giants, veteran lefty Borucki reach agreement on 1-year deal",
+        "ESPN 49ers News::49ers: Sources: 49ers pass on Trent Williams option, eye deal",
+        "Foreign Policy - Iran::Iran Is Becoming America’s Ukraine",
+        "Foreign Policy - Iran::Iran’s Biggest Wartime Advantage Is Geography",
+        "Foreign Policy - Iran::Iran Intensifies Strikes on Gulf Energy Facilities"
+      ]
+    },
+    {
       "date": "2026-03-20",
       "summary": "Dive into the \"physical\" side of the AI boom, exploring how industry leaders are spending billions to overhaul traditional factories and why the global energy grid is becoming the ultimate bottleneck for tech growth. This episode also breaks down a major military security breach caused by fitness apps, the latest content-policing shifts at Meta, and the long-term geopolitical strategies shaping current Middle East tensions.",
       "keyTopics": [
@@ -255,20 +277,6 @@
         "Obama Presidential Center June 2026 opening date",
         "Nepal parliamentary election victory for Gen Z rapper party",
         "Matt Eberflus joins San Francisco 49ers defensive staff"
-      ]
-    },
-    {
-      "date": "2026-03-07",
-      "summary": "Explore the collision of big tech and global conflict as a high-profile resignation rocks OpenAI and the White House issues a bold \"unconditional surrender\" ultimatum to Iran. This episode also breaks down a volatile housing market reaching a ten-year inventory high and provides essential updates on deadly Midwest storms and high-stakes political appointments.",
-      "keyTopics": [
-        "Caitlin Kalinowski resigns from OpenAI over Pentagon defense deal",
-        "Anthropic and Mozilla partnership to secure Firefox browser code",
-        "President Trump demands Iran unconditional surrender in major escalation",
-        "Senator Markwayne Mullin nominated as Secretary of Homeland Security",
-        "Fatal spring tornadoes strike Michigan and Oklahoma communities",
-        "Former Bears coach Matt Eberflus joins 49ers defensive staff",
-        "Global instability from Iran conflict impacts US mortgage rates",
-        "Warriors center Kristaps Porzingis sidelined by mysterious illness"
       ]
     }
   ]
