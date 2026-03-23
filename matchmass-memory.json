@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-03-23",
+      "summary": "Explore the future of technology as OpenAI eyes nuclear fusion for its energy needs and mobile devices gain unprecedented on-device AI power. This episode also celebrates LeBron James’s historic NBA longevity record and breaks down major political shifts in California, from a controversial ballot seizure to the evolving legacy of Cesar Chavez.",
+      "keyTopics": [
+        "OpenAI and Helion nuclear fusion power purchase agreement",
+        "Elon Musk Tesla and SpaceX chip manufacturing plans",
+        "iPhone 17 Pro 400 billion parameter on-device LLM",
+        "Cursor AI model dependency on Moonshot Kimi model",
+        "LeBron James all-time NBA games played record",
+        "Northern California sheriff seizure of election ballots",
+        "California re-evaluation of Cesar Chavez historical legacy"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: LeBron James breaks NBA mark for games played, Luke Kennard makes winning 3 in Lakers' win vs. Magic",
+        "ESPN Lakers News::Lakers: Luka Doncic avoids suspension after 16th tech rescinded",
+        "ESPN Lakers News::Lakers: Sources: Doncic seeking dismissal of child support petition"
+      ]
+    },
+    {
       "date": "2026-03-20",
       "summary": "Celebrate a historic night in the NBA as we break down Luka Doncic’s massive 60-point performance and LeBron James’s latest career milestone. This episode also explores California’s shifting cultural landscape with the proposal to rename Cesar Chavez Day, alongside a deep dive into Jeff Bezos’s $100 billion plan to overhaul global industry using AI. Finally, we look at the future of the internet as bot traffic rises and energy infrastructure becomes the new bottleneck for the tech revolution.",
       "keyTopics": [
@@ -186,19 +204,6 @@
         "Aikido submerged data centers under offshore wind turbines",
         "Lakers internal team chemistry and JJ Redick leadership narrative",
         "AI industry political spending targeting regulation-friendly candidates"
-      ]
-    },
-    {
-      "date": "2026-03-03",
-      "summary": "This episode examines the fallout of OpenAI’s partnership with the Pentagon as users defect to safety-conscious alternatives like Anthropic and specialized tools like Cursor. We also dive into the alarming real-world consequences of AI-generated misinformation in journalism and the legal system, alongside a landmark California Supreme Court ruling on student privacy. Finally, we catch up on the latest tech business milestones and local California news.",
-      "keyTopics": [
-        "ChatGPT uninstall surge following OpenAI Pentagon partnership",
-        "Anthropic Department of Defense supply chain risk designation",
-        "Ars Technica reporter fired for AI-fabricated quotes",
-        "Indian judge cited fake AI-generated legal orders",
-        "Cursor AI code editor $2 billion annualized revenue",
-        "California Supreme Court student gender identity notification ruling",
-        "LeBron James and Luka Doncic Lakers team chemistry"
       ]
     }
   ]
