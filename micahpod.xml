@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-03-23</title>
+      <description>This episode dives into the intensifying &quot;chip wars&quot; as tech titans like Amazon and Tesla shift toward custom silicon to power the next generation of AI infrastructure. It also provides a sobering reality check on the technology’s real-world limits, examining a failed retail experiment at Walmart and the massive energy demands of global data centers. Finally, the briefing looks toward the future of transportation with updates on flying cars and the latest trends in the real estate market.</description>
+      <pubDate>Mon, 23 Mar 2026 08:42:22 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-23-084222.mp3" length="4449216" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-23-084222.mp3</guid>
+      <itunes:duration>278</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-20</title>
       <description>Explore the massive shift from &quot;bits to atoms&quot; as industry leaders prepare a $100 billion investment to overhaul traditional manufacturing with AI and robotics. This episode also examines the physical limits of the tech boom—from power grid bottlenecks to supply chain hurdles—and the startling forecast that AI agents will soon account for the majority of all internet traffic.</description>
       <pubDate>Fri, 20 Mar 2026 08:36:15 GMT</pubDate>
