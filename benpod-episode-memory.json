@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-03-24",
+      "summary": "This episode breaks down the Golden State Warriors' bittersweet overtime victory and the devastating injury news that could reshape their push for the play-in tournament. We also explore a massive $75 million surge in AI investment alongside a critical security threat to developers, plus a strategic look at the shifting power dynamics and \"coercive bargaining\" in the Middle East.",
+      "keyTopics": [
+        "Moses Moody non-contact knee injury in Mavericks game",
+        "Steve Kerr rejects tanking and shutting down Stephen Curry",
+        "Mirage Captions AI video editing app $75 million funding",
+        "Agile Robots and Google DeepMind robotics partnership",
+        "LiteLLM open-source Python package supply-chain security attack",
+        "Iran coercive bargaining strategy targeting regional energy infrastructure",
+        "Foreign Policy analysis of Iran deterrence strategy collapse"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Golden State Warriors at Dallas Mavericks",
+        "ESPN Warriors News::Warriors: Warriors' Moses Moody suffers noncontact knee injury in OT win",
+        "ESPN Warriors News::Warriors: Kerr: Warriors will play Curry in play-in tourney if healthy",
+        "Foreign Policy - Iran::What Iran Wants From the War",
+        "Foreign Policy - Iran::Lessons for Singapore From Trump’s War in Iran",
+        "Foreign Policy - Iran::How Iran’s Deterrence Collapsed Ahead of the War"
+      ]
+    },
+    {
       "date": "2026-03-23",
       "summary": "This episode explores the intensifying AI chip wars as Amazon’s custom hardware becomes the essential infrastructure for industry giants like Apple and OpenAI. The discussion also analyzes the shift toward a long-term war of attrition in Iran and provides the latest updates on key injuries and roster moves across the NBA, MLB, and NFL.",
       "keyTopics": [
@@ -263,20 +284,6 @@
         "Construction of AI man camps for data center workers",
         "Cook County Promise Universal Basic Income permanent funding debate",
         "Illinois fiscal cliff and 2027 projected revenue decline"
-      ]
-    },
-    {
-      "date": "2026-03-08",
-      "summary": "Stay informed on a high-stakes morning as Israeli strikes on Iranian oil infrastructure and a developing security incident at the U.S. Embassy in Oslo send shockwaves through global markets. This episode also explores the deepening ethical rift within the AI industry, the latest volatility in the housing market, and a surprising youth-led political upheaval in Nepal. From the \"pro-human\" tech movement to a quiet sleep crisis among teens, get the essential stories shaping the start of your week.",
-      "keyTopics": [
-        "Israeli airstrikes on Iranian oil infrastructure",
-        "Explosion investigation at U.S. Embassy in Oslo",
-        "OpenAI military contract and Pro-Human Declaration response",
-        "Sundar Pichai compensation tied to Waymo and Wing",
-        "Moweaqua Illinois police department mass resignation",
-        "Obama Presidential Center June 2026 opening date",
-        "Nepal parliamentary election victory for Gen Z rapper party",
-        "Matt Eberflus joins San Francisco 49ers defensive staff"
       ]
     }
   ]
