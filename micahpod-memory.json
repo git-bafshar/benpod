@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-03-24",
+      "summary": "Discover how Apple is finally stepping into the AI ring with a major preview of its upcoming developer conference and the potential for powerful on-device models. We also dive into Google DeepMind’s latest innovations, including a partnership to bring AI to physical robots and a \"text-to-world\" model that generates interactive games from simple descriptions. Finally, the episode explores the importance of AI literacy in politics and the growing global landscape of venture capital funding.",
+      "keyTopics": [
+        "Apple WWDC June 8th AI advancements announcement",
+        "iPhone 17 Pro local 400 billion parameter model",
+        "Google DeepMind and Agile Robots robotics partnership",
+        "Google DeepMind Project Genie interactive world generation",
+        "Senator Bernie Sanders Anthropic Claude AI interaction",
+        "Air Street Capital $232 million AI venture fund"
+      ]
+    },
+    {
       "date": "2026-03-23",
       "summary": "This episode dives into the intensifying \"chip wars\" as tech titans like Amazon and Tesla shift toward custom silicon to power the next generation of AI infrastructure. It also provides a sobering reality check on the technology’s real-world limits, examining a failed retail experiment at Walmart and the massive energy demands of global data centers. Finally, the briefing looks toward the future of transportation with updates on flying cars and the latest trends in the real estate market.",
       "keyTopics": [
@@ -207,23 +219,6 @@
       ],
       "articles": [
         "The Ratio Has Flipped: How AI Should Change How You Structure Product Teams"
-      ]
-    },
-    {
-      "date": "2026-03-04",
-      "summary": "Explore the significant escalation of global conflict as direct strikes hit Tehran and the \"Agentic Era\" begins with AI taking on active roles in the workplace. This episode also breaks down the volatile housing market and the evolving human skills needed to excel in a career landscape increasingly shaped by automation. Plus, stay updated on local milestones, from SpaceX’s latest record-breaking launch to vital community housing initiatives.",
-      "keyTopics": [
-        "Direct U.S. and Israeli airstrikes on Tehran security targets",
-        "U.S. Senate votes on President Trump's Iran war powers",
-        "Salesforce Slackbot transformation into fully powered AI agent",
-        "Anthropic acquires Vercept for AI computer interaction capabilities",
-        "OpenAI GPT-5.3 Instant release targeting reduced conversational cringe",
-        "U.S. mortgage rates dip below six percent amid volatility",
-        "SpaceX Falcon 9 booster completes record-breaking 25th flight",
-        "Lewis Lin Google PM interview rubric for human-AI differentiation"
-      ],
-      "articles": [
-        "The Google PM Interview Isn't Pass/Fail: The 5 Performance Levels for Product Design, Analytical Thinking, and Technical Depth"
       ]
     }
   ]
