@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-24</title>
+      <description>This episode breaks down the Golden State Warriors&apos; bittersweet overtime victory and the devastating injury news that could reshape their push for the play-in tournament. We also explore a massive $75 million surge in AI investment alongside a critical security threat to developers, plus a strategic look at the shifting power dynamics and &quot;coercive bargaining&quot; in the Middle East.</description>
+      <pubDate>Tue, 24 Mar 2026 09:21:47 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-24-092147.mp3" length="4784064" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-24-092147.mp3</guid>
+      <itunes:duration>299</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-23</title>
       <description>This episode explores the intensifying AI chip wars as Amazon’s custom hardware becomes the essential infrastructure for industry giants like Apple and OpenAI. The discussion also analyzes the shift toward a long-term war of attrition in Iran and provides the latest updates on key injuries and roster moves across the NBA, MLB, and NFL.</description>
       <pubDate>Mon, 23 Mar 2026 09:17:26 GMT</pubDate>
