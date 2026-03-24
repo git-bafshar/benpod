@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-03-24</title>
+      <description>Discover how Apple is finally stepping into the AI ring with a major preview of its upcoming developer conference and the potential for powerful on-device models. We also dive into Google DeepMind’s latest innovations, including a partnership to bring AI to physical robots and a &quot;text-to-world&quot; model that generates interactive games from simple descriptions. Finally, the episode explores the importance of AI literacy in politics and the growing global landscape of venture capital funding.</description>
+      <pubDate>Tue, 24 Mar 2026 08:46:16 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-24-084616.mp3" length="3975744" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-24-084616.mp3</guid>
+      <itunes:duration>248</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-23</title>
       <description>This episode dives into the intensifying &quot;chip wars&quot; as tech titans like Amazon and Tesla shift toward custom silicon to power the next generation of AI infrastructure. It also provides a sobering reality check on the technology’s real-world limits, examining a failed retail experiment at Walmart and the massive energy demands of global data centers. Finally, the briefing looks toward the future of transportation with updates on flying cars and the latest trends in the real estate market.</description>
       <pubDate>Mon, 23 Mar 2026 08:42:22 GMT</pubDate>
