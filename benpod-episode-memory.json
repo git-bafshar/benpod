@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-03-25",
+      "summary": "Explore the massive $3.5 billion bet on the future of AI and the surprising shutdown of OpenAI’s Sora app as the industry shifts toward more practical, tool-based applications. This episode also breaks down a season-ending injury for the Golden State Warriors and dives into local Chicago insights, from transit safety to the preservation of Frank Lloyd Wright’s architectural masterpieces.",
+      "keyTopics": [
+        "Kleiner Perkins $3.5 billion AI venture capital fund",
+        "OpenAI shuts down Sora AI video social app",
+        "Meta generative AI shopping integration for Instagram and Facebook",
+        "Sift manufacturing data infrastructure for physical AI",
+        "Lucid Bots $20 million funding for power-washing drones",
+        "TurboQuant AI model compression and energy efficiency research",
+        "Moses Moody season-ending torn patellar tendon injury",
+        "Frank Lloyd Wright architectural preservation challenges in Chicago"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Moses Moody out for season with torn patellar tendon in knee"
+      ]
+    },
+    {
       "date": "2026-03-24",
       "summary": "This episode breaks down the Golden State Warriors' bittersweet overtime victory and the devastating injury news that could reshape their push for the play-in tournament. We also explore a massive $75 million surge in AI investment alongside a critical security threat to developers, plus a strategic look at the shifting power dynamics and \"coercive bargaining\" in the Middle East.",
       "keyTopics": [
@@ -271,19 +288,6 @@
         "Foreign Policy - Iran::Trump Likely to Confront Democratic Wall on Iran War Funding",
         "Foreign Policy - Iran::Iran Threatens to Stop Oil From Leaving the Middle East",
         "Foreign Policy - Iran::State Department Refuses Former Staffers’ Help in Middle East Evacuation"
-      ]
-    },
-    {
-      "date": "2026-03-09",
-      "summary": "This episode breaks down the global economic fallout from Iran’s new leadership and the high-stakes legislative standoff unfolding in Washington. Explore the intersection of technology and ethics through \"AI-enhanced\" political campaigns and the debate over making Universal Basic Income permanent in Cook County. Plus, stay informed on the latest shifts in the housing market and key updates from the world of sports.",
-      "keyTopics": [
-        "Mojtaba Khamenei named new Supreme Leader of Iran",
-        "Trump threatens legislative shutdown over voting system overhaul",
-        "Jesse Jackson Jr. campaign use of AI-enhanced endorsements",
-        "Nvidia-backed Nscale achieves 14.6 billion dollar valuation",
-        "Construction of AI man camps for data center workers",
-        "Cook County Promise Universal Basic Income permanent funding debate",
-        "Illinois fiscal cliff and 2027 projected revenue decline"
       ]
     }
   ]
