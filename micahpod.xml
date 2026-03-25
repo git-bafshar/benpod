@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-03-25</title>
+      <description>Explore the massive surge in AI investment as Kleiner Perkins raises $3.5 billion and Anthropic pushes the boundaries of autonomy with its new semi-autonomous coding agents. This episode also examines the growing friction between digital expansion and physical reality, from a Kentucky family resisting a multi-million dollar data center land rush to OpenAI’s strategic closure of its Sora social app. Finally, discover how practical robotics is solving real-world problems and why developers must stay alert to new security vulnerabilities in the AI software supply chain.</description>
+      <pubDate>Wed, 25 Mar 2026 08:43:18 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-25-084318.mp3" length="3781248" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-25-084318.mp3</guid>
+      <itunes:duration>236</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-24</title>
       <description>Discover how Apple is finally stepping into the AI ring with a major preview of its upcoming developer conference and the potential for powerful on-device models. We also dive into Google DeepMind’s latest innovations, including a partnership to bring AI to physical robots and a &quot;text-to-world&quot; model that generates interactive games from simple descriptions. Finally, the episode explores the importance of AI literacy in politics and the growing global landscape of venture capital funding.</description>
       <pubDate>Tue, 24 Mar 2026 08:46:16 GMT</pubDate>
