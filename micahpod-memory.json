@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-03-25",
+      "summary": "Explore the massive surge in AI investment as Kleiner Perkins raises $3.5 billion and Anthropic pushes the boundaries of autonomy with its new semi-autonomous coding agents. This episode also examines the growing friction between digital expansion and physical reality, from a Kentucky family resisting a multi-million dollar data center land rush to OpenAI’s strategic closure of its Sora social app. Finally, discover how practical robotics is solving real-world problems and why developers must stay alert to new security vulnerabilities in the AI software supply chain.",
+      "keyTopics": [
+        "Kleiner Perkins three point five billion dollar AI fund",
+        "Anthropic Claude Code auto mode for autonomous development",
+        "Kentucky family rejects twenty-six million dollar data center offer",
+        "OpenAI shuts down Sora video generation social app",
+        "Lucid Bots window-washing drone funding round",
+        "Litellm Python developer tool supply chain security breach"
+      ]
+    },
+    {
       "date": "2026-03-24",
       "summary": "Discover how Apple is finally stepping into the AI ring with a major preview of its upcoming developer conference and the potential for powerful on-device models. We also dive into Google DeepMind’s latest innovations, including a partnership to bring AI to physical robots and a \"text-to-world\" model that generates interactive games from simple descriptions. Finally, the episode explores the importance of AI literacy in politics and the growing global landscape of venture capital funding.",
       "keyTopics": [
@@ -203,22 +215,6 @@
       ],
       "articles": [
         "You Made My Day: Decode and Conquer in the Wild"
-      ]
-    },
-    {
-      "date": "2026-03-05",
-      "summary": "This episode tracks the dangerous escalation of Middle East tensions and the resulting constitutional debate in Congress over presidential war powers. We also break down the erupting public feud between AI’s biggest players and explore how the \"Agentic Era\" is fundamentally reshaping the roles of human judgment and product management. From shifting real estate markets to critical local headlines, stay informed on the forces driving today’s global and corporate landscapes.",
-      "keyTopics": [
-        "Iran-Israel missile escalation and US House war powers resolution",
-        "Anthropic CEO Dario Amodei accuses OpenAI of military contract lies",
-        "Jensen Huang pulls Nvidia investment from OpenAI and Anthropic",
-        "Apple Music Transparency Tags for AI-generated music",
-        "Lewis Lin AI judgment pods and product team restructuring",
-        "Orlando real estate investor activity sixteen percent drop",
-        "ICE detention of Vietnamese man for expunged marijuana charge"
-      ],
-      "articles": [
-        "The Ratio Has Flipped: How AI Should Change How You Structure Product Teams"
       ]
     }
   ]
