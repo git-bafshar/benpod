@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-03-25</title>
+      <description>Explore the shift toward practical AI as Meta integrates new shopping tools for small businesses and specialized robots take on physical tasks like window washing. This episode also dives into the surprising crossover in AI development tools and the efficiency breakthroughs bringing powerful models to mobile devices. Finally, get a quick update on the Lakers&apos; pursuit of a bounce-back win against the Raptors.</description>
+      <pubDate>Wed, 25 Mar 2026 08:10:57 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-25-081057.mp3" length="3697344" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-25-081057.mp3</guid>
+      <itunes:duration>231</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-03-24</title>
       <description>Explore the evolving AI landscape as startups challenge cloud giants with &quot;AI-native&quot; infrastructure and Google DeepMind takes its models into the physical world through a new robotics partnership. This episode also breaks down the end of the Lakers&apos; nine-game winning streak and provides a critical update on a major security breach affecting popular AI developer tools.</description>
       <pubDate>Tue, 24 Mar 2026 08:10:18 GMT</pubDate>
