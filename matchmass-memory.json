@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-03-25",
+      "summary": "Explore the shift toward practical AI as Meta integrates new shopping tools for small businesses and specialized robots take on physical tasks like window washing. This episode also dives into the surprising crossover in AI development tools and the efficiency breakthroughs bringing powerful models to mobile devices. Finally, get a quick update on the Lakers' pursuit of a bounce-back win against the Raptors.",
+      "keyTopics": [
+        "Meta generative AI for Instagram and Facebook shopping",
+        "Granola AI meeting notetaker $1.5 billion valuation",
+        "OpenAI developers using Anthropic Claude for code generation",
+        "Lucid Bots $20 million funding for window-washing drones",
+        "TurboQuant project for extreme AI model compression",
+        "LA Lakers matchup against Toronto Raptors"
+      ]
+    },
+    {
       "date": "2026-03-24",
       "summary": "Explore the evolving AI landscape as startups challenge cloud giants with \"AI-native\" infrastructure and Google DeepMind takes its models into the physical world through a new robotics partnership. This episode also breaks down the end of the Lakers' nine-game winning streak and provides a critical update on a major security breach affecting popular AI developer tools.",
       "keyTopics": [
@@ -195,18 +207,6 @@
         "Meta opening WhatsApp to rival AI chatbots in Brazil",
         "Proposed expansion of United States chip export controls",
         "Deandre Ayton knee injury and Lakers injury report"
-      ]
-    },
-    {
-      "date": "2026-03-05",
-      "summary": "This episode explores the escalating feud between AI giants OpenAI and Anthropic as public accusations fly over military contracts and industry leaders like Nvidia reconsider their investment strategies. On the court, the show dives into the mounting drama surrounding the Lakers’ chemistry following a viral sideline exchange between JJ Redick and Luka Doncic. Finally, stay informed on the home front with a look at the early contenders for California’s 2026 gubernatorial race and the ongoing legislative battle to keep film production in the state.",
-      "keyTopics": [
-        "Anthropic CEO Dario Amodei accuses OpenAI of dishonest conduct",
-        "Nvidia CEO Jensen Huang halts direct investments in AI labs",
-        "Apple Music opt-in transparency tags for AI-generated content",
-        "Lakers coach JJ Redick addresses Luka Doncic sideline tension",
-        "California legislative push for film and television tax credits",
-        "Early fundraising for 2026 California gubernatorial election cycle"
       ]
     }
   ]
