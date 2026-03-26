@@ -1,6 +1,29 @@
 {
   "episodes": [
     {
+      "date": "2026-03-26",
+      "summary": "Explore a historic legal shift as a landmark jury verdict finds major tech platforms negligent for their addictive designs, signaling a potential ground-up redesign of social media. This episode also breaks down the rise of specialized AI tools, the Golden State Warriors' gritty push into the postseason, and the global ripple effects of stalling diplomatic talks on energy and the economy. From billion-dollar urban redevelopments to the cooling housing market, stay informed on the shifting tectonic plates of tech, sports, and policy.",
+      "keyTopics": [
+        "Meta and Google found negligent for addictive social media design",
+        "Cohere and Mistral release specialized open-source voice models",
+        "Senator Mark Warner proposes data center tax for workers",
+        "United Center 1901 Chicago neighborhood redevelopment project",
+        "Iran rejects peace proposal accelerating Southeast Asia nuclear pivot",
+        "U.S. mortgage rates reach three-month high of 6.22 percent",
+        "Golden State Warriors clinch NBA play-in tournament spot"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Brooklyn Nets at Golden State Warriors",
+        "ESPN Giants::Giants Recap: New York Yankees at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Warriors hand the Nets their ninth straight loss with a 109-106 victory",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Iran’s Peace Negotiator Is His Country’s Trump",
+        "Foreign Policy - Iran::Empty Words Don’t Open Straits",
+        "Foreign Policy - Iran::Four Things the Gulf States Will Expect From the U.S. After the Iran War"
+      ]
+    },
+    {
       "date": "2026-03-25",
       "summary": "Explore the massive $3.5 billion bet on the future of AI and the surprising shutdown of OpenAI’s Sora app as the industry shifts toward more practical, tool-based applications. This episode also breaks down a season-ending injury for the Golden State Warriors and dives into local Chicago insights, from transit safety to the preservation of Frank Lloyd Wright’s architectural masterpieces.",
       "keyTopics": [
@@ -260,34 +283,6 @@
       "articles": [
         "ESPN 49ers News::49ers: What does Mike Evans bring to 49ers' offense?",
         "Foreign Policy - Iran::Why China Might Have a Role to Play in Iran"
-      ]
-    },
-    {
-      "date": "2026-03-10",
-      "summary": "Stay ahead of the curve as we analyze the escalating conflict with Iran and its threat to global energy supplies alongside a massive billion-dollar surge in artificial intelligence investment. We also break down critical safety failures in Chicago schools, the latest volatility in the housing market, and a surprising medical breakthrough using psychedelics to treat addiction.",
-      "keyTopics": [
-        "Iran oil supply threat and US military spending request",
-        "Yann LeCun European AI startup billion dollar seed round",
-        "Thinking Machines Lab gigawatt compute deal with Nvidia",
-        "Amazon healthcare AI assistant launch for prescriptions and appointments",
-        "RevenueCat report on AI app long-term user retention struggles",
-        "ICE immigration detention deaths reach highest level since 2004",
-        "Chicago Public Schools safety lawsuit involving Farragut Career Academy",
-        "Psilocybin clinical study for smoking cessation and addiction therapy"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Chicago Bulls at Golden State Warriors",
-        "ESPN Giants::Giants Recap: San Francisco Giants at Cleveland Guardians",
-        "ESPN Warriors News::Warriors: Steve Kerr: Playing 10 fewer games a season would improve league",
-        "ESPN Warriors News::Warriors: Porzingis, back from illness, says he 'will be healthy now'",
-        "ESPN Giants News::Giants: Mark DeRosa sets USA rotation for WBC; Logan Webb to start G1",
-        "ESPN Giants News::Giants: Giants scratch Rafael Devers from lineup with tight hamstring",
-        "ESPN 49ers News::49ers: Star WR Mike Evans leaving Buccaneers to sign with 49ers",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Trump Likely to Confront Democratic Wall on Iran War Funding",
-        "Foreign Policy - Iran::Iran Threatens to Stop Oil From Leaving the Middle East",
-        "Foreign Policy - Iran::State Department Refuses Former Staffers’ Help in Middle East Evacuation"
       ]
     }
   ]
