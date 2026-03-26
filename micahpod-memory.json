@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-03-26",
+      "summary": "This episode explores the growing friction between AI’s digital promise and its physical reality, covering everything from proposed \"pound of flesh\" taxes on data centers to the massive water and energy costs of fueling the boom. Discover why a widening \"skills gap\" may be a more immediate threat than job replacement and get a reality check on whether AI-powered tools are actually producing high-impact software or just experimental noise.",
+      "keyTopics": [
+        "Senator Mark Warner data center tax proposal",
+        "Anthropic study on AI workforce skills gap",
+        "Claude Code GitHub analysis of project impact",
+        "Mistral efficient open-source speech generation model",
+        "Data center water consumption and resource constraints",
+        "Transitional Assistance programs for AI displaced workers"
+      ]
+    },
+    {
       "date": "2026-03-25",
       "summary": "Explore the massive surge in AI investment as Kleiner Perkins raises $3.5 billion and Anthropic pushes the boundaries of autonomy with its new semi-autonomous coding agents. This episode also examines the growing friction between digital expansion and physical reality, from a Kentucky family resisting a multi-million dollar data center land rush to OpenAI’s strategic closure of its Sora social app. Finally, discover how practical robotics is solving real-world problems and why developers must stay alert to new security vulnerabilities in the AI software supply chain.",
       "keyTopics": [
@@ -199,22 +211,6 @@
       ],
       "articles": [
         "This Is What Three Years with Decode and Conquer Gets You"
-      ]
-    },
-    {
-      "date": "2026-03-06",
-      "summary": "Explore the landmark legal showdown between the Pentagon and AI powerhouse Anthropic, a high-stakes battle that could redefine the intersection of national security and private innovation. This update also breaks down a major shakeup at the Department of Homeland Security, the rise of autonomous AI agents in healthcare, and a record-breaking surge in housing inventory that offers fresh hope for spring homebuyers.",
-      "keyTopics": [
-        "Anthropic lawsuit against Pentagon supply-chain risk designation",
-        "Amazon Connect Health AI agent release for healthcare",
-        "Proposed US global export controls on advanced chips",
-        "Senator Markwayne Mullin replaces Kristi Noem at DHS",
-        "Representative Tony Gonzales withdraws from Texas reelection campaign",
-        "Record surge in US housing market inventory relistings",
-        "Lewis Lin on Decode and Conquer book culture"
-      ],
-      "articles": [
-        "You Made My Day: Decode and Conquer in the Wild"
       ]
     }
   ]
