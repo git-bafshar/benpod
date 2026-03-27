@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-27</title>
+      <description>This episode explores the high-stakes legal battle between Anthropic and the U.S. government, alongside a new bipartisan push to hold data centers accountable for their soaring energy use. From Google’s tactical play for chatbot dominance to shifting military priorities in the Middle East, we cover the critical intersections of tech, policy, and global security. We also look at Wikipedia’s crackdown on AI-generated content and how consumer hardware is beginning to challenge the industry’s biggest models.</description>
+      <pubDate>Fri, 27 Mar 2026 09:14:16 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-27-091416.mp3" length="4159680" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-27-091416.mp3</guid>
+      <itunes:duration>260</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-26</title>
       <description>Explore a historic legal shift as a landmark jury verdict finds major tech platforms negligent for their addictive designs, signaling a potential ground-up redesign of social media. This episode also breaks down the rise of specialized AI tools, the Golden State Warriors&apos; gritty push into the postseason, and the global ripple effects of stalling diplomatic talks on energy and the economy. From billion-dollar urban redevelopments to the cooling housing market, stay informed on the shifting tectonic plates of tech, sports, and policy.</description>
       <pubDate>Thu, 26 Mar 2026 09:27:21 GMT</pubDate>
