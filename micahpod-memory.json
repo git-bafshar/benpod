@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-03-27",
+      "summary": "This episode explores the evolution of AI from simple chatbots to autonomous \"coworkers,\" highlighted by Anthropic’s major legal victory and the rise of new \"agentic\" tools for the desktop. We also dive into the real-world implications of a changing landscape, including a bipartisan push to track data center energy usage, a cooling national housing market, and the debut of \"robot umpires\" in professional baseball.",
+      "keyTopics": [
+        "Anthropic federal injunction against Trump administration DoD contract",
+        "Google Gemini chatbot data switching tools launch",
+        "OpenAI discontinuation of ChatGPT erotic mode",
+        "Anthropic Cowork desktop agent and Claude Code",
+        "Salesforce autonomous AI Slackbot agent release",
+        "Hawley and Warren data center energy reporting bill",
+        "US Senate partial government shutdown DHS funding deal",
+        "MLB Automated Ball-Strike System robot umpire debut"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-03-26",
       "summary": "This episode explores the growing friction between AI’s digital promise and its physical reality, covering everything from proposed \"pound of flesh\" taxes on data centers to the massive water and energy costs of fueling the boom. Discover why a widening \"skills gap\" may be a more immediate threat than job replacement and get a reality check on whether AI-powered tools are actually producing high-impact software or just experimental noise.",
       "keyTopics": [
@@ -195,22 +213,6 @@
       ],
       "articles": [
         "Decode and Conquer: The PM Interview Book MBA Students Recommend"
-      ]
-    },
-    {
-      "date": "2026-03-09",
-      "summary": "Explore the geopolitical ripple effects of Iran's new leadership on global oil and real estate markets, alongside the growing friction between the Pentagon and the AI industry. This episode also dives into the \"Agentic Era\" of technology, examining how autonomous AI tools and hyper-competitive career shifts are redefining the future of the tech workforce.",
-      "keyTopics": [
-        "Mojtaba Khamenei named successor as Iran Supreme Leader",
-        "Pentagon Anthropic supply chain risk designation and lawsuit",
-        "Nvidia investment in Nscale data center startup",
-        "VS Code Agent Kanban open source project",
-        "NYC anti-Islam demonstration shrapnel IED attack",
-        "Lewis Lin product management interview preparation strategy",
-        "Titusville school zone automated speed camera rollout"
-      ],
-      "articles": [
-        "This Is What Three Years with Decode and Conquer Gets You"
       ]
     }
   ]
