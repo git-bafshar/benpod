@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-03-27",
+      "summary": "Explore the escalating AI platform wars as Google launches tools to poach chatbot users while Wikipedia fights to preserve human-curated truth against automated content. This episode also dives into Washington’s bipartisan push to track the massive energy costs of data centers and a high-stakes cybersecurity claim involving the FBI. Plus, stay informed on California aviation safety, the Lakers’ strategic playoff push, and why even the most advanced tech can’t always predict the surf.",
+      "keyTopics": [
+        "Google Gemini chatbot data import switching tools",
+        "Wikipedia restrictions on AI-generated article submissions",
+        "OpenAI cancellation of ChatGPT erotic mode project",
+        "Bipartisan Senate bill for data center energy monitoring",
+        "Alleged Iranian hack of FBI Director personal email",
+        "United Airlines California mid-air collision near miss",
+        "Lakers Western Conference playoff seeding and rest strategy"
+      ]
+    },
+    {
       "date": "2026-03-26",
       "summary": "Catch up on the Lakers’ surge to the third seed in the West following a dominant performance and the arrival of new, privacy-focused AI models that bring powerful speech tools directly to your personal devices. This episode also dives into the heated debate over taxing data centers to support workers displaced by technology and examines shifting political trends within California's agricultural communities.",
       "keyTopics": [
@@ -198,20 +211,6 @@
         "Redox OS adopts strict no-LLM policy for its codebase",
         "Google adds toggle for Ask Photos AI search feature",
         "BART faces fiscal cliff and potential Bay Area shutdown"
-      ]
-    },
-    {
-      "date": "2026-03-09",
-      "summary": "Explore the Lakers' gritty victory over the Knicks without LeBron James and the growing tension between AI innovators and the Pentagon over defense contracts. This episode also dives into Google CEO Sundar Pichai’s landmark pay package and a crucial legal ruling that changes how \"Terms of Service\" updates impact your digital rights. Plus, get the latest on the \"messy\" 2026 California governor's race and a security scare in the Hollywood Hills.",
-      "keyTopics": [
-        "Los Angeles Lakers win over Knicks without LeBron James",
-        "Anthropic and Pentagon standoff over supply chain risk",
-        "Sundar Pichai performance-based 692 million dollar pay package",
-        "US Court of Appeals ruling on Terms of Service email consent",
-        "Impact of defense contracts on AI startup innovation",
-        "Messy primary field for 2026 California governor race",
-        "Shooting incident and arrest at Rihanna's Beverly Hills mansion",
-        "Pro-Human Declaration for conscientious AI development"
       ]
     }
   ]
