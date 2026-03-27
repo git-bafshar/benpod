@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-03-27</title>
+      <description>Explore the escalating AI platform wars as Google launches tools to poach chatbot users while Wikipedia fights to preserve human-curated truth against automated content. This episode also dives into Washington’s bipartisan push to track the massive energy costs of data centers and a high-stakes cybersecurity claim involving the FBI. Plus, stay informed on California aviation safety, the Lakers’ strategic playoff push, and why even the most advanced tech can’t always predict the surf.</description>
+      <pubDate>Fri, 27 Mar 2026 08:00:26 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-27-080026.mp3" length="4273152" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-27-080026.mp3</guid>
+      <itunes:duration>267</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-03-26</title>
       <description>Catch up on the Lakers’ surge to the third seed in the West following a dominant performance and the arrival of new, privacy-focused AI models that bring powerful speech tools directly to your personal devices. This episode also dives into the heated debate over taxing data centers to support workers displaced by technology and examines shifting political trends within California&apos;s agricultural communities.</description>
       <pubDate>Thu, 26 Mar 2026 08:16:38 GMT</pubDate>
