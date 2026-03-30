@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-03-30",
+      "summary": "This episode explores the evolving physical landscape of AI infrastructure, from ambitious plans to launch data centers into orbit to the massive push for vertically integrated facilities on Earth. Discover the rise of \"second-order\" AI startups focusing on code verification and customer research, along with a deep dive into the mystery surrounding the sudden shutdown of OpenAI’s Sora video app.",
+      "keyTopics": [
+        "Starcloud Series A for space-based data centers",
+        "Mistral $830 million debt facility for Paris data center",
+        "Qodo AI code verification and auditing tools",
+        "Listen Labs AI customer interview analysis platform",
+        "OpenAI Sora video app shutdown and data speculation",
+        "Senator Warner proposed tax on terrestrial data centers",
+        "NASA Artemis program moonshot and regional impact"
+      ]
+    },
+    {
       "date": "2026-03-27",
       "summary": "This episode explores the evolution of AI from simple chatbots to autonomous \"coworkers,\" highlighted by Anthropic’s major legal victory and the rise of new \"agentic\" tools for the desktop. We also dive into the real-world implications of a changing landscape, including a bipartisan push to track data center energy usage, a cooling national housing market, and the debut of \"robot umpires\" in professional baseball.",
       "keyTopics": [
@@ -196,23 +209,6 @@
         "The Lewis C. Lin Question Bank Hits 3,300 Real PM Interview Questions",
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-03-10",
-      "summary": "This episode explores a major shift in the AI arms race as a new billion-dollar rival emerges and industry giants form an unprecedented alliance against government intervention. We also break down how geopolitical tensions are impacting the spring housing market and reflect on a somber milestone in Orlando as the demolition of the Pulse nightclub begins. Finally, the discussion dives into the future of tech hiring and why human judgment is becoming the ultimate \"superpower\" in an era of AI-generated solutions.",
-      "keyTopics": [
-        "Yann LeCun raises $1B for AMI Labs world models",
-        "OpenAI and Google employees support Anthropic Pentagon lawsuit",
-        "Anthropic Claude Code agent launches new Code Review tool",
-        "OpenAI acquires Promptfoo for AI agent security and testing",
-        "Iran escalates drone and missile attacks in Middle East",
-        "Surge in January home relistings shifts power to buyers",
-        "Pulse nightclub demolition begins for permanent Orlando memorial",
-        "Lewis Lin PM frameworks debate in the Agentic AI era"
-      ],
-      "articles": [
-        "Decode and Conquer: The PM Interview Book MBA Students Recommend"
       ]
     }
   ]
