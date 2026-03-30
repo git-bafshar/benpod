@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-03-30</title>
+      <description>This episode explores the massive &quot;tsunami of cash&quot; currently reshaping the AI industry, from high-stakes funding for specialized hardware to the strategic shift toward independent data centers. We also dive into a provocative re-examination of Cesar Chavez’s complex legacy in California and discuss how a key NBA suspension is shaking up the Western Conference playoff race. Finally, we wrap up with a look at why even the most advanced tech can’t always be relied upon for a simple local surf report.</description>
+      <pubDate>Mon, 30 Mar 2026 08:13:32 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-30-081332.mp3" length="3520512" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-03-30-081332.mp3</guid>
+      <itunes:duration>220</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-03-27</title>
       <description>Explore the escalating AI platform wars as Google launches tools to poach chatbot users while Wikipedia fights to preserve human-curated truth against automated content. This episode also dives into Washington’s bipartisan push to track the massive energy costs of data centers and a high-stakes cybersecurity claim involving the FBI. Plus, stay informed on California aviation safety, the Lakers’ strategic playoff push, and why even the most advanced tech can’t always predict the surf.</description>
       <pubDate>Fri, 27 Mar 2026 08:00:26 GMT</pubDate>
