@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-03-30</title>
+      <description>This episode explores the evolving physical landscape of AI infrastructure, from ambitious plans to launch data centers into orbit to the massive push for vertically integrated facilities on Earth. Discover the rise of &quot;second-order&quot; AI startups focusing on code verification and customer research, along with a deep dive into the mystery surrounding the sudden shutdown of OpenAI’s Sora video app.</description>
+      <pubDate>Mon, 30 Mar 2026 08:54:41 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-30-085441.mp3" length="4145088" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-30-085441.mp3</guid>
+      <itunes:duration>259</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-27</title>
       <description>This episode explores the evolution of AI from simple chatbots to autonomous &quot;coworkers,&quot; highlighted by Anthropic’s major legal victory and the rise of new &quot;agentic&quot; tools for the desktop. We also dive into the real-world implications of a changing landscape, including a bipartisan push to track data center energy usage, a cooling national housing market, and the debut of &quot;robot umpires&quot; in professional baseball.</description>
       <pubDate>Fri, 27 Mar 2026 08:40:13 GMT</pubDate>
