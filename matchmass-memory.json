@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-03-30",
+      "summary": "This episode explores the massive \"tsunami of cash\" currently reshaping the AI industry, from high-stakes funding for specialized hardware to the strategic shift toward independent data centers. We also dive into a provocative re-examination of Cesar Chavez’s complex legacy in California and discuss how a key NBA suspension is shaking up the Western Conference playoff race. Finally, we wrap up with a look at why even the most advanced tech can’t always be relied upon for a simple local surf report.",
+      "keyTopics": [
+        "Mistral AI $830 million debt for Paris data center",
+        "ScaleOps $130 million funding for AI cloud resource management",
+        "Rebellions $400 million pre-IPO round for AI inference chips",
+        "Qodo $70 million series for AI software code verification",
+        "Cesar Chavez legacy re-evaluated in New York Times newsletter",
+        "Luka Doncic suspension impacts NBA Western Conference playoff race",
+        "Surfline API outage impacts Santa Barbara coastal wave reporting"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Lakers' Luka Doncic hit with 1-game suspension for 16th tech"
+      ]
+    },
+    {
       "date": "2026-03-27",
       "summary": "Explore the escalating AI platform wars as Google launches tools to poach chatbot users while Wikipedia fights to preserve human-curated truth against automated content. This episode also dives into Washington’s bipartisan push to track the massive energy costs of data centers and a high-stakes cybersecurity claim involving the FBI. Plus, stay informed on California aviation safety, the Lakers’ strategic playoff push, and why even the most advanced tech can’t always predict the surf.",
       "keyTopics": [
@@ -199,18 +215,6 @@
         "ESPN Lakers::Lakers Recap: Minnesota Timberwolves at Los Angeles Lakers",
         "ESPN Lakers News::Lakers: Lakers' LeBron James misses 3rd straight, sits out win vs. Wolves",
         "ESPN Lakers News::Lakers: Lakers' Luka Doncic in custody battle for daughters, sources say"
-      ]
-    },
-    {
-      "date": "2026-03-10",
-      "summary": "Explore the shifting landscape of global AI as a new billion-dollar European venture launches alongside a growing movement for human-centric software and user-controlled technology. This episode also examines the \"fiscal cliff\" facing the Bay Area’s BART system and what its potential collapse could mean for the future of public infrastructure across California.",
-      "keyTopics": [
-        "Yann LeCun raises one billion dollars for European AI startup",
-        "Zoom AI office suite and Adobe Photoshop AI assistant",
-        "YouTube and Zoom expand deepfake detection for public figures",
-        "Redox OS adopts strict no-LLM policy for its codebase",
-        "Google adds toggle for Ask Photos AI search feature",
-        "BART faces fiscal cliff and potential Bay Area shutdown"
       ]
     }
   ]
