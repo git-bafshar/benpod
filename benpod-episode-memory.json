@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-03-30",
+      "summary": "This episode dives into the massive financial \"gold rush\" fueling AI infrastructure, exploring everything from space-based data centers to the rising environmental and regulatory costs of the industry. We also track the Golden State Warriors’ struggle to find an identity on the court and analyze a significant shift in the projected timeline of the U.S.-Iran conflict. From high-stakes tech investments to the latest in professional sports, stay informed on the key stories shaping the start of the week.",
+      "keyTopics": [
+        "Mistral 830 million dollar debt for Paris data center",
+        "Starcloud 170 million dollar funding for space data centers",
+        "Bipartisan Hawley-Warren data center energy transparency bill",
+        "Golden State Warriors struggles during Stephen Curry injury absence",
+        "49ers GM John Lynch Trent Williams contract update",
+        "Senator Marco Rubio U.S.-Iran war two-to-four-week timeline",
+        "Qodo 70 million dollar funding for AI code verification"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Golden State Warriors at Denver Nuggets",
+        "ESPN Warriors News::Warriors: Warriors' Stephen Curry out 2 more games due to lingering knee issue",
+        "ESPN 49ers News::49ers: 49ers' John Lynch: Positive momentum on Trent Williams front",
+        "ESPN 49ers News::49ers: Lynch says 49ers' injury conspiracy a 'big nothing burger'",
+        "Foreign Policy - Iran::Rubio: U.S.-Iran War Could Last Another 2 to 4 Weeks",
+        "Foreign Policy - Iran::The Iran War’s Economic Winners and Losers",
+        "Foreign Policy - Iran::Turkey’s Contested Homefront"
+      ]
+    },
+    {
       "date": "2026-03-27",
       "summary": "This episode explores the high-stakes legal battle between Anthropic and the U.S. government, alongside a new bipartisan push to hold data centers accountable for their soaring energy use. From Google’s tactical play for chatbot dominance to shifting military priorities in the Middle East, we cover the critical intersections of tech, policy, and global security. We also look at Wikipedia’s crackdown on AI-generated content and how consumer hardware is beginning to challenge the industry’s biggest models.",
       "keyTopics": [
@@ -263,27 +285,6 @@
         "Foreign Policy - Iran::How the Iran War Could Usher in a New Era of Global Shiite Extremism",
         "Foreign Policy - Iran::Matthew Kroenig and Trita Parsi Debate the War in Iran",
         "Foreign Policy - Iran::Iran’s Strait of Hormuz Toolkit: Drones, Missiles, and Mines"
-      ]
-    },
-    {
-      "date": "2026-03-12",
-      "summary": "This episode explores the historic global effort to stabilize energy markets through a massive release of oil reserves amid escalating geopolitical tensions. It also dives into the rapidly evolving AI landscape, covering everything from Google’s new life-saving flood-prediction tools to the polarizing rise of automated job interviews. Finally, stay informed with the latest high-stakes NFL trades and an inside look at how \"cyber-first\" strategies are redefining modern warfare.",
-      "keyTopics": [
-        "IEA emergency release of 400 million barrels of oil",
-        "Google Maps Ask Maps and Immersive View AI updates",
-        "Google AI flood prediction via news archive analysis",
-        "Stephen Curry 10-day injury absence from Golden State Warriors",
-        "San Francisco 49ers trade for defensive tackle Osa Odighizuwa",
-        "AI bot job interviews and Claude Code agent research",
-        "Trump administration Cyber-First War Strategy regarding Iran conflict"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Kansas City Royals",
-        "ESPN Warriors News::Warriors: Warriors' Stephen Curry out 10 more days with knee issue",
-        "ESPN 49ers News::49ers: 49ers trade for Cowboys' DT Osa Odighizuwa",
-        "Foreign Policy - Iran::The Irresistible Urge to Invoke World War III",
-        "Foreign Policy - Iran::Countries Agree to Historic Emergency Oil Reserve Release",
-        "Foreign Policy - Iran::Trump’s New Cyber-First War Strategy"
       ]
     }
   ]
