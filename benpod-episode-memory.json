@@ -1,6 +1,31 @@
 {
   "episodes": [
     {
+      "date": "2026-03-31",
+      "summary": "Today’s episode explores a major security breach at Anthropic that has exposed the proprietary source code for its flagship coding tool, raising urgent questions about the industry's rapid growth versus its foundational security. The discussion also navigates the contradictory signals surrounding U.S.-Iran peace talks, the rising energy demands of AI infrastructure, and the latest bombshell rumors in the world of professional sports.",
+      "keyTopics": [
+        "Anthropic Claude Code source code leak",
+        "Railway $100M raise for AI-native cloud infrastructure",
+        "Runway $10M fund for AI video ecosystem",
+        "Conflicting White House signals on Iran peace negotiations",
+        "Senators Hawley and Warren data center energy bill",
+        "Ring app store for AI-powered home monitoring",
+        "LeBron James Golden State Warriors free agency rumors",
+        "San Francisco 49ers Brandon Aiyuk contract negotiations"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at San Diego Padres",
+        "ESPN Warriors News::Warriors: Next for LeBron? NBA insiders on Lakers, Cavs, free agency options",
+        "ESPN Giants News::Giants: Brewers acquire outfielder Luis Matos from Giants for cash",
+        "ESPN 49ers News::49ers: 49ers coach, owner deliver mixed messages on Aiyuk's future",
+        "ESPN 49ers News::49ers: Kyle Shanahan says Niners get no 'benefit' from Australia trip",
+        "ESPN 49ers News::49ers: 49ers' Shanahan aims to lighten McCaffrey's workload",
+        "Foreign Policy - Iran::Trump Claims ‘Great Progress’ in Iran Peace Talks",
+        "Foreign Policy - Iran::The Houthis Are Now in the War—But How Deep?",
+        "Foreign Policy - Iran::Trump Is Losing the War in Iran"
+      ]
+    },
+    {
       "date": "2026-03-30",
       "summary": "This episode dives into the massive financial \"gold rush\" fueling AI infrastructure, exploring everything from space-based data centers to the rising environmental and regulatory costs of the industry. We also track the Golden State Warriors’ struggle to find an identity on the court and analyze a significant shift in the projected timeline of the U.S.-Iran conflict. From high-stakes tech investments to the latest in professional sports, stay informed on the key stories shaping the start of the week.",
       "keyTopics": [
@@ -262,29 +287,6 @@
         "ESPN Warriors News::Warriors: Warriors lose four more players to injury as slide continues",
         "Foreign Policy - Iran::Iran War Puts India in Tricky Position",
         "Foreign Policy - Iran::5 Streaming Movies to Help Understand Iran Now"
-      ]
-    },
-    {
-      "date": "2026-03-13",
-      "summary": "This episode explores Anthropic’s $100 million push to build an AI ecosystem and the looming semiconductor crisis triggered by a global helium shortage. Discover how AI is integrating into daily life through scam protection and marketplace tools, alongside an analysis of the San Francisco 49ers' latest roster moves and shifting geopolitical tensions in the Middle East. Finally, the discussion dives into the \"technological adolescence\" of humanity as autonomous AI begins to outpace our existing systems of governance.",
-      "keyTopics": [
-        "Anthropic $100 million Claude Partner Network investment",
-        "Qatar helium production shutdown semiconductor supply chain crisis",
-        "Truecaller AI family guardian scam call alerts",
-        "Meta AI automated replies for Facebook Marketplace sellers",
-        "San Francisco 49ers Mike Evans and Dre Greenlaw signings",
-        "US strategy on Iran proxy group command decentralization",
-        "Dario Amodei The Adolescence of Technology AI essay"
-      ],
-      "articles": [
-        "Dario Amodei — The Adolescence of Technology",
-        "ESPN Giants::Giants Recap: Chicago White Sox at San Francisco Giants",
-        "ESPN 49ers News::49ers: Dre Greenlaw returns to 49ers as Bryce Huff retires from NFL",
-        "ESPN 49ers News::49ers: Mike Evans joins 49ers roster",
-        "ESPN 49ers News::49ers: Cowboys trade DT Osa Odighizuwa to 49ers for 3rd-round pick",
-        "Foreign Policy - Iran::How the Iran War Could Usher in a New Era of Global Shiite Extremism",
-        "Foreign Policy - Iran::Matthew Kroenig and Trita Parsi Debate the War in Iran",
-        "Foreign Policy - Iran::Iran’s Strait of Hormuz Toolkit: Drones, Missiles, and Mines"
       ]
     }
   ]
