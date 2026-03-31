@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-03-31</title>
+      <description>This episode examines the fallout from a major security breach at Anthropic and a growing cultural paradox where increased AI adoption is leading to decreased public trust. It also highlights the &quot;gold rush&quot; into AI-native infrastructure and the groundbreaking rise of &quot;digital twins&quot; in medical research.</description>
+      <pubDate>Tue, 31 Mar 2026 08:53:31 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-31-085331.mp3" length="4093440" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-03-31-085331.mp3</guid>
+      <itunes:duration>256</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-30</title>
       <description>This episode explores the evolving physical landscape of AI infrastructure, from ambitious plans to launch data centers into orbit to the massive push for vertically integrated facilities on Earth. Discover the rise of &quot;second-order&quot; AI startups focusing on code verification and customer research, along with a deep dive into the mystery surrounding the sudden shutdown of OpenAI’s Sora video app.</description>
       <pubDate>Mon, 30 Mar 2026 08:54:41 GMT</pubDate>
