@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-03-31",
+      "summary": "Discover how the Lakers dominated the court without their superstar while a major security leak at Anthropic shakes the tech world to its core. This episode also explores the broadening legacy of the farmworker movement on Cesar Chavez Day and how companies like Amazon and Runway are racing to build the next generation of AI ecosystems.",
+      "keyTopics": [
+        "Lakers victory over Wizards during Luka Doncic suspension",
+        "LeBron James ties Kareem Abdul-Jabbar career wins record",
+        "Anthropic Claude Code source code leaked via NPM registry",
+        "LiteLLM terminates Delve partnership after supply-chain breach",
+        "Runway launches ten million dollar AI video startup fund",
+        "Amazon Ring app store for AI home awareness",
+        "Cesar Chavez Day re-evaluation of farmworker movement legacy",
+        "Persistent Santa Barbara Surfline API data outage"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Washington Wizards at Los Angeles Lakers",
+        "ESPN Lakers News::Lakers: Luka Doncic should be MVP if he and Lakers stay hot, JJ Redick says"
+      ]
+    },
+    {
       "date": "2026-03-30",
       "summary": "This episode explores the massive \"tsunami of cash\" currently reshaping the AI industry, from high-stakes funding for specialized hardware to the strategic shift toward independent data centers. We also dive into a provocative re-examination of Cesar Chavez’s complex legacy in California and discuss how a key NBA suspension is shaking up the Western Conference playoff race. Finally, we wrap up with a look at why even the most advanced tech can’t always be relied upon for a simple local surf report.",
       "keyTopics": [
@@ -197,24 +215,6 @@
         "Formal programming language for LLMs from Kotlin creator",
         "2028 presidential polling for Gavin Newsom and Kamala Harris",
         "LA Lakers chemistry shift without LeBron James"
-      ]
-    },
-    {
-      "date": "2026-03-11",
-      "summary": "Explore how the Lakers are redefining their identity on the court despite looming injuries and personal drama, and dive into the tech industry’s massive shift toward AI \"agents\" that manage everything from healthcare to complex corporate tasks. The episode also covers Amazon’s strategic pivot in digital commerce and the latest polling updates in California’s high-stakes political landscape.",
-      "keyTopics": [
-        "Lakers sweep Timberwolves without injured LeBron James",
-        "Luka Doncic triple-double and reported legal custody battle",
-        "Amazon Shop Direct program expands to external retailer sites",
-        "Amazon Health AI assistant for prescriptions and medical appointments",
-        "Salesforce AI agent Slackbot and Anthropic Cowork desktop agent",
-        "Hacker News reports AI agent breach of McKinsey network",
-        "New polling for California 2026 gubernatorial primary race"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Minnesota Timberwolves at Los Angeles Lakers",
-        "ESPN Lakers News::Lakers: Lakers' LeBron James misses 3rd straight, sits out win vs. Wolves",
-        "ESPN Lakers News::Lakers: Lakers' Luka Doncic in custody battle for daughters, sources say"
       ]
     }
   ]
