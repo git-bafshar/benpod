@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-03-31",
+      "summary": "This episode examines the fallout from a major security breach at Anthropic and a growing cultural paradox where increased AI adoption is leading to decreased public trust. It also highlights the \"gold rush\" into AI-native infrastructure and the groundbreaking rise of \"digital twins\" in medical research.",
+      "keyTopics": [
+        "Anthropic Claude Code source code leak via NPM registry",
+        "LiteLLM drops security partner Delve after malware incident",
+        "Quinnipiac University poll shows declining trust in AI",
+        "ScaleOps raises $130 million for AI infrastructure efficiency",
+        "Railway secures $100 million for AI-native cloud platform",
+        "Mantis Biotech develops synthetic digital twins for medical research"
+      ]
+    },
+    {
       "date": "2026-03-30",
       "summary": "This episode explores the evolving physical landscape of AI infrastructure, from ambitious plans to launch data centers into orbit to the massive push for vertically integrated facilities on Earth. Discover the rise of \"second-order\" AI startups focusing on code verification and customer research, along with a deep dive into the mystery surrounding the sudden shutdown of OpenAI’s Sora video app.",
       "keyTopics": [
@@ -191,24 +203,6 @@
       ],
       "articles": [
         "The Hidden Cost of AI Speed"
-      ]
-    },
-    {
-      "date": "2026-03-11",
-      "summary": "Explore the dawn of the \"Agentic Era\" as AI moves from a simple tool to a colleague with its own dedicated infrastructure and institutional oversight. This episode also breaks down the surge of AI-generated propaganda in global conflicts, local school closures in Orlando, and why the traditional job interview is being rewritten for a specialized tech landscape.",
-      "keyTopics": [
-        "Anthropic Institute launch for AI safety research",
-        "AgentMail seed funding for AI agent email platform",
-        "AI-generated propaganda in escalating Iran conflict",
-        "Debian project stance on AI-generated code contributions",
-        "Orange County School Board closing seven Orlando schools",
-        "Geopolitical volatility impacts national mortgage rate trends",
-        "Lewis C. Lin Question Bank for PM interviews"
-      ],
-      "articles": [
-        "The Lewis C. Lin Question Bank Hits 3,300 Real PM Interview Questions",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
