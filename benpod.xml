@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-03-31</title>
+      <description>Today’s episode explores a major security breach at Anthropic that has exposed the proprietary source code for its flagship coding tool, raising urgent questions about the industry&apos;s rapid growth versus its foundational security. The discussion also navigates the contradictory signals surrounding U.S.-Iran peace talks, the rising energy demands of AI infrastructure, and the latest bombshell rumors in the world of professional sports.</description>
+      <pubDate>Tue, 31 Mar 2026 09:28:22 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-31-092822.mp3" length="5041536" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-03-31-092822.mp3</guid>
+      <itunes:duration>315</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-30</title>
       <description>This episode dives into the massive financial &quot;gold rush&quot; fueling AI infrastructure, exploring everything from space-based data centers to the rising environmental and regulatory costs of the industry. We also track the Golden State Warriors’ struggle to find an identity on the court and analyze a significant shift in the projected timeline of the U.S.-Iran conflict. From high-stakes tech investments to the latest in professional sports, stay informed on the key stories shaping the start of the week.</description>
       <pubDate>Mon, 30 Mar 2026 09:28:57 GMT</pubDate>
