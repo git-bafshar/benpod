@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-04-01",
+      "summary": "Go inside a high-stakes week for AI as industry leader Anthropic grapples with a massive security breach and reports of its own tools creating dangerous system exploits. This episode also tracks OpenAI’s mind-boggling new valuation, escalating cyber threats from Iran targeting the tech sector, and the long-awaited recovery update for NBA star Stephen Curry. From corporate chaos to geopolitical shifts, we explore whether humanity is prepared for the \"technological adolescence\" of rapidly advancing AI.",
+      "keyTopics": [
+        "Anthropic Claude Code leak and FreeBSD kernel exploit",
+        "OpenAI $852 billion valuation and retail funding round",
+        "Salesforce Slack AI makeover and new agent features",
+        "Iranian cyberattacks targeting U.S. tech company infrastructure",
+        "Stephen Curry cleared for Golden State Warriors full-contact practice",
+        "Dario Amodei essay on technological adolescence and AI safety",
+        "Anthropic and Australian government AI safety research partnership"
+      ],
+      "articles": [
+        "Dario Amodei — The Adolescence of Technology",
+        "ESPN Warriors News::Warriors: Stephen Curry cleared for scrimmage in latest step for return",
+        "Foreign Policy - Iran::Trump’s Iran War Is a Dilemma, Not a Debacle",
+        "Foreign Policy - Iran::Iran Flexes Its Cyber Chops",
+        "Foreign Policy - Iran::Iran Says It Will Target U.S. Tech Companies in the Middle East"
+      ]
+    },
+    {
       "date": "2026-03-31",
       "summary": "Today’s episode explores a major security breach at Anthropic that has exposed the proprietary source code for its flagship coding tool, raising urgent questions about the industry's rapid growth versus its foundational security. The discussion also navigates the contradictory signals surrounding U.S.-Iran peace talks, the rising energy demands of AI infrastructure, and the latest bombshell rumors in the world of professional sports.",
       "keyTopics": [
@@ -266,27 +286,6 @@
       "articles": [
         "ESPN Giants::Giants Recap: Arizona Diamondbacks at San Francisco Giants",
         "ESPN Warriors News::Warriors: Warriors without several veterans for game vs. Knicks"
-      ]
-    },
-    {
-      "date": "2026-03-14",
-      "summary": "Explore the complex duality of artificial intelligence, from sobering legal warnings about \"AI psychosis\" to a visionary outlook on how the technology could soon solve humanity’s most pressing medical and scientific challenges. This episode also breaks down the Golden State Warriors’ recent struggles on the court, tech industry setbacks at xAI, and the diplomatic tightrope India is walking amid escalating global tensions.",
-      "keyTopics": [
-        "Legal warnings linking AI chatbots to mass casualty events",
-        "ChatGPT app integrations for DoorDash Spotify and Uber",
-        "Elon Musk xAI coding tool rebuild with Cursor executives",
-        "Railway 100 million dollar Series B for AI cloud infrastructure",
-        "Golden State Warriors injury crisis and four-game losing streak",
-        "India diplomatic balancing amid US-Iran conflict escalation",
-        "Anthropic CEO Dario Amodei Machines of Loving Grace essay"
-      ],
-      "articles": [
-        "Dario Amodei — Machines of Loving Grace",
-        "ESPN Warriors::Warriors Recap: Minnesota Timberwolves at Golden State Warriors",
-        "ESPN Giants::Giants Recap: Cincinnati Reds at San Francisco Giants",
-        "ESPN Warriors News::Warriors: Warriors lose four more players to injury as slide continues",
-        "Foreign Policy - Iran::Iran War Puts India in Tricky Position",
-        "Foreign Policy - Iran::5 Streaming Movies to Help Understand Iran Now"
       ]
     }
   ]
