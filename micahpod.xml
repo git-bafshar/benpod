@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-04-01</title>
+      <description>This episode explores a stunning security milestone where Anthropic’s AI autonomously developed a high-level cyber exploit, highlighting the growing tension between rapid innovation and global safety agreements. We also break down OpenAI’s massive $852 billion valuation and the latest supply chain security breaches hitting the tech sector. Finally, discover how the AI boom is transforming the workplace through Salesforce’s major Slack overhaul and impacting global economic and real estate markets.</description>
+      <pubDate>Wed, 01 Apr 2026 08:55:29 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-01-085529.mp3" length="4254144" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-01-085529.mp3</guid>
+      <itunes:duration>266</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-03-31</title>
       <description>This episode examines the fallout from a major security breach at Anthropic and a growing cultural paradox where increased AI adoption is leading to decreased public trust. It also highlights the &quot;gold rush&quot; into AI-native infrastructure and the groundbreaking rise of &quot;digital twins&quot; in medical research.</description>
       <pubDate>Tue, 31 Mar 2026 08:53:31 GMT</pubDate>
