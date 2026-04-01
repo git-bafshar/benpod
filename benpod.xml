@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-01</title>
+      <description>Go inside a high-stakes week for AI as industry leader Anthropic grapples with a massive security breach and reports of its own tools creating dangerous system exploits. This episode also tracks OpenAI’s mind-boggling new valuation, escalating cyber threats from Iran targeting the tech sector, and the long-awaited recovery update for NBA star Stephen Curry. From corporate chaos to geopolitical shifts, we explore whether humanity is prepared for the &quot;technological adolescence&quot; of rapidly advancing AI.</description>
+      <pubDate>Wed, 01 Apr 2026 09:43:59 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-01-094359.mp3" length="4744320" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-01-094359.mp3</guid>
+      <itunes:duration>297</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-03-31</title>
       <description>Today’s episode explores a major security breach at Anthropic that has exposed the proprietary source code for its flagship coding tool, raising urgent questions about the industry&apos;s rapid growth versus its foundational security. The discussion also navigates the contradictory signals surrounding U.S.-Iran peace talks, the rising energy demands of AI infrastructure, and the latest bombshell rumors in the world of professional sports.</description>
       <pubDate>Tue, 31 Mar 2026 09:28:22 GMT</pubDate>
