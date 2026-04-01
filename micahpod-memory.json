@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-04-01",
+      "summary": "This episode explores a stunning security milestone where Anthropic’s AI autonomously developed a high-level cyber exploit, highlighting the growing tension between rapid innovation and global safety agreements. We also break down OpenAI’s massive $852 billion valuation and the latest supply chain security breaches hitting the tech sector. Finally, discover how the AI boom is transforming the workplace through Salesforce’s major Slack overhaul and impacting global economic and real estate markets.",
+      "keyTopics": [
+        "Anthropic Claude Code autonomous FreeBSD kernel exploit discovery",
+        "Anthropic and Australian government AI safety research partnership",
+        "Mercor cyberattack via LiteLLM software supply chain compromise",
+        "OpenAI three billion dollar retail funding and valuation",
+        "AI startup Yupp shuts down following $33 million raise",
+        "Salesforce Slack AI overhaul with autonomous agent features",
+        "US Navy military strategy in the Strait of Hormuz"
+      ]
+    },
+    {
       "date": "2026-03-31",
       "summary": "This episode examines the fallout from a major security breach at Anthropic and a growing cultural paradox where increased AI adoption is leading to decreased public trust. It also highlights the \"gold rush\" into AI-native infrastructure and the groundbreaking rise of \"digital twins\" in medical research.",
       "keyTopics": [
@@ -187,22 +200,6 @@
       ],
       "articles": [
         "The Margin Migration: Why Software Profits Don't Disappear—They Move"
-      ]
-    },
-    {
-      "date": "2026-03-12",
-      "summary": "Explore how Google is integrating AI into the physical world through immersive navigation and flood forecasting, alongside the rise of autonomous AI \"agents\" in workplace tools like Slack. This episode also dives into the \"hidden cognitive tax\" of AI-driven productivity, examining why the constant oversight of machine output might be leading to a new wave of workplace burnout.",
-      "keyTopics": [
-        "Google Maps Immersive Navigation and Ask Maps AI",
-        "Google LLM flash flood prediction using news archives",
-        "Zendesk acquisition of AI customer service startup Forethought",
-        "Salesforce Slackbot AI agent for enterprise task execution",
-        "Developer backlash against LLM reliability and logical flaws",
-        "AI-conducted job interviews and recruitment automation skepticism",
-        "Lewis Lin on AI cognitive tax and worker burnout"
-      ],
-      "articles": [
-        "The Hidden Cost of AI Speed"
       ]
     }
   ]
