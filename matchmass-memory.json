@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-04-01",
+      "summary": "Celebrate a historic milestone in the NBA as LeBron James officially claims the record for the most total wins in league history during a dominant Lakers performance. In the tech world, explore a high-stakes day for artificial intelligence featuring critical security exploits at Anthropic, massive new funding rounds for OpenAI, and a major AI-driven transformation for Slack.",
+      "keyTopics": [
+        "LeBron James breaks NBA all-time total wins record",
+        "Anthropic Claude Code leak and Mercor supply-chain cyberattack",
+        "Claude AI generates FreeBSD remote kernel exploit",
+        "Anthropic secondary market demand surges over OpenAI",
+        "Salesforce announces major Slack AI and agentic makeover",
+        "OpenAI 3 billion dollar retail funding at 852 billion valuation",
+        "Railway raises 100 million for AI-native cloud infrastructure"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Cleveland Cavaliers at Los Angeles Lakers",
+        "ESPN Lakers News::Lakers: Out like a lion: Luka totals 600 points in March; Lakers go 15-2",
+        "ESPN Lakers News::Lakers: LeBron passes Kareem to become NBA total wins leader",
+        "ESPN Lakers News::Lakers: McMenamin: LeBron returning to Cleveland would be 'cleanest fit'"
+      ]
+    },
+    {
       "date": "2026-03-31",
       "summary": "Discover how the Lakers dominated the court without their superstar while a major security leak at Anthropic shakes the tech world to its core. This episode also explores the broadening legacy of the farmworker movement on Cesar Chavez Day and how companies like Amazon and Runway are racing to build the next generation of AI ecosystems.",
       "keyTopics": [
@@ -202,19 +221,6 @@
       "articles": [
         "ESPN Lakers::Lakers Recap: Chicago Bulls at Los Angeles Lakers",
         "ESPN Lakers News::Lakers: Luka Doncic scores 51, LeBron James returns from injuries to lead Lakers past Bulls 142-130"
-      ]
-    },
-    {
-      "date": "2026-03-12",
-      "summary": "Explore the cutting edge of AI as Google transforms its Maps experience and pioneers new ways to predict natural disasters using large language models. This episode also dives into the \"agent economy\" through recent tech acquisitions and the development of a formal programming language designed specifically for AI. Finally, get an inside look at the shifting landscape of California politics as leaders prepare for both the 2026 gubernatorial race and future national stages.",
-      "keyTopics": [
-        "Zendesk acquisition of agentic AI startup Forethought",
-        "Ford AI assistant for commercial fleet driver monitoring",
-        "Google Maps conversational AI Ask Maps feature",
-        "Google LLM flash flood prediction data modeling",
-        "Formal programming language for LLMs from Kotlin creator",
-        "2028 presidential polling for Gavin Newsom and Kamala Harris",
-        "LA Lakers chemistry shift without LeBron James"
       ]
     }
   ]
