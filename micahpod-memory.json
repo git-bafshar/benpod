@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-04-02",
+      "summary": "This episode explores the messy realities of the AI boom, from Anthropic’s overzealous security cleanups and supply chain vulnerabilities to the staggering energy demands of Meta’s new power-hungry data centers. We also dive into the industry's shift toward the \"optimization era,\" highlighting AI-designed computer chips and landmark international partnerships aimed at balancing rapid innovation with global safety.",
+      "keyTopics": [
+        "Anthropic accidental GitHub takedowns following source code leak",
+        "Mercor cyberattack tied to LiteLLM software supply chain vulnerability",
+        "Meta Hyperion data center powered by ten natural gas plants",
+        "Cognichip sixty million dollar raise for AI chip design",
+        "AMD Lemonade project for efficient local LLM inference",
+        "Anthropic AI safety research agreement with Australian government"
+      ]
+    },
+    {
       "date": "2026-04-01",
       "summary": "This episode explores a stunning security milestone where Anthropic’s AI autonomously developed a high-level cyber exploit, highlighting the growing tension between rapid innovation and global safety agreements. We also break down OpenAI’s massive $852 billion valuation and the latest supply chain security breaches hitting the tech sector. Finally, discover how the AI boom is transforming the workplace through Salesforce’s major Slack overhaul and impacting global economic and real estate markets.",
       "keyTopics": [
@@ -183,23 +195,6 @@
       ],
       "articles": [
         "See the Real Software Market—Not the One Vendors Want You to See"
-      ]
-    },
-    {
-      "date": "2026-03-13",
-      "summary": "Explore the intensifying battle for AI dominance as major players shift their focus from building smarter models to creating global ecosystems and specialized cloud infrastructure. This episode breaks down the \"margin migration\" of software value, the rise of AI-native enterprise tools, and the emerging security risks that could compromise the reliability of the entire industry.",
-      "keyTopics": [
-        "Anthropic $100M Claude Partner Network and global expansion",
-        "Google Gemini 3.1 Flash-Lite performance focused strategy",
-        "Railway $100M funding for AI-native cloud infrastructure",
-        "Rox AI $1.2B valuation and CRM market disruption",
-        "Meta AI automated responses for Facebook Marketplace",
-        "QuTwo launch for enterprise quantum computing infrastructure",
-        "Security risks of document poisoning in RAG systems",
-        "Lewis Lin Margin Migration and software profit shifts"
-      ],
-      "articles": [
-        "The Margin Migration: Why Software Profits Don't Disappear—They Move"
       ]
     }
   ]
