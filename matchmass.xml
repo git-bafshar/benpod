@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-02</title>
+      <description>Navigate the fallout of a chaotic week in AI security, from the &quot;supply-chain&quot; ripple effects of high-profile source code leaks to the vulnerabilities hidden within open-source foundations. This episode also explores the massive physical and environmental costs of the AI boom, highlighting the rise of AI-designed hardware and the controversial shift toward fossil fuels to power next-generation data centers.</description>
+      <pubDate>Thu, 02 Apr 2026 08:07:07 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-02-080707.mp3" length="3153984" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-02-080707.mp3</guid>
+      <itunes:duration>197</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-01</title>
       <description>Celebrate a historic milestone in the NBA as LeBron James officially claims the record for the most total wins in league history during a dominant Lakers performance. In the tech world, explore a high-stakes day for artificial intelligence featuring critical security exploits at Anthropic, massive new funding rounds for OpenAI, and a major AI-driven transformation for Slack.</description>
       <pubDate>Wed, 01 Apr 2026 08:16:26 GMT</pubDate>
