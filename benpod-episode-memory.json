@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-04-02",
+      "summary": "This episode dives into the chaotic security and PR fallout from recent AI industry breaches, alongside the staggering energy demands and environmental costs of massive new data centers. We also explore shifting dynamics in professional basketball and global geopolitics before examining a bold, utopian vision for how AI might solve humanity's greatest challenges within the next decade.",
+      "keyTopics": [
+        "Anthropic accidental GitHub takedown notices after source code leak",
+        "Mercor cyberattack via LiteLLM open-source supply chain vulnerability",
+        "Meta Hyperion AI data center powered by ten gas plants",
+        "Victor Wembanyama 41-point performance against Golden State Warriors",
+        "Draymond Green voices uncertainty about future with Warriors",
+        "US-Iran geopolitical tensions and enriched uranium seizure scenarios",
+        "Anthropic CEO Dario Amodei Machines of Loving Grace essay"
+      ],
+      "articles": [
+        "Dario Amodei — Machines of Loving Grace",
+        "ESPN Warriors::Warriors Recap: San Antonio Spurs at Golden State Warriors",
+        "ESPN Warriors News::Warriors: Draymond Green reflects on his future amid uncertainty",
+        "ESPN 49ers News::49ers: 49ers in no rush to move Brandon Aiyuk",
+        "Foreign Policy - Iran::What a U.S. Operation to Get Iran’s Uranium Would Look Like",
+        "Foreign Policy - Iran::Waiting for the War to End in Tehran",
+        "Foreign Policy - Iran::Tehran Is Setting a Trap for Trump"
+      ]
+    },
+    {
       "date": "2026-04-01",
       "summary": "Go inside a high-stakes week for AI as industry leader Anthropic grapples with a massive security breach and reports of its own tools creating dangerous system exploits. This episode also tracks OpenAI’s mind-boggling new valuation, escalating cyber threats from Iran targeting the tech sector, and the long-awaited recovery update for NBA star Stephen Curry. From corporate chaos to geopolitical shifts, we explore whether humanity is prepared for the \"technological adolescence\" of rapidly advancing AI.",
       "keyTopics": [
@@ -269,23 +291,6 @@
         "Foreign Policy - Iran::Iran’s Escalation Strategy Won’t Work",
         "Foreign Policy - Iran::Iran’s Political Prisoners Are in the Firing Line",
         "Foreign Policy - Iran::From Vietnam to Iran, War Is the Reason Americans Don’t Trust Their Government"
-      ]
-    },
-    {
-      "date": "2026-03-15",
-      "summary": "Dive into the staggering costs of the AI arms race, from potential massive layoffs at Meta to a landmark $20 billion military contract for autonomous defense technology. This episode also tracks the injury crisis facing the Golden State Warriors and a collection of offbeat stories, including a $96 3D-printed rocket and the release of a long-imprisoned treasure hunter.",
-      "keyTopics": [
-        "Meta potential twenty percent layoffs for AI infrastructure spending",
-        "US Army twenty billion dollar Anduril autonomous defense contract",
-        "Golden State Warriors veteran injury crisis and road trip",
-        "San Francisco Giants spring training collapse against Diamondbacks",
-        "Low-cost 3D-printed rocket with autonomous trajectory correction",
-        "Critical reception of Spotify AI DJ generative music feature",
-        "Ship of Gold treasure hunter released from decade-long imprisonment"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Arizona Diamondbacks at San Francisco Giants",
-        "ESPN Warriors News::Warriors: Warriors without several veterans for game vs. Knicks"
       ]
     }
   ]
