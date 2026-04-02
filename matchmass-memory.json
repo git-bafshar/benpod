@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-04-02",
+      "summary": "Navigate the fallout of a chaotic week in AI security, from the \"supply-chain\" ripple effects of high-profile source code leaks to the vulnerabilities hidden within open-source foundations. This episode also explores the massive physical and environmental costs of the AI boom, highlighting the rise of AI-designed hardware and the controversial shift toward fossil fuels to power next-generation data centers.",
+      "keyTopics": [
+        "Anthropic GitHub DMCA takedown notices for source code leak",
+        "Mercor cyberattack linked to LiteLLM open-source project compromise",
+        "Cognichip sixty million dollar funding for AI chip design",
+        "Meta Hyperion data center powered by natural gas plants",
+        "Senate bill to track data center energy consumption scale",
+        "Surfline API outage for Santa Barbara County surf reports"
+      ]
+    },
+    {
       "date": "2026-04-01",
       "summary": "Celebrate a historic milestone in the NBA as LeBron James officially claims the record for the most total wins in league history during a dominant Lakers performance. In the tech world, explore a high-stakes day for artificial intelligence featuring critical security exploits at Anthropic, massive new funding rounds for OpenAI, and a major AI-driven transformation for Slack.",
       "keyTopics": [
@@ -204,23 +216,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Are Lakers good enough to remain No. 3 seed?"
-      ]
-    },
-    {
-      "date": "2026-03-13",
-      "summary": "Explore the Lakers’ explosive new offensive identity following Luka Doncic’s 51-point masterpiece and LeBron James’ return to the court. This episode also dives into the accelerating AI landscape, covering everything from new family-focused fraud protection tools to the $100 million push for \"AI-native\" cloud and quantum infrastructure. Finally, we examine the complex financial and ethical dilemmas facing California communities as they struggle to rebuild in the face of increasing wildfire risks.",
-      "keyTopics": [
-        "Luka Doncic 51-point performance in LeBron James return",
-        "Truecaller remote call ending feature for family fraud protection",
-        "Spine Swarm visual canvas for multi-agent AI collaboration",
-        "Railway $100 million fundraise for AI-native cloud infrastructure",
-        "QuTwo quantum-ready software and enterprise infrastructure strategy",
-        "California wildfire rebuilding costs and insurance resilience dilemma",
-        "Nvidia GTC conference and AI chip industry trends"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Chicago Bulls at Los Angeles Lakers",
-        "ESPN Lakers News::Lakers: Luka Doncic scores 51, LeBron James returns from injuries to lead Lakers past Bulls 142-130"
       ]
     }
   ]
