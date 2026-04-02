@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-02</title>
+      <description>This episode dives into the chaotic security and PR fallout from recent AI industry breaches, alongside the staggering energy demands and environmental costs of massive new data centers. We also explore shifting dynamics in professional basketball and global geopolitics before examining a bold, utopian vision for how AI might solve humanity&apos;s greatest challenges within the next decade.</description>
+      <pubDate>Thu, 02 Apr 2026 09:24:01 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-02-092401.mp3" length="4524864" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-02-092401.mp3</guid>
+      <itunes:duration>283</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-01</title>
       <description>Go inside a high-stakes week for AI as industry leader Anthropic grapples with a massive security breach and reports of its own tools creating dangerous system exploits. This episode also tracks OpenAI’s mind-boggling new valuation, escalating cyber threats from Iran targeting the tech sector, and the long-awaited recovery update for NBA star Stephen Curry. From corporate chaos to geopolitical shifts, we explore whether humanity is prepared for the &quot;technological adolescence&quot; of rapidly advancing AI.</description>
       <pubDate>Wed, 01 Apr 2026 09:43:59 GMT</pubDate>
