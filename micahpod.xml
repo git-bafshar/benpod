@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-04-02</title>
+      <description>This episode explores the messy realities of the AI boom, from Anthropic’s overzealous security cleanups and supply chain vulnerabilities to the staggering energy demands of Meta’s new power-hungry data centers. We also dive into the industry&apos;s shift toward the &quot;optimization era,&quot; highlighting AI-designed computer chips and landmark international partnerships aimed at balancing rapid innovation with global safety.</description>
+      <pubDate>Thu, 02 Apr 2026 08:48:43 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-02-084843.mp3" length="4164672" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-02-084843.mp3</guid>
+      <itunes:duration>260</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-04-01</title>
       <description>This episode explores a stunning security milestone where Anthropic’s AI autonomously developed a high-level cyber exploit, highlighting the growing tension between rapid innovation and global safety agreements. We also break down OpenAI’s massive $852 billion valuation and the latest supply chain security breaches hitting the tech sector. Finally, discover how the AI boom is transforming the workplace through Salesforce’s major Slack overhaul and impacting global economic and real estate markets.</description>
       <pubDate>Wed, 01 Apr 2026 08:55:29 GMT</pubDate>
