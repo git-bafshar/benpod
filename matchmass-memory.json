@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-04-03",
+      "summary": "Explore a high-stakes morning as the Los Angeles Lakers reel from a historic blowout loss and a potentially season-altering injury to superstar Luka Doncic. In the world of tech, this episode dives into the messy damage control surrounding Anthropic’s massive source code leak and OpenAI’s surprising move into the media industry. We also break down Microsoft’s newest AI models and the irony of a high-tech world that still can't provide a reliable local surf report.",
+      "keyTopics": [
+        "Lakers historic loss to Oklahoma City Thunder",
+        "Luka Doncic hamstring injury and upcoming MRI",
+        "Anthropic accidental DMCA takedowns after source code leak",
+        "Microsoft AI voice and image generation model release",
+        "OpenAI acquisition of TBPN business and tech podcast",
+        "Moonbounce twelve million dollar AI content moderation funding",
+        "Ongoing Surfline API outage in Santa Barbara County"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Oklahoma City Thunder",
+        "ESPN Lakers News::Lakers: Luka Doncic (hamstring) exits Lakers' loss in OKC; MRI next",
+        "ESPN Lakers News::Lakers: Stephen A.: LeBron returning to Cleveland could mean a title for Cavs"
+      ]
+    },
+    {
       "date": "2026-04-02",
       "summary": "Navigate the fallout of a chaotic week in AI security, from the \"supply-chain\" ripple effects of high-profile source code leaks to the vulnerabilities hidden within open-source foundations. This episode also explores the massive physical and environmental costs of the AI boom, highlighting the rise of AI-designed hardware and the controversial shift toward fossil fuels to power next-generation data centers.",
       "keyTopics": [
@@ -202,20 +220,6 @@
       "articles": [
         "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Houston Rockets",
         "ESPN Lakers News::Lakers: Doncic leads Lakers to a 100-92 victory over the Rockets for their sixth straight victory"
-      ]
-    },
-    {
-      "date": "2026-03-16",
-      "summary": "Explore the future of tech as we break down Nvidia’s industry-defining keynote and a maturing AI market that is shifting focus toward safety, legal liability, and foundational innovation. This episode also covers the Lakers' high-stakes battle for a top playoff seed and the unseasonal weather patterns currently settling over the coast.",
-      "keyTopics": [
-        "Jensen Huang Nvidia GTC keynote and Blackwell chip successors",
-        "Legal liability for AI chatbots in mass casualty cases",
-        "ByteDance pauses Seedance 2.0 video generator global launch",
-        "Google and Accel India accelerator rejects AI wrapper startups",
-        "LA Lakers Western Conference third seed playoff standings"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Are Lakers good enough to remain No. 3 seed?"
       ]
     }
   ]
