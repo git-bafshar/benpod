@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-03</title>
+      <description>Explore a high-stakes morning as the Los Angeles Lakers reel from a historic blowout loss and a potentially season-altering injury to superstar Luka Doncic. In the world of tech, this episode dives into the messy damage control surrounding Anthropic’s massive source code leak and OpenAI’s surprising move into the media industry. We also break down Microsoft’s newest AI models and the irony of a high-tech world that still can&apos;t provide a reliable local surf report.</description>
+      <pubDate>Fri, 03 Apr 2026 07:54:40 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-03-075440.mp3" length="3497856" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-03-075440.mp3</guid>
+      <itunes:duration>219</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-02</title>
       <description>Navigate the fallout of a chaotic week in AI security, from the &quot;supply-chain&quot; ripple effects of high-profile source code leaks to the vulnerabilities hidden within open-source foundations. This episode also explores the massive physical and environmental costs of the AI boom, highlighting the rise of AI-designed hardware and the controversial shift toward fossil fuels to power next-generation data centers.</description>
       <pubDate>Thu, 02 Apr 2026 08:07:07 GMT</pubDate>
