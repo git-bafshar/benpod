@@ -1,6 +1,29 @@
 {
   "episodes": [
     {
+      "date": "2026-04-03",
+      "summary": "Stay informed on the intensifying military conflict in the Persian Gulf and its global economic implications, ranging from record-breaking defense budgets to rising mortgage rates. This episode also explores a scathing transparency report targeting Chicago’s City Hall, NASA’s historic Artemis II lunar mission, and the chaotic fallout of a massive AI source code leak. Plus, get caught up on the latest headlines in sports and the job market to round out your week.",
+      "keyTopics": [
+        "Iran multi-front missile strikes and US retaliation warnings",
+        "President Trump $1.5 trillion defense budget and domestic cuts",
+        "NASA Artemis II crewed mission enters lunar transit",
+        "Chicago IG Deborah Witzburg report on Mayor Brandon Johnson",
+        "Anthropic accidental GitHub takedowns following source code leak",
+        "OpenAI TBPN podcast acquisition and new Microsoft foundational models",
+        "Rising US mortgage rates linked to Persian Gulf conflict"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Cleveland Cavaliers at Golden State Warriors",
+        "ESPN Giants::Giants Recap: New York Mets at San Francisco Giants",
+        "ESPN 49ers News::49ers: Shanahan. Lynch will continue to remain with the 49ers",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::America’s War Machine Runs on Tungsten—and It Could Run Out",
+        "Foreign Policy - Iran::U.K. Hosts Coalition Talks to Reopen Hormuz—Without the U.S.",
+        "Foreign Policy - Iran::Will the Iran War Evaporate the Gulf’s AI Oasis?"
+      ]
+    },
+    {
       "date": "2026-04-02",
       "summary": "This episode dives into the chaotic security and PR fallout from recent AI industry breaches, alongside the staggering energy demands and environmental costs of massive new data centers. We also explore shifting dynamics in professional basketball and global geopolitics before examining a bold, utopian vision for how AI might solve humanity's greatest challenges within the next decade.",
       "keyTopics": [
@@ -268,29 +291,6 @@
         "ESPN Giants::Giants Recap: San Francisco Giants at San Diego Padres",
         "ESPN 49ers News::49ers: Will the 49ers move on from Brandon Aiyuk?",
         "ESPN 49ers News::49ers: Source: 49ers reach 1-year deal with WR Christian Kirk"
-      ]
-    },
-    {
-      "date": "2026-03-16",
-      "summary": "Explore the evolving AI landscape as Google makes a record-breaking $32 billion bet on cloud security and the industry pivots from flashy software wrappers toward deep, defensible tech. This episode also analyzes the strategic and humanitarian stakes of rising tensions in Iran and recaps a rollercoaster day for Bay Area sports, including a heartbreaking collapse for the Warriors and dominant performances on the diamond.",
-      "keyTopics": [
-        "Google $32 billion acquisition of cloud security firm Wiz",
-        "Google Accel India accelerator rejection of AI wrapper startups",
-        "ByteDance pauses Seedance 2.0 video generator launch",
-        "US strategy shift regarding Iran proxy network and prisoners",
-        "Golden State Warriors injury crisis and loss to Knicks",
-        "Pitcher Robbie Ray dominant spring training for SF Giants",
-        "Wide receiver Mike Evans joins San Francisco 49ers"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Golden State Warriors at New York Knicks",
-        "ESPN Giants::Giants Recap: Milwaukee Brewers at San Francisco Giants",
-        "ESPN Warriors News::Warriors: Al Horford, Seth Curry out at least a week for Warriors",
-        "ESPN Giants News::Giants: Giants near-perfect vs. Brewers; Hayden Birdsong hurting",
-        "ESPN 49ers News::49ers: Veteran Mike Evans gets 'second wind' by signing with 49ers",
-        "Foreign Policy - Iran::Iran’s Escalation Strategy Won’t Work",
-        "Foreign Policy - Iran::Iran’s Political Prisoners Are in the Firing Line",
-        "Foreign Policy - Iran::From Vietnam to Iran, War Is the Reason Americans Don’t Trust Their Government"
       ]
     }
   ]
