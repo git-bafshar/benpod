@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-04-03",
+      "summary": "Explore how AI giants are moving beyond code to shape culture and commerce, from OpenAI’s surprising acquisition of a business podcast to Microsoft’s launch of new foundational models that challenge the industry status quo. This episode also dives into the security fallout at Anthropic, Google’s latest AI-powered video features, and the growing divide between energy-hungry data centers and the rise of local, user-controlled AI tools.",
+      "keyTopics": [
+        "OpenAI acquisition of TBPN business podcast",
+        "Microsoft MAI foundational audio and image models",
+        "Anthropic retraction of aggressive GitHub takedown notices",
+        "ChatGPT Business price drop for enterprise adoption",
+        "Google Vids digital avatar customization via prompts",
+        "Apfel local AI tool for Apple silicon machines",
+        "Meta Hyperion data center natural gas power requirements"
+      ]
+    },
+    {
       "date": "2026-04-02",
       "summary": "This episode explores the messy realities of the AI boom, from Anthropic’s overzealous security cleanups and supply chain vulnerabilities to the staggering energy demands of Meta’s new power-hungry data centers. We also dive into the industry's shift toward the \"optimization era,\" highlighting AI-designed computer chips and landmark international partnerships aimed at balancing rapid innovation with global safety.",
       "keyTopics": [
@@ -179,22 +192,6 @@
       ],
       "articles": [
         "What Are Data Exfiltration Attacks on AI? A Plain English Guide"
-      ]
-    },
-    {
-      "date": "2026-03-16",
-      "summary": "This episode examines the shift from AI hype to hard-hitting reality, highlighting ByteDance’s strategic product delays and the US Army’s massive $20 billion defense contract. Explore the chilling safety warnings surrounding AI chatbots and dive into new procurement data that reveals which tech giants are truly winning the enterprise software race.",
-      "keyTopics": [
-        "ByteDance Seedance 2.0 global launch pause",
-        "Google and Accel India AI accelerator wrapper analysis",
-        "Anduril twenty billion dollar US Army defense contract",
-        "Legal warnings of AI chatbot mass casualty risks",
-        "Lewis Lin software market procurement data analysis",
-        "OpenAI enterprise adoption versus Anthropic market velocity",
-        "Future uncertainty for St. Petersburg Mahaffey Theater"
-      ],
-      "articles": [
-        "See the Real Software Market—Not the One Vendors Want You to See"
       ]
     }
   ]
