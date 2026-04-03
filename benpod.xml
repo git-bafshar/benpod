@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-03</title>
+      <description>Stay informed on the intensifying military conflict in the Persian Gulf and its global economic implications, ranging from record-breaking defense budgets to rising mortgage rates. This episode also explores a scathing transparency report targeting Chicago’s City Hall, NASA’s historic Artemis II lunar mission, and the chaotic fallout of a massive AI source code leak. Plus, get caught up on the latest headlines in sports and the job market to round out your week.</description>
+      <pubDate>Fri, 03 Apr 2026 09:03:48 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-03-090348.mp3" length="4788864" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-03-090348.mp3</guid>
+      <itunes:duration>299</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-02</title>
       <description>This episode dives into the chaotic security and PR fallout from recent AI industry breaches, alongside the staggering energy demands and environmental costs of massive new data centers. We also explore shifting dynamics in professional basketball and global geopolitics before examining a bold, utopian vision for how AI might solve humanity&apos;s greatest challenges within the next decade.</description>
       <pubDate>Thu, 02 Apr 2026 09:24:01 GMT</pubDate>
