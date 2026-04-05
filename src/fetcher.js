@@ -1208,6 +1208,8 @@ async function fetchArticles(config, episodeMemory) {
   try {
     const articlesConfig = config.content.articles;
     const maxPerEpisode = articlesConfig.maxPerEpisode || 2;
+    const maxAgeDays = articlesConfig.maxAgeDays || 10;
+    const maxAgeMs = maxAgeDays * 24 * 60 * 60 * 1000;
 
     // Build list of feed sources: legacy KTN URL + any direct feeds[]
     const feedSources = [];
@@ -1250,6 +1252,7 @@ async function fetchArticles(config, episodeMemory) {
         isAtom = true;
       }
 
+      const now = Date.now();
       const feedLinks = [];
       entries.each((_, el) => {
         const title = $(el).find('title').text().trim();
@@ -1266,6 +1269,18 @@ async function fetchArticles(config, episodeMemory) {
         } else {
           // For standard RSS feeds, get link element
           link = $(el).find('link').text().trim();
+        }
+
+        // Extract publish date — <published> for Atom, <pubDate> for RSS
+        const pubDateRaw = isAtom
+          ? $(el).find('published').text().trim()
+          : $(el).find('pubDate').text().trim();
+        if (pubDateRaw) {
+          const pubDate = new Date(pubDateRaw);
+          if (!isNaN(pubDate) && now - pubDate.getTime() > maxAgeMs) {
+            console.log(`  Skipping stale article (>${maxAgeDays}d old): ${title}`);
+            return; // cheerio .each() — continue to next entry
+          }
         }
 
         if (title && link && !link.includes('kill-the-newsletter.com/feeds')) {

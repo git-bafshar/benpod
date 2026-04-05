@@ -23,6 +23,13 @@ const podcastInfo = {
 
 const baseUrl = 'https://example.github.io/podcast';
 
+const mockConfig = {
+  paths: {
+    episodesDir: 'episodes',
+    artworkFile: 'artwork.jpg',
+  },
+};
+
 // A minimal valid existing feed (matches the structure buildUpdatedFeed produces)
 function makeExistingFeed(extraItems = '') {
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -49,7 +56,7 @@ describe('buildUpdatedFeed — first run (empty existingFeedXml)', () => {
   let result;
 
   beforeEach(() => {
-    result = buildUpdatedFeed('', baseEpisode, baseUrl, podcastInfo);
+    result = buildUpdatedFeed('', baseEpisode, baseUrl, podcastInfo, mockConfig);
   });
 
   test('produces a valid XML declaration', () => {
@@ -84,7 +91,7 @@ describe('buildUpdatedFeed — first run (empty existingFeedXml)', () => {
   });
 
   test('also handles null existingFeedXml the same as empty string', () => {
-    const fromNull = buildUpdatedFeed(null, baseEpisode, baseUrl, podcastInfo);
+    const fromNull = buildUpdatedFeed(null, baseEpisode, baseUrl, podcastInfo, mockConfig);
     expect(fromNull).toMatch(/^<\?xml/);
   });
 });
@@ -96,7 +103,7 @@ describe('buildUpdatedFeed — first run (empty existingFeedXml)', () => {
 describe('buildUpdatedFeed — subsequent run (existing feed)', () => {
   test('inserts new item into existing feed', () => {
     const existing = makeExistingFeed();
-    const result = buildUpdatedFeed(existing, baseEpisode, baseUrl, podcastInfo);
+    const result = buildUpdatedFeed(existing, baseEpisode, baseUrl, podcastInfo, mockConfig);
 
     expect(result).toContain('<item>');
     expect(result).toContain('Test Episode');
@@ -104,7 +111,7 @@ describe('buildUpdatedFeed — subsequent run (existing feed)', () => {
 
   test('new item appears after </itunes:explicit>', () => {
     const existing = makeExistingFeed();
-    const result = buildUpdatedFeed(existing, baseEpisode, baseUrl, podcastInfo);
+    const result = buildUpdatedFeed(existing, baseEpisode, baseUrl, podcastInfo, mockConfig);
 
     const explicitClose = result.indexOf('</itunes:explicit>');
     const itemStart = result.indexOf('<item>');
@@ -113,7 +120,7 @@ describe('buildUpdatedFeed — subsequent run (existing feed)', () => {
 
   test('preserves all existing feed content', () => {
     const existing = makeExistingFeed();
-    const result = buildUpdatedFeed(existing, baseEpisode, baseUrl, podcastInfo);
+    const result = buildUpdatedFeed(existing, baseEpisode, baseUrl, podcastInfo, mockConfig);
 
     expect(result).toContain('<title>My Podcast</title>');
     expect(result).toContain('<itunes:author>Test Author</itunes:author>');
@@ -128,7 +135,7 @@ describe('buildUpdatedFeed — subsequent run (existing feed)', () => {
       <description>Old description.</description>
     </item>`;
     const existing = makeExistingFeed(existingItem);
-    const result = buildUpdatedFeed(existing, baseEpisode, baseUrl, podcastInfo);
+    const result = buildUpdatedFeed(existing, baseEpisode, baseUrl, podcastInfo, mockConfig);
 
     const newIdx = result.indexOf('Test Episode');
     const oldIdx = result.indexOf('Old Episode');
@@ -137,7 +144,7 @@ describe('buildUpdatedFeed — subsequent run (existing feed)', () => {
 
   test('throws when existing feed is missing </itunes:explicit>', () => {
     const malformed = '<rss><channel><title>Broken</title></channel></rss>';
-    expect(() => buildUpdatedFeed(malformed, baseEpisode, baseUrl, podcastInfo))
+    expect(() => buildUpdatedFeed(malformed, baseEpisode, baseUrl, podcastInfo, mockConfig))
       .toThrow('Invalid feed XML: missing </itunes:explicit> tag');
   });
 });
@@ -160,33 +167,33 @@ describe('buildUpdatedFeed — XML escaping', () => {
   };
 
   test('escapes & in episode title', () => {
-    const result = buildUpdatedFeed('', specialCharsEpisode, baseUrl, specialCharsPodcast);
+    const result = buildUpdatedFeed('', specialCharsEpisode, baseUrl, specialCharsPodcast, mockConfig);
     expect(result).toContain('Q&amp;A');
     expect(result).not.toContain('<title>Q&A');
   });
 
   test('escapes < and > in episode title', () => {
-    const result = buildUpdatedFeed('', specialCharsEpisode, baseUrl, specialCharsPodcast);
+    const result = buildUpdatedFeed('', specialCharsEpisode, baseUrl, specialCharsPodcast, mockConfig);
     expect(result).toContain('&lt;AI&gt;');
   });
 
   test('escapes " in episode title', () => {
-    const result = buildUpdatedFeed('', specialCharsEpisode, baseUrl, specialCharsPodcast);
+    const result = buildUpdatedFeed('', specialCharsEpisode, baseUrl, specialCharsPodcast, mockConfig);
     expect(result).toContain('&quot;Top 5 &lt;AI&gt; Trends&quot;');
   });
 
   test("escapes ' in episode description", () => {
-    const result = buildUpdatedFeed('', specialCharsEpisode, baseUrl, specialCharsPodcast);
+    const result = buildUpdatedFeed('', specialCharsEpisode, baseUrl, specialCharsPodcast, mockConfig);
     expect(result).toContain('It&apos;s');
   });
 
   test('escapes special chars in podcast title', () => {
-    const result = buildUpdatedFeed('', baseEpisode, baseUrl, specialCharsPodcast);
+    const result = buildUpdatedFeed('', baseEpisode, baseUrl, specialCharsPodcast, mockConfig);
     expect(result).toContain('Podcast &amp; Friends');
   });
 
   test("escapes ' in podcast author", () => {
-    const result = buildUpdatedFeed('', baseEpisode, baseUrl, specialCharsPodcast);
+    const result = buildUpdatedFeed('', baseEpisode, baseUrl, specialCharsPodcast, mockConfig);
     expect(result).toContain('Tyler&apos;s Show');
   });
 });

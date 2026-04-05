@@ -69,6 +69,7 @@
       "enabled": true,
       "killTheNewsletterFeedUrl": "https://kill-the-newsletter.com/feeds/poxbj6f42z66128xxi06.xml",
       "maxPerEpisode": 2,
+      "maxAgeDays": 10,
       "includeInDepthDiscussion": true
     }
   },
