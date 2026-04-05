@@ -2,6 +2,18 @@
 
 const { formatWeatherForSpeech } = require('../src/weather');
 
+// Test city — intentionally different from any real config value
+// so tests aren't tied to a specific deployment location.
+const TEST_CITY = 'Springfield';
+
+const baseWeather = {
+  temperature: '72',
+  condition: 'Sunny',
+  high: '80',
+  low: '60',
+  chanceOfRain: '0',
+};
+
 describe('formatWeatherForSpeech()', () => {
   // ─────────────────────────────────────────────
   // Error / unavailable weather
@@ -49,15 +61,9 @@ describe('formatWeatherForSpeech()', () => {
     expect(result).toContain("Today's high will be 85 with a low of 55");
   });
 
-  test('includes "in Austin" location reference', () => {
-    const result = formatWeatherForSpeech({
-      temperature: '72',
-      condition: 'Sunny',
-      high: '80',
-      low: '60',
-      chanceOfRain: '0',
-    });
-    expect(result).toContain('in Austin');
+  test('includes configured city in location reference', () => {
+    const result = formatWeatherForSpeech(baseWeather, TEST_CITY);
+    expect(result).toContain(`in ${TEST_CITY}`);
   });
 
   // ─────────────────────────────────────────────

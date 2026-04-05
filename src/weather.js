@@ -57,8 +57,10 @@ async function getChicagoWeather() {
 
 /**
  * Format weather for natural speech
+ * @param {Object} weather - Weather data
+ * @param {string} city - City name from config (defaults to 'Chicago')
  */
-function formatWeatherForSpeech(weather) {
+function formatWeatherForSpeech(weather, city = 'Chicago') {
   if (weather.error) {
     return "Weather data unavailable today";
   }
@@ -69,7 +71,7 @@ function formatWeatherForSpeech(weather) {
     speech += ` and ${weather.condition.toLowerCase()}`;
   }
 
-  speech += ` in Chicago. Today's high will be ${weather.high} with a low of ${weather.low}`;
+  speech += ` in ${city}. Today's high will be ${weather.high} with a low of ${weather.low}`;
 
   const rainChance = parseInt(weather.chanceOfRain);
   if (rainChance > 30) {
