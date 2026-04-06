@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-04-06",
+      "summary": "Witness a historic leap into deep space with today’s Artemis II lunar flyby and explore the shift into AI’s \"Agentic Era\" as digital tools transition from assistants to autonomous coworkers. The episode also dives into the \"Great Housing Mismatch\" currently shaping the real estate market and the infrastructure vulnerabilities exposed by recent heavy flooding.",
+      "keyTopics": [
+        "NASA Artemis II historic human lunar flyby",
+        "Anthropic Claude Code and the Agentic Era transition",
+        "Anthropic OpenClaw feature for third-party tool integration",
+        "SpaceX IPO potential impact on AI startup investment",
+        "Microsoft Copilot terms of use entertainment purposes disclaimer",
+        "The Great Housing Mismatch demographic inventory gap",
+        "Interstate 4 flooding and Central Florida infrastructure vulnerability"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-04-03",
       "summary": "Explore how AI giants are moving beyond code to shape culture and commerce, from OpenAI’s surprising acquisition of a business podcast to Microsoft’s launch of new foundational models that challenge the industry status quo. This episode also dives into the security fallout at Anthropic, Google’s latest AI-powered video features, and the growing divide between energy-hungry data centers and the rise of local, user-controlled AI tools.",
       "keyTopics": [
@@ -176,22 +193,6 @@
       ],
       "articles": [
         "How Decode and Conquer and Mock Interview Practice Landed a Dream Job in 60 Days"
-      ]
-    },
-    {
-      "date": "2026-03-17",
-      "summary": "Explore the staggering economic scale of the AI boom as Nvidia projects one trillion dollars in chip sales and the \"Agentic Era\" moves into the mainstream through new consumer marketplaces. This episode also breaks down the hidden security risks of \"indirect prompt injection\" that can turn helpful AI assistants into data thieves and highlights a cosmic discovery regarding the building blocks of life found on a distant asteroid.",
-      "keyTopics": [
-        "Nvidia trillion dollar Blackwell and Vera Rubin chip projections",
-        "Nvidia NemoClaw open enterprise AI agent platform",
-        "Picsart AI agent marketplace for consumer photo editing",
-        "Senator Elizabeth Warren presses Pentagon over xAI security risks",
-        "Indirect prompt injection attacks and AI data exfiltration",
-        "Ryugu asteroid samples contain DNA and RNA building blocks",
-        "Anduril twenty billion dollar military AI defense contract"
-      ],
-      "articles": [
-        "What Are Data Exfiltration Attacks on AI? A Plain English Guide"
       ]
     }
   ]
