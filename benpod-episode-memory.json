@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-04-06",
+      "summary": "Explore the shifting landscape of AI as foundational tools transition to paid models and major tech companies hedge their legal liability with surprising \"entertainment only\" disclaimers. This episode also dives into the bittersweet return of Stephen Curry to the hardwood and a significant military escalation in the Persian Gulf that has global analysts on high alert. From satellite-driven data \"gold rushes\" to France's strategic move to reclaim its gold reserves, get the essential briefing on the stories shaping the week ahead.",
+      "keyTopics": [
+        "Stephen Curry return to Golden State Warriors vs Rockets",
+        "Anthropic Claude Code monetization for third-party tool access",
+        "Xoople $130 million Series B for satellite AI data",
+        "Microsoft Copilot entertainment purposes only legal disclaimer",
+        "Iran shoots down U.S. fighter jet in Persian Gulf",
+        "France withdraws gold reserves from United States vaults",
+        "Goose open-source alternative to Anthropic Claude Code",
+        "Corsair rebranding and consolidation of Drop enthusiast brand"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Houston Rockets at Golden State Warriors",
+        "ESPN Warriors News::Warriors: Kevin Durant, Rockets spoil Stephen Curry's return from injury, beat Warriors 117-116",
+        "ESPN Giants News::Giants: Tony Vitello nets first MLB ejection as Giants fall to 3-7",
+        "Foreign Policy - Iran::Iran Shoots Down U.S. Fighter Jet, One Crew Member Still Missing",
+        "Foreign Policy - Iran::Why Trump’s Speech Was So Worrying",
+        "Foreign Policy - Iran::Iran’s Zarif Wants a Bilateral Reset With U.S. That the Gulf Can’t Accept"
+      ]
+    },
+    {
       "date": "2026-04-05",
       "summary": "Explore the rapidly shifting landscape of AI as Anthropic makes a massive move into biotech and Jack Dorsey reimagines the future of corporate leadership through autonomous agents. This episode also tracks the high-stakes return of NBA star Stephen Curry, Japan’s use of robotics to combat labor shortages, and a developing conflict of interest at the heart of U.S. environmental policy. From global shipping risks to the \"vibe coding\" revolution, we break down the stories defining the week ahead.",
       "keyTopics": [
@@ -274,27 +296,6 @@
         "ESPN Giants::Giants Recap: San Francisco Giants at Los Angeles Dodgers",
         "ESPN Warriors News::Warriors: Steve Kerr says Warriors know they are bound for play-in",
         "ESPN 49ers News::49ers: Bucs GM Licht not 'betrayed' by Evans leaving as free agent"
-      ]
-    },
-    {
-      "date": "2026-03-18",
-      "summary": "This episode explores a dangerous escalation in the Middle East following a direct strike on a top Iranian official and the Pentagon's controversial decision to blacklist safety-focused AI lab Anthropic. We also break down shifting wealth trends in the U.S. housing market, key primary results from Illinois politics, and the multi-million dollar roster move shaking up the NFL.",
-      "keyTopics": [
-        "Israel kills Iranian Intelligence Minister Esmail Khatib",
-        "Pentagon labels Anthropic a national security risk",
-        "Mistral launches Mistral Forge for custom AI training",
-        "Illinois primary sets Pritzker and Bailey gubernatorial rematch",
-        "Real estate wealth shift to Americans over seventy",
-        "Mike Evans signs three-year contract with San Francisco 49ers",
-        "Illinois legislative bill to block local sports betting taxes"
-      ],
-      "articles": [
-        "ESPN 49ers News::49ers: Breaking down Mike Evans' contract with the 49ers",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::The Populist International Is Falling Apart",
-        "Foreign Policy - Iran::Deepfakes are Already Shaping Opinions Around Conflicts",
-        "Foreign Policy - Iran::Making the U.S. More Resilient to Oil Price Shocks"
       ]
     }
   ]
