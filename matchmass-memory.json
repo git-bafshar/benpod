@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-04-06",
+      "summary": "Discover how a devastating double injury blow is derailing the Lakers’ postseason dreams and why Microsoft’s newest AI tools are officially labeled “for entertainment purposes only.” This episode also explores a $130 million race to map the Earth from space and the surprising irony of an ongoing digital blackout affecting local surf forecasts.",
+      "keyTopics": [
+        "Luka Doncic Grade 2 hamstring strain recovery timeline",
+        "Austin Reaves out for season with oblique injury",
+        "Microsoft Copilot entertainment purposes only service terms",
+        "Xoople raises 130 million dollars for satellite mapping",
+        "Surfline API outage affecting Santa Barbara coastal data",
+        "Cooper Flagg rookie scoring record against the Lakers"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Dallas Mavericks",
+        "ESPN Lakers News::Lakers: Doncic seeks treatment in Europe as he, Reaves target playoffs",
+        "ESPN Lakers News::Lakers: 2025-26 NBA championship and MVP odds: Lakers' championship odds tumble after Doncic injury",
+        "ESPN Lakers News::Lakers: Lakers lose Austin Reaves (oblique) for rest of regular season"
+      ]
+    },
+    {
       "date": "2026-04-03",
       "summary": "Explore a high-stakes morning as the Los Angeles Lakers reel from a historic blowout loss and a potentially season-altering injury to superstar Luka Doncic. In the world of tech, this episode dives into the messy damage control surrounding Anthropic’s massive source code leak and OpenAI’s surprising move into the media industry. We also break down Microsoft’s newest AI models and the irony of a high-tech world that still can't provide a reliable local surf report.",
       "keyTopics": [
@@ -202,24 +220,6 @@
         "Lakers secure NBA Western Conference third seed after victory",
         "Bifurcation of commercial AI safety versus military AI requirements",
         "Pentagon development of alternatives to Anthropic for warfighting"
-      ]
-    },
-    {
-      "date": "2026-03-17",
-      "summary": "Explore the Lakers' high-stakes defensive victory and what it means for their playoff positioning, alongside a deep dive into the rapidly expanding ecosystem of AI agents and the infrastructure supporting them. This episode also examines the growing social friction around self-driving cars in California and a groundbreaking discovery of life’s fundamental building blocks found on a distant asteroid.",
-      "keyTopics": [
-        "Lakers defeat Rockets to secure Western Conference third seed",
-        "Nvidia NemoClaw enterprise AI agent platform launch",
-        "Picsart specialized AI agent marketplace for creators",
-        "Worldcoin human identity verification for AI shopping agents",
-        "Gamma AI image generation tools targeting Canva and Adobe",
-        "Niv-AI $12 million funding for GPU power surge management",
-        "Protestor attacks on autonomous vehicles in California cities",
-        "Ryugu asteroid samples containing DNA and RNA building blocks"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Houston Rockets",
-        "ESPN Lakers News::Lakers: Doncic leads Lakers to a 100-92 victory over the Rockets for their sixth straight victory"
       ]
     }
   ]
