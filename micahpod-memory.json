@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-04-07",
+      "summary": "Discover how the AI race is going physical as industry giants secure massive energy resources while data centers emerge as strategic targets in global conflicts. This episode also explores the rise of private, on-device AI, radical policy proposals for a future \"AI economy,\" and the growing concern that automated tools may be standardizing human creativity.",
+      "keyTopics": [
+        "Anthropic partnership with Google and Broadcom for gigawatt computing",
+        "Google offline AI dictation app using Gemma models",
+        "Zero Shot venture capital fund founded by OpenAI alums",
+        "OpenAI policy paper on AI taxes and public wealth funds",
+        "Rocket startup automating McKinsey-style strategy and consulting reports",
+        "Developer complaints regarding Anthropic Claude Code performance degradation",
+        "Iran military threats against U.S. Stargate AI data centers",
+        "LLM impact on the standardization of human expression"
+      ]
+    },
+    {
       "date": "2026-04-06",
       "summary": "Witness a historic leap into deep space with today’s Artemis II lunar flyby and explore the shift into AI’s \"Agentic Era\" as digital tools transition from assistants to autonomous coworkers. The episode also dives into the \"Great Housing Mismatch\" currently shaping the real estate market and the infrastructure vulnerabilities exposed by recent heavy flooding.",
       "keyTopics": [
@@ -178,21 +192,6 @@
         "15 Meta PM Interview Questions Every Candidate Must Prepare For (2026)",
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-03-18",
-      "summary": "Explore the widening divide in the AI world between custom-built enterprise platforms and hyper-personalized assistants that integrate deeply with your private data. This episode also covers shifting military AI alliances, the rise of automation tools for non-coders, and practical strategies for navigating the competitive tech job market.",
-      "keyTopics": [
-        "Mistral Forge enterprise platform for custom AI models",
-        "Pentagon developing alternatives to Anthropic for defense",
-        "Google Personal Intelligence US rollout for AI assistant",
-        "Anthropic Cowork desktop agent for business professionals",
-        "BuzzFeed AI social apps debut at SXSW",
-        "Lewis Lin community mock interview career strategies"
-      ],
-      "articles": [
-        "How Decode and Conquer and Mock Interview Practice Landed a Dream Job in 60 Days"
       ]
     }
   ]
