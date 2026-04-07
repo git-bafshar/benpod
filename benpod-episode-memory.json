@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-04-07",
+      "summary": "Discover the latest developments in the global AI arms race as industry leaders secure unprecedented power for next-generation compute, while high-stakes geopolitical tensions reach a boiling point following a critical ultimatum in the Persian Gulf. This briefing also weighs the bittersweet return of NBA legend Stephen Curry against emerging developer concerns over the reliability of evolving AI software.",
+      "keyTopics": [
+        "Anthropic Google and Broadcom gigawatt compute partnership",
+        "Zero Shot venture fund founded by OpenAI alumni",
+        "US ultimatum to Iran regarding Strait of Hormuz",
+        "Stephen Curry return to Golden State Warriors lineup",
+        "Claude Code reliability regression and February update complaints",
+        "Private wealth direct investment in early stage AI"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Philadelphia Phillies at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Stephen Curry puts up 29 in return, nearly hands Warriors win",
+        "ESPN 49ers News::49ers: Will the 49ers trade, release or keep WR Brandon Aiyuk?",
+        "Foreign Policy - Iran::Iran, U.S. Reject Cease-Fire Proposals",
+        "Foreign Policy - Iran::Trump’s Rhetorical Terror",
+        "Foreign Policy - Iran::China’s Absence Draws America Deeper Into Risky Wars"
+      ]
+    },
+    {
       "date": "2026-04-06",
       "summary": "Explore the shifting landscape of AI as foundational tools transition to paid models and major tech companies hedge their legal liability with surprising \"entertainment only\" disclaimers. This episode also dives into the bittersweet return of Stephen Curry to the hardwood and a significant military escalation in the Persian Gulf that has global analysts on high alert. From satellite-driven data \"gold rushes\" to France's strategic move to reclaim its gold reserves, get the essential briefing on the stories shaping the week ahead.",
       "keyTopics": [
@@ -278,24 +298,6 @@
         "Foreign Policy - Iran::Israel Attacking Iran’s Energy ‘Wasn’t a Surprise’ to the Trump Administration",
         "Foreign Policy - Iran::The U.S. and Israel Aren’t Fighting the Same War",
         "Foreign Policy - Iran::Iran Can Afford America’s Economic Warfare"
-      ]
-    },
-    {
-      "date": "2026-03-19",
-      "summary": "Today’s episode explores the tightening grip of AI giants with OpenAI’s latest acquisition and a concerning data leak at Meta. We also break down the Golden State Warriors’ shift in expectations following a tough loss and a landmark legal victory for artistic expression involving rapper Afroman. Finally, we discuss a bold prediction for the future of technology: a world where AI agents replace traditional smartphone apps entirely.",
-      "keyTopics": [
-        "OpenAI acquisition of Astral AI team",
-        "Meta internal data leak from rogue AI agent",
-        "Steve Kerr concedes Warriors play-in tournament reality",
-        "Mike Evans officially joins San Francisco 49ers",
-        "Afroman court victory over police raid music video",
-        "Nothing CEO Carl Pei predicts AI agents replacing apps"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Golden State Warriors at Boston Celtics",
-        "ESPN Giants::Giants Recap: San Francisco Giants at Los Angeles Dodgers",
-        "ESPN Warriors News::Warriors: Steve Kerr says Warriors know they are bound for play-in",
-        "ESPN 49ers News::49ers: Bucs GM Licht not 'betrayed' by Evans leaving as free agent"
       ]
     }
   ]
