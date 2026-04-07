@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-04-07",
+      "summary": "Explore the Lakers' high-stakes gamble as they fly Luka Doncic to Spain for a last-ditch effort to save their postseason through specialized medical treatment. This episode also breaks down the technical backlash hitting Anthropic’s new developer tool and examines how key political endorsements are shifting the landscape of California’s congressional races.",
+      "keyTopics": [
+        "Luka Doncic specialized hamstring treatment in Barcelona Spain",
+        "Anthropic Claude Code performance issues and user lockouts",
+        "Zero Shot AI venture fund OpenAI alumni",
+        "Impact of Trump endorsements on California GOP candidates",
+        "Santa Barbara Surfline API service outage",
+        "Austin Reaves season ending oblique injury"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Doncic seeks treatment in Spain as he, Reaves target playoffs"
+      ]
+    },
+    {
       "date": "2026-04-06",
       "summary": "Discover how a devastating double injury blow is derailing the Lakers’ postseason dreams and why Microsoft’s newest AI tools are officially labeled “for entertainment purposes only.” This episode also explores a $130 million race to map the Earth from space and the surprising irony of an ongoing digital blackout affecting local surf forecasts.",
       "keyTopics": [
@@ -208,18 +223,6 @@
       "articles": [
         "ESPN Lakers News::Lakers: LeBron says no plans to be part of Vegas expansion team bid",
         "ESPN Lakers News::Lakers: Doncic drops 40, James adds 30 as Lakers stretch their streak to 7 with 124-116 win over Rockets"
-      ]
-    },
-    {
-      "date": "2026-03-18",
-      "summary": "This episode explores the growing rift between the Pentagon and Anthropic as national security concerns clash with AI safety protocols in the defense sector. We also examine Mistral’s new strategy for building sovereign enterprise AI from scratch and how a crowdsourced \"blind taste test\" is becoming the definitive ranking system for the world’s top language models.",
-      "keyTopics": [
-        "Pentagon labels Anthropic national security risk over safety features",
-        "Mistral Forge platform for training proprietary enterprise AI models",
-        "Large Model Systems Arena leaderboard for anonymous chatbot testing",
-        "Lakers secure NBA Western Conference third seed after victory",
-        "Bifurcation of commercial AI safety versus military AI requirements",
-        "Pentagon development of alternatives to Anthropic for warfighting"
       ]
     }
   ]
