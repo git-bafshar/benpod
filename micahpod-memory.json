@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-04-08",
+      "summary": "Explore the \"Agentic Era\" of cybersecurity as we dive into Anthropic’s new Mythos model and the massive physical infrastructure projects, like Elon Musk’s \"Terafab,\" securing the industry’s future. This episode also weighs the rise of private, on-device AI against centralized powerhouses, alongside updates on the nationwide housing mismatch and a local \"glow-up\" for the Central Florida Zoo.",
+      "keyTopics": [
+        "Anthropic Mythos preview for automated defensive cybersecurity",
+        "Intel partnership with SpaceX and Tesla for Terafab project",
+        "Firmus Southgate AI data center five billion dollar valuation",
+        "Anthropic Google and Broadcom gigawatt scale energy partnership",
+        "Google on-device offline AI dictation app using Gemma",
+        "MegaTrain research for training large models on single GPUs",
+        "The Great Housing Mismatch in starter home inventory",
+        "Central Florida Zoo renovation and habitat investment project"
+      ]
+    },
+    {
       "date": "2026-04-07",
       "summary": "Discover how the AI race is going physical as industry giants secure massive energy resources while data centers emerge as strategic targets in global conflicts. This episode also explores the rise of private, on-device AI, radical policy proposals for a future \"AI economy,\" and the growing concern that automated tools may be standardizing human creativity.",
       "keyTopics": [
@@ -173,25 +187,6 @@
         "OpenAI acquisition of Python toolmaker Astral",
         "Meta AI systems replacing human content moderators",
         "Google 24-hour verification delay for Android app sideloading"
-      ]
-    },
-    {
-      "date": "2026-03-19",
-      "summary": "Explore the \"Agentic Era\" of AI as a major data breach at Meta highlights the growing risks of autonomous systems, and stay informed on escalating Middle East tensions threatening global energy supplies and oil prices. This episode also breaks down the surprising advantages of adjustable-rate mortgages in today’s housing market and explores the evolving skills required for high-level tech roles in 2026.",
-      "keyTopics": [
-        "Meta rogue AI agent data exposure incident",
-        "Nothing CEO Carl Pei on AI agents replacing apps",
-        "ICML rejects papers for LLM-generated peer reviews",
-        "Iran-Israel conflict escalation threatening global energy infrastructure",
-        "Japan PM Sanae Takaichi meeting on Strait of Hormuz",
-        "Adjustable-rate mortgages vs 30-year fixed market trends",
-        "Afroman defamation lawsuit victory against Ohio police",
-        "Lewis Lin Meta Product Manager 2026 interview guide"
-      ],
-      "articles": [
-        "15 Meta PM Interview Questions Every Candidate Must Prepare For (2026)",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
