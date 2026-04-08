@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-08</title>
+      <description>Explore the Lakers’ dramatic season collapse as internal tensions boil over following a humiliating blowout loss to the Thunder. This episode also dives into the tech world’s latest bold claim that AGI has officially arrived, reframing the future of artificial intelligence as a practical reality rather than a sci-fi dream. Plus, get updates on new AI tools from Atlassian and Google, alongside a look at the persistent data outage frustrating Santa Barbara’s surf community.</description>
+      <pubDate>Wed, 08 Apr 2026 08:21:27 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-08-082127.mp3" length="3456576" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-08-082127.mp3</guid>
+      <itunes:duration>216</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-07</title>
       <description>Explore the Lakers&apos; high-stakes gamble as they fly Luka Doncic to Spain for a last-ditch effort to save their postseason through specialized medical treatment. This episode also breaks down the technical backlash hitting Anthropic’s new developer tool and examines how key political endorsements are shifting the landscape of California’s congressional races.</description>
       <pubDate>Tue, 07 Apr 2026 08:19:52 GMT</pubDate>
