@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-04-08",
+      "summary": "Stay informed on a major diplomatic breakthrough as a last-minute cease-fire temporarily halts escalating tensions between the U.S. and Iran in the Persian Gulf. This episode also explores the relentless march of AI, from massive infrastructure investments and new workflow integrations in apps like Confluence to a research breakthrough that could democratize model training. Finally, get the highlights from a high-stakes NBA showdown as the Golden State Warriors snap their losing streak in a dramatic home victory.",
+      "keyTopics": [
+        "U.S. and Iran two-week cease-fire agreement",
+        "Nvidia-backed Firmus AI data center 5.5 billion dollar valuation",
+        "MegaTrain research training large language models on single GPU",
+        "Atlassian Confluence visual AI tools and third-party agents",
+        "Google offline AI dictation app using Gemma models",
+        "Golden State Warriors defeat Sacramento Kings with Curry return",
+        "Arcee startup high-performing open-source large language model"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Sacramento Kings at Golden State Warriors",
+        "Foreign Policy - Iran::U.S. and Iran Agree to 2-Week Cease-Fire",
+        "Foreign Policy - Iran::Will Trump Attack or TACO?",
+        "Foreign Policy - Iran::Why Energy Has Become a Foreign-Policy Weapon"
+      ]
+    },
+    {
       "date": "2026-04-07",
       "summary": "Discover the latest developments in the global AI arms race as industry leaders secure unprecedented power for next-generation compute, while high-stakes geopolitical tensions reach a boiling point following a critical ultimatum in the Persian Gulf. This briefing also weighs the bittersweet return of NBA legend Stephen Curry against emerging developer concerns over the reliability of evolving AI software.",
       "keyTopics": [
@@ -278,26 +297,6 @@
         "Foreign Policy - Iran::Iran Is Becoming America’s Ukraine",
         "Foreign Policy - Iran::Iran’s Biggest Wartime Advantage Is Geography",
         "Foreign Policy - Iran::Iran Intensifies Strikes on Gulf Energy Facilities"
-      ]
-    },
-    {
-      "date": "2026-03-20",
-      "summary": "Dive into the \"physical\" side of the AI boom, exploring how industry leaders are spending billions to overhaul traditional factories and why the global energy grid is becoming the ultimate bottleneck for tech growth. This episode also breaks down a major military security breach caused by fitness apps, the latest content-policing shifts at Meta, and the long-term geopolitical strategies shaping current Middle East tensions.",
-      "keyTopics": [
-        "Jeff Bezos $100 billion industrial AI transformation fund",
-        "AI data center growth driving energy and grid investment",
-        "Cloudflare CEO prediction on 2027 bot traffic dominance",
-        "Meta AI systems for automated social media content enforcement",
-        "French aircraft carrier Charles de Gaulle fitness app leak",
-        "Israel strategy for strikes on Iran critical infrastructure",
-        "SF Giants pitcher Hayden Birdsong 2026 Tommy John surgery"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Colorado Rockies",
-        "ESPN Giants News::Giants: Giants' Hayden Birdsong to undergo Tommy John surgery, out for 2026",
-        "Foreign Policy - Iran::Israel Attacking Iran’s Energy ‘Wasn’t a Surprise’ to the Trump Administration",
-        "Foreign Policy - Iran::The U.S. and Israel Aren’t Fighting the Same War",
-        "Foreign Policy - Iran::Iran Can Afford America’s Economic Warfare"
       ]
     }
   ]
