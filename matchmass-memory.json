@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-04-08",
+      "summary": "Explore the Lakers’ dramatic season collapse as internal tensions boil over following a humiliating blowout loss to the Thunder. This episode also dives into the tech world’s latest bold claim that AGI has officially arrived, reframing the future of artificial intelligence as a practical reality rather than a sci-fi dream. Plus, get updates on new AI tools from Atlassian and Google, alongside a look at the persistent data outage frustrating Santa Barbara’s surf community.",
+      "keyTopics": [
+        "Lakers loss to Oklahoma City Thunder 123 to 87",
+        "JJ Redick and Jarred Vanderbilt heated sideline exchange",
+        "Matei Zaharia Databricks AGI is already here claim",
+        "Atlassian Confluence visual AI tools and third-party agents",
+        "Google offline AI dictation app using Gemma models",
+        "Luka Doncic specialized injury treatment in Spain",
+        "Surfline Santa Barbara County API outage continues"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Oklahoma City Thunder at Los Angeles Lakers",
+        "ESPN Lakers News::Lakers: Mavericks dispute Redick's claim they erred with Reaves' MRI",
+        "ESPN Lakers News::Lakers: LeBron out on Tuesday vs. Thunder",
+        "ESPN Lakers News::Lakers: LeBron walks back comments on Memphis, Milwaukee",
+        "ESPN Lakers News::Lakers: Stephen A.: The Lakers are going home in April without Luka and Reaves"
+      ]
+    },
+    {
       "date": "2026-04-07",
       "summary": "Explore the Lakers' high-stakes gamble as they fly Luka Doncic to Spain for a last-ditch effort to save their postseason through specialized medical treatment. This episode also breaks down the technical backlash hitting Anthropic’s new developer tool and examines how key political endorsements are shifting the landscape of California’s congressional races.",
       "keyTopics": [
@@ -206,23 +226,6 @@
       "articles": [
         "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Miami Heat",
         "ESPN Lakers News::Lakers: Luka Doncic scores 60, LeBron James ties games-played mark and Lakers top Heat for 8th straight win"
-      ]
-    },
-    {
-      "date": "2026-03-19",
-      "summary": "Stay updated on the Lakers’ dominant winning streak and LeBron James’ surprising decision to drop his bid for a Las Vegas expansion team. This episode also dives into the rapidly evolving AI landscape, covering OpenAI’s latest acquisition, the rise of \"app-less\" technology, and the security risks of rogue agents. Finally, explore the difficult cultural conversations emerging in California as the state re-evaluates the legacy of Cesar Chavez.",
-      "keyTopics": [
-        "Lakers seven-game winning streak and playoff positioning",
-        "LeBron James cancels Las Vegas NBA expansion ownership bid",
-        "Carl Pei predicts AI agents replacing smartphone apps",
-        "Meta internal data exposure via rogue AI agent",
-        "OpenAI acquires Astral and Ruff Python linter tool",
-        "ICML rejects papers over LLM-generated peer reviews",
-        "Cesar Chavez abuse allegations and California legacy re-evaluation"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: LeBron says no plans to be part of Vegas expansion team bid",
-        "ESPN Lakers News::Lakers: Doncic drops 40, James adds 30 as Lakers stretch their streak to 7 with 124-116 win over Rockets"
       ]
     }
   ]
