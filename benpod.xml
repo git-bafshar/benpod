@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-08</title>
+      <description>Stay informed on a major diplomatic breakthrough as a last-minute cease-fire temporarily halts escalating tensions between the U.S. and Iran in the Persian Gulf. This episode also explores the relentless march of AI, from massive infrastructure investments and new workflow integrations in apps like Confluence to a research breakthrough that could democratize model training. Finally, get the highlights from a high-stakes NBA showdown as the Golden State Warriors snap their losing streak in a dramatic home victory.</description>
+      <pubDate>Wed, 08 Apr 2026 09:47:23 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-08-094723.mp3" length="4888704" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-08-094723.mp3</guid>
+      <itunes:duration>306</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-07</title>
       <description>Discover the latest developments in the global AI arms race as industry leaders secure unprecedented power for next-generation compute, while high-stakes geopolitical tensions reach a boiling point following a critical ultimatum in the Persian Gulf. This briefing also weighs the bittersweet return of NBA legend Stephen Curry against emerging developer concerns over the reliability of evolving AI software.</description>
       <pubDate>Tue, 07 Apr 2026 09:46:31 GMT</pubDate>
