@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-04-09",
+      "summary": "Explore the \"reality check\" facing AI as we examine reliability flaws in top models and the rise of simplified agents that bring automation directly to your text messages. This episode also dives into the battle for digital discovery through new streaming integrations and the persistent economic stalemate currently cooling the housing market.",
+      "keyTopics": [
+        "Anthropic Claude attribution errors in meeting summaries",
+        "Poke startup text-message based AI agent launch",
+        "Astropad Workbench remote AI agent monitoring app",
+        "Tubi native streaming app integration in ChatGPT",
+        "Google DeepMind Gemma 4 open model announcement",
+        "US real estate stagnation from interest rate lock-in"
+      ]
+    },
+    {
       "date": "2026-04-08",
       "summary": "Explore the \"Agentic Era\" of cybersecurity as we dive into Anthropic’s new Mythos model and the massive physical infrastructure projects, like Elon Musk’s \"Terafab,\" securing the industry’s future. This episode also weighs the rise of private, on-device AI against centralized powerhouses, alongside updates on the nationwide housing mismatch and a local \"glow-up\" for the Central Florida Zoo.",
       "keyTopics": [
@@ -174,19 +186,6 @@
         "Anthropic $100 million Claude Partner Network investment",
         "AI data center energy demands and power grid bottlenecks",
         "eVTOL flying car regulatory progress and air corridors"
-      ]
-    },
-    {
-      "date": "2026-03-20",
-      "summary": "Explore the massive shift from \"bits to atoms\" as industry leaders prepare a $100 billion investment to overhaul traditional manufacturing with AI and robotics. This episode also examines the physical limits of the tech boom—from power grid bottlenecks to supply chain hurdles—and the startling forecast that AI agents will soon account for the majority of all internet traffic.",
-      "keyTopics": [
-        "Jeff Bezos $100 billion AI industrial manufacturing fund",
-        "AI data center power grid and energy constraints",
-        "3M PFAS phase-out impact on AI chip cooling",
-        "Cloudflare prediction of AI bot traffic exceeding humans",
-        "OpenAI acquisition of Python toolmaker Astral",
-        "Meta AI systems replacing human content moderators",
-        "Google 24-hour verification delay for Android app sideloading"
       ]
     }
   ]
