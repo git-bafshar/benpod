@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-09</title>
+      <description>Today’s episode explores the public implosion of the Lakers as coaching tensions and internal finger-pointing spill into the spotlight. Dive into the aggressive new battle lines drawn by Amazon in the AI infrastructure wars and the growing developer backlash regarding the reliability of Anthropic’s latest tools. Plus, discover how a unique sports program at San Quentin is creating a successful national model for prisoner rehabilitation.</description>
+      <pubDate>Thu, 09 Apr 2026 08:44:03 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-09-084403.mp3" length="3491328" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-09-084403.mp3</guid>
+      <itunes:duration>218</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-08</title>
       <description>Explore the Lakers’ dramatic season collapse as internal tensions boil over following a humiliating blowout loss to the Thunder. This episode also dives into the tech world’s latest bold claim that AGI has officially arrived, reframing the future of artificial intelligence as a practical reality rather than a sci-fi dream. Plus, get updates on new AI tools from Atlassian and Google, alongside a look at the persistent data outage frustrating Santa Barbara’s surf community.</description>
       <pubDate>Wed, 08 Apr 2026 08:21:27 GMT</pubDate>
