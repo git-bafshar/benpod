@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-04-09</title>
+      <description>Explore the &quot;reality check&quot; facing AI as we examine reliability flaws in top models and the rise of simplified agents that bring automation directly to your text messages. This episode also dives into the battle for digital discovery through new streaming integrations and the persistent economic stalemate currently cooling the housing market.</description>
+      <pubDate>Thu, 09 Apr 2026 08:59:41 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-09-085941.mp3" length="4552320" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-09-085941.mp3</guid>
+      <itunes:duration>285</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-04-08</title>
       <description>Explore the &quot;Agentic Era&quot; of cybersecurity as we dive into Anthropic’s new Mythos model and the massive physical infrastructure projects, like Elon Musk’s &quot;Terafab,&quot; securing the industry’s future. This episode also weighs the rise of private, on-device AI against centralized powerhouses, alongside updates on the nationwide housing mismatch and a local &quot;glow-up&quot; for the Central Florida Zoo.</description>
       <pubDate>Wed, 08 Apr 2026 08:57:54 GMT</pubDate>
