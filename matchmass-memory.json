@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-04-09",
+      "summary": "Today’s episode explores the public implosion of the Lakers as coaching tensions and internal finger-pointing spill into the spotlight. Dive into the aggressive new battle lines drawn by Amazon in the AI infrastructure wars and the growing developer backlash regarding the reliability of Anthropic’s latest tools. Plus, discover how a unique sports program at San Quentin is creating a successful national model for prisoner rehabilitation.",
+      "keyTopics": [
+        "Lakers coach JJ Redick publicly criticizes Deandre Ayton",
+        "Amazon CEO Andy Jassy annual shareholder letter AI strategy",
+        "AWS dual investment in rivals Anthropic and OpenAI",
+        "Anthropic Claude Code developer backlash and reliability concerns",
+        "San Quentin prison sports program rehabilitation model",
+        "Extended eight day Santa Barbara Surfline API outage"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Lakers' Redick downplays quarrel with Vanderbilt as 'normal'",
+        "ESPN Lakers News::Lakers: JJ Redick on Deandre Ayton: 'He's had trouble catching the ball'"
+      ]
+    },
+    {
       "date": "2026-04-08",
       "summary": "Explore the Lakers’ dramatic season collapse as internal tensions boil over following a humiliating blowout loss to the Thunder. This episode also dives into the tech world’s latest bold claim that AGI has officially arrived, reframing the future of artificial intelligence as a practical reality rather than a sci-fi dream. Plus, get updates on new AI tools from Atlassian and Google, alongside a look at the persistent data outage frustrating Santa Barbara’s surf community.",
       "keyTopics": [
@@ -209,23 +225,6 @@
         "ESPN Lakers News::Lakers: LeBron James breaks NBA mark for games played, Luke Kennard makes winning 3 in Lakers' win vs. Magic",
         "ESPN Lakers News::Lakers: Luka Doncic avoids suspension after 16th tech rescinded",
         "ESPN Lakers News::Lakers: Sources: Doncic seeking dismissal of child support petition"
-      ]
-    },
-    {
-      "date": "2026-03-20",
-      "summary": "Celebrate a historic night in the NBA as we break down Luka Doncic’s massive 60-point performance and LeBron James’s latest career milestone. This episode also explores California’s shifting cultural landscape with the proposal to rename Cesar Chavez Day, alongside a deep dive into Jeff Bezos’s $100 billion plan to overhaul global industry using AI. Finally, we look at the future of the internet as bot traffic rises and energy infrastructure becomes the new bottleneck for the tech revolution.",
-      "keyTopics": [
-        "Luka Doncic 60-point game for Los Angeles Lakers",
-        "LeBron James ties NBA record for total games played",
-        "California proposal renaming Cesar Chavez holiday to Farmworkers Day",
-        "Jeff Bezos hundred-billion-dollar industrial AI and robotics plan",
-        "Cloudflare CEO predicts AI bots outnumbering human internet traffic",
-        "Energy technology bottlenecks for large-scale AI data centers",
-        "Nvidia NemoClaw platform and autonomous AI agent trends"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Miami Heat",
-        "ESPN Lakers News::Lakers: Luka Doncic scores 60, LeBron James ties games-played mark and Lakers top Heat for 8th straight win"
       ]
     }
   ]
