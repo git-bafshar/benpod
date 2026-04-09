@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-04-09",
+      "summary": "Tensions rise as a fragile Mideast ceasefire faces immediate uncertainty, threatening to prolong global energy instability and supply chain disruptions. In the tech world, Amazon’s CEO signals an escalating \"AI infrastructure war\" with a massive $200 billion bet on the future of the cloud, while new startups emerge to challenge industry giants. The episode also explores the latest reliability hurdles for AI models and key highlights from the world of professional sports.",
+      "keyTopics": [
+        "US-Iran Persian Gulf cease-fire disagreement over Lebanon",
+        "Amazon CEO Andy Jassy AI infrastructure investment strategy",
+        "Railway $100 million Series B for AI-native cloud",
+        "Tubi launches native streaming app inside ChatGPT",
+        "Anthropic Claude speaker attribution and data reliability issues",
+        "Golden State Warriors victory and Steph Curry injury return",
+        "NBA investigation into Sacramento Kings tanking foul",
+        "San Francisco 49ers retain quarterback Mac Jones"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Curry scores 17 points with two 4-point plays in second game back from injury, Warriors beat Kings",
+        "ESPN Warriors News::Warriors: Sources: Kings' late foul was tactical error, not tanking",
+        "ESPN 49ers News::49ers: Breaking down 49ers' decision to not trade Mac Jones",
+        "Foreign Policy - Iran::Cease-Fire Confusion Over Lebanon",
+        "Foreign Policy - Iran::The One Thing That Terrifies Donald Trump",
+        "Foreign Policy - Iran::The Energy Crisis Won’t End Right Away (Even if the Iran War Does)"
+      ]
+    },
+    {
       "date": "2026-04-08",
       "summary": "Stay informed on a major diplomatic breakthrough as a last-minute cease-fire temporarily halts escalating tensions between the U.S. and Iran in the Persian Gulf. This episode also explores the relentless march of AI, from massive infrastructure investments and new workflow integrations in apps like Confluence to a research breakthrough that could democratize model training. Finally, get the highlights from a high-stakes NBA showdown as the Golden State Warriors snap their losing streak in a dramatic home victory.",
       "keyTopics": [
@@ -275,28 +297,6 @@
         "Foreign Policy - Iran::What Iran Wants From the War",
         "Foreign Policy - Iran::Lessons for Singapore From Trump’s War in Iran",
         "Foreign Policy - Iran::How Iran’s Deterrence Collapsed Ahead of the War"
-      ]
-    },
-    {
-      "date": "2026-03-23",
-      "summary": "This episode explores the intensifying AI chip wars as Amazon’s custom hardware becomes the essential infrastructure for industry giants like Apple and OpenAI. The discussion also analyzes the shift toward a long-term war of attrition in Iran and provides the latest updates on key injuries and roster moves across the NBA, MLB, and NFL.",
-      "keyTopics": [
-        "Amazon Trainium chips powered Anthropic, OpenAI, and Apple models",
-        "Elon Musk Tesla and SpaceX semiconductor fabrication partnership",
-        "Railway raises one hundred million dollar Series B",
-        "GitHub uptime struggles and three nines availability issues",
-        "Iran attritional war strategy targeting regional energy infrastructure",
-        "Stephen Curry returns to Golden State Warriors practice",
-        "San Francisco 49ers Trent Williams contract extension talks"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Stephen Curry (knee) gearing up for live contact in practice",
-        "ESPN Warriors News::Warriors: Kristaps Porzingis leaves Warriors' loss with lower back spasms",
-        "ESPN Giants News::Giants: Giants, veteran lefty Borucki reach agreement on 1-year deal",
-        "ESPN 49ers News::49ers: Sources: 49ers pass on Trent Williams option, eye deal",
-        "Foreign Policy - Iran::Iran Is Becoming America’s Ukraine",
-        "Foreign Policy - Iran::Iran’s Biggest Wartime Advantage Is Geography",
-        "Foreign Policy - Iran::Iran Intensifies Strikes on Gulf Energy Facilities"
       ]
     }
   ]
