@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-04-10",
+      "summary": "Explore the shifting landscape of AI as OpenAI introduces a new professional subscription tier and faces a landmark legal investigation in Florida over the potential misuse of its technology. This episode also analyzes Meta’s recent App Store surge, skepticism surrounding Anthropic’s newest safety claims, and the ongoing gridlock in the national real estate market.",
+      "keyTopics": [
+        "OpenAI launches $100 monthly ChatGPT Pro subscription tier",
+        "Florida Attorney General investigation into OpenAI following FSU shooting",
+        "Victim family lawsuit against OpenAI over ChatGPT misuse",
+        "Skepticism regarding Anthropic Mythos cybersecurity model safety narrative",
+        "Meta AI app climbs App Store after Muse Spark launch",
+        "Interest rate lock-in effect causes US housing market gridlock"
+      ]
+    },
+    {
       "date": "2026-04-09",
       "summary": "Explore the \"reality check\" facing AI as we examine reliability flaws in top models and the rise of simplified agents that bring automation directly to your text messages. This episode also dives into the battle for digital discovery through new streaming integrations and the persistent economic stalemate currently cooling the housing market.",
       "keyTopics": [
@@ -172,20 +184,6 @@
         "Google DeepMind Project Genie interactive world generation",
         "Senator Bernie Sanders Anthropic Claude AI interaction",
         "Air Street Capital $232 million AI venture fund"
-      ]
-    },
-    {
-      "date": "2026-03-23",
-      "summary": "This episode dives into the intensifying \"chip wars\" as tech titans like Amazon and Tesla shift toward custom silicon to power the next generation of AI infrastructure. It also provides a sobering reality check on the technology’s real-world limits, examining a failed retail experiment at Walmart and the massive energy demands of global data centers. Finally, the briefing looks toward the future of transportation with updates on flying cars and the latest trends in the real estate market.",
-      "keyTopics": [
-        "Tesla and SpaceX custom AI chip collaboration",
-        "Amazon Trainium chip lab and AI infrastructure investment",
-        "Railway $100 million AI-native cloud infrastructure funding",
-        "Cursor coding assistant reliance on Moonshot AI Kimi model",
-        "Walmart ChatGPT-powered checkout experiment conversion failure",
-        "Anthropic $100 million Claude Partner Network investment",
-        "AI data center energy demands and power grid bottlenecks",
-        "eVTOL flying car regulatory progress and air corridors"
       ]
     }
   ]
