@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-10</title>
+      <description>Explore how the Los Angeles Lakers’ blowout win over the Warriors—and Deandre Ayton’s response to public coaching pressure—has shifted the team&apos;s momentum. This episode also dives into OpenAI’s high-stakes week, balancing the launch of a new $100 subscription tier with mounting legal investigations and liability lobbying. From Meta’s app store surge to a mysterious local tech blackout affecting surf reports, get the latest on the intersection of sports, tech, and AI.</description>
+      <pubDate>Fri, 10 Apr 2026 07:57:59 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-10-075759.mp3" length="3800640" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-10-075759.mp3</guid>
+      <itunes:duration>238</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-09</title>
       <description>Today’s episode explores the public implosion of the Lakers as coaching tensions and internal finger-pointing spill into the spotlight. Dive into the aggressive new battle lines drawn by Amazon in the AI infrastructure wars and the growing developer backlash regarding the reliability of Anthropic’s latest tools. Plus, discover how a unique sports program at San Quentin is creating a successful national model for prisoner rehabilitation.</description>
       <pubDate>Thu, 09 Apr 2026 08:44:03 GMT</pubDate>
