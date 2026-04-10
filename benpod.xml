@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-10</title>
+      <description>Today’s episode explores OpenAI’s high-stakes legal battle over liability and its shifting business model, from a new $100 premium tier to the possibility of ads in ChatGPT. We also break down the fragile geopolitical situation in the Persian Gulf, a historic father-son milestone in the NBA, and the ambitious startup aiming to reinvent the bedrock of modern software development.</description>
+      <pubDate>Fri, 10 Apr 2026 09:18:57 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-10-091857.mp3" length="4786560" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-10-091857.mp3</guid>
+      <itunes:duration>299</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-09</title>
       <description>Tensions rise as a fragile Mideast ceasefire faces immediate uncertainty, threatening to prolong global energy instability and supply chain disruptions. In the tech world, Amazon’s CEO signals an escalating &quot;AI infrastructure war&quot; with a massive $200 billion bet on the future of the cloud, while new startups emerge to challenge industry giants. The episode also explores the latest reliability hurdles for AI models and key highlights from the world of professional sports.</description>
       <pubDate>Thu, 09 Apr 2026 09:55:53 GMT</pubDate>
