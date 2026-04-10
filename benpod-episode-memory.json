@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-04-10",
+      "summary": "Today’s episode explores OpenAI’s high-stakes legal battle over liability and its shifting business model, from a new $100 premium tier to the possibility of ads in ChatGPT. We also break down the fragile geopolitical situation in the Persian Gulf, a historic father-son milestone in the NBA, and the ambitious startup aiming to reinvent the bedrock of modern software development.",
+      "keyTopics": [
+        "Florida AG investigation into OpenAI and FSU shooting",
+        "OpenAI lobbying for AI mass-casualty liability protection bill",
+        "ChatGPT Pro 100 dollar per month subscription tier",
+        "Hacker News reports of potential ads in ChatGPT",
+        "U.S. and Iran Persian Gulf cease-fire fragmentation analysis",
+        "LeBron and Bronny James historic first NBA family assist",
+        "Mercor data breach fallout and enterprise client loss",
+        "Startup raising 17 million dollars to replace Git"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Los Angeles Lakers at Golden State Warriors",
+        "Foreign Policy - Iran::The Iran Cease-Fire Has Only Divided the War",
+        "Foreign Policy - Iran::How Ukraine Benefited from Trump’s Iran War",
+        "Foreign Policy - Iran::This Isn’t a 1970s Oil Shock"
+      ]
+    },
+    {
       "date": "2026-04-09",
       "summary": "Tensions rise as a fragile Mideast ceasefire faces immediate uncertainty, threatening to prolong global energy instability and supply chain disruptions. In the tech world, Amazon’s CEO signals an escalating \"AI infrastructure war\" with a massive $200 billion bet on the future of the cloud, while new startups emerge to challenge industry giants. The episode also explores the latest reliability hurdles for AI models and key highlights from the world of professional sports.",
       "keyTopics": [
@@ -276,27 +296,6 @@
       ],
       "articles": [
         "ESPN Warriors News::Warriors: Moses Moody out for season with torn patellar tendon in knee"
-      ]
-    },
-    {
-      "date": "2026-03-24",
-      "summary": "This episode breaks down the Golden State Warriors' bittersweet overtime victory and the devastating injury news that could reshape their push for the play-in tournament. We also explore a massive $75 million surge in AI investment alongside a critical security threat to developers, plus a strategic look at the shifting power dynamics and \"coercive bargaining\" in the Middle East.",
-      "keyTopics": [
-        "Moses Moody non-contact knee injury in Mavericks game",
-        "Steve Kerr rejects tanking and shutting down Stephen Curry",
-        "Mirage Captions AI video editing app $75 million funding",
-        "Agile Robots and Google DeepMind robotics partnership",
-        "LiteLLM open-source Python package supply-chain security attack",
-        "Iran coercive bargaining strategy targeting regional energy infrastructure",
-        "Foreign Policy analysis of Iran deterrence strategy collapse"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Golden State Warriors at Dallas Mavericks",
-        "ESPN Warriors News::Warriors: Warriors' Moses Moody suffers noncontact knee injury in OT win",
-        "ESPN Warriors News::Warriors: Kerr: Warriors will play Curry in play-in tourney if healthy",
-        "Foreign Policy - Iran::What Iran Wants From the War",
-        "Foreign Policy - Iran::Lessons for Singapore From Trump’s War in Iran",
-        "Foreign Policy - Iran::How Iran’s Deterrence Collapsed Ahead of the War"
       ]
     }
   ]
