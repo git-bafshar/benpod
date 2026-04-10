@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-04-10",
+      "summary": "Explore how the Los Angeles Lakers’ blowout win over the Warriors—and Deandre Ayton’s response to public coaching pressure—has shifted the team's momentum. This episode also dives into OpenAI’s high-stakes week, balancing the launch of a new $100 subscription tier with mounting legal investigations and liability lobbying. From Meta’s app store surge to a mysterious local tech blackout affecting surf reports, get the latest on the intersection of sports, tech, and AI.",
+      "keyTopics": [
+        "Lakers defeat Warriors as Deandre Ayton responds to JJ Redick",
+        "OpenAI launches $100 monthly ChatGPT Pro subscription tier",
+        "OpenAI lobbies Illinois for AI developer legal liability protections",
+        "Florida Attorney General investigates OpenAI regarding FSU shooting incident",
+        "Meta AI app reaches top five following Muse Spark release",
+        "Railway raises $100 million for AI-native cloud infrastructure",
+        "Ongoing Surfline API outage affecting Santa Barbara surf reports"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Golden State Warriors",
+        "ESPN Lakers News::Lakers: 2025-26 NBA championship and MVP odds: Lakers' title odds continue to lengthen"
+      ]
+    },
+    {
       "date": "2026-04-09",
       "summary": "Today’s episode explores the public implosion of the Lakers as coaching tensions and internal finger-pointing spill into the spotlight. Dive into the aggressive new battle lines drawn by Amazon in the AI infrastructure wars and the growing developer backlash regarding the reliability of Anthropic’s latest tools. Plus, discover how a unique sports program at San Quentin is creating a successful national model for prisoner rehabilitation.",
       "keyTopics": [
@@ -207,24 +224,6 @@
       ],
       "articles": [
         "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Detroit Pistons"
-      ]
-    },
-    {
-      "date": "2026-03-23",
-      "summary": "Explore the future of technology as OpenAI eyes nuclear fusion for its energy needs and mobile devices gain unprecedented on-device AI power. This episode also celebrates LeBron James’s historic NBA longevity record and breaks down major political shifts in California, from a controversial ballot seizure to the evolving legacy of Cesar Chavez.",
-      "keyTopics": [
-        "OpenAI and Helion nuclear fusion power purchase agreement",
-        "Elon Musk Tesla and SpaceX chip manufacturing plans",
-        "iPhone 17 Pro 400 billion parameter on-device LLM",
-        "Cursor AI model dependency on Moonshot Kimi model",
-        "LeBron James all-time NBA games played record",
-        "Northern California sheriff seizure of election ballots",
-        "California re-evaluation of Cesar Chavez historical legacy"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: LeBron James breaks NBA mark for games played, Luke Kennard makes winning 3 in Lakers' win vs. Magic",
-        "ESPN Lakers News::Lakers: Luka Doncic avoids suspension after 16th tech rescinded",
-        "ESPN Lakers News::Lakers: Sources: Doncic seeking dismissal of child support petition"
       ]
     }
   ]
