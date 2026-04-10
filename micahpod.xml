@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-04-10</title>
+      <description>Explore the shifting landscape of AI as OpenAI introduces a new professional subscription tier and faces a landmark legal investigation in Florida over the potential misuse of its technology. This episode also analyzes Meta’s recent App Store surge, skepticism surrounding Anthropic’s newest safety claims, and the ongoing gridlock in the national real estate market.</description>
+      <pubDate>Fri, 10 Apr 2026 08:45:55 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-10-084555.mp3" length="3919488" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-10-084555.mp3</guid>
+      <itunes:duration>245</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-04-09</title>
       <description>Explore the &quot;reality check&quot; facing AI as we examine reliability flaws in top models and the rise of simplified agents that bring automation directly to your text messages. This episode also dives into the battle for digital discovery through new streaming integrations and the persistent economic stalemate currently cooling the housing market.</description>
       <pubDate>Thu, 09 Apr 2026 08:59:41 GMT</pubDate>
