@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-11</title>
+      <description>This episode explores the tangible impacts of artificial intelligence, from a landmark stalking lawsuit against OpenAI to the massive energy demands data centers are placing on local power grids. The conversation also covers the fragile geopolitical situation in the Persian Gulf, shifting leverage for homebuyers in the real estate market, and major updates from the worlds of Northern California sports and aerospace.</description>
+      <pubDate>Sat, 11 Apr 2026 08:29:44 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-11-082944.mp3" length="5564352" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-11-082944.mp3</guid>
+      <itunes:duration>348</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-10</title>
       <description>Today’s episode explores OpenAI’s high-stakes legal battle over liability and its shifting business model, from a new $100 premium tier to the possibility of ads in ChatGPT. We also break down the fragile geopolitical situation in the Persian Gulf, a historic father-son milestone in the NBA, and the ambitious startup aiming to reinvent the bedrock of modern software development.</description>
       <pubDate>Fri, 10 Apr 2026 09:18:57 GMT</pubDate>
