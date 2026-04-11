@@ -1,6 +1,32 @@
 {
   "episodes": [
     {
+      "date": "2026-04-11",
+      "summary": "This episode explores the tangible impacts of artificial intelligence, from a landmark stalking lawsuit against OpenAI to the massive energy demands data centers are placing on local power grids. The conversation also covers the fragile geopolitical situation in the Persian Gulf, shifting leverage for homebuyers in the real estate market, and major updates from the worlds of Northern California sports and aerospace.",
+      "keyTopics": [
+        "OpenAI stalking victim lawsuit regarding ChatGPT misuse",
+        "OpenAI acquisition and shutdown of Cirrus Labs",
+        "Fragile US-Iran cease-fire and Strait of Hormuz conflict",
+        "Golden State Warriors rest Steph Curry for play-in",
+        "US housing market record seller price cuts",
+        "NASA Artemis II mission Orion capsule splashdown",
+        "Governor Pritzker data center power grid infrastructure proposal",
+        "Illinois House Bill 5408 reproductive healthcare grant"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Golden State Warriors at Sacramento Kings",
+        "ESPN Giants::Giants Recap: San Francisco Giants at Baltimore Orioles",
+        "ESPN Warriors News::Warriors: Steph, LeBron won't play in regular season as Warriors rest Curry",
+        "ESPN 49ers News::49ers: 49ers add depth to secondary, agree to deal with Jack Jones",
+        "ESPN 49ers News::49ers: Shanahan. Lynch will continue to remain with the 49ers",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Where Do the Gulf States Go From Here?",
+        "Foreign Policy - Iran::U.S.-Iran Peace Talks May Collapse Before They Even Begin",
+        "Foreign Policy - Iran::The Iran War’s Agriculture Shock Isn’t Over Yet"
+      ]
+    },
+    {
       "date": "2026-04-10",
       "summary": "Today’s episode explores OpenAI’s high-stakes legal battle over liability and its shifting business model, from a new $100 premium tier to the possibility of ads in ChatGPT. We also break down the fragile geopolitical situation in the Persian Gulf, a historic father-son milestone in the NBA, and the ambitious startup aiming to reinvent the bedrock of modern software development.",
       "keyTopics": [
@@ -279,23 +305,6 @@
         "Foreign Policy - Iran::Iran’s Peace Negotiator Is His Country’s Trump",
         "Foreign Policy - Iran::Empty Words Don’t Open Straits",
         "Foreign Policy - Iran::Four Things the Gulf States Will Expect From the U.S. After the Iran War"
-      ]
-    },
-    {
-      "date": "2026-03-25",
-      "summary": "Explore the massive $3.5 billion bet on the future of AI and the surprising shutdown of OpenAI’s Sora app as the industry shifts toward more practical, tool-based applications. This episode also breaks down a season-ending injury for the Golden State Warriors and dives into local Chicago insights, from transit safety to the preservation of Frank Lloyd Wright’s architectural masterpieces.",
-      "keyTopics": [
-        "Kleiner Perkins $3.5 billion AI venture capital fund",
-        "OpenAI shuts down Sora AI video social app",
-        "Meta generative AI shopping integration for Instagram and Facebook",
-        "Sift manufacturing data infrastructure for physical AI",
-        "Lucid Bots $20 million funding for power-washing drones",
-        "TurboQuant AI model compression and energy efficiency research",
-        "Moses Moody season-ending torn patellar tendon injury",
-        "Frank Lloyd Wright architectural preservation challenges in Chicago"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Moses Moody out for season with torn patellar tendon in knee"
       ]
     }
   ]
