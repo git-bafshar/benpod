@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-04-13",
+      "summary": "Explore the complex intersection of AI and national security as advanced cybersecurity models enter the banking sector and orbital data centers take compute power into space. This episode also dives into the rise of \"agentic\" workplace tools like the newly reimagined Slackbot, a viral $5,000 marketing stunt that sparked a $69 million fundraise, and the legislative friction surrounding data privacy. Finally, stay informed with updates on the upcoming hurricane season and the ongoing gridlock in the national real estate market.",
+      "keyTopics": [
+        "Anthropic Mythos cybersecurity model national security debate",
+        "Kepler Communications orbital compute cluster space GPUs",
+        "Salesforce AI agent Slackbot enterprise data integration",
+        "Listen Labs billboard hiring stunt and funding",
+        "Michigan digital age privacy legislation withdrawal",
+        "Anthropic Claude developer momentum at HumanX conference",
+        "Real estate market interest rate lock-in stagnation"
+      ]
+    },
+    {
       "date": "2026-04-10",
       "summary": "Explore the shifting landscape of AI as OpenAI introduces a new professional subscription tier and faces a landmark legal investigation in Florida over the potential misuse of its technology. This episode also analyzes Meta’s recent App Store surge, skepticism surrounding Anthropic’s newest safety claims, and the ongoing gridlock in the national real estate market.",
       "keyTopics": [
@@ -172,18 +185,6 @@
         "OpenAI shuts down Sora video generation social app",
         "Lucid Bots window-washing drone funding round",
         "Litellm Python developer tool supply chain security breach"
-      ]
-    },
-    {
-      "date": "2026-03-24",
-      "summary": "Discover how Apple is finally stepping into the AI ring with a major preview of its upcoming developer conference and the potential for powerful on-device models. We also dive into Google DeepMind’s latest innovations, including a partnership to bring AI to physical robots and a \"text-to-world\" model that generates interactive games from simple descriptions. Finally, the episode explores the importance of AI literacy in politics and the growing global landscape of venture capital funding.",
-      "keyTopics": [
-        "Apple WWDC June 8th AI advancements announcement",
-        "iPhone 17 Pro local 400 billion parameter model",
-        "Google DeepMind and Agile Robots robotics partnership",
-        "Google DeepMind Project Genie interactive world generation",
-        "Senator Bernie Sanders Anthropic Claude AI interaction",
-        "Air Street Capital $232 million AI venture fund"
       ]
     }
   ]
