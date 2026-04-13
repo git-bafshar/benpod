@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-04-13",
+      "summary": "Dive into the high-stakes drama of the Golden State Warriors’ postseason push following a tense regular-season finale and a looming do-or-die rematch against the Clippers. This episode also explores the frontiers of \"orbital computing\" with GPUs in space, the growing political battle over AI model trust, and a provocative debate on whether AI represents a new technological era or simply the final optimization of the current one.",
+      "keyTopics": [
+        "Golden State Warriors and Clippers play-in tournament matchup",
+        "Kepler Communications orbital GPU compute cluster launch",
+        "Trump campaign promotion of Anthropic Mythos model",
+        "Anthropic Department of Defense supply-chain risk designation",
+        "Anthropic Claude model developer adoption and HumanX buzz",
+        "AI as platform hyper-optimizer versus new digital wave",
+        "US-Iran Persian Gulf ceasefire and maritime stability"
+      ],
+      "articles": [
+        "ESPN Warriors::Warriors Recap: Golden State Warriors at LA Clippers",
+        "ESPN Warriors News::Warriors: Clippers beat the Warriors 115-110 to clinch No. 9 seed and play-in tourney rematch"
+      ]
+    },
+    {
       "date": "2026-04-11",
       "summary": "This episode explores the tangible impacts of artificial intelligence, from a landmark stalking lawsuit against OpenAI to the massive energy demands data centers are placing on local power grids. The conversation also covers the fragile geopolitical situation in the Persian Gulf, shifting leverage for homebuyers in the real estate market, and major updates from the worlds of Northern California sports and aerospace.",
       "keyTopics": [
@@ -282,29 +299,6 @@
         "Foreign Policy - Iran::Will Trump Put Boots on the Ground in Iran?",
         "Foreign Policy - Iran::An Iran Exit Plan",
         "Foreign Policy - Iran::G-7 Aims to Balance Addressing Russia-Ukraine, Iran Wars"
-      ]
-    },
-    {
-      "date": "2026-03-26",
-      "summary": "Explore a historic legal shift as a landmark jury verdict finds major tech platforms negligent for their addictive designs, signaling a potential ground-up redesign of social media. This episode also breaks down the rise of specialized AI tools, the Golden State Warriors' gritty push into the postseason, and the global ripple effects of stalling diplomatic talks on energy and the economy. From billion-dollar urban redevelopments to the cooling housing market, stay informed on the shifting tectonic plates of tech, sports, and policy.",
-      "keyTopics": [
-        "Meta and Google found negligent for addictive social media design",
-        "Cohere and Mistral release specialized open-source voice models",
-        "Senator Mark Warner proposes data center tax for workers",
-        "United Center 1901 Chicago neighborhood redevelopment project",
-        "Iran rejects peace proposal accelerating Southeast Asia nuclear pivot",
-        "U.S. mortgage rates reach three-month high of 6.22 percent",
-        "Golden State Warriors clinch NBA play-in tournament spot"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Brooklyn Nets at Golden State Warriors",
-        "ESPN Giants::Giants Recap: New York Yankees at San Francisco Giants",
-        "ESPN Warriors News::Warriors: Warriors hand the Nets their ninth straight loss with a 109-106 victory",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Iran’s Peace Negotiator Is His Country’s Trump",
-        "Foreign Policy - Iran::Empty Words Don’t Open Straits",
-        "Foreign Policy - Iran::Four Things the Gulf States Will Expect From the U.S. After the Iran War"
       ]
     }
   ]
