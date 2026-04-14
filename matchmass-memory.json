@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-04-14",
+      "summary": "After a week of internal turmoil, the Lakers have officially secured their playoff spot for a high-stakes first-round matchup against the Houston Rockets. This episode also dives into OpenAI’s strategic acquisition of a personal finance startup and a new report detailing the widening gap between AI's rapid advancement and growing public anxiety. Finally, we cover the political shockwave of Congressman Eric Swalwell’s sudden resignation and the ongoing mystery of a weeks-long surf data outage in Santa Barbara.",
+      "keyTopics": [
+        "Lakers vs Houston Rockets first round playoff matchup",
+        "OpenAI acquisition of personal finance startup Hiro",
+        "Stanford AI Index report highlights public anxiety gap",
+        "Congressman Eric Swalwell resignation after sex abuse accusations",
+        "Extended Surfline API data outage in Santa Barbara",
+        "Lakers internal conflict involving JJ Redick and Deandre Ayton"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: 2026 NBA playoffs: Schedule, scores, news and highlights"
+      ]
+    },
+    {
       "date": "2026-04-10",
       "summary": "Explore how the Los Angeles Lakers’ blowout win over the Warriors—and Deandre Ayton’s response to public coaching pressure—has shifted the team's momentum. This episode also dives into OpenAI’s high-stakes week, balancing the launch of a new $100 subscription tier with mounting legal investigations and liability lobbying. From Meta’s app store surge to a mysterious local tech blackout affecting surf reports, get the latest on the intersection of sports, tech, and AI.",
       "keyTopics": [
@@ -209,21 +224,6 @@
         "Lucid Bots $20 million funding for window-washing drones",
         "TurboQuant project for extreme AI model compression",
         "LA Lakers matchup against Toronto Raptors"
-      ]
-    },
-    {
-      "date": "2026-03-24",
-      "summary": "Explore the evolving AI landscape as startups challenge cloud giants with \"AI-native\" infrastructure and Google DeepMind takes its models into the physical world through a new robotics partnership. This episode also breaks down the end of the Lakers' nine-game winning streak and provides a critical update on a major security breach affecting popular AI developer tools.",
-      "keyTopics": [
-        "Railway raises $100 million for AI-native cloud infrastructure",
-        "Google DeepMind and Agile Robots robotics foundation model partnership",
-        "LiteLLM Python package targeted by supply-chain security attack",
-        "Detroit Pistons end Los Angeles Lakers nine-game winning streak",
-        "Daniss Jenkins 30-point performance leads Pistons over Lakers",
-        "LeBron James scoreless first half in loss to Detroit"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Detroit Pistons"
       ]
     }
   ]
