@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-04-14",
+      "summary": "Dive into the dawn of the \"agentic era\" as AI moves beyond simple chat to transform enterprise workflows and personal financial planning. This episode also breaks down the potential economic impact of escalating tensions with Iran and covers the latest national headlines in real estate, sports, and federal law.",
+      "keyTopics": [
+        "Microsoft enterprise autonomous agent development",
+        "Vercel potential IPO and AI app revenue surge",
+        "OpenAI acquisition of personal finance startup Hiro",
+        "Kepler Communications orbital GPU compute cluster launch",
+        "Stanford AI Index report public perception disconnect",
+        "US-Iran ceasefire ultimatum and naval blockade",
+        "Federal indictment in Anna Kepner murder case",
+        "Dick Vitale cancer diagnosis and sports world support"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-04-13",
       "summary": "Explore the complex intersection of AI and national security as advanced cybersecurity models enter the banking sector and orbital data centers take compute power into space. This episode also dives into the rise of \"agentic\" workplace tools like the newly reimagined Slackbot, a viral $5,000 marketing stunt that sparked a $69 million fundraise, and the legislative friction surrounding data privacy. Finally, stay informed with updates on the upcoming hurricane season and the ongoing gridlock in the national real estate market.",
       "keyTopics": [
@@ -173,18 +191,6 @@
         "Mistral efficient open-source speech generation model",
         "Data center water consumption and resource constraints",
         "Transitional Assistance programs for AI displaced workers"
-      ]
-    },
-    {
-      "date": "2026-03-25",
-      "summary": "Explore the massive surge in AI investment as Kleiner Perkins raises $3.5 billion and Anthropic pushes the boundaries of autonomy with its new semi-autonomous coding agents. This episode also examines the growing friction between digital expansion and physical reality, from a Kentucky family resisting a multi-million dollar data center land rush to OpenAI’s strategic closure of its Sora social app. Finally, discover how practical robotics is solving real-world problems and why developers must stay alert to new security vulnerabilities in the AI software supply chain.",
-      "keyTopics": [
-        "Kleiner Perkins three point five billion dollar AI fund",
-        "Anthropic Claude Code auto mode for autonomous development",
-        "Kentucky family rejects twenty-six million dollar data center offer",
-        "OpenAI shuts down Sora video generation social app",
-        "Lucid Bots window-washing drone funding round",
-        "Litellm Python developer tool supply chain security breach"
       ]
     }
   ]
