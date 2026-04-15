@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-04-15",
+      "summary": "Discover how a groundbreaking federal court ruling could turn your private AI chat history into a legal liability and why a major footwear brand is making a surprising pivot into the artificial intelligence sector. This episode also breaks down the high-stakes handicap facing the Golden State Warriors in tonight's must-win game and examines the complex new diplomatic front opening in the Middle East.",
+      "keyTopics": [
+        "Federal court ruling on AI attorney-client privilege",
+        "Anthropic Claude persistent service reliability outages",
+        "Vas Narasimhan joins Anthropic Long-Term Benefit Trust board",
+        "Allbirds rebrands as NewBird AI following pivot",
+        "Adobe Firefly AI assistant across Creative Cloud suite",
+        "Steph Curry minutes restriction in Warriors Clippers play-in",
+        "US-mediated Israel and Lebanon peace talks regarding Hezbollah"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Cincinnati Reds",
+        "ESPN Warriors News::Warriors: Curry to be on minutes restriction in Warriors' must-win play-in",
+        "ESPN 49ers News::49ers: Will the 49ers trade, release or keep WR Brandon Aiyuk?",
+        "Foreign Policy - Iran::Israel, Lebanon Hold Rare U.S.-Mediated Peace Talks on Hezbollah",
+        "Foreign Policy - Iran::On Iran, China Softens Its Approach",
+        "Foreign Policy - Iran::How to Navigate a Rogue America"
+      ]
+    },
+    {
       "date": "2026-04-13",
       "summary": "Dive into the high-stakes drama of the Golden State Warriors’ postseason push following a tense regular-season finale and a looming do-or-die rematch against the Clippers. This episode also explores the frontiers of \"orbital computing\" with GPUs in space, the growing political battle over AI model trust, and a provocative debate on whether AI represents a new technological era or simply the final optimization of the current one.",
       "keyTopics": [
@@ -280,25 +301,6 @@
         "Foreign Policy - Iran::Rubio: U.S.-Iran War Could Last Another 2 to 4 Weeks",
         "Foreign Policy - Iran::The Iran War’s Economic Winners and Losers",
         "Foreign Policy - Iran::Turkey’s Contested Homefront"
-      ]
-    },
-    {
-      "date": "2026-03-27",
-      "summary": "This episode explores the high-stakes legal battle between Anthropic and the U.S. government, alongside a new bipartisan push to hold data centers accountable for their soaring energy use. From Google’s tactical play for chatbot dominance to shifting military priorities in the Middle East, we cover the critical intersections of tech, policy, and global security. We also look at Wikipedia’s crackdown on AI-generated content and how consumer hardware is beginning to challenge the industry’s biggest models.",
-      "keyTopics": [
-        "Anthropic federal injunction against Trump administration AI restrictions",
-        "Google Gemini switching tools for easier chatbot data migration",
-        "Wikipedia community crackdown on AI-generated article content",
-        "Hawley and Warren bipartisan data center energy transparency push",
-        "U.S. troop buildup in Middle East to deter Iran",
-        "OpenAI abandons ChatGPT erotic mode for enterprise safety focus",
-        "Consumer GPU outperforming Claude Sonnet on AI coding benchmarks",
-        "G-7 concerns regarding potential U.S. deprioritization of Ukraine"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::Will Trump Put Boots on the Ground in Iran?",
-        "Foreign Policy - Iran::An Iran Exit Plan",
-        "Foreign Policy - Iran::G-7 Aims to Balance Addressing Russia-Ukraine, Iran Wars"
       ]
     }
   ]
