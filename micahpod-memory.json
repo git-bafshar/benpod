@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-04-15",
+      "summary": "Explore the shifting dynamics of the AI industry as investors re-evaluate the massive valuations of OpenAI against the strategic rise of Anthropic in the enterprise market. This episode also dives into Google’s push for private, offline AI on mobile devices and the emergence of AI-native cloud infrastructure designed to challenge the tech giants. Additionally, get the latest updates on neural implants, national cybersecurity briefings, and the persistent \"golden handcuffs\" stalling the real estate market.",
+      "keyTopics": [
+        "OpenAI trillion dollar valuation versus Anthropic enterprise value",
+        "Google Gemma 4 running natively and offline on iPhone",
+        "Google Chrome AI Skills for saving reusable prompts",
+        "Anthropic Mythos cybersecurity briefing for the Trump administration",
+        "Railway AI-native cloud infrastructure challenges AWS",
+        "Science Corp human brain sensory implant preparations",
+        "US real estate market stagnation and mortgage rate gridlock"
+      ]
+    },
+    {
       "date": "2026-04-14",
       "summary": "Dive into the dawn of the \"agentic era\" as AI moves beyond simple chat to transform enterprise workflows and personal financial planning. This episode also breaks down the potential economic impact of escalating tensions with Iran and covers the latest national headlines in real estate, sports, and federal law.",
       "keyTopics": [
@@ -179,18 +192,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-03-26",
-      "summary": "This episode explores the growing friction between AI’s digital promise and its physical reality, covering everything from proposed \"pound of flesh\" taxes on data centers to the massive water and energy costs of fueling the boom. Discover why a widening \"skills gap\" may be a more immediate threat than job replacement and get a reality check on whether AI-powered tools are actually producing high-impact software or just experimental noise.",
-      "keyTopics": [
-        "Senator Mark Warner data center tax proposal",
-        "Anthropic study on AI workforce skills gap",
-        "Claude Code GitHub analysis of project impact",
-        "Mistral efficient open-source speech generation model",
-        "Data center water consumption and resource constraints",
-        "Transitional Assistance programs for AI displaced workers"
       ]
     }
   ]
