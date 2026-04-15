@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-04-15",
+      "summary": "Explore the \"wild west\" of the AI gold rush, from a footwear giant’s shocking business pivot to a landmark court ruling that changes the rules for digital privacy. This episode also breaks down the latest trends in enterprise productivity and provides a high-stakes update on the Lakers’ playoff prospects as they face a critical injury blow.",
+      "keyTopics": [
+        "Allbirds rebrands as NewBird AI following business pivot",
+        "New York court ruling on AI attorney-client privilege",
+        "Adobe Firefly AI integration across Creative Cloud apps",
+        "Luka Doncic Grade 2 hamstring injury Lakers update",
+        "Anthropic Claude Code reliability and recurring outages",
+        "Reid Hoffman critique of tokenmaxxing productivity metrics",
+        "Prolonged Santa Barbara Surfline API technical outage"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Redick gives no Doncic update as Lakers' playoff prep begins",
+        "ESPN Lakers News::Lakers: Doncic to return from Spain on Friday; status still unknown"
+      ]
+    },
+    {
       "date": "2026-04-14",
       "summary": "After a week of internal turmoil, the Lakers have officially secured their playoff spot for a high-stakes first-round matchup against the Houston Rockets. This episode also dives into OpenAI’s strategic acquisition of a personal finance startup and a new report detailing the widening gap between AI's rapid advancement and growing public anxiety. Finally, we cover the political shockwave of Congressman Eric Swalwell’s sudden resignation and the ongoing mystery of a weeks-long surf data outage in Santa Barbara.",
       "keyTopics": [
@@ -212,18 +229,6 @@
         "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Indiana Pacers",
         "ESPN Lakers News::Lakers: Luka Doncic scores 43 as Lakers beat Pacers 137-130 with Caitlin Clark snapping photos",
         "ESPN Lakers News::Lakers: McNutt: Lakers no longer a 'LeBron James-led' team"
-      ]
-    },
-    {
-      "date": "2026-03-25",
-      "summary": "Explore the shift toward practical AI as Meta integrates new shopping tools for small businesses and specialized robots take on physical tasks like window washing. This episode also dives into the surprising crossover in AI development tools and the efficiency breakthroughs bringing powerful models to mobile devices. Finally, get a quick update on the Lakers' pursuit of a bounce-back win against the Raptors.",
-      "keyTopics": [
-        "Meta generative AI for Instagram and Facebook shopping",
-        "Granola AI meeting notetaker $1.5 billion valuation",
-        "OpenAI developers using Anthropic Claude for code generation",
-        "Lucid Bots $20 million funding for window-washing drones",
-        "TurboQuant project for extreme AI model compression",
-        "LA Lakers matchup against Toronto Raptors"
       ]
     }
   ]
