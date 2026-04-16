@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-04-16",
+      "summary": "Explore how the global scramble for AI hardware is hitting consumer wallets with Meta’s latest price hikes and potentially reshaping Hollywood’s filmmaking model. This episode also dives into the latest AI-driven design tools from Canva, Google’s systemic crackdown on \"bad ads,\" and the major injury news shaking up the Lakers’ playoff run.",
+      "keyTopics": [
+        "Meta Quest price hike due to RAM shortage",
+        "Runway CEO on AI transforming filmmaking economics",
+        "Google shifts to systemic pattern-based ad blocking",
+        "Canva AI assistant text to editable design feature",
+        "Luka Doncic Grade 2 hamstring strain injury",
+        "Ongoing Surfline API data blackout in Santa Barbara"
+      ]
+    },
+    {
       "date": "2026-04-15",
       "summary": "Explore the \"wild west\" of the AI gold rush, from a footwear giant’s shocking business pivot to a landmark court ruling that changes the rules for digital privacy. This episode also breaks down the latest trends in enterprise productivity and provides a high-stakes update on the Lakers’ playoff prospects as they face a critical injury blow.",
       "keyTopics": [
@@ -212,23 +224,6 @@
         "Alleged Iranian hack of FBI Director personal email",
         "United Airlines California mid-air collision near miss",
         "Lakers Western Conference playoff seeding and rest strategy"
-      ]
-    },
-    {
-      "date": "2026-03-26",
-      "summary": "Catch up on the Lakers’ surge to the third seed in the West following a dominant performance and the arrival of new, privacy-focused AI models that bring powerful speech tools directly to your personal devices. This episode also dives into the heated debate over taxing data centers to support workers displaced by technology and examines shifting political trends within California's agricultural communities.",
-      "keyTopics": [
-        "Lakers move to third seed in Western Conference",
-        "Luka Doncic 43 point performance against Indiana Pacers",
-        "Cohere open-source voice transcription model for local devices",
-        "Mistral speech generation model for on-device efficiency",
-        "Senator Mark Warner proposes data center tax for workers",
-        "Shifting Latino political support in California agricultural communities"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Indiana Pacers",
-        "ESPN Lakers News::Lakers: Luka Doncic scores 43 as Lakers beat Pacers 137-130 with Caitlin Clark snapping photos",
-        "ESPN Lakers News::Lakers: McNutt: Lakers no longer a 'LeBron James-led' team"
       ]
     }
   ]
