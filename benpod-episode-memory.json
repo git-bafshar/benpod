@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-04-16",
+      "summary": "Stay ahead of the curve with an inside look at the escalating AI arms race, from Anthropic’s newest flagship model to the ways the industry boom is driving up consumer hardware prices. This episode also breaks down the Golden State Warriors’ massive playoff comeback, provides critical updates on the ComEd bribery case, and examines a provocative new analysis of Middle Eastern security strategy.",
+      "keyTopics": [
+        "Anthropic Claude Opus 4.7 flagship model release",
+        "Vas Narasimhan joins Anthropic Long-Term Benefit Trust board",
+        "Google DeepMind Gemma 4 open-source model launch",
+        "Google Gemini Robotics-ER 1.6 embodied reasoning update",
+        "Meta Quest 3 price hike caused by RAM shortage",
+        "Warriors playoff play-in comeback victory against Clippers",
+        "ComEd Four bribery case sentencing and appeals update",
+        "Analysis of Israel post-October 7th security doctrine failure"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Stephen Curry, Al Horford lead Warriors past Clippers 126-121 with a huge play-in comeback",
+        "ESPN Giants News::Giants: Giants put outfielders Bader (hamstring), Oliva (wrist) on IL",
+        "ESPN 49ers News::49ers: Renardo Green could be on the trade block",
+        "Foreign Policy - Iran::Why Israel’s Post-Oct. 7 Security Doctrine Has Failed"
+      ]
+    },
+    {
       "date": "2026-04-15",
       "summary": "Discover how a groundbreaking federal court ruling could turn your private AI chat history into a legal liability and why a major footwear brand is making a surprising pivot into the artificial intelligence sector. This episode also breaks down the high-stakes handicap facing the Golden State Warriors in tonight's must-win game and examines the complex new diplomatic front opening in the Middle East.",
       "keyTopics": [
@@ -279,28 +299,6 @@
         "Foreign Policy - Iran::Trump Claims ‘Great Progress’ in Iran Peace Talks",
         "Foreign Policy - Iran::The Houthis Are Now in the War—But How Deep?",
         "Foreign Policy - Iran::Trump Is Losing the War in Iran"
-      ]
-    },
-    {
-      "date": "2026-03-30",
-      "summary": "This episode dives into the massive financial \"gold rush\" fueling AI infrastructure, exploring everything from space-based data centers to the rising environmental and regulatory costs of the industry. We also track the Golden State Warriors’ struggle to find an identity on the court and analyze a significant shift in the projected timeline of the U.S.-Iran conflict. From high-stakes tech investments to the latest in professional sports, stay informed on the key stories shaping the start of the week.",
-      "keyTopics": [
-        "Mistral 830 million dollar debt for Paris data center",
-        "Starcloud 170 million dollar funding for space data centers",
-        "Bipartisan Hawley-Warren data center energy transparency bill",
-        "Golden State Warriors struggles during Stephen Curry injury absence",
-        "49ers GM John Lynch Trent Williams contract update",
-        "Senator Marco Rubio U.S.-Iran war two-to-four-week timeline",
-        "Qodo 70 million dollar funding for AI code verification"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Golden State Warriors at Denver Nuggets",
-        "ESPN Warriors News::Warriors: Warriors' Stephen Curry out 2 more games due to lingering knee issue",
-        "ESPN 49ers News::49ers: 49ers' John Lynch: Positive momentum on Trent Williams front",
-        "ESPN 49ers News::49ers: Lynch says 49ers' injury conspiracy a 'big nothing burger'",
-        "Foreign Policy - Iran::Rubio: U.S.-Iran War Could Last Another 2 to 4 Weeks",
-        "Foreign Policy - Iran::The Iran War’s Economic Winners and Losers",
-        "Foreign Policy - Iran::Turkey’s Contested Homefront"
       ]
     }
   ]
