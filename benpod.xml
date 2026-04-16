@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-16</title>
+      <description>Stay ahead of the curve with an inside look at the escalating AI arms race, from Anthropic’s newest flagship model to the ways the industry boom is driving up consumer hardware prices. This episode also breaks down the Golden State Warriors’ massive playoff comeback, provides critical updates on the ComEd bribery case, and examines a provocative new analysis of Middle Eastern security strategy.</description>
+      <pubDate>Thu, 16 Apr 2026 10:16:16 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-16-101616.mp3" length="4240320" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-16-101616.mp3</guid>
+      <itunes:duration>265</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-15</title>
       <description>Discover how a groundbreaking federal court ruling could turn your private AI chat history into a legal liability and why a major footwear brand is making a surprising pivot into the artificial intelligence sector. This episode also breaks down the high-stakes handicap facing the Golden State Warriors in tonight&apos;s must-win game and examines the complex new diplomatic front opening in the Middle East.</description>
       <pubDate>Wed, 15 Apr 2026 09:47:48 GMT</pubDate>
