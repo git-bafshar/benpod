@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-04-16",
+      "summary": "Explore the dawn of the \"agentic era\" as AI evolves from a passive assistant into an active collaborator capable of creating layered designs and conducting real-time voice translations. This episode dives into the massive funding and strategic shifts behind AI-native infrastructure and robotics, highlighting how companies like Anthropic are positioning themselves for high-stakes enterprise markets. We wrap up with a look at the current \"golden handcuffs\" effect causing a standoff in the national real estate market.",
+      "keyTopics": [
+        "Canva text-to-layered design AI assistant update",
+        "DeepL real-time voice translation for Zoom and Teams",
+        "OpenAI Agents SDK update for enterprise agent development",
+        "Hightouch $100M ARR milestone via marketing AI agent platform",
+        "Railway $100M Series B for AI-native cloud infrastructure",
+        "Antioch robot simulation platform for physical AI training",
+        "Anthropic appoints Novartis CEO Vas Narasimhan to trust board",
+        "US real estate stagnation and mortgage rate golden handcuffs"
+      ]
+    },
+    {
       "date": "2026-04-15",
       "summary": "Explore the shifting dynamics of the AI industry as investors re-evaluate the massive valuations of OpenAI against the strategic rise of Anthropic in the enterprise market. This episode also dives into Google’s push for private, offline AI on mobile devices and the emergence of AI-native cloud infrastructure designed to challenge the tech giants. Additionally, get the latest updates on neural implants, national cybersecurity briefings, and the persistent \"golden handcuffs\" stalling the real estate market.",
       "keyTopics": [
@@ -174,24 +188,6 @@
         "OpenAI Sora video app shutdown and data speculation",
         "Senator Warner proposed tax on terrestrial data centers",
         "NASA Artemis program moonshot and regional impact"
-      ]
-    },
-    {
-      "date": "2026-03-27",
-      "summary": "This episode explores the evolution of AI from simple chatbots to autonomous \"coworkers,\" highlighted by Anthropic’s major legal victory and the rise of new \"agentic\" tools for the desktop. We also dive into the real-world implications of a changing landscape, including a bipartisan push to track data center energy usage, a cooling national housing market, and the debut of \"robot umpires\" in professional baseball.",
-      "keyTopics": [
-        "Anthropic federal injunction against Trump administration DoD contract",
-        "Google Gemini chatbot data switching tools launch",
-        "OpenAI discontinuation of ChatGPT erotic mode",
-        "Anthropic Cowork desktop agent and Claude Code",
-        "Salesforce autonomous AI Slackbot agent release",
-        "Hawley and Warren data center energy reporting bill",
-        "US Senate partial government shutdown DHS funding deal",
-        "MLB Automated Ball-Strike System robot umpire debut"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
