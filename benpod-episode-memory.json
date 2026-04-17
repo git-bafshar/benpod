@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-04-17",
+      "summary": "Explore the intensifying rivalry between OpenAI and Anthropic as the AI arms race shifts from simple chatbots to autonomous agents with direct power over your desktop. This episode breaks down the massive wave of venture capital flooding the industry and examines the real-world consequences of this boom, from strained power grids and \"data center divides\" to shifting local policies.",
+      "keyTopics": [
+        "Anthropic Claude Opus 4.7 flagship model release",
+        "OpenAI Codex update with desktop agent capabilities",
+        "Google Gemma 4 open-source and robotics model updates",
+        "AI infrastructure startup valuations for Factory and Upscale AI",
+        "Axios report on Anthropic peace talks with AI labs",
+        "Illinois data center energy demand and power grid conflict",
+        "Proposed Chicago city penalties for homeless individuals"
+      ]
+    },
+    {
       "date": "2026-04-16",
       "summary": "Stay ahead of the curve with an inside look at the escalating AI arms race, from Anthropic’s newest flagship model to the ways the industry boom is driving up consumer hardware prices. This episode also breaks down the Golden State Warriors’ massive playoff comeback, provides critical updates on the ComEd bribery case, and examines a provocative new analysis of Middle Eastern security strategy.",
       "keyTopics": [
@@ -274,31 +287,6 @@
         "Foreign Policy - Iran::Trump’s Iran War Is a Dilemma, Not a Debacle",
         "Foreign Policy - Iran::Iran Flexes Its Cyber Chops",
         "Foreign Policy - Iran::Iran Says It Will Target U.S. Tech Companies in the Middle East"
-      ]
-    },
-    {
-      "date": "2026-03-31",
-      "summary": "Today’s episode explores a major security breach at Anthropic that has exposed the proprietary source code for its flagship coding tool, raising urgent questions about the industry's rapid growth versus its foundational security. The discussion also navigates the contradictory signals surrounding U.S.-Iran peace talks, the rising energy demands of AI infrastructure, and the latest bombshell rumors in the world of professional sports.",
-      "keyTopics": [
-        "Anthropic Claude Code source code leak",
-        "Railway $100M raise for AI-native cloud infrastructure",
-        "Runway $10M fund for AI video ecosystem",
-        "Conflicting White House signals on Iran peace negotiations",
-        "Senators Hawley and Warren data center energy bill",
-        "Ring app store for AI-powered home monitoring",
-        "LeBron James Golden State Warriors free agency rumors",
-        "San Francisco 49ers Brandon Aiyuk contract negotiations"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at San Diego Padres",
-        "ESPN Warriors News::Warriors: Next for LeBron? NBA insiders on Lakers, Cavs, free agency options",
-        "ESPN Giants News::Giants: Brewers acquire outfielder Luis Matos from Giants for cash",
-        "ESPN 49ers News::49ers: 49ers coach, owner deliver mixed messages on Aiyuk's future",
-        "ESPN 49ers News::49ers: Kyle Shanahan says Niners get no 'benefit' from Australia trip",
-        "ESPN 49ers News::49ers: 49ers' Shanahan aims to lighten McCaffrey's workload",
-        "Foreign Policy - Iran::Trump Claims ‘Great Progress’ in Iran Peace Talks",
-        "Foreign Policy - Iran::The Houthis Are Now in the War—But How Deep?",
-        "Foreign Policy - Iran::Trump Is Losing the War in Iran"
       ]
     }
   ]
