@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-04-17",
+      "summary": "Discover how the \"AI agent wars\" are heating up as tech giants race for desktop control and robots gain the ability to think for themselves through groundbreaking new reasoning models. This episode also dives into the record-breaking venture capital flooding the AI sector and the \"golden handcuffs\" keeping the national housing market in a state of gridlock.",
+      "keyTopics": [
+        "OpenAI Codex update with desktop agent capabilities",
+        "Anthropic Claude Opus 4.7 flagship model release",
+        "Physical Intelligence π0.7 general-purpose robot brain",
+        "Google Gemini Robotics-ER 1.6 embodied reasoning research",
+        "Factory $150 million funding and $1.5 billion valuation",
+        "Upscale AI $2 billion infrastructure funding talks",
+        "Cloudflare AI platform for autonomous agent deployment",
+        "Real estate market mortgage rate golden handcuffs standoff"
+      ]
+    },
+    {
       "date": "2026-04-16",
       "summary": "Explore the dawn of the \"agentic era\" as AI evolves from a passive assistant into an active collaborator capable of creating layered designs and conducting real-time voice translations. This episode dives into the massive funding and strategic shifts behind AI-native infrastructure and robotics, highlighting how companies like Anthropic are positioning themselves for high-stakes enterprise markets. We wrap up with a look at the current \"golden handcuffs\" effect causing a standoff in the national real estate market.",
       "keyTopics": [
@@ -175,19 +189,6 @@
         "ScaleOps raises $130 million for AI infrastructure efficiency",
         "Railway secures $100 million for AI-native cloud platform",
         "Mantis Biotech develops synthetic digital twins for medical research"
-      ]
-    },
-    {
-      "date": "2026-03-30",
-      "summary": "This episode explores the evolving physical landscape of AI infrastructure, from ambitious plans to launch data centers into orbit to the massive push for vertically integrated facilities on Earth. Discover the rise of \"second-order\" AI startups focusing on code verification and customer research, along with a deep dive into the mystery surrounding the sudden shutdown of OpenAI’s Sora video app.",
-      "keyTopics": [
-        "Starcloud Series A for space-based data centers",
-        "Mistral $830 million debt facility for Paris data center",
-        "Qodo AI code verification and auditing tools",
-        "Listen Labs AI customer interview analysis platform",
-        "OpenAI Sora video app shutdown and data speculation",
-        "Senator Warner proposed tax on terrestrial data centers",
-        "NASA Artemis program moonshot and regional impact"
       ]
     }
   ]
