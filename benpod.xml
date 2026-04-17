@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-17</title>
+      <description>Explore the intensifying rivalry between OpenAI and Anthropic as the AI arms race shifts from simple chatbots to autonomous agents with direct power over your desktop. This episode breaks down the massive wave of venture capital flooding the industry and examines the real-world consequences of this boom, from strained power grids and &quot;data center divides&quot; to shifting local policies.</description>
+      <pubDate>Fri, 17 Apr 2026 09:22:26 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-17-092226.mp3" length="4134720" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-17-092226.mp3</guid>
+      <itunes:duration>258</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-16</title>
       <description>Stay ahead of the curve with an inside look at the escalating AI arms race, from Anthropic’s newest flagship model to the ways the industry boom is driving up consumer hardware prices. This episode also breaks down the Golden State Warriors’ massive playoff comeback, provides critical updates on the ComEd bribery case, and examines a provocative new analysis of Middle Eastern security strategy.</description>
       <pubDate>Thu, 16 Apr 2026 10:16:16 GMT</pubDate>
