@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-04-17",
+      "summary": "Explore the cutting edge of AI as new creative tools empower non-designers and the first AI-produced feature film prepares for its major streaming debut starring Academy Award-winner Ben Kingsley. The episode also dives into the massive investment surge in AI infrastructure and the breaking injury news that has left the Lakers' playoff hopes in sudden jeopardy.",
+      "keyTopics": [
+        "Anthropic Claude Design visual mockup tool launch",
+        "Luma AI production studio starring Ben Kingsley",
+        "AI coding startup Factory 1.5 billion dollar valuation",
+        "Upscale AI 2 billion dollar infrastructure funding round",
+        "Physical Intelligence Pi 0.7 general purpose robot brain",
+        "Lakers star injuries Luka Doncic Grade 2 hamstring strain",
+        "Santa Barbara Surfline API localized data blackout"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Los Angeles hosts Houston to start playoffs",
+        "ESPN Lakers News::Lakers: Luka, Reaves and the 48 hours that changed the Lakers' season"
+      ]
+    },
+    {
       "date": "2026-04-16",
       "summary": "Explore how the global scramble for AI hardware is hitting consumer wallets with Meta’s latest price hikes and potentially reshaping Hollywood’s filmmaking model. This episode also dives into the latest AI-driven design tools from Canva, Google’s systemic crackdown on \"bad ads,\" and the major injury news shaking up the Lakers’ playoff run.",
       "keyTopics": [
@@ -211,19 +228,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Lakers' Luka Doncic hit with 1-game suspension for 16th tech"
-      ]
-    },
-    {
-      "date": "2026-03-27",
-      "summary": "Explore the escalating AI platform wars as Google launches tools to poach chatbot users while Wikipedia fights to preserve human-curated truth against automated content. This episode also dives into Washington’s bipartisan push to track the massive energy costs of data centers and a high-stakes cybersecurity claim involving the FBI. Plus, stay informed on California aviation safety, the Lakers’ strategic playoff push, and why even the most advanced tech can’t always predict the surf.",
-      "keyTopics": [
-        "Google Gemini chatbot data import switching tools",
-        "Wikipedia restrictions on AI-generated article submissions",
-        "OpenAI cancellation of ChatGPT erotic mode project",
-        "Bipartisan Senate bill for data center energy monitoring",
-        "Alleged Iranian hack of FBI Director personal email",
-        "United Airlines California mid-air collision near miss",
-        "Lakers Western Conference playoff seeding and rest strategy"
       ]
     }
   ]
