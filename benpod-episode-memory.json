@@ -1,6 +1,32 @@
 {
   "episodes": [
     {
+      "date": "2026-04-20",
+      "summary": "Explore a significant shift in the housing market as buyers gain leverage and homeowners lean into remodeling trends over relocation. This episode also breaks down the potential end of a legendary basketball dynasty, a bizarre legal crisis involving deceased jurors in Illinois, and a major constitutional battle over the preservation of presidential records.",
+      "keyTopics": [
+        "Steve Kerr potential exit from Golden State Warriors",
+        "NSA use of Anthropic Mythos model despite blacklist",
+        "Atlassian default opt-out AI training data collection",
+        "US housing market transition to a buyer's market",
+        "Illinois jury summons audit finds 60 deceased residents",
+        "Mayor Brandon Johnson tipped wage and slavery comments",
+        "US seizure of Iranian ship in Strait of Hormuz",
+        "DOJ constitutional challenge to Presidential Records Act"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Washington Nationals",
+        "ESPN Warriors News::Warriors: Suns end Warriors' season, set first-round date with Thunder",
+        "ESPN Warriors News::Warriors: Warriors' Kerr to mull future: Jobs have 'expiration date'",
+        "ESPN Warriors News::Warriors: The Warriors' summer of uncertainty starts with Steve Kerr",
+        "ESPN Giants News::Giants: San Francisco Giants RP Jose Butto undergoes arm surgery",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Iran Says Strait of Hormuz Is ‘Completely Open’",
+        "Foreign Policy - Iran::The Iran War Comes for the ‘King of Chemicals’",
+        "Foreign Policy - Iran::Pope Leo Blasts ‘Tyrants’ in Thinly Veiled Critique of Trump"
+      ]
+    },
+    {
       "date": "2026-04-17",
       "summary": "Explore the intensifying rivalry between OpenAI and Anthropic as the AI arms race shifts from simple chatbots to autonomous agents with direct power over your desktop. This episode breaks down the massive wave of venture capital flooding the industry and examines the real-world consequences of this boom, from strained power grids and \"data center divides\" to shifting local policies.",
       "keyTopics": [
@@ -267,26 +293,6 @@
         "Foreign Policy - Iran::What a U.S. Operation to Get Iran’s Uranium Would Look Like",
         "Foreign Policy - Iran::Waiting for the War to End in Tehran",
         "Foreign Policy - Iran::Tehran Is Setting a Trap for Trump"
-      ]
-    },
-    {
-      "date": "2026-04-01",
-      "summary": "Go inside a high-stakes week for AI as industry leader Anthropic grapples with a massive security breach and reports of its own tools creating dangerous system exploits. This episode also tracks OpenAI’s mind-boggling new valuation, escalating cyber threats from Iran targeting the tech sector, and the long-awaited recovery update for NBA star Stephen Curry. From corporate chaos to geopolitical shifts, we explore whether humanity is prepared for the \"technological adolescence\" of rapidly advancing AI.",
-      "keyTopics": [
-        "Anthropic Claude Code leak and FreeBSD kernel exploit",
-        "OpenAI $852 billion valuation and retail funding round",
-        "Salesforce Slack AI makeover and new agent features",
-        "Iranian cyberattacks targeting U.S. tech company infrastructure",
-        "Stephen Curry cleared for Golden State Warriors full-contact practice",
-        "Dario Amodei essay on technological adolescence and AI safety",
-        "Anthropic and Australian government AI safety research partnership"
-      ],
-      "articles": [
-        "Dario Amodei — The Adolescence of Technology",
-        "ESPN Warriors News::Warriors: Stephen Curry cleared for scrimmage in latest step for return",
-        "Foreign Policy - Iran::Trump’s Iran War Is a Dilemma, Not a Debacle",
-        "Foreign Policy - Iran::Iran Flexes Its Cyber Chops",
-        "Foreign Policy - Iran::Iran Says It Will Target U.S. Tech Companies in the Middle East"
       ]
     }
   ]
