@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-20</title>
+      <description>Kick off the week with a breakdown of the Lakers&apos; stunning playoff upset and the shifting privacy landscape as Atlassian begins using customer data to train its AI models by default. We also dive into the complex intersection of national security and tech with reports of the NSA utilizing blacklisted models, alongside an analysis of the &quot;12-month window&quot; threatening the survival of new AI startups.</description>
+      <pubDate>Mon, 20 Apr 2026 08:22:33 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-20-082233.mp3" length="3669504" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-20-082233.mp3</guid>
+      <itunes:duration>229</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-17</title>
       <description>Explore the cutting edge of AI as new creative tools empower non-designers and the first AI-produced feature film prepares for its major streaming debut starring Academy Award-winner Ben Kingsley. The episode also dives into the massive investment surge in AI infrastructure and the breaking injury news that has left the Lakers&apos; playoff hopes in sudden jeopardy.</description>
       <pubDate>Fri, 17 Apr 2026 08:03:40 GMT</pubDate>
