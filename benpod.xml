@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-20</title>
+      <description>Explore a significant shift in the housing market as buyers gain leverage and homeowners lean into remodeling trends over relocation. This episode also breaks down the potential end of a legendary basketball dynasty, a bizarre legal crisis involving deceased jurors in Illinois, and a major constitutional battle over the preservation of presidential records.</description>
+      <pubDate>Mon, 20 Apr 2026 09:54:20 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-20-095420.mp3" length="5033472" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-20-095420.mp3</guid>
+      <itunes:duration>315</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-17</title>
       <description>Explore the intensifying rivalry between OpenAI and Anthropic as the AI arms race shifts from simple chatbots to autonomous agents with direct power over your desktop. This episode breaks down the massive wave of venture capital flooding the industry and examines the real-world consequences of this boom, from strained power grids and &quot;data center divides&quot; to shifting local policies.</description>
       <pubDate>Fri, 17 Apr 2026 09:22:26 GMT</pubDate>
