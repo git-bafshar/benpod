@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-04-20",
+      "summary": "Kick off the week with a breakdown of the Lakers' stunning playoff upset and the shifting privacy landscape as Atlassian begins using customer data to train its AI models by default. We also dive into the complex intersection of national security and tech with reports of the NSA utilizing blacklisted models, alongside an analysis of the \"12-month window\" threatening the survival of new AI startups.",
+      "keyTopics": [
+        "Lakers Game 1 upset victory over Houston Rockets",
+        "Atlassian default opt-out AI data collection policy",
+        "NSA usage of blacklisted Anthropic Mythos AI model",
+        "The 12-month window for AI startup survival",
+        "Railway 100 million dollar AI infrastructure funding",
+        "Palantir manifesto against corporate inclusivity and regressive culture"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: LeBron plays 'triple threat' as Lakers upset Rockets in Game 1"
+      ]
+    },
+    {
       "date": "2026-04-17",
       "summary": "Explore the cutting edge of AI as new creative tools empower non-designers and the first AI-produced feature film prepares for its major streaming debut starring Academy Award-winner Ben Kingsley. The episode also dives into the massive investment surge in AI infrastructure and the breaking injury news that has left the Lakers' playoff hopes in sudden jeopardy.",
       "keyTopics": [
@@ -212,22 +227,6 @@
       "articles": [
         "ESPN Lakers::Lakers Recap: Washington Wizards at Los Angeles Lakers",
         "ESPN Lakers News::Lakers: Luka Doncic should be MVP if he and Lakers stay hot, JJ Redick says"
-      ]
-    },
-    {
-      "date": "2026-03-30",
-      "summary": "This episode explores the massive \"tsunami of cash\" currently reshaping the AI industry, from high-stakes funding for specialized hardware to the strategic shift toward independent data centers. We also dive into a provocative re-examination of Cesar Chavez’s complex legacy in California and discuss how a key NBA suspension is shaking up the Western Conference playoff race. Finally, we wrap up with a look at why even the most advanced tech can’t always be relied upon for a simple local surf report.",
-      "keyTopics": [
-        "Mistral AI $830 million debt for Paris data center",
-        "ScaleOps $130 million funding for AI cloud resource management",
-        "Rebellions $400 million pre-IPO round for AI inference chips",
-        "Qodo $70 million series for AI software code verification",
-        "Cesar Chavez legacy re-evaluated in New York Times newsletter",
-        "Luka Doncic suspension impacts NBA Western Conference playoff race",
-        "Surfline API outage impacts Santa Barbara coastal wave reporting"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Lakers' Luka Doncic hit with 1-game suspension for 16th tech"
       ]
     }
   ]
