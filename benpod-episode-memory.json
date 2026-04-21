@@ -1,6 +1,29 @@
 {
   "episodes": [
     {
+      "date": "2026-04-21",
+      "summary": "Explore the staggering $100 billion partnership reshaping the AI industry and go courtside for the definitive end of the Golden State Warriors' dynasty. This episode also dives into the high-stakes political battle over a proposed Chicago lakefront stadium and the escalating diplomatic tensions impacting global markets. To wrap up, hear about a bizarre environmental study revealing how contaminated waterways are disrupting the migration patterns of Pacific Northwest salmon.",
+      "keyTopics": [
+        "Anthropic $100 billion AWS cloud computing commitment",
+        "NSA usage of blacklisted Anthropic Mythos model",
+        "Draymond Green predicts Steve Kerr Warriors departure",
+        "Chicago Bears $5 billion lakefront domed stadium proposal",
+        "US-Iran ship seizure disrupts Islamabad peace talks",
+        "Cocaine contaminated wastewater disrupting salmon migration patterns",
+        "Anthropic restores developer access to command-line tools",
+        "San Francisco 49ers Trent Williams contract extension"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Green scores 36 points, Suns lock down Warriors, Curry in 111-96 win in NBA's play-in tourney",
+        "ESPN Warriors News::Warriors: Draymond Green predicts Steve Kerr won't be back next season",
+        "ESPN 49ers News::49ers: Niners' Fred Warner fully healthy after season-ending injury",
+        "ESPN 49ers News::49ers: Trent Williams, 49ers agree to 2-year extension",
+        "Foreign Policy - Iran::The World Is Paying the Price for America’s War",
+        "Foreign Policy - Iran::How Likely Are U.S.-Iran Peace Talks in Islamabad?",
+        "Foreign Policy - Iran::How Big of a Threat Is Mythos?"
+      ]
+    },
+    {
       "date": "2026-04-20",
       "summary": "Explore a significant shift in the housing market as buyers gain leverage and homeowners lean into remodeling trends over relocation. This episode also breaks down the potential end of a legendary basketball dynasty, a bizarre legal crisis involving deceased jurors in Illinois, and a major constitutional battle over the preservation of presidential records.",
       "keyTopics": [
@@ -271,28 +294,6 @@
         "Foreign Policy - Iran::America’s War Machine Runs on Tungsten—and It Could Run Out",
         "Foreign Policy - Iran::U.K. Hosts Coalition Talks to Reopen Hormuz—Without the U.S.",
         "Foreign Policy - Iran::Will the Iran War Evaporate the Gulf’s AI Oasis?"
-      ]
-    },
-    {
-      "date": "2026-04-02",
-      "summary": "This episode dives into the chaotic security and PR fallout from recent AI industry breaches, alongside the staggering energy demands and environmental costs of massive new data centers. We also explore shifting dynamics in professional basketball and global geopolitics before examining a bold, utopian vision for how AI might solve humanity's greatest challenges within the next decade.",
-      "keyTopics": [
-        "Anthropic accidental GitHub takedown notices after source code leak",
-        "Mercor cyberattack via LiteLLM open-source supply chain vulnerability",
-        "Meta Hyperion AI data center powered by ten gas plants",
-        "Victor Wembanyama 41-point performance against Golden State Warriors",
-        "Draymond Green voices uncertainty about future with Warriors",
-        "US-Iran geopolitical tensions and enriched uranium seizure scenarios",
-        "Anthropic CEO Dario Amodei Machines of Loving Grace essay"
-      ],
-      "articles": [
-        "Dario Amodei — Machines of Loving Grace",
-        "ESPN Warriors::Warriors Recap: San Antonio Spurs at Golden State Warriors",
-        "ESPN Warriors News::Warriors: Draymond Green reflects on his future amid uncertainty",
-        "ESPN 49ers News::49ers: 49ers in no rush to move Brandon Aiyuk",
-        "Foreign Policy - Iran::What a U.S. Operation to Get Iran’s Uranium Would Look Like",
-        "Foreign Policy - Iran::Waiting for the War to End in Tehran",
-        "Foreign Policy - Iran::Tehran Is Setting a Trap for Trump"
       ]
     }
   ]
