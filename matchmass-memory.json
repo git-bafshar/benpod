@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-04-21",
+      "summary": "Explore the massive $100 billion cloud partnership between Amazon and Anthropic that is reshaping the AI industry, along with YouTube’s new measures to protect celebrity likenesses from deepfakes. We also break down a critical injury update in the NBA playoffs that could swing the momentum of the Lakers’ high-stakes series against the Rockets.",
+      "keyTopics": [
+        "Amazon and Anthropic $100 billion AWS cloud partnership",
+        "Amazon completion of four billion dollar Anthropic investment",
+        "Anthropic restoration of command-line tool developer access",
+        "YouTube AI-powered celebrity likeness and deepfake detection",
+        "Rockets star Kevin Durant ankle injury game-time decision",
+        "Ongoing Santa Barbara Surfline API technical outage",
+        "Lakers recovery from Luka Doncic playoff injury crisis"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Rockets' Kevin Durant game-time decision for Game 2"
+      ]
+    },
+    {
       "date": "2026-04-20",
       "summary": "Kick off the week with a breakdown of the Lakers' stunning playoff upset and the shifting privacy landscape as Atlassian begins using customer data to train its AI models by default. We also dive into the complex intersection of national security and tech with reports of the NSA utilizing blacklisted models, alongside an analysis of the \"12-month window\" threatening the survival of new AI startups.",
       "keyTopics": [
@@ -209,24 +225,6 @@
         "ESPN Lakers News::Lakers: Out like a lion: Luka totals 600 points in March; Lakers go 15-2",
         "ESPN Lakers News::Lakers: LeBron passes Kareem to become NBA total wins leader",
         "ESPN Lakers News::Lakers: McMenamin: LeBron returning to Cleveland would be 'cleanest fit'"
-      ]
-    },
-    {
-      "date": "2026-03-31",
-      "summary": "Discover how the Lakers dominated the court without their superstar while a major security leak at Anthropic shakes the tech world to its core. This episode also explores the broadening legacy of the farmworker movement on Cesar Chavez Day and how companies like Amazon and Runway are racing to build the next generation of AI ecosystems.",
-      "keyTopics": [
-        "Lakers victory over Wizards during Luka Doncic suspension",
-        "LeBron James ties Kareem Abdul-Jabbar career wins record",
-        "Anthropic Claude Code source code leaked via NPM registry",
-        "LiteLLM terminates Delve partnership after supply-chain breach",
-        "Runway launches ten million dollar AI video startup fund",
-        "Amazon Ring app store for AI home awareness",
-        "Cesar Chavez Day re-evaluation of farmworker movement legacy",
-        "Persistent Santa Barbara Surfline API data outage"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Washington Wizards at Los Angeles Lakers",
-        "ESPN Lakers News::Lakers: Luka Doncic should be MVP if he and Lakers stay hot, JJ Redick says"
       ]
     }
   ]
