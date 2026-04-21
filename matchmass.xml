@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-21</title>
+      <description>Explore the massive $100 billion cloud partnership between Amazon and Anthropic that is reshaping the AI industry, along with YouTube’s new measures to protect celebrity likenesses from deepfakes. We also break down a critical injury update in the NBA playoffs that could swing the momentum of the Lakers’ high-stakes series against the Rockets.</description>
+      <pubDate>Tue, 21 Apr 2026 08:20:51 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-21-082051.mp3" length="3369024" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-21-082051.mp3</guid>
+      <itunes:duration>211</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-20</title>
       <description>Kick off the week with a breakdown of the Lakers&apos; stunning playoff upset and the shifting privacy landscape as Atlassian begins using customer data to train its AI models by default. We also dive into the complex intersection of national security and tech with reports of the NSA utilizing blacklisted models, alongside an analysis of the &quot;12-month window&quot; threatening the survival of new AI startups.</description>
       <pubDate>Mon, 20 Apr 2026 08:22:33 GMT</pubDate>
