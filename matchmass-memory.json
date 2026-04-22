@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-04-22",
+      "summary": "Discover how a resilient Lakers squad took a commanding playoff lead despite key injuries and dive into the escalating AI arms race as Google secures a multi-billion-dollar infrastructure deal. This episode also explores the practical ways generative AI is transforming everything from Google Maps to global enterprise security, alongside a local update on Santa Barbara’s persistent surf report outage.",
+      "keyTopics": [
+        "Lakers take 2-0 playoff lead against Houston Rockets",
+        "Google partnership with Mira Murati Thinking Machines Lab",
+        "Google Cloud AI infrastructure using Nvidia GB300 chips",
+        "Generative AI conversational features coming to Google Maps",
+        "OpenAI and Infosys partnership for enterprise AI adoption",
+        "LLM driven security patches and reports in Linux kernel",
+        "Ongoing Surfline API technical outage in Santa Barbara County"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Houston Rockets at Los Angeles Lakers",
+        "ESPN Lakers News::Lakers: LeBron scores 28, leads short-handed Lakers past Durant's Rockets again 101-94 for 2-0 series lead"
+      ]
+    },
+    {
       "date": "2026-04-21",
       "summary": "Explore the massive $100 billion cloud partnership between Amazon and Anthropic that is reshaping the AI industry, along with YouTube’s new measures to protect celebrity likenesses from deepfakes. We also break down a critical injury update in the NBA playoffs that could swing the momentum of the Lakers’ high-stakes series against the Rockets.",
       "keyTopics": [
@@ -206,25 +223,6 @@
         "Meta Hyperion data center powered by natural gas plants",
         "Senate bill to track data center energy consumption scale",
         "Surfline API outage for Santa Barbara County surf reports"
-      ]
-    },
-    {
-      "date": "2026-04-01",
-      "summary": "Celebrate a historic milestone in the NBA as LeBron James officially claims the record for the most total wins in league history during a dominant Lakers performance. In the tech world, explore a high-stakes day for artificial intelligence featuring critical security exploits at Anthropic, massive new funding rounds for OpenAI, and a major AI-driven transformation for Slack.",
-      "keyTopics": [
-        "LeBron James breaks NBA all-time total wins record",
-        "Anthropic Claude Code leak and Mercor supply-chain cyberattack",
-        "Claude AI generates FreeBSD remote kernel exploit",
-        "Anthropic secondary market demand surges over OpenAI",
-        "Salesforce announces major Slack AI and agentic makeover",
-        "OpenAI 3 billion dollar retail funding at 852 billion valuation",
-        "Railway raises 100 million for AI-native cloud infrastructure"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Cleveland Cavaliers at Los Angeles Lakers",
-        "ESPN Lakers News::Lakers: Out like a lion: Luka totals 600 points in March; Lakers go 15-2",
-        "ESPN Lakers News::Lakers: LeBron passes Kareem to become NBA total wins leader",
-        "ESPN Lakers News::Lakers: McMenamin: LeBron returning to Cleveland would be 'cleanest fit'"
       ]
     }
   ]
