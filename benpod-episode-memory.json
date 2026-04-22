@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-04-22",
+      "summary": "Explore the high-stakes world of AI as tech giants engage in a multi-billion dollar infrastructure arms race and Meta introduces controversial new methods for tracking employee movements to train digital assistants. This episode also covers generative AI updates coming to Google Maps and the latest headlines in sports, including the end of the Warriors' dynasty and major NFL contract extensions.",
+      "keyTopics": [
+        "Meta tracking employee mouse movements for AI training data",
+        "Mira Murati's Thinking Machines Lab Google Cloud deal",
+        "Nvidia GB300 chips powered AI infrastructure",
+        "Railway $100 million AI-native cloud platform funding",
+        "Google Maps generative AI subjective search integration",
+        "OpenAI and Infosys IT consulting partnership",
+        "Trent Williams 49ers $50 million contract extension",
+        "Chicago Bears lakefront stadium proposal debate"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Los Angeles Dodgers at San Francisco Giants",
+        "ESPN 49ers News::49ers: Agency: 49ers, Trent Williams agree to two-year, $50M extension",
+        "Foreign Policy - Iran::6 Things I Wish I Knew About the U.S. and Israeli Positions on Iran",
+        "Foreign Policy - Iran::Russia Is Making Bank on Trump’s Iran War"
+      ]
+    },
+    {
       "date": "2026-04-21",
       "summary": "Explore the staggering $100 billion partnership reshaping the AI industry and go courtside for the definitive end of the Golden State Warriors' dynasty. This episode also dives into the high-stakes political battle over a proposed Chicago lakefront stadium and the escalating diplomatic tensions impacting global markets. To wrap up, hear about a bizarre environmental study revealing how contaminated waterways are disrupting the migration patterns of Pacific Northwest salmon.",
       "keyTopics": [
@@ -271,29 +291,6 @@
         "Foreign Policy - Iran::The Lost Children of Minab",
         "Foreign Policy - Iran::Pakistan’s Peacemaking Is a Setback for India",
         "Foreign Policy - Iran::Iran Is the Dumb, Disastrous Remake of Desert Storm"
-      ]
-    },
-    {
-      "date": "2026-04-03",
-      "summary": "Stay informed on the intensifying military conflict in the Persian Gulf and its global economic implications, ranging from record-breaking defense budgets to rising mortgage rates. This episode also explores a scathing transparency report targeting Chicago’s City Hall, NASA’s historic Artemis II lunar mission, and the chaotic fallout of a massive AI source code leak. Plus, get caught up on the latest headlines in sports and the job market to round out your week.",
-      "keyTopics": [
-        "Iran multi-front missile strikes and US retaliation warnings",
-        "President Trump $1.5 trillion defense budget and domestic cuts",
-        "NASA Artemis II crewed mission enters lunar transit",
-        "Chicago IG Deborah Witzburg report on Mayor Brandon Johnson",
-        "Anthropic accidental GitHub takedowns following source code leak",
-        "OpenAI TBPN podcast acquisition and new Microsoft foundational models",
-        "Rising US mortgage rates linked to Persian Gulf conflict"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Cleveland Cavaliers at Golden State Warriors",
-        "ESPN Giants::Giants Recap: New York Mets at San Francisco Giants",
-        "ESPN 49ers News::49ers: Shanahan. Lynch will continue to remain with the 49ers",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::America’s War Machine Runs on Tungsten—and It Could Run Out",
-        "Foreign Policy - Iran::U.K. Hosts Coalition Talks to Reopen Hormuz—Without the U.S.",
-        "Foreign Policy - Iran::Will the Iran War Evaporate the Gulf’s AI Oasis?"
       ]
     }
   ]
