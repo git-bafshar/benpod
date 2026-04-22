@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-04-22",
+      "summary": "Explore a high-stakes security scare at AI leader Anthropic and Google’s massive new deal with Thinking Machines, alongside Meta’s controversial move to track employee workflows for AI training. This update also breaks down how a looming government shutdown could cause travel chaos at Orlando International Airport and why record numbers of home buyers are walking away from real estate deals.",
+      "keyTopics": [
+        "Reported security breach of Anthropic Mythos cybersecurity model",
+        "Google multi-billion dollar deal with Mira Murati's Thinking Machines",
+        "Google Cloud infrastructure expansion with Nvidia GB300 chips",
+        "Generative AI discovery and planning features in Google Maps",
+        "Meta internal employee keystroke logging for AI agent training",
+        "Government shutdown threat to TSA funding and Orlando airport",
+        "Rising home-purchase agreement cancellations in U.S. real estate"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-04-21",
       "summary": "This briefing breaks down the staggering $100 billion \"circular deal\" between Amazon and Anthropic and the growing controversy surrounding the use of private AI models in national security. The episode also explores the industry's physical and digital vulnerabilities, from leadership crises at nuclear energy startups to a bizarre system outage triggered by a video game cheat. Finally, learn how to spot the common linguistic \"tells\" that reveal when you are reading AI-generated text.",
       "keyTopics": [
@@ -176,18 +193,6 @@
         "Google Vids digital avatar customization via prompts",
         "Apfel local AI tool for Apple silicon machines",
         "Meta Hyperion data center natural gas power requirements"
-      ]
-    },
-    {
-      "date": "2026-04-02",
-      "summary": "This episode explores the messy realities of the AI boom, from Anthropic’s overzealous security cleanups and supply chain vulnerabilities to the staggering energy demands of Meta’s new power-hungry data centers. We also dive into the industry's shift toward the \"optimization era,\" highlighting AI-designed computer chips and landmark international partnerships aimed at balancing rapid innovation with global safety.",
-      "keyTopics": [
-        "Anthropic accidental GitHub takedowns following source code leak",
-        "Mercor cyberattack tied to LiteLLM software supply chain vulnerability",
-        "Meta Hyperion data center powered by ten natural gas plants",
-        "Cognichip sixty million dollar raise for AI chip design",
-        "AMD Lemonade project for efficient local LLM inference",
-        "Anthropic AI safety research agreement with Australian government"
       ]
     }
   ]
