@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-22</title>
+      <description>Discover how a resilient Lakers squad took a commanding playoff lead despite key injuries and dive into the escalating AI arms race as Google secures a multi-billion-dollar infrastructure deal. This episode also explores the practical ways generative AI is transforming everything from Google Maps to global enterprise security, alongside a local update on Santa Barbara’s persistent surf report outage.</description>
+      <pubDate>Wed, 22 Apr 2026 08:20:51 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-22-082051.mp3" length="3379584" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-22-082051.mp3</guid>
+      <itunes:duration>211</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-21</title>
       <description>Explore the massive $100 billion cloud partnership between Amazon and Anthropic that is reshaping the AI industry, along with YouTube’s new measures to protect celebrity likenesses from deepfakes. We also break down a critical injury update in the NBA playoffs that could swing the momentum of the Lakers’ high-stakes series against the Rockets.</description>
       <pubDate>Tue, 21 Apr 2026 08:20:51 GMT</pubDate>
