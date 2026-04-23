@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-04-23",
+      "summary": "Explore the growing pains of the AI revolution, from high-profile security failures in the software supply chain to the mounting strain data centers are placing on local energy grids. This episode also dives into the rise of AI-native cloud infrastructure, the evolving creator economy, and how the search for distant galaxies is contributing to the global GPU shortage.",
+      "keyTopics": [
+        "Context AI security breach caused by Delve certification",
+        "Bitwarden command-line interface supply chain compromise",
+        "Railway AI-native cloud platform 100 million dollar Series B",
+        "Beehiiv creator tools for webinars and customizable paywalls",
+        "Iran Strait of Hormuz blockade and fragile ceasefire status",
+        "Illinois power grid strain from Chicago AI data centers",
+        "Astronomers using GPU clusters for AI galaxy discovery"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::How Iran and the United States Are Planning Their Next Moves",
+        "Foreign Policy - Iran::What Happens if the U.S.-Iran Cease-Fire Collapses?",
+        "Foreign Policy - Iran::Pakistan Gambled on Mediation"
+      ]
+    },
+    {
       "date": "2026-04-22",
       "summary": "Explore the high-stakes world of AI as tech giants engage in a multi-billion dollar infrastructure arms race and Meta introduces controversial new methods for tracking employee movements to train digital assistants. This episode also covers generative AI updates coming to Google Maps and the latest headlines in sports, including the end of the Warriors' dynasty and major NFL contract extensions.",
       "keyTopics": [
@@ -267,30 +285,6 @@
         "Foreign Policy - Iran::Iran Shoots Down U.S. Fighter Jet, One Crew Member Still Missing",
         "Foreign Policy - Iran::Why Trump’s Speech Was So Worrying",
         "Foreign Policy - Iran::Iran’s Zarif Wants a Bilateral Reset With U.S. That the Gulf Can’t Accept"
-      ]
-    },
-    {
-      "date": "2026-04-05",
-      "summary": "Explore the rapidly shifting landscape of AI as Anthropic makes a massive move into biotech and Jack Dorsey reimagines the future of corporate leadership through autonomous agents. This episode also tracks the high-stakes return of NBA star Stephen Curry, Japan’s use of robotics to combat labor shortages, and a developing conflict of interest at the heart of U.S. environmental policy. From global shipping risks to the \"vibe coding\" revolution, we break down the stories defining the week ahead.",
-      "keyTopics": [
-        "Anthropic acquisition of biotech AI startup Coefficient Bio",
-        "Claude Code monetization and secondary market investor interest",
-        "Commercial shipping transit through the Strait of Hormuz",
-        "Stephen Curry return to Golden State Warriors lineup",
-        "EPA official conflict of interest in methane emission regulations",
-        "Japan physical AI and robotics for labor shortage",
-        "Block CEO Jack Dorsey vision for AI-driven corporate hierarchy",
-        "San Francisco 49ers Joey Bosa trade rumors and contracts"
-      ],
-      "articles": [
-        "From Hierarchy to Intelligence",
-        "ESPN Warriors News::Warriors: Warriors' Curry details his 'new normal' after 'unpredictable' knee rehab",
-        "ESPN Warriors News::Warriors: Sources: Warriors' Curry expected to return Sunday vs. Rockets",
-        "ESPN 49ers News::49ers: Where do the 49ers stand with Trent Williams?",
-        "ESPN 49ers News::49ers: Should the 49ers add Joey Bosa?",
-        "Foreign Policy - Iran::The Lost Children of Minab",
-        "Foreign Policy - Iran::Pakistan’s Peacemaking Is a Setback for India",
-        "Foreign Policy - Iran::Iran Is the Dumb, Disastrous Remake of Desert Storm"
       ]
     }
   ]
