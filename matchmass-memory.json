@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-04-23",
+      "summary": "This episode explores the emerging security vulnerabilities threatening the AI boom and the global GPU shortage that now has astronomers competing with tech giants for hardware. We also dive into the maturing creator economy’s latest platform expansions and provide updates on the California gubernatorial race and the NBA playoffs.",
+      "keyTopics": [
+        "Context AI security breach linked to Delve compliance firm",
+        "Bitwarden command-line tool supply chain attack",
+        "Astronomers competing for Nvidia GPUs amid AI chip crunch",
+        "Beehiiv webinar and paywall tools for creator economy",
+        "California Governor's debate and post-Swalwell election dynamics",
+        "Lakers take 2-0 playoff series lead over Houston Rockets",
+        "OpenAI and Infosys enterprise AI infrastructure investment",
+        "Ongoing Surfline API outage for Santa Barbara County"
+      ]
+    },
+    {
       "date": "2026-04-22",
       "summary": "Discover how a resilient Lakers squad took a commanding playoff lead despite key injuries and dive into the escalating AI arms race as Google secures a multi-billion-dollar infrastructure deal. This episode also explores the practical ways generative AI is transforming everything from Google Maps to global enterprise security, alongside a local update on Santa Barbara’s persistent surf report outage.",
       "keyTopics": [
@@ -211,18 +225,6 @@
         "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Oklahoma City Thunder",
         "ESPN Lakers News::Lakers: Luka Doncic (hamstring) exits Lakers' loss in OKC; MRI next",
         "ESPN Lakers News::Lakers: Stephen A.: LeBron returning to Cleveland could mean a title for Cavs"
-      ]
-    },
-    {
-      "date": "2026-04-02",
-      "summary": "Navigate the fallout of a chaotic week in AI security, from the \"supply-chain\" ripple effects of high-profile source code leaks to the vulnerabilities hidden within open-source foundations. This episode also explores the massive physical and environmental costs of the AI boom, highlighting the rise of AI-designed hardware and the controversial shift toward fossil fuels to power next-generation data centers.",
-      "keyTopics": [
-        "Anthropic GitHub DMCA takedown notices for source code leak",
-        "Mercor cyberattack linked to LiteLLM open-source project compromise",
-        "Cognichip sixty million dollar funding for AI chip design",
-        "Meta Hyperion data center powered by natural gas plants",
-        "Senate bill to track data center energy consumption scale",
-        "Surfline API outage for Santa Barbara County surf reports"
       ]
     }
   ]
