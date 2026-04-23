@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-23</title>
+      <description>This episode explores the emerging security vulnerabilities threatening the AI boom and the global GPU shortage that now has astronomers competing with tech giants for hardware. We also dive into the maturing creator economy’s latest platform expansions and provide updates on the California gubernatorial race and the NBA playoffs.</description>
+      <pubDate>Thu, 23 Apr 2026 09:01:05 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-23-090105.mp3" length="3392064" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-23-090105.mp3</guid>
+      <itunes:duration>212</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-22</title>
       <description>Discover how a resilient Lakers squad took a commanding playoff lead despite key injuries and dive into the escalating AI arms race as Google secures a multi-billion-dollar infrastructure deal. This episode also explores the practical ways generative AI is transforming everything from Google Maps to global enterprise security, alongside a local update on Santa Barbara’s persistent surf report outage.</description>
       <pubDate>Wed, 22 Apr 2026 08:20:51 GMT</pubDate>
