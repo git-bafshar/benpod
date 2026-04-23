@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-04-23",
+      "summary": "Discover the massive bets shaping the future of tech, from Tesla’s $25 billion investment in autonomous infrastructure to Google and X’s latest moves to weave AI directly into our productivity and social feeds. This episode also explores Beehiiv’s expansion into an all-in-one creator platform and provides essential updates on a looming government shutdown and the current standoff in the real estate market.",
+      "keyTopics": [
+        "Tesla $25 billion investment in AI and robotaxi infrastructure",
+        "Google Workspace Intelligence AI features for Docs and Gmail",
+        "X replaces Communities with Grok AI-curated custom feeds",
+        "Beehiiv creator tools for webinars and customizable paywalls",
+        "Global platforms dominate revenue in India's growing app market",
+        "Government shutdown impact on Orlando International Airport TSA funding",
+        "Real estate market standoff between sellers and buyer cancellations"
+      ]
+    },
+    {
       "date": "2026-04-22",
       "summary": "Explore a high-stakes security scare at AI leader Anthropic and Google’s massive new deal with Thinking Machines, alongside Meta’s controversial move to track employee workflows for AI training. This update also breaks down how a looming government shutdown could cause travel chaos at Orlando International Airport and why record numbers of home buyers are walking away from real estate deals.",
       "keyTopics": [
@@ -180,19 +193,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-04-03",
-      "summary": "Explore how AI giants are moving beyond code to shape culture and commerce, from OpenAI’s surprising acquisition of a business podcast to Microsoft’s launch of new foundational models that challenge the industry status quo. This episode also dives into the security fallout at Anthropic, Google’s latest AI-powered video features, and the growing divide between energy-hungry data centers and the rise of local, user-controlled AI tools.",
-      "keyTopics": [
-        "OpenAI acquisition of TBPN business podcast",
-        "Microsoft MAI foundational audio and image models",
-        "Anthropic retraction of aggressive GitHub takedown notices",
-        "ChatGPT Business price drop for enterprise adoption",
-        "Google Vids digital avatar customization via prompts",
-        "Apfel local AI tool for Apple silicon machines",
-        "Meta Hyperion data center natural gas power requirements"
       ]
     }
   ]
