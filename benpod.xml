@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-24</title>
+      <description>Explore a major shift in the AI hardware race as Meta pivots to specialized CPUs for global agent deployment while international competitors like DeepSeek and Anthropic expand their reach. This episode also examines the local infrastructure strain caused by the AI boom, critical security threats to developer tools, and the latest roster updates from the NFL.</description>
+      <pubDate>Fri, 24 Apr 2026 09:46:42 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-24-094642.mp3" length="3759936" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-24-094642.mp3</guid>
+      <itunes:duration>235</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-23</title>
       <description>Explore the growing pains of the AI revolution, from high-profile security failures in the software supply chain to the mounting strain data centers are placing on local energy grids. This episode also dives into the rise of AI-native cloud infrastructure, the evolving creator economy, and how the search for distant galaxies is contributing to the global GPU shortage.</description>
       <pubDate>Thu, 23 Apr 2026 10:14:50 GMT</pubDate>
