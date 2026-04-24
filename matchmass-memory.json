@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-04-24",
+      "summary": "Explore how the AI infrastructure war is evolving as Meta pivots toward custom CPUs, signaling a major shift away from total GPU dominance. This episode also dives into a confirmed security breach in the software supply chain, the political headwinds facing California housing reform, and the high-stakes road test ahead for the Lakers. Plus, we look at the growing commoditization of AI models and a mysterious local tech outage affecting Santa Barbara surfers.",
+      "keyTopics": [
+        "Meta deal for Amazon custom CPUs for agentic workloads",
+        "Checkmarx confirms Bitwarden CLI software supply chain attack",
+        "DeepSeek announces new model targeting frontier performance",
+        "California State Senator Scott Wiener housing legislation momentum",
+        "Lakers versus Rockets NBA playoff series Game 3",
+        "Ongoing Santa Barbara County Surfline API data outage"
+      ]
+    },
+    {
       "date": "2026-04-23",
       "summary": "This episode explores the emerging security vulnerabilities threatening the AI boom and the global GPU shortage that now has astronomers competing with tech giants for hardware. We also dive into the maturing creator economy’s latest platform expansions and provide updates on the California gubernatorial race and the NBA playoffs.",
       "keyTopics": [
@@ -207,24 +219,6 @@
         "ESPN Lakers News::Lakers: Doncic seeks treatment in Europe as he, Reaves target playoffs",
         "ESPN Lakers News::Lakers: 2025-26 NBA championship and MVP odds: Lakers' championship odds tumble after Doncic injury",
         "ESPN Lakers News::Lakers: Lakers lose Austin Reaves (oblique) for rest of regular season"
-      ]
-    },
-    {
-      "date": "2026-04-03",
-      "summary": "Explore a high-stakes morning as the Los Angeles Lakers reel from a historic blowout loss and a potentially season-altering injury to superstar Luka Doncic. In the world of tech, this episode dives into the messy damage control surrounding Anthropic’s massive source code leak and OpenAI’s surprising move into the media industry. We also break down Microsoft’s newest AI models and the irony of a high-tech world that still can't provide a reliable local surf report.",
-      "keyTopics": [
-        "Lakers historic loss to Oklahoma City Thunder",
-        "Luka Doncic hamstring injury and upcoming MRI",
-        "Anthropic accidental DMCA takedowns after source code leak",
-        "Microsoft AI voice and image generation model release",
-        "OpenAI acquisition of TBPN business and tech podcast",
-        "Moonbounce twelve million dollar AI content moderation funding",
-        "Ongoing Surfline API outage in Santa Barbara County"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Oklahoma City Thunder",
-        "ESPN Lakers News::Lakers: Luka Doncic (hamstring) exits Lakers' loss in OKC; MRI next",
-        "ESPN Lakers News::Lakers: Stephen A.: LeBron returning to Cleveland could mean a title for Cavs"
       ]
     }
   ]
