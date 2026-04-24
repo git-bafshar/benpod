@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-04-24",
+      "summary": "Explore a major shift in the AI hardware race as Meta pivots to specialized CPUs for global agent deployment while international competitors like DeepSeek and Anthropic expand their reach. This episode also examines the local infrastructure strain caused by the AI boom, critical security threats to developer tools, and the latest roster updates from the NFL.",
+      "keyTopics": [
+        "Meta and Amazon deal for agentic workload CPUs",
+        "DeepSeek AI model efficiency gains and frontier gap",
+        "Anthropic and NEC Japanese enterprise AI workforce initiative",
+        "Illinois power grid strain from AI data center growth",
+        "Bitwarden command-line interface supply chain security breach",
+        "49ers coach Kyle Shanahan retains quarterback Mac Jones"
+      ],
+      "articles": [
+        "ESPN 49ers News::49ers: 49ers make 2 NFL draft trades, but none involving Mac Jones"
+      ]
+    },
+    {
       "date": "2026-04-23",
       "summary": "Explore the growing pains of the AI revolution, from high-profile security failures in the software supply chain to the mounting strain data centers are placing on local energy grids. This episode also dives into the rise of AI-native cloud infrastructure, the evolving creator economy, and how the search for distant galaxies is contributing to the global GPU shortage.",
       "keyTopics": [
@@ -263,28 +278,6 @@
         "Foreign Policy - Iran::Iran, U.S. Reject Cease-Fire Proposals",
         "Foreign Policy - Iran::Trump’s Rhetorical Terror",
         "Foreign Policy - Iran::China’s Absence Draws America Deeper Into Risky Wars"
-      ]
-    },
-    {
-      "date": "2026-04-06",
-      "summary": "Explore the shifting landscape of AI as foundational tools transition to paid models and major tech companies hedge their legal liability with surprising \"entertainment only\" disclaimers. This episode also dives into the bittersweet return of Stephen Curry to the hardwood and a significant military escalation in the Persian Gulf that has global analysts on high alert. From satellite-driven data \"gold rushes\" to France's strategic move to reclaim its gold reserves, get the essential briefing on the stories shaping the week ahead.",
-      "keyTopics": [
-        "Stephen Curry return to Golden State Warriors vs Rockets",
-        "Anthropic Claude Code monetization for third-party tool access",
-        "Xoople $130 million Series B for satellite AI data",
-        "Microsoft Copilot entertainment purposes only legal disclaimer",
-        "Iran shoots down U.S. fighter jet in Persian Gulf",
-        "France withdraws gold reserves from United States vaults",
-        "Goose open-source alternative to Anthropic Claude Code",
-        "Corsair rebranding and consolidation of Drop enthusiast brand"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Houston Rockets at Golden State Warriors",
-        "ESPN Warriors News::Warriors: Kevin Durant, Rockets spoil Stephen Curry's return from injury, beat Warriors 117-116",
-        "ESPN Giants News::Giants: Tony Vitello nets first MLB ejection as Giants fall to 3-7",
-        "Foreign Policy - Iran::Iran Shoots Down U.S. Fighter Jet, One Crew Member Still Missing",
-        "Foreign Policy - Iran::Why Trump’s Speech Was So Worrying",
-        "Foreign Policy - Iran::Iran’s Zarif Wants a Bilateral Reset With U.S. That the Gulf Can’t Accept"
       ]
     }
   ]
