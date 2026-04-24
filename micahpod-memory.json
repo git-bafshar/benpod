@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-04-24",
+      "summary": "Explore the future of the AI \"super app\" with OpenAI’s GPT-5.5 release and a surprising shift in the hardware wars as Meta bets on specialized CPUs to power autonomous agents. This update also covers Anthropic’s strategic expansion into Japan, the security fallout from a major health data breach, and the potential travel disruptions tied to a looming government shutdown.",
+      "keyTopics": [
+        "OpenAI GPT-5.5 release and AI super app strategy",
+        "Meta Amazon CPU deal for agentic workloads",
+        "Anthropic and NEC Japan AI engineering workforce partnership",
+        "South Korea arrest for AI-generated runaway wolf image",
+        "UK Biobank health data breach of 500,000 records",
+        "Government shutdown impact on TSA and Orlando airport",
+        "Real estate market gridlock and golden handcuffs effect"
+      ]
+    },
+    {
       "date": "2026-04-23",
       "summary": "Discover the massive bets shaping the future of tech, from Tesla’s $25 billion investment in autonomous infrastructure to Google and X’s latest moves to weave AI directly into our productivity and social feeds. This episode also explores Beehiiv’s expansion into an all-in-one creator platform and provides essential updates on a looming government shutdown and the current standoff in the real estate market.",
       "keyTopics": [
@@ -176,23 +189,6 @@
         "Developer complaints regarding Anthropic Claude Code performance degradation",
         "Iran military threats against U.S. Stargate AI data centers",
         "LLM impact on the standardization of human expression"
-      ]
-    },
-    {
-      "date": "2026-04-06",
-      "summary": "Witness a historic leap into deep space with today’s Artemis II lunar flyby and explore the shift into AI’s \"Agentic Era\" as digital tools transition from assistants to autonomous coworkers. The episode also dives into the \"Great Housing Mismatch\" currently shaping the real estate market and the infrastructure vulnerabilities exposed by recent heavy flooding.",
-      "keyTopics": [
-        "NASA Artemis II historic human lunar flyby",
-        "Anthropic Claude Code and the Agentic Era transition",
-        "Anthropic OpenClaw feature for third-party tool integration",
-        "SpaceX IPO potential impact on AI startup investment",
-        "Microsoft Copilot terms of use entertainment purposes disclaimer",
-        "The Great Housing Mismatch demographic inventory gap",
-        "Interstate 4 flooding and Central Florida infrastructure vulnerability"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
