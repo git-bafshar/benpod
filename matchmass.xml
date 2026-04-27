@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-27</title>
+      <description>Discover the seismic shift in the AI landscape as Microsoft and OpenAI end their exclusive partnership, paving the way for new industry alliances and global competition. This update also covers Meta’s experimental leap into space-based solar power, a massive biometric data breach, and the Lakers’ recent playoff stumble in Houston. Plus, hear about a persistent local tech mystery that continues to leave Santa Barbara surfers in the dark.</description>
+      <pubDate>Mon, 27 Apr 2026 08:54:38 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-27-085438.mp3" length="3149184" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-27-085438.mp3</guid>
+      <itunes:duration>197</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-24</title>
       <description>Explore how the AI infrastructure war is evolving as Meta pivots toward custom CPUs, signaling a major shift away from total GPU dominance. This episode also dives into a confirmed security breach in the software supply chain, the political headwinds facing California housing reform, and the high-stakes road test ahead for the Lakers. Plus, we look at the growing commoditization of AI models and a mysterious local tech outage affecting Santa Barbara surfers.</description>
       <pubDate>Fri, 24 Apr 2026 08:16:00 GMT</pubDate>
