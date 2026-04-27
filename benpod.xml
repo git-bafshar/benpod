@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-27</title>
+      <description>Discover the latest escalations in the AI agent wars as China blocks a major Meta acquisition while rumors swirl about a groundbreaking smartphone from OpenAI. This episode also dives into the strange new frontiers of the AI economy—from space-based solar power to real estate sold for startup equity—alongside critical updates on shifting NATO alliances and Bay Area sports.</description>
+      <pubDate>Mon, 27 Apr 2026 10:09:51 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-27-100951.mp3" length="5795328" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-27-100951.mp3</guid>
+      <itunes:duration>362</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-24</title>
       <description>Explore a major shift in the AI hardware race as Meta pivots to specialized CPUs for global agent deployment while international competitors like DeepSeek and Anthropic expand their reach. This episode also examines the local infrastructure strain caused by the AI boom, critical security threats to developer tools, and the latest roster updates from the NFL.</description>
       <pubDate>Fri, 24 Apr 2026 09:46:42 GMT</pubDate>
