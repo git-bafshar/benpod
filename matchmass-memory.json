@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-04-27",
+      "summary": "Discover the seismic shift in the AI landscape as Microsoft and OpenAI end their exclusive partnership, paving the way for new industry alliances and global competition. This update also covers Meta’s experimental leap into space-based solar power, a massive biometric data breach, and the Lakers’ recent playoff stumble in Houston. Plus, hear about a persistent local tech mystery that continues to leave Santa Barbara surfers in the dark.",
+      "keyTopics": [
+        "Microsoft and OpenAI end exclusive revenue-sharing partnership",
+        "China blocks Meta acquisition of AI agent startup Manus",
+        "Mercor data breach exposes 40,000 voice sample biometrics",
+        "Meta and Overview Energy space-based solar power contract",
+        "Houston Rockets stave off elimination against Los Angeles Lakers",
+        "Ongoing Surfline API outage affecting Santa Barbara surf reports"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Houston Rockets",
+        "ESPN Lakers News::Lakers: Houston Rockets will play Game 4 without star Kevin Durant",
+        "ESPN Lakers News::Lakers: Amen Thompson sparks Rockets' 115-96 rout to stave off elimination against Lakers",
+        "ESPN Lakers News::Lakers: LeBron James takes blame after Lakers' blowout loss to Rockets"
+      ]
+    },
+    {
       "date": "2026-04-24",
       "summary": "Explore how the AI infrastructure war is evolving as Meta pivots toward custom CPUs, signaling a major shift away from total GPU dominance. This episode also dives into a confirmed security breach in the software supply chain, the political headwinds facing California housing reform, and the high-stakes road test ahead for the Lakers. Plus, we look at the growing commoditization of AI models and a mysterious local tech outage affecting Santa Barbara surfers.",
       "keyTopics": [
@@ -201,24 +219,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Doncic seeks treatment in Spain as he, Reaves target playoffs"
-      ]
-    },
-    {
-      "date": "2026-04-06",
-      "summary": "Discover how a devastating double injury blow is derailing the Lakers’ postseason dreams and why Microsoft’s newest AI tools are officially labeled “for entertainment purposes only.” This episode also explores a $130 million race to map the Earth from space and the surprising irony of an ongoing digital blackout affecting local surf forecasts.",
-      "keyTopics": [
-        "Luka Doncic Grade 2 hamstring strain recovery timeline",
-        "Austin Reaves out for season with oblique injury",
-        "Microsoft Copilot entertainment purposes only service terms",
-        "Xoople raises 130 million dollars for satellite mapping",
-        "Surfline API outage affecting Santa Barbara coastal data",
-        "Cooper Flagg rookie scoring record against the Lakers"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Dallas Mavericks",
-        "ESPN Lakers News::Lakers: Doncic seeks treatment in Europe as he, Reaves target playoffs",
-        "ESPN Lakers News::Lakers: 2025-26 NBA championship and MVP odds: Lakers' championship odds tumble after Doncic injury",
-        "ESPN Lakers News::Lakers: Lakers lose Austin Reaves (oblique) for rest of regular season"
       ]
     }
   ]
