@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-04-27",
+      "summary": "Discover how AI agents are moving beyond chatbots and into the real economy, from conducting autonomous marketplace transactions to potentially powering a new generation of smartphone hardware. This episode also explores the massive physical and financial ripples of the AI boom, covering futuristic space-based energy deals, regional data center battles, and the rise of tech equity as a high-stakes real estate currency.",
+      "keyTopics": [
+        "Anthropic autonomous agent marketplace experiment",
+        "OpenAI AI-powered phone and agent-centric hardware",
+        "Mill Valley real estate listed for Anthropic equity",
+        "Salesforce Slackbot rebuilt as enterprise AI agent",
+        "Listen Labs $69 million AI customer research funding",
+        "Meta satellite solar power deal with Overview Energy",
+        "Maine governor vetoes data center development moratorium",
+        "Mistral AI European data sovereignty strategy"
+      ]
+    },
+    {
       "date": "2026-04-24",
       "summary": "Explore the future of the AI \"super app\" with OpenAI’s GPT-5.5 release and a surprising shift in the hardware wars as Meta bets on specialized CPUs to power autonomous agents. This update also covers Anthropic’s strategic expansion into Japan, the security fallout from a major health data breach, and the potential travel disruptions tied to a looming government shutdown.",
       "keyTopics": [
@@ -175,20 +189,6 @@
         "MegaTrain research for training large models on single GPUs",
         "The Great Housing Mismatch in starter home inventory",
         "Central Florida Zoo renovation and habitat investment project"
-      ]
-    },
-    {
-      "date": "2026-04-07",
-      "summary": "Discover how the AI race is going physical as industry giants secure massive energy resources while data centers emerge as strategic targets in global conflicts. This episode also explores the rise of private, on-device AI, radical policy proposals for a future \"AI economy,\" and the growing concern that automated tools may be standardizing human creativity.",
-      "keyTopics": [
-        "Anthropic partnership with Google and Broadcom for gigawatt computing",
-        "Google offline AI dictation app using Gemma models",
-        "Zero Shot venture capital fund founded by OpenAI alums",
-        "OpenAI policy paper on AI taxes and public wealth funds",
-        "Rocket startup automating McKinsey-style strategy and consulting reports",
-        "Developer complaints regarding Anthropic Claude Code performance degradation",
-        "Iran military threats against U.S. Stargate AI data centers",
-        "LLM impact on the standardization of human expression"
       ]
     }
   ]
