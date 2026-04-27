@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-04-27",
+      "summary": "Discover the latest escalations in the AI agent wars as China blocks a major Meta acquisition while rumors swirl about a groundbreaking smartphone from OpenAI. This episode also dives into the strange new frontiers of the AI economy—from space-based solar power to real estate sold for startup equity—alongside critical updates on shifting NATO alliances and Bay Area sports.",
+      "keyTopics": [
+        "China regulators block Meta acquisition of robotics company Manus",
+        "OpenAI rumors of developing dedicated AI agent hardware phone",
+        "Anthropic experiment with autonomous agent-to-agent economic marketplace",
+        "Microsoft reportedly ending revenue-sharing agreement with OpenAI",
+        "Mercor data breach involving 40,000 AI contractor voice samples",
+        "Meta and Overview Energy space-based solar power contract",
+        "US pressure on NATO allies regarding Iran conflict participation",
+        "Mill Valley property listing requiring Anthropic equity payment"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Miami Marlins at San Francisco Giants",
+        "ESPN 49ers News::49ers: Where do the 49ers and Brandon Aiyuk stand after the draft?",
+        "ESPN 49ers News::49ers: 49ers draft for depth after trading back",
+        "Foreign Policy - Iran::U.S. Floats Punishing NATO Members for Refusing to Join Iran War",
+        "Foreign Policy - Iran::Papal Politics, Past and Present",
+        "Foreign Policy - Iran::Trump’s Iran War Approaches a Fresh Legal Hurdle"
+      ]
+    },
+    {
       "date": "2026-04-24",
       "summary": "Explore a major shift in the AI hardware race as Meta pivots to specialized CPUs for global agent deployment while international competitors like DeepSeek and Anthropic expand their reach. This episode also examines the local infrastructure strain caused by the AI boom, critical security threats to developer tools, and the latest roster updates from the NFL.",
       "keyTopics": [
@@ -258,26 +280,6 @@
         "Foreign Policy - Iran::U.S. and Iran Agree to 2-Week Cease-Fire",
         "Foreign Policy - Iran::Will Trump Attack or TACO?",
         "Foreign Policy - Iran::Why Energy Has Become a Foreign-Policy Weapon"
-      ]
-    },
-    {
-      "date": "2026-04-07",
-      "summary": "Discover the latest developments in the global AI arms race as industry leaders secure unprecedented power for next-generation compute, while high-stakes geopolitical tensions reach a boiling point following a critical ultimatum in the Persian Gulf. This briefing also weighs the bittersweet return of NBA legend Stephen Curry against emerging developer concerns over the reliability of evolving AI software.",
-      "keyTopics": [
-        "Anthropic Google and Broadcom gigawatt compute partnership",
-        "Zero Shot venture fund founded by OpenAI alumni",
-        "US ultimatum to Iran regarding Strait of Hormuz",
-        "Stephen Curry return to Golden State Warriors lineup",
-        "Claude Code reliability regression and February update complaints",
-        "Private wealth direct investment in early stage AI"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Philadelphia Phillies at San Francisco Giants",
-        "ESPN Warriors News::Warriors: Stephen Curry puts up 29 in return, nearly hands Warriors win",
-        "ESPN 49ers News::49ers: Will the 49ers trade, release or keep WR Brandon Aiyuk?",
-        "Foreign Policy - Iran::Iran, U.S. Reject Cease-Fire Proposals",
-        "Foreign Policy - Iran::Trump’s Rhetorical Terror",
-        "Foreign Policy - Iran::China’s Absence Draws America Deeper Into Risky Wars"
       ]
     }
   ]
