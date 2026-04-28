@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-04-28</title>
+      <description>Explore a day of tectonic shifts in tech and energy, from OpenAI’s landmark expansion into Amazon’s cloud to the UAE’s historic exit from the OPEC oil cartel after sixty years. This episode also breaks down high-stakes diplomatic maneuvers involving the Strait of Hormuz, the latest security headlines from Washington D.C., and critical updates on the looming fiscal cliff for public institutions.</description>
+      <pubDate>Tue, 28 Apr 2026 10:28:53 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-28-102853.mp3" length="5088192" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-04-28-102853.mp3</guid>
+      <itunes:duration>318</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-04-27</title>
       <description>Discover the latest escalations in the AI agent wars as China blocks a major Meta acquisition while rumors swirl about a groundbreaking smartphone from OpenAI. This episode also dives into the strange new frontiers of the AI economy—from space-based solar power to real estate sold for startup equity—alongside critical updates on shifting NATO alliances and Bay Area sports.</description>
       <pubDate>Mon, 27 Apr 2026 10:09:51 GMT</pubDate>
