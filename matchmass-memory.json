@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-04-28",
+      "summary": "Explore the shifting AI landscape as Google re-enters the defense sector and productivity tools like Slack and Otter race to become seamless hubs for enterprise data. This episode also covers the Lakers' playoff boost with Austin Reaves' potential return, a preview of tonight’s high-stakes California gubernatorial debate, and the latest on a persistent local tech mystery at the beach.",
+      "keyTopics": [
+        "Google Pentagon agreement for any lawful AI use",
+        "Otter cross-platform enterprise search feature launch",
+        "Salesforce rebuilt Slackbot AI agent functionality",
+        "Austin Reaves potential return for Lakers Game 5",
+        "California Governor candidate debate tonight",
+        "Ongoing Surfline API outage and local tech mystery"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Sources: Lakers optimistic for Austin Reaves' return in Game 5",
+        "ESPN Lakers News::Lakers: Lakers' Marcus Smart, Luke Kennard fined for Game 4 actions"
+      ]
+    },
+    {
       "date": "2026-04-27",
       "summary": "Discover the seismic shift in the AI landscape as Microsoft and OpenAI end their exclusive partnership, paving the way for new industry alliances and global competition. This update also covers Meta’s experimental leap into space-based solar power, a massive biometric data breach, and the Lakers’ recent playoff stumble in Houston. Plus, hear about a persistent local tech mystery that continues to leave Santa Barbara surfers in the dark.",
       "keyTopics": [
@@ -204,21 +220,6 @@
         "ESPN Lakers News::Lakers: LeBron out on Tuesday vs. Thunder",
         "ESPN Lakers News::Lakers: LeBron walks back comments on Memphis, Milwaukee",
         "ESPN Lakers News::Lakers: Stephen A.: The Lakers are going home in April without Luka and Reaves"
-      ]
-    },
-    {
-      "date": "2026-04-07",
-      "summary": "Explore the Lakers' high-stakes gamble as they fly Luka Doncic to Spain for a last-ditch effort to save their postseason through specialized medical treatment. This episode also breaks down the technical backlash hitting Anthropic’s new developer tool and examines how key political endorsements are shifting the landscape of California’s congressional races.",
-      "keyTopics": [
-        "Luka Doncic specialized hamstring treatment in Barcelona Spain",
-        "Anthropic Claude Code performance issues and user lockouts",
-        "Zero Shot AI venture fund OpenAI alumni",
-        "Impact of Trump endorsements on California GOP candidates",
-        "Santa Barbara Surfline API service outage",
-        "Austin Reaves season ending oblique injury"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Doncic seeks treatment in Spain as he, Reaves target playoffs"
       ]
     }
   ]
