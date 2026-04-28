@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-04-28",
+      "summary": "This episode explores a seismic shift in the AI industry as OpenAI ends its exclusive partnership with Microsoft, opening the door for new collaborations with rival cloud platforms. Discover why investors are betting over a billion dollars on AI that learns without human data, alongside critical reports on a massive voice data breach and new updates to workplace productivity tools.",
+      "keyTopics": [
+        "Microsoft and OpenAI end exclusive partnership agreement",
+        "Ineffable Intelligence $1.1 billion funding for reinforcement learning AI",
+        "Mercor data breach leaks 4 terabytes of voice samples",
+        "Otter launches cross-platform enterprise search hub integration",
+        "Governor DeSantis proposed Florida congressional redistricting maps",
+        "OpenAI models expanding to AWS and Google Cloud"
+      ]
+    },
+    {
       "date": "2026-04-27",
       "summary": "Discover how AI agents are moving beyond chatbots and into the real economy, from conducting autonomous marketplace transactions to potentially powering a new generation of smartphone hardware. This episode also explores the massive physical and financial ripples of the AI boom, covering futuristic space-based energy deals, regional data center battles, and the rise of tech equity as a high-stakes real estate currency.",
       "keyTopics": [
@@ -175,20 +187,6 @@
         "Tubi native streaming app integration in ChatGPT",
         "Google DeepMind Gemma 4 open model announcement",
         "US real estate stagnation from interest rate lock-in"
-      ]
-    },
-    {
-      "date": "2026-04-08",
-      "summary": "Explore the \"Agentic Era\" of cybersecurity as we dive into Anthropic’s new Mythos model and the massive physical infrastructure projects, like Elon Musk’s \"Terafab,\" securing the industry’s future. This episode also weighs the rise of private, on-device AI against centralized powerhouses, alongside updates on the nationwide housing mismatch and a local \"glow-up\" for the Central Florida Zoo.",
-      "keyTopics": [
-        "Anthropic Mythos preview for automated defensive cybersecurity",
-        "Intel partnership with SpaceX and Tesla for Terafab project",
-        "Firmus Southgate AI data center five billion dollar valuation",
-        "Anthropic Google and Broadcom gigawatt scale energy partnership",
-        "Google on-device offline AI dictation app using Gemma",
-        "MegaTrain research for training large models on single GPUs",
-        "The Great Housing Mismatch in starter home inventory",
-        "Central Florida Zoo renovation and habitat investment project"
       ]
     }
   ]
