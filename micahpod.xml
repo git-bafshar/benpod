@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-04-28</title>
+      <description>This episode explores a seismic shift in the AI industry as OpenAI ends its exclusive partnership with Microsoft, opening the door for new collaborations with rival cloud platforms. Discover why investors are betting over a billion dollars on AI that learns without human data, alongside critical reports on a massive voice data breach and new updates to workplace productivity tools.</description>
+      <pubDate>Tue, 28 Apr 2026 09:28:26 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-28-092826.mp3" length="3903360" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-28-092826.mp3</guid>
+      <itunes:duration>244</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-04-27</title>
       <description>Discover how AI agents are moving beyond chatbots and into the real economy, from conducting autonomous marketplace transactions to potentially powering a new generation of smartphone hardware. This episode also explores the massive physical and financial ripples of the AI boom, covering futuristic space-based energy deals, regional data center battles, and the rise of tech equity as a high-stakes real estate currency.</description>
       <pubDate>Mon, 27 Apr 2026 09:17:43 GMT</pubDate>
