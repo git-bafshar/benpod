@@ -1,6 +1,29 @@
 {
   "episodes": [
     {
+      "date": "2026-04-28",
+      "summary": "Explore a day of tectonic shifts in tech and energy, from OpenAI’s landmark expansion into Amazon’s cloud to the UAE’s historic exit from the OPEC oil cartel after sixty years. This episode also breaks down high-stakes diplomatic maneuvers involving the Strait of Hormuz, the latest security headlines from Washington D.C., and critical updates on the looming fiscal cliff for public institutions.",
+      "keyTopics": [
+        "OpenAI Microsoft renegotiation for Amazon Web Services sales",
+        "Microsoft VibeVoice open source frontier voice AI launch",
+        "United Arab Emirates withdrawal from OPEC global oil cartel",
+        "Iran proposal to reopen Strait of Hormuz for concessions",
+        "Chicago Public Schools budget deficit following federal relief expiration",
+        "Jerome Powell final Federal Reserve meeting before leadership transition",
+        "Cole Allen charged with attempted assassination of President Trump",
+        "YouTube Premium AI powered search and guided answers trial"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: The Warriors' summer of uncertainty starts with Steve Kerr",
+        "ESPN 49ers News::49ers: Schefter to McAfee: Teams don't want to trade for Aiyuk's contract",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Iran Is More Unified Than Ever",
+        "Foreign Policy - Iran::Iran Offers to Reopen the Strait of Hormuz",
+        "Foreign Policy - Iran::Escaping the Hormuz Trap"
+      ]
+    },
+    {
       "date": "2026-04-27",
       "summary": "Discover the latest escalations in the AI agent wars as China blocks a major Meta acquisition while rumors swirl about a groundbreaking smartphone from OpenAI. This episode also dives into the strange new frontiers of the AI economy—from space-based solar power to real estate sold for startup equity—alongside critical updates on shifting NATO alliances and Bay Area sports.",
       "keyTopics": [
@@ -261,25 +284,6 @@
         "Foreign Policy - Iran::Cease-Fire Confusion Over Lebanon",
         "Foreign Policy - Iran::The One Thing That Terrifies Donald Trump",
         "Foreign Policy - Iran::The Energy Crisis Won’t End Right Away (Even if the Iran War Does)"
-      ]
-    },
-    {
-      "date": "2026-04-08",
-      "summary": "Stay informed on a major diplomatic breakthrough as a last-minute cease-fire temporarily halts escalating tensions between the U.S. and Iran in the Persian Gulf. This episode also explores the relentless march of AI, from massive infrastructure investments and new workflow integrations in apps like Confluence to a research breakthrough that could democratize model training. Finally, get the highlights from a high-stakes NBA showdown as the Golden State Warriors snap their losing streak in a dramatic home victory.",
-      "keyTopics": [
-        "U.S. and Iran two-week cease-fire agreement",
-        "Nvidia-backed Firmus AI data center 5.5 billion dollar valuation",
-        "MegaTrain research training large language models on single GPU",
-        "Atlassian Confluence visual AI tools and third-party agents",
-        "Google offline AI dictation app using Gemma models",
-        "Golden State Warriors defeat Sacramento Kings with Curry return",
-        "Arcee startup high-performing open-source large language model"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Sacramento Kings at Golden State Warriors",
-        "Foreign Policy - Iran::U.S. and Iran Agree to 2-Week Cease-Fire",
-        "Foreign Policy - Iran::Will Trump Attack or TACO?",
-        "Foreign Policy - Iran::Why Energy Has Become a Foreign-Policy Weapon"
       ]
     }
   ]
