@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-04-29</title>
+      <description>Discover how the AI platform wars are heating up as Amazon challenges Microsoft’s former exclusivity with OpenAI, alongside a look at Anthropic’s new &quot;Cowork&quot; desktop productivity tool. This episode also explores the legal drama surrounding OpenAI’s founding mission, the surge of venture capital into autonomous defense technology, and a sobering reality check on the limits of AI reliability.</description>
+      <pubDate>Wed, 29 Apr 2026 09:22:44 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-29-092244.mp3" length="4257792" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-29-092244.mp3</guid>
+      <itunes:duration>266</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-04-28</title>
       <description>This episode explores a seismic shift in the AI industry as OpenAI ends its exclusive partnership with Microsoft, opening the door for new collaborations with rival cloud platforms. Discover why investors are betting over a billion dollars on AI that learns without human data, alongside critical reports on a massive voice data breach and new updates to workplace productivity tools.</description>
       <pubDate>Tue, 28 Apr 2026 09:28:26 GMT</pubDate>
