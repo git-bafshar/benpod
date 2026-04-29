@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-04-29",
+      "summary": "Explore the high-stakes legal battle over OpenAI’s origins as Elon Musk takes the stand, alongside the lightning-fast rollout of frontier AI models on Amazon Web Services. This episode also dives into the rise of autonomous battlefield agents, the shifting geopolitical standoff in the Strait of Hormuz, and a potentially franchise-altering crossroads for the Golden State Warriors.",
+      "keyTopics": [
+        "Elon Musk trial testimony regarding OpenAI founding and mission",
+        "OpenAI frontier models launch on AWS Bedrock platform",
+        "Scout AI funding for battlefield autonomous agent fleets",
+        "Firestorm Labs funding for deployable drone manufacturing facilities",
+        "Iran economic resilience amid US Strait of Hormuz blockade",
+        "Draymond Green comments on Steve Kerr coaching future",
+        "Lincolnwood Town Center mall closure and redevelopment plan"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Philadelphia Phillies",
+        "ESPN Warriors News::Warriors: Draymond Green predicts Steve Kerr won't be back next season",
+        "ESPN Warriors News::Warriors: Green scores 36 points, Suns lock down Warriors, Curry in 111-96 win in NBA's play-in tourney",
+        "Foreign Policy - Iran::King Charles III Delivers Pointed Message in Address to U.S. Congress",
+        "Foreign Policy - Iran::Why Iran Isn’t Blinking Yet"
+      ]
+    },
+    {
       "date": "2026-04-28",
       "summary": "Explore a day of tectonic shifts in tech and energy, from OpenAI’s landmark expansion into Amazon’s cloud to the UAE’s historic exit from the OPEC oil cartel after sixty years. This episode also breaks down high-stakes diplomatic maneuvers involving the Strait of Hormuz, the latest security headlines from Washington D.C., and critical updates on the looming fiscal cliff for public institutions.",
       "keyTopics": [
@@ -262,28 +282,6 @@
         "Foreign Policy - Iran::The Iran Cease-Fire Has Only Divided the War",
         "Foreign Policy - Iran::How Ukraine Benefited from Trump’s Iran War",
         "Foreign Policy - Iran::This Isn’t a 1970s Oil Shock"
-      ]
-    },
-    {
-      "date": "2026-04-09",
-      "summary": "Tensions rise as a fragile Mideast ceasefire faces immediate uncertainty, threatening to prolong global energy instability and supply chain disruptions. In the tech world, Amazon’s CEO signals an escalating \"AI infrastructure war\" with a massive $200 billion bet on the future of the cloud, while new startups emerge to challenge industry giants. The episode also explores the latest reliability hurdles for AI models and key highlights from the world of professional sports.",
-      "keyTopics": [
-        "US-Iran Persian Gulf cease-fire disagreement over Lebanon",
-        "Amazon CEO Andy Jassy AI infrastructure investment strategy",
-        "Railway $100 million Series B for AI-native cloud",
-        "Tubi launches native streaming app inside ChatGPT",
-        "Anthropic Claude speaker attribution and data reliability issues",
-        "Golden State Warriors victory and Steph Curry injury return",
-        "NBA investigation into Sacramento Kings tanking foul",
-        "San Francisco 49ers retain quarterback Mac Jones"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Curry scores 17 points with two 4-point plays in second game back from injury, Warriors beat Kings",
-        "ESPN Warriors News::Warriors: Sources: Kings' late foul was tactical error, not tanking",
-        "ESPN 49ers News::49ers: Breaking down 49ers' decision to not trade Mac Jones",
-        "Foreign Policy - Iran::Cease-Fire Confusion Over Lebanon",
-        "Foreign Policy - Iran::The One Thing That Terrifies Donald Trump",
-        "Foreign Policy - Iran::The Energy Crisis Won’t End Right Away (Even if the Iran War Does)"
       ]
     }
   ]
