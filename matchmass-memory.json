@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-04-29",
+      "summary": "Explore the seismic shift in the AI landscape as Amazon integrates OpenAI models into its cloud platform and venture capital pours into defense-focused autonomous technology. This episode also breaks down the fallout from California’s first major gubernatorial debate and a pivotal injury update that could decide the Lakers’ playoff series. Plus, stay tuned for the latest on a mysterious local tech outage currently baffling the Santa Barbara community.",
+      "keyTopics": [
+        "AWS Bedrock adds OpenAI models after Microsoft partnership ends",
+        "Scout AI $100 million round for autonomous drone agents",
+        "Firestorm Labs $82 million for shipping container drone factories",
+        "California gubernatorial debate focuses on housing and homelessness",
+        "Kevin Durant ruled out for Lakers vs Rockets Game 5",
+        "Ongoing Surfline API data outage in Santa Barbara County",
+        "Google defense contracts and venture capital surge in military AI"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Rockets rule out Kevin Durant (ankle) for Game 5 vs. Lakers"
+      ]
+    },
+    {
       "date": "2026-04-28",
       "summary": "Explore the shifting AI landscape as Google re-enters the defense sector and productivity tools like Slack and Otter race to become seamless hubs for enterprise data. This episode also covers the Lakers' playoff boost with Austin Reaves' potential return, a preview of tonight’s high-stakes California gubernatorial debate, and the latest on a persistent local tech mystery at the beach.",
       "keyTopics": [
@@ -200,26 +216,6 @@
       "articles": [
         "ESPN Lakers News::Lakers: Lakers' Redick downplays quarrel with Vanderbilt as 'normal'",
         "ESPN Lakers News::Lakers: JJ Redick on Deandre Ayton: 'He's had trouble catching the ball'"
-      ]
-    },
-    {
-      "date": "2026-04-08",
-      "summary": "Explore the Lakers’ dramatic season collapse as internal tensions boil over following a humiliating blowout loss to the Thunder. This episode also dives into the tech world’s latest bold claim that AGI has officially arrived, reframing the future of artificial intelligence as a practical reality rather than a sci-fi dream. Plus, get updates on new AI tools from Atlassian and Google, alongside a look at the persistent data outage frustrating Santa Barbara’s surf community.",
-      "keyTopics": [
-        "Lakers loss to Oklahoma City Thunder 123 to 87",
-        "JJ Redick and Jarred Vanderbilt heated sideline exchange",
-        "Matei Zaharia Databricks AGI is already here claim",
-        "Atlassian Confluence visual AI tools and third-party agents",
-        "Google offline AI dictation app using Gemma models",
-        "Luka Doncic specialized injury treatment in Spain",
-        "Surfline Santa Barbara County API outage continues"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Oklahoma City Thunder at Los Angeles Lakers",
-        "ESPN Lakers News::Lakers: Mavericks dispute Redick's claim they erred with Reaves' MRI",
-        "ESPN Lakers News::Lakers: LeBron out on Tuesday vs. Thunder",
-        "ESPN Lakers News::Lakers: LeBron walks back comments on Memphis, Milwaukee",
-        "ESPN Lakers News::Lakers: Stephen A.: The Lakers are going home in April without Luka and Reaves"
       ]
     }
   ]
