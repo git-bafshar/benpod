@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-04-30</title>
+      <description>This episode explores the staggering $900 billion valuation rumors surrounding Anthropic and the intensifying AI infrastructure race, from robotic data centers to disruptive cloud startups. It also breaks down the latest surge in inflation and its ripple effects on the Federal Reserve and the housing market. The discussion rounds out with updates on high-stakes tech legal battles and a tribute to the legacy of outlaw country legend David Allan Coe.</description>
+      <pubDate>Thu, 30 Apr 2026 09:20:23 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-30-092023.mp3" length="3777216" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-04-30-092023.mp3</guid>
+      <itunes:duration>236</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-04-29</title>
       <description>Discover how the AI platform wars are heating up as Amazon challenges Microsoft’s former exclusivity with OpenAI, alongside a look at Anthropic’s new &quot;Cowork&quot; desktop productivity tool. This episode also explores the legal drama surrounding OpenAI’s founding mission, the surge of venture capital into autonomous defense technology, and a sobering reality check on the limits of AI reliability.</description>
       <pubDate>Wed, 29 Apr 2026 09:22:44 GMT</pubDate>
