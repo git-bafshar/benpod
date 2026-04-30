@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-04-30",
+      "summary": "This episode explores the staggering $900 billion valuation rumors surrounding Anthropic and the intensifying AI infrastructure race, from robotic data centers to disruptive cloud startups. It also breaks down the latest surge in inflation and its ripple effects on the Federal Reserve and the housing market. The discussion rounds out with updates on high-stakes tech legal battles and a tribute to the legacy of outlaw country legend David Allan Coe.",
+      "keyTopics": [
+        "Anthropic rumored nine hundred billion dollar valuation",
+        "Amazon AWS offering OpenAI models via cloud deal",
+        "SoftBank robotics IPO for automated data center construction",
+        "Railway AI-native cloud infrastructure one hundred million funding",
+        "Elon Musk testimony in OpenAI courtroom battle",
+        "US inflation spike and Federal Reserve interest rate hold",
+        "Anthropic Cowork AI desktop tool release",
+        "Country music icon David Allan Coe death"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-04-29",
       "summary": "Discover how the AI platform wars are heating up as Amazon challenges Microsoft’s former exclusivity with OpenAI, alongside a look at Anthropic’s new \"Cowork\" desktop productivity tool. This episode also explores the legal drama surrounding OpenAI’s founding mission, the surge of venture capital into autonomous defense technology, and a sobering reality check on the limits of AI reliability.",
       "keyTopics": [
@@ -176,18 +194,6 @@
         "Michigan digital age privacy legislation withdrawal",
         "Anthropic Claude developer momentum at HumanX conference",
         "Real estate market interest rate lock-in stagnation"
-      ]
-    },
-    {
-      "date": "2026-04-10",
-      "summary": "Explore the shifting landscape of AI as OpenAI introduces a new professional subscription tier and faces a landmark legal investigation in Florida over the potential misuse of its technology. This episode also analyzes Meta’s recent App Store surge, skepticism surrounding Anthropic’s newest safety claims, and the ongoing gridlock in the national real estate market.",
-      "keyTopics": [
-        "OpenAI launches $100 monthly ChatGPT Pro subscription tier",
-        "Florida Attorney General investigation into OpenAI following FSU shooting",
-        "Victim family lawsuit against OpenAI over ChatGPT misuse",
-        "Skepticism regarding Anthropic Mythos cybersecurity model safety narrative",
-        "Meta AI app climbs App Store after Muse Spark launch",
-        "Interest rate lock-in effect causes US housing market gridlock"
       ]
     }
   ]
