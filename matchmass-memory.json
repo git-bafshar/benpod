@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-04-30",
+      "summary": "Explore the staggering $900 billion valuation talks surrounding Anthropic and the massive AI infrastructure arms race currently driving investment from tech giants like Amazon and SoftBank. In sports, we break down a frustrating Lakers loss that forces a high-stakes Game 6 against the Rockets, even as Houston remains without their star player. Plus, stay tuned for an update on a mysterious and persistent tech outage currently affecting the local surf report.",
+      "keyTopics": [
+        "Anthropic $900 billion valuation funding talks",
+        "Amazon AWS Bedrock OpenAI model integration",
+        "SoftBank AI-powered data center robotics company",
+        "Meta business AI 10 million weekly conversations",
+        "X rebuilding advertising platform with AI technology",
+        "Houston Rockets Game 5 win against Lakers",
+        "Kevin Durant ankle injury Game 6 status",
+        "Santa Barbara Surfline API technical outage"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Houston Rockets at Los Angeles Lakers",
+        "ESPN Lakers News::Lakers: Sources: Rockets' Kevin Durant will miss Game 6 vs. Lakers",
+        "ESPN Lakers News::Lakers: Rockets beat Lakers 99-93 in Game 5, avoiding playoff elimination for the 2nd straight game"
+      ]
+    },
+    {
       "date": "2026-04-29",
       "summary": "Explore the seismic shift in the AI landscape as Amazon integrates OpenAI models into its cloud platform and venture capital pours into defense-focused autonomous technology. This episode also breaks down the fallout from California’s first major gubernatorial debate and a pivotal injury update that could decide the Lakers’ playoff series. Plus, stay tuned for the latest on a mysterious local tech outage currently baffling the Santa Barbara community.",
       "keyTopics": [
@@ -200,22 +219,6 @@
       "articles": [
         "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Golden State Warriors",
         "ESPN Lakers News::Lakers: 2025-26 NBA championship and MVP odds: Lakers' title odds continue to lengthen"
-      ]
-    },
-    {
-      "date": "2026-04-09",
-      "summary": "Today’s episode explores the public implosion of the Lakers as coaching tensions and internal finger-pointing spill into the spotlight. Dive into the aggressive new battle lines drawn by Amazon in the AI infrastructure wars and the growing developer backlash regarding the reliability of Anthropic’s latest tools. Plus, discover how a unique sports program at San Quentin is creating a successful national model for prisoner rehabilitation.",
-      "keyTopics": [
-        "Lakers coach JJ Redick publicly criticizes Deandre Ayton",
-        "Amazon CEO Andy Jassy annual shareholder letter AI strategy",
-        "AWS dual investment in rivals Anthropic and OpenAI",
-        "Anthropic Claude Code developer backlash and reliability concerns",
-        "San Quentin prison sports program rehabilitation model",
-        "Extended eight day Santa Barbara Surfline API outage"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Lakers' Redick downplays quarrel with Vanderbilt as 'normal'",
-        "ESPN Lakers News::Lakers: JJ Redick on Deandre Ayton: 'He's had trouble catching the ball'"
       ]
     }
   ]
