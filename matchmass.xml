@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-04-30</title>
+      <description>Explore the staggering $900 billion valuation talks surrounding Anthropic and the massive AI infrastructure arms race currently driving investment from tech giants like Amazon and SoftBank. In sports, we break down a frustrating Lakers loss that forces a high-stakes Game 6 against the Rockets, even as Houston remains without their star player. Plus, stay tuned for an update on a mysterious and persistent tech outage currently affecting the local surf report.</description>
+      <pubDate>Thu, 30 Apr 2026 08:50:59 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-30-085059.mp3" length="2768832" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-04-30-085059.mp3</guid>
+      <itunes:duration>173</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-04-29</title>
       <description>Explore the seismic shift in the AI landscape as Amazon integrates OpenAI models into its cloud platform and venture capital pours into defense-focused autonomous technology. This episode also breaks down the fallout from California’s first major gubernatorial debate and a pivotal injury update that could decide the Lakers’ playoff series. Plus, stay tuned for the latest on a mysterious local tech outage currently baffling the Santa Barbara community.</description>
       <pubDate>Wed, 29 Apr 2026 08:59:38 GMT</pubDate>
