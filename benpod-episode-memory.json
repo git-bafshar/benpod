@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-04-30",
+      "summary": "Explore the mind-boggling $900 billion valuation discussions surrounding Anthropic and the massive infrastructure bets currently reshaping the global tech landscape. This episode also dives into a potential turning point for the Golden State Warriors’ dynasty and the latest geopolitical tensions involving Iran’s nuclear program. From the front lines of the AI gold rush to the future of NBA leadership, we cover the essential headlines defining the day.",
+      "keyTopics": [
+        "Anthropic $900 billion funding round valuation discussions",
+        "AWS earnings growth fueled by AI infrastructure demand",
+        "SoftBank robotics company for data center construction IPO",
+        "Elon Musk testimony in OpenAI nonprofit mission lawsuit",
+        "Steve Kerr formal meeting regarding Golden State Warriors future",
+        "UN nuclear watchdog report on Iran uranium at Isfahan",
+        "Meta business AI tools reaching 10 million weekly conversations",
+        "Death of pioneering human genome biologist Craig Venter"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Sources: Warriors' brass meet with Kerr; will reconvene next week",
+        "Foreign Policy - Iran::An Ayatollah for the Aggrieved",
+        "Foreign Policy - Iran::Where Is Iran’s Enriched Uranium?",
+        "Foreign Policy - Iran::‘Resign Immediately’: Democrats Grill Hegseth on Iran War"
+      ]
+    },
+    {
       "date": "2026-04-29",
       "summary": "Explore the high-stakes legal battle over OpenAI’s origins as Elon Musk takes the stand, alongside the lightning-fast rollout of frontier AI models on Amazon Web Services. This episode also dives into the rise of autonomous battlefield agents, the shifting geopolitical standoff in the Strait of Hormuz, and a potentially franchise-altering crossroads for the Golden State Warriors.",
       "keyTopics": [
@@ -262,26 +282,6 @@
         "Foreign Policy - Iran::Where Do the Gulf States Go From Here?",
         "Foreign Policy - Iran::U.S.-Iran Peace Talks May Collapse Before They Even Begin",
         "Foreign Policy - Iran::The Iran War’s Agriculture Shock Isn’t Over Yet"
-      ]
-    },
-    {
-      "date": "2026-04-10",
-      "summary": "Today’s episode explores OpenAI’s high-stakes legal battle over liability and its shifting business model, from a new $100 premium tier to the possibility of ads in ChatGPT. We also break down the fragile geopolitical situation in the Persian Gulf, a historic father-son milestone in the NBA, and the ambitious startup aiming to reinvent the bedrock of modern software development.",
-      "keyTopics": [
-        "Florida AG investigation into OpenAI and FSU shooting",
-        "OpenAI lobbying for AI mass-casualty liability protection bill",
-        "ChatGPT Pro 100 dollar per month subscription tier",
-        "Hacker News reports of potential ads in ChatGPT",
-        "U.S. and Iran Persian Gulf cease-fire fragmentation analysis",
-        "LeBron and Bronny James historic first NBA family assist",
-        "Mercor data breach fallout and enterprise client loss",
-        "Startup raising 17 million dollars to replace Git"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Los Angeles Lakers at Golden State Warriors",
-        "Foreign Policy - Iran::The Iran Cease-Fire Has Only Divided the War",
-        "Foreign Policy - Iran::How Ukraine Benefited from Trump’s Iran War",
-        "Foreign Policy - Iran::This Isn’t a 1970s Oil Shock"
       ]
     }
   ]
