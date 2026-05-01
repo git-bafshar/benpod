@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-01",
+      "summary": "Explore the ripple effects of Anthropic’s staggering $900 billion valuation quest and how the surge in local AI development is driving an unexpected hardware crunch at Apple. This episode also dives into the sharpening competitive tactics between OpenAI and Anthropic, the high-stakes \"land grab\" in legal tech, and the organizational challenges of managing complex AI product teams. Learn how these massive investments and technical shifts are reshaping everything from global supply chains to internal corporate workflows.",
+      "keyTopics": [
+        "Anthropic $900 billion funding round and investor deadline",
+        "Apple Mac Neo supply constraints due to AI demand",
+        "OpenAI Cyber tool release using GPT-5.5 model",
+        "Internal Apple support files reveal Anthropic Claude integration",
+        "Legora $5.6 billion valuation in legal AI competition",
+        "Product management ownership challenges in AI feature development"
+      ]
+    },
+    {
       "date": "2026-04-30",
       "summary": "This episode explores the staggering $900 billion valuation rumors surrounding Anthropic and the intensifying AI infrastructure race, from robotic data centers to disruptive cloud startups. It also breaks down the latest surge in inflation and its ripple effects on the Federal Reserve and the housing market. The discussion rounds out with updates on high-stakes tech legal battles and a tribute to the legacy of outlaw country legend David Allan Coe.",
       "keyTopics": [
@@ -181,19 +193,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-04-13",
-      "summary": "Explore the complex intersection of AI and national security as advanced cybersecurity models enter the banking sector and orbital data centers take compute power into space. This episode also dives into the rise of \"agentic\" workplace tools like the newly reimagined Slackbot, a viral $5,000 marketing stunt that sparked a $69 million fundraise, and the legislative friction surrounding data privacy. Finally, stay informed with updates on the upcoming hurricane season and the ongoing gridlock in the national real estate market.",
-      "keyTopics": [
-        "Anthropic Mythos cybersecurity model national security debate",
-        "Kepler Communications orbital compute cluster space GPUs",
-        "Salesforce AI agent Slackbot enterprise data integration",
-        "Listen Labs billboard hiring stunt and funding",
-        "Michigan digital age privacy legislation withdrawal",
-        "Anthropic Claude developer momentum at HumanX conference",
-        "Real estate market interest rate lock-in stagnation"
       ]
     }
   ]
