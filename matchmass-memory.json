@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-05-01",
+      "summary": "Explore the staggering speed of the AI industry as Anthropic targets a historic valuation and Apple struggles to meet hardware demand driven by the AI boom. This episode also breaks down the Lakers’ disappointing season-ending loss to the Rockets and the mystery behind an ongoing digital outage affecting local surf reports.",
+      "keyTopics": [
+        "Anthropic 48-hour deadline for $900 billion funding round",
+        "Legora $5.6 billion valuation and Harvey legal AI competition",
+        "Apple AI-driven supply constraints for Mac Neo and Studio",
+        "Claude integration evidence found in Apple Support app code",
+        "Houston Rockets eliminate LA Lakers from NBA playoffs",
+        "Kevin Durant injury impact on Lakers playoff elimination",
+        "Ongoing five-day Surfline API outage in Santa Barbara"
+      ]
+    },
+    {
       "date": "2026-04-30",
       "summary": "Explore the staggering $900 billion valuation talks surrounding Anthropic and the massive AI infrastructure arms race currently driving investment from tech giants like Amazon and SoftBank. In sports, we break down a frustrating Lakers loss that forces a high-stakes Game 6 against the Rockets, even as Houston remains without their star player. Plus, stay tuned for an update on a mysterious and persistent tech outage currently affecting the local surf report.",
       "keyTopics": [
@@ -202,23 +215,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: 2026 NBA playoffs: Schedule, scores, news and highlights"
-      ]
-    },
-    {
-      "date": "2026-04-10",
-      "summary": "Explore how the Los Angeles Lakers’ blowout win over the Warriors—and Deandre Ayton’s response to public coaching pressure—has shifted the team's momentum. This episode also dives into OpenAI’s high-stakes week, balancing the launch of a new $100 subscription tier with mounting legal investigations and liability lobbying. From Meta’s app store surge to a mysterious local tech blackout affecting surf reports, get the latest on the intersection of sports, tech, and AI.",
-      "keyTopics": [
-        "Lakers defeat Warriors as Deandre Ayton responds to JJ Redick",
-        "OpenAI launches $100 monthly ChatGPT Pro subscription tier",
-        "OpenAI lobbies Illinois for AI developer legal liability protections",
-        "Florida Attorney General investigates OpenAI regarding FSU shooting incident",
-        "Meta AI app reaches top five following Muse Spark release",
-        "Railway raises $100 million for AI-native cloud infrastructure",
-        "Ongoing Surfline API outage affecting Santa Barbara surf reports"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Golden State Warriors",
-        "ESPN Lakers News::Lakers: 2025-26 NBA championship and MVP odds: Lakers' title odds continue to lengthen"
       ]
     }
   ]
