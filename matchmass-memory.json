@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-05-04",
+      "summary": "This episode dives into a major sports correction regarding the Lakers’ stunning playoff turnaround and a groundbreaking Harvard study showing AI out-diagnosing emergency room doctors. Discover why the Academy is drawing a line in the sand against AI-generated films and how tech giants are moving to integrate their tools into the heart of corporate America.",
+      "keyTopics": [
+        "Lakers advance to second round against OKC Thunder",
+        "OpenAI o1 model outperforms ER doctors in diagnosis",
+        "Anthropic and OpenAI enterprise AI joint ventures",
+        "Academy Awards ban AI-generated actors and scripts",
+        "Artisan AI This is fine meme copyright dispute",
+        "Persistent Santa Barbara Surfline API outage"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Windy: Luka 'is not close' to returning"
+      ]
+    },
+    {
       "date": "2026-05-01",
       "summary": "Explore the staggering speed of the AI industry as Anthropic targets a historic valuation and Apple struggles to meet hardware demand driven by the AI boom. This episode also breaks down the Lakers’ disappointing season-ending loss to the Rockets and the mystery behind an ongoing digital outage affecting local surf reports.",
       "keyTopics": [
@@ -200,21 +215,6 @@
       "articles": [
         "ESPN Lakers News::Lakers: Redick gives no Doncic update as Lakers' playoff prep begins",
         "ESPN Lakers News::Lakers: Doncic to return from Spain on Friday; status still unknown"
-      ]
-    },
-    {
-      "date": "2026-04-14",
-      "summary": "After a week of internal turmoil, the Lakers have officially secured their playoff spot for a high-stakes first-round matchup against the Houston Rockets. This episode also dives into OpenAI’s strategic acquisition of a personal finance startup and a new report detailing the widening gap between AI's rapid advancement and growing public anxiety. Finally, we cover the political shockwave of Congressman Eric Swalwell’s sudden resignation and the ongoing mystery of a weeks-long surf data outage in Santa Barbara.",
-      "keyTopics": [
-        "Lakers vs Houston Rockets first round playoff matchup",
-        "OpenAI acquisition of personal finance startup Hiro",
-        "Stanford AI Index report highlights public anxiety gap",
-        "Congressman Eric Swalwell resignation after sex abuse accusations",
-        "Extended Surfline API data outage in Santa Barbara",
-        "Lakers internal conflict involving JJ Redick and Deandre Ayton"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: 2026 NBA playoffs: Schedule, scores, news and highlights"
       ]
     }
   ]
