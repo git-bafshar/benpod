@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-04",
+      "summary": "Explore how AI is moving from the lab to the boardroom as Anthropic launches a massive enterprise services venture and a new Harvard study reveals AI outperforming doctors in emergency room diagnostics. This episode also dives into the growing tensions between technology and creativity, covering new Oscar eligibility rules, high-stakes copyright battles over iconic memes, and the critical hardware supply chain powering the entire industry.",
+      "keyTopics": [
+        "Anthropic enterprise AI services company with Goldman Sachs",
+        "Harvard study on AI emergency room diagnostic accuracy",
+        "Academy Awards ban on AI actors and scripts",
+        "Artisan AI copyright dispute over This Is Fine meme",
+        "ASML EUV lithography machines as AI hardware bottleneck",
+        "Orlando performing arts venue funding and expansion debate"
+      ]
+    },
+    {
       "date": "2026-05-01",
       "summary": "Explore the ripple effects of Anthropic’s staggering $900 billion valuation quest and how the surge in local AI development is driving an unexpected hardware crunch at Apple. This episode also dives into the sharpening competitive tactics between OpenAI and Anthropic, the high-stakes \"land grab\" in legal tech, and the organizational challenges of managing complex AI product teams. Learn how these massive investments and technical shifts are reshaping everything from global supply chains to internal corporate workflows.",
       "keyTopics": [
@@ -175,24 +187,6 @@
         "Railway AI-native cloud infrastructure challenges AWS",
         "Science Corp human brain sensory implant preparations",
         "US real estate market stagnation and mortgage rate gridlock"
-      ]
-    },
-    {
-      "date": "2026-04-14",
-      "summary": "Dive into the dawn of the \"agentic era\" as AI moves beyond simple chat to transform enterprise workflows and personal financial planning. This episode also breaks down the potential economic impact of escalating tensions with Iran and covers the latest national headlines in real estate, sports, and federal law.",
-      "keyTopics": [
-        "Microsoft enterprise autonomous agent development",
-        "Vercel potential IPO and AI app revenue surge",
-        "OpenAI acquisition of personal finance startup Hiro",
-        "Kepler Communications orbital GPU compute cluster launch",
-        "Stanford AI Index report public perception disconnect",
-        "US-Iran ceasefire ultimatum and naval blockade",
-        "Federal indictment in Anna Kepner murder case",
-        "Dick Vitale cancer diagnosis and sports world support"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
