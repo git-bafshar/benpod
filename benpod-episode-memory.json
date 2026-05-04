@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-05-04",
+      "summary": "Explore Anthropic’s massive shift into enterprise AI services and a landmark Harvard study showing AI models out-diagnosing emergency room doctors. This episode also breaks down the Academy’s new ban on AI-generated talent, high-stakes geopolitical maneuvers in the Middle East, and a bizarre case of market manipulation involving a hairdryer and a weather bet. From corporate power plays to the \"last mile\" of medical integration, discover how AI is moving from theoretical technology to a real-world force.",
+      "keyTopics": [
+        "Anthropic enterprise AI services venture with Blackstone and Goldman Sachs",
+        "OpenAI o1 model outperforming ER doctors in Harvard study",
+        "KC Green legal dispute with Artisan over AI meme usage",
+        "Academy Award rules banning AI actors and AI-written scripts",
+        "Geopolitical analysis of Trump Hormuz gambit and middle power influence",
+        "San Francisco Giants call up top prospect Bryce Eldridge",
+        "Alleged physical tampering of Polymarket weather prediction sensors"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Tampa Bay Rays",
+        "ESPN Giants News::Giants: Reports: Giants calling up prospect Bryce Eldridge",
+        "Foreign Policy - Iran::Trump’s War Exposes the Weakness of Middle Powers",
+        "Foreign Policy - Iran::Trump: 60-Day War Powers Deadline ‘Totally Unconstitutional’",
+        "Foreign Policy - Iran::Saffron’s Last Gasp"
+      ]
+    },
+    {
       "date": "2026-05-01",
       "summary": "Explore the staggering financial surge in AI as Anthropic eyes a trillion-dollar valuation and rivalries among tech giants turn increasingly competitive. This episode also breaks down the public internal strife threatening the Golden State Warriors' legacy and a looming constitutional showdown over U.S. military action in Iran. Finally, find out why the arrival of May means a more expensive season for Chicago’s lakefront.",
       "keyTopics": [
@@ -259,23 +279,6 @@
         "Foreign Policy - Iran::Israel, Lebanon Hold Rare U.S.-Mediated Peace Talks on Hezbollah",
         "Foreign Policy - Iran::On Iran, China Softens Its Approach",
         "Foreign Policy - Iran::How to Navigate a Rogue America"
-      ]
-    },
-    {
-      "date": "2026-04-13",
-      "summary": "Dive into the high-stakes drama of the Golden State Warriors’ postseason push following a tense regular-season finale and a looming do-or-die rematch against the Clippers. This episode also explores the frontiers of \"orbital computing\" with GPUs in space, the growing political battle over AI model trust, and a provocative debate on whether AI represents a new technological era or simply the final optimization of the current one.",
-      "keyTopics": [
-        "Golden State Warriors and Clippers play-in tournament matchup",
-        "Kepler Communications orbital GPU compute cluster launch",
-        "Trump campaign promotion of Anthropic Mythos model",
-        "Anthropic Department of Defense supply-chain risk designation",
-        "Anthropic Claude model developer adoption and HumanX buzz",
-        "AI as platform hyper-optimizer versus new digital wave",
-        "US-Iran Persian Gulf ceasefire and maritime stability"
-      ],
-      "articles": [
-        "ESPN Warriors::Warriors Recap: Golden State Warriors at LA Clippers",
-        "ESPN Warriors News::Warriors: Clippers beat the Warriors 115-110 to clinch No. 9 seed and play-in tourney rematch"
       ]
     }
   ]
