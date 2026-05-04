@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-04</title>
+      <description>Explore how AI is moving from the lab to the boardroom as Anthropic launches a massive enterprise services venture and a new Harvard study reveals AI outperforming doctors in emergency room diagnostics. This episode also dives into the growing tensions between technology and creativity, covering new Oscar eligibility rules, high-stakes copyright battles over iconic memes, and the critical hardware supply chain powering the entire industry.</description>
+      <pubDate>Mon, 04 May 2026 09:21:41 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-04-092141.mp3" length="4304064" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-04-092141.mp3</guid>
+      <itunes:duration>269</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-01</title>
       <description>Explore the ripple effects of Anthropic’s staggering $900 billion valuation quest and how the surge in local AI development is driving an unexpected hardware crunch at Apple. This episode also dives into the sharpening competitive tactics between OpenAI and Anthropic, the high-stakes &quot;land grab&quot; in legal tech, and the organizational challenges of managing complex AI product teams. Learn how these massive investments and technical shifts are reshaping everything from global supply chains to internal corporate workflows.</description>
       <pubDate>Fri, 01 May 2026 08:55:34 GMT</pubDate>
