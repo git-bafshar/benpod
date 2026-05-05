@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-05</title>
+      <description>This episode explores the intensifying battle for enterprise AI as Anthropic forms a strategic alliance with Wall Street giants and chipmaker Cerebras prepares for a blockbuster IPO. The discussion also dives into the friction of real-world integration, from the debate over AI’s impact on the workforce to the controversy surrounding Google’s silent installation of large AI models on user devices. Finally, get an update on the legal feud between Elon Musk and OpenAI as the case shifts toward a high-stakes debate over global AI safety.</description>
+      <pubDate>Tue, 05 May 2026 09:11:11 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-05-091111.mp3" length="4081536" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-05-091111.mp3</guid>
+      <itunes:duration>255</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-04</title>
       <description>Explore how AI is moving from the lab to the boardroom as Anthropic launches a massive enterprise services venture and a new Harvard study reveals AI outperforming doctors in emergency room diagnostics. This episode also dives into the growing tensions between technology and creativity, covering new Oscar eligibility rules, high-stakes copyright battles over iconic memes, and the critical hardware supply chain powering the entire industry.</description>
       <pubDate>Mon, 04 May 2026 09:21:41 GMT</pubDate>
