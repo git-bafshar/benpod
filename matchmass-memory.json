@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-05-05",
+      "summary": "Discover how AI is revolutionizing the consumer experience, from Etsy’s new conversational shopping tools and PayPal’s high-tech turnaround to the privacy debates surrounding Meta’s biometric age-verification. This episode also dives into the booming business of voice AI and previews the high-stakes Western Conference Semifinals matchup between the Lakers and the Oklahoma City Thunder.",
+      "keyTopics": [
+        "PayPal AI-driven turnaround strategy and corporate restructuring",
+        "Etsy native app integration within ChatGPT for gift discovery",
+        "ElevenLabs funding from BlackRock Jamie Foxx and Eva Longoria",
+        "ElevenLabs annual recurring revenue reaches half billion dollars",
+        "Meta AI bone structure analysis for age verification",
+        "Lakers versus Oklahoma City Thunder Western Conference Semifinals",
+        "Persistent Surfline API outage in Santa Barbara County"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Thunder brace for perhaps their biggest stage: a West semifinals showdown with LeBron and the Lakers"
+      ]
+    },
+    {
       "date": "2026-05-04",
       "summary": "This episode dives into a major sports correction regarding the Lakers’ stunning playoff turnaround and a groundbreaking Harvard study showing AI out-diagnosing emergency room doctors. Discover why the Academy is drawing a line in the sand against AI-generated films and how tech giants are moving to integrate their tools into the heart of corporate America.",
       "keyTopics": [
@@ -198,23 +214,6 @@
         "Canva AI assistant text to editable design feature",
         "Luka Doncic Grade 2 hamstring strain injury",
         "Ongoing Surfline API data blackout in Santa Barbara"
-      ]
-    },
-    {
-      "date": "2026-04-15",
-      "summary": "Explore the \"wild west\" of the AI gold rush, from a footwear giant’s shocking business pivot to a landmark court ruling that changes the rules for digital privacy. This episode also breaks down the latest trends in enterprise productivity and provides a high-stakes update on the Lakers’ playoff prospects as they face a critical injury blow.",
-      "keyTopics": [
-        "Allbirds rebrands as NewBird AI following business pivot",
-        "New York court ruling on AI attorney-client privilege",
-        "Adobe Firefly AI integration across Creative Cloud apps",
-        "Luka Doncic Grade 2 hamstring injury Lakers update",
-        "Anthropic Claude Code reliability and recurring outages",
-        "Reid Hoffman critique of tokenmaxxing productivity metrics",
-        "Prolonged Santa Barbara Surfline API technical outage"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Redick gives no Doncic update as Lakers' playoff prep begins",
-        "ESPN Lakers News::Lakers: Doncic to return from Spain on Friday; status still unknown"
       ]
     }
   ]
