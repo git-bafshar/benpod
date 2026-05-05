@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-05-05",
+      "summary": "This episode explores the intensifying battle for enterprise AI as Anthropic forms a strategic alliance with Wall Street giants and chipmaker Cerebras prepares for a blockbuster IPO. The discussion also dives into the friction of real-world integration, from the debate over AI’s impact on the workforce to the controversy surrounding Google’s silent installation of large AI models on user devices. Finally, get an update on the legal feud between Elon Musk and OpenAI as the case shifts toward a high-stakes debate over global AI safety.",
+      "keyTopics": [
+        "Anthropic enterprise partnership with Blackstone and Goldman Sachs",
+        "Sierra customer service AI nine hundred fifty million dollar funding",
+        "Cerebras AI chip maker preparing for blockbuster IPO",
+        "Nvidia CEO Jensen Huang claims AI creates more jobs",
+        "Google Chrome silent installation of 4GB local AI model",
+        "Stuart Russell named expert witness in Musk vs OpenAI lawsuit",
+        "Organizational culture as the primary bottleneck for AI effectiveness"
+      ]
+    },
+    {
       "date": "2026-05-04",
       "summary": "Explore how AI is moving from the lab to the boardroom as Anthropic launches a massive enterprise services venture and a new Harvard study reveals AI outperforming doctors in emergency room diagnostics. This episode also dives into the growing tensions between technology and creativity, covering new Oscar eligibility rules, high-stakes copyright battles over iconic memes, and the critical hardware supply chain powering the entire industry.",
       "keyTopics": [
@@ -174,19 +187,6 @@
         "Antioch robot simulation platform for physical AI training",
         "Anthropic appoints Novartis CEO Vas Narasimhan to trust board",
         "US real estate stagnation and mortgage rate golden handcuffs"
-      ]
-    },
-    {
-      "date": "2026-04-15",
-      "summary": "Explore the shifting dynamics of the AI industry as investors re-evaluate the massive valuations of OpenAI against the strategic rise of Anthropic in the enterprise market. This episode also dives into Google’s push for private, offline AI on mobile devices and the emergence of AI-native cloud infrastructure designed to challenge the tech giants. Additionally, get the latest updates on neural implants, national cybersecurity briefings, and the persistent \"golden handcuffs\" stalling the real estate market.",
-      "keyTopics": [
-        "OpenAI trillion dollar valuation versus Anthropic enterprise value",
-        "Google Gemma 4 running natively and offline on iPhone",
-        "Google Chrome AI Skills for saving reusable prompts",
-        "Anthropic Mythos cybersecurity briefing for the Trump administration",
-        "Railway AI-native cloud infrastructure challenges AWS",
-        "Science Corp human brain sensory implant preparations",
-        "US real estate market stagnation and mortgage rate gridlock"
       ]
     }
   ]
