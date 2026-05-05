@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-05</title>
+      <description>Discover how AI is revolutionizing the consumer experience, from Etsy’s new conversational shopping tools and PayPal’s high-tech turnaround to the privacy debates surrounding Meta’s biometric age-verification. This episode also dives into the booming business of voice AI and previews the high-stakes Western Conference Semifinals matchup between the Lakers and the Oklahoma City Thunder.</description>
+      <pubDate>Tue, 05 May 2026 08:57:30 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-05-085730.mp3" length="3352320" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-05-085730.mp3</guid>
+      <itunes:duration>210</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-04</title>
       <description>This episode dives into a major sports correction regarding the Lakers’ stunning playoff turnaround and a groundbreaking Harvard study showing AI out-diagnosing emergency room doctors. Discover why the Academy is drawing a line in the sand against AI-generated films and how tech giants are moving to integrate their tools into the heart of corporate America.</description>
       <pubDate>Mon, 04 May 2026 09:06:35 GMT</pubDate>
