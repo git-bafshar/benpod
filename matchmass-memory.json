@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-05-06",
+      "summary": "This episode breaks down the Lakers' challenging start to their series against the Oklahoma City Thunder and explores the rising financial costs of the AI boom, highlighted by Apple’s recent multi-million dollar settlement. We also dive into Google’s search overhaul using Reddit data and the emergence of autonomous AI agents capable of managing real-world transactions and infrastructure.",
+      "keyTopics": [
+        "Match Group AI infrastructure costs and hiring slowdown",
+        "Apple $250 million Siri overpromising class-action settlement",
+        "Google search integration of Reddit and forum advice",
+        "Genesis AI robotic hands physical task demonstration",
+        "Cloudflare autonomous AI agent domain purchase and deployment",
+        "Lakers vs Thunder Western Conference Semifinals Game 1",
+        "Jarred Vanderbilt dislocated pinkie injury update",
+        "Santa Barbara Surfline API service outage"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Oklahoma City Thunder",
+        "ESPN Lakers News::Lakers: Jarred Vanderbilt dislocates right pinkie, sources say"
+      ]
+    },
+    {
       "date": "2026-05-05",
       "summary": "Discover how AI is revolutionizing the consumer experience, from Etsy’s new conversational shopping tools and PayPal’s high-tech turnaround to the privacy debates surrounding Meta’s biometric age-verification. This episode also dives into the booming business of voice AI and previews the high-stakes Western Conference Semifinals matchup between the Lakers and the Oklahoma City Thunder.",
       "keyTopics": [
@@ -202,18 +220,6 @@
       "articles": [
         "ESPN Lakers News::Lakers: Los Angeles hosts Houston to start playoffs",
         "ESPN Lakers News::Lakers: Luka, Reaves and the 48 hours that changed the Lakers' season"
-      ]
-    },
-    {
-      "date": "2026-04-16",
-      "summary": "Explore how the global scramble for AI hardware is hitting consumer wallets with Meta’s latest price hikes and potentially reshaping Hollywood’s filmmaking model. This episode also dives into the latest AI-driven design tools from Canva, Google’s systemic crackdown on \"bad ads,\" and the major injury news shaking up the Lakers’ playoff run.",
-      "keyTopics": [
-        "Meta Quest price hike due to RAM shortage",
-        "Runway CEO on AI transforming filmmaking economics",
-        "Google shifts to systemic pattern-based ad blocking",
-        "Canva AI assistant text to editable design feature",
-        "Luka Doncic Grade 2 hamstring strain injury",
-        "Ongoing Surfline API data blackout in Santa Barbara"
       ]
     }
   ]
