@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-06</title>
+      <description>This episode breaks down the Lakers&apos; challenging start to their series against the Oklahoma City Thunder and explores the rising financial costs of the AI boom, highlighted by Apple’s recent multi-million dollar settlement. We also dive into Google’s search overhaul using Reddit data and the emergence of autonomous AI agents capable of managing real-world transactions and infrastructure.</description>
+      <pubDate>Wed, 06 May 2026 09:05:20 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-06-090520.mp3" length="3694080" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-06-090520.mp3</guid>
+      <itunes:duration>231</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-05</title>
       <description>Discover how AI is revolutionizing the consumer experience, from Etsy’s new conversational shopping tools and PayPal’s high-tech turnaround to the privacy debates surrounding Meta’s biometric age-verification. This episode also dives into the booming business of voice AI and previews the high-stakes Western Conference Semifinals matchup between the Lakers and the Oklahoma City Thunder.</description>
       <pubDate>Tue, 05 May 2026 08:57:30 GMT</pubDate>
