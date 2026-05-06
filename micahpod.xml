@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-06</title>
+      <description>This episode dives into the next phase of the AI boom, exploring how specialized agents are transforming industries from finance and DevOps to autonomous robotic kitchens. We break down the competing platform strategies of SAP and Apple alongside the ethical complexities of using AI to alter human accents in call centers. Finally, the show examines the high-stakes war for tech talent and the latest local debates surrounding public funding for sports stadiums.</description>
+      <pubDate>Wed, 06 May 2026 09:29:29 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-06-092929.mp3" length="4189440" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-06-092929.mp3</guid>
+      <itunes:duration>262</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-05</title>
       <description>This episode explores the intensifying battle for enterprise AI as Anthropic forms a strategic alliance with Wall Street giants and chipmaker Cerebras prepares for a blockbuster IPO. The discussion also dives into the friction of real-world integration, from the debate over AI’s impact on the workforce to the controversy surrounding Google’s silent installation of large AI models on user devices. Finally, get an update on the legal feud between Elon Musk and OpenAI as the case shifts toward a high-stakes debate over global AI safety.</description>
       <pubDate>Tue, 05 May 2026 09:11:11 GMT</pubDate>
