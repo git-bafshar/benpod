@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-05-07",
+      "summary": "This episode explores a potential landmark diplomatic breakthrough between the U.S. and Iran alongside massive shifts in the AI sector, highlighted by Anthropic’s ambitious infrastructure partnership with SpaceX. The discussion also covers the public internal strife threatening the Golden State Warriors' dynasty and new reports that autonomous long-haul trucking is finally ready for commercial scale.",
+      "keyTopics": [
+        "U.S. and Iran memorandum of understanding terms",
+        "Anthropic and SpaceX satellite compute infrastructure partnership",
+        "Moonshot AI $2 billion funding for open-source models",
+        "Railway $100 million Series B for AI-native cloud",
+        "Draymond Green speculation on Steve Kerr Warriors exit",
+        "Aurora CEO Chris Urmson autonomous trucking commercial scale"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Draymond Green predicts Steve Kerr won't be back next season",
+        "Foreign Policy - Iran::War Handed Public Space Back to Iran’s Regime",
+        "Foreign Policy - Iran::U.S. Might Be Close to a Deal With Iran",
+        "Foreign Policy - Iran::Washington Is Still Chasing the Perfect War"
+      ]
+    },
+    {
       "date": "2026-05-06",
       "summary": "Explore a major diplomatic breakthrough in the Strait of Hormuz and the rapid rise of autonomous AI agents capable of managing their own web infrastructure. This episode also breaks down Samsung’s historic trillion-dollar milestone, the legacy of media pioneer Ted Turner, and the diverging trends currently reshaping the U.S. housing market.",
       "keyTopics": [
@@ -262,26 +280,6 @@
         "Axios report on Anthropic peace talks with AI labs",
         "Illinois data center energy demand and power grid conflict",
         "Proposed Chicago city penalties for homeless individuals"
-      ]
-    },
-    {
-      "date": "2026-04-16",
-      "summary": "Stay ahead of the curve with an inside look at the escalating AI arms race, from Anthropic’s newest flagship model to the ways the industry boom is driving up consumer hardware prices. This episode also breaks down the Golden State Warriors’ massive playoff comeback, provides critical updates on the ComEd bribery case, and examines a provocative new analysis of Middle Eastern security strategy.",
-      "keyTopics": [
-        "Anthropic Claude Opus 4.7 flagship model release",
-        "Vas Narasimhan joins Anthropic Long-Term Benefit Trust board",
-        "Google DeepMind Gemma 4 open-source model launch",
-        "Google Gemini Robotics-ER 1.6 embodied reasoning update",
-        "Meta Quest 3 price hike caused by RAM shortage",
-        "Warriors playoff play-in comeback victory against Clippers",
-        "ComEd Four bribery case sentencing and appeals update",
-        "Analysis of Israel post-October 7th security doctrine failure"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Stephen Curry, Al Horford lead Warriors past Clippers 126-121 with a huge play-in comeback",
-        "ESPN Giants News::Giants: Giants put outfielders Bader (hamstring), Oliva (wrist) on IL",
-        "ESPN 49ers News::49ers: Renardo Green could be on the trade block",
-        "Foreign Policy - Iran::Why Israel’s Post-Oct. 7 Security Doctrine Has Failed"
       ]
     }
   ]
