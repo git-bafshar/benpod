@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-05-07",
+      "summary": "Explore the cutting edge of the AI arms race as the search for compute power moves into orbit through a groundbreaking partnership between Anthropic and SpaceX. This episode also breaks down the collapse of the high-profile Snap and Perplexity deal and examines the viral, high-stakes tactics companies are using to win the war for tech talent. Finally, discover why local redistricting efforts in Orlando may prove more consequential for daily life than even the most ambitious galactic infrastructure.",
+      "keyTopics": [
+        "Anthropic and SpaceX partnership for orbital AI compute",
+        "Milken Conference AI infrastructure supply chain warnings",
+        "xAI neocloud strategy and vertical infrastructure integration",
+        "Snap termination of $400 million Perplexity AI acquisition",
+        "Spotify AI DJ expansion to four new languages",
+        "Listen Labs $69 million funding and viral hiring stunt",
+        "Orlando redistricting process and local political representation shifts"
+      ]
+    },
+    {
       "date": "2026-05-06",
       "summary": "This episode dives into the next phase of the AI boom, exploring how specialized agents are transforming industries from finance and DevOps to autonomous robotic kitchens. We break down the competing platform strategies of SAP and Apple alongside the ethical complexities of using AI to alter human accents in call centers. Finally, the show examines the high-stakes war for tech talent and the latest local debates surrounding public funding for sports stadiums.",
       "keyTopics": [
@@ -172,20 +185,6 @@
         "OpenAI acquisition of personal finance startup Hiro",
         "Tesla robotaxi expansion to Dallas and Houston",
         "Real estate housing market golden handcuffs mortgage gridlock"
-      ]
-    },
-    {
-      "date": "2026-04-17",
-      "summary": "Discover how the \"AI agent wars\" are heating up as tech giants race for desktop control and robots gain the ability to think for themselves through groundbreaking new reasoning models. This episode also dives into the record-breaking venture capital flooding the AI sector and the \"golden handcuffs\" keeping the national housing market in a state of gridlock.",
-      "keyTopics": [
-        "OpenAI Codex update with desktop agent capabilities",
-        "Anthropic Claude Opus 4.7 flagship model release",
-        "Physical Intelligence π0.7 general-purpose robot brain",
-        "Google Gemini Robotics-ER 1.6 embodied reasoning research",
-        "Factory $150 million funding and $1.5 billion valuation",
-        "Upscale AI $2 billion infrastructure funding talks",
-        "Cloudflare AI platform for autonomous agent deployment",
-        "Real estate market mortgage rate golden handcuffs standoff"
       ]
     }
   ]
