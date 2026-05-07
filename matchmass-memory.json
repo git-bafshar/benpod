@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-05-07",
+      "summary": "Discover how AI is transforming cybersecurity by auditing massive codebases for vulnerabilities while paradoxically triggering a global hardware shortage that is hitting the consumer motherboard market hard. This episode also breaks down the high stakes for the Lakers in their pivotal playoff matchup against the Thunder and discusses the surprisingly persistent tech glitch currently affecting local surf reports.",
+      "keyTopics": [
+        "Mozilla uses Anthropic Mythos model for security audits",
+        "AI infrastructure demand triggers global motherboard sales collapse",
+        "Luka Doncic hamstring injury impacts Western Conference playoffs",
+        "Lakers vs Thunder Game 2 playoff series urgency",
+        "Santa Barbara County Surfline API error persists",
+        "Hyperscaler data center builds strain hardware supply chain"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Lakers' Luka Doncic still unsure when he'll return from injury"
+      ]
+    },
+    {
       "date": "2026-05-06",
       "summary": "This episode breaks down the Lakers' challenging start to their series against the Oklahoma City Thunder and explores the rising financial costs of the AI boom, highlighted by Apple’s recent multi-million dollar settlement. We also dive into Google’s search overhaul using Reddit data and the emergence of autonomous AI agents capable of managing real-world transactions and infrastructure.",
       "keyTopics": [
@@ -203,23 +218,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: LeBron plays 'triple threat' as Lakers upset Rockets in Game 1"
-      ]
-    },
-    {
-      "date": "2026-04-17",
-      "summary": "Explore the cutting edge of AI as new creative tools empower non-designers and the first AI-produced feature film prepares for its major streaming debut starring Academy Award-winner Ben Kingsley. The episode also dives into the massive investment surge in AI infrastructure and the breaking injury news that has left the Lakers' playoff hopes in sudden jeopardy.",
-      "keyTopics": [
-        "Anthropic Claude Design visual mockup tool launch",
-        "Luma AI production studio starring Ben Kingsley",
-        "AI coding startup Factory 1.5 billion dollar valuation",
-        "Upscale AI 2 billion dollar infrastructure funding round",
-        "Physical Intelligence Pi 0.7 general purpose robot brain",
-        "Lakers star injuries Luka Doncic Grade 2 hamstring strain",
-        "Santa Barbara Surfline API localized data blackout"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Los Angeles hosts Houston to start playoffs",
-        "ESPN Lakers News::Lakers: Luka, Reaves and the 48 hours that changed the Lakers' season"
       ]
     }
   ]
