@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-05-07</title>
+      <description>This episode explores a potential landmark diplomatic breakthrough between the U.S. and Iran alongside massive shifts in the AI sector, highlighted by Anthropic’s ambitious infrastructure partnership with SpaceX. The discussion also covers the public internal strife threatening the Golden State Warriors&apos; dynasty and new reports that autonomous long-haul trucking is finally ready for commercial scale.</description>
+      <pubDate>Thu, 07 May 2026 10:29:47 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-07-102947.mp3" length="5587200" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-07-102947.mp3</guid>
+      <itunes:duration>349</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-05-06</title>
       <description>Explore a major diplomatic breakthrough in the Strait of Hormuz and the rapid rise of autonomous AI agents capable of managing their own web infrastructure. This episode also breaks down Samsung’s historic trillion-dollar milestone, the legacy of media pioneer Ted Turner, and the diverging trends currently reshaping the U.S. housing market.</description>
       <pubDate>Wed, 06 May 2026 10:28:22 GMT</pubDate>
