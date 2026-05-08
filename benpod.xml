@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-05-08</title>
+      <description>This episode explores the shifting economics of AI, breaking down rising costs for frontier models, new voice and safety features, and the relentless venture capital gold rush into the sector. We also analyze a pivotal crossroads for Bay Area sports as the Golden State Warriors&apos; leadership weighs the future of their coaching staff and the 49ers face a difficult salary cap crunch. Finally, the discussion turns to global affairs with a sobering look at how historical diplomatic accords are impacting current tensions in the Middle East.</description>
+      <pubDate>Fri, 08 May 2026 09:54:03 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-08-095403.mp3" length="4801920" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-08-095403.mp3</guid>
+      <itunes:duration>300</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-05-07</title>
       <description>This episode explores a potential landmark diplomatic breakthrough between the U.S. and Iran alongside massive shifts in the AI sector, highlighted by Anthropic’s ambitious infrastructure partnership with SpaceX. The discussion also covers the public internal strife threatening the Golden State Warriors&apos; dynasty and new reports that autonomous long-haul trucking is finally ready for commercial scale.</description>
       <pubDate>Thu, 07 May 2026 10:29:47 GMT</pubDate>
