@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-05-08",
+      "summary": "Dive into the dawn of the \"Agentic Era\" as AI evolves from simple chatbots into autonomous digital assistants capable of managing complex professional workflows. This episode also explores the Pentagon’s landmark decision to crowdsource UFO research, a widening homeownership gap among young adults, and critical updates on local music festivals and public health.",
+      "keyTopics": [
+        "GPT-5.5 and the transition to the Agentic Era",
+        "Perplexity Personal Computer app launch for Mac",
+        "OpenAI advanced voice intelligence features in API",
+        "Railway 100 million dollar Series B for AI cloud",
+        "Pentagon declassification and public analysis of UAP files",
+        "Rolling Loud Orlando festival last-minute headliner change",
+        "Florida hantavirus monitoring linked to Oceanwide Expeditions",
+        "Zillow data reveals homeownership gap for single women"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-05-07",
       "summary": "Explore the cutting edge of the AI arms race as the search for compute power moves into orbit through a groundbreaking partnership between Anthropic and SpaceX. This episode also breaks down the collapse of the high-profile Snap and Perplexity deal and examines the viral, high-stakes tactics companies are using to win the war for tech talent. Finally, discover why local redistricting efforts in Orlando may prove more consequential for daily life than even the most ambitious galactic infrastructure.",
       "keyTopics": [
@@ -173,18 +191,6 @@
         "Leadership shakeup at AI nuclear power startup Fermi",
         "Vercel outage caused by Roblox cheat and AI tool",
         "Linguistic markers identifying AI generated content"
-      ]
-    },
-    {
-      "date": "2026-04-20",
-      "summary": "This episode explores the shifting AI landscape as Anthropic disrupts the design world with a new Figma competitor and navigates a controversial partnership with the NSA. We also dive into the \"12-month window\" facing tech startups and provide updates on Tesla’s robotaxi expansion and the \"golden handcuffs\" effect paralyzing the real estate market. It’s an essential briefing on the race between platform giants and the future of autonomous technology.",
-      "keyTopics": [
-        "Anthropic Claude Design launch competing with Figma",
-        "NSA using Anthropic Mythos cybersecurity model",
-        "The twelve-month window for AI startup defensibility",
-        "OpenAI acquisition of personal finance startup Hiro",
-        "Tesla robotaxi expansion to Dallas and Houston",
-        "Real estate housing market golden handcuffs mortgage gridlock"
       ]
     }
   ]
