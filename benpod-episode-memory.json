@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-05-08",
+      "summary": "This episode explores the shifting economics of AI, breaking down rising costs for frontier models, new voice and safety features, and the relentless venture capital gold rush into the sector. We also analyze a pivotal crossroads for Bay Area sports as the Golden State Warriors' leadership weighs the future of their coaching staff and the 49ers face a difficult salary cap crunch. Finally, the discussion turns to global affairs with a sobering look at how historical diplomatic accords are impacting current tensions in the Middle East.",
+      "keyTopics": [
+        "OpenAI GPT-5.5 price increase for frontier models",
+        "OpenAI voice intelligence API and Trusted Contact safety feature",
+        "Golden State Warriors high-level meetings regarding Steve Kerr",
+        "Jauan Jennings Vikings contract and 49ers salary cap crunch",
+        "US-Iran de-escalation and Abraham Accords diplomatic analysis",
+        "Andreessen Horowitz seed funding for Stockholm AI startup Pit",
+        "Railway Series B funding for AI-native cloud infrastructure"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Sources: Warriors' brass meet with Kerr; will reconvene next week",
+        "ESPN 49ers News::49ers: Vikings, Jauan Jennings agree to 1-year deal worth up to $13M",
+        "Foreign Policy - Iran::What’s in Trump’s New Counterterrorism Strategy?",
+        "Foreign Policy - Iran::How the Abraham Accords Fueled a New Era of Conflict"
+      ]
+    },
+    {
       "date": "2026-05-07",
       "summary": "This episode explores a potential landmark diplomatic breakthrough between the U.S. and Iran alongside massive shifts in the AI sector, highlighted by Anthropic’s ambitious infrastructure partnership with SpaceX. The discussion also covers the public internal strife threatening the Golden State Warriors' dynasty and new reports that autonomous long-haul trucking is finally ready for commercial scale.",
       "keyTopics": [
@@ -267,19 +286,6 @@
         "Foreign Policy - Iran::Iran Says Strait of Hormuz Is ‘Completely Open’",
         "Foreign Policy - Iran::The Iran War Comes for the ‘King of Chemicals’",
         "Foreign Policy - Iran::Pope Leo Blasts ‘Tyrants’ in Thinly Veiled Critique of Trump"
-      ]
-    },
-    {
-      "date": "2026-04-17",
-      "summary": "Explore the intensifying rivalry between OpenAI and Anthropic as the AI arms race shifts from simple chatbots to autonomous agents with direct power over your desktop. This episode breaks down the massive wave of venture capital flooding the industry and examines the real-world consequences of this boom, from strained power grids and \"data center divides\" to shifting local policies.",
-      "keyTopics": [
-        "Anthropic Claude Opus 4.7 flagship model release",
-        "OpenAI Codex update with desktop agent capabilities",
-        "Google Gemma 4 open-source and robotics model updates",
-        "AI infrastructure startup valuations for Factory and Upscale AI",
-        "Axios report on Anthropic peace talks with AI labs",
-        "Illinois data center energy demand and power grid conflict",
-        "Proposed Chicago city penalties for homeless individuals"
       ]
     }
   ]
