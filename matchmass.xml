@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-08</title>
+      <description>Explore the high-stakes fallout from the Lakers’ pivotal playoff loss to the Thunder and the mounting pressure as the team returns home facing a daunting 2-0 series deficit. This episode also dives into OpenAI’s latest power moves in voice intelligence and user safety, alongside a look at how AI startups are finally tackling healthcare&apos;s archaic reliance on the fax machine.</description>
+      <pubDate>Fri, 08 May 2026 08:43:48 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-08-084348.mp3" length="3205056" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-08-084348.mp3</guid>
+      <itunes:duration>200</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-07</title>
       <description>Discover how AI is transforming cybersecurity by auditing massive codebases for vulnerabilities while paradoxically triggering a global hardware shortage that is hitting the consumer motherboard market hard. This episode also breaks down the high stakes for the Lakers in their pivotal playoff matchup against the Thunder and discusses the surprisingly persistent tech glitch currently affecting local surf reports.</description>
       <pubDate>Thu, 07 May 2026 09:09:48 GMT</pubDate>
