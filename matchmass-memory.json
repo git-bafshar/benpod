@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-05-08",
+      "summary": "Explore the high-stakes fallout from the Lakers’ pivotal playoff loss to the Thunder and the mounting pressure as the team returns home facing a daunting 2-0 series deficit. This episode also dives into OpenAI’s latest power moves in voice intelligence and user safety, alongside a look at how AI startups are finally tackling healthcare's archaic reliance on the fax machine.",
+      "keyTopics": [
+        "Lakers trail OKC Thunder 2-0 in NBA playoffs",
+        "OpenAI advanced voice intelligence features in developer API",
+        "OpenAI platform expansion challenges ElevenLabs voice AI niche",
+        "OpenAI ChatGPT Trusted Contact safety feature for self-harm",
+        "AI startups targeting legacy healthcare fax machine automation",
+        "Persistent Surfline API data outage for Santa Barbara reports"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Lakers' Redick rips officiating; Reaves feels 'disrespected'",
+        "ESPN Lakers News::Lakers: Holmgren and Gilgeous-Alexander each score 22 as Thunder take 2-0 lead over Lakers in West semis"
+      ]
+    },
+    {
       "date": "2026-05-07",
       "summary": "Discover how AI is transforming cybersecurity by auditing massive codebases for vulnerabilities while paradoxically triggering a global hardware shortage that is hitting the consumer motherboard market hard. This episode also breaks down the high stakes for the Lakers in their pivotal playoff matchup against the Thunder and discusses the surprisingly persistent tech glitch currently affecting local surf reports.",
       "keyTopics": [
@@ -203,21 +219,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Rockets' Kevin Durant game-time decision for Game 2"
-      ]
-    },
-    {
-      "date": "2026-04-20",
-      "summary": "Kick off the week with a breakdown of the Lakers' stunning playoff upset and the shifting privacy landscape as Atlassian begins using customer data to train its AI models by default. We also dive into the complex intersection of national security and tech with reports of the NSA utilizing blacklisted models, alongside an analysis of the \"12-month window\" threatening the survival of new AI startups.",
-      "keyTopics": [
-        "Lakers Game 1 upset victory over Houston Rockets",
-        "Atlassian default opt-out AI data collection policy",
-        "NSA usage of blacklisted Anthropic Mythos AI model",
-        "The 12-month window for AI startup survival",
-        "Railway 100 million dollar AI infrastructure funding",
-        "Palantir manifesto against corporate inclusivity and regressive culture"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: LeBron plays 'triple threat' as Lakers upset Rockets in Game 1"
       ]
     }
   ]
