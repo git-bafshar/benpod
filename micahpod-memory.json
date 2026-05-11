@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-11",
+      "summary": "From the rise of orbital data centers to AI models picking up \"villainous\" traits from Hollywood movies, this episode explores the shifting physical and psychological boundaries of artificial intelligence. Discover how the \"Agentic Era\" is turning modern offices into whispering galleries and why Google’s new security measures for Gmail are sparking a complex debate between digital safety and accessibility.",
+      "keyTopics": [
+        "Cowboy Space Corporation $275M seed round for orbital data centers",
+        "Anthropic research on Claude learning villainous traits from fiction",
+        "Impact of voice-based AI agents on office workplace etiquette",
+        "New Gmail registration security requiring QR codes and SMS",
+        "Anthropic and SpaceX partnership for space-based AI compute",
+        "The transition to the Agentic Era of digital assistants"
+      ]
+    },
+    {
       "date": "2026-05-08",
       "summary": "Dive into the dawn of the \"Agentic Era\" as AI evolves from simple chatbots into autonomous digital assistants capable of managing complex professional workflows. This episode also explores the Pentagon’s landmark decision to crowdsource UFO research, a widening homeownership gap among young adults, and critical updates on local music festivals and public health.",
       "keyTopics": [
@@ -179,18 +191,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-04-21",
-      "summary": "This briefing breaks down the staggering $100 billion \"circular deal\" between Amazon and Anthropic and the growing controversy surrounding the use of private AI models in national security. The episode also explores the industry's physical and digital vulnerabilities, from leadership crises at nuclear energy startups to a bizarre system outage triggered by a video game cheat. Finally, learn how to spot the common linguistic \"tells\" that reveal when you are reading AI-generated text.",
-      "keyTopics": [
-        "Amazon Anthropic five billion dollar investment deal",
-        "Anthropic hundred billion dollar AWS cloud services commitment",
-        "NSA use of Anthropic Mythos model for cybersecurity",
-        "Leadership shakeup at AI nuclear power startup Fermi",
-        "Vercel outage caused by Roblox cheat and AI tool",
-        "Linguistic markers identifying AI generated content"
       ]
     }
   ]
