@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-05-11",
+      "summary": "This episode dives into major shakeups in Bay Area sports, highlighting Steve Kerr’s contract extension and a surprising trade by the Giants. We also explore the cutting-edge world of space-based AI infrastructure and a fascinating report on how science fiction narratives are causing AI models to mimic manipulative behaviors. Finally, the discussion covers the latest complexities in international diplomacy and the growing friction in everyday digital security.",
+      "keyTopics": [
+        "Steve Kerr Golden State Warriors contract extension",
+        "SF Giants trade Patrick Bailey to Cleveland Guardians",
+        "Cowboy Space Corporation 275 million dollar rocket funding",
+        "Anthropic research on Claude models mimicking science fiction tropes",
+        "Anthropic Cowork desktop AI agent product launch",
+        "Iran nuclear deal zero uranium enrichment policy debate",
+        "Google Gmail new account registration security friction"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Pittsburgh Pirates at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Steve Kerr agrees to 2-year deal to remain with Warriors",
+        "ESPN Giants News::Giants: Giants ace Logan Webb goes on IL with right knee bursitis",
+        "ESPN Giants News::Giants: MLB trade grade: Guardians land Patrick Bailey from Giants",
+        "Foreign Policy - Iran::Iran Does Not Have a Right to Enrich Uranium",
+        "Foreign Policy - Iran::Southeast Asian Leaders Tackle Iran War Vulnerabilities",
+        "Foreign Policy - Iran::The Surprisingly Normal Streets of Tehran"
+      ]
+    },
+    {
       "date": "2026-05-08",
       "summary": "This episode explores the shifting economics of AI, breaking down rising costs for frontier models, new voice and safety features, and the relentless venture capital gold rush into the sector. We also analyze a pivotal crossroads for Bay Area sports as the Golden State Warriors' leadership weighs the future of their coaching staff and the 49ers face a difficult salary cap crunch. Finally, the discussion turns to global affairs with a sobering look at how historical diplomatic accords are impacting current tensions in the Middle East.",
       "keyTopics": [
@@ -260,32 +282,6 @@
         "Foreign Policy - Iran::The World Is Paying the Price for America’s War",
         "Foreign Policy - Iran::How Likely Are U.S.-Iran Peace Talks in Islamabad?",
         "Foreign Policy - Iran::How Big of a Threat Is Mythos?"
-      ]
-    },
-    {
-      "date": "2026-04-20",
-      "summary": "Explore a significant shift in the housing market as buyers gain leverage and homeowners lean into remodeling trends over relocation. This episode also breaks down the potential end of a legendary basketball dynasty, a bizarre legal crisis involving deceased jurors in Illinois, and a major constitutional battle over the preservation of presidential records.",
-      "keyTopics": [
-        "Steve Kerr potential exit from Golden State Warriors",
-        "NSA use of Anthropic Mythos model despite blacklist",
-        "Atlassian default opt-out AI training data collection",
-        "US housing market transition to a buyer's market",
-        "Illinois jury summons audit finds 60 deceased residents",
-        "Mayor Brandon Johnson tipped wage and slavery comments",
-        "US seizure of Iranian ship in Strait of Hormuz",
-        "DOJ constitutional challenge to Presidential Records Act"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Washington Nationals",
-        "ESPN Warriors News::Warriors: Suns end Warriors' season, set first-round date with Thunder",
-        "ESPN Warriors News::Warriors: Warriors' Kerr to mull future: Jobs have 'expiration date'",
-        "ESPN Warriors News::Warriors: The Warriors' summer of uncertainty starts with Steve Kerr",
-        "ESPN Giants News::Giants: San Francisco Giants RP Jose Butto undergoes arm surgery",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Iran Says Strait of Hormuz Is ‘Completely Open’",
-        "Foreign Policy - Iran::The Iran War Comes for the ‘King of Chemicals’",
-        "Foreign Policy - Iran::Pope Leo Blasts ‘Tyrants’ in Thinly Veiled Critique of Trump"
       ]
     }
   ]
