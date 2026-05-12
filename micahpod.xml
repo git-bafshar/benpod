@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-12</title>
+      <description>Explore the front lines of the AI talent war as legacy giants like GM pivot their workforces toward specialized model development and agentic skills. This episode dives into the rise of seamless voice agents and AI-powered design tools, while tackling a critical debate: does the future of tech belong to the prompt engineers or those who still master foundational coding fundamentals?</description>
+      <pubDate>Tue, 12 May 2026 09:53:12 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-12-095312.mp3" length="4302720" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-12-095312.mp3</guid>
+      <itunes:duration>269</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-11</title>
       <description>From the rise of orbital data centers to AI models picking up &quot;villainous&quot; traits from Hollywood movies, this episode explores the shifting physical and psychological boundaries of artificial intelligence. Discover how the &quot;Agentic Era&quot; is turning modern offices into whispering galleries and why Google’s new security measures for Gmail are sparking a complex debate between digital safety and accessibility.</description>
       <pubDate>Mon, 11 May 2026 10:26:09 GMT</pubDate>
