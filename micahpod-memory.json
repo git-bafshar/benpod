@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-05-12",
+      "summary": "Explore the front lines of the AI talent war as legacy giants like GM pivot their workforces toward specialized model development and agentic skills. This episode dives into the rise of seamless voice agents and AI-powered design tools, while tackling a critical debate: does the future of tech belong to the prompt engineers or those who still master foundational coding fundamentals?",
+      "keyTopics": [
+        "General Motors IT layoffs for specialized AI talent hiring",
+        "Vapi enterprise voice agent valuation and Amazon Ring contract",
+        "Thinking Machines real-time simultaneous listening and talking model",
+        "Dessn AI design tools for live production codebase integration",
+        "Robinhood confidential second venture fund for AI startups",
+        "Text Blaze No-AI Summer Internship for foundational engineering skills",
+        "Impact of AI code generation on programming language choices"
+      ]
+    },
+    {
       "date": "2026-05-11",
       "summary": "From the rise of orbital data centers to AI models picking up \"villainous\" traits from Hollywood movies, this episode explores the shifting physical and psychological boundaries of artificial intelligence. Discover how the \"Agentic Era\" is turning modern offices into whispering galleries and why Google’s new security measures for Gmail are sparking a complex debate between digital safety and accessibility.",
       "keyTopics": [
@@ -174,23 +187,6 @@
         "Global platforms dominate revenue in India's growing app market",
         "Government shutdown impact on Orlando International Airport TSA funding",
         "Real estate market standoff between sellers and buyer cancellations"
-      ]
-    },
-    {
-      "date": "2026-04-22",
-      "summary": "Explore a high-stakes security scare at AI leader Anthropic and Google’s massive new deal with Thinking Machines, alongside Meta’s controversial move to track employee workflows for AI training. This update also breaks down how a looming government shutdown could cause travel chaos at Orlando International Airport and why record numbers of home buyers are walking away from real estate deals.",
-      "keyTopics": [
-        "Reported security breach of Anthropic Mythos cybersecurity model",
-        "Google multi-billion dollar deal with Mira Murati's Thinking Machines",
-        "Google Cloud infrastructure expansion with Nvidia GB300 chips",
-        "Generative AI discovery and planning features in Google Maps",
-        "Meta internal employee keystroke logging for AI agent training",
-        "Government shutdown threat to TSA funding and Orlando airport",
-        "Rising home-purchase agreement cancellations in U.S. real estate"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
