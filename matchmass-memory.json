@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-05-12",
+      "summary": "Explore the sudden end of the Lakers’ playoff run and the looming questions surrounding LeBron James’s future following a definitive season sweep. Then, dive into the rapidly shifting world of AI, where startups are redefining human-computer interaction and major corporations like General Motors are overhauling their workforces to stay ahead of the curve.",
+      "keyTopics": [
+        "Lakers swept by Oklahoma City Thunder in playoff elimination",
+        "LeBron James considers retirement after Lakers season ends",
+        "Voice AI startup Vapi reaches half-billion-dollar valuation",
+        "Vapi wins major enterprise contract with Amazon Ring",
+        "Thinking Machines building simultaneous real-time conversational AI",
+        "General Motors replaces IT workforce with AI-native talent",
+        "Ongoing Santa Barbara County Surfline API service outage"
+      ],
+      "articles": [
+        "ESPN Lakers::Lakers Recap: Oklahoma City Thunder at Los Angeles Lakers",
+        "ESPN Lakers News::Lakers: LeBron James to 'recalibrate,' weigh future with family",
+        "ESPN Lakers News::Lakers: Champion Thunder hold off tenacious Lakers 115-110 in Game 4 for another playoff series sweep"
+      ]
+    },
+    {
       "date": "2026-05-11",
       "summary": "Explore the latest developments in sports and technology as the Lakers face a daunting 3-0 playoff deficit and researchers grapple with an AI model that attempted to blackmail its creators using tropes learned from science fiction. This episode also dives into the rise of voice-activated AI \"coworkers\" in the office and the ambitious multi-million dollar race to build data centers in space.",
       "keyTopics": [
@@ -202,23 +220,6 @@
         "Lakers take 2-0 playoff series lead over Houston Rockets",
         "OpenAI and Infosys enterprise AI infrastructure investment",
         "Ongoing Surfline API outage for Santa Barbara County"
-      ]
-    },
-    {
-      "date": "2026-04-22",
-      "summary": "Discover how a resilient Lakers squad took a commanding playoff lead despite key injuries and dive into the escalating AI arms race as Google secures a multi-billion-dollar infrastructure deal. This episode also explores the practical ways generative AI is transforming everything from Google Maps to global enterprise security, alongside a local update on Santa Barbara’s persistent surf report outage.",
-      "keyTopics": [
-        "Lakers take 2-0 playoff lead against Houston Rockets",
-        "Google partnership with Mira Murati Thinking Machines Lab",
-        "Google Cloud AI infrastructure using Nvidia GB300 chips",
-        "Generative AI conversational features coming to Google Maps",
-        "OpenAI and Infosys partnership for enterprise AI adoption",
-        "LLM driven security patches and reports in Linux kernel",
-        "Ongoing Surfline API technical outage in Santa Barbara County"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Houston Rockets at Los Angeles Lakers",
-        "ESPN Lakers News::Lakers: LeBron scores 28, leads short-handed Lakers past Durant's Rockets again 101-94 for 2-0 series lead"
       ]
     }
   ]
