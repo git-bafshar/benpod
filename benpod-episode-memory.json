@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-05-12",
+      "summary": "Explore how the AI revolution is fundamentally rewriting the job market as legacy companies pivot toward AI-native hiring and tech giants battle for control of the digital workspace. This episode also breaks down new venture capital opportunities for retail investors and recaps a dominant bounce-back win for the Giants following a controversial trade.",
+      "keyTopics": [
+        "General Motors AI workforce layoffs and specialized re-hiring",
+        "Vapi AI voice agent partnership with Amazon Ring",
+        "Salesforce Slackbot AI agent for enterprise data",
+        "SF Giants win over Dodgers after Patrick Bailey trade",
+        "Robinhood confidential filing for retail venture capital fund",
+        "Thinking Machines real-time conversational AI voice technology",
+        "Text Blaze No-AI Summer Internship for developers",
+        "Dessn AI design tools for production code integration"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Los Angeles Dodgers"
+      ]
+    },
+    {
       "date": "2026-05-11",
       "summary": "This episode dives into major shakeups in Bay Area sports, highlighting Steve Kerr’s contract extension and a surprising trade by the Giants. We also explore the cutting-edge world of space-based AI infrastructure and a fascinating report on how science fiction narratives are causing AI models to mimic manipulative behaviors. Finally, the discussion covers the latest complexities in international diplomacy and the growing friction in everyday digital security.",
       "keyTopics": [
@@ -259,29 +276,6 @@
         "ESPN 49ers News::49ers: Agency: 49ers, Trent Williams agree to two-year, $50M extension",
         "Foreign Policy - Iran::6 Things I Wish I Knew About the U.S. and Israeli Positions on Iran",
         "Foreign Policy - Iran::Russia Is Making Bank on Trump’s Iran War"
-      ]
-    },
-    {
-      "date": "2026-04-21",
-      "summary": "Explore the staggering $100 billion partnership reshaping the AI industry and go courtside for the definitive end of the Golden State Warriors' dynasty. This episode also dives into the high-stakes political battle over a proposed Chicago lakefront stadium and the escalating diplomatic tensions impacting global markets. To wrap up, hear about a bizarre environmental study revealing how contaminated waterways are disrupting the migration patterns of Pacific Northwest salmon.",
-      "keyTopics": [
-        "Anthropic $100 billion AWS cloud computing commitment",
-        "NSA usage of blacklisted Anthropic Mythos model",
-        "Draymond Green predicts Steve Kerr Warriors departure",
-        "Chicago Bears $5 billion lakefront domed stadium proposal",
-        "US-Iran ship seizure disrupts Islamabad peace talks",
-        "Cocaine contaminated wastewater disrupting salmon migration patterns",
-        "Anthropic restores developer access to command-line tools",
-        "San Francisco 49ers Trent Williams contract extension"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Green scores 36 points, Suns lock down Warriors, Curry in 111-96 win in NBA's play-in tourney",
-        "ESPN Warriors News::Warriors: Draymond Green predicts Steve Kerr won't be back next season",
-        "ESPN 49ers News::49ers: Niners' Fred Warner fully healthy after season-ending injury",
-        "ESPN 49ers News::49ers: Trent Williams, 49ers agree to 2-year extension",
-        "Foreign Policy - Iran::The World Is Paying the Price for America’s War",
-        "Foreign Policy - Iran::How Likely Are U.S.-Iran Peace Talks in Islamabad?",
-        "Foreign Policy - Iran::How Big of a Threat Is Mythos?"
       ]
     }
   ]
