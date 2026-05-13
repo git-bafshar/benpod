@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-05-13",
+      "summary": "Explore the shifting landscape of the AI industry as Anthropic gains a surprising lead in business customers and Amazon introduces a new digital shopping assistant. This episode also dives into a growing policy clash between Illinois and the CDC, the ongoing debate over the Iran nuclear deal, and a scientific breakthrough in sustainable green energy.",
+      "keyTopics": [
+        "Anthropic overtakes OpenAI in enterprise customer growth per Ramp",
+        "Amazon Alexa+ AI shopping assistant launch replacing Rufus",
+        "Meta WhatsApp AI incognito mode for private chat privacy",
+        "Illinois Governor JB Pritzker public health dispute with CDC",
+        "Foreign policy debate over 2015 Iran Nuclear Deal JCPOA",
+        "San Francisco Giants Patrick Bailey trade to Cleveland Guardians",
+        "Corrosion-resistant stainless steel for seawater green hydrogen production"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::How Long Can Keir Starmer Hang On?",
+        "Foreign Policy - Iran::Would We Be Better Off Today With the JCPOA?",
+        "Foreign Policy - Iran::Why the U.S. Is Headed for a Long War With Iran"
+      ]
+    },
+    {
       "date": "2026-05-12",
       "summary": "Explore how the AI revolution is fundamentally rewriting the job market as legacy companies pivot toward AI-native hiring and tech giants battle for control of the digital workspace. This episode also breaks down new venture capital opportunities for retail investors and recaps a dominant bounce-back win for the Giants following a controversial trade.",
       "keyTopics": [
@@ -256,26 +274,6 @@
         "Foreign Policy - Iran::How Iran and the United States Are Planning Their Next Moves",
         "Foreign Policy - Iran::What Happens if the U.S.-Iran Cease-Fire Collapses?",
         "Foreign Policy - Iran::Pakistan Gambled on Mediation"
-      ]
-    },
-    {
-      "date": "2026-04-22",
-      "summary": "Explore the high-stakes world of AI as tech giants engage in a multi-billion dollar infrastructure arms race and Meta introduces controversial new methods for tracking employee movements to train digital assistants. This episode also covers generative AI updates coming to Google Maps and the latest headlines in sports, including the end of the Warriors' dynasty and major NFL contract extensions.",
-      "keyTopics": [
-        "Meta tracking employee mouse movements for AI training data",
-        "Mira Murati's Thinking Machines Lab Google Cloud deal",
-        "Nvidia GB300 chips powered AI infrastructure",
-        "Railway $100 million AI-native cloud platform funding",
-        "Google Maps generative AI subjective search integration",
-        "OpenAI and Infosys IT consulting partnership",
-        "Trent Williams 49ers $50 million contract extension",
-        "Chicago Bears lakefront stadium proposal debate"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Los Angeles Dodgers at San Francisco Giants",
-        "ESPN 49ers News::49ers: Agency: 49ers, Trent Williams agree to two-year, $50M extension",
-        "Foreign Policy - Iran::6 Things I Wish I Knew About the U.S. and Israeli Positions on Iran",
-        "Foreign Policy - Iran::Russia Is Making Bank on Trump’s Iran War"
       ]
     }
   ]
