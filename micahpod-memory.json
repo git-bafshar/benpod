@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-05-13",
+      "summary": "Explore the shifting AI landscape as Anthropic emerges as a new leader for business customers and proactive assistants begin to move beyond chatbots to organize our personal lives. This episode also dives into the growing debate over AI’s impact on professional coding skills and highlights major breakthroughs in healthcare policy and clean energy production.",
+      "keyTopics": [
+        "Anthropic surpasses OpenAI in enterprise customers via Ramp",
+        "Poppy proactive AI assistant for digital life organization",
+        "Software developer debate on AI-driven cognitive atrophy",
+        "Medicare ACCESS payment model for AI healthcare services",
+        "Breakthrough stainless steel for seawater green hydrogen production"
+      ]
+    },
+    {
       "date": "2026-05-12",
       "summary": "Explore the front lines of the AI talent war as legacy giants like GM pivot their workforces toward specialized model development and agentic skills. This episode dives into the rise of seamless voice agents and AI-powered design tools, while tackling a critical debate: does the future of tech belong to the prompt engineers or those who still master foundational coding fundamentals?",
       "keyTopics": [
@@ -174,19 +185,6 @@
         "UK Biobank health data breach of 500,000 records",
         "Government shutdown impact on TSA and Orlando airport",
         "Real estate market gridlock and golden handcuffs effect"
-      ]
-    },
-    {
-      "date": "2026-04-23",
-      "summary": "Discover the massive bets shaping the future of tech, from Tesla’s $25 billion investment in autonomous infrastructure to Google and X’s latest moves to weave AI directly into our productivity and social feeds. This episode also explores Beehiiv’s expansion into an all-in-one creator platform and provides essential updates on a looming government shutdown and the current standoff in the real estate market.",
-      "keyTopics": [
-        "Tesla $25 billion investment in AI and robotaxi infrastructure",
-        "Google Workspace Intelligence AI features for Docs and Gmail",
-        "X replaces Communities with Grok AI-curated custom feeds",
-        "Beehiiv creator tools for webinars and customizable paywalls",
-        "Global platforms dominate revenue in India's growing app market",
-        "Government shutdown impact on Orlando International Airport TSA funding",
-        "Real estate market standoff between sellers and buyer cancellations"
       ]
     }
   ]
