@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-05-13",
+      "summary": "Today’s episode explores a major shift in the NBA as the Lakers confront the potential end of the LeBron James era following a definitive playoff exit. The conversation also dives into the evolving AI landscape, highlighting how Anthropic has overtaken OpenAI in business adoption and how startups are now using video game data to train real-world AI models. Finally, we look at how new integrations from Amazon and Meta are reshaping the future of digital shopping and messaging privacy.",
+      "keyTopics": [
+        "LeBron James retirement consideration after Lakers playoff exit",
+        "Anthropic business adoption surpasses OpenAI per Ramp data",
+        "Amazon Alexa-powered AI shopping assistant replaces Rufus",
+        "Meta AI WhatsApp incognito mode for private chats",
+        "Origin Lab marketplace for training AI using video game data",
+        "Santa Barbara County Surfline API service outage continues"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: NBA offseason: Draft, free agency, trade targets for eliminated teams",
+        "ESPN Lakers News::Lakers: Rob Pelinka, JJ Redick want Austin Reaves, LeBron James back",
+        "ESPN Lakers News::Lakers: LeBron James to 'recalibrate,' weigh NBA future with family"
+      ]
+    },
+    {
       "date": "2026-05-12",
       "summary": "Explore the sudden end of the Lakers’ playoff run and the looming questions surrounding LeBron James’s future following a definitive season sweep. Then, dive into the rapidly shifting world of AI, where startups are redefining human-computer interaction and major corporations like General Motors are overhauling their workforces to stay ahead of the curve.",
       "keyTopics": [
@@ -206,20 +223,6 @@
         "California State Senator Scott Wiener housing legislation momentum",
         "Lakers versus Rockets NBA playoff series Game 3",
         "Ongoing Santa Barbara County Surfline API data outage"
-      ]
-    },
-    {
-      "date": "2026-04-23",
-      "summary": "This episode explores the emerging security vulnerabilities threatening the AI boom and the global GPU shortage that now has astronomers competing with tech giants for hardware. We also dive into the maturing creator economy’s latest platform expansions and provide updates on the California gubernatorial race and the NBA playoffs.",
-      "keyTopics": [
-        "Context AI security breach linked to Delve compliance firm",
-        "Bitwarden command-line tool supply chain attack",
-        "Astronomers competing for Nvidia GPUs amid AI chip crunch",
-        "Beehiiv webinar and paywall tools for creator economy",
-        "California Governor's debate and post-Swalwell election dynamics",
-        "Lakers take 2-0 playoff series lead over Houston Rockets",
-        "OpenAI and Infosys enterprise AI infrastructure investment",
-        "Ongoing Surfline API outage for Santa Barbara County"
       ]
     }
   ]
