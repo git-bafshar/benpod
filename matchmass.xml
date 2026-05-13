@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-13</title>
+      <description>Today’s episode explores a major shift in the NBA as the Lakers confront the potential end of the LeBron James era following a definitive playoff exit. The conversation also dives into the evolving AI landscape, highlighting how Anthropic has overtaken OpenAI in business adoption and how startups are now using video game data to train real-world AI models. Finally, we look at how new integrations from Amazon and Meta are reshaping the future of digital shopping and messaging privacy.</description>
+      <pubDate>Wed, 13 May 2026 09:27:47 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-13-092747.mp3" length="3713856" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-13-092747.mp3</guid>
+      <itunes:duration>232</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-12</title>
       <description>Explore the sudden end of the Lakers’ playoff run and the looming questions surrounding LeBron James’s future following a definitive season sweep. Then, dive into the rapidly shifting world of AI, where startups are redefining human-computer interaction and major corporations like General Motors are overhauling their workforces to stay ahead of the curve.</description>
       <pubDate>Tue, 12 May 2026 09:28:11 GMT</pubDate>
