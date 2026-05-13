@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-13</title>
+      <description>Explore the shifting AI landscape as Anthropic emerges as a new leader for business customers and proactive assistants begin to move beyond chatbots to organize our personal lives. This episode also dives into the growing debate over AI’s impact on professional coding skills and highlights major breakthroughs in healthcare policy and clean energy production.</description>
+      <pubDate>Wed, 13 May 2026 10:05:50 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-13-100550.mp3" length="3782208" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-13-100550.mp3</guid>
+      <itunes:duration>236</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-12</title>
       <description>Explore the front lines of the AI talent war as legacy giants like GM pivot their workforces toward specialized model development and agentic skills. This episode dives into the rise of seamless voice agents and AI-powered design tools, while tackling a critical debate: does the future of tech belong to the prompt engineers or those who still master foundational coding fundamentals?</description>
       <pubDate>Tue, 12 May 2026 09:53:12 GMT</pubDate>
