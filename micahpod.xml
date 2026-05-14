@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-14</title>
+      <description>Explore the dawn of the &quot;Agentic Era&quot; as workplace staples like Notion and Slack transform AI from simple chatbots into proactive assistants that automate complex workflows. This episode also dives into Anthropic’s aggressive strategy to capture the small business market and the environmental strain of AI infrastructure, highlighting the growing tension between rapid technical innovation and the need for public trust.</description>
+      <pubDate>Thu, 14 May 2026 09:30:18 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-14-093018.mp3" length="3712896" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-14-093018.mp3</guid>
+      <itunes:duration>232</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-13</title>
       <description>Explore the shifting AI landscape as Anthropic emerges as a new leader for business customers and proactive assistants begin to move beyond chatbots to organize our personal lives. This episode also dives into the growing debate over AI’s impact on professional coding skills and highlights major breakthroughs in healthcare policy and clean energy production.</description>
       <pubDate>Wed, 13 May 2026 10:05:50 GMT</pubDate>
