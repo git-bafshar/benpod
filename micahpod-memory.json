@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-14",
+      "summary": "Explore the dawn of the \"Agentic Era\" as workplace staples like Notion and Slack transform AI from simple chatbots into proactive assistants that automate complex workflows. This episode also dives into Anthropic’s aggressive strategy to capture the small business market and the environmental strain of AI infrastructure, highlighting the growing tension between rapid technical innovation and the need for public trust.",
+      "keyTopics": [
+        "Notion AI agent developer platform launch",
+        "Salesforce Slackbot transformation into autonomous AI agent",
+        "Anthropic Claude for Small Business release",
+        "Lawsuit over xAI Colossus 2 data center gas turbines",
+        "Campbell Brown on AI product trust gap",
+        "Historic Tampa Theatre restoration and marquee glow-up"
+      ]
+    },
+    {
       "date": "2026-05-13",
       "summary": "Explore the shifting AI landscape as Anthropic emerges as a new leader for business customers and proactive assistants begin to move beyond chatbots to organize our personal lives. This episode also dives into the growing debate over AI’s impact on professional coding skills and highlights major breakthroughs in healthcare policy and clean energy production.",
       "keyTopics": [
@@ -172,19 +184,6 @@
         "Meta satellite solar power deal with Overview Energy",
         "Maine governor vetoes data center development moratorium",
         "Mistral AI European data sovereignty strategy"
-      ]
-    },
-    {
-      "date": "2026-04-24",
-      "summary": "Explore the future of the AI \"super app\" with OpenAI’s GPT-5.5 release and a surprising shift in the hardware wars as Meta bets on specialized CPUs to power autonomous agents. This update also covers Anthropic’s strategic expansion into Japan, the security fallout from a major health data breach, and the potential travel disruptions tied to a looming government shutdown.",
-      "keyTopics": [
-        "OpenAI GPT-5.5 release and AI super app strategy",
-        "Meta Amazon CPU deal for agentic workloads",
-        "Anthropic and NEC Japan AI engineering workforce partnership",
-        "South Korea arrest for AI-generated runaway wolf image",
-        "UK Biobank health data breach of 500,000 records",
-        "Government shutdown impact on TSA and Orlando airport",
-        "Real estate market gridlock and golden handcuffs effect"
       ]
     }
   ]
