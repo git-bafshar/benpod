@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-05-14",
+      "summary": "Explore a pivotal week for AI as Anthropic launches a massive philanthropic partnership while Cisco cuts thousands of jobs to reinvest in machine intelligence. This episode also dives into a high-stakes story of a lost Bitcoin fortune recovered by AI and the rising demand for high-quality training data. Finally, the discussion shifts to the physical world to examine the economic ripples of a historic wheat shortage and a persistent local tech outage.",
+      "keyTopics": [
+        "Anthropic and Gates Foundation $200 million AI partnership",
+        "Anthropic Claude for Small Business product launch",
+        "Cisco cuts 4,000 jobs to reallocate capital for AI",
+        "Claude AI recovers $400,000 from lost 11-year-old Bitcoin wallet",
+        "Wirestock $23 million funding for AI training data supply",
+        "USDA smallest US wheat harvest projection since 1972",
+        "Ongoing Santa Barbara Surfline API service outage"
+      ]
+    },
+    {
       "date": "2026-05-13",
       "summary": "Today’s episode explores a major shift in the NBA as the Lakers confront the potential end of the LeBron James era following a definitive playoff exit. The conversation also dives into the evolving AI landscape, highlighting how Anthropic has overtaken OpenAI in business adoption and how startups are now using video game data to train real-world AI models. Finally, we look at how new integrations from Amazon and Meta are reshaping the future of digital shopping and messaging privacy.",
       "keyTopics": [
@@ -211,18 +224,6 @@
         "ESPN Lakers News::Lakers: Houston Rockets will play Game 4 without star Kevin Durant",
         "ESPN Lakers News::Lakers: Amen Thompson sparks Rockets' 115-96 rout to stave off elimination against Lakers",
         "ESPN Lakers News::Lakers: LeBron James takes blame after Lakers' blowout loss to Rockets"
-      ]
-    },
-    {
-      "date": "2026-04-24",
-      "summary": "Explore how the AI infrastructure war is evolving as Meta pivots toward custom CPUs, signaling a major shift away from total GPU dominance. This episode also dives into a confirmed security breach in the software supply chain, the political headwinds facing California housing reform, and the high-stakes road test ahead for the Lakers. Plus, we look at the growing commoditization of AI models and a mysterious local tech outage affecting Santa Barbara surfers.",
-      "keyTopics": [
-        "Meta deal for Amazon custom CPUs for agentic workloads",
-        "Checkmarx confirms Bitwarden CLI software supply chain attack",
-        "DeepSeek announces new model targeting frontier performance",
-        "California State Senator Scott Wiener housing legislation momentum",
-        "Lakers versus Rockets NBA playoff series Game 3",
-        "Ongoing Santa Barbara County Surfline API data outage"
       ]
     }
   ]
