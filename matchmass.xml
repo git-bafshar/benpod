@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-14</title>
+      <description>Explore a pivotal week for AI as Anthropic launches a massive philanthropic partnership while Cisco cuts thousands of jobs to reinvest in machine intelligence. This episode also dives into a high-stakes story of a lost Bitcoin fortune recovered by AI and the rising demand for high-quality training data. Finally, the discussion shifts to the physical world to examine the economic ripples of a historic wheat shortage and a persistent local tech outage.</description>
+      <pubDate>Thu, 14 May 2026 09:12:56 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-14-091256.mp3" length="3573696" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-14-091256.mp3</guid>
+      <itunes:duration>223</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-13</title>
       <description>Today’s episode explores a major shift in the NBA as the Lakers confront the potential end of the LeBron James era following a definitive playoff exit. The conversation also dives into the evolving AI landscape, highlighting how Anthropic has overtaken OpenAI in business adoption and how startups are now using video game data to train real-world AI models. Finally, we look at how new integrations from Amazon and Meta are reshaping the future of digital shopping and messaging privacy.</description>
       <pubDate>Wed, 13 May 2026 09:27:47 GMT</pubDate>
