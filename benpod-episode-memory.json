@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-05-14",
+      "summary": "Explore the rapidly shifting AI landscape as Anthropic scales its social impact through a major new partnership and Cisco pivots its workforce toward emerging technology. This episode also dives into critical local headlines, including a public safety alert in Cook County and high-stakes funding gambles for Chicago’s mental health services. Plus, catch up on the latest in the NBA coaching saga, a heating national housing market, and a science-fiction-inspired breakthrough in hearing aid technology.",
+      "keyTopics": [
+        "Anthropic and Gates Foundation 200 million dollar partnership",
+        "Anthropic Claude for Small Business product launch",
+        "Cisco cutting 4,000 jobs for AI strategic pivot",
+        "Cook County missing defendants on electronic monitoring alert",
+        "Mayor Brandon Johnson proposed social media company tax",
+        "Steve Kerr staying as Golden State Warriors head coach",
+        "AI hearing system using brain waves for voice isolation",
+        "National pending home sales hit highest level since 2022"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Inside Steve Kerr's decision to stay with the Warriors",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Why Congress Can’t Stop Trump’s Iran War"
+      ]
+    },
+    {
       "date": "2026-05-13",
       "summary": "Explore the shifting landscape of the AI industry as Anthropic gains a surprising lead in business customers and Amazon introduces a new digital shopping assistant. This episode also dives into a growing policy clash between Illinois and the CDC, the ongoing debate over the Iran nuclear deal, and a scientific breakthrough in sustainable green energy.",
       "keyTopics": [
@@ -256,24 +276,6 @@
       ],
       "articles": [
         "ESPN 49ers News::49ers: 49ers make 2 NFL draft trades, but none involving Mac Jones"
-      ]
-    },
-    {
-      "date": "2026-04-23",
-      "summary": "Explore the growing pains of the AI revolution, from high-profile security failures in the software supply chain to the mounting strain data centers are placing on local energy grids. This episode also dives into the rise of AI-native cloud infrastructure, the evolving creator economy, and how the search for distant galaxies is contributing to the global GPU shortage.",
-      "keyTopics": [
-        "Context AI security breach caused by Delve certification",
-        "Bitwarden command-line interface supply chain compromise",
-        "Railway AI-native cloud platform 100 million dollar Series B",
-        "Beehiiv creator tools for webinars and customizable paywalls",
-        "Iran Strait of Hormuz blockade and fragile ceasefire status",
-        "Illinois power grid strain from Chicago AI data centers",
-        "Astronomers using GPU clusters for AI galaxy discovery"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::How Iran and the United States Are Planning Their Next Moves",
-        "Foreign Policy - Iran::What Happens if the U.S.-Iran Cease-Fire Collapses?",
-        "Foreign Policy - Iran::Pakistan Gambled on Mediation"
       ]
     }
   ]
