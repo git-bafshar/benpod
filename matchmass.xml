@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-15</title>
+      <description>Explore the volatile landscape of the AI gold rush, from the talent exodus at SpaceXAI to the growing divide between local privacy-focused tools and cloud-based ubiquity. This episode also examines the human impact of corporate AI mandates at Amazon and the high-stakes strategic &quot;chess match&quot; currently defining the future of the Los Angeles Lakers.</description>
+      <pubDate>Fri, 15 May 2026 09:07:30 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-15-090730.mp3" length="3736512" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-15-090730.mp3</guid>
+      <itunes:duration>234</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-14</title>
       <description>Explore a pivotal week for AI as Anthropic launches a massive philanthropic partnership while Cisco cuts thousands of jobs to reinvest in machine intelligence. This episode also dives into a high-stakes story of a lost Bitcoin fortune recovered by AI and the rising demand for high-quality training data. Finally, the discussion shifts to the physical world to examine the economic ripples of a historic wheat shortage and a persistent local tech outage.</description>
       <pubDate>Thu, 14 May 2026 09:12:56 GMT</pubDate>
