@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-05-15",
+      "summary": "This episode explores Anthropic’s aggressive expansion into the enterprise and social impact sectors through major partnerships with PwC and the Gates Foundation, contrasting these wins with reports of significant talent loss at the newly merged SpaceXAI. We also dive into how AI is automating specialized roles like cybersecurity bug hunters, the rising value of \"individual contributor\" career paths, and new privacy-first tools for personal AI management.",
+      "keyTopics": [
+        "Anthropic and PwC enterprise partnership for Claude deployment",
+        "Bill and Melinda Gates Foundation Anthropic social impact deal",
+        "SpaceXAI mass employee departures following Elon Musk merger",
+        "AI-driven automation of corporate bug bounty programs",
+        "Senior individual contributor trend in AI-leveraged workplaces",
+        "Tampa Bay Rays and Hillsborough County stadium agreement",
+        "Osaurus Mac app for local and cloud AI integration"
+      ]
+    },
+    {
       "date": "2026-05-14",
       "summary": "Explore the dawn of the \"Agentic Era\" as workplace staples like Notion and Slack transform AI from simple chatbots into proactive assistants that automate complex workflows. This episode also dives into Anthropic’s aggressive strategy to capture the small business market and the environmental strain of AI infrastructure, highlighting the growing tension between rapid technical innovation and the need for public trust.",
       "keyTopics": [
@@ -170,20 +183,6 @@
         "Otter launches cross-platform enterprise search hub integration",
         "Governor DeSantis proposed Florida congressional redistricting maps",
         "OpenAI models expanding to AWS and Google Cloud"
-      ]
-    },
-    {
-      "date": "2026-04-27",
-      "summary": "Discover how AI agents are moving beyond chatbots and into the real economy, from conducting autonomous marketplace transactions to potentially powering a new generation of smartphone hardware. This episode also explores the massive physical and financial ripples of the AI boom, covering futuristic space-based energy deals, regional data center battles, and the rise of tech equity as a high-stakes real estate currency.",
-      "keyTopics": [
-        "Anthropic autonomous agent marketplace experiment",
-        "OpenAI AI-powered phone and agent-centric hardware",
-        "Mill Valley real estate listed for Anthropic equity",
-        "Salesforce Slackbot rebuilt as enterprise AI agent",
-        "Listen Labs $69 million AI customer research funding",
-        "Meta satellite solar power deal with Overview Energy",
-        "Maine governor vetoes data center development moratorium",
-        "Mistral AI European data sovereignty strategy"
       ]
     }
   ]
