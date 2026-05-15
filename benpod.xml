@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-05-15</title>
+      <description>Explore the widening gap between high-level AI strategy and its messy implementation, from Anthropic’s massive new partnership with PwC to reports of &quot;performance theater&quot; among Amazon’s corporate workforce. This episode also dives into Runway’s ambitious quest to challenge Google using video-based world models and breaks down significant coaching shakeups for both the Golden State Warriors and the San Francisco 49ers.</description>
+      <pubDate>Fri, 15 May 2026 10:19:57 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-15-101957.mp3" length="4741440" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-15-101957.mp3</guid>
+      <itunes:duration>296</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-05-14</title>
       <description>Explore the rapidly shifting AI landscape as Anthropic scales its social impact through a major new partnership and Cisco pivots its workforce toward emerging technology. This episode also dives into critical local headlines, including a public safety alert in Cook County and high-stakes funding gambles for Chicago’s mental health services. Plus, catch up on the latest in the NBA coaching saga, a heating national housing market, and a science-fiction-inspired breakthrough in hearing aid technology.</description>
       <pubDate>Thu, 14 May 2026 10:22:54 GMT</pubDate>
