@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-05-15",
+      "summary": "Explore the widening gap between high-level AI strategy and its messy implementation, from Anthropic’s massive new partnership with PwC to reports of \"performance theater\" among Amazon’s corporate workforce. This episode also dives into Runway’s ambitious quest to challenge Google using video-based world models and breaks down significant coaching shakeups for both the Golden State Warriors and the San Francisco 49ers.",
+      "keyTopics": [
+        "Anthropic and PwC partnership for Claude enterprise implementation",
+        "Employee attrition and talent poaching at SpaceXAI",
+        "Amazon corporate workers faking internal AI tool usage",
+        "Runway world models strategy for video-based artificial intelligence",
+        "Golden State Warriors coaching staff departure of Stotts and Stackhouse",
+        "San Francisco 49ers hire Raheem Morris as Defensive Coordinator"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Sources: Warriors assistants Stotts, Stackhouse won't return",
+        "ESPN 49ers News::49ers: What will new DC Raheem Morris bring to the 49ers' defense?"
+      ]
+    },
+    {
       "date": "2026-05-14",
       "summary": "Explore the rapidly shifting AI landscape as Anthropic scales its social impact through a major new partnership and Cisco pivots its workforce toward emerging technology. This episode also dives into critical local headlines, including a public safety alert in Cook County and high-stakes funding gambles for Chicago’s mental health services. Plus, catch up on the latest in the NBA coaching saga, a heating national housing market, and a science-fiction-inspired breakthrough in hearing aid technology.",
       "keyTopics": [
@@ -261,21 +277,6 @@
         "Foreign Policy - Iran::U.S. Floats Punishing NATO Members for Refusing to Join Iran War",
         "Foreign Policy - Iran::Papal Politics, Past and Present",
         "Foreign Policy - Iran::Trump’s Iran War Approaches a Fresh Legal Hurdle"
-      ]
-    },
-    {
-      "date": "2026-04-24",
-      "summary": "Explore a major shift in the AI hardware race as Meta pivots to specialized CPUs for global agent deployment while international competitors like DeepSeek and Anthropic expand their reach. This episode also examines the local infrastructure strain caused by the AI boom, critical security threats to developer tools, and the latest roster updates from the NFL.",
-      "keyTopics": [
-        "Meta and Amazon deal for agentic workload CPUs",
-        "DeepSeek AI model efficiency gains and frontier gap",
-        "Anthropic and NEC Japanese enterprise AI workforce initiative",
-        "Illinois power grid strain from AI data center growth",
-        "Bitwarden command-line interface supply chain security breach",
-        "49ers coach Kyle Shanahan retains quarterback Mac Jones"
-      ],
-      "articles": [
-        "ESPN 49ers News::49ers: 49ers make 2 NFL draft trades, but none involving Mac Jones"
       ]
     }
   ]
