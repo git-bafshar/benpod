@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-05-15",
+      "summary": "Explore the volatile landscape of the AI gold rush, from the talent exodus at SpaceXAI to the growing divide between local privacy-focused tools and cloud-based ubiquity. This episode also examines the human impact of corporate AI mandates at Amazon and the high-stakes strategic \"chess match\" currently defining the future of the Los Angeles Lakers.",
+      "keyTopics": [
+        "SpaceXAI talent exodus and employee retention challenges",
+        "Runway video generation and world model research strategy",
+        "Osaurus Mac app and local AI privacy trend",
+        "OpenAI Codex mobile release and ubiquitous AI access",
+        "Amazon corporate AI usage mandates and employee pushback",
+        "LeBron James Lakers contract negotiations and roster influence",
+        "Surfline API outage in Santa Barbara County"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: What LeBron needs to return to L.A. -- and why it's not simple"
+      ]
+    },
+    {
       "date": "2026-05-14",
       "summary": "Explore a pivotal week for AI as Anthropic launches a massive philanthropic partnership while Cisco cuts thousands of jobs to reinvest in machine intelligence. This episode also dives into a high-stakes story of a lost Bitcoin fortune recovered by AI and the rising demand for high-quality training data. Finally, the discussion shifts to the physical world to examine the economic ripples of a historic wheat shortage and a persistent local tech outage.",
       "keyTopics": [
@@ -206,24 +222,6 @@
       "articles": [
         "ESPN Lakers News::Lakers: Sources: Lakers optimistic for Austin Reaves' return in Game 5",
         "ESPN Lakers News::Lakers: Lakers' Marcus Smart, Luke Kennard fined for Game 4 actions"
-      ]
-    },
-    {
-      "date": "2026-04-27",
-      "summary": "Discover the seismic shift in the AI landscape as Microsoft and OpenAI end their exclusive partnership, paving the way for new industry alliances and global competition. This update also covers Meta’s experimental leap into space-based solar power, a massive biometric data breach, and the Lakers’ recent playoff stumble in Houston. Plus, hear about a persistent local tech mystery that continues to leave Santa Barbara surfers in the dark.",
-      "keyTopics": [
-        "Microsoft and OpenAI end exclusive revenue-sharing partnership",
-        "China blocks Meta acquisition of AI agent startup Manus",
-        "Mercor data breach exposes 40,000 voice sample biometrics",
-        "Meta and Overview Energy space-based solar power contract",
-        "Houston Rockets stave off elimination against Los Angeles Lakers",
-        "Ongoing Surfline API outage affecting Santa Barbara surf reports"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Houston Rockets",
-        "ESPN Lakers News::Lakers: Houston Rockets will play Game 4 without star Kevin Durant",
-        "ESPN Lakers News::Lakers: Amen Thompson sparks Rockets' 115-96 rout to stave off elimination against Lakers",
-        "ESPN Lakers News::Lakers: LeBron James takes blame after Lakers' blowout loss to Rockets"
       ]
     }
   ]
