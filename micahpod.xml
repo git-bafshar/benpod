@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-18</title>
+      <description>Explore how Anthropic’s new &quot;Cowork&quot; desktop agent and Apple’s privacy-focused Siri reboot are bringing the &quot;Agentic Era&quot; of AI directly to everyday users. This episode also dives into the shifting role of humans as &quot;AI orchestrators,&quot; major updates in the UnitedHealthcare CEO trial, and a surprising national surge in the housing market.</description>
+      <pubDate>Mon, 18 May 2026 10:53:26 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-18-105326.mp3" length="3805824" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-18-105326.mp3</guid>
+      <itunes:duration>238</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-15</title>
       <description>This episode explores Anthropic’s aggressive expansion into the enterprise and social impact sectors through major partnerships with PwC and the Gates Foundation, contrasting these wins with reports of significant talent loss at the newly merged SpaceXAI. We also dive into how AI is automating specialized roles like cybersecurity bug hunters, the rising value of &quot;individual contributor&quot; career paths, and new privacy-first tools for personal AI management.</description>
       <pubDate>Fri, 15 May 2026 09:47:56 GMT</pubDate>
