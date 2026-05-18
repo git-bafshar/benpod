@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-18</title>
+      <description>Explore the future of personalized media as Amazon launches on-demand AI podcasts and Apple positions privacy at the center of its Siri reboot. This episode also breaks down the cutting-edge hardware making AI glasses possible and the high-stakes offseason decisions looming for LeBron James and the Lakers.</description>
+      <pubDate>Mon, 18 May 2026 10:10:12 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-18-101012.mp3" length="3306432" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-18-101012.mp3</guid>
+      <itunes:duration>207</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-15</title>
       <description>Explore the volatile landscape of the AI gold rush, from the talent exodus at SpaceXAI to the growing divide between local privacy-focused tools and cloud-based ubiquity. This episode also examines the human impact of corporate AI mandates at Amazon and the high-stakes strategic &quot;chess match&quot; currently defining the future of the Los Angeles Lakers.</description>
       <pubDate>Fri, 15 May 2026 09:07:30 GMT</pubDate>
