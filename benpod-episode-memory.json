@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-05-18",
+      "summary": "Explore the diverging paths of tech giants as Amazon launches custom AI-generated podcasts while Apple prioritizes user privacy for the next generation of Siri. This episode also breaks down the high-stakes legal battle over the soul of OpenAI, significant sports updates from the Warriors and Giants, and the complex security risks emerging in the age of voice AI.",
+      "keyTopics": [
+        "Amazon Alexa plus AI powered on demand podcast generation",
+        "Apple Siri privacy overhaul and rumored chat auto deletion",
+        "Elon Musk vs OpenAI trial regarding Sam Altman trustworthiness",
+        "Railway one hundred million dollar Series B for AI cloud",
+        "Steve Kerr Warriors head coach return and team evolution",
+        "Foreign Policy analysis of US Iran nuclear deal withdrawal",
+        "Voice AI security vulnerability to hidden audio attacks",
+        "San Francisco Giants victory and Harrison Bader grand slam"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Athletics Athletics",
+        "ESPN Warriors News::Warriors: Kerr critical of coaching job, excited for return to Warriors",
+        "Foreign Policy - Iran::Iran Could Be Trump’s Greatest Failure",
+        "Foreign Policy - Iran::Day 1 of Beijing Summit Produces No Big Wins for Trump"
+      ]
+    },
+    {
       "date": "2026-05-15",
       "summary": "Explore the widening gap between high-level AI strategy and its messy implementation, from Anthropic’s massive new partnership with PwC to reports of \"performance theater\" among Amazon’s corporate workforce. This episode also dives into Runway’s ambitious quest to challenge Google using video-based world models and breaks down significant coaching shakeups for both the Golden State Warriors and the San Francisco 49ers.",
       "keyTopics": [
@@ -255,28 +275,6 @@
         "Foreign Policy - Iran::Iran Is More Unified Than Ever",
         "Foreign Policy - Iran::Iran Offers to Reopen the Strait of Hormuz",
         "Foreign Policy - Iran::Escaping the Hormuz Trap"
-      ]
-    },
-    {
-      "date": "2026-04-27",
-      "summary": "Discover the latest escalations in the AI agent wars as China blocks a major Meta acquisition while rumors swirl about a groundbreaking smartphone from OpenAI. This episode also dives into the strange new frontiers of the AI economy—from space-based solar power to real estate sold for startup equity—alongside critical updates on shifting NATO alliances and Bay Area sports.",
-      "keyTopics": [
-        "China regulators block Meta acquisition of robotics company Manus",
-        "OpenAI rumors of developing dedicated AI agent hardware phone",
-        "Anthropic experiment with autonomous agent-to-agent economic marketplace",
-        "Microsoft reportedly ending revenue-sharing agreement with OpenAI",
-        "Mercor data breach involving 40,000 AI contractor voice samples",
-        "Meta and Overview Energy space-based solar power contract",
-        "US pressure on NATO allies regarding Iran conflict participation",
-        "Mill Valley property listing requiring Anthropic equity payment"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Miami Marlins at San Francisco Giants",
-        "ESPN 49ers News::49ers: Where do the 49ers and Brandon Aiyuk stand after the draft?",
-        "ESPN 49ers News::49ers: 49ers draft for depth after trading back",
-        "Foreign Policy - Iran::U.S. Floats Punishing NATO Members for Refusing to Join Iran War",
-        "Foreign Policy - Iran::Papal Politics, Past and Present",
-        "Foreign Policy - Iran::Trump’s Iran War Approaches a Fresh Legal Hurdle"
       ]
     }
   ]
