@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-05-18</title>
+      <description>Explore the diverging paths of tech giants as Amazon launches custom AI-generated podcasts while Apple prioritizes user privacy for the next generation of Siri. This episode also breaks down the high-stakes legal battle over the soul of OpenAI, significant sports updates from the Warriors and Giants, and the complex security risks emerging in the age of voice AI.</description>
+      <pubDate>Mon, 18 May 2026 11:27:00 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-18-112700.mp3" length="4605312" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-18-112700.mp3</guid>
+      <itunes:duration>288</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-05-15</title>
       <description>Explore the widening gap between high-level AI strategy and its messy implementation, from Anthropic’s massive new partnership with PwC to reports of &quot;performance theater&quot; among Amazon’s corporate workforce. This episode also dives into Runway’s ambitious quest to challenge Google using video-based world models and breaks down significant coaching shakeups for both the Golden State Warriors and the San Francisco 49ers.</description>
       <pubDate>Fri, 15 May 2026 10:19:57 GMT</pubDate>
