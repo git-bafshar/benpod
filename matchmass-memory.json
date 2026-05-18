@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-05-18",
+      "summary": "Explore the future of personalized media as Amazon launches on-demand AI podcasts and Apple positions privacy at the center of its Siri reboot. This episode also breaks down the cutting-edge hardware making AI glasses possible and the high-stakes offseason decisions looming for LeBron James and the Lakers.",
+      "keyTopics": [
+        "Amazon Alexa+ custom on-demand AI podcast generation",
+        "Apple Siri privacy reboot and chat history deletion",
+        "LetinAR pin mirror lens technology for AR glasses",
+        "LeBron James and Los Angeles Lakers offseason roster drama",
+        "Ongoing Surfline API error for Santa Barbara reports"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: NBA offseason intel: Predictions for summer of LeBron, Giannis, more stars"
+      ]
+    },
+    {
       "date": "2026-05-15",
       "summary": "Explore the volatile landscape of the AI gold rush, from the talent exodus at SpaceXAI to the growing divide between local privacy-focused tools and cloud-based ubiquity. This episode also examines the human impact of corporate AI mandates at Amazon and the high-stakes strategic \"chess match\" currently defining the future of the Los Angeles Lakers.",
       "keyTopics": [
@@ -206,22 +220,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Rockets rule out Kevin Durant (ankle) for Game 5 vs. Lakers"
-      ]
-    },
-    {
-      "date": "2026-04-28",
-      "summary": "Explore the shifting AI landscape as Google re-enters the defense sector and productivity tools like Slack and Otter race to become seamless hubs for enterprise data. This episode also covers the Lakers' playoff boost with Austin Reaves' potential return, a preview of tonight’s high-stakes California gubernatorial debate, and the latest on a persistent local tech mystery at the beach.",
-      "keyTopics": [
-        "Google Pentagon agreement for any lawful AI use",
-        "Otter cross-platform enterprise search feature launch",
-        "Salesforce rebuilt Slackbot AI agent functionality",
-        "Austin Reaves potential return for Lakers Game 5",
-        "California Governor candidate debate tonight",
-        "Ongoing Surfline API outage and local tech mystery"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Sources: Lakers optimistic for Austin Reaves' return in Game 5",
-        "ESPN Lakers News::Lakers: Lakers' Marcus Smart, Luke Kennard fined for Game 4 actions"
       ]
     }
   ]
