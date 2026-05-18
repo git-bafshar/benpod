@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-05-18",
+      "summary": "Explore how Anthropic’s new \"Cowork\" desktop agent and Apple’s privacy-focused Siri reboot are bringing the \"Agentic Era\" of AI directly to everyday users. This episode also dives into the shifting role of humans as \"AI orchestrators,\" major updates in the UnitedHealthcare CEO trial, and a surprising national surge in the housing market.",
+      "keyTopics": [
+        "Anthropic Cowork desktop AI agent for non-technical users",
+        "Apple Siri privacy reboot with auto-deleting chats",
+        "Human role shift to orchestrator of AI agents",
+        "Luigi Mangione UnitedHealthcare CEO murder trial evidence ruling",
+        "Donald Trump withdraws lawsuit against IRS over tax leaks",
+        "US-China trade agreement on beef and poultry imports",
+        "US pending home sales jump ten percent year-over-year"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-05-15",
       "summary": "This episode explores Anthropic’s aggressive expansion into the enterprise and social impact sectors through major partnerships with PwC and the Gates Foundation, contrasting these wins with reports of significant talent loss at the newly merged SpaceXAI. We also dive into how AI is automating specialized roles like cybersecurity bug hunters, the rising value of \"individual contributor\" career paths, and new privacy-first tools for personal AI management.",
       "keyTopics": [
@@ -171,18 +188,6 @@
         "Firestorm Labs containerized drone factory funding round",
         "Large language model non-determinism and reliability challenges",
         "OpenAI and Microsoft end exclusive cloud partnership"
-      ]
-    },
-    {
-      "date": "2026-04-28",
-      "summary": "This episode explores a seismic shift in the AI industry as OpenAI ends its exclusive partnership with Microsoft, opening the door for new collaborations with rival cloud platforms. Discover why investors are betting over a billion dollars on AI that learns without human data, alongside critical reports on a massive voice data breach and new updates to workplace productivity tools.",
-      "keyTopics": [
-        "Microsoft and OpenAI end exclusive partnership agreement",
-        "Ineffable Intelligence $1.1 billion funding for reinforcement learning AI",
-        "Mercor data breach leaks 4 terabytes of voice samples",
-        "Otter launches cross-platform enterprise search hub integration",
-        "Governor DeSantis proposed Florida congressional redistricting maps",
-        "OpenAI models expanding to AWS and Google Cloud"
       ]
     }
   ]
