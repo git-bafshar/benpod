@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-19</title>
+      <description>Anthropic accelerates its enterprise takeover through a massive partnership with KPMG and a strategic acquisition, while the long-running legal battle between Elon Musk and OpenAI reaches a surprising conclusion. This episode also explores how AI is fundamentally redefining professional roles for product managers and developers as the technology shifts from a tool to an orchestrator. Finally, stay informed on the latest innovations in AI-driven drug discovery and the economic trends fueling a regional building boom.</description>
+      <pubDate>Tue, 19 May 2026 10:35:39 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-19-103539.mp3" length="4306368" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-19-103539.mp3</guid>
+      <itunes:duration>269</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-18</title>
       <description>Explore how Anthropic’s new &quot;Cowork&quot; desktop agent and Apple’s privacy-focused Siri reboot are bringing the &quot;Agentic Era&quot; of AI directly to everyday users. This episode also dives into the shifting role of humans as &quot;AI orchestrators,&quot; major updates in the UnitedHealthcare CEO trial, and a surprising national surge in the housing market.</description>
       <pubDate>Mon, 18 May 2026 10:53:26 GMT</pubDate>
