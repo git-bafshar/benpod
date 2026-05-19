@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-05-19",
+      "summary": "Explore a tectonic shift in the AI industry as Anthropic makes a series of aggressive power moves, from high-profile talent acquisitions to massive enterprise deals with the Big Four. This episode also breaks down the legal verdict in the Elon Musk vs. OpenAI battle, critical updates on global diplomacy with Iran, and the latest headlines in sports and cybersecurity.",
+      "keyTopics": [
+        "Andrej Karpathy joins Anthropic pre-training team",
+        "Anthropic acquires developer tools startup Stainless",
+        "Anthropic and KPMG strategic alliance for Claude integration",
+        "OpenAI legal victory in Elon Musk lawsuit verdict",
+        "George Kittle torn Achilles injury recovery timeline",
+        "G-7 finance ministers discuss Iran conflict economic risks",
+        "Mini Shai-Hulud threat actor compromises 314 npm packages",
+        "Northwestern University leadership transition and new president"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Arizona Diamondbacks",
+        "ESPN 49ers News::49ers: George Kittle, 49ers optimistic he can play in Week 1",
+        "Foreign Policy - Iran::The Myth of Zero Enrichment",
+        "Foreign Policy - Iran::G-7 Finance Ministers Discuss Economic Fallout of Iran War"
+      ]
+    },
+    {
       "date": "2026-05-18",
       "summary": "Explore the diverging paths of tech giants as Amazon launches custom AI-generated podcasts while Apple prioritizes user privacy for the next generation of Siri. This episode also breaks down the high-stakes legal battle over the soul of OpenAI, significant sports updates from the Warriors and Giants, and the complex security risks emerging in the age of voice AI.",
       "keyTopics": [
@@ -252,29 +272,6 @@
         "ESPN Warriors News::Warriors: Green scores 36 points, Suns lock down Warriors, Curry in 111-96 win in NBA's play-in tourney",
         "Foreign Policy - Iran::King Charles III Delivers Pointed Message in Address to U.S. Congress",
         "Foreign Policy - Iran::Why Iran Isn’t Blinking Yet"
-      ]
-    },
-    {
-      "date": "2026-04-28",
-      "summary": "Explore a day of tectonic shifts in tech and energy, from OpenAI’s landmark expansion into Amazon’s cloud to the UAE’s historic exit from the OPEC oil cartel after sixty years. This episode also breaks down high-stakes diplomatic maneuvers involving the Strait of Hormuz, the latest security headlines from Washington D.C., and critical updates on the looming fiscal cliff for public institutions.",
-      "keyTopics": [
-        "OpenAI Microsoft renegotiation for Amazon Web Services sales",
-        "Microsoft VibeVoice open source frontier voice AI launch",
-        "United Arab Emirates withdrawal from OPEC global oil cartel",
-        "Iran proposal to reopen Strait of Hormuz for concessions",
-        "Chicago Public Schools budget deficit following federal relief expiration",
-        "Jerome Powell final Federal Reserve meeting before leadership transition",
-        "Cole Allen charged with attempted assassination of President Trump",
-        "YouTube Premium AI powered search and guided answers trial"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: The Warriors' summer of uncertainty starts with Steve Kerr",
-        "ESPN 49ers News::49ers: Schefter to McAfee: Teams don't want to trade for Aiyuk's contract",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Iran Is More Unified Than Ever",
-        "Foreign Policy - Iran::Iran Offers to Reopen the Strait of Hormuz",
-        "Foreign Policy - Iran::Escaping the Hormuz Trap"
       ]
     }
   ]
