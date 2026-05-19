@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-05-19",
+      "summary": "Anthropic accelerates its enterprise takeover through a massive partnership with KPMG and a strategic acquisition, while the long-running legal battle between Elon Musk and OpenAI reaches a surprising conclusion. This episode also explores how AI is fundamentally redefining professional roles for product managers and developers as the technology shifts from a tool to an orchestrator. Finally, stay informed on the latest innovations in AI-driven drug discovery and the economic trends fueling a regional building boom.",
+      "keyTopics": [
+        "Anthropic and KPMG strategic alliance for Claude integration",
+        "Anthropic acquisition of developer tools startup Stainless",
+        "Elon Musk lawsuit against OpenAI dismissed on procedural grounds",
+        "Emerging AI product manager archetypes and systems thinking",
+        "Software engineers transitioning to high-level AI orchestrator roles",
+        "Amazon Alexa plus custom AI-generated podcast content feature",
+        "SandboxAQ drug discovery platform integration with Anthropic Claude",
+        "Economic growth and construction surge in Clearwater Florida"
+      ]
+    },
+    {
       "date": "2026-05-18",
       "summary": "Explore how Anthropic’s new \"Cowork\" desktop agent and Apple’s privacy-focused Siri reboot are bringing the \"Agentic Era\" of AI directly to everyday users. This episode also dives into the shifting role of humans as \"AI orchestrators,\" major updates in the UnitedHealthcare CEO trial, and a surprising national surge in the housing market.",
       "keyTopics": [
@@ -175,19 +189,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-04-29",
-      "summary": "Discover how the AI platform wars are heating up as Amazon challenges Microsoft’s former exclusivity with OpenAI, alongside a look at Anthropic’s new \"Cowork\" desktop productivity tool. This episode also explores the legal drama surrounding OpenAI’s founding mission, the surge of venture capital into autonomous defense technology, and a sobering reality check on the limits of AI reliability.",
-      "keyTopics": [
-        "AWS launches OpenAI models and new agent service",
-        "Anthropic Cowork desktop AI agent release",
-        "Elon Musk testimony in OpenAI non-profit mission lawsuit",
-        "Scout AI warfare agent venture capital funding",
-        "Firestorm Labs containerized drone factory funding round",
-        "Large language model non-determinism and reliability challenges",
-        "OpenAI and Microsoft end exclusive cloud partnership"
       ]
     }
   ]
