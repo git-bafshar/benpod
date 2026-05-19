@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-05-19</title>
+      <description>Explore a tectonic shift in the AI industry as Anthropic makes a series of aggressive power moves, from high-profile talent acquisitions to massive enterprise deals with the Big Four. This episode also breaks down the legal verdict in the Elon Musk vs. OpenAI battle, critical updates on global diplomacy with Iran, and the latest headlines in sports and cybersecurity.</description>
+      <pubDate>Tue, 19 May 2026 11:23:16 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-19-112316.mp3" length="4671744" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-19-112316.mp3</guid>
+      <itunes:duration>292</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-05-18</title>
       <description>Explore the diverging paths of tech giants as Amazon launches custom AI-generated podcasts while Apple prioritizes user privacy for the next generation of Siri. This episode also breaks down the high-stakes legal battle over the soul of OpenAI, significant sports updates from the Warriors and Giants, and the complex security risks emerging in the age of voice AI.</description>
       <pubDate>Mon, 18 May 2026 11:27:00 GMT</pubDate>
