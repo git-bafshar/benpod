@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-05-20",
+      "summary": "Dive into the massive shift toward conversational AI as tech giants like Google and Figma fundamentally redesign their core products around Gemini and automated assistants. This episode also explores the high-stakes startup world, highlighting a company that boldly walked away from a $20 million buyout offer to bet on its own future. Finally, we look at the growing cultural backlash against the AI revolution, from worries about manipulated search results to recent college graduates actively booing the technology.",
+      "keyTopics": [
+        "Google Gemini integration in Search and Gmail",
+        "Figma collaborative design tool AI assistant announcement",
+        "The transition from hands-on creator to AI orchestrator",
+        "NanoCo NanoClaw rejects buyout for twelve million seed",
+        "College student backlash and booing of AI commencement speeches"
+      ]
+    },
+    {
       "date": "2026-05-19",
       "summary": "Anthropic accelerates its enterprise takeover through a massive partnership with KPMG and a strategic acquisition, while the long-running legal battle between Elon Musk and OpenAI reaches a surprising conclusion. This episode also explores how AI is fundamentally redefining professional roles for product managers and developers as the technology shifts from a tool to an orchestrator. Finally, stay informed on the latest innovations in AI-driven drug discovery and the economic trends fueling a regional building boom.",
       "keyTopics": [
@@ -171,24 +182,6 @@
         "Internal Apple support files reveal Anthropic Claude integration",
         "Legora $5.6 billion valuation in legal AI competition",
         "Product management ownership challenges in AI feature development"
-      ]
-    },
-    {
-      "date": "2026-04-30",
-      "summary": "This episode explores the staggering $900 billion valuation rumors surrounding Anthropic and the intensifying AI infrastructure race, from robotic data centers to disruptive cloud startups. It also breaks down the latest surge in inflation and its ripple effects on the Federal Reserve and the housing market. The discussion rounds out with updates on high-stakes tech legal battles and a tribute to the legacy of outlaw country legend David Allan Coe.",
-      "keyTopics": [
-        "Anthropic rumored nine hundred billion dollar valuation",
-        "Amazon AWS offering OpenAI models via cloud deal",
-        "SoftBank robotics IPO for automated data center construction",
-        "Railway AI-native cloud infrastructure one hundred million funding",
-        "Elon Musk testimony in OpenAI courtroom battle",
-        "US inflation spike and Federal Reserve interest rate hold",
-        "Anthropic Cowork AI desktop tool release",
-        "Country music icon David Allan Coe death"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
