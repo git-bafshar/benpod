@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-05-20",
+      "summary": "Get ready for a massive shift in the digital world as Google launches a historic, AI-driven redesign of its iconic search engine. This episode also explores how AI is transforming creative and professional tools like Figma and Stability Audio, alongside the latest eye-catching tech startup funding rounds. Finally, go behind the scenes of the silent war against AI search manipulation and catch up on key updates in local politics and free speech.",
+      "keyTopics": [
+        "Google Search AI-driven interface redesign",
+        "Google Gemini 3.5 and Gemini for Science",
+        "Figma AI collaborative design assistant launch",
+        "Stability AI Stability Audio 3.0 release",
+        "NanoCo twelve million dollar seed funding",
+        "Listen Labs sixty-nine million dollar funding",
+        "Google defending AI search overviews against SEO spam"
+      ]
+    },
+    {
       "date": "2026-05-19",
       "summary": "Explore a tectonic shift in the AI industry as Anthropic makes a series of aggressive power moves, from high-profile talent acquisitions to massive enterprise deals with the Big Four. This episode also breaks down the legal verdict in the Elon Musk vs. OpenAI battle, critical updates on global diplomacy with Iran, and the latest headlines in sports and cybersecurity.",
       "keyTopics": [
@@ -252,26 +265,6 @@
         "Foreign Policy - Iran::An Ayatollah for the Aggrieved",
         "Foreign Policy - Iran::Where Is Iran’s Enriched Uranium?",
         "Foreign Policy - Iran::‘Resign Immediately’: Democrats Grill Hegseth on Iran War"
-      ]
-    },
-    {
-      "date": "2026-04-29",
-      "summary": "Explore the high-stakes legal battle over OpenAI’s origins as Elon Musk takes the stand, alongside the lightning-fast rollout of frontier AI models on Amazon Web Services. This episode also dives into the rise of autonomous battlefield agents, the shifting geopolitical standoff in the Strait of Hormuz, and a potentially franchise-altering crossroads for the Golden State Warriors.",
-      "keyTopics": [
-        "Elon Musk trial testimony regarding OpenAI founding and mission",
-        "OpenAI frontier models launch on AWS Bedrock platform",
-        "Scout AI funding for battlefield autonomous agent fleets",
-        "Firestorm Labs funding for deployable drone manufacturing facilities",
-        "Iran economic resilience amid US Strait of Hormuz blockade",
-        "Draymond Green comments on Steve Kerr coaching future",
-        "Lincolnwood Town Center mall closure and redevelopment plan"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Philadelphia Phillies",
-        "ESPN Warriors News::Warriors: Draymond Green predicts Steve Kerr won't be back next season",
-        "ESPN Warriors News::Warriors: Green scores 36 points, Suns lock down Warriors, Curry in 111-96 win in NBA's play-in tourney",
-        "Foreign Policy - Iran::King Charles III Delivers Pointed Message in Address to U.S. Congress",
-        "Foreign Policy - Iran::Why Iran Isn’t Blinking Yet"
       ]
     }
   ]
