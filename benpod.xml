@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-05-20</title>
+      <description>Get ready for a massive shift in the digital world as Google launches a historic, AI-driven redesign of its iconic search engine. This episode also explores how AI is transforming creative and professional tools like Figma and Stability Audio, alongside the latest eye-catching tech startup funding rounds. Finally, go behind the scenes of the silent war against AI search manipulation and catch up on key updates in local politics and free speech.</description>
+      <pubDate>Wed, 20 May 2026 11:28:39 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-20-112839.mp3" length="5887872" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-20-112839.mp3</guid>
+      <itunes:duration>368</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-05-19</title>
       <description>Explore a tectonic shift in the AI industry as Anthropic makes a series of aggressive power moves, from high-profile talent acquisitions to massive enterprise deals with the Big Four. This episode also breaks down the legal verdict in the Elon Musk vs. OpenAI battle, critical updates on global diplomacy with Iran, and the latest headlines in sports and cybersecurity.</description>
       <pubDate>Tue, 19 May 2026 11:23:16 GMT</pubDate>
