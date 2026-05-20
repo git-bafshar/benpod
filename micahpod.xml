@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-20</title>
+      <description>Dive into the massive shift toward conversational AI as tech giants like Google and Figma fundamentally redesign their core products around Gemini and automated assistants. This episode also explores the high-stakes startup world, highlighting a company that boldly walked away from a $20 million buyout offer to bet on its own future. Finally, we look at the growing cultural backlash against the AI revolution, from worries about manipulated search results to recent college graduates actively booing the technology.</description>
+      <pubDate>Wed, 20 May 2026 10:34:55 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-20-103455.mp3" length="3911424" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-20-103455.mp3</guid>
+      <itunes:duration>244</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-19</title>
       <description>Anthropic accelerates its enterprise takeover through a massive partnership with KPMG and a strategic acquisition, while the long-running legal battle between Elon Musk and OpenAI reaches a surprising conclusion. This episode also explores how AI is fundamentally redefining professional roles for product managers and developers as the technology shifts from a tool to an orchestrator. Finally, stay informed on the latest innovations in AI-driven drug discovery and the economic trends fueling a regional building boom.</description>
       <pubDate>Tue, 19 May 2026 10:35:39 GMT</pubDate>
