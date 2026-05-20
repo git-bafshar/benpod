@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-05-20",
+      "summary": "Discover how Google is ending an era by transforming its classic search page into an AI-powered workspace, and explore the latest game-changing AI tools supercharging music creation and product design. Plus, find out why POLITICO is expanding its footprint in Los Angeles to shine a brighter spotlight on California's influential political landscape.",
+      "keyTopics": [
+        "Google search page redesign and AI transition",
+        "Stability AI Stability Audio 3.0 model release",
+        "Figma design canvas AI assistant integration",
+        "NanoCo rejects buyout to raise seed funding",
+        "POLITICO launches dedicated Los Angeles news operation",
+        "Los Angeles Lakers head coach search",
+        "Surfline Santa Barbara API outage duration"
+      ]
+    },
+    {
       "date": "2026-05-19",
       "summary": "Explore the escalating AI talent wars as a foundational researcher defects to Anthropic and a major legal chapter finally closes for OpenAI. This episode also dives into Governor Gavin Newsom’s strategic maneuvering for a potential 2028 presidential run and the high-stakes \"chess match\" of the Lakers' offseason.",
       "keyTopics": [
@@ -197,25 +210,6 @@
         "Houston Rockets eliminate LA Lakers from NBA playoffs",
         "Kevin Durant injury impact on Lakers playoff elimination",
         "Ongoing five-day Surfline API outage in Santa Barbara"
-      ]
-    },
-    {
-      "date": "2026-04-30",
-      "summary": "Explore the staggering $900 billion valuation talks surrounding Anthropic and the massive AI infrastructure arms race currently driving investment from tech giants like Amazon and SoftBank. In sports, we break down a frustrating Lakers loss that forces a high-stakes Game 6 against the Rockets, even as Houston remains without their star player. Plus, stay tuned for an update on a mysterious and persistent tech outage currently affecting the local surf report.",
-      "keyTopics": [
-        "Anthropic $900 billion valuation funding talks",
-        "Amazon AWS Bedrock OpenAI model integration",
-        "SoftBank AI-powered data center robotics company",
-        "Meta business AI 10 million weekly conversations",
-        "X rebuilding advertising platform with AI technology",
-        "Houston Rockets Game 5 win against Lakers",
-        "Kevin Durant ankle injury Game 6 status",
-        "Santa Barbara Surfline API technical outage"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Houston Rockets at Los Angeles Lakers",
-        "ESPN Lakers News::Lakers: Sources: Rockets' Kevin Durant will miss Game 6 vs. Lakers",
-        "ESPN Lakers News::Lakers: Rockets beat Lakers 99-93 in Game 5, avoiding playoff elimination for the 2nd straight game"
       ]
     }
   ]
