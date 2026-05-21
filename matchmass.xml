@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-21</title>
+      <description>In this episode, discover how Spotify is transforming its platform into an interactive, AI-powered workspace with new tools for audiobooks, research, and podcast summaries. The discussion also dives into the massive venture capital flooding the tech sector, highlighted by a mysterious startup’s historic $700 million funding round and niche developments in safe AI therapy. Finally, get the latest on a week-long digital outage currently disrupting local surf conditions.</description>
+      <pubDate>Thu, 21 May 2026 09:42:25 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-21-094225.mp3" length="3309696" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-21-094225.mp3</guid>
+      <itunes:duration>207</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-20</title>
       <description>Discover how Google is ending an era by transforming its classic search page into an AI-powered workspace, and explore the latest game-changing AI tools supercharging music creation and product design. Plus, find out why POLITICO is expanding its footprint in Los Angeles to shine a brighter spotlight on California&apos;s influential political landscape.</description>
       <pubDate>Wed, 20 May 2026 10:18:38 GMT</pubDate>
