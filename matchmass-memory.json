@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-21",
+      "summary": "In this episode, discover how Spotify is transforming its platform into an interactive, AI-powered workspace with new tools for audiobooks, research, and podcast summaries. The discussion also dives into the massive venture capital flooding the tech sector, highlighted by a mysterious startup’s historic $700 million funding round and niche developments in safe AI therapy. Finally, get the latest on a week-long digital outage currently disrupting local surf conditions.",
+      "keyTopics": [
+        "Spotify and ElevenLabs AI audiobook creation tool",
+        "Spotify interactive AI podcast Q&A and summary features",
+        "Brett Adcock's Hark raising seven hundred million Series A",
+        "The Path safe AI therapy mental health benchmark",
+        "Railway funding for AI native cloud infrastructure",
+        "Santa Barbara Surfline API ongoing data outage"
+      ]
+    },
+    {
       "date": "2026-05-20",
       "summary": "Discover how Google is ending an era by transforming its classic search page into an AI-powered workspace, and explore the latest game-changing AI tools supercharging music creation and product design. Plus, find out why POLITICO is expanding its footprint in Los Angeles to shine a brighter spotlight on California's influential political landscape.",
       "keyTopics": [
@@ -197,19 +209,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Windy: Luka 'is not close' to returning"
-      ]
-    },
-    {
-      "date": "2026-05-01",
-      "summary": "Explore the staggering speed of the AI industry as Anthropic targets a historic valuation and Apple struggles to meet hardware demand driven by the AI boom. This episode also breaks down the Lakers’ disappointing season-ending loss to the Rockets and the mystery behind an ongoing digital outage affecting local surf reports.",
-      "keyTopics": [
-        "Anthropic 48-hour deadline for $900 billion funding round",
-        "Legora $5.6 billion valuation and Harvey legal AI competition",
-        "Apple AI-driven supply constraints for Mac Neo and Studio",
-        "Claude integration evidence found in Apple Support app code",
-        "Houston Rockets eliminate LA Lakers from NBA playoffs",
-        "Kevin Durant injury impact on Lakers playoff elimination",
-        "Ongoing five-day Surfline API outage in Santa Barbara"
       ]
     }
   ]
