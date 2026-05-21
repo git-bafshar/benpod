@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-05-21",
+      "summary": "Explore the rapidly shifting tech landscape with a look at Spotify’s massive wave of new AI features, Google’s historic search engine redesign, and a secretive startup that just raised a staggering $700 million. This episode also dives into the rise of safer AI wellness tools, a major scientific breakthrough by OpenAI, and a strategic reframing of Iran's long-term geopolitical ambitions. Tune in for an engaging breakdown of the forces shaping technology and global affairs.",
+      "keyTopics": [
+        "Spotify ElevenLabs audiobook tool and podcast Q&A",
+        "AI startup Hark seven hundred million dollar Series A",
+        "The Path AI therapy bot mental health safety",
+        "Google retires classic search box for AI Overviews",
+        "OpenAI model solves discrete geometry math conjecture",
+        "Iran strategic objective for Persian Gulf regional dominance"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::The World Keeps Asking Iran the Wrong Question"
+      ]
+    },
+    {
       "date": "2026-05-20",
       "summary": "Get ready for a massive shift in the digital world as Google launches a historic, AI-driven redesign of its iconic search engine. This episode also explores how AI is transforming creative and professional tools like Figma and Stability Audio, alongside the latest eye-catching tech startup funding rounds. Finally, go behind the scenes of the silent war against AI search manipulation and catch up on key updates in local politics and free speech.",
       "keyTopics": [
@@ -245,26 +260,6 @@
         "Foreign Policy - Iran::Why Trump Might Come to Regret the Iran War",
         "Foreign Policy - Iran::The View From Europe",
         "Foreign Policy - Iran::Iran War Nears 60-Day War Powers Deadline"
-      ]
-    },
-    {
-      "date": "2026-04-30",
-      "summary": "Explore the mind-boggling $900 billion valuation discussions surrounding Anthropic and the massive infrastructure bets currently reshaping the global tech landscape. This episode also dives into a potential turning point for the Golden State Warriors’ dynasty and the latest geopolitical tensions involving Iran’s nuclear program. From the front lines of the AI gold rush to the future of NBA leadership, we cover the essential headlines defining the day.",
-      "keyTopics": [
-        "Anthropic $900 billion funding round valuation discussions",
-        "AWS earnings growth fueled by AI infrastructure demand",
-        "SoftBank robotics company for data center construction IPO",
-        "Elon Musk testimony in OpenAI nonprofit mission lawsuit",
-        "Steve Kerr formal meeting regarding Golden State Warriors future",
-        "UN nuclear watchdog report on Iran uranium at Isfahan",
-        "Meta business AI tools reaching 10 million weekly conversations",
-        "Death of pioneering human genome biologist Craig Venter"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Sources: Warriors' brass meet with Kerr; will reconvene next week",
-        "Foreign Policy - Iran::An Ayatollah for the Aggrieved",
-        "Foreign Policy - Iran::Where Is Iran’s Enriched Uranium?",
-        "Foreign Policy - Iran::‘Resign Immediately’: Democrats Grill Hegseth on Iran War"
       ]
     }
   ]
