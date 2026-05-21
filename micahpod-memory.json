@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-21",
+      "summary": "Explore the massive financial wave reshaping tech as secretive AI startups land historic funding and Nvidia eyes a $200 billion market for autonomous agent hardware. Discover how Google is fundamentally changing the web with a historic search redesign that integrates ads directly into AI-generated answers. Plus, learn about the rise of safety-focused AI therapy, AI-powered recycling, and the major stadium approval for the Tampa Bay Rays.",
+      "keyTopics": [
+        "Secretive AI startup Hark raises 700 million Series A",
+        "Nvidia CEO Jensen Huang targets 200 billion CPU market",
+        "Google integrates ads into AI-generated search results",
+        "Mental health startup The Path launches AI therapy app",
+        "AI-powered computer vision systems for aluminum recycling",
+        "Tampa Bay Rays stadium pact approved by Hillsborough County"
+      ]
+    },
+    {
       "date": "2026-05-20",
       "summary": "Dive into the massive shift toward conversational AI as tech giants like Google and Figma fundamentally redesign their core products around Gemini and automated assistants. This episode also explores the high-stakes startup world, highlighting a company that boldly walked away from a $20 million buyout offer to bet on its own future. Finally, we look at the growing cultural backlash against the AI revolution, from worries about manipulated search results to recent college graduates actively booing the technology.",
       "keyTopics": [
@@ -170,18 +182,6 @@
         "Artisan AI copyright dispute over This Is Fine meme",
         "ASML EUV lithography machines as AI hardware bottleneck",
         "Orlando performing arts venue funding and expansion debate"
-      ]
-    },
-    {
-      "date": "2026-05-01",
-      "summary": "Explore the ripple effects of Anthropic’s staggering $900 billion valuation quest and how the surge in local AI development is driving an unexpected hardware crunch at Apple. This episode also dives into the sharpening competitive tactics between OpenAI and Anthropic, the high-stakes \"land grab\" in legal tech, and the organizational challenges of managing complex AI product teams. Learn how these massive investments and technical shifts are reshaping everything from global supply chains to internal corporate workflows.",
-      "keyTopics": [
-        "Anthropic $900 billion funding round and investor deadline",
-        "Apple Mac Neo supply constraints due to AI demand",
-        "OpenAI Cyber tool release using GPT-5.5 model",
-        "Internal Apple support files reveal Anthropic Claude integration",
-        "Legora $5.6 billion valuation in legal AI competition",
-        "Product management ownership challenges in AI feature development"
       ]
     }
   ]
