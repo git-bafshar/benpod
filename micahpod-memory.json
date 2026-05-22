@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-05-22",
+      "summary": "Discover how a landmark partnership between Spotify and Universal Music Group is reshaping the music industry by embracing and monetizing fan-made AI covers. This episode also explores the political tension behind a delayed U.S. executive order on AI security and the business debate over whether AI should augment employees or replace them. Plus, get the details on Spotify's new conversational podcast tools and a major $100 million funding round for AI-native cloud infrastructure.",
+      "keyTopics": [
+        "Spotify and Universal Music Group deal for AI covers",
+        "Spotify conversational AI podcast features and desktop app",
+        "President Trump delays AI security executive order",
+        "Debate over AI workforce replacement versus talent augmentation",
+        "Railway raises one hundred million dollars for AI cloud"
+      ]
+    },
+    {
       "date": "2026-05-21",
       "summary": "Explore the massive financial wave reshaping tech as secretive AI startups land historic funding and Nvidia eyes a $200 billion market for autonomous agent hardware. Discover how Google is fundamentally changing the web with a historic search redesign that integrates ads directly into AI-generated answers. Plus, learn about the rise of safety-focused AI therapy, AI-powered recycling, and the major stadium approval for the Tampa Bay Rays.",
       "keyTopics": [
@@ -170,18 +181,6 @@
         "Google Chrome silent installation of 4GB local AI model",
         "Stuart Russell named expert witness in Musk vs OpenAI lawsuit",
         "Organizational culture as the primary bottleneck for AI effectiveness"
-      ]
-    },
-    {
-      "date": "2026-05-04",
-      "summary": "Explore how AI is moving from the lab to the boardroom as Anthropic launches a massive enterprise services venture and a new Harvard study reveals AI outperforming doctors in emergency room diagnostics. This episode also dives into the growing tensions between technology and creativity, covering new Oscar eligibility rules, high-stakes copyright battles over iconic memes, and the critical hardware supply chain powering the entire industry.",
-      "keyTopics": [
-        "Anthropic enterprise AI services company with Goldman Sachs",
-        "Harvard study on AI emergency room diagnostic accuracy",
-        "Academy Awards ban on AI actors and scripts",
-        "Artisan AI copyright dispute over This Is Fine meme",
-        "ASML EUV lithography machines as AI hardware bottleneck",
-        "Orlando performing arts venue funding and expansion debate"
       ]
     }
   ]
