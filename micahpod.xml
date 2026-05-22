@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-22</title>
+      <description>Discover how a landmark partnership between Spotify and Universal Music Group is reshaping the music industry by embracing and monetizing fan-made AI covers. This episode also explores the political tension behind a delayed U.S. executive order on AI security and the business debate over whether AI should augment employees or replace them. Plus, get the details on Spotify&apos;s new conversational podcast tools and a major $100 million funding round for AI-native cloud infrastructure.</description>
+      <pubDate>Fri, 22 May 2026 10:15:27 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-22-101527.mp3" length="3964032" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-22-101527.mp3</guid>
+      <itunes:duration>248</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-21</title>
       <description>Explore the massive financial wave reshaping tech as secretive AI startups land historic funding and Nvidia eyes a $200 billion market for autonomous agent hardware. Discover how Google is fundamentally changing the web with a historic search redesign that integrates ads directly into AI-generated answers. Plus, learn about the rise of safety-focused AI therapy, AI-powered recycling, and the major stadium approval for the Tampa Bay Rays.</description>
       <pubDate>Thu, 21 May 2026 10:39:57 GMT</pubDate>
