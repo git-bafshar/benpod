@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-05-22",
+      "summary": "Explore the future of tech and music as Spotify and Universal Music Group team up for AI-generated song covers, while Google previews its new Gemini-powered smart glasses. This episode also dives into major local headlines, including the Chicago Tribune's acquisition of the Daily Herald and a proposed Illinois law requiring employers to pay workers during jury duty. Plus, get key updates on the housing market as mortgage rates hit a 10-month high, alongside a look at shifting geopolitical alliances in the Middle East.",
+      "keyTopics": [
+        "Spotify and Universal Music Group AI music partnership",
+        "Google prototype Android XR glasses powered by Gemini",
+        "President Trump delays AI security executive order",
+        "Fast-fashion retailer Shein acquires competitor Everlane",
+        "Chicago Tribune acquires suburban Daily Herald newspaper",
+        "US mortgage rates hit ten-month high slowing sales",
+        "Pakistan deploys military assets to Saudi Arabia"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Pakistan’s High-Wire Act Gets Riskier"
+      ]
+    },
+    {
       "date": "2026-05-21",
       "summary": "Explore the rapidly shifting tech landscape with a look at Spotify’s massive wave of new AI features, Google’s historic search engine redesign, and a secretive startup that just raised a staggering $700 million. This episode also dives into the rise of safer AI wellness tools, a major scientific breakthrough by OpenAI, and a strategic reframing of Iran's long-term geopolitical ambitions. Tune in for an engaging breakdown of the forces shaping technology and global affairs.",
       "keyTopics": [
@@ -240,26 +258,6 @@
         "Foreign Policy - Iran::Trump’s War Exposes the Weakness of Middle Powers",
         "Foreign Policy - Iran::Trump: 60-Day War Powers Deadline ‘Totally Unconstitutional’",
         "Foreign Policy - Iran::Saffron’s Last Gasp"
-      ]
-    },
-    {
-      "date": "2026-05-01",
-      "summary": "Explore the staggering financial surge in AI as Anthropic eyes a trillion-dollar valuation and rivalries among tech giants turn increasingly competitive. This episode also breaks down the public internal strife threatening the Golden State Warriors' legacy and a looming constitutional showdown over U.S. military action in Iran. Finally, find out why the arrival of May means a more expensive season for Chicago’s lakefront.",
-      "keyTopics": [
-        "Anthropic trillion dollar valuation and 48-hour funding deadline",
-        "Legora legal AI startup five point six billion valuation",
-        "OpenAI GPT-5.5 Cyber launch and rivalry with Anthropic Mythos",
-        "Apple Mac hardware supply constraints due to AI demand",
-        "Draymond Green publicly criticizes Steve Kerr and Warriors future",
-        "Defense Secretary Pete Hegseth War Powers Resolution loophole argument",
-        "Apple Support app includes internal Anthropic Claude files"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Why Stephen A. calls Draymond's comments about Steve Kerr 'foul'",
-        "ESPN Warriors News::Warriors: Draymond says it could be the end for Steve Kerr in Golden State",
-        "Foreign Policy - Iran::Why Trump Might Come to Regret the Iran War",
-        "Foreign Policy - Iran::The View From Europe",
-        "Foreign Policy - Iran::Iran War Nears 60-Day War Powers Deadline"
       ]
     }
   ]
