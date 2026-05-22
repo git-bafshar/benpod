@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-22</title>
+      <description>Explore the rapidly shifting tech landscape as Google navigates bizarre AI search bugs and previews futuristic smart glasses, while Spotify partners with Universal Music to pioneer licensed AI cover songs. This episode also dives into the delay of a major federal AI security order, LeBron James&apos;s high-stakes pressure on the Lakers&apos; front office, and a local holiday weekend update.</description>
+      <pubDate>Fri, 22 May 2026 09:31:58 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-22-093158.mp3" length="3840192" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-22-093158.mp3</guid>
+      <itunes:duration>240</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-21</title>
       <description>In this episode, discover how Spotify is transforming its platform into an interactive, AI-powered workspace with new tools for audiobooks, research, and podcast summaries. The discussion also dives into the massive venture capital flooding the tech sector, highlighted by a mysterious startup’s historic $700 million funding round and niche developments in safe AI therapy. Finally, get the latest on a week-long digital outage currently disrupting local surf conditions.</description>
       <pubDate>Thu, 21 May 2026 09:42:25 GMT</pubDate>
