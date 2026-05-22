@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-05-22",
+      "summary": "Explore the rapidly shifting tech landscape as Google navigates bizarre AI search bugs and previews futuristic smart glasses, while Spotify partners with Universal Music to pioneer licensed AI cover songs. This episode also dives into the delay of a major federal AI security order, LeBron James's high-stakes pressure on the Lakers' front office, and a local holiday weekend update.",
+      "keyTopics": [
+        "Google Search AI overhaul disregard bug",
+        "Google Android XR AI glasses prototype",
+        "Spotify and Universal Music Group AI music agreement",
+        "Donald Trump delays AI security executive order",
+        "LeBron James pressures Lakers front office over talent",
+        "Santa Barbara Surfline API data outage"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: LeBron James: Lakers were 'out-talented' by Thunder in playoffs"
+      ]
+    },
+    {
       "date": "2026-05-21",
       "summary": "In this episode, discover how Spotify is transforming its platform into an interactive, AI-powered workspace with new tools for audiobooks, research, and podcast summaries. The discussion also dives into the massive venture capital flooding the tech sector, highlighted by a mysterious startup’s historic $700 million funding round and niche developments in safe AI therapy. Finally, get the latest on a week-long digital outage currently disrupting local surf conditions.",
       "keyTopics": [
@@ -194,21 +209,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Thunder brace for perhaps their biggest stage: a West semifinals showdown with LeBron and the Lakers"
-      ]
-    },
-    {
-      "date": "2026-05-04",
-      "summary": "This episode dives into a major sports correction regarding the Lakers’ stunning playoff turnaround and a groundbreaking Harvard study showing AI out-diagnosing emergency room doctors. Discover why the Academy is drawing a line in the sand against AI-generated films and how tech giants are moving to integrate their tools into the heart of corporate America.",
-      "keyTopics": [
-        "Lakers advance to second round against OKC Thunder",
-        "OpenAI o1 model outperforms ER doctors in diagnosis",
-        "Anthropic and OpenAI enterprise AI joint ventures",
-        "Academy Awards ban AI-generated actors and scripts",
-        "Artisan AI This is fine meme copyright dispute",
-        "Persistent Santa Barbara Surfline API outage"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Windy: Luka 'is not close' to returning"
       ]
     }
   ]
