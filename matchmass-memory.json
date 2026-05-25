@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-25",
+      "summary": "This episode explores a historic and unexpected moral critique of artificial intelligence as the Pope weighs in on tech monopolies and the future of human dignity. Tune in for a deep dive into the convenience and privacy trade-offs of Amazon’s new \"Bee\" wearable, followed by a look at the high-stakes pressure mounting in the LA Lakers' offseason.",
+      "keyTopics": [
+        "Pope Leo XIV encyclical warning on AI power concentration",
+        "Amazon Bee AI wearable review and privacy concerns",
+        "White House delay of federal AI security order",
+        "Los Angeles Lakers head coach search and offseason pressure",
+        "LeBron James pressuring Lakers front office to acquire talent",
+        "Persistent Surfline API outage in Santa Barbara County"
+      ]
+    },
+    {
       "date": "2026-05-22",
       "summary": "Explore the rapidly shifting tech landscape as Google navigates bizarre AI search bugs and previews futuristic smart glasses, while Spotify partners with Universal Music to pioneer licensed AI cover songs. This episode also dives into the delay of a major federal AI security order, LeBron James's high-stakes pressure on the Lakers' front office, and a local holiday weekend update.",
       "keyTopics": [
@@ -193,22 +205,6 @@
       "articles": [
         "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Oklahoma City Thunder",
         "ESPN Lakers News::Lakers: Jarred Vanderbilt dislocates right pinkie, sources say"
-      ]
-    },
-    {
-      "date": "2026-05-05",
-      "summary": "Discover how AI is revolutionizing the consumer experience, from Etsy’s new conversational shopping tools and PayPal’s high-tech turnaround to the privacy debates surrounding Meta’s biometric age-verification. This episode also dives into the booming business of voice AI and previews the high-stakes Western Conference Semifinals matchup between the Lakers and the Oklahoma City Thunder.",
-      "keyTopics": [
-        "PayPal AI-driven turnaround strategy and corporate restructuring",
-        "Etsy native app integration within ChatGPT for gift discovery",
-        "ElevenLabs funding from BlackRock Jamie Foxx and Eva Longoria",
-        "ElevenLabs annual recurring revenue reaches half billion dollars",
-        "Meta AI bone structure analysis for age verification",
-        "Lakers versus Oklahoma City Thunder Western Conference Semifinals",
-        "Persistent Surfline API outage in Santa Barbara County"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Thunder brace for perhaps their biggest stage: a West semifinals showdown with LeBron and the Lakers"
       ]
     }
   ]
