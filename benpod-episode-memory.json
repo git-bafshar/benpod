@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-05-25",
+      "summary": "This episode dives into the ethical and security challenges of rapid technological growth, highlighting Pope Leo XIV’s warning about AI power concentration and a massive cybercrime bust in the Netherlands. It also explores the rising trend of ambient technology with a look at Amazon’s new wearable, the \"Bee,\" and how different tech giants are handling user privacy. Finally, catch up on the latest sports news, including the Giants' victory over the White Sox and a recovery update on Jimmy Butler.",
+      "keyTopics": [
+        "Pope Leo the Fourteenth encyclical warning on AI power",
+        "Netherlands authorities seize 800 servers in cybercrime bust",
+        "Google defending AI Overviews against SEO spammers",
+        "Amazon testing Bee ambient AI wearable device",
+        "Apple privacy-centric Siri overhaul for on-device processing",
+        "Jimmy Butler ACL recovery progress at BottleRock festival",
+        "San Francisco Giants victory over Chicago White Sox"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Chicago White Sox at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Jimmy Butler pumps up fans to 'A Thousand Miles' at BottleRock",
+        "ESPN Giants News::Giants: Giants put Jung Hoo Lee on IL, call up prospect Victor Bericoto",
+        "ESPN 49ers News::49ers: What will new DC Raheem Morris bring to the 49ers' defense?",
+        "Foreign Policy - Iran::‘Atropia’ Takes on the War on Terror"
+      ]
+    },
+    {
       "date": "2026-05-22",
       "summary": "Explore the future of tech and music as Spotify and Universal Music Group team up for AI-generated song covers, while Google previews its new Gemini-powered smart glasses. This episode also dives into major local headlines, including the Chicago Tribune's acquisition of the Daily Herald and a proposed Illinois law requiring employers to pay workers during jury duty. Plus, get key updates on the housing market as mortgage rates hit a 10-month high, alongside a look at shifting geopolitical alliances in the Middle East.",
       "keyTopics": [
@@ -238,26 +258,6 @@
         "Foreign Policy - Iran::Iran Has All the Hallmarks of a Forever War",
         "Foreign Policy - Iran::Introducing ‘Project Freedom’",
         "Foreign Policy - Iran::U.S. War in Iran Leaves Ukraine’s Air Defense in Limbo"
-      ]
-    },
-    {
-      "date": "2026-05-04",
-      "summary": "Explore Anthropic’s massive shift into enterprise AI services and a landmark Harvard study showing AI models out-diagnosing emergency room doctors. This episode also breaks down the Academy’s new ban on AI-generated talent, high-stakes geopolitical maneuvers in the Middle East, and a bizarre case of market manipulation involving a hairdryer and a weather bet. From corporate power plays to the \"last mile\" of medical integration, discover how AI is moving from theoretical technology to a real-world force.",
-      "keyTopics": [
-        "Anthropic enterprise AI services venture with Blackstone and Goldman Sachs",
-        "OpenAI o1 model outperforming ER doctors in Harvard study",
-        "KC Green legal dispute with Artisan over AI meme usage",
-        "Academy Award rules banning AI actors and AI-written scripts",
-        "Geopolitical analysis of Trump Hormuz gambit and middle power influence",
-        "San Francisco Giants call up top prospect Bryce Eldridge",
-        "Alleged physical tampering of Polymarket weather prediction sensors"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Tampa Bay Rays",
-        "ESPN Giants News::Giants: Reports: Giants calling up prospect Bryce Eldridge",
-        "Foreign Policy - Iran::Trump’s War Exposes the Weakness of Middle Powers",
-        "Foreign Policy - Iran::Trump: 60-Day War Powers Deadline ‘Totally Unconstitutional’",
-        "Foreign Policy - Iran::Saffron’s Last Gasp"
       ]
     }
   ]
