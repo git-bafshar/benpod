@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-05-25</title>
+      <description>This episode dives into the ethical and security challenges of rapid technological growth, highlighting Pope Leo XIV’s warning about AI power concentration and a massive cybercrime bust in the Netherlands. It also explores the rising trend of ambient technology with a look at Amazon’s new wearable, the &quot;Bee,&quot; and how different tech giants are handling user privacy. Finally, catch up on the latest sports news, including the Giants&apos; victory over the White Sox and a recovery update on Jimmy Butler.</description>
+      <pubDate>Mon, 25 May 2026 10:53:32 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-25-105332.mp3" length="4085760" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-25-105332.mp3</guid>
+      <itunes:duration>255</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-05-22</title>
       <description>Explore the future of tech and music as Spotify and Universal Music Group team up for AI-generated song covers, while Google previews its new Gemini-powered smart glasses. This episode also dives into major local headlines, including the Chicago Tribune&apos;s acquisition of the Daily Herald and a proposed Illinois law requiring employers to pay workers during jury duty. Plus, get key updates on the housing market as mortgage rates hit a 10-month high, alongside a look at shifting geopolitical alliances in the Middle East.</description>
       <pubDate>Fri, 22 May 2026 10:50:35 GMT</pubDate>
