@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-26</title>
+      <description>Explore how the transition into AI’s &quot;Agentic Era&quot; is transforming the workforce following a major startup&apos;s decision to replace employees with autonomous software agents. This episode also dives into the ethical and global regulatory challenges facing the tech industry, including Spanish restrictions on prediction markets. Finally, get the latest updates on a deeply divided national housing market and an upcoming weather system bringing heavy rain to Central Florida.</description>
+      <pubDate>Tue, 26 May 2026 10:45:44 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-26-104544.mp3" length="3808704" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-26-104544.mp3</guid>
+      <itunes:duration>238</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-25</title>
       <description>This episode explores the complex landscape of artificial intelligence, from the Vatican’s warnings about systemic dehumanization to the privacy anxieties surrounding Amazon&apos;s new &quot;Bee&quot; wearable. The discussion also dives into global cybersecurity challenges following a massive server seizure in the Netherlands, before shifting gears to look at how Ferrari is using AI to revolutionize the Formula 1 fan experience. Tune in to discover how this rapidly evolving technology is reshaping everything from personal privacy to professional sports.</description>
       <pubDate>Mon, 25 May 2026 10:33:48 GMT</pubDate>
