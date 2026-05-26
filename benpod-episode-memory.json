@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-05-26",
+      "summary": "Explore the rapidly shifting boundaries of the AI revolution as this episode dives into Universal Music Group's crackdown on unauthorized tracks on TikTok and a startup's bold decision to replace hundreds of employees with AI agents. The discussion also highlights a unique venture hiring gig workers to gather real-world data for robotics, alongside a major AI safety pioneer's response to the Vatican's ethical warnings. Plus, catch up on the latest tech outages, global prediction market regulations, and local sports updates.",
+      "keyTopics": [
+        "Universal Music Group and TikTok deal to combat unauthorized AI music",
+        "ClickUp replaces hundreds of employees with AI agents",
+        "Human Archive gig worker data collection for robotics training",
+        "Anthropic Chris Olah response to Pope Leo XIV AI encyclical",
+        "Spain blocking prediction markets Polymarket and Kalshi",
+        "Chicago Tribune acquisition of the Daily Herald newspaper"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Arizona Diamondbacks at San Francisco Giants"
+      ]
+    },
+    {
       "date": "2026-05-25",
       "summary": "This episode dives into the ethical and security challenges of rapid technological growth, highlighting Pope Leo XIV’s warning about AI power concentration and a massive cybercrime bust in the Netherlands. It also explores the rising trend of ambient technology with a look at Amazon’s new wearable, the \"Bee,\" and how different tech giants are handling user privacy. Finally, catch up on the latest sports news, including the Giants' victory over the White Sox and a recovery update on Jimmy Butler.",
       "keyTopics": [
@@ -234,30 +249,6 @@
         "Foreign Policy - Iran::War Handed Public Space Back to Iran’s Regime",
         "Foreign Policy - Iran::U.S. Might Be Close to a Deal With Iran",
         "Foreign Policy - Iran::Washington Is Still Chasing the Perfect War"
-      ]
-    },
-    {
-      "date": "2026-05-06",
-      "summary": "Explore a major diplomatic breakthrough in the Strait of Hormuz and the rapid rise of autonomous AI agents capable of managing their own web infrastructure. This episode also breaks down Samsung’s historic trillion-dollar milestone, the legacy of media pioneer Ted Turner, and the diverging trends currently reshaping the U.S. housing market.",
-      "keyTopics": [
-        "U.S. and Iran de-escalation in the Strait of Hormuz",
-        "Cloudflare autonomous AI agent domain name registration",
-        "Anthropic financial services agents for Blackstone and Goldman Sachs",
-        "Samsung reaching one trillion dollar valuation via AI chips",
-        "Apple 250 million dollar settlement for Siri AI claims",
-        "Death of CNN founder and media pioneer Ted Turner",
-        "San Francisco luxury real estate price surge from AI wealth",
-        "Brandon Aiyuk San Francisco 49ers contract extension standoff"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Diego Padres at San Francisco Giants",
-        "ESPN 49ers News::49ers: Four questions the 49ers still need to answer this offseason",
-        "ESPN 49ers News::49ers: What's the latest with Brandon Aiyuk?",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Iran Has All the Hallmarks of a Forever War",
-        "Foreign Policy - Iran::Introducing ‘Project Freedom’",
-        "Foreign Policy - Iran::U.S. War in Iran Leaves Ukraine’s Air Defense in Limbo"
       ]
     }
   ]
