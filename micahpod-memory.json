@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-05-26",
+      "summary": "Explore how the transition into AI’s \"Agentic Era\" is transforming the workforce following a major startup's decision to replace employees with autonomous software agents. This episode also dives into the ethical and global regulatory challenges facing the tech industry, including Spanish restrictions on prediction markets. Finally, get the latest updates on a deeply divided national housing market and an upcoming weather system bringing heavy rain to Central Florida.",
+      "keyTopics": [
+        "ClickUp replaces employees with thousands of AI agents",
+        "The transition from chatbots to the Agentic Era",
+        "Anthropic co-founder Chris Olah responds to Pope AI encyclical",
+        "Spain regulators block prediction markets Polymarket and Kalshi",
+        "GitHub Actions outage highlights developer workflow central dependencies",
+        "US housing market divergence between luxury and affordable sectors"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-05-25",
       "summary": "This episode explores the complex landscape of artificial intelligence, from the Vatican’s warnings about systemic dehumanization to the privacy anxieties surrounding Amazon's new \"Bee\" wearable. The discussion also dives into global cybersecurity challenges following a massive server seizure in the Netherlands, before shifting gears to look at how Ferrari is using AI to revolutionize the Formula 1 fan experience. Tune in to discover how this rapidly evolving technology is reshaping everything from personal privacy to professional sports.",
       "keyTopics": [
@@ -167,19 +183,6 @@
         "Spotify AI DJ expansion to four new languages",
         "Listen Labs $69 million funding and viral hiring stunt",
         "Orlando redistricting process and local political representation shifts"
-      ]
-    },
-    {
-      "date": "2026-05-06",
-      "summary": "This episode dives into the next phase of the AI boom, exploring how specialized agents are transforming industries from finance and DevOps to autonomous robotic kitchens. We break down the competing platform strategies of SAP and Apple alongside the ethical complexities of using AI to alter human accents in call centers. Finally, the show examines the high-stakes war for tech talent and the latest local debates surrounding public funding for sports stadiums.",
-      "keyTopics": [
-        "Anthropic Agents for financial services product launch",
-        "SAP acquires Prior Labs for $1.16 billion",
-        "Apple iOS 27 third-party AI model integration",
-        "Telus real-time AI accent alteration for call centers",
-        "Marc Lore Wonder prompt-to-restaurant robotic kitchens",
-        "QuTwo $380 million quantum AI angel round",
-        "Orlando Tourist Development Tax stadium renovation debate"
       ]
     }
   ]
