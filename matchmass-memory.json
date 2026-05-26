@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-05-26",
+      "summary": "Explore how artificial intelligence is transforming both the workplace and the physical world, from a company replacing hundreds of employees with AI agents to a startup gathering real-world data through wearable sensors. We also dive into Universal Music Group's latest crackdown on unauthorized AI music on TikTok and Spain’s recent block on major prediction markets. Finally, get the scoop on the Los Angeles Lakers' first major offseason move with a key front-office hire.",
+      "keyTopics": [
+        "ClickUp replacing human employees with thousands of AI agents",
+        "Human Archive startup collecting physical training data for robotics",
+        "Universal Music Group TikTok partnership targeting unauthorized AI music",
+        "Spain blocks prediction markets Polymarket and Kalshi",
+        "Los Angeles Lakers hire Rohan Ramadas as assistant GM",
+        "Ongoing Surfline API outage in Santa Barbara County"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Sources: Lakers hire Rohan Ramadas as assistant general manager"
+      ]
+    },
+    {
       "date": "2026-05-25",
       "summary": "This episode explores a historic and unexpected moral critique of artificial intelligence as the Pope weighs in on tech monopolies and the future of human dignity. Tune in for a deep dive into the convenience and privacy trade-offs of Amazon’s new \"Bee\" wearable, followed by a look at the high-stakes pressure mounting in the LA Lakers' offseason.",
       "keyTopics": [
@@ -187,24 +202,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Lakers' Luka Doncic still unsure when he'll return from injury"
-      ]
-    },
-    {
-      "date": "2026-05-06",
-      "summary": "This episode breaks down the Lakers' challenging start to their series against the Oklahoma City Thunder and explores the rising financial costs of the AI boom, highlighted by Apple’s recent multi-million dollar settlement. We also dive into Google’s search overhaul using Reddit data and the emergence of autonomous AI agents capable of managing real-world transactions and infrastructure.",
-      "keyTopics": [
-        "Match Group AI infrastructure costs and hiring slowdown",
-        "Apple $250 million Siri overpromising class-action settlement",
-        "Google search integration of Reddit and forum advice",
-        "Genesis AI robotic hands physical task demonstration",
-        "Cloudflare autonomous AI agent domain purchase and deployment",
-        "Lakers vs Thunder Western Conference Semifinals Game 1",
-        "Jarred Vanderbilt dislocated pinkie injury update",
-        "Santa Barbara Surfline API service outage"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Los Angeles Lakers at Oklahoma City Thunder",
-        "ESPN Lakers News::Lakers: Jarred Vanderbilt dislocates right pinkie, sources say"
       ]
     }
   ]
