@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-05-27",
+      "summary": "This episode explores the cutting edge of tech, from ElevenLabs' game-changing interactive AI music tools to the rise of hyper-personalized, AI-powered sleep earbuds. The discussion also dives into the shifting geopolitics of the global AI talent war as China works to retain its top researchers at home. Finally, discover why a growing wave of \"AI fatigue\" is setting in among everyday users who are starting to tire of the relentless tech hype.",
+      "keyTopics": [
+        "ElevenLabs music generation model release",
+        "China tightening control over domestic AI talent pipeline",
+        "SOND funding for AI-powered sleep earbuds",
+        "Spain ban on Polymarket and Kalshi prediction markets",
+        "Growing user fatigue and burnout with AI systems"
+      ]
+    },
+    {
       "date": "2026-05-26",
       "summary": "Explore how the transition into AI’s \"Agentic Era\" is transforming the workforce following a major startup's decision to replace employees with autonomous software agents. This episode also dives into the ethical and global regulatory challenges facing the tech industry, including Spanish restrictions on prediction markets. Finally, get the latest updates on a deeply divided national housing market and an upcoming weather system bringing heavy rain to Central Florida.",
       "keyTopics": [
@@ -170,19 +181,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-05-07",
-      "summary": "Explore the cutting edge of the AI arms race as the search for compute power moves into orbit through a groundbreaking partnership between Anthropic and SpaceX. This episode also breaks down the collapse of the high-profile Snap and Perplexity deal and examines the viral, high-stakes tactics companies are using to win the war for tech talent. Finally, discover why local redistricting efforts in Orlando may prove more consequential for daily life than even the most ambitious galactic infrastructure.",
-      "keyTopics": [
-        "Anthropic and SpaceX partnership for orbital AI compute",
-        "Milken Conference AI infrastructure supply chain warnings",
-        "xAI neocloud strategy and vertical infrastructure integration",
-        "Snap termination of $400 million Perplexity AI acquisition",
-        "Spotify AI DJ expansion to four new languages",
-        "Listen Labs $69 million funding and viral hiring stunt",
-        "Orlando redistricting process and local political representation shifts"
       ]
     }
   ]
