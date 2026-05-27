@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-27</title>
+      <description>This episode explores the cutting edge of tech, from ElevenLabs&apos; game-changing interactive AI music tools to the rise of hyper-personalized, AI-powered sleep earbuds. The discussion also dives into the shifting geopolitics of the global AI talent war as China works to retain its top researchers at home. Finally, discover why a growing wave of &quot;AI fatigue&quot; is setting in among everyday users who are starting to tire of the relentless tech hype.</description>
+      <pubDate>Wed, 27 May 2026 10:57:27 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-27-105727.mp3" length="4180416" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-27-105727.mp3</guid>
+      <itunes:duration>261</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-26</title>
       <description>Explore how the transition into AI’s &quot;Agentic Era&quot; is transforming the workforce following a major startup&apos;s decision to replace employees with autonomous software agents. This episode also dives into the ethical and global regulatory challenges facing the tech industry, including Spanish restrictions on prediction markets. Finally, get the latest updates on a deeply divided national housing market and an upcoming weather system bringing heavy rain to Central Florida.</description>
       <pubDate>Tue, 26 May 2026 10:45:44 GMT</pubDate>
