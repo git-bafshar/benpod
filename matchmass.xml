@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-27</title>
+      <description>Explore the massive divide in the tech world as AI startups secure eye-popping valuations while everyday users begin to push back against AI fatigue. This episode dives into how Google&apos;s controversial AI search overviews are driving a surge in traffic to simpler alternatives like DuckDuckGo. Plus, get an update on a surprisingly persistent local API outage affecting coastal routines.</description>
+      <pubDate>Wed, 27 May 2026 10:26:22 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-27-102622.mp3" length="2939712" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-27-102622.mp3</guid>
+      <itunes:duration>184</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-26</title>
       <description>Explore how artificial intelligence is transforming both the workplace and the physical world, from a company replacing hundreds of employees with AI agents to a startup gathering real-world data through wearable sensors. We also dive into Universal Music Group&apos;s latest crackdown on unauthorized AI music on TikTok and Spain’s recent block on major prediction markets. Finally, get the scoop on the Los Angeles Lakers&apos; first major offseason move with a key front-office hire.</description>
       <pubDate>Tue, 26 May 2026 10:30:52 GMT</pubDate>
