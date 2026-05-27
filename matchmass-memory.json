@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-27",
+      "summary": "Explore the massive divide in the tech world as AI startups secure eye-popping valuations while everyday users begin to push back against AI fatigue. This episode dives into how Google's controversial AI search overviews are driving a surge in traffic to simpler alternatives like DuckDuckGo. Plus, get an update on a surprisingly persistent local API outage affecting coastal routines.",
+      "keyTopics": [
+        "Cognition raises one billion dollars at twenty-five billion valuation",
+        "SOND launches out of stealth with AI sleep earbuds",
+        "ElevenLabs releases new music generation model with regeneration",
+        "DuckDuckGo traffic surges twenty-eight percent amid Google backlash",
+        "Ongoing Santa Barbara Surfline API regional outage",
+        "Growing consumer fatigue with ubiquitous product AI integration"
+      ]
+    },
+    {
       "date": "2026-05-26",
       "summary": "Explore how artificial intelligence is transforming both the workplace and the physical world, from a company replacing hundreds of employees with AI agents to a startup gathering real-world data through wearable sensors. We also dive into Universal Music Group's latest crackdown on unauthorized AI music on TikTok and Spain’s recent block on major prediction markets. Finally, get the scoop on the Los Angeles Lakers' first major offseason move with a key front-office hire.",
       "keyTopics": [
@@ -187,21 +199,6 @@
       "articles": [
         "ESPN Lakers News::Lakers: Lakers' Redick rips officiating; Reaves feels 'disrespected'",
         "ESPN Lakers News::Lakers: Holmgren and Gilgeous-Alexander each score 22 as Thunder take 2-0 lead over Lakers in West semis"
-      ]
-    },
-    {
-      "date": "2026-05-07",
-      "summary": "Discover how AI is transforming cybersecurity by auditing massive codebases for vulnerabilities while paradoxically triggering a global hardware shortage that is hitting the consumer motherboard market hard. This episode also breaks down the high stakes for the Lakers in their pivotal playoff matchup against the Thunder and discusses the surprisingly persistent tech glitch currently affecting local surf reports.",
-      "keyTopics": [
-        "Mozilla uses Anthropic Mythos model for security audits",
-        "AI infrastructure demand triggers global motherboard sales collapse",
-        "Luka Doncic hamstring injury impacts Western Conference playoffs",
-        "Lakers vs Thunder Game 2 playoff series urgency",
-        "Santa Barbara County Surfline API error persists",
-        "Hyperscaler data center builds strain hardware supply chain"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Lakers' Luka Doncic still unsure when he'll return from injury"
       ]
     }
   ]
