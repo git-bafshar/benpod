@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-05-28",
+      "summary": "Explore the rapidly accelerating AI landscape with a look at Anthropic’s new Claude Opus 4.8 release and the rise of conversational agents, including Apple’s rumored Siri redesign. This episode also dives into the growing phenomenon of consumer \"AI fatigue,\" the shifting priorities of enterprise security, and the high-stakes corporate maneuvering behind major tech partnerships. Finally, get updates on the complex geopolitical dynamics surrounding U.S.-Iran relations and the global expansion of the tech sector.",
+      "keyTopics": [
+        "Anthropic Claude Opus 4.8 model release",
+        "Sesame conversational AI app launch by Oculus founders",
+        "Leaked Apple Siri redesign and standalone AI app",
+        "Salesforce Slackbot upgrade to proactive AI agent",
+        "Continue? Y/N game highlighting AI permission fatigue",
+        "Elon Musk dispute over SpaceX Anthropic contract timeline",
+        "Databricks on enterprise AI shift to safety focus",
+        "Anthropic expansion in Milan and South Korea"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::Trump Accuses Iran of Stalling Peace Talks"
+      ]
+    },
+    {
       "date": "2026-05-27",
       "summary": "Explore the rapidly accelerating AI landscape, from Cognition’s massive billion-dollar valuation and ElevenLabs’ new music generator to controversial data-privacy policies and emerging \"AI fatigue.\" This episode also unpacks the shifting geopolitical dynamics of recent U.S. strikes in the Gulf and the regional realignment that follows. Finally, catch a promising health update on San Francisco 49ers star George Kittle as he makes strides toward a highly anticipated season comeback.",
       "keyTopics": [
@@ -231,25 +248,6 @@
         "Foreign Policy - Iran::Iran Does Not Have a Right to Enrich Uranium",
         "Foreign Policy - Iran::Southeast Asian Leaders Tackle Iran War Vulnerabilities",
         "Foreign Policy - Iran::The Surprisingly Normal Streets of Tehran"
-      ]
-    },
-    {
-      "date": "2026-05-08",
-      "summary": "This episode explores the shifting economics of AI, breaking down rising costs for frontier models, new voice and safety features, and the relentless venture capital gold rush into the sector. We also analyze a pivotal crossroads for Bay Area sports as the Golden State Warriors' leadership weighs the future of their coaching staff and the 49ers face a difficult salary cap crunch. Finally, the discussion turns to global affairs with a sobering look at how historical diplomatic accords are impacting current tensions in the Middle East.",
-      "keyTopics": [
-        "OpenAI GPT-5.5 price increase for frontier models",
-        "OpenAI voice intelligence API and Trusted Contact safety feature",
-        "Golden State Warriors high-level meetings regarding Steve Kerr",
-        "Jauan Jennings Vikings contract and 49ers salary cap crunch",
-        "US-Iran de-escalation and Abraham Accords diplomatic analysis",
-        "Andreessen Horowitz seed funding for Stockholm AI startup Pit",
-        "Railway Series B funding for AI-native cloud infrastructure"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Sources: Warriors' brass meet with Kerr; will reconvene next week",
-        "ESPN 49ers News::49ers: Vikings, Jauan Jennings agree to 1-year deal worth up to $13M",
-        "Foreign Policy - Iran::What’s in Trump’s New Counterterrorism Strategy?",
-        "Foreign Policy - Iran::How the Abraham Accords Fueled a New Era of Conflict"
       ]
     }
   ]
