@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-28</title>
+      <description>Discover the next evolution of AI technology with a look at Anthropic&apos;s new multi-agent &quot;Dynamic Workflows&quot; and Apple&apos;s leaked plans for a standalone Siri app. This episode also dives into the high-stakes corporate drama between Elon Musk&apos;s xAI and Anthropic over a massive computing contract, alongside a major business-side restructuring for the Los Angeles Lakers. Finally, find out how a persistent local tech outage is continuing to disrupt the Santa Barbara surf community.</description>
+      <pubDate>Thu, 28 May 2026 10:37:59 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-28-103759.mp3" length="3411840" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-28-103759.mp3</guid>
+      <itunes:duration>213</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-27</title>
       <description>Explore the massive divide in the tech world as AI startups secure eye-popping valuations while everyday users begin to push back against AI fatigue. This episode dives into how Google&apos;s controversial AI search overviews are driving a surge in traffic to simpler alternatives like DuckDuckGo. Plus, get an update on a surprisingly persistent local API outage affecting coastal routines.</description>
       <pubDate>Wed, 27 May 2026 10:26:22 GMT</pubDate>
