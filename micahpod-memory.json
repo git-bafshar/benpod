@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-28",
+      "summary": "Discover Apple's major upcoming overhaul for Siri in iOS 27 and find out why top AI models frequently disagree on basic facts in an eye-opening new study. This episode also covers Anthropic's rapid global expansion, YouTube's new labeling system for generative AI content, and the rise of \"Recursive Self-Improvement\" as the industry's next major frontier. Tune in to stay ahead of the curve on the latest shifts in technology and artificial intelligence.",
+      "keyTopics": [
+        "Apple iOS 27 redesign and standalone Siri AI app",
+        "Frontier AI models disagreeing on factual claims",
+        "Anthropic global expansion in Milan and Seoul",
+        "YouTube new podcast AI features and Auto Speed tool",
+        "YouTube automatic labeling of generative AI videos",
+        "Recursive Self-Improvement as the new AI research frontier"
+      ]
+    },
+    {
       "date": "2026-05-27",
       "summary": "This episode explores the cutting edge of tech, from ElevenLabs' game-changing interactive AI music tools to the rise of hyper-personalized, AI-powered sleep earbuds. The discussion also dives into the shifting geopolitics of the global AI talent war as China works to retain its top researchers at home. Finally, discover why a growing wave of \"AI fatigue\" is setting in among everyday users who are starting to tire of the relentless tech hype.",
       "keyTopics": [
@@ -163,24 +175,6 @@
         "New Gmail registration security requiring QR codes and SMS",
         "Anthropic and SpaceX partnership for space-based AI compute",
         "The transition to the Agentic Era of digital assistants"
-      ]
-    },
-    {
-      "date": "2026-05-08",
-      "summary": "Dive into the dawn of the \"Agentic Era\" as AI evolves from simple chatbots into autonomous digital assistants capable of managing complex professional workflows. This episode also explores the Pentagon’s landmark decision to crowdsource UFO research, a widening homeownership gap among young adults, and critical updates on local music festivals and public health.",
-      "keyTopics": [
-        "GPT-5.5 and the transition to the Agentic Era",
-        "Perplexity Personal Computer app launch for Mac",
-        "OpenAI advanced voice intelligence features in API",
-        "Railway 100 million dollar Series B for AI cloud",
-        "Pentagon declassification and public analysis of UAP files",
-        "Rolling Loud Orlando festival last-minute headliner change",
-        "Florida hantavirus monitoring linked to Oceanwide Expeditions",
-        "Zillow data reveals homeownership gap for single women"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
