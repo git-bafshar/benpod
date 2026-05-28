@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-05-28",
+      "summary": "Discover the next evolution of AI technology with a look at Anthropic's new multi-agent \"Dynamic Workflows\" and Apple's leaked plans for a standalone Siri app. This episode also dives into the high-stakes corporate drama between Elon Musk's xAI and Anthropic over a massive computing contract, alongside a major business-side restructuring for the Los Angeles Lakers. Finally, find out how a persistent local tech outage is continuing to disrupt the Santa Barbara surf community.",
+      "keyTopics": [
+        "Anthropic Opus 4.8 Dynamic Workflows release",
+        "Apple iOS 27 Siri redesign and standalone app leaks",
+        "Sesame conversational AI app launch",
+        "Elon Musk xAI and Anthropic compute contract dispute",
+        "Los Angeles Lakers front office business layoffs",
+        "Ongoing Santa Barbara Surfline API outage"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Source: Lakers lay off over a dozen amid business-side reorg"
+      ]
+    },
+    {
       "date": "2026-05-27",
       "summary": "Explore the massive divide in the tech world as AI startups secure eye-popping valuations while everyday users begin to push back against AI fatigue. This episode dives into how Google's controversial AI search overviews are driving a surge in traffic to simpler alternatives like DuckDuckGo. Plus, get an update on a surprisingly persistent local API outage affecting coastal routines.",
       "keyTopics": [
@@ -183,22 +198,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Thunder charge past Lakers 131-108 in Game 3 for another blowout in the champs' 7-0 playoff run"
-      ]
-    },
-    {
-      "date": "2026-05-08",
-      "summary": "Explore the high-stakes fallout from the Lakers’ pivotal playoff loss to the Thunder and the mounting pressure as the team returns home facing a daunting 2-0 series deficit. This episode also dives into OpenAI’s latest power moves in voice intelligence and user safety, alongside a look at how AI startups are finally tackling healthcare's archaic reliance on the fax machine.",
-      "keyTopics": [
-        "Lakers trail OKC Thunder 2-0 in NBA playoffs",
-        "OpenAI advanced voice intelligence features in developer API",
-        "OpenAI platform expansion challenges ElevenLabs voice AI niche",
-        "OpenAI ChatGPT Trusted Contact safety feature for self-harm",
-        "AI startups targeting legacy healthcare fax machine automation",
-        "Persistent Surfline API data outage for Santa Barbara reports"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Lakers' Redick rips officiating; Reaves feels 'disrespected'",
-        "ESPN Lakers News::Lakers: Holmgren and Gilgeous-Alexander each score 22 as Thunder take 2-0 lead over Lakers in West semis"
       ]
     }
   ]
