@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-05-29</title>
+      <description>Discover the staggering scale of the AI industry as this episode dives into Anthropic&apos;s massive $65 billion funding round and the release of Claude Opus 4.8. Learn how companies like Glean are driving immediate business value with cost-saving enterprise search tools, even as the internet&apos;s infrastructure is quietly rebuilt to support autonomous machine traffic. Plus, explore the physical side of this revolution with a look at how hardware startups are tackling critical memory bottlenecks.</description>
+      <pubDate>Fri, 29 May 2026 10:39:04 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-29-103904.mp3" length="3901056" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-05-29-103904.mp3</guid>
+      <itunes:duration>244</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-28</title>
       <description>Discover Apple&apos;s major upcoming overhaul for Siri in iOS 27 and find out why top AI models frequently disagree on basic facts in an eye-opening new study. This episode also covers Anthropic&apos;s rapid global expansion, YouTube&apos;s new labeling system for generative AI content, and the rise of &quot;Recursive Self-Improvement&quot; as the industry&apos;s next major frontier. Tune in to stay ahead of the curve on the latest shifts in technology and artificial intelligence.</description>
       <pubDate>Thu, 28 May 2026 11:26:31 GMT</pubDate>
