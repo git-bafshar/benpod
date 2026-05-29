@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-05-29</title>
+      <description>This episode dives into the shifting narrative around AI workplace disruption as a prominent tech founder reframes autonomous agents as tools for human collaboration rather than job replacement. Discover how hardware players like Groq are securing massive funding to supercharge AI processing speeds through real-time inference. Plus, hear about a lighthearted local crisis in Santa Barbara, where a prolonged digital surf report outage is forcing beachgoers to check the waves the old-fashioned way.</description>
+      <pubDate>Fri, 29 May 2026 10:38:33 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-29-103833.mp3" length="3263232" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-05-29-103833.mp3</guid>
+      <itunes:duration>204</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-05-28</title>
       <description>Discover the next evolution of AI technology with a look at Anthropic&apos;s new multi-agent &quot;Dynamic Workflows&quot; and Apple&apos;s leaked plans for a standalone Siri app. This episode also dives into the high-stakes corporate drama between Elon Musk&apos;s xAI and Anthropic over a massive computing contract, alongside a major business-side restructuring for the Los Angeles Lakers. Finally, find out how a persistent local tech outage is continuing to disrupt the Santa Barbara surf community.</description>
       <pubDate>Thu, 28 May 2026 10:37:59 GMT</pubDate>
