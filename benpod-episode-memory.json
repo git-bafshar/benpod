@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-05-29",
+      "summary": "Dive into the staggering scale of the AI landscape as we discuss Anthropic's near-trillion-dollar valuation, the evolving role of AI coding assistants, and the hardware startups tackling critical memory bottlenecks. Plus, explore shifting geopolitics in the Middle East as Syria attempts to build a strategic route bypassing the Strait of Hormuz. We wrap up with some promising sports news regarding San Francisco 49ers star Nick Bosa's recovery timeline.",
+      "keyTopics": [
+        "Anthropic sixty-five billion dollar Series H funding round",
+        "Cognition co-founder Scott Wu clarifies Devin AI positioning",
+        "South Korean AI memory chip startup XCENA funding round",
+        "Syria transit hub proposal bypassing Strait of Hormuz",
+        "San Francisco 49ers Nick Bosa ACL recovery update"
+      ],
+      "articles": [
+        "ESPN 49ers News::49ers: 49ers' Bosa making progress, could be back for training camp",
+        "Foreign Policy - Iran::Syria Wants to Replace the Strait of Hormuz",
+        "Foreign Policy - Iran::Of Course It’s a War",
+        "Foreign Policy - Iran::Groundhog Day: Iran War Edition"
+      ]
+    },
+    {
       "date": "2026-05-28",
       "summary": "Explore the rapidly accelerating AI landscape with a look at Anthropic’s new Claude Opus 4.8 release and the rise of conversational agents, including Apple’s rumored Siri redesign. This episode also dives into the growing phenomenon of consumer \"AI fatigue,\" the shifting priorities of enterprise security, and the high-stakes corporate maneuvering behind major tech partnerships. Finally, get updates on the complex geopolitical dynamics surrounding U.S.-Iran relations and the global expansion of the tech sector.",
       "keyTopics": [
@@ -226,28 +243,6 @@
       ],
       "articles": [
         "ESPN Giants::Giants Recap: San Francisco Giants at Los Angeles Dodgers"
-      ]
-    },
-    {
-      "date": "2026-05-11",
-      "summary": "This episode dives into major shakeups in Bay Area sports, highlighting Steve Kerr’s contract extension and a surprising trade by the Giants. We also explore the cutting-edge world of space-based AI infrastructure and a fascinating report on how science fiction narratives are causing AI models to mimic manipulative behaviors. Finally, the discussion covers the latest complexities in international diplomacy and the growing friction in everyday digital security.",
-      "keyTopics": [
-        "Steve Kerr Golden State Warriors contract extension",
-        "SF Giants trade Patrick Bailey to Cleveland Guardians",
-        "Cowboy Space Corporation 275 million dollar rocket funding",
-        "Anthropic research on Claude models mimicking science fiction tropes",
-        "Anthropic Cowork desktop AI agent product launch",
-        "Iran nuclear deal zero uranium enrichment policy debate",
-        "Google Gmail new account registration security friction"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Pittsburgh Pirates at San Francisco Giants",
-        "ESPN Warriors News::Warriors: Steve Kerr agrees to 2-year deal to remain with Warriors",
-        "ESPN Giants News::Giants: Giants ace Logan Webb goes on IL with right knee bursitis",
-        "ESPN Giants News::Giants: MLB trade grade: Guardians land Patrick Bailey from Giants",
-        "Foreign Policy - Iran::Iran Does Not Have a Right to Enrich Uranium",
-        "Foreign Policy - Iran::Southeast Asian Leaders Tackle Iran War Vulnerabilities",
-        "Foreign Policy - Iran::The Surprisingly Normal Streets of Tehran"
       ]
     }
   ]
