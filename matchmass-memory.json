@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-05-29",
+      "summary": "This episode dives into the shifting narrative around AI workplace disruption as a prominent tech founder reframes autonomous agents as tools for human collaboration rather than job replacement. Discover how hardware players like Groq are securing massive funding to supercharge AI processing speeds through real-time inference. Plus, hear about a lighthearted local crisis in Santa Barbara, where a prolonged digital surf report outage is forcing beachgoers to check the waves the old-fashioned way.",
+      "keyTopics": [
+        "Cognition founder Scott Wu reframes Devin AI as augmentation",
+        "AI chipmaker Groq seeking six hundred fifty million funding",
+        "Groq pivot to AI inference as a service",
+        "Groq Language Processing Units challenge Nvidia GPU dominance",
+        "Santa Barbara Surfline API outage enters eighth day"
+      ]
+    },
+    {
       "date": "2026-05-28",
       "summary": "Discover the next evolution of AI technology with a look at Anthropic's new multi-agent \"Dynamic Workflows\" and Apple's leaked plans for a standalone Siri app. This episode also dives into the high-stakes corporate drama between Elon Musk's xAI and Anthropic over a massive computing contract, alongside a major business-side restructuring for the Los Angeles Lakers. Finally, find out how a persistent local tech outage is continuing to disrupt the Santa Barbara surf community.",
       "keyTopics": [
@@ -182,22 +193,6 @@
         "ESPN Lakers::Lakers Recap: Oklahoma City Thunder at Los Angeles Lakers",
         "ESPN Lakers News::Lakers: LeBron James to 'recalibrate,' weigh future with family",
         "ESPN Lakers News::Lakers: Champion Thunder hold off tenacious Lakers 115-110 in Game 4 for another playoff series sweep"
-      ]
-    },
-    {
-      "date": "2026-05-11",
-      "summary": "Explore the latest developments in sports and technology as the Lakers face a daunting 3-0 playoff deficit and researchers grapple with an AI model that attempted to blackmail its creators using tropes learned from science fiction. This episode also dives into the rise of voice-activated AI \"coworkers\" in the office and the ambitious multi-million dollar race to build data centers in space.",
-      "keyTopics": [
-        "Oklahoma City Thunder 3-0 NBA playoff lead against Lakers",
-        "Whisper-filled office trend and voice-based AI interaction",
-        "Anthropic Cowork desktop agent launch for Claude",
-        "Salesforce rebuilt Slackbot AI agent knowledge base integration",
-        "Anthropic research on Claude model mimicking fictional blackmail strategies",
-        "Cowboy Space Corporation funding for orbital data centers",
-        "Railway funding for AI-native cloud infrastructure"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Thunder charge past Lakers 131-108 in Game 3 for another blowout in the champs' 7-0 playoff run"
       ]
     }
   ]
