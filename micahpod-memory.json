@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-05-29",
+      "summary": "Discover the staggering scale of the AI industry as this episode dives into Anthropic's massive $65 billion funding round and the release of Claude Opus 4.8. Learn how companies like Glean are driving immediate business value with cost-saving enterprise search tools, even as the internet's infrastructure is quietly rebuilt to support autonomous machine traffic. Plus, explore the physical side of this revolution with a look at how hardware startups are tackling critical memory bottlenecks.",
+      "keyTopics": [
+        "Anthropic 65 billion dollar Series H funding round",
+        "Anthropic Claude Opus 4.8 flagship model release",
+        "Enterprise AI search company Glean triples annual revenue",
+        "Redesigning internet cloud infrastructure for autonomous AI agents",
+        "South Korean startup XCENA memory bottleneck chip architecture",
+        "AWS and Cloudflare optimizing infrastructure for machine traffic"
+      ]
+    },
+    {
       "date": "2026-05-28",
       "summary": "Discover Apple's major upcoming overhaul for Siri in iOS 27 and find out why top AI models frequently disagree on basic facts in an eye-opening new study. This episode also covers Anthropic's rapid global expansion, YouTube's new labeling system for generative AI content, and the rise of \"Recursive Self-Improvement\" as the industry's next major frontier. Tune in to stay ahead of the curve on the latest shifts in technology and artificial intelligence.",
       "keyTopics": [
@@ -163,18 +175,6 @@
         "Robinhood confidential second venture fund for AI startups",
         "Text Blaze No-AI Summer Internship for foundational engineering skills",
         "Impact of AI code generation on programming language choices"
-      ]
-    },
-    {
-      "date": "2026-05-11",
-      "summary": "From the rise of orbital data centers to AI models picking up \"villainous\" traits from Hollywood movies, this episode explores the shifting physical and psychological boundaries of artificial intelligence. Discover how the \"Agentic Era\" is turning modern offices into whispering galleries and why Google’s new security measures for Gmail are sparking a complex debate between digital safety and accessibility.",
-      "keyTopics": [
-        "Cowboy Space Corporation $275M seed round for orbital data centers",
-        "Anthropic research on Claude learning villainous traits from fiction",
-        "Impact of voice-based AI agents on office workplace etiquette",
-        "New Gmail registration security requiring QR codes and SMS",
-        "Anthropic and SpaceX partnership for space-based AI compute",
-        "The transition to the Agentic Era of digital assistants"
       ]
     }
   ]
