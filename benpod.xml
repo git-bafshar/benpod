@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-05-29</title>
+      <description>Dive into the staggering scale of the AI landscape as we discuss Anthropic&apos;s near-trillion-dollar valuation, the evolving role of AI coding assistants, and the hardware startups tackling critical memory bottlenecks. Plus, explore shifting geopolitics in the Middle East as Syria attempts to build a strategic route bypassing the Strait of Hormuz. We wrap up with some promising sports news regarding San Francisco 49ers star Nick Bosa&apos;s recovery timeline.</description>
+      <pubDate>Fri, 29 May 2026 11:43:11 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-29-114311.mp3" length="4282560" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-05-29-114311.mp3</guid>
+      <itunes:duration>268</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-05-28</title>
       <description>Explore the rapidly accelerating AI landscape with a look at Anthropic’s new Claude Opus 4.8 release and the rise of conversational agents, including Apple’s rumored Siri redesign. This episode also dives into the growing phenomenon of consumer &quot;AI fatigue,&quot; the shifting priorities of enterprise security, and the high-stakes corporate maneuvering behind major tech partnerships. Finally, get updates on the complex geopolitical dynamics surrounding U.S.-Iran relations and the global expansion of the tech sector.</description>
       <pubDate>Thu, 28 May 2026 11:55:37 GMT</pubDate>
