@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-01",
+      "summary": "Get ready for a deep dive into the rapidly shifting AI landscape, starting with Anthropic's historic move to file for a public IPO and a new AI model that is out-forecasting traditional weather agencies just in time for hurricane season. The episode also examines DuckDuckGo's new \"no-AI\" search engine alternative for fatigued users and environmental activist Erin Brockovich’s crusade against the hidden ecological costs of tech data centers.",
+      "keyTopics": [
+        "Anthropic confidential S-1 filing for IPO",
+        "Windborne Systems AI weather forecasting model",
+        "DuckDuckGo no-AI search engine extensions",
+        "Erin Brockovich targeting big tech data center water usage",
+        "AI safety ethics vs public market investor demands",
+        "Atlantic hurricane season AI forecasting adoption"
+      ]
+    },
+    {
       "date": "2026-05-29",
       "summary": "Discover the staggering scale of the AI industry as this episode dives into Anthropic's massive $65 billion funding round and the release of Claude Opus 4.8. Learn how companies like Glean are driving immediate business value with cost-saving enterprise search tools, even as the internet's infrastructure is quietly rebuilt to support autonomous machine traffic. Plus, explore the physical side of this revolution with a look at how hardware startups are tackling critical memory bottlenecks.",
       "keyTopics": [
@@ -162,19 +174,6 @@
         "Software developer debate on AI-driven cognitive atrophy",
         "Medicare ACCESS payment model for AI healthcare services",
         "Breakthrough stainless steel for seawater green hydrogen production"
-      ]
-    },
-    {
-      "date": "2026-05-12",
-      "summary": "Explore the front lines of the AI talent war as legacy giants like GM pivot their workforces toward specialized model development and agentic skills. This episode dives into the rise of seamless voice agents and AI-powered design tools, while tackling a critical debate: does the future of tech belong to the prompt engineers or those who still master foundational coding fundamentals?",
-      "keyTopics": [
-        "General Motors IT layoffs for specialized AI talent hiring",
-        "Vapi enterprise voice agent valuation and Amazon Ring contract",
-        "Thinking Machines real-time simultaneous listening and talking model",
-        "Dessn AI design tools for live production codebase integration",
-        "Robinhood confidential second venture fund for AI startups",
-        "Text Blaze No-AI Summer Internship for foundational engineering skills",
-        "Impact of AI code generation on programming language choices"
       ]
     }
   ]
