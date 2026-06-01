@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-01</title>
+      <description>Get ready for a deep dive into the rapidly shifting AI landscape, starting with Anthropic&apos;s historic move to file for a public IPO and a new AI model that is out-forecasting traditional weather agencies just in time for hurricane season. The episode also examines DuckDuckGo&apos;s new &quot;no-AI&quot; search engine alternative for fatigued users and environmental activist Erin Brockovich’s crusade against the hidden ecological costs of tech data centers.</description>
+      <pubDate>Mon, 01 Jun 2026 13:16:26 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-01-131626.mp3" length="4477056" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-01-131626.mp3</guid>
+      <itunes:duration>280</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-05-29</title>
       <description>Discover the staggering scale of the AI industry as this episode dives into Anthropic&apos;s massive $65 billion funding round and the release of Claude Opus 4.8. Learn how companies like Glean are driving immediate business value with cost-saving enterprise search tools, even as the internet&apos;s infrastructure is quietly rebuilt to support autonomous machine traffic. Plus, explore the physical side of this revolution with a look at how hardware startups are tackling critical memory bottlenecks.</description>
       <pubDate>Fri, 29 May 2026 10:39:04 GMT</pubDate>
