@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-06-01",
+      "summary": "This episode dives into the massive news of Anthropic's historic move toward a public IPO, exploring both the financial hype and the growing environmental costs of the generative AI boom. Discover the complex geopolitical maneuvers between the U.S. and Iran, a surprising study on how remote work is impacting recent college graduates, and a hopeful breakthrough in mRNA cancer vaccines. Plus, get the latest updates on sluggish real estate trends, Chicago stadium funding setbacks, and recent sports highlights.",
+      "keyTopics": [
+        "Anthropic files confidential S-1 draft for upcoming IPO",
+        "SpaceX lists water access as IPO risk factor",
+        "Erin Brockovich targets data center environmental impact",
+        "New York Fed study blames remote work for hiring decline",
+        "mRNA cancer vaccine prevents melanoma recurrence in clinical study",
+        "Chicago Bears stadium funding fails in Illinois legislature",
+        "US investor home purchases fall to lowest level since 2020",
+        "US-Iran military tension escalates amid potential truce talks"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Colorado Rockies",
+        "ESPN Giants News::Giants: Giants reassign 3B coach Borg, name Wotus interim coach",
+        "ESPN 49ers News::49ers: 49ers RB Isaac Guerendo injured in the weight room",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::What Iran Stands to Gain From a Truce Deal With the United States"
+      ]
+    },
+    {
       "date": "2026-05-29",
       "summary": "Dive into the staggering scale of the AI landscape as we discuss Anthropic's near-trillion-dollar valuation, the evolving role of AI coding assistants, and the hardware startups tackling critical memory bottlenecks. Plus, explore shifting geopolitics in the Middle East as Syria attempts to build a strategic route bypassing the Strait of Hormuz. We wrap up with some promising sports news regarding San Francisco 49ers star Nick Bosa's recovery timeline.",
       "keyTopics": [
@@ -226,23 +248,6 @@
         "Foreign Policy - Iran::How Long Can Keir Starmer Hang On?",
         "Foreign Policy - Iran::Would We Be Better Off Today With the JCPOA?",
         "Foreign Policy - Iran::Why the U.S. Is Headed for a Long War With Iran"
-      ]
-    },
-    {
-      "date": "2026-05-12",
-      "summary": "Explore how the AI revolution is fundamentally rewriting the job market as legacy companies pivot toward AI-native hiring and tech giants battle for control of the digital workspace. This episode also breaks down new venture capital opportunities for retail investors and recaps a dominant bounce-back win for the Giants following a controversial trade.",
-      "keyTopics": [
-        "General Motors AI workforce layoffs and specialized re-hiring",
-        "Vapi AI voice agent partnership with Amazon Ring",
-        "Salesforce Slackbot AI agent for enterprise data",
-        "SF Giants win over Dodgers after Patrick Bailey trade",
-        "Robinhood confidential filing for retail venture capital fund",
-        "Thinking Machines real-time conversational AI voice technology",
-        "Text Blaze No-AI Summer Internship for developers",
-        "Dessn AI design tools for production code integration"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Los Angeles Dodgers"
       ]
     }
   ]
