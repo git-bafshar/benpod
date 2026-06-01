@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-01",
+      "summary": "Explore the rapidly shifting landscape of artificial intelligence as industry pioneer Anthropic officially files to go public, while search engine DuckDuckGo capitalizes on AI fatigue by launching a \"no-AI\" search experience. The episode also dives into the mounting environmental costs of the tech boom, highlighting how the massive water and energy demands of data centers are drawing scrutiny from investors and activists alike. Finally, get a quick update on a prolonged digital outage affecting local surf reporting.",
+      "keyTopics": [
+        "Anthropic confidential IPO filing",
+        "DuckDuckGo no-AI search browser extensions",
+        "SpaceX IPO filing lists water access risk",
+        "Erin Brockovich targets data center resource consumption",
+        "Ongoing Surfline API outage in Santa Barbara",
+        "2026 FIFA World Cup group stage kickoff"
+      ]
+    },
+    {
       "date": "2026-05-29",
       "summary": "This episode dives into the shifting narrative around AI workplace disruption as a prominent tech founder reframes autonomous agents as tools for human collaboration rather than job replacement. Discover how hardware players like Groq are securing massive funding to supercharge AI processing speeds through real-time inference. Plus, hear about a lighthearted local crisis in Santa Barbara, where a prolonged digital surf report outage is forcing beachgoers to check the waves the old-fashioned way.",
       "keyTopics": [
@@ -175,24 +187,6 @@
         "ESPN Lakers News::Lakers: NBA offseason: Draft, free agency, trade targets for eliminated teams",
         "ESPN Lakers News::Lakers: Rob Pelinka, JJ Redick want Austin Reaves, LeBron James back",
         "ESPN Lakers News::Lakers: LeBron James to 'recalibrate,' weigh NBA future with family"
-      ]
-    },
-    {
-      "date": "2026-05-12",
-      "summary": "Explore the sudden end of the Lakers’ playoff run and the looming questions surrounding LeBron James’s future following a definitive season sweep. Then, dive into the rapidly shifting world of AI, where startups are redefining human-computer interaction and major corporations like General Motors are overhauling their workforces to stay ahead of the curve.",
-      "keyTopics": [
-        "Lakers swept by Oklahoma City Thunder in playoff elimination",
-        "LeBron James considers retirement after Lakers season ends",
-        "Voice AI startup Vapi reaches half-billion-dollar valuation",
-        "Vapi wins major enterprise contract with Amazon Ring",
-        "Thinking Machines building simultaneous real-time conversational AI",
-        "General Motors replaces IT workforce with AI-native talent",
-        "Ongoing Santa Barbara County Surfline API service outage"
-      ],
-      "articles": [
-        "ESPN Lakers::Lakers Recap: Oklahoma City Thunder at Los Angeles Lakers",
-        "ESPN Lakers News::Lakers: LeBron James to 'recalibrate,' weigh future with family",
-        "ESPN Lakers News::Lakers: Champion Thunder hold off tenacious Lakers 115-110 in Game 4 for another playoff series sweep"
       ]
     }
   ]
