@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-02",
+      "summary": "Discover how the AI landscape is shifting as major tech players roll out hyper-specialized tools for white-collar professions, even as the U.S. government eases up on regulatory oversight. This episode also dives into the privacy backlash facing Amazon's Ring doorbells, the financial reality of funding massive AI labs, and the kickoff of the 2026 FIFA World Cup.",
+      "keyTopics": [
+        "OpenAI Codex specialized tools for white-collar professions",
+        "Microsoft Scout AI assistant integration in Microsoft 365",
+        "Amazon Ring Familiar Faces facial recognition class-action lawsuit",
+        "Revised Trump executive order on voluntary AI oversight",
+        "Public market funding challenges for Anthropic and OpenAI IPOs",
+        "Ongoing Santa Barbara Surfline API outage"
+      ]
+    },
+    {
       "date": "2026-06-01",
       "summary": "Explore the rapidly shifting landscape of artificial intelligence as industry pioneer Anthropic officially files to go public, while search engine DuckDuckGo capitalizes on AI fatigue by launching a \"no-AI\" search experience. The episode also dives into the mounting environmental costs of the tech boom, highlighting how the massive water and energy demands of data centers are drawing scrutiny from investors and activists alike. Finally, get a quick update on a prolonged digital outage affecting local surf reporting.",
       "keyTopics": [
@@ -170,23 +182,6 @@
         "Wirestock $23 million funding for AI training data supply",
         "USDA smallest US wheat harvest projection since 1972",
         "Ongoing Santa Barbara Surfline API service outage"
-      ]
-    },
-    {
-      "date": "2026-05-13",
-      "summary": "Today’s episode explores a major shift in the NBA as the Lakers confront the potential end of the LeBron James era following a definitive playoff exit. The conversation also dives into the evolving AI landscape, highlighting how Anthropic has overtaken OpenAI in business adoption and how startups are now using video game data to train real-world AI models. Finally, we look at how new integrations from Amazon and Meta are reshaping the future of digital shopping and messaging privacy.",
-      "keyTopics": [
-        "LeBron James retirement consideration after Lakers playoff exit",
-        "Anthropic business adoption surpasses OpenAI per Ramp data",
-        "Amazon Alexa-powered AI shopping assistant replaces Rufus",
-        "Meta AI WhatsApp incognito mode for private chats",
-        "Origin Lab marketplace for training AI using video game data",
-        "Santa Barbara County Surfline API service outage continues"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: NBA offseason: Draft, free agency, trade targets for eliminated teams",
-        "ESPN Lakers News::Lakers: Rob Pelinka, JJ Redick want Austin Reaves, LeBron James back",
-        "ESPN Lakers News::Lakers: LeBron James to 'recalibrate,' weigh NBA future with family"
       ]
     }
   ]
