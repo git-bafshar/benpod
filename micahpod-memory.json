@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-02",
+      "summary": "Explore how the rapidly expanding world of AI is clashing with physical reality, from Alphabet's massive $80 billion infrastructure push to growing community backlash against resource-heavy data centers. This episode breaks down Anthropic's new deployment to secure global critical infrastructure, the rising debate between AI integration and human engineering talent, and new AI tools transforming the workplace. Plus, discover what the looming regulatory tension in Florida and the latest housing market trends mean for the near future.",
+      "keyTopics": [
+        "Anthropic Project Glasswing security deployment",
+        "Alphabet eighty billion dollar AI infrastructure fundraising",
+        "Nvidia AI agent PCs consumer market push",
+        "Impulse Space five hundred million dollar funding",
+        "Listen Labs sixty-nine million dollar funding round",
+        "Salesforce Slackbot AI agent enterprise feature release",
+        "Local community backlash against AI data centers",
+        "Florida versus OpenAI state-level regulation debate"
+      ]
+    },
+    {
       "date": "2026-06-01",
       "summary": "Get ready for a deep dive into the rapidly shifting AI landscape, starting with Anthropic's historic move to file for a public IPO and a new AI model that is out-forecasting traditional weather agencies just in time for hurricane season. The episode also examines DuckDuckGo's new \"no-AI\" search engine alternative for fatigued users and environmental activist Erin Brockovich’s crusade against the hidden ecological costs of tech data centers.",
       "keyTopics": [
@@ -163,17 +177,6 @@
         "Lawsuit over xAI Colossus 2 data center gas turbines",
         "Campbell Brown on AI product trust gap",
         "Historic Tampa Theatre restoration and marquee glow-up"
-      ]
-    },
-    {
-      "date": "2026-05-13",
-      "summary": "Explore the shifting AI landscape as Anthropic emerges as a new leader for business customers and proactive assistants begin to move beyond chatbots to organize our personal lives. This episode also dives into the growing debate over AI’s impact on professional coding skills and highlights major breakthroughs in healthcare policy and clean energy production.",
-      "keyTopics": [
-        "Anthropic surpasses OpenAI in enterprise customers via Ramp",
-        "Poppy proactive AI assistant for digital life organization",
-        "Software developer debate on AI-driven cognitive atrophy",
-        "Medicare ACCESS payment model for AI healthcare services",
-        "Breakthrough stainless steel for seawater green hydrogen production"
       ]
     }
   ]
