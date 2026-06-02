@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-02</title>
+      <description>Explore how the rapidly expanding world of AI is clashing with physical reality, from Alphabet&apos;s massive $80 billion infrastructure push to growing community backlash against resource-heavy data centers. This episode breaks down Anthropic&apos;s new deployment to secure global critical infrastructure, the rising debate between AI integration and human engineering talent, and new AI tools transforming the workplace. Plus, discover what the looming regulatory tension in Florida and the latest housing market trends mean for the near future.</description>
+      <pubDate>Tue, 02 Jun 2026 11:59:08 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-02-115908.mp3" length="4428672" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-02-115908.mp3</guid>
+      <itunes:duration>277</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-01</title>
       <description>Get ready for a deep dive into the rapidly shifting AI landscape, starting with Anthropic&apos;s historic move to file for a public IPO and a new AI model that is out-forecasting traditional weather agencies just in time for hurricane season. The episode also examines DuckDuckGo&apos;s new &quot;no-AI&quot; search engine alternative for fatigued users and environmental activist Erin Brockovich’s crusade against the hidden ecological costs of tech data centers.</description>
       <pubDate>Mon, 01 Jun 2026 13:16:26 GMT</pubDate>
