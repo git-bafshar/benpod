@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-06-02",
+      "summary": "This episode dives into a fascinating split in the AI landscape, exploring how developers are embedding advanced security systems into critical global infrastructure just as the White House transitions to a voluntary oversight model. Plus, learn why one rocket startup is making a massive $500 million bet on human talent over AI agents, alongside the latest updates on Middle East diplomacy and local sports drama.",
+      "keyTopics": [
+        "Anthropic Project Glasswing security model rollout",
+        "Revised US executive order making AI reviews voluntary",
+        "Impulse Space five hundred million dollar funding round",
+        "Israel and Hezbollah cease fire agreement",
+        "Dre Greenlaw returning to San Francisco 49ers",
+        "Chicago Bears stadium public funding failure"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Milwaukee Brewers",
+        "ESPN 49ers News::49ers: Dre Greenlaw ready for his second stint with the 49ers",
+        "Foreign Policy - Iran::Trump Says Israel, Hezbollah to Halt Attacks as Iran Talks Continue",
+        "Foreign Policy - Iran::A Trump Deal With Iran Could Spell Trouble for Netanyahu",
+        "Foreign Policy - Iran::The Energy Crisis Will Long Outlast the Iran War"
+      ]
+    },
+    {
       "date": "2026-06-01",
       "summary": "This episode dives into the massive news of Anthropic's historic move toward a public IPO, exploring both the financial hype and the growing environmental costs of the generative AI boom. Discover the complex geopolitical maneuvers between the U.S. and Iran, a surprising study on how remote work is impacting recent college graduates, and a hopeful breakthrough in mRNA cancer vaccines. Plus, get the latest updates on sluggish real estate trends, Chicago stadium funding setbacks, and recent sports highlights.",
       "keyTopics": [
@@ -230,24 +249,6 @@
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis",
         "Foreign Policy - Iran::Why Congress Can’t Stop Trump’s Iran War"
-      ]
-    },
-    {
-      "date": "2026-05-13",
-      "summary": "Explore the shifting landscape of the AI industry as Anthropic gains a surprising lead in business customers and Amazon introduces a new digital shopping assistant. This episode also dives into a growing policy clash between Illinois and the CDC, the ongoing debate over the Iran nuclear deal, and a scientific breakthrough in sustainable green energy.",
-      "keyTopics": [
-        "Anthropic overtakes OpenAI in enterprise customer growth per Ramp",
-        "Amazon Alexa+ AI shopping assistant launch replacing Rufus",
-        "Meta WhatsApp AI incognito mode for private chat privacy",
-        "Illinois Governor JB Pritzker public health dispute with CDC",
-        "Foreign policy debate over 2015 Iran Nuclear Deal JCPOA",
-        "San Francisco Giants Patrick Bailey trade to Cleveland Guardians",
-        "Corrosion-resistant stainless steel for seawater green hydrogen production"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::How Long Can Keir Starmer Hang On?",
-        "Foreign Policy - Iran::Would We Be Better Off Today With the JCPOA?",
-        "Foreign Policy - Iran::Why the U.S. Is Headed for a Long War With Iran"
       ]
     }
   ]
