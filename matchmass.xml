@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-02</title>
+      <description>Discover how the AI landscape is shifting as major tech players roll out hyper-specialized tools for white-collar professions, even as the U.S. government eases up on regulatory oversight. This episode also dives into the privacy backlash facing Amazon&apos;s Ring doorbells, the financial reality of funding massive AI labs, and the kickoff of the 2026 FIFA World Cup.</description>
+      <pubDate>Tue, 02 Jun 2026 11:08:59 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-02-110859.mp3" length="3961728" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-02-110859.mp3</guid>
+      <itunes:duration>248</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-01</title>
       <description>Explore the rapidly shifting landscape of artificial intelligence as industry pioneer Anthropic officially files to go public, while search engine DuckDuckGo capitalizes on AI fatigue by launching a &quot;no-AI&quot; search experience. The episode also dives into the mounting environmental costs of the tech boom, highlighting how the massive water and energy demands of data centers are drawing scrutiny from investors and activists alike. Finally, get a quick update on a prolonged digital outage affecting local surf reporting.</description>
       <pubDate>Mon, 01 Jun 2026 12:23:28 GMT</pubDate>
