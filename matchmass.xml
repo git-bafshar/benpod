@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-03</title>
+      <description>Dive into the shifting global landscape of artificial intelligence as U.K. regulators introduce new publisher protections, while the AI boom continues to drive up tech infrastructure and consumer hardware costs. On the sports front, explore the strategic front-office hiring shaping the future of the Los Angeles Lakers and catch up on the latest from the World Cup group stage. Plus, hear why a hilariously persistent local tech outage is forcing surfers to check the waves the old-fashioned way.</description>
+      <pubDate>Wed, 03 Jun 2026 11:25:36 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-03-112536.mp3" length="2999616" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-03-112536.mp3</guid>
+      <itunes:duration>187</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-02</title>
       <description>Discover how the AI landscape is shifting as major tech players roll out hyper-specialized tools for white-collar professions, even as the U.S. government eases up on regulatory oversight. This episode also dives into the privacy backlash facing Amazon&apos;s Ring doorbells, the financial reality of funding massive AI labs, and the kickoff of the 2026 FIFA World Cup.</description>
       <pubDate>Tue, 02 Jun 2026 11:08:59 GMT</pubDate>
