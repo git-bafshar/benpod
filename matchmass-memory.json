@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-06-03",
+      "summary": "Dive into the shifting global landscape of artificial intelligence as U.K. regulators introduce new publisher protections, while the AI boom continues to drive up tech infrastructure and consumer hardware costs. On the sports front, explore the strategic front-office hiring shaping the future of the Los Angeles Lakers and catch up on the latest from the World Cup group stage. Plus, hear why a hilariously persistent local tech outage is forcing surfers to check the waves the old-fashioned way.",
+      "keyTopics": [
+        "UK regulation requiring Google AI search publisher opt-out",
+        "Meta WhatsApp Business AI agent global launch",
+        "Coralogix raises 200 million dollars for AI monitoring",
+        "DDR5 RAM price increases driven by AI demand",
+        "Rohan Ramadas hired as Lakers assistant general manager",
+        "Ongoing Surfline API outage in Santa Barbara"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Sources: Lakers hire Rohan Ramadas as assistant general manager"
+      ]
+    },
+    {
       "date": "2026-06-02",
       "summary": "Discover how the AI landscape is shifting as major tech players roll out hyper-specialized tools for white-collar professions, even as the U.S. government eases up on regulatory oversight. This episode also dives into the privacy backlash facing Amazon's Ring doorbells, the financial reality of funding massive AI labs, and the kickoff of the 2026 FIFA World Cup.",
       "keyTopics": [
@@ -169,19 +184,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: What LeBron needs to return to L.A. -- and why it's not simple"
-      ]
-    },
-    {
-      "date": "2026-05-14",
-      "summary": "Explore a pivotal week for AI as Anthropic launches a massive philanthropic partnership while Cisco cuts thousands of jobs to reinvest in machine intelligence. This episode also dives into a high-stakes story of a lost Bitcoin fortune recovered by AI and the rising demand for high-quality training data. Finally, the discussion shifts to the physical world to examine the economic ripples of a historic wheat shortage and a persistent local tech outage.",
-      "keyTopics": [
-        "Anthropic and Gates Foundation $200 million AI partnership",
-        "Anthropic Claude for Small Business product launch",
-        "Cisco cuts 4,000 jobs to reallocate capital for AI",
-        "Claude AI recovers $400,000 from lost 11-year-old Bitcoin wallet",
-        "Wirestock $23 million funding for AI training data supply",
-        "USDA smallest US wheat harvest projection since 1972",
-        "Ongoing Santa Barbara Surfline API service outage"
       ]
     }
   ]
