@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-06-03",
+      "summary": "Discover how the tech landscape is shifting toward \"agentic AI\" that takes autonomous action, alongside the growing consumer pushback against AI-driven search and shopping experiences. This episode also breaks down the transition to a buyer's housing market, travel updates for Central Florida, and the upcoming tenth anniversary of the Pulse nightclub shooting. Plus, get the latest on the escalating federal investigation into an American's disappearance in the Bahamas.",
+      "keyTopics": [
+        "Meta WhatsApp Business AI agent global launch",
+        "Coralogix 200 million dollar funding round",
+        "Anthropic Claude Services Track and Partner Hub",
+        "Amazon AI-generated product images in search",
+        "Google publisher opt-out for AI Search results",
+        "Pulse nightclub shooting tenth anniversary memorial plans",
+        "BermudAir moving Orlando flights to Sanford Airport",
+        "Lynette Hooker missing person federal investigation"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-06-02",
       "summary": "Explore how the rapidly expanding world of AI is clashing with physical reality, from Alphabet's massive $80 billion infrastructure push to growing community backlash against resource-heavy data centers. This episode breaks down Anthropic's new deployment to secure global critical infrastructure, the rising debate between AI integration and human engineering talent, and new AI tools transforming the workplace. Plus, discover what the looming regulatory tension in Florida and the latest housing market trends mean for the near future.",
       "keyTopics": [
@@ -165,18 +183,6 @@
         "Senior individual contributor trend in AI-leveraged workplaces",
         "Tampa Bay Rays and Hillsborough County stadium agreement",
         "Osaurus Mac app for local and cloud AI integration"
-      ]
-    },
-    {
-      "date": "2026-05-14",
-      "summary": "Explore the dawn of the \"Agentic Era\" as workplace staples like Notion and Slack transform AI from simple chatbots into proactive assistants that automate complex workflows. This episode also dives into Anthropic’s aggressive strategy to capture the small business market and the environmental strain of AI infrastructure, highlighting the growing tension between rapid technical innovation and the need for public trust.",
-      "keyTopics": [
-        "Notion AI agent developer platform launch",
-        "Salesforce Slackbot transformation into autonomous AI agent",
-        "Anthropic Claude for Small Business release",
-        "Lawsuit over xAI Colossus 2 data center gas turbines",
-        "Campbell Brown on AI product trust gap",
-        "Historic Tampa Theatre restoration and marquee glow-up"
       ]
     }
   ]
