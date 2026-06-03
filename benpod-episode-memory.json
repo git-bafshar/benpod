@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-06-03",
+      "summary": "Dive into the rapidly evolving AI landscape as we unpack Anthropic's massive enterprise expansion, Google's regulatory showdown with publishers in the UK, and the rising costs of the tech boom on consumer hardware. We also analyze the shifting geopolitical dynamics between the U.S. and Iran as critical congressional negotiations approach. Finally, stay up to date with the latest sports and local news, from coaching shakeups in San Francisco to the stalled stadium negotiations in Chicago.",
+      "keyTopics": [
+        "Anthropic launches Claude Partner Network Services Track",
+        "UK regulators force Google publisher search opt-out",
+        "Amazon tests AI-generated product search images",
+        "Coralogix raises $200 million for AI agent monitoring",
+        "AI data center demand drives up computer memory prices",
+        "San Francisco Giants hire Gary Pettis as coach",
+        "Chicago Bears stadium public funding legislative stalemate"
+      ],
+      "articles": [
+        "ESPN Giants News::Giants: San Francisco Giants hire Gary Pettis as their third base coach",
+        "ESPN 49ers News::49ers: Why Dre Greenlaw is happy to be back in San Francisco",
+        "Foreign Policy - Iran::Congress Prepares for a Consequential Iran Vote"
+      ]
+    },
+    {
       "date": "2026-06-02",
       "summary": "This episode dives into a fascinating split in the AI landscape, exploring how developers are embedding advanced security systems into critical global infrastructure just as the White House transitions to a voluntary oversight model. Plus, learn why one rocket startup is making a massive $500 million bet on human talent over AI agents, alongside the latest updates on Middle East diplomacy and local sports drama.",
       "keyTopics": [
@@ -229,26 +247,6 @@
       "articles": [
         "ESPN Warriors News::Warriors: Sources: Warriors assistants Stotts, Stackhouse won't return",
         "ESPN 49ers News::49ers: What will new DC Raheem Morris bring to the 49ers' defense?"
-      ]
-    },
-    {
-      "date": "2026-05-14",
-      "summary": "Explore the rapidly shifting AI landscape as Anthropic scales its social impact through a major new partnership and Cisco pivots its workforce toward emerging technology. This episode also dives into critical local headlines, including a public safety alert in Cook County and high-stakes funding gambles for Chicago’s mental health services. Plus, catch up on the latest in the NBA coaching saga, a heating national housing market, and a science-fiction-inspired breakthrough in hearing aid technology.",
-      "keyTopics": [
-        "Anthropic and Gates Foundation 200 million dollar partnership",
-        "Anthropic Claude for Small Business product launch",
-        "Cisco cutting 4,000 jobs for AI strategic pivot",
-        "Cook County missing defendants on electronic monitoring alert",
-        "Mayor Brandon Johnson proposed social media company tax",
-        "Steve Kerr staying as Golden State Warriors head coach",
-        "AI hearing system using brain waves for voice isolation",
-        "National pending home sales hit highest level since 2022"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Inside Steve Kerr's decision to stay with the Warriors",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Why Congress Can’t Stop Trump’s Iran War"
       ]
     }
   ]
