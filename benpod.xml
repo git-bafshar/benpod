@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-06-03</title>
+      <description>Dive into the rapidly evolving AI landscape as we unpack Anthropic&apos;s massive enterprise expansion, Google&apos;s regulatory showdown with publishers in the UK, and the rising costs of the tech boom on consumer hardware. We also analyze the shifting geopolitical dynamics between the U.S. and Iran as critical congressional negotiations approach. Finally, stay up to date with the latest sports and local news, from coaching shakeups in San Francisco to the stalled stadium negotiations in Chicago.</description>
+      <pubDate>Wed, 03 Jun 2026 13:01:28 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-03-130128.mp3" length="4602048" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-03-130128.mp3</guid>
+      <itunes:duration>288</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-06-02</title>
       <description>This episode dives into a fascinating split in the AI landscape, exploring how developers are embedding advanced security systems into critical global infrastructure just as the White House transitions to a voluntary oversight model. Plus, learn why one rocket startup is making a massive $500 million bet on human talent over AI agents, alongside the latest updates on Middle East diplomacy and local sports drama.</description>
       <pubDate>Tue, 02 Jun 2026 12:25:57 GMT</pubDate>
