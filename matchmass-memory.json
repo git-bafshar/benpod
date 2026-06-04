@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-04",
+      "summary": "This episode explores the intensifying battle for AI dominance as Meta deploys new creator tools and Apple prepares to unveil its highly anticipated \"Apple Intelligence.\" It also dives into the ethical and security risks of rapid AI adoption, highlighting early warnings about bias alongside a chilling study on how easily language models can hack software. Finally, stay tuned for updates on the intensifying World Cup group stage and a look at a persistent local tech outage.",
+      "keyTopics": [
+        "Meta AI assistant rollout for Facebook creators",
+        "Apple Intelligence Siri integration preview for WWDC",
+        "Timnit Gebru warnings on LLM bias and environmental costs",
+        "LLM security research using AI to exploit vulnerabilities",
+        "Rohan Ramadas hired as Lakers assistant GM",
+        "Ongoing Surfline API outage in Santa Barbara County"
+      ]
+    },
+    {
       "date": "2026-06-03",
       "summary": "Dive into the shifting global landscape of artificial intelligence as U.K. regulators introduce new publisher protections, while the AI boom continues to drive up tech infrastructure and consumer hardware costs. On the sports front, explore the strategic front-office hiring shaping the future of the Los Angeles Lakers and catch up on the latest from the World Cup group stage. Plus, hear why a hilariously persistent local tech outage is forcing surfers to check the waves the old-fashioned way.",
       "keyTopics": [
@@ -168,22 +180,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: NBA offseason intel: Predictions for summer of LeBron, Giannis, more stars"
-      ]
-    },
-    {
-      "date": "2026-05-15",
-      "summary": "Explore the volatile landscape of the AI gold rush, from the talent exodus at SpaceXAI to the growing divide between local privacy-focused tools and cloud-based ubiquity. This episode also examines the human impact of corporate AI mandates at Amazon and the high-stakes strategic \"chess match\" currently defining the future of the Los Angeles Lakers.",
-      "keyTopics": [
-        "SpaceXAI talent exodus and employee retention challenges",
-        "Runway video generation and world model research strategy",
-        "Osaurus Mac app and local AI privacy trend",
-        "OpenAI Codex mobile release and ubiquitous AI access",
-        "Amazon corporate AI usage mandates and employee pushback",
-        "LeBron James Lakers contract negotiations and roster influence",
-        "Surfline API outage in Santa Barbara County"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: What LeBron needs to return to L.A. -- and why it's not simple"
       ]
     }
   ]
