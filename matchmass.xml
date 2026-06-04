@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-04</title>
+      <description>This episode explores the intensifying battle for AI dominance as Meta deploys new creator tools and Apple prepares to unveil its highly anticipated &quot;Apple Intelligence.&quot; It also dives into the ethical and security risks of rapid AI adoption, highlighting early warnings about bias alongside a chilling study on how easily language models can hack software. Finally, stay tuned for updates on the intensifying World Cup group stage and a look at a persistent local tech outage.</description>
+      <pubDate>Thu, 04 Jun 2026 10:16:02 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-04-101602.mp3" length="3340416" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-04-101602.mp3</guid>
+      <itunes:duration>209</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-03</title>
       <description>Dive into the shifting global landscape of artificial intelligence as U.K. regulators introduce new publisher protections, while the AI boom continues to drive up tech infrastructure and consumer hardware costs. On the sports front, explore the strategic front-office hiring shaping the future of the Los Angeles Lakers and catch up on the latest from the World Cup group stage. Plus, hear why a hilariously persistent local tech outage is forcing surfers to check the waves the old-fashioned way.</description>
       <pubDate>Wed, 03 Jun 2026 11:25:36 GMT</pubDate>
