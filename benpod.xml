@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-06-04</title>
+      <description>This episode dives into a high-stakes escalation in the Middle East after a drone strike on Kuwait&apos;s airport threatens to derail crucial diplomatic talks. In tech, we lift the curtain on Google&apos;s internal AI frustrations and put autonomous AI hacking capabilities to a real-world test. Plus, get the latest sports updates, from Stephen Curry&apos;s blockbuster $400 million endorsement deal to the legal drama and stadium stalemates shaking up the NFL.</description>
+      <pubDate>Thu, 04 Jun 2026 11:21:29 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-04-112129.mp3" length="5215680" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-04-112129.mp3</guid>
+      <itunes:duration>326</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-06-03</title>
       <description>Dive into the rapidly evolving AI landscape as we unpack Anthropic&apos;s massive enterprise expansion, Google&apos;s regulatory showdown with publishers in the UK, and the rising costs of the tech boom on consumer hardware. We also analyze the shifting geopolitical dynamics between the U.S. and Iran as critical congressional negotiations approach. Finally, stay up to date with the latest sports and local news, from coaching shakeups in San Francisco to the stalled stadium negotiations in Chicago.</description>
       <pubDate>Wed, 03 Jun 2026 13:01:28 GMT</pubDate>
