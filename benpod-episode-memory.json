@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-06-04",
+      "summary": "This episode dives into a high-stakes escalation in the Middle East after a drone strike on Kuwait's airport threatens to derail crucial diplomatic talks. In tech, we lift the curtain on Google's internal AI frustrations and put autonomous AI hacking capabilities to a real-world test. Plus, get the latest sports updates, from Stephen Curry's blockbuster $400 million endorsement deal to the legal drama and stadium stalemates shaking up the NFL.",
+      "keyTopics": [
+        "Iranian drone attack on Kuwait international airport",
+        "Google employees internal memes criticizing AI products",
+        "LLM experiment testing AI cybersecurity hacking capabilities",
+        "Brandon Aiyuk arrest warrant for exhibition of speeding",
+        "George Kittle Achilles injury recovery timeline update",
+        "Stephen Curry endorsement deal with Chinese brand Li-Ning",
+        "Chicago Bears lakefront stadium public funding rejection"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Sources: Stephen Curry signs $400M deal with China's Li-Ning",
+        "ESPN 49ers News::49ers: Niners' Kittle (Achilles) targets Week 1, says he's 'on track'",
+        "ESPN 49ers News::49ers: Warrant issued for 49ers' Brandon Aiyuk after viral speeding video",
+        "Foreign Policy - Iran::Iran Launches Deadly Attack on Kuwait’s Main Airport",
+        "Foreign Policy - Iran::Congress Prepares for a Pair of Consequential Iran Votes"
+      ]
+    },
+    {
       "date": "2026-06-03",
       "summary": "Dive into the rapidly evolving AI landscape as we unpack Anthropic's massive enterprise expansion, Google's regulatory showdown with publishers in the UK, and the rising costs of the tech boom on consumer hardware. We also analyze the shifting geopolitical dynamics between the U.S. and Iran as critical congressional negotiations approach. Finally, stay up to date with the latest sports and local news, from coaching shakeups in San Francisco to the stalled stadium negotiations in Chicago.",
       "keyTopics": [
@@ -231,22 +251,6 @@
         "ESPN Warriors News::Warriors: Kerr critical of coaching job, excited for return to Warriors",
         "Foreign Policy - Iran::Iran Could Be Trump’s Greatest Failure",
         "Foreign Policy - Iran::Day 1 of Beijing Summit Produces No Big Wins for Trump"
-      ]
-    },
-    {
-      "date": "2026-05-15",
-      "summary": "Explore the widening gap between high-level AI strategy and its messy implementation, from Anthropic’s massive new partnership with PwC to reports of \"performance theater\" among Amazon’s corporate workforce. This episode also dives into Runway’s ambitious quest to challenge Google using video-based world models and breaks down significant coaching shakeups for both the Golden State Warriors and the San Francisco 49ers.",
-      "keyTopics": [
-        "Anthropic and PwC partnership for Claude enterprise implementation",
-        "Employee attrition and talent poaching at SpaceXAI",
-        "Amazon corporate workers faking internal AI tool usage",
-        "Runway world models strategy for video-based artificial intelligence",
-        "Golden State Warriors coaching staff departure of Stotts and Stackhouse",
-        "San Francisco 49ers hire Raheem Morris as Defensive Coordinator"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Sources: Warriors assistants Stotts, Stackhouse won't return",
-        "ESPN 49ers News::49ers: What will new DC Raheem Morris bring to the 49ers' defense?"
       ]
     }
   ]
