@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-06-05",
+      "summary": "Explore the staggering operational costs of the AI boom, from the massive global infrastructure required to power it to controversial efforts to make tech tools addictive. This episode also breaks down the Los Angeles Lakers' major corporate restructuring, the heating-up World Cup group stage, and a persistent, comical beach-tech outage in Santa Barbara. Plus, get a preview of Apple’s upcoming developer conference and what it means for the future of \"Apple Intelligence.\"",
+      "keyTopics": [
+        "Anthropic IPO filing reveals massive annualized revenue growth",
+        "AirTrunk commits thirty billion dollars for India AI data centers",
+        "Leaked Microsoft document reveals plans for addictive AI products",
+        "Los Angeles Lakers lay off business employees in major reorganization",
+        "Ongoing twelve day Surfline API outage in Santa Barbara",
+        "Anticipated Apple Intelligence strategy reveal at upcoming WWDC",
+        "Rising operational token costs for running massive language models"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Source: Lakers lay off over a dozen amid business-side reorg"
+      ]
+    },
+    {
       "date": "2026-06-04",
       "summary": "This episode explores the intensifying battle for AI dominance as Meta deploys new creator tools and Apple prepares to unveil its highly anticipated \"Apple Intelligence.\" It also dives into the ethical and security risks of rapid AI adoption, highlighting early warnings about bias alongside a chilling study on how easily language models can hack software. Finally, stay tuned for updates on the intensifying World Cup group stage and a look at a persistent local tech outage.",
       "keyTopics": [
@@ -166,20 +182,6 @@
         "Gavin Newsom 2028 presidential campaign messaging strategy",
         "Los Angeles Lakers offseason and LeBron James contract status",
         "Ongoing Santa Barbara Surfline API technical outage"
-      ]
-    },
-    {
-      "date": "2026-05-18",
-      "summary": "Explore the future of personalized media as Amazon launches on-demand AI podcasts and Apple positions privacy at the center of its Siri reboot. This episode also breaks down the cutting-edge hardware making AI glasses possible and the high-stakes offseason decisions looming for LeBron James and the Lakers.",
-      "keyTopics": [
-        "Amazon Alexa+ custom on-demand AI podcast generation",
-        "Apple Siri privacy reboot and chat history deletion",
-        "LetinAR pin mirror lens technology for AR glasses",
-        "LeBron James and Los Angeles Lakers offseason roster drama",
-        "Ongoing Surfline API error for Santa Barbara reports"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: NBA offseason intel: Predictions for summer of LeBron, Giannis, more stars"
       ]
     }
   ]
