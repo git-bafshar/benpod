@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-06-05",
+      "summary": "Explore the economic reality check hitting the AI boom as skyrocketing computing costs and massive infrastructure demands challenge tech giants to prove their profitability. This episode also dives into the complex geopolitical strategy surrounding U.S.-Iran relations, the retirement countdown for NFL legend Trent Williams, and the latest strategic moves from OpenAI and Airbnb.",
+      "keyTopics": [
+        "Anthropic IPO plans and surging annualized revenue",
+        "Rising computing costs of running large AI models",
+        "AirTrunk thirty billion dollar data center investment in India",
+        "US diplomatic response to Kuwait airport drone strike",
+        "San Francisco Forty-Niners Trent Williams retirement timeline",
+        "OpenAI CTO Mira Murati returns to public spotlight",
+        "Airbnb CEO Brian Chesky announces in-house AI lab"
+      ],
+      "articles": [
+        "ESPN 49ers News::49ers: 49ers' Trent Williams acknowledges career is nearing its end",
+        "Foreign Policy - Iran::How Trump Should Approach an Iran Endgame"
+      ]
+    },
+    {
       "date": "2026-06-04",
       "summary": "This episode dives into a high-stakes escalation in the Middle East after a drone strike on Kuwait's airport threatens to derail crucial diplomatic talks. In tech, we lift the curtain on Google's internal AI frustrations and put autonomous AI hacking capabilities to a real-world test. Plus, get the latest sports updates, from Stephen Curry's blockbuster $400 million endorsement deal to the legal drama and stadium stalemates shaking up the NFL.",
       "keyTopics": [
@@ -231,26 +248,6 @@
         "ESPN 49ers News::49ers: George Kittle, 49ers optimistic he can play in Week 1",
         "Foreign Policy - Iran::The Myth of Zero Enrichment",
         "Foreign Policy - Iran::G-7 Finance Ministers Discuss Economic Fallout of Iran War"
-      ]
-    },
-    {
-      "date": "2026-05-18",
-      "summary": "Explore the diverging paths of tech giants as Amazon launches custom AI-generated podcasts while Apple prioritizes user privacy for the next generation of Siri. This episode also breaks down the high-stakes legal battle over the soul of OpenAI, significant sports updates from the Warriors and Giants, and the complex security risks emerging in the age of voice AI.",
-      "keyTopics": [
-        "Amazon Alexa plus AI powered on demand podcast generation",
-        "Apple Siri privacy overhaul and rumored chat auto deletion",
-        "Elon Musk vs OpenAI trial regarding Sam Altman trustworthiness",
-        "Railway one hundred million dollar Series B for AI cloud",
-        "Steve Kerr Warriors head coach return and team evolution",
-        "Foreign Policy analysis of US Iran nuclear deal withdrawal",
-        "Voice AI security vulnerability to hidden audio attacks",
-        "San Francisco Giants victory and Harrison Bader grand slam"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Athletics Athletics",
-        "ESPN Warriors News::Warriors: Kerr critical of coaching job, excited for return to Warriors",
-        "Foreign Policy - Iran::Iran Could Be Trump’s Greatest Failure",
-        "Foreign Policy - Iran::Day 1 of Beijing Summit Produces No Big Wins for Trump"
       ]
     }
   ]
