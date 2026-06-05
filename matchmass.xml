@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-05</title>
+      <description>Explore the staggering operational costs of the AI boom, from the massive global infrastructure required to power it to controversial efforts to make tech tools addictive. This episode also breaks down the Los Angeles Lakers&apos; major corporate restructuring, the heating-up World Cup group stage, and a persistent, comical beach-tech outage in Santa Barbara. Plus, get a preview of Apple’s upcoming developer conference and what it means for the future of &quot;Apple Intelligence.&quot;</description>
+      <pubDate>Fri, 05 Jun 2026 09:33:52 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-05-093352.mp3" length="3165888" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-05-093352.mp3</guid>
+      <itunes:duration>198</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-04</title>
       <description>This episode explores the intensifying battle for AI dominance as Meta deploys new creator tools and Apple prepares to unveil its highly anticipated &quot;Apple Intelligence.&quot; It also dives into the ethical and security risks of rapid AI adoption, highlighting early warnings about bias alongside a chilling study on how easily language models can hack software. Finally, stay tuned for updates on the intensifying World Cup group stage and a look at a persistent local tech outage.</description>
       <pubDate>Thu, 04 Jun 2026 10:16:02 GMT</pubDate>
