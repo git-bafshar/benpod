@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-05",
+      "summary": "Explore the staggering global scale of the AI boom, from a massive $30 billion data center expansion in India to Anthropic’s explosive revenue growth and new open-source security tools ahead of its IPO. This episode also dives into why non-tech giants like Airbnb are launching dedicated AI labs and how leadership at OpenAI is working to shape the industry's narrative. Finally, discover a fascinating shift in developer behavior where programmers are writing meticulous documentation specifically to satisfy their AI assistants.",
+      "keyTopics": [
+        "AirTrunk $30 billion India AI data center investment",
+        "Anthropic $47 billion annualized revenue ahead of IPO",
+        "Anthropic open source AI software vulnerability discovery framework",
+        "Airbnb CEO Brian Chesky plans dedicated AI lab",
+        "OpenAI CTO Mira Murati steps back into public spotlight",
+        "Hacker News trend developers documenting code for Claude"
+      ]
+    },
+    {
       "date": "2026-06-04",
       "summary": "Explore the massive footprint of the $1.4 trillion mobile app economy and how the AI agent revolution is poised to disrupt it. This episode also dives into the real-world consequences of the AI boom, examining how coding assistants are contributing to soaring failure rates in top-tier university computer science programs. Finally, discover how today's AI models perform when put to the test in a practical, real-world cybersecurity hacking experiment.",
       "keyTopics": [
@@ -166,23 +178,6 @@
         "Amazon Alexa plus custom AI-generated podcast content feature",
         "SandboxAQ drug discovery platform integration with Anthropic Claude",
         "Economic growth and construction surge in Clearwater Florida"
-      ]
-    },
-    {
-      "date": "2026-05-18",
-      "summary": "Explore how Anthropic’s new \"Cowork\" desktop agent and Apple’s privacy-focused Siri reboot are bringing the \"Agentic Era\" of AI directly to everyday users. This episode also dives into the shifting role of humans as \"AI orchestrators,\" major updates in the UnitedHealthcare CEO trial, and a surprising national surge in the housing market.",
-      "keyTopics": [
-        "Anthropic Cowork desktop AI agent for non-technical users",
-        "Apple Siri privacy reboot with auto-deleting chats",
-        "Human role shift to orchestrator of AI agents",
-        "Luigi Mangione UnitedHealthcare CEO murder trial evidence ruling",
-        "Donald Trump withdraws lawsuit against IRS over tax leaks",
-        "US-China trade agreement on beef and poultry imports",
-        "US pending home sales jump ten percent year-over-year"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
