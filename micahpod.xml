@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-05</title>
+      <description>Explore the staggering global scale of the AI boom, from a massive $30 billion data center expansion in India to Anthropic’s explosive revenue growth and new open-source security tools ahead of its IPO. This episode also dives into why non-tech giants like Airbnb are launching dedicated AI labs and how leadership at OpenAI is working to shape the industry&apos;s narrative. Finally, discover a fascinating shift in developer behavior where programmers are writing meticulous documentation specifically to satisfy their AI assistants.</description>
+      <pubDate>Fri, 05 Jun 2026 10:24:52 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-05-102452.mp3" length="4121664" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-05-102452.mp3</guid>
+      <itunes:duration>258</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-04</title>
       <description>Explore the massive footprint of the $1.4 trillion mobile app economy and how the AI agent revolution is poised to disrupt it. This episode also dives into the real-world consequences of the AI boom, examining how coding assistants are contributing to soaring failure rates in top-tier university computer science programs. Finally, discover how today&apos;s AI models perform when put to the test in a practical, real-world cybersecurity hacking experiment.</description>
       <pubDate>Thu, 04 Jun 2026 10:33:51 GMT</pubDate>
