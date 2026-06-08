@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-08",
+      "summary": "Tune in for a deep dive into Apple's highly anticipated WWDC event, where the tech giant is set to unveil its \"Apple Intelligence\" strategy and the next phase of integrated digital assistants. This episode also explores the rising costs and fragile infrastructure of the AI boom following a major service outage, before shifting gears to the high-stakes drama of the 2026 FIFA World Cup group stage. Plus, hear how a humorous local tech glitch is forcing surfers to check the ocean the old-fashioned way.",
+      "keyTopics": [
+        "Apple WWDC 2026 Apple Intelligence announcement",
+        "Transition from chat interfaces to operating system digital assistants",
+        "Rising AI model infrastructure costs and Tokenpocalypse fears",
+        "Notion service disruption caused by Anthropic Claude outage",
+        "2026 FIFA World Cup group stage drama",
+        "Ongoing Santa Barbara Surfline app outage saga"
+      ]
+    },
+    {
       "date": "2026-06-05",
       "summary": "Explore the staggering operational costs of the AI boom, from the massive global infrastructure required to power it to controversial efforts to make tech tools addictive. This episode also breaks down the Los Angeles Lakers' major corporate restructuring, the heating-up World Cup group stage, and a persistent, comical beach-tech outage in Santa Barbara. Plus, get a preview of Apple’s upcoming developer conference and what it means for the future of \"Apple Intelligence.\"",
       "keyTopics": [
@@ -170,18 +182,6 @@
         "POLITICO launches dedicated Los Angeles news operation",
         "Los Angeles Lakers head coach search",
         "Surfline Santa Barbara API outage duration"
-      ]
-    },
-    {
-      "date": "2026-05-19",
-      "summary": "Explore the escalating AI talent wars as a foundational researcher defects to Anthropic and a major legal chapter finally closes for OpenAI. This episode also dives into Governor Gavin Newsom’s strategic maneuvering for a potential 2028 presidential run and the high-stakes \"chess match\" of the Lakers' offseason.",
-      "keyTopics": [
-        "Andrej Karpathy joins Anthropic pre-training team from OpenAI",
-        "Anthropic acquires developer infrastructure startup Stainless",
-        "Dismissal of Elon Musk lawsuit against Sam Altman",
-        "Gavin Newsom 2028 presidential campaign messaging strategy",
-        "Los Angeles Lakers offseason and LeBron James contract status",
-        "Ongoing Santa Barbara Surfline API technical outage"
       ]
     }
   ]
