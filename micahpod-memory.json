@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-09",
+      "summary": "Explore the tech world's latest power moves as we unpack Apple’s massive partnership with Google for its new AI features and a recent cybersecurity hack targeting AI developers. Discover the hidden cost of AI-generated code on software engineering, alongside a startup’s ambitious plan to build data centers in space. Plus, get the latest updates on the cooling real estate market and what it means for prospective buyers.",
+      "keyTopics": [
+        "Apple Intelligence partnership with Google Gemini",
+        "Apple Private Cloud Compute security architecture",
+        "Microsoft open-source developer tools supply-chain hack",
+        "Managing technical debt from AI coding assistants",
+        "Orbital funding for space-based data centers",
+        "Cooling trends in major US housing markets"
+      ]
+    },
+    {
       "date": "2026-06-08",
       "summary": "Explore the future of consumer tech with an in-depth preview of Apple’s highly anticipated AI announcements at WWDC and a look at the industry-wide shift toward autonomous AI agents. The episode also tackles the growing security risks and physical constraints of the AI boom, including OpenAI’s new defensive features and local pushback against energy-hungry data centers. Finally, catch up on the latest real estate trends pointing toward a cooling, more balanced housing market.",
       "keyTopics": [
@@ -165,17 +177,6 @@
         "Mental health startup The Path launches AI therapy app",
         "AI-powered computer vision systems for aluminum recycling",
         "Tampa Bay Rays stadium pact approved by Hillsborough County"
-      ]
-    },
-    {
-      "date": "2026-05-20",
-      "summary": "Dive into the massive shift toward conversational AI as tech giants like Google and Figma fundamentally redesign their core products around Gemini and automated assistants. This episode also explores the high-stakes startup world, highlighting a company that boldly walked away from a $20 million buyout offer to bet on its own future. Finally, we look at the growing cultural backlash against the AI revolution, from worries about manipulated search results to recent college graduates actively booing the technology.",
-      "keyTopics": [
-        "Google Gemini integration in Search and Gmail",
-        "Figma collaborative design tool AI assistant announcement",
-        "The transition from hands-on creator to AI orchestrator",
-        "NanoCo NanoClaw rejects buyout for twelve million seed",
-        "College student backlash and booing of AI commencement speeches"
       ]
     }
   ]
