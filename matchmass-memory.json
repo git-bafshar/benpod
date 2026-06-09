@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-09",
+      "summary": "This episode dives into Apple’s newly revealed \"Apple Intelligence\" strategy and explores the changing of the guard in big tech as the new \"MANGOS\" acronym officially replaces the classic \"FAANG.\" Plus, learn about a major cybersecurity breach targeting AI developers and get a quick update on the high-stakes action at the 2026 World Cup.",
+      "keyTopics": [
+        "Apple Intelligence WWDC announcement and privacy features",
+        "Amazon internal AI nicknamed Sloppenheimer by employees",
+        "New MANGOS acronym replaces FAANG in big tech",
+        "Microsoft developer tools hacked to target AI developers",
+        "2026 FIFA World Cup group stage matches",
+        "Santa Barbara Surfline API outage fifteen-day streak"
+      ]
+    },
+    {
       "date": "2026-06-08",
       "summary": "Tune in for a deep dive into Apple's highly anticipated WWDC event, where the tech giant is set to unveil its \"Apple Intelligence\" strategy and the next phase of integrated digital assistants. This episode also explores the rising costs and fragile infrastructure of the AI boom following a major service outage, before shifting gears to the high-stakes drama of the 2026 FIFA World Cup group stage. Plus, hear how a humorous local tech glitch is forcing surfers to check the ocean the old-fashioned way.",
       "keyTopics": [
@@ -169,19 +181,6 @@
         "The Path safe AI therapy mental health benchmark",
         "Railway funding for AI native cloud infrastructure",
         "Santa Barbara Surfline API ongoing data outage"
-      ]
-    },
-    {
-      "date": "2026-05-20",
-      "summary": "Discover how Google is ending an era by transforming its classic search page into an AI-powered workspace, and explore the latest game-changing AI tools supercharging music creation and product design. Plus, find out why POLITICO is expanding its footprint in Los Angeles to shine a brighter spotlight on California's influential political landscape.",
-      "keyTopics": [
-        "Google search page redesign and AI transition",
-        "Stability AI Stability Audio 3.0 model release",
-        "Figma design canvas AI assistant integration",
-        "NanoCo rejects buyout to raise seed funding",
-        "POLITICO launches dedicated Los Angeles news operation",
-        "Los Angeles Lakers head coach search",
-        "Surfline Santa Barbara API outage duration"
       ]
     }
   ]
