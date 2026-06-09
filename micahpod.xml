@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-09</title>
+      <description>Explore the tech world&apos;s latest power moves as we unpack Apple’s massive partnership with Google for its new AI features and a recent cybersecurity hack targeting AI developers. Discover the hidden cost of AI-generated code on software engineering, alongside a startup’s ambitious plan to build data centers in space. Plus, get the latest updates on the cooling real estate market and what it means for prospective buyers.</description>
+      <pubDate>Tue, 09 Jun 2026 10:24:40 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-09-102440.mp3" length="4326528" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-09-102440.mp3</guid>
+      <itunes:duration>270</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-08</title>
       <description>Explore the future of consumer tech with an in-depth preview of Apple’s highly anticipated AI announcements at WWDC and a look at the industry-wide shift toward autonomous AI agents. The episode also tackles the growing security risks and physical constraints of the AI boom, including OpenAI’s new defensive features and local pushback against energy-hungry data centers. Finally, catch up on the latest real estate trends pointing toward a cooling, more balanced housing market.</description>
       <pubDate>Mon, 08 Jun 2026 11:27:21 GMT</pubDate>
