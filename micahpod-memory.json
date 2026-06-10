@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-06-10",
+      "summary": "Explore the rapidly evolving AI landscape with a look at Anthropic's new Claude 5 models, Meta’s massive infrastructure expansion in India, and the rising interest in space-based data centers. Discover how the music industry is shifting from defense to offense by adopting new tracking technology to attribute and license AI-generated content. Finally, learn how startups are making AI agents functional for businesses and get the latest update on the cooling trends in the real estate market.",
+      "keyTopics": [
+        "Anthropic Claude Fable 5 and Mythos 5 release",
+        "Meta and Reliance India AI data center partnership",
+        "Warner Music Group acquisition of Sureel AI",
+        "Jedify twenty-four million dollar funding round",
+        "SpaceX valuation linked to space-based data centers"
+      ]
+    },
+    {
       "date": "2026-06-09",
       "summary": "Explore the tech world's latest power moves as we unpack Apple’s massive partnership with Google for its new AI features and a recent cybersecurity hack targeting AI developers. Discover the hidden cost of AI-generated code on software engineering, alongside a startup’s ambitious plan to build data centers in space. Plus, get the latest updates on the cooling real estate market and what it means for prospective buyers.",
       "keyTopics": [
@@ -165,18 +176,6 @@
         "President Trump delays AI security executive order",
         "Debate over AI workforce replacement versus talent augmentation",
         "Railway raises one hundred million dollars for AI cloud"
-      ]
-    },
-    {
-      "date": "2026-05-21",
-      "summary": "Explore the massive financial wave reshaping tech as secretive AI startups land historic funding and Nvidia eyes a $200 billion market for autonomous agent hardware. Discover how Google is fundamentally changing the web with a historic search redesign that integrates ads directly into AI-generated answers. Plus, learn about the rise of safety-focused AI therapy, AI-powered recycling, and the major stadium approval for the Tampa Bay Rays.",
-      "keyTopics": [
-        "Secretive AI startup Hark raises 700 million Series A",
-        "Nvidia CEO Jensen Huang targets 200 billion CPU market",
-        "Google integrates ads into AI-generated search results",
-        "Mental health startup The Path launches AI therapy app",
-        "AI-powered computer vision systems for aluminum recycling",
-        "Tampa Bay Rays stadium pact approved by Hillsborough County"
       ]
     }
   ]
