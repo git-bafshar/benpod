@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-10",
+      "summary": "This episode explores the staggering costs of the corporate AI boom, highlighting the eye-popping sums spent per employee and the rising tension between all-in-one tech giants and flexible, open-source alternatives. Plus, discover why SpaceX’s massive valuation may actually hinge on an ambitious plan to build high-speed, secure data centers in space rather than launching rockets. The episode wraps up with the intensifying drama of the 2026 World Cup group stages and a lighthearted update on a ridiculously persistent local surf report outage.",
+      "keyTopics": [
+        "Ramp report on rising corporate AI tool spending",
+        "Niteshift raises seven million dollar seed round",
+        "AI memory research showing degraded reasoning and sycophancy",
+        "Anthropic Fable guardrails blocking cybersecurity research",
+        "SpaceX valuation tied to orbital space data centers",
+        "Santa Barbara Surfline API outage enters sixteenth day",
+        "Market reaction to Apple Intelligence launch and ecosystem"
+      ]
+    },
+    {
       "date": "2026-06-09",
       "summary": "This episode dives into Apple’s newly revealed \"Apple Intelligence\" strategy and explores the changing of the guard in big tech as the new \"MANGOS\" acronym officially replaces the classic \"FAANG.\" Plus, learn about a major cybersecurity breach targeting AI developers and get a quick update on the high-stakes action at the 2026 World Cup.",
       "keyTopics": [
@@ -169,18 +182,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: LeBron James: Lakers were 'out-talented' by Thunder in playoffs"
-      ]
-    },
-    {
-      "date": "2026-05-21",
-      "summary": "In this episode, discover how Spotify is transforming its platform into an interactive, AI-powered workspace with new tools for audiobooks, research, and podcast summaries. The discussion also dives into the massive venture capital flooding the tech sector, highlighted by a mysterious startup’s historic $700 million funding round and niche developments in safe AI therapy. Finally, get the latest on a week-long digital outage currently disrupting local surf conditions.",
-      "keyTopics": [
-        "Spotify and ElevenLabs AI audiobook creation tool",
-        "Spotify interactive AI podcast Q&A and summary features",
-        "Brett Adcock's Hark raising seven hundred million Series A",
-        "The Path safe AI therapy mental health benchmark",
-        "Railway funding for AI native cloud infrastructure",
-        "Santa Barbara Surfline API ongoing data outage"
       ]
     }
   ]
