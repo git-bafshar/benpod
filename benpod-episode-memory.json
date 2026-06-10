@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-06-10",
+      "summary": "Dive into the rapidly accelerating AI landscape as Anthropic launches two powerful new Claude models and the music industry fights back with new intellectual property tracking technology. This episode also breaks down the rising geopolitical tensions between the U.S. and Iran following recent retaliatory airstrikes. Finally, get the latest on the high-stakes contract drama shaking up the San Francisco 49ers and the stalled stadium negotiations for the Chicago Bears.",
+      "keyTopics": [
+        "Anthropic Claude Fable 5 and Claude Mythos 5 release",
+        "Cybersecurity researchers protest strict Claude Fable 5 guardrails",
+        "Warner Music Group acquires AI attribution startup Sureel AI",
+        "Niteshift raises seven million seed round for coding agent",
+        "US launches self defense airstrikes against Iranian backed assets",
+        "Brandon Aiyuk contract dispute with San Francisco 49ers escalates",
+        "Chicago Bears stadium funding stalemate and potential Indiana move"
+      ],
+      "articles": [
+        "ESPN 49ers News::49ers: Brandon Aiyuk appears to aim more harsh comments toward 49ers",
+        "ESPN 49ers News::49ers: Why Kyle Shanahan isn't thrilled with 49ers' game in Australia",
+        "Foreign Policy - Iran::U.S. Launches New ‘Self-Defense’ Strikes on Iran Over Apache Helicopter Crash"
+      ]
+    },
+    {
       "date": "2026-06-09",
       "summary": "Explore the fallout from Apple’s major privacy-focused AI reveal and find out why the housing market has officially flipped in favor of buyers. This episode also breaks down a major political shakeup in the Chicago mayoral race, cybersecurity threats targeting AI developers, and pivotal primary elections to watch. Plus, discover a surprising medical breakthrough regarding popular weight-loss drugs and get an update on the fragile state of global affairs.",
       "keyTopics": [
@@ -239,21 +257,6 @@
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis",
         "Foreign Policy - Iran::Pakistan’s High-Wire Act Gets Riskier"
-      ]
-    },
-    {
-      "date": "2026-05-21",
-      "summary": "Explore the rapidly shifting tech landscape with a look at Spotify’s massive wave of new AI features, Google’s historic search engine redesign, and a secretive startup that just raised a staggering $700 million. This episode also dives into the rise of safer AI wellness tools, a major scientific breakthrough by OpenAI, and a strategic reframing of Iran's long-term geopolitical ambitions. Tune in for an engaging breakdown of the forces shaping technology and global affairs.",
-      "keyTopics": [
-        "Spotify ElevenLabs audiobook tool and podcast Q&A",
-        "AI startup Hark seven hundred million dollar Series A",
-        "The Path AI therapy bot mental health safety",
-        "Google retires classic search box for AI Overviews",
-        "OpenAI model solves discrete geometry math conjecture",
-        "Iran strategic objective for Persian Gulf regional dominance"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::The World Keeps Asking Iran the Wrong Question"
       ]
     }
   ]
