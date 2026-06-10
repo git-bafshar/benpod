@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-10</title>
+      <description>This episode explores the staggering costs of the corporate AI boom, highlighting the eye-popping sums spent per employee and the rising tension between all-in-one tech giants and flexible, open-source alternatives. Plus, discover why SpaceX’s massive valuation may actually hinge on an ambitious plan to build high-speed, secure data centers in space rather than launching rockets. The episode wraps up with the intensifying drama of the 2026 World Cup group stages and a lighthearted update on a ridiculously persistent local surf report outage.</description>
+      <pubDate>Wed, 10 Jun 2026 10:27:19 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-10-102719.mp3" length="4086336" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-10-102719.mp3</guid>
+      <itunes:duration>255</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-09</title>
       <description>This episode dives into Apple’s newly revealed &quot;Apple Intelligence&quot; strategy and explores the changing of the guard in big tech as the new &quot;MANGOS&quot; acronym officially replaces the classic &quot;FAANG.&quot; Plus, learn about a major cybersecurity breach targeting AI developers and get a quick update on the high-stakes action at the 2026 World Cup.</description>
       <pubDate>Tue, 09 Jun 2026 09:35:02 GMT</pubDate>
