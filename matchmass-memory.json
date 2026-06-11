@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-11",
+      "summary": "Dive into the complicated realities of the AI era as this episode explores Anthropic’s recent apology over \"invisible\" guardrails and the startling revelation that Pokémon Go player data has been used to train military drones. Plus, discover handy new consumer AI tools from DoorDash and Deezer, and get an update on the high-stakes drama unfolding at the 2026 World Cup. It's an engaging look at how everyday technology, data privacy, and global events intersect.",
+      "keyTopics": [
+        "Anthropic apology for invisible Fable AI guardrails",
+        "CEO Dario Amodei single direct report organizational structure",
+        "Niantic Pokemon Go 3D data training military drones",
+        "DoorDash launches Ask DoorDash generative AI chatbot",
+        "Deezer AI-generated music detection tool",
+        "Seventeen day Santa Barbara Surfline API outage"
+      ]
+    },
+    {
       "date": "2026-06-10",
       "summary": "This episode explores the staggering costs of the corporate AI boom, highlighting the eye-popping sums spent per employee and the rising tension between all-in-one tech giants and flexible, open-source alternatives. Plus, discover why SpaceX’s massive valuation may actually hinge on an ambitious plan to build high-speed, secure data centers in space rather than launching rockets. The episode wraps up with the intensifying drama of the 2026 World Cup group stages and a lighthearted update on a ridiculously persistent local surf report outage.",
       "keyTopics": [
@@ -167,21 +179,6 @@
         "Los Angeles Lakers head coach search and offseason pressure",
         "LeBron James pressuring Lakers front office to acquire talent",
         "Persistent Surfline API outage in Santa Barbara County"
-      ]
-    },
-    {
-      "date": "2026-05-22",
-      "summary": "Explore the rapidly shifting tech landscape as Google navigates bizarre AI search bugs and previews futuristic smart glasses, while Spotify partners with Universal Music to pioneer licensed AI cover songs. This episode also dives into the delay of a major federal AI security order, LeBron James's high-stakes pressure on the Lakers' front office, and a local holiday weekend update.",
-      "keyTopics": [
-        "Google Search AI overhaul disregard bug",
-        "Google Android XR AI glasses prototype",
-        "Spotify and Universal Music Group AI music agreement",
-        "Donald Trump delays AI security executive order",
-        "LeBron James pressures Lakers front office over talent",
-        "Santa Barbara Surfline API data outage"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: LeBron James: Lakers were 'out-talented' by Thunder in playoffs"
       ]
     }
   ]
