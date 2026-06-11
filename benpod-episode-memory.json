@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-06-11",
+      "summary": "Dive into the latest in tech as Anthropic addresses backlash over its new AI models, alongside emerging tools transforming music streaming and digital organization. Plus, catch up on the sports world's biggest headlines, including a blockbuster NFL trade reshaping the NFC West and a historic ninth-inning comeback in baseball. Finally, stay informed on escalating U.S.-Iran geopolitical tensions and the ongoing football stadium stalemate in Chicago.",
+      "keyTopics": [
+        "Anthropic Claude Fable 5 and Mythos 5 security backlash",
+        "Anthropic Claude Corps enterprise integration initiative",
+        "Deezer AI music detection tool for streaming playlists",
+        "Pool app launches AI screenshot organization tool",
+        "Rams acquire Myles Garrett from Cleveland Browns",
+        "Bryce Eldridge walk-off grand slam for SF Giants",
+        "Escalating US and Iran geopolitical tensions and airstrikes",
+        "Chicago Bears stadium relocation negotiations and stalemate"
+      ],
+      "articles": [
+        "ESPN Giants News::Giants: Eldridge's grand slam caps wild comeback as Giants rally from 8 down in 8th to stun Nats, 11-10",
+        "ESPN 49ers News::49ers: How the 49ers reacted to Rams trading for Myles Garrett",
+        "Foreign Policy - Iran::Iran Is Now More Dangerous Than Ever",
+        "Foreign Policy - Iran::Trump Says More Strikes on Iran Are Coming"
+      ]
+    },
+    {
       "date": "2026-06-10",
       "summary": "Dive into the rapidly accelerating AI landscape as Anthropic launches two powerful new Claude models and the music industry fights back with new intellectual property tracking technology. This episode also breaks down the rising geopolitical tensions between the U.S. and Iran following recent retaliatory airstrikes. Finally, get the latest on the high-stakes contract drama shaking up the San Francisco 49ers and the stalled stadium negotiations for the Chicago Bears.",
       "keyTopics": [
@@ -239,24 +259,6 @@
         "ESPN Giants News::Giants: Giants put Jung Hoo Lee on IL, call up prospect Victor Bericoto",
         "ESPN 49ers News::49ers: What will new DC Raheem Morris bring to the 49ers' defense?",
         "Foreign Policy - Iran::‘Atropia’ Takes on the War on Terror"
-      ]
-    },
-    {
-      "date": "2026-05-22",
-      "summary": "Explore the future of tech and music as Spotify and Universal Music Group team up for AI-generated song covers, while Google previews its new Gemini-powered smart glasses. This episode also dives into major local headlines, including the Chicago Tribune's acquisition of the Daily Herald and a proposed Illinois law requiring employers to pay workers during jury duty. Plus, get key updates on the housing market as mortgage rates hit a 10-month high, alongside a look at shifting geopolitical alliances in the Middle East.",
-      "keyTopics": [
-        "Spotify and Universal Music Group AI music partnership",
-        "Google prototype Android XR glasses powered by Gemini",
-        "President Trump delays AI security executive order",
-        "Fast-fashion retailer Shein acquires competitor Everlane",
-        "Chicago Tribune acquires suburban Daily Herald newspaper",
-        "US mortgage rates hit ten-month high slowing sales",
-        "Pakistan deploys military assets to Saudi Arabia"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Pakistan’s High-Wire Act Gets Riskier"
       ]
     }
   ]
