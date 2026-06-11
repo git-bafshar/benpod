@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-06-11",
+      "summary": "Dive into the rapidly evolving world of AI as this episode explores Anthropic's new enterprise push, the rise of \"botsitting\" in the workplace, and a major safety lawsuit facing xAI. Plus, get the latest on a surprising real estate shift where buyers are gaining leverage despite record-high home prices, followed by a somber tribute marking the tenth anniversary of the Pulse nightclub tragedy.",
+      "keyTopics": [
+        "Anthropic Claude Corps enterprise deployment service",
+        "DoorDash AI chatbot menu search launch",
+        "Pool AI screenshot organization app",
+        "Workforce report on AI assistant botsitting",
+        "Opendoor exit from India outsourcing market",
+        "Former xAI engineer lawsuit over Grok safety",
+        "Pokémon Go data used for military drone navigation",
+        "US median home sale price crosses 400k"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-06-10",
       "summary": "Explore the rapidly evolving AI landscape with a look at Anthropic's new Claude 5 models, Meta’s massive infrastructure expansion in India, and the rising interest in space-based data centers. Discover how the music industry is shifting from defense to offense by adopting new tracking technology to attribute and license AI-generated content. Finally, learn how startups are making AI agents functional for businesses and get the latest update on the cooling trends in the real estate market.",
       "keyTopics": [
@@ -165,17 +183,6 @@
         "Global complexity of navigating real-time AI security",
         "Ferrari and IBM partnership for AI fan experience",
         "The rise of the business AI orchestrator role"
-      ]
-    },
-    {
-      "date": "2026-05-22",
-      "summary": "Discover how a landmark partnership between Spotify and Universal Music Group is reshaping the music industry by embracing and monetizing fan-made AI covers. This episode also explores the political tension behind a delayed U.S. executive order on AI security and the business debate over whether AI should augment employees or replace them. Plus, get the details on Spotify's new conversational podcast tools and a major $100 million funding round for AI-native cloud infrastructure.",
-      "keyTopics": [
-        "Spotify and Universal Music Group deal for AI covers",
-        "Spotify conversational AI podcast features and desktop app",
-        "President Trump delays AI security executive order",
-        "Debate over AI workforce replacement versus talent augmentation",
-        "Railway raises one hundred million dollars for AI cloud"
       ]
     }
   ]
