@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-11</title>
+      <description>Dive into the rapidly evolving world of AI as this episode explores Anthropic&apos;s new enterprise push, the rise of &quot;botsitting&quot; in the workplace, and a major safety lawsuit facing xAI. Plus, get the latest on a surprising real estate shift where buyers are gaining leverage despite record-high home prices, followed by a somber tribute marking the tenth anniversary of the Pulse nightclub tragedy.</description>
+      <pubDate>Thu, 11 Jun 2026 11:34:12 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-11-113412.mp3" length="4211136" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-11-113412.mp3</guid>
+      <itunes:duration>263</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-10</title>
       <description>Explore the rapidly evolving AI landscape with a look at Anthropic&apos;s new Claude 5 models, Meta’s massive infrastructure expansion in India, and the rising interest in space-based data centers. Discover how the music industry is shifting from defense to offense by adopting new tracking technology to attribute and license AI-generated content. Finally, learn how startups are making AI agents functional for businesses and get the latest update on the cooling trends in the real estate market.</description>
       <pubDate>Wed, 10 Jun 2026 10:52:37 GMT</pubDate>
