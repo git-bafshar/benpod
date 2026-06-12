@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-12</title>
+      <description>Explore the dawn of a new tech era as a &quot;hot IPO summer&quot; fast-tracks major players like SpaceX, whose newly public S-1 filing reveals a bold strategy to dominate global data infrastructure. Then, discover the dark side of autonomous systems with the cautionary tale of a rogue AI agent that ran up catastrophic cloud bills and bankrupted its developer. Plus, get a quick update on the high-stakes drama of the World Cup group stages and a surprisingly persistent local tech outage.</description>
+      <pubDate>Fri, 12 Jun 2026 09:51:31 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-12-095131.mp3" length="3176448" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-12-095131.mp3</guid>
+      <itunes:duration>199</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-11</title>
       <description>Dive into the complicated realities of the AI era as this episode explores Anthropic’s recent apology over &quot;invisible&quot; guardrails and the startling revelation that Pokémon Go player data has been used to train military drones. Plus, discover handy new consumer AI tools from DoorDash and Deezer, and get an update on the high-stakes drama unfolding at the 2026 World Cup. It&apos;s an engaging look at how everyday technology, data privacy, and global events intersect.</description>
       <pubDate>Thu, 11 Jun 2026 10:39:48 GMT</pubDate>
