@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-12",
+      "summary": "Witness history in the making with a deep dive into SpaceX's record-breaking IPO and the multi-billion-dollar funding boom shaping the future of physical AI and robotics. This episode also explores user feedback on Anthropic's new Claude 5 model, the costly risks of runaway autonomous AI agents, and the latest cooling trends in the housing market. Finally, take a moment to reflect on the tenth anniversary of the Pulse nightclub tragedy and the enduring resilience of the Orlando community.",
+      "keyTopics": [
+        "SpaceX historic initial public offering launch",
+        "Jeff Bezos startup Prometheus twelve billion dollar funding",
+        "Theker modular robotics eighty-five million dollar round",
+        "Anthropic Claude 5 Fable model launch issues",
+        "Autonomous AI agent runaway cloud billing risks",
+        "Tenth anniversary of Orlando Pulse nightclub tragedy"
+      ]
+    },
+    {
       "date": "2026-06-11",
       "summary": "Dive into the rapidly evolving world of AI as this episode explores Anthropic's new enterprise push, the rise of \"botsitting\" in the workplace, and a major safety lawsuit facing xAI. Plus, get the latest on a surprising real estate shift where buyers are gaining leverage despite record-high home prices, followed by a somber tribute marking the tenth anniversary of the Pulse nightclub tragedy.",
       "keyTopics": [
@@ -171,18 +183,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-05-25",
-      "summary": "This episode explores the complex landscape of artificial intelligence, from the Vatican’s warnings about systemic dehumanization to the privacy anxieties surrounding Amazon's new \"Bee\" wearable. The discussion also dives into global cybersecurity challenges following a massive server seizure in the Netherlands, before shifting gears to look at how Ferrari is using AI to revolutionize the Formula 1 fan experience. Tune in to discover how this rapidly evolving technology is reshaping everything from personal privacy to professional sports.",
-      "keyTopics": [
-        "Pope Leo XIV warning on AI dehumanization risks",
-        "Amazon Bee AI wearable privacy and utility debate",
-        "Netherlands police seizure of 800 cyberattack servers",
-        "Global complexity of navigating real-time AI security",
-        "Ferrari and IBM partnership for AI fan experience",
-        "The rise of the business AI orchestrator role"
       ]
     }
   ]
