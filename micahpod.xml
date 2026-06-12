@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-12</title>
+      <description>Witness history in the making with a deep dive into SpaceX&apos;s record-breaking IPO and the multi-billion-dollar funding boom shaping the future of physical AI and robotics. This episode also explores user feedback on Anthropic&apos;s new Claude 5 model, the costly risks of runaway autonomous AI agents, and the latest cooling trends in the housing market. Finally, take a moment to reflect on the tenth anniversary of the Pulse nightclub tragedy and the enduring resilience of the Orlando community.</description>
+      <pubDate>Fri, 12 Jun 2026 10:33:47 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-12-103347.mp3" length="3799680" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-12-103347.mp3</guid>
+      <itunes:duration>237</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-11</title>
       <description>Dive into the rapidly evolving world of AI as this episode explores Anthropic&apos;s new enterprise push, the rise of &quot;botsitting&quot; in the workplace, and a major safety lawsuit facing xAI. Plus, get the latest on a surprising real estate shift where buyers are gaining leverage despite record-high home prices, followed by a somber tribute marking the tenth anniversary of the Pulse nightclub tragedy.</description>
       <pubDate>Thu, 11 Jun 2026 11:34:12 GMT</pubDate>
