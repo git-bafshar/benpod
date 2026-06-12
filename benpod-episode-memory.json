@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-06-12",
+      "summary": "This episode dives into the high-stakes diplomatic tension between the U.S. and Iran as planned military strikes are abruptly paused amid conflicting reports of a deal. Plus, explore the massive power shift in Silicon Valley as the \"MANGOS\" era of AI and infrastructure takes over, highlighted by a mind-boggling $12 billion funding round for Jeff Bezos’s new startup. Finally, discover the strategic reasoning behind the San Francisco 49ers' shocking decision to cancel their mandatory minicamp.",
+      "keyTopics": [
+        "US calls off planned military strikes on Iran",
+        "MANGOS tech acronym replacing FAANG for AI era",
+        "First Anthropic Public Record safety testing report",
+        "Anthropic partners with DXC Technology to deploy Claude",
+        "Jeff Bezos AI startup Prometheus raises 12 billion dollars",
+        "AI infrastructure startup Railway raises 100 million dollars",
+        "San Francisco 49ers cancel mandatory minicamp"
+      ],
+      "articles": [
+        "ESPN 49ers News::49ers: 3 reasons the 49ers canceled mandatory minicamp",
+        "Foreign Policy - Iran::Missile Defense Worked Against Iran. It Might Not Work Against China.",
+        "Foreign Policy - Iran::War and Circuses",
+        "Foreign Policy - Iran::Trump Backpedals on Planned Iran Strikes, Citing Deal Progress"
+      ]
+    },
+    {
       "date": "2026-06-11",
       "summary": "Dive into the latest in tech as Anthropic addresses backlash over its new AI models, alongside emerging tools transforming music streaming and digital organization. Plus, catch up on the sports world's biggest headlines, including a blockbuster NFL trade reshaping the NFC West and a historic ninth-inning comeback in baseball. Finally, stay informed on escalating U.S.-Iran geopolitical tensions and the ongoing football stadium stalemate in Chicago.",
       "keyTopics": [
@@ -239,26 +258,6 @@
       ],
       "articles": [
         "ESPN Giants::Giants Recap: Arizona Diamondbacks at San Francisco Giants"
-      ]
-    },
-    {
-      "date": "2026-05-25",
-      "summary": "This episode dives into the ethical and security challenges of rapid technological growth, highlighting Pope Leo XIV’s warning about AI power concentration and a massive cybercrime bust in the Netherlands. It also explores the rising trend of ambient technology with a look at Amazon’s new wearable, the \"Bee,\" and how different tech giants are handling user privacy. Finally, catch up on the latest sports news, including the Giants' victory over the White Sox and a recovery update on Jimmy Butler.",
-      "keyTopics": [
-        "Pope Leo the Fourteenth encyclical warning on AI power",
-        "Netherlands authorities seize 800 servers in cybercrime bust",
-        "Google defending AI Overviews against SEO spammers",
-        "Amazon testing Bee ambient AI wearable device",
-        "Apple privacy-centric Siri overhaul for on-device processing",
-        "Jimmy Butler ACL recovery progress at BottleRock festival",
-        "San Francisco Giants victory over Chicago White Sox"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Chicago White Sox at San Francisco Giants",
-        "ESPN Warriors News::Warriors: Jimmy Butler pumps up fans to 'A Thousand Miles' at BottleRock",
-        "ESPN Giants News::Giants: Giants put Jung Hoo Lee on IL, call up prospect Victor Bericoto",
-        "ESPN 49ers News::49ers: What will new DC Raheem Morris bring to the 49ers' defense?",
-        "Foreign Policy - Iran::‘Atropia’ Takes on the War on Terror"
       ]
     }
   ]
