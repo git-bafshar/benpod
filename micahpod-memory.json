@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-15",
+      "summary": "This episode explores the brewing battle over the U.S. government's sudden suspension of Anthropic's latest frontier AI models and the resulting backlash from cybersecurity experts. We also dive into the rapid rise of enterprise AI agents, highlighted by Salesforce's massive $3.6 billion acquisition and new infrastructure to manage digital employee identities. Finally, discover how on-board AI is revolutionizing space satellites and India's accelerating push for sovereign AI technology.",
+      "keyTopics": [
+        "US government suspension of Anthropic Fable and Mythos models",
+        "Cybersecurity experts protest White House ban on Anthropic models",
+        "Salesforce acquires customer service AI startup Fin for $3.6B",
+        "NewCore raises $66M for enterprise AI agent identity management",
+        "Satellite demonstrates autonomous real-time target detection using onboard AI",
+        "Indian AI startup Sarvam achieves unicorn status with HCLTech investment",
+        "Anthropic partners with TCS and DXC for Claude enterprise deployment"
+      ]
+    },
+    {
       "date": "2026-06-12",
       "summary": "Witness history in the making with a deep dive into SpaceX's record-breaking IPO and the multi-billion-dollar funding boom shaping the future of physical AI and robotics. This episode also explores user feedback on Anthropic's new Claude 5 model, the costly risks of runaway autonomous AI agents, and the latest cooling trends in the housing market. Finally, take a moment to reflect on the tenth anniversary of the Pulse nightclub tragedy and the enduring resilience of the Orlando community.",
       "keyTopics": [
@@ -167,22 +180,6 @@
         "SOND funding for AI-powered sleep earbuds",
         "Spain ban on Polymarket and Kalshi prediction markets",
         "Growing user fatigue and burnout with AI systems"
-      ]
-    },
-    {
-      "date": "2026-05-26",
-      "summary": "Explore how the transition into AI’s \"Agentic Era\" is transforming the workforce following a major startup's decision to replace employees with autonomous software agents. This episode also dives into the ethical and global regulatory challenges facing the tech industry, including Spanish restrictions on prediction markets. Finally, get the latest updates on a deeply divided national housing market and an upcoming weather system bringing heavy rain to Central Florida.",
-      "keyTopics": [
-        "ClickUp replaces employees with thousands of AI agents",
-        "The transition from chatbots to the Agentic Era",
-        "Anthropic co-founder Chris Olah responds to Pope AI encyclical",
-        "Spain regulators block prediction markets Polymarket and Kalshi",
-        "GitHub Actions outage highlights developer workflow central dependencies",
-        "US housing market divergence between luxury and affordable sectors"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
