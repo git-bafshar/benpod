@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-15</title>
+      <description>This episode explores major shifts in the AI landscape, highlighting Salesforce’s massive $3.6 billion acquisition of Fin, Meta’s new data-driven &quot;AI Mode,&quot; and the intense cybersecurity backlash surrounding government restrictions on Anthropic&apos;s advanced models. We also unpack SpaceX’s highly anticipated IPO and its ambitious vision to build a global data and infrastructure network from low Earth orbit. Plus, get quick updates on the mounting drama of the 2026 World Cup group stages and a legendary local tech outage.</description>
+      <pubDate>Mon, 15 Jun 2026 11:45:03 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-15-114503.mp3" length="3397248" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-15-114503.mp3</guid>
+      <itunes:duration>212</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-12</title>
       <description>Explore the dawn of a new tech era as a &quot;hot IPO summer&quot; fast-tracks major players like SpaceX, whose newly public S-1 filing reveals a bold strategy to dominate global data infrastructure. Then, discover the dark side of autonomous systems with the cautionary tale of a rogue AI agent that ran up catastrophic cloud bills and bankrupted its developer. Plus, get a quick update on the high-stakes drama of the World Cup group stages and a surprisingly persistent local tech outage.</description>
       <pubDate>Fri, 12 Jun 2026 09:51:31 GMT</pubDate>
