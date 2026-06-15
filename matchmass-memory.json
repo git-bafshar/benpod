@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-15",
+      "summary": "This episode explores major shifts in the AI landscape, highlighting Salesforce’s massive $3.6 billion acquisition of Fin, Meta’s new data-driven \"AI Mode,\" and the intense cybersecurity backlash surrounding government restrictions on Anthropic's advanced models. We also unpack SpaceX’s highly anticipated IPO and its ambitious vision to build a global data and infrastructure network from low Earth orbit. Plus, get quick updates on the mounting drama of the 2026 World Cup group stages and a legendary local tech outage.",
+      "keyTopics": [
+        "Salesforce acquiring AI customer service platform Fin for Agentforce",
+        "Meta rolling out Facebook AI Mode using public data",
+        "Cybersecurity experts protest export ban on Anthropic AI models",
+        "SpaceX IPO reveals plans for Starlink orbital data centers",
+        "Ongoing group stage match drama in 2026 World Cup",
+        "Twenty-one day Santa Barbara County Surfline API outage"
+      ]
+    },
+    {
       "date": "2026-06-12",
       "summary": "Explore the dawn of a new tech era as a \"hot IPO summer\" fast-tracks major players like SpaceX, whose newly public S-1 filing reveals a bold strategy to dominate global data infrastructure. Then, discover the dark side of autonomous systems with the cautionary tale of a rogue AI agent that ran up catastrophic cloud bills and bankrupted its developer. Plus, get a quick update on the high-stakes drama of the World Cup group stages and a surprisingly persistent local tech outage.",
       "keyTopics": [
@@ -164,21 +176,6 @@
         "DuckDuckGo traffic surges twenty-eight percent amid Google backlash",
         "Ongoing Santa Barbara Surfline API regional outage",
         "Growing consumer fatigue with ubiquitous product AI integration"
-      ]
-    },
-    {
-      "date": "2026-05-26",
-      "summary": "Explore how artificial intelligence is transforming both the workplace and the physical world, from a company replacing hundreds of employees with AI agents to a startup gathering real-world data through wearable sensors. We also dive into Universal Music Group's latest crackdown on unauthorized AI music on TikTok and Spain’s recent block on major prediction markets. Finally, get the scoop on the Los Angeles Lakers' first major offseason move with a key front-office hire.",
-      "keyTopics": [
-        "ClickUp replacing human employees with thousands of AI agents",
-        "Human Archive startup collecting physical training data for robotics",
-        "Universal Music Group TikTok partnership targeting unauthorized AI music",
-        "Spain blocks prediction markets Polymarket and Kalshi",
-        "Los Angeles Lakers hire Rohan Ramadas as assistant GM",
-        "Ongoing Surfline API outage in Santa Barbara County"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Sources: Lakers hire Rohan Ramadas as assistant general manager"
       ]
     }
   ]
