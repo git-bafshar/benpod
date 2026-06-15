@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-06-15",
+      "summary": "Explore the heated debate over government AI restrictions as cybersecurity veterans push back, alongside a look at Salesforce's massive $3.6 billion acquisition of customer service platform Fin. This episode also covers the political standoff over the Chicago Bears' stadium, recent sports highlights, and the domestic political and economic ripple effects of rising US-Iran tensions.",
+      "keyTopics": [
+        "Cybersecurity experts protest White House restrictions on Anthropic models",
+        "Salesforce acquires AI customer service platform Fin for $3.6B",
+        "AI agent identity startup NewCore raises $66 million",
+        "Chicago Bears stadium funding dispute and Indiana move rumors",
+        "Tragic passing of former 49ers defensive lineman Aldon Smith",
+        "US-Iran geopolitical tensions impact on Israeli Prime Minister Netanyahu"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Chicago Cubs at San Francisco Giants",
+        "ESPN Giants News::Giants: Giants put reliever Keaton Winn on IL with elbow strain",
+        "ESPN 49ers News::49ers: Former NFL defensive lineman Aldon Smith dies at age 36",
+        "Foreign Policy - Iran::Netanyahu’s Reelection Could Hinge on Outcome of Iran War",
+        "Foreign Policy - Iran::Trump’s Big Weekend Could Derail the G-7",
+        "Foreign Policy - Iran::Will Farmers Lose Faith With Trump?"
+      ]
+    },
+    {
       "date": "2026-06-12",
       "summary": "This episode dives into the high-stakes diplomatic tension between the U.S. and Iran as planned military strikes are abruptly paused amid conflicting reports of a deal. Plus, explore the massive power shift in Silicon Valley as the \"MANGOS\" era of AI and infrastructure takes over, highlighted by a mind-boggling $12 billion funding round for Jeff Bezos’s new startup. Finally, discover the strategic reasoning behind the San Francisco 49ers' shocking decision to cancel their mandatory minicamp.",
       "keyTopics": [
@@ -243,21 +263,6 @@
         "Foreign Policy - Iran::Inside the Struggle to Build an Iranian Opposition",
         "Foreign Policy - Iran::U.S. Launches ‘Self-Defense’ Strikes on Iran",
         "Foreign Policy - Iran::The Iran War Has Remade the Gulf"
-      ]
-    },
-    {
-      "date": "2026-05-26",
-      "summary": "Explore the rapidly shifting boundaries of the AI revolution as this episode dives into Universal Music Group's crackdown on unauthorized tracks on TikTok and a startup's bold decision to replace hundreds of employees with AI agents. The discussion also highlights a unique venture hiring gig workers to gather real-world data for robotics, alongside a major AI safety pioneer's response to the Vatican's ethical warnings. Plus, catch up on the latest tech outages, global prediction market regulations, and local sports updates.",
-      "keyTopics": [
-        "Universal Music Group and TikTok deal to combat unauthorized AI music",
-        "ClickUp replaces hundreds of employees with AI agents",
-        "Human Archive gig worker data collection for robotics training",
-        "Anthropic Chris Olah response to Pope Leo XIV AI encyclical",
-        "Spain blocking prediction markets Polymarket and Kalshi",
-        "Chicago Tribune acquisition of the Daily Herald newspaper"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Arizona Diamondbacks at San Francisco Giants"
       ]
     }
   ]
