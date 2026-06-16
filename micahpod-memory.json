@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-16",
+      "summary": "This episode dives into the rapidly shifting tech and AI landscapes, starting with SpaceX’s staggering $2.7 trillion valuation and the surprising security reasons behind the government's sudden ban on Anthropic's advanced models. Discover how the U.S. government is treating private AI infrastructure as a critical national security asset while everyday AI tools continue to transform the workplace. Plus, get a quick briefing on the shifting dynamics of the cooling real estate market.",
+      "keyTopics": [
+        "SpaceX valuation surges past 2.7 trillion dollars",
+        "US government suspension of Anthropic Fable and Mythos",
+        "DOJ defends xAI gas turbine permitting violation",
+        "Plaud AI software tops 100 million ARR",
+        "Robinhood layoffs announced by CEO Vlad Tenev",
+        "US real estate market cooling and normalization trends"
+      ]
+    },
+    {
       "date": "2026-06-15",
       "summary": "This episode explores the brewing battle over the U.S. government's sudden suspension of Anthropic's latest frontier AI models and the resulting backlash from cybersecurity experts. We also dive into the rapid rise of enterprise AI agents, highlighted by Salesforce's massive $3.6 billion acquisition and new infrastructure to manage digital employee identities. Finally, discover how on-board AI is revolutionizing space satellites and India's accelerating push for sovereign AI technology.",
       "keyTopics": [
@@ -169,17 +181,6 @@
         "YouTube new podcast AI features and Auto Speed tool",
         "YouTube automatic labeling of generative AI videos",
         "Recursive Self-Improvement as the new AI research frontier"
-      ]
-    },
-    {
-      "date": "2026-05-27",
-      "summary": "This episode explores the cutting edge of tech, from ElevenLabs' game-changing interactive AI music tools to the rise of hyper-personalized, AI-powered sleep earbuds. The discussion also dives into the shifting geopolitics of the global AI talent war as China works to retain its top researchers at home. Finally, discover why a growing wave of \"AI fatigue\" is setting in among everyday users who are starting to tire of the relentless tech hype.",
-      "keyTopics": [
-        "ElevenLabs music generation model release",
-        "China tightening control over domestic AI talent pipeline",
-        "SOND funding for AI-powered sleep earbuds",
-        "Spain ban on Polymarket and Kalshi prediction markets",
-        "Growing user fatigue and burnout with AI systems"
       ]
     }
   ]
