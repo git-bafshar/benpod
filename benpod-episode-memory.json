@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-06-16",
+      "summary": "Explore a monumental day in tech and global news, starting with Google’s launch of Android 17 and SpaceX’s historic debut on the public stock market. Dive into the friction surrounding the AI boom, from growing consumer fatigue with tech branding to the government's regulatory battles over AI safety and energy demands. Plus, get crucial updates on a fragile new truce between the U.S. and Iran and the latest headlines shaking up the sports world.",
+      "keyTopics": [
+        "Google Android 17 release with Gemini AI integration",
+        "Consumer backlash against AI branding in marketing",
+        "Anthropic Fable 5 code generation security concerns",
+        "SpaceX official initial public offering",
+        "Department of Justice defense of xAI gas turbines",
+        "Fragile US and Iran truce ahead of G7",
+        "San Francisco Giants Pride Night Bible verse controversy"
+      ],
+      "articles": [
+        "ESPN Giants News::Giants: MLB decries use of personal writings on Pride Night hats",
+        "ESPN 49ers News::49ers: Trent Williams expects 49ers extension to be his last",
+        "Foreign Policy - Iran::Everyone Lost the War With Iran",
+        "Foreign Policy - Iran::U.S.-Iran Peace Deal Arrives Just in Time for G-7 Summit",
+        "Foreign Policy - Iran::The Truce Between the U.S. and Iran Was the Easy Part"
+      ]
+    },
+    {
       "date": "2026-06-15",
       "summary": "Explore the heated debate over government AI restrictions as cybersecurity veterans push back, alongside a look at Salesforce's massive $3.6 billion acquisition of customer service platform Fin. This episode also covers the political standoff over the Chicago Bears' stadium, recent sports highlights, and the domestic political and economic ripple effects of rising US-Iran tensions.",
       "keyTopics": [
@@ -244,25 +264,6 @@
       ],
       "articles": [
         "Foreign Policy - Iran::Trump Accuses Iran of Stalling Peace Talks"
-      ]
-    },
-    {
-      "date": "2026-05-27",
-      "summary": "Explore the rapidly accelerating AI landscape, from Cognition’s massive billion-dollar valuation and ElevenLabs’ new music generator to controversial data-privacy policies and emerging \"AI fatigue.\" This episode also unpacks the shifting geopolitical dynamics of recent U.S. strikes in the Gulf and the regional realignment that follows. Finally, catch a promising health update on San Francisco 49ers star George Kittle as he makes strides toward a highly anticipated season comeback.",
-      "keyTopics": [
-        "Cognition Devin AI agent twenty-five billion dollar valuation",
-        "ElevenLabs granular control music generation model release",
-        "SOND seven million dollar AI sleep earbuds launch",
-        "Anthropic international expansion with new Seoul office",
-        "PostHog controversial opt-out customer data AI training",
-        "US self-defense strikes on Iran and shifting Gulf alliances",
-        "Growing consumer fatigue and backlash over AI saturation"
-      ],
-      "articles": [
-        "ESPN 49ers News::49ers: George Kittle, 49ers optimistic he can play in Week 1",
-        "Foreign Policy - Iran::Inside the Struggle to Build an Iranian Opposition",
-        "Foreign Policy - Iran::U.S. Launches ‘Self-Defense’ Strikes on Iran",
-        "Foreign Policy - Iran::The Iran War Has Remade the Gulf"
       ]
     }
   ]
