@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-16",
+      "summary": "Explore the growing divide between consumer fatigue over AI buzzwords and the U.S. government’s escalating treatment of AI compute power as critical national infrastructure. This episode also breaks down the strategic vision behind SpaceX’s recent IPO, highlighting Starlink's future as an orbital data network. Finally, catch a quick update on the high-stakes action at the World Cup group stages.",
+      "keyTopics": [
+        "WordPress VIP survey on consumer AI marketing fatigue",
+        "Google Android 17 release with embedded Gemini features",
+        "Plaud AI notetaker crosses 100 million dollars ARR",
+        "Anthropic Claude model error rate spikes",
+        "DOJ intervenes in xAI unpermitted gas turbine dispute",
+        "SpaceX IPO validates Starlink orbital data network valuation",
+        "Santa Barbara Surfline API outage reaches day 22"
+      ]
+    },
+    {
       "date": "2026-06-15",
       "summary": "This episode explores major shifts in the AI landscape, highlighting Salesforce’s massive $3.6 billion acquisition of Fin, Meta’s new data-driven \"AI Mode,\" and the intense cybersecurity backlash surrounding government restrictions on Anthropic's advanced models. We also unpack SpaceX’s highly anticipated IPO and its ambitious vision to build a global data and infrastructure network from low Earth orbit. Plus, get quick updates on the mounting drama of the 2026 World Cup group stages and a legendary local tech outage.",
       "keyTopics": [
@@ -164,18 +177,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Source: Lakers lay off over a dozen amid business-side reorg"
-      ]
-    },
-    {
-      "date": "2026-05-27",
-      "summary": "Explore the massive divide in the tech world as AI startups secure eye-popping valuations while everyday users begin to push back against AI fatigue. This episode dives into how Google's controversial AI search overviews are driving a surge in traffic to simpler alternatives like DuckDuckGo. Plus, get an update on a surprisingly persistent local API outage affecting coastal routines.",
-      "keyTopics": [
-        "Cognition raises one billion dollars at twenty-five billion valuation",
-        "SOND launches out of stealth with AI sleep earbuds",
-        "ElevenLabs releases new music generation model with regeneration",
-        "DuckDuckGo traffic surges twenty-eight percent amid Google backlash",
-        "Ongoing Santa Barbara Surfline API regional outage",
-        "Growing consumer fatigue with ubiquitous product AI integration"
       ]
     }
   ]
