@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-06-16</title>
+      <description>Explore a monumental day in tech and global news, starting with Google’s launch of Android 17 and SpaceX’s historic debut on the public stock market. Dive into the friction surrounding the AI boom, from growing consumer fatigue with tech branding to the government&apos;s regulatory battles over AI safety and energy demands. Plus, get crucial updates on a fragile new truce between the U.S. and Iran and the latest headlines shaking up the sports world.</description>
+      <pubDate>Tue, 16 Jun 2026 13:06:23 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-16-130623.mp3" length="3911424" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-16-130623.mp3</guid>
+      <itunes:duration>244</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-06-15</title>
       <description>Explore the heated debate over government AI restrictions as cybersecurity veterans push back, alongside a look at Salesforce&apos;s massive $3.6 billion acquisition of customer service platform Fin. This episode also covers the political standoff over the Chicago Bears&apos; stadium, recent sports highlights, and the domestic political and economic ripple effects of rising US-Iran tensions.</description>
       <pubDate>Mon, 15 Jun 2026 12:59:24 GMT</pubDate>
