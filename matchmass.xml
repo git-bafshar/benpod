@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-17</title>
+      <description>Explore the widening gap between public skepticism of AI and the tech industry&apos;s rapid acceleration, from Google&apos;s new Gemini-powered smart speaker to startups building mathematically verifiable trust. This episode also dives into the escalating political battlefield of tech, unpacking alarming allegations of government targeting from employees at Anthropic. Plus, stay tuned for updates on the high-stakes drama of the 2026 World Cup group stages and a humorous look at a stubborn local mystery.</description>
+      <pubDate>Wed, 17 Jun 2026 10:13:29 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-17-101329.mp3" length="3284928" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-17-101329.mp3</guid>
+      <itunes:duration>205</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-16</title>
       <description>Explore the growing divide between consumer fatigue over AI buzzwords and the U.S. government’s escalating treatment of AI compute power as critical national infrastructure. This episode also breaks down the strategic vision behind SpaceX’s recent IPO, highlighting Starlink&apos;s future as an orbital data network. Finally, catch a quick update on the high-stakes action at the World Cup group stages.</description>
       <pubDate>Tue, 16 Jun 2026 11:37:16 GMT</pubDate>
