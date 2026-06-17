@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-17",
+      "summary": "Explore how government scrutiny is unexpectedly boosting enterprise demand for cutting-edge AI, turning a regulatory battle into a powerful marketing tool. This episode also dives into the rise of mathematical safety in AI engineering, major global investments in India’s tech infrastructure, and Pinterest’s new conversational search. Finally, learn why most consumers are already experiencing \"AI fatigue\" and why the smartest brands are ditching the buzzwords to focus on real human benefits.",
+      "keyTopics": [
+        "Anthropic Fable and Mythos government suspension boosts enterprise sales",
+        "Pramaana Labs raises 27 million dollar seed round",
+        "Canadian pension fund investment in Indian data center operator CtrlS",
+        "Pinterest launches experimental conversational shopping app Ask Pinterest",
+        "Consumer survey shows growing fatigue with AI brand messaging",
+        "US real estate market enters slow cooling and normalization phase"
+      ]
+    },
+    {
       "date": "2026-06-16",
       "summary": "This episode dives into the rapidly shifting tech and AI landscapes, starting with SpaceX’s staggering $2.7 trillion valuation and the surprising security reasons behind the government's sudden ban on Anthropic's advanced models. Discover how the U.S. government is treating private AI infrastructure as a critical national security asset while everyday AI tools continue to transform the workplace. Plus, get a quick briefing on the shifting dynamics of the cooling real estate market.",
       "keyTopics": [
@@ -169,18 +181,6 @@
         "Redesigning internet cloud infrastructure for autonomous AI agents",
         "South Korean startup XCENA memory bottleneck chip architecture",
         "AWS and Cloudflare optimizing infrastructure for machine traffic"
-      ]
-    },
-    {
-      "date": "2026-05-28",
-      "summary": "Discover Apple's major upcoming overhaul for Siri in iOS 27 and find out why top AI models frequently disagree on basic facts in an eye-opening new study. This episode also covers Anthropic's rapid global expansion, YouTube's new labeling system for generative AI content, and the rise of \"Recursive Self-Improvement\" as the industry's next major frontier. Tune in to stay ahead of the curve on the latest shifts in technology and artificial intelligence.",
-      "keyTopics": [
-        "Apple iOS 27 redesign and standalone Siri AI app",
-        "Frontier AI models disagreeing on factual claims",
-        "Anthropic global expansion in Milan and Seoul",
-        "YouTube new podcast AI features and Auto Speed tool",
-        "YouTube automatic labeling of generative AI videos",
-        "Recursive Self-Improvement as the new AI research frontier"
       ]
     }
   ]
