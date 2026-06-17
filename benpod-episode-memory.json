@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-06-17",
+      "summary": "Explore the dual realities of the AI boom as this episode breaks down Google's latest smart speaker and the massive global energy demands of data centers. We also analyze the political friction in Washington over a key national security nomination and the fragile diplomatic truce with Iran. Finally, get crucial updates on a broken federal prison grievance system, a major public health victory in Pakistan, and shifting buyer leverage in the housing market.",
+      "keyTopics": [
+        "Google Gemini-powered Home Speaker announcement",
+        "Anthropic expansion into South Korea AI ecosystem",
+        "Pramaana Labs seed funding for AI formal verification",
+        "Canadian pension fund investment in Indian data center CtrlS",
+        "Senate confirmation hearing for DNI nominee Jay Clayton",
+        "US-Iran truce diplomatic negotiations at G7 summit",
+        "NPR investigation of federal prison grievance system failures",
+        "Pakistan tax elimination on menstrual products and contraceptives"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Atlanta Braves",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Can Ships in the Gulf Take Trump at His Word?",
+        "Foreign Policy - Iran::Iran’s Victory Is More Pyrrhic Than It Looks",
+        "Foreign Policy - Iran::What Will China Learn From the Iran War?"
+      ]
+    },
+    {
       "date": "2026-06-16",
       "summary": "Explore a monumental day in tech and global news, starting with Google’s launch of Android 17 and SpaceX’s historic debut on the public stock market. Dive into the friction surrounding the AI boom, from growing consumer fatigue with tech branding to the government's regulatory battles over AI safety and energy demands. Plus, get crucial updates on a fragile new truce between the U.S. and Iran and the latest headlines shaking up the sports world.",
       "keyTopics": [
@@ -247,23 +269,6 @@
         "Foreign Policy - Iran::Syria Wants to Replace the Strait of Hormuz",
         "Foreign Policy - Iran::Of Course It’s a War",
         "Foreign Policy - Iran::Groundhog Day: Iran War Edition"
-      ]
-    },
-    {
-      "date": "2026-05-28",
-      "summary": "Explore the rapidly accelerating AI landscape with a look at Anthropic’s new Claude Opus 4.8 release and the rise of conversational agents, including Apple’s rumored Siri redesign. This episode also dives into the growing phenomenon of consumer \"AI fatigue,\" the shifting priorities of enterprise security, and the high-stakes corporate maneuvering behind major tech partnerships. Finally, get updates on the complex geopolitical dynamics surrounding U.S.-Iran relations and the global expansion of the tech sector.",
-      "keyTopics": [
-        "Anthropic Claude Opus 4.8 model release",
-        "Sesame conversational AI app launch by Oculus founders",
-        "Leaked Apple Siri redesign and standalone AI app",
-        "Salesforce Slackbot upgrade to proactive AI agent",
-        "Continue? Y/N game highlighting AI permission fatigue",
-        "Elon Musk dispute over SpaceX Anthropic contract timeline",
-        "Databricks on enterprise AI shift to safety focus",
-        "Anthropic expansion in Milan and South Korea"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::Trump Accuses Iran of Stalling Peace Talks"
       ]
     }
   ]
