@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-06-18",
+      "summary": "Dive into the major diplomatic breakthrough of a newly signed U.S.-Iran agreement and its sweeping global implications. This episode also explores the shifting landscape of artificial intelligence, highlighting a new grassroots PAC challenging Big Tech's lobbying power and a startup securing massive funding for \"embodied AI\" trained on video games. Finally, get the latest on SpaceX's post-IPO board appointment, a viral game that gamifies gerrymandering, and quick tips for managing daily AI fatigue.",
+      "keyTopics": [
+        "US and Iran nuclear de-escalation agreement signed",
+        "Guardrails PAC launches to advocate for AI safety",
+        "General Intuition raises funding for embodied AI world models",
+        "SpaceX appoints former Sequoia leader Roelof Botha to board",
+        "Gerrymandle viral online puzzle game about redistricting",
+        "How to disable Google Docs Gemini writing assistant popups",
+        "Pixi launches augmented reality messaging app for iOS"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::The Iran War Damaged U.S.-India Ties",
+        "Foreign Policy - Iran::Trump Defends His Iran Deal",
+        "Foreign Policy - Iran::U.S.-Iran Memorandum of Understanding: Full Text"
+      ]
+    },
+    {
       "date": "2026-06-17",
       "summary": "Explore the dual realities of the AI boom as this episode breaks down Google's latest smart speaker and the massive global energy demands of data centers. We also analyze the political friction in Washington over a key national security nomination and the fragile diplomatic truce with Iran. Finally, get crucial updates on a broken federal prison grievance system, a major public health victory in Pakistan, and shifting buyer leverage in the housing market.",
       "keyTopics": [
@@ -252,23 +270,6 @@
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis",
         "Foreign Policy - Iran::What Iran Stands to Gain From a Truce Deal With the United States"
-      ]
-    },
-    {
-      "date": "2026-05-29",
-      "summary": "Dive into the staggering scale of the AI landscape as we discuss Anthropic's near-trillion-dollar valuation, the evolving role of AI coding assistants, and the hardware startups tackling critical memory bottlenecks. Plus, explore shifting geopolitics in the Middle East as Syria attempts to build a strategic route bypassing the Strait of Hormuz. We wrap up with some promising sports news regarding San Francisco 49ers star Nick Bosa's recovery timeline.",
-      "keyTopics": [
-        "Anthropic sixty-five billion dollar Series H funding round",
-        "Cognition co-founder Scott Wu clarifies Devin AI positioning",
-        "South Korean AI memory chip startup XCENA funding round",
-        "Syria transit hub proposal bypassing Strait of Hormuz",
-        "San Francisco 49ers Nick Bosa ACL recovery update"
-      ],
-      "articles": [
-        "ESPN 49ers News::49ers: 49ers' Bosa making progress, could be back for training camp",
-        "Foreign Policy - Iran::Syria Wants to Replace the Strait of Hormuz",
-        "Foreign Policy - Iran::Of Course It’s a War",
-        "Foreign Policy - Iran::Groundhog Day: Iran War Edition"
       ]
     }
   ]
