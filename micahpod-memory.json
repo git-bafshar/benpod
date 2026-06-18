@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-18",
+      "summary": "Discover how the tech industry is shifting from experimental AI spending to strict budget justification as \"AI fatigue\" sets in for both enterprises and consumers. This episode also explores major strategic moves from giants like SpaceX and Anthropic, alongside the diverging hardware and software approaches to the future of augmented reality. Plus, learn how innovative startups are securing massive funding through creative recruiting and AI-specific infrastructure.",
+      "keyTopics": [
+        "Enterprise shift from AI experimentation to ROI justification",
+        "User pushback against Google Docs Gemini AI features",
+        "SpaceX appoints Sequoia Capital's Roelof Botha to board",
+        "Anthropic expands to South Korea amid US regulatory challenges",
+        "Snap AR glasses market reception versus Pixi messaging app",
+        "Railway secures $100 million for AI-native cloud infrastructure",
+        "Listen Labs viral billboard recruiting campaign and funding"
+      ]
+    },
+    {
       "date": "2026-06-17",
       "summary": "Explore how government scrutiny is unexpectedly boosting enterprise demand for cutting-edge AI, turning a regulatory battle into a powerful marketing tool. This episode also dives into the rise of mathematical safety in AI engineering, major global investments in India’s tech infrastructure, and Pinterest’s new conversational search. Finally, learn why most consumers are already experiencing \"AI fatigue\" and why the smartest brands are ditching the buzzwords to focus on real human benefits.",
       "keyTopics": [
@@ -169,18 +182,6 @@
         "Erin Brockovich targeting big tech data center water usage",
         "AI safety ethics vs public market investor demands",
         "Atlantic hurricane season AI forecasting adoption"
-      ]
-    },
-    {
-      "date": "2026-05-29",
-      "summary": "Discover the staggering scale of the AI industry as this episode dives into Anthropic's massive $65 billion funding round and the release of Claude Opus 4.8. Learn how companies like Glean are driving immediate business value with cost-saving enterprise search tools, even as the internet's infrastructure is quietly rebuilt to support autonomous machine traffic. Plus, explore the physical side of this revolution with a look at how hardware startups are tackling critical memory bottlenecks.",
-      "keyTopics": [
-        "Anthropic 65 billion dollar Series H funding round",
-        "Anthropic Claude Opus 4.8 flagship model release",
-        "Enterprise AI search company Glean triples annual revenue",
-        "Redesigning internet cloud infrastructure for autonomous AI agents",
-        "South Korean startup XCENA memory bottleneck chip architecture",
-        "AWS and Cloudflare optimizing infrastructure for machine traffic"
       ]
     }
   ]
