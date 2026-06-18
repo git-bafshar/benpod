@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-18</title>
+      <description>This episode explores the rapidly expanding boundaries of artificial intelligence, from a startup training &quot;world models&quot; on video game footage to the rise of celebrity AI wellness clones. We also dive into the political landscape with &quot;Guardrails,&quot; a new tech-worker-backed PAC fighting for industry safety standards against Big Tech&apos;s massive lobbying power. Finally, get a quick update on the high-stakes World Cup group stages and a humorous look at a weeks-long local surf report outage.</description>
+      <pubDate>Thu, 18 Jun 2026 10:19:50 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-18-101950.mp3" length="3830400" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-18-101950.mp3</guid>
+      <itunes:duration>239</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-17</title>
       <description>Explore the widening gap between public skepticism of AI and the tech industry&apos;s rapid acceleration, from Google&apos;s new Gemini-powered smart speaker to startups building mathematically verifiable trust. This episode also dives into the escalating political battlefield of tech, unpacking alarming allegations of government targeting from employees at Anthropic. Plus, stay tuned for updates on the high-stakes drama of the 2026 World Cup group stages and a humorous look at a stubborn local mystery.</description>
       <pubDate>Wed, 17 Jun 2026 10:13:29 GMT</pubDate>
