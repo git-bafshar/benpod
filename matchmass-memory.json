@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-18",
+      "summary": "This episode explores the rapidly expanding boundaries of artificial intelligence, from a startup training \"world models\" on video game footage to the rise of celebrity AI wellness clones. We also dive into the political landscape with \"Guardrails,\" a new tech-worker-backed PAC fighting for industry safety standards against Big Tech's massive lobbying power. Finally, get a quick update on the high-stakes World Cup group stages and a humorous look at a weeks-long local surf report outage.",
+      "keyTopics": [
+        "General Intuition raising 300 million for world models",
+        "Railway funding round for AI-native cloud infrastructure",
+        "Karamo Brown launches Kē wellness app with AI clone",
+        "Guardrails PAC tech worker advocacy for AI safety",
+        "Slowtech consumer movement resisting AI device attention",
+        "Ongoing Santa Barbara Surfline API technical outage"
+      ]
+    },
+    {
       "date": "2026-06-17",
       "summary": "Explore the widening gap between public skepticism of AI and the tech industry's rapid acceleration, from Google's new Gemini-powered smart speaker to startups building mathematically verifiable trust. This episode also dives into the escalating political battlefield of tech, unpacking alarming allegations of government targeting from employees at Anthropic. Plus, stay tuned for updates on the high-stakes drama of the 2026 World Cup group stages and a humorous look at a stubborn local mystery.",
       "keyTopics": [
@@ -163,17 +175,6 @@
         "Erin Brockovich targets data center resource consumption",
         "Ongoing Surfline API outage in Santa Barbara",
         "2026 FIFA World Cup group stage kickoff"
-      ]
-    },
-    {
-      "date": "2026-05-29",
-      "summary": "This episode dives into the shifting narrative around AI workplace disruption as a prominent tech founder reframes autonomous agents as tools for human collaboration rather than job replacement. Discover how hardware players like Groq are securing massive funding to supercharge AI processing speeds through real-time inference. Plus, hear about a lighthearted local crisis in Santa Barbara, where a prolonged digital surf report outage is forcing beachgoers to check the waves the old-fashioned way.",
-      "keyTopics": [
-        "Cognition founder Scott Wu reframes Devin AI as augmentation",
-        "AI chipmaker Groq seeking six hundred fifty million funding",
-        "Groq pivot to AI inference as a service",
-        "Groq Language Processing Units challenge Nvidia GPU dominance",
-        "Santa Barbara Surfline API outage enters eighth day"
       ]
     }
   ]
