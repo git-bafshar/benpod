@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-19",
+      "summary": "In this episode, explore the fallout of the US government's historic decision to force Anthropic to pull its most powerful AI models from the market over national security concerns. The discussion contrasts this tight Western regulation with India's massive push for ubiquitous AI integration, alongside escalating global tensions over critical chip-making hardware. Plus, get a quick update on the 2026 World Cup and a lighthearted look at a prolonged local surf report outage.",
+      "keyTopics": [
+        "US government bans Anthropic Fable 5 and Mythos 5",
+        "Amazon researchers bypass Anthropic Fable 5 safety guardrails",
+        "Mukesh Ambani mass AI integration plan for India",
+        "US alleges ASML chip-making machine exported to China",
+        "2026 World Cup group stage tournament updates",
+        "Ongoing Santa Barbara Surfline API data outage"
+      ]
+    },
+    {
       "date": "2026-06-18",
       "summary": "This episode explores the rapidly expanding boundaries of artificial intelligence, from a startup training \"world models\" on video game footage to the rise of celebrity AI wellness clones. We also dive into the political landscape with \"Guardrails,\" a new tech-worker-backed PAC fighting for industry safety standards against Big Tech's massive lobbying power. Finally, get a quick update on the high-stakes World Cup group stages and a humorous look at a weeks-long local surf report outage.",
       "keyTopics": [
@@ -163,18 +175,6 @@
         "Revised Trump executive order on voluntary AI oversight",
         "Public market funding challenges for Anthropic and OpenAI IPOs",
         "Ongoing Santa Barbara Surfline API outage"
-      ]
-    },
-    {
-      "date": "2026-06-01",
-      "summary": "Explore the rapidly shifting landscape of artificial intelligence as industry pioneer Anthropic officially files to go public, while search engine DuckDuckGo capitalizes on AI fatigue by launching a \"no-AI\" search experience. The episode also dives into the mounting environmental costs of the tech boom, highlighting how the massive water and energy demands of data centers are drawing scrutiny from investors and activists alike. Finally, get a quick update on a prolonged digital outage affecting local surf reporting.",
-      "keyTopics": [
-        "Anthropic confidential IPO filing",
-        "DuckDuckGo no-AI search browser extensions",
-        "SpaceX IPO filing lists water access risk",
-        "Erin Brockovich targets data center resource consumption",
-        "Ongoing Surfline API outage in Santa Barbara",
-        "2026 FIFA World Cup group stage kickoff"
       ]
     }
   ]
