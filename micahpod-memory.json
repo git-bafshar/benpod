@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-06-19",
+      "summary": "Dive into the rapidly evolving AI landscape as the tech sector shifts from interactive chatbots to autonomous digital workforces, fueled by massive funding rounds and strategic corporate spinoffs. This episode also breaks down why the U.S. housing market is stalling due to soaring mortgage payments and canceled contracts, alongside a high-stakes purge in the intelligence community and fragile geopolitical developments abroad.",
+      "keyTopics": [
+        "Snap spinoff of AI video team Dotmo",
+        "Elastic acquisition of DeductiveAI for software debugging",
+        "Baseten $1.5 billion funding round for AI inference",
+        "Anthropic Claude Dispatch autonomous agent management tool",
+        "US allegations of ASML lithography machine export to China",
+        "US housing market mortgage rates and contract cancellations",
+        "Acting intelligence chief Bill Pulte planned staff purge"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-06-18",
       "summary": "Discover how the tech industry is shifting from experimental AI spending to strict budget justification as \"AI fatigue\" sets in for both enterprises and consumers. This episode also explores major strategic moves from giants like SpaceX and Anthropic, alongside the diverging hardware and software approaches to the future of augmented reality. Plus, learn how innovative startups are securing massive funding through creative recruiting and AI-specific infrastructure.",
       "keyTopics": [
@@ -170,18 +187,6 @@
         "Salesforce Slackbot AI agent enterprise feature release",
         "Local community backlash against AI data centers",
         "Florida versus OpenAI state-level regulation debate"
-      ]
-    },
-    {
-      "date": "2026-06-01",
-      "summary": "Get ready for a deep dive into the rapidly shifting AI landscape, starting with Anthropic's historic move to file for a public IPO and a new AI model that is out-forecasting traditional weather agencies just in time for hurricane season. The episode also examines DuckDuckGo's new \"no-AI\" search engine alternative for fatigued users and environmental activist Erin Brockovich’s crusade against the hidden ecological costs of tech data centers.",
-      "keyTopics": [
-        "Anthropic confidential S-1 filing for IPO",
-        "Windborne Systems AI weather forecasting model",
-        "DuckDuckGo no-AI search engine extensions",
-        "Erin Brockovich targeting big tech data center water usage",
-        "AI safety ethics vs public market investor demands",
-        "Atlantic hurricane season AI forecasting adoption"
       ]
     }
   ]
