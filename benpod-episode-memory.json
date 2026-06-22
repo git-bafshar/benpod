@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-06-22",
+      "summary": "Dive into the massive financial and environmental costs of the AI boom, featuring a staggering $150 million-a-month compute deal between SpaceX and Reflection AI alongside the competitive fallout from regulatory crackdowns on Anthropic. This episode also analyzes the growing domestic political firestorm surrounding the U.S.-Iran de-escalation agreement. Plus, stay tuned for a quick update on the San Francisco Giants' recent series sweep and some encouraging life expectancy news out of Chicago.",
+      "keyTopics": [
+        "Reflection AI and SpaceX multi-billion dollar compute deal",
+        "AI data center energy and water infrastructure demands",
+        "Anthropic Fable 5 and Mythos 5 federal suspension fallout",
+        "Amazon Alexa Plus testing in India with Hindi support",
+        "US Iran de-escalation agreement domestic political backlash",
+        "San Francisco Giants trade deadline rumors after Marlins sweep"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Miami Marlins",
+        "Foreign Policy - Iran::Trump Tests the Limits of Farcepolitik",
+        "Foreign Policy - Iran::The Vance Peace Deal",
+        "Foreign Policy - Iran::Israeli Officials and U.S. Lawmakers Slam Iran Deal"
+      ]
+    },
+    {
       "date": "2026-06-19",
       "summary": "This episode dives into the complex political aftermath of the historic U.S.-Iran de-escalation agreement and the escalating global tech war over advanced semiconductor equipment and AI regulations. You will also discover how India is executing a massive, national-scale AI rollout and get the latest updates on major sports shakeups, including a blockbuster NFL trade.",
       "keyTopics": [
@@ -247,25 +265,6 @@
         "ESPN Giants News::Giants: San Francisco Giants hire Gary Pettis as their third base coach",
         "ESPN 49ers News::49ers: Why Dre Greenlaw is happy to be back in San Francisco",
         "Foreign Policy - Iran::Congress Prepares for a Consequential Iran Vote"
-      ]
-    },
-    {
-      "date": "2026-06-02",
-      "summary": "This episode dives into a fascinating split in the AI landscape, exploring how developers are embedding advanced security systems into critical global infrastructure just as the White House transitions to a voluntary oversight model. Plus, learn why one rocket startup is making a massive $500 million bet on human talent over AI agents, alongside the latest updates on Middle East diplomacy and local sports drama.",
-      "keyTopics": [
-        "Anthropic Project Glasswing security model rollout",
-        "Revised US executive order making AI reviews voluntary",
-        "Impulse Space five hundred million dollar funding round",
-        "Israel and Hezbollah cease fire agreement",
-        "Dre Greenlaw returning to San Francisco 49ers",
-        "Chicago Bears stadium public funding failure"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Milwaukee Brewers",
-        "ESPN 49ers News::49ers: Dre Greenlaw ready for his second stint with the 49ers",
-        "Foreign Policy - Iran::Trump Says Israel, Hezbollah to Halt Attacks as Iran Talks Continue",
-        "Foreign Policy - Iran::A Trump Deal With Iran Could Spell Trouble for Netanyahu",
-        "Foreign Policy - Iran::The Energy Crisis Will Long Outlast the Iran War"
       ]
     }
   ]
