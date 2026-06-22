@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-06-22</title>
+      <description>Dive into the massive financial and environmental costs of the AI boom, featuring a staggering $150 million-a-month compute deal between SpaceX and Reflection AI alongside the competitive fallout from regulatory crackdowns on Anthropic. This episode also analyzes the growing domestic political firestorm surrounding the U.S.-Iran de-escalation agreement. Plus, stay tuned for a quick update on the San Francisco Giants&apos; recent series sweep and some encouraging life expectancy news out of Chicago.</description>
+      <pubDate>Mon, 22 Jun 2026 12:41:39 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-22-124139.mp3" length="4950336" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-22-124139.mp3</guid>
+      <itunes:duration>309</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-06-19</title>
       <description>This episode dives into the complex political aftermath of the historic U.S.-Iran de-escalation agreement and the escalating global tech war over advanced semiconductor equipment and AI regulations. You will also discover how India is executing a massive, national-scale AI rollout and get the latest updates on major sports shakeups, including a blockbuster NFL trade.</description>
       <pubDate>Fri, 19 Jun 2026 11:07:48 GMT</pubDate>
