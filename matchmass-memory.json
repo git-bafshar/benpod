@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-06-22",
+      "summary": "This episode dives into the massive financial and regulatory forces shaping the AI industry, highlighted by SpaceX's multi-billion dollar compute deal with Reflection AI and the market fallout from the government's crackdown on Anthropic. We also explore how the immense power demands of these growing AI data centers are prompting federal energy regulators to intervene. Plus, stay tuned for a quick update on the World Cup group stages and a lighthearted look at a persistent local tech outage.",
+      "keyTopics": [
+        "SpaceX and Reflection AI five billion dollar compute deal",
+        "Anthropic Fable 5 and Mythos 5 regulatory fallout",
+        "Amazon testing Alexa+ with Hindi language support in India",
+        "FERC regulatory crackdown on data center power consumption",
+        "Ongoing Santa Barbara Surfline API technical outage"
+      ]
+    },
+    {
       "date": "2026-06-19",
       "summary": "In this episode, explore the fallout of the US government's historic decision to force Anthropic to pull its most powerful AI models from the market over national security concerns. The discussion contrasts this tight Western regulation with India's massive push for ubiquitous AI integration, alongside escalating global tensions over critical chip-making hardware. Plus, get a quick update on the 2026 World Cup and a lighthearted look at a prolonged local surf report outage.",
       "keyTopics": [
@@ -163,18 +174,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Sources: Lakers hire Rohan Ramadas as assistant general manager"
-      ]
-    },
-    {
-      "date": "2026-06-02",
-      "summary": "Discover how the AI landscape is shifting as major tech players roll out hyper-specialized tools for white-collar professions, even as the U.S. government eases up on regulatory oversight. This episode also dives into the privacy backlash facing Amazon's Ring doorbells, the financial reality of funding massive AI labs, and the kickoff of the 2026 FIFA World Cup.",
-      "keyTopics": [
-        "OpenAI Codex specialized tools for white-collar professions",
-        "Microsoft Scout AI assistant integration in Microsoft 365",
-        "Amazon Ring Familiar Faces facial recognition class-action lawsuit",
-        "Revised Trump executive order on voluntary AI oversight",
-        "Public market funding challenges for Anthropic and OpenAI IPOs",
-        "Ongoing Santa Barbara Surfline API outage"
       ]
     }
   ]
