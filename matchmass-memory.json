@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-06-23",
+      "summary": "Explore the double-edged sword of AI in the workforce as this episode examines how the technology is simultaneously streamlining job interviews and driving corporate layoffs. Discover OpenAI's strategic new initiative to secure open-source software, and learn about the federal government's imminent regulations targeting the massive energy consumption of AI data centers. Plus, stay tuned for a quick update on World Cup action and a lighthearted check-in on local surf conditions.",
+      "keyTopics": [
+        "Fika Jobs raises four million for AI-driven video interviewing",
+        "TechCrunch tracking tech industry layoffs caused by AI",
+        "OpenAI initiative to patch bugs in open-source software",
+        "Federal Energy Regulatory Commission upcoming data center energy orders",
+        "World Cup 2026 group stage qualification drama"
+      ]
+    },
+    {
       "date": "2026-06-22",
       "summary": "This episode dives into the massive financial and regulatory forces shaping the AI industry, highlighted by SpaceX's multi-billion dollar compute deal with Reflection AI and the market fallout from the government's crackdown on Anthropic. We also explore how the immense power demands of these growing AI data centers are prompting federal energy regulators to intervene. Plus, stay tuned for a quick update on the World Cup group stages and a lighthearted look at a persistent local tech outage.",
       "keyTopics": [
@@ -159,21 +170,6 @@
         "LLM security research using AI to exploit vulnerabilities",
         "Rohan Ramadas hired as Lakers assistant GM",
         "Ongoing Surfline API outage in Santa Barbara County"
-      ]
-    },
-    {
-      "date": "2026-06-03",
-      "summary": "Dive into the shifting global landscape of artificial intelligence as U.K. regulators introduce new publisher protections, while the AI boom continues to drive up tech infrastructure and consumer hardware costs. On the sports front, explore the strategic front-office hiring shaping the future of the Los Angeles Lakers and catch up on the latest from the World Cup group stage. Plus, hear why a hilariously persistent local tech outage is forcing surfers to check the waves the old-fashioned way.",
-      "keyTopics": [
-        "UK regulation requiring Google AI search publisher opt-out",
-        "Meta WhatsApp Business AI agent global launch",
-        "Coralogix raises 200 million dollars for AI monitoring",
-        "DDR5 RAM price increases driven by AI demand",
-        "Rohan Ramadas hired as Lakers assistant general manager",
-        "Ongoing Surfline API outage in Santa Barbara"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Sources: Lakers hire Rohan Ramadas as assistant general manager"
       ]
     }
   ]
