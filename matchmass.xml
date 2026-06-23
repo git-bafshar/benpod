@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-23</title>
+      <description>Explore the double-edged sword of AI in the workforce as this episode examines how the technology is simultaneously streamlining job interviews and driving corporate layoffs. Discover OpenAI&apos;s strategic new initiative to secure open-source software, and learn about the federal government&apos;s imminent regulations targeting the massive energy consumption of AI data centers. Plus, stay tuned for a quick update on World Cup action and a lighthearted check-in on local surf conditions.</description>
+      <pubDate>Tue, 23 Jun 2026 09:30:39 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-23-093039.mp3" length="3592128" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-23-093039.mp3</guid>
+      <itunes:duration>225</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-22</title>
       <description>This episode dives into the massive financial and regulatory forces shaping the AI industry, highlighted by SpaceX&apos;s multi-billion dollar compute deal with Reflection AI and the market fallout from the government&apos;s crackdown on Anthropic. We also explore how the immense power demands of these growing AI data centers are prompting federal energy regulators to intervene. Plus, stay tuned for a quick update on the World Cup group stages and a lighthearted look at a persistent local tech outage.</description>
       <pubDate>Mon, 22 Jun 2026 11:15:48 GMT</pubDate>
