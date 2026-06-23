@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-23</title>
+      <description>Explore the rapid evolution of artificial intelligence as it shifts from simple chatbots to autonomous digital workforces, AI-powered hiring, and advanced cybersecurity tools like OpenAI’s rumored &quot;GPT-5.5-Cyber.&quot; This episode also dives into how these technological leaps are driving potential device price hikes, shifting regional housing markets, and triggering restructuring in the modern workplace. Finally, learn how product managers are adapting to the immense pressure of integrating these complex, fast-moving systems into everyday tools.</description>
+      <pubDate>Tue, 23 Jun 2026 10:26:45 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-23-102645.mp3" length="3915840" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-23-102645.mp3</guid>
+      <itunes:duration>245</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-22</title>
       <description>Explore the shifting dynamics of the AI landscape as the government&apos;s crackdown on Anthropic sparks a rise in open-source, &quot;Sovereign AI&quot; alternatives. This episode also dives into the practical side of software development, analyzing the cost and auditability of AI coding agents like Goose and Ponytrail. Finally, discover Apple’s subtle integration of ambient AI in iOS 27 and get a crucial reminder on why users must resist treating conversational chatbots as friends.</description>
       <pubDate>Mon, 22 Jun 2026 12:27:43 GMT</pubDate>
