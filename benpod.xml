@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-06-24</title>
+      <description>Explore the latest fronts in the AI arms race, from OpenAI’s reveal of its custom-built &quot;Jalapeño&quot; chip to Anthropic’s new Slack-integrated assistant, &quot;Claude Tag.&quot; The episode also examines the fragile diplomatic landscape surrounding the U.S.-Iran de-escalation deal and the growing anxiety among Gulf nations. Finally, catch up on sports news featuring dugout drama for the San Francisco Giants and a lighthearted draft-day story from the Golden State Warriors.</description>
+      <pubDate>Wed, 24 Jun 2026 10:34:02 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-24-103402.mp3" length="3726720" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-24-103402.mp3</guid>
+      <itunes:duration>233</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-06-23</title>
       <description>Explore the mounting costs of the AI boom, from the high financial barriers facing startups to how AI agents are transforming the hiring landscape. Unpack the intense international debate surrounding the fragile new U.S.-Iran de-escalation agreement and what it means for global stability. Finally, get the latest on the Bay Area sports scene, featuring a dramatic contract standoff for the 49ers and the fallout from a Major League Baseball management misstep.</description>
       <pubDate>Tue, 23 Jun 2026 10:51:45 GMT</pubDate>
