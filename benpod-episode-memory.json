@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-06-24",
+      "summary": "Explore the latest fronts in the AI arms race, from OpenAI’s reveal of its custom-built \"Jalapeño\" chip to Anthropic’s new Slack-integrated assistant, \"Claude Tag.\" The episode also examines the fragile diplomatic landscape surrounding the U.S.-Iran de-escalation deal and the growing anxiety among Gulf nations. Finally, catch up on sports news featuring dugout drama for the San Francisco Giants and a lighthearted draft-day story from the Golden State Warriors.",
+      "keyTopics": [
+        "OpenAI unveils custom Jalapeño chip co-developed with Broadcom",
+        "Anthropic launches Claude Tag AI integration for Slack",
+        "Reid Hoffman criticizes Elon Musk's xAI as train wreck",
+        "Gulf nations voice anxiety over U.S.-Iran de-escalation agreement",
+        "San Francisco Giants clubhouse tension over Rafael Devers controversy",
+        "Golden State Warriors draft Yaxel Lendeborg in NBA draft"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Athletics Athletics at San Francisco Giants",
+        "ESPN Warriors News::Warriors: New Warrior Yaxel Lendeborg 'used to hate Steph Curry' as Kyrie fan",
+        "ESPN Giants News::Giants: Giants' Rafael Devers apologized to Tony Vitello for reaction",
+        "ESPN Giants News::Giants: Rafael Devers ridiculous selfish move",
+        "Foreign Policy - Iran::Washington’s Middle East Military Presence Is Uniquely Counterproductive",
+        "Foreign Policy - Iran::U.S., Iran Rally Support for Interim Peace Deal Abroad"
+      ]
+    },
+    {
       "date": "2026-06-23",
       "summary": "Explore the mounting costs of the AI boom, from the high financial barriers facing startups to how AI agents are transforming the hiring landscape. Unpack the intense international debate surrounding the fragile new U.S.-Iran de-escalation agreement and what it means for global stability. Finally, get the latest on the Bay Area sports scene, featuring a dramatic contract standoff for the 49ers and the fallout from a Major League Baseball management misstep.",
       "keyTopics": [
@@ -248,26 +268,6 @@
       "articles": [
         "ESPN 49ers News::49ers: 49ers' Trent Williams acknowledges career is nearing its end",
         "Foreign Policy - Iran::How Trump Should Approach an Iran Endgame"
-      ]
-    },
-    {
-      "date": "2026-06-04",
-      "summary": "This episode dives into a high-stakes escalation in the Middle East after a drone strike on Kuwait's airport threatens to derail crucial diplomatic talks. In tech, we lift the curtain on Google's internal AI frustrations and put autonomous AI hacking capabilities to a real-world test. Plus, get the latest sports updates, from Stephen Curry's blockbuster $400 million endorsement deal to the legal drama and stadium stalemates shaking up the NFL.",
-      "keyTopics": [
-        "Iranian drone attack on Kuwait international airport",
-        "Google employees internal memes criticizing AI products",
-        "LLM experiment testing AI cybersecurity hacking capabilities",
-        "Brandon Aiyuk arrest warrant for exhibition of speeding",
-        "George Kittle Achilles injury recovery timeline update",
-        "Stephen Curry endorsement deal with Chinese brand Li-Ning",
-        "Chicago Bears lakefront stadium public funding rejection"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Sources: Stephen Curry signs $400M deal with China's Li-Ning",
-        "ESPN 49ers News::49ers: Niners' Kittle (Achilles) targets Week 1, says he's 'on track'",
-        "ESPN 49ers News::49ers: Warrant issued for 49ers' Brandon Aiyuk after viral speeding video",
-        "Foreign Policy - Iran::Iran Launches Deadly Attack on Kuwait’s Main Airport",
-        "Foreign Policy - Iran::Congress Prepares for a Pair of Consequential Iran Votes"
       ]
     }
   ]
