@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-24",
+      "summary": "Discover how artificial intelligence is transforming from a simple tool into an active, always-on teammate with the launch of Anthropic's \"Claude Tag\" in Slack and MoEngage's hyper-personalized customer agents. This episode also breaks down tech investor Reid Hoffman's sharp critiques of xAI, alongside the rise of open-source frameworks like Haystack that are democratizing AI development. Tune in to explore the rapid evolution of persistent digital agents and what this massive shift means for the future of work.",
+      "keyTopics": [
+        "Anthropic launches Claude Tag AI teammate inside Slack",
+        "MoEngage personalized AI agents for customer engagement",
+        "Reid Hoffman calls Elon Musk's xAI a train wreck",
+        "Haystack open-source framework for building AI agents",
+        "Minimus container images free for software developers",
+        "Persistent autonomous AI agents in the workplace"
+      ]
+    },
+    {
       "date": "2026-06-23",
       "summary": "Explore the rapid evolution of artificial intelligence as it shifts from simple chatbots to autonomous digital workforces, AI-powered hiring, and advanced cybersecurity tools like OpenAI’s rumored \"GPT-5.5-Cyber.\" This episode also dives into how these technological leaps are driving potential device price hikes, shifting regional housing markets, and triggering restructuring in the modern workplace. Finally, learn how product managers are adapting to the immense pressure of integrating these complex, fast-moving systems into everyday tools.",
       "keyTopics": [
@@ -168,19 +180,6 @@
         "Airbnb CEO Brian Chesky plans dedicated AI lab",
         "OpenAI CTO Mira Murati steps back into public spotlight",
         "Hacker News trend developers documenting code for Claude"
-      ]
-    },
-    {
-      "date": "2026-06-04",
-      "summary": "Explore the massive footprint of the $1.4 trillion mobile app economy and how the AI agent revolution is poised to disrupt it. This episode also dives into the real-world consequences of the AI boom, examining how coding assistants are contributing to soaring failure rates in top-tier university computer science programs. Finally, discover how today's AI models perform when put to the test in a practical, real-world cybersecurity hacking experiment.",
-      "keyTopics": [
-        "Apple App Store $1.4 trillion sales milestone",
-        "Meta WhatsApp AI business agents rollout",
-        "UC Berkeley computer science AI dependency study",
-        "Salesforce Slackbot AI agent rollout",
-        "Listen Labs AI customer interview funding",
-        "Hacker News LLM app vulnerability experiment",
-        "Anthropic Project Glasswing security initiative"
       ]
     }
   ]
