@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-25</title>
+      <description>This episode unpacks a high-stakes day in tech, starting with Anthropic’s bombshell corporate espionage allegations against Alibaba and OpenAI&apos;s strategic pivot into designing custom AI chips. We also dive into the growing geopolitical friction over global chip exports, Adobe&apos;s acquisition of Topaz Labs, and Amazon&apos;s massive infrastructure investment in India. Finally, discover why Wikipedia workers in Britain are making history with a first-of-its-kind union drive.</description>
+      <pubDate>Thu, 25 Jun 2026 10:03:14 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-25-100314.mp3" length="4492992" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-25-100314.mp3</guid>
+      <itunes:duration>281</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-24</title>
       <description>Discover how artificial intelligence is transforming from a simple tool into an active, always-on teammate with the launch of Anthropic&apos;s &quot;Claude Tag&quot; in Slack and MoEngage&apos;s hyper-personalized customer agents. This episode also breaks down tech investor Reid Hoffman&apos;s sharp critiques of xAI, alongside the rise of open-source frameworks like Haystack that are democratizing AI development. Tune in to explore the rapid evolution of persistent digital agents and what this massive shift means for the future of work.</description>
       <pubDate>Wed, 24 Jun 2026 10:06:00 GMT</pubDate>
