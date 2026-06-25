@@ -1,6 +1,29 @@
 {
   "episodes": [
     {
+      "date": "2026-06-25",
+      "summary": "Dive into a monumental day of Supreme Court rulings reshaping U.S. immigration policy, Second Amendment rights, and corporate liability. Plus, discover why one major automaker is reversing course on its AI strategy, and get the latest updates on housing market trends, high-stakes sports drama, and local politics.",
+      "keyTopics": [
+        "Supreme Court rulings expanding executive immigration authority",
+        "Ford rehires 350 engineers after failed AI experiment",
+        "Adobe acquires AI photo and video toolmaker Topaz Labs",
+        "Anthropic accuses Alibaba of stealing Claude AI capabilities",
+        "Diplomatic fallout and defense of US-Iran de-escalation agreement",
+        "Senate Banking Committee passes bipartisan ROAD to Housing Act",
+        "Brandon Aiyuk escalates contract standoff with San Francisco 49ers",
+        "Matthew Brewer enters 2027 Chicago mayoral race"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Al Horford says he's returning to Warriors to play 20th season",
+        "ESPN 49ers News::49ers: Aiyuk: If 49ers cut me, I'll sign with Commanders 'tomorrow'",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Will Pakistan’s Iran Gamble Pay Off?",
+        "Foreign Policy - Iran::Treasury Chief Bessent Defends Trump’s Iran Deal",
+        "Foreign Policy - Iran::What Is Iran’s Nuclear Status Quo?"
+      ]
+    },
+    {
       "date": "2026-06-24",
       "summary": "Explore the latest fronts in the AI arms race, from OpenAI’s reveal of its custom-built \"Jalapeño\" chip to Anthropic’s new Slack-integrated assistant, \"Claude Tag.\" The episode also examines the fragile diplomatic landscape surrounding the U.S.-Iran de-escalation deal and the growing anxiety among Gulf nations. Finally, catch up on sports news featuring dugout drama for the San Francisco Giants and a lighthearted draft-day story from the Golden State Warriors.",
       "keyTopics": [
@@ -251,23 +274,6 @@
       "articles": [
         "ESPN Giants::Giants Recap: San Francisco Giants at Chicago Cubs",
         "Foreign Policy - Iran::Sleeping in Mexico, Playing in America"
-      ]
-    },
-    {
-      "date": "2026-06-05",
-      "summary": "Explore the economic reality check hitting the AI boom as skyrocketing computing costs and massive infrastructure demands challenge tech giants to prove their profitability. This episode also dives into the complex geopolitical strategy surrounding U.S.-Iran relations, the retirement countdown for NFL legend Trent Williams, and the latest strategic moves from OpenAI and Airbnb.",
-      "keyTopics": [
-        "Anthropic IPO plans and surging annualized revenue",
-        "Rising computing costs of running large AI models",
-        "AirTrunk thirty billion dollar data center investment in India",
-        "US diplomatic response to Kuwait airport drone strike",
-        "San Francisco Forty-Niners Trent Williams retirement timeline",
-        "OpenAI CTO Mira Murati returns to public spotlight",
-        "Airbnb CEO Brian Chesky announces in-house AI lab"
-      ],
-      "articles": [
-        "ESPN 49ers News::49ers: 49ers' Trent Williams acknowledges career is nearing its end",
-        "Foreign Policy - Iran::How Trump Should Approach an Iran Endgame"
       ]
     }
   ]
