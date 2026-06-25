@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-25",
+      "summary": "This episode unpacks a high-stakes day in tech, starting with Anthropic’s bombshell corporate espionage allegations against Alibaba and OpenAI's strategic pivot into designing custom AI chips. We also dive into the growing geopolitical friction over global chip exports, Adobe's acquisition of Topaz Labs, and Amazon's massive infrastructure investment in India. Finally, discover why Wikipedia workers in Britain are making history with a first-of-its-kind union drive.",
+      "keyTopics": [
+        "Anthropic accuses Alibaba of stealing Claude model capabilities",
+        "OpenAI partners with Broadcom for custom AI chip",
+        "Cerebras stock plummets following first public earnings report",
+        "European tension over US restrictions on ASML exports",
+        "Adobe acquires AI-powered media editing company Topaz Labs",
+        "Amazon invests thirteen billion dollars in India AI infrastructure",
+        "Wikipedia workers in Britain seek historic union recognition"
+      ]
+    },
+    {
       "date": "2026-06-24",
       "summary": "Discover how artificial intelligence is transforming from a simple tool into an active, always-on teammate with the launch of Anthropic's \"Claude Tag\" in Slack and MoEngage's hyper-personalized customer agents. This episode also breaks down tech investor Reid Hoffman's sharp critiques of xAI, alongside the rise of open-source frameworks like Haystack that are democratizing AI development. Tune in to explore the rapid evolution of persistent digital agents and what this massive shift means for the future of work.",
       "keyTopics": [
@@ -168,18 +181,6 @@
         "Industry transition from chat interfaces to agentic AI",
         "Great data center pause and local construction moratoriums",
         "US housing market shift toward a buyers market"
-      ]
-    },
-    {
-      "date": "2026-06-05",
-      "summary": "Explore the staggering global scale of the AI boom, from a massive $30 billion data center expansion in India to Anthropic’s explosive revenue growth and new open-source security tools ahead of its IPO. This episode also dives into why non-tech giants like Airbnb are launching dedicated AI labs and how leadership at OpenAI is working to shape the industry's narrative. Finally, discover a fascinating shift in developer behavior where programmers are writing meticulous documentation specifically to satisfy their AI assistants.",
-      "keyTopics": [
-        "AirTrunk $30 billion India AI data center investment",
-        "Anthropic $47 billion annualized revenue ahead of IPO",
-        "Anthropic open source AI software vulnerability discovery framework",
-        "Airbnb CEO Brian Chesky plans dedicated AI lab",
-        "OpenAI CTO Mira Murati steps back into public spotlight",
-        "Hacker News trend developers documenting code for Claude"
       ]
     }
   ]
