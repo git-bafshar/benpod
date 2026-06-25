@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-25",
+      "summary": "Explore the messy realities of the AI boom in this episode, covering Anthropic’s explosive corporate espionage accusations against Alibaba and Ford's humbling decision to rehire hundreds of human engineers. You will also get the details on Amazon's massive $13 billion tech investment in India, Adobe's strategic acquisition of Topaz Labs, and the latest sports updates, including Austin Reaves' blockbuster contract extension.",
+      "keyTopics": [
+        "Anthropic accuses Alibaba of Claude model theft",
+        "Ford rehires engineers after failed AI experiment",
+        "Amazon thirteen billion dollar India AI investment",
+        "Adobe acquisition of Topaz Labs",
+        "Austin Reaves Lakers max contract extension"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Sources: Lakers' Reaves intends to sign 4-year, $185M max deal"
+      ]
+    },
+    {
       "date": "2026-06-24",
       "summary": "Discover how the AI landscape is shifting as OpenAI challenges chipmaker dominance with its new custom \"Jalapeño\" silicon, while Anthropic integrates deeper into enterprise workflows with \"Claude Tag\" for Slack. This episode also breaks down the high-stakes drama of the World Cup group stages and the massive contract extension keeping Austin Reaves with the Los Angeles Lakers. Finally, get a humorous update on Santa Barbara's ongoing, mysterious surf report outage.",
       "keyTopics": [
@@ -156,22 +170,6 @@
         "Notion service disruption caused by Anthropic Claude outage",
         "2026 FIFA World Cup group stage drama",
         "Ongoing Santa Barbara Surfline app outage saga"
-      ]
-    },
-    {
-      "date": "2026-06-05",
-      "summary": "Explore the staggering operational costs of the AI boom, from the massive global infrastructure required to power it to controversial efforts to make tech tools addictive. This episode also breaks down the Los Angeles Lakers' major corporate restructuring, the heating-up World Cup group stage, and a persistent, comical beach-tech outage in Santa Barbara. Plus, get a preview of Apple’s upcoming developer conference and what it means for the future of \"Apple Intelligence.\"",
-      "keyTopics": [
-        "Anthropic IPO filing reveals massive annualized revenue growth",
-        "AirTrunk commits thirty billion dollars for India AI data centers",
-        "Leaked Microsoft document reveals plans for addictive AI products",
-        "Los Angeles Lakers lay off business employees in major reorganization",
-        "Ongoing twelve day Surfline API outage in Santa Barbara",
-        "Anticipated Apple Intelligence strategy reveal at upcoming WWDC",
-        "Rising operational token costs for running massive language models"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Source: Lakers lay off over a dozen amid business-side reorg"
       ]
     }
   ]
