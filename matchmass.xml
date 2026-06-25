@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-25</title>
+      <description>Explore the messy realities of the AI boom in this episode, covering Anthropic’s explosive corporate espionage accusations against Alibaba and Ford&apos;s humbling decision to rehire hundreds of human engineers. You will also get the details on Amazon&apos;s massive $13 billion tech investment in India, Adobe&apos;s strategic acquisition of Topaz Labs, and the latest sports updates, including Austin Reaves&apos; blockbuster contract extension.</description>
+      <pubDate>Thu, 25 Jun 2026 09:30:59 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-25-093059.mp3" length="3786048" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-25-093059.mp3</guid>
+      <itunes:duration>237</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-24</title>
       <description>Discover how the AI landscape is shifting as OpenAI challenges chipmaker dominance with its new custom &quot;Jalapeño&quot; silicon, while Anthropic integrates deeper into enterprise workflows with &quot;Claude Tag&quot; for Slack. This episode also breaks down the high-stakes drama of the World Cup group stages and the massive contract extension keeping Austin Reaves with the Los Angeles Lakers. Finally, get a humorous update on Santa Barbara&apos;s ongoing, mysterious surf report outage.</description>
       <pubDate>Wed, 24 Jun 2026 09:27:36 GMT</pubDate>
