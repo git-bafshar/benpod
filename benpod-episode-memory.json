@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-06-26",
+      "summary": "Discover the high-stakes stories shaping tech and global politics, starting with the White House's unprecedented intervention to slow down OpenAI's next major release while venture capital floods into autonomous AI agents. The episode also untangles a shocking report on the U.S.-Iran situation that hints at a past military conflict, reframing recent diplomatic efforts. Finally, learn how the AI industry is pouring millions into political campaigns to secure legislative influence as federal regulations loom.",
+      "keyTopics": [
+        "White House halts OpenAI GPT 5.6 release",
+        "Anthropic Claude gains on ChatGPT in paid consumer market",
+        "Apple increases prices on MacBooks and iPads",
+        "Patronus AI raises fifty million dollars for testing",
+        "General Intuition raises funding to train AI with games",
+        "Trump comments spark confusion over U.S.-Iran conflict",
+        "AI industry increases campaign contributions in U.S. elections"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::Restocking the Pentagon"
+      ]
+    },
+    {
       "date": "2026-06-25",
       "summary": "Dive into a monumental day of Supreme Court rulings reshaping U.S. immigration policy, Second Amendment rights, and corporate liability. Plus, discover why one major automaker is reversing course on its AI strategy, and get the latest updates on housing market trends, high-stakes sports drama, and local politics.",
       "keyTopics": [
@@ -258,22 +274,6 @@
         "Foreign Policy - Iran::Lebanon Is No Longer About Lebanon",
         "Foreign Policy - Iran::U.S. Power Is Wrung Out",
         "Foreign Policy - Iran::Iran, Israel Pull Back From Brink After Trading Fire"
-      ]
-    },
-    {
-      "date": "2026-06-08",
-      "summary": "Dive into Apple’s high-stakes entry into the generative AI race at WWDC and the shocking rumor that the Chicago Bears are considering a move to Indiana. This episode also explores how the AI boom is straining local power grids, the technology's growing influence on political campaigns, and a unique geopolitical workaround in international soccer. Tune in for an engaging breakdown of the biggest tech, sports, and political stories shaping the week.",
-      "keyTopics": [
-        "Apple Intelligence hybrid AI model launch at WWDC",
-        "Chicago Bears potential stadium relocation to Hammond Indiana",
-        "AI data center energy consumption driving utility rate hikes",
-        "Iran national soccer team World Cup logistics via Mexico",
-        "OpenAI executive claim that chatbot interface is dead",
-        "Generative AI integration in political campaigns and voter targeting"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Chicago Cubs",
-        "Foreign Policy - Iran::Sleeping in Mexico, Playing in America"
       ]
     }
   ]
