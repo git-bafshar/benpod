@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-06-26</title>
+      <description>This episode explores the intensifying battle between Washington and Silicon Valley as the White House steps in to delay OpenAI&apos;s next major model, prompting a multi-million dollar lobbying surge from the tech sector. We also examine how Anthropic’s Claude is successfully challenging ChatGPT for paid subscribers, alongside massive new funding rounds for startups revolutionizing AI safety and training. Finally, get a quick update on the tense, high-stakes final matches of the 2026 World Cup group stages.</description>
+      <pubDate>Fri, 26 Jun 2026 09:23:40 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-26-092340.mp3" length="3978432" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-06-26-092340.mp3</guid>
+      <itunes:duration>249</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-25</title>
       <description>Explore the messy realities of the AI boom in this episode, covering Anthropic’s explosive corporate espionage accusations against Alibaba and Ford&apos;s humbling decision to rehire hundreds of human engineers. You will also get the details on Amazon&apos;s massive $13 billion tech investment in India, Adobe&apos;s strategic acquisition of Topaz Labs, and the latest sports updates, including Austin Reaves&apos; blockbuster contract extension.</description>
       <pubDate>Thu, 25 Jun 2026 09:30:59 GMT</pubDate>
