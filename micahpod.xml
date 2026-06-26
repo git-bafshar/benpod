@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-26</title>
+      <description>In this episode, we explore the striking contrast between Washington&apos;s recent intervention to slow down OpenAI’s next flagship model and Silicon Valley’s massive funding boom for autonomous AI agent infrastructure. We also break down the intensifying platform wars, from Claude’s rise against ChatGPT to Salesforce’s major AI-powered Slackbot redesign. Finally, discover how Google’s historic search box makeover is officially ushering in the era of conversational search.</description>
+      <pubDate>Fri, 26 Jun 2026 10:02:32 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-26-100232.mp3" length="4994304" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-26-100232.mp3</guid>
+      <itunes:duration>312</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-25</title>
       <description>This episode unpacks a high-stakes day in tech, starting with Anthropic’s bombshell corporate espionage allegations against Alibaba and OpenAI&apos;s strategic pivot into designing custom AI chips. We also dive into the growing geopolitical friction over global chip exports, Adobe&apos;s acquisition of Topaz Labs, and Amazon&apos;s massive infrastructure investment in India. Finally, discover why Wikipedia workers in Britain are making history with a first-of-its-kind union drive.</description>
       <pubDate>Thu, 25 Jun 2026 10:03:14 GMT</pubDate>
