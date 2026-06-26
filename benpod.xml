@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-06-26</title>
+      <description>Discover the high-stakes stories shaping tech and global politics, starting with the White House&apos;s unprecedented intervention to slow down OpenAI&apos;s next major release while venture capital floods into autonomous AI agents. The episode also untangles a shocking report on the U.S.-Iran situation that hints at a past military conflict, reframing recent diplomatic efforts. Finally, learn how the AI industry is pouring millions into political campaigns to secure legislative influence as federal regulations loom.</description>
+      <pubDate>Fri, 26 Jun 2026 10:25:33 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-26-102533.mp3" length="4203456" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-06-26-102533.mp3</guid>
+      <itunes:duration>263</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-06-25</title>
       <description>Dive into a monumental day of Supreme Court rulings reshaping U.S. immigration policy, Second Amendment rights, and corporate liability. Plus, discover why one major automaker is reversing course on its AI strategy, and get the latest updates on housing market trends, high-stakes sports drama, and local politics.</description>
       <pubDate>Thu, 25 Jun 2026 10:41:39 GMT</pubDate>
