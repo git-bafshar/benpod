@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-26",
+      "summary": "This episode explores the intensifying battle between Washington and Silicon Valley as the White House steps in to delay OpenAI's next major model, prompting a multi-million dollar lobbying surge from the tech sector. We also examine how Anthropic’s Claude is successfully challenging ChatGPT for paid subscribers, alongside massive new funding rounds for startups revolutionizing AI safety and training. Finally, get a quick update on the tense, high-stakes final matches of the 2026 World Cup group stages.",
+      "keyTopics": [
+        "White House pressure on OpenAI GPT 5.6 release",
+        "US government ban on Anthropic Fable and Mythos models",
+        "AI industry election lobbying and regulation spend",
+        "Anthropic Claude growth in premium paid consumer market",
+        "Patronus AI fifty million dollar funding for stress-testing",
+        "General Intuition fundraising to train AI on video games"
+      ]
+    },
+    {
       "date": "2026-06-25",
       "summary": "Explore the messy realities of the AI boom in this episode, covering Anthropic’s explosive corporate espionage accusations against Alibaba and Ford's humbling decision to rehire hundreds of human engineers. You will also get the details on Amazon's massive $13 billion tech investment in India, Adobe's strategic acquisition of Topaz Labs, and the latest sports updates, including Austin Reaves' blockbuster contract extension.",
       "keyTopics": [
@@ -158,18 +170,6 @@
         "Microsoft developer tools hacked to target AI developers",
         "2026 FIFA World Cup group stage matches",
         "Santa Barbara Surfline API outage fifteen-day streak"
-      ]
-    },
-    {
-      "date": "2026-06-08",
-      "summary": "Tune in for a deep dive into Apple's highly anticipated WWDC event, where the tech giant is set to unveil its \"Apple Intelligence\" strategy and the next phase of integrated digital assistants. This episode also explores the rising costs and fragile infrastructure of the AI boom following a major service outage, before shifting gears to the high-stakes drama of the 2026 FIFA World Cup group stage. Plus, hear how a humorous local tech glitch is forcing surfers to check the ocean the old-fashioned way.",
-      "keyTopics": [
-        "Apple WWDC 2026 Apple Intelligence announcement",
-        "Transition from chat interfaces to operating system digital assistants",
-        "Rising AI model infrastructure costs and Tokenpocalypse fears",
-        "Notion service disruption caused by Anthropic Claude outage",
-        "2026 FIFA World Cup group stage drama",
-        "Ongoing Santa Barbara Surfline app outage saga"
       ]
     }
   ]
