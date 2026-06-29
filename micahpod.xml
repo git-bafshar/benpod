@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-29</title>
+      <description>In this episode, explore the shifting landscape of technology as we dive into the next generation of collaborative AI models, Ford&apos;s surprising decision to rehire human engineers, and Micron’s rise in the hardware market. We also unpack a major Supreme Court ruling on federal executive power, the chaotic reality of automated resume scanners, and a massive email data breach. Finally, get the latest real estate updates on national relocation trends to the Sun Belt and a rare bipartisan agreement on homebuyer tax breaks.</description>
+      <pubDate>Mon, 29 Jun 2026 11:30:00 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-29-113000.mp3" length="4405056" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-29-113000.mp3</guid>
+      <itunes:duration>275</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-26</title>
       <description>In this episode, we explore the striking contrast between Washington&apos;s recent intervention to slow down OpenAI’s next flagship model and Silicon Valley’s massive funding boom for autonomous AI agent infrastructure. We also break down the intensifying platform wars, from Claude’s rise against ChatGPT to Salesforce’s major AI-powered Slackbot redesign. Finally, discover how Google’s historic search box makeover is officially ushering in the era of conversational search.</description>
       <pubDate>Fri, 26 Jun 2026 10:02:32 GMT</pubDate>
