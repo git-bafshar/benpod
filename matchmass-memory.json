@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-06-29",
+      "summary": "This episode explores a major reality check for the AI boom, highlighting Ford's return to human engineers and music platform TIDAL's decision to demonetize purely AI-generated tracks. We also dive into the unexpected physical challenges of the tech industry, focusing on a startup tackling bacterial slime in data center cooling systems. Finally, get the latest sports updates on Austin Reaves' official contract extension with the Lakers and the high-stakes kickoff of the World Cup knockout rounds.",
+      "keyTopics": [
+        "Ford rehiring human engineers after AI design failure",
+        "TIDAL demonetizes AI-generated music to protect human artists",
+        "Omen AI raises Series A for data center cooling",
+        "Austin Reaves signs Lakers max contract extension",
+        "World Cup soccer tournament begins knockout rounds",
+        "Surfline API outage continues in Santa Barbara"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: 2026 NBA free agency: Grades for offseason signings, extensions"
+      ]
+    },
+    {
       "date": "2026-06-26",
       "summary": "This episode explores the intensifying battle between Washington and Silicon Valley as the White House steps in to delay OpenAI's next major model, prompting a multi-million dollar lobbying surge from the tech sector. We also examine how Anthropic’s Claude is successfully challenging ChatGPT for paid subscribers, alongside massive new funding rounds for startups revolutionizing AI safety and training. Finally, get a quick update on the tense, high-stakes final matches of the 2026 World Cup group stages.",
       "keyTopics": [
@@ -158,18 +173,6 @@
         "SpaceX valuation tied to orbital space data centers",
         "Santa Barbara Surfline API outage enters sixteenth day",
         "Market reaction to Apple Intelligence launch and ecosystem"
-      ]
-    },
-    {
-      "date": "2026-06-09",
-      "summary": "This episode dives into Apple’s newly revealed \"Apple Intelligence\" strategy and explores the changing of the guard in big tech as the new \"MANGOS\" acronym officially replaces the classic \"FAANG.\" Plus, learn about a major cybersecurity breach targeting AI developers and get a quick update on the high-stakes action at the 2026 World Cup.",
-      "keyTopics": [
-        "Apple Intelligence WWDC announcement and privacy features",
-        "Amazon internal AI nicknamed Sloppenheimer by employees",
-        "New MANGOS acronym replaces FAANG in big tech",
-        "Microsoft developer tools hacked to target AI developers",
-        "2026 FIFA World Cup group stage matches",
-        "Santa Barbara Surfline API outage fifteen-day streak"
       ]
     }
   ]
