@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-06-29",
+      "summary": "In this episode, explore the shifting landscape of technology as we dive into the next generation of collaborative AI models, Ford's surprising decision to rehire human engineers, and Micron’s rise in the hardware market. We also unpack a major Supreme Court ruling on federal executive power, the chaotic reality of automated resume scanners, and a massive email data breach. Finally, get the latest real estate updates on national relocation trends to the Sun Belt and a rare bipartisan agreement on homebuyer tax breaks.",
+      "keyTopics": [
+        "Next-generation Anthropic Mythos and OpenAI GPT-5.5 models",
+        "Ford rehiring retired engineers after failed AI push",
+        "Micron high-bandwidth memory demand driven by AI",
+        "Inconsistent scoring in HackerRank open-source applicant tracking system",
+        "Major data breach exposing fourteen million ISP email logins",
+        "Supreme Court ruling on Federal Reserve Governor Lisa Cook",
+        "Bipartisan support for first-time homebuyer tax breaks"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-06-26",
       "summary": "In this episode, we explore the striking contrast between Washington's recent intervention to slow down OpenAI’s next flagship model and Silicon Valley’s massive funding boom for autonomous AI agent infrastructure. We also break down the intensifying platform wars, from Claude’s rise against ChatGPT to Salesforce’s major AI-powered Slackbot redesign. Finally, discover how Google’s historic search box makeover is officially ushering in the era of conversational search.",
       "keyTopics": [
@@ -170,18 +187,6 @@
         "Warner Music Group acquisition of Sureel AI",
         "Jedify twenty-four million dollar funding round",
         "SpaceX valuation linked to space-based data centers"
-      ]
-    },
-    {
-      "date": "2026-06-09",
-      "summary": "Explore the tech world's latest power moves as we unpack Apple’s massive partnership with Google for its new AI features and a recent cybersecurity hack targeting AI developers. Discover the hidden cost of AI-generated code on software engineering, alongside a startup’s ambitious plan to build data centers in space. Plus, get the latest updates on the cooling real estate market and what it means for prospective buyers.",
-      "keyTopics": [
-        "Apple Intelligence partnership with Google Gemini",
-        "Apple Private Cloud Compute security architecture",
-        "Microsoft open-source developer tools supply-chain hack",
-        "Managing technical debt from AI coding assistants",
-        "Orbital funding for space-based data centers",
-        "Cooling trends in major US housing markets"
       ]
     }
   ]
