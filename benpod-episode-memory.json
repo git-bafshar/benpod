@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-06-29",
+      "summary": "Explore the sudden breakdown of the U.S.-Iran de-escalation agreement and what this escalating military conflict means for global stability. Plus, get a reality check on the AI boom as major companies like Ford and TIDAL recalibrate the balance between human expertise and automation. Finally, catch up on high-stakes sports contract drama in the Bay Area and a symbolic political decision out of Illinois.",
+      "keyTopics": [
+        "U.S. military strikes against Iran end de-escalation agreement",
+        "Ford rehires veteran engineers after failed AI experiment",
+        "TIDAL demonetizes purely AI-generated music on its platform",
+        "Brandon Aiyuk contract dispute with San Francisco 49ers",
+        "Draymond Green declines player option with Golden State Warriors",
+        "Micron positioned as next Nvidia for AI memory demand",
+        "Proception settles Tesla trade secrets lawsuit, raises funding"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Atlanta Braves at San Francisco Giants",
+        "ESPN Warriors News::Warriors: How Draymond declining player option could affect NBA, LeBron",
+        "ESPN Warriors News::Warriors: Jimmy Butler shares update on ACL recovery, future with the Warriors",
+        "ESPN 49ers News::49ers: Brandon Aiyuk blames ex-agent as push to leaves 49ers continues",
+        "Foreign Policy - Iran::U.S. Strikes Iran Over Attack on Hormuz Ship",
+        "Foreign Policy - Iran::Is Hezbollah Now More an Obligation Than an Asset to Tehran?"
+      ]
+    },
+    {
       "date": "2026-06-26",
       "summary": "Discover the high-stakes stories shaping tech and global politics, starting with the White House's unprecedented intervention to slow down OpenAI's next major release while venture capital floods into autonomous AI agents. The episode also untangles a shocking report on the U.S.-Iran situation that hints at a past military conflict, reframing recent diplomatic efforts. Finally, learn how the AI industry is pouring millions into political campaigns to secure legislative influence as federal regulations loom.",
       "keyTopics": [
@@ -251,29 +272,6 @@
         "ESPN 49ers News::49ers: Brandon Aiyuk appears to aim more harsh comments toward 49ers",
         "ESPN 49ers News::49ers: Why Kyle Shanahan isn't thrilled with 49ers' game in Australia",
         "Foreign Policy - Iran::U.S. Launches New ‘Self-Defense’ Strikes on Iran Over Apache Helicopter Crash"
-      ]
-    },
-    {
-      "date": "2026-06-09",
-      "summary": "Explore the fallout from Apple’s major privacy-focused AI reveal and find out why the housing market has officially flipped in favor of buyers. This episode also breaks down a major political shakeup in the Chicago mayoral race, cybersecurity threats targeting AI developers, and pivotal primary elections to watch. Plus, discover a surprising medical breakthrough regarding popular weight-loss drugs and get an update on the fragile state of global affairs.",
-      "keyTopics": [
-        "Apple Intelligence release and Google Gemini partnership analysis",
-        "Microsoft open-source developer tools hack targeting AI credentials",
-        "Startup Orbital funding for space-based solar powered data centers",
-        "Susana Mendoza enters Chicago mayoral race challenging Brandon Johnson",
-        "US housing market transition to a buyer's market",
-        "GLP-1 weight-loss drugs linked to cancer prevention research",
-        "Brandon Aiyuk escalating contract dispute with SF 49ers",
-        "Fragile truce and proxy conflicts between Iran and Israel"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Washington Nationals at San Francisco Giants",
-        "ESPN 49ers News::49ers: Brandon Aiyuk appears to imply 49ers 'scared' to release him",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Lebanon Is No Longer About Lebanon",
-        "Foreign Policy - Iran::U.S. Power Is Wrung Out",
-        "Foreign Policy - Iran::Iran, Israel Pull Back From Brink After Trading Fire"
       ]
     }
   ]
