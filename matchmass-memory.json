@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-06-30",
+      "summary": "This episode explores Amazon’s massive new billion-dollar initiative to dominate enterprise AI by embedding engineers directly into client companies, alongside security updates like Anthropic's code-watermarking technology. Additionally, get the details on a bizarre online scam involving AI-generated flower seeds, the latest high-stakes NBA offseason drama surrounding the Lakers, and a controversial voting rights proposal in Los Angeles.",
+      "keyTopics": [
+        "Amazon Forward Deployed Engineering enterprise AI launch",
+        "AI-generated fake flower seed ecommerce scams",
+        "Anthropic Claude Code steganography watermark detection",
+        "Golden State Warriors targeting LeBron James and Anthony Davis",
+        "Deandre Ayton and Marcus Smart Lakers offseason decisions",
+        "Los Angeles noncitizen local voting proposal divides Democrats",
+        "Santa Barbara Surfline API blackout continues"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Sources: Restricted free agent Duren to meet with Lakers, Kings",
+        "ESPN Lakers News::Lakers: Deandre Ayton picks up Lakers option, Marcus Smart opts out",
+        "ESPN Lakers News::Lakers: Sources: Warriors eye LeBron, AD moves as Green declines option"
+      ]
+    },
+    {
       "date": "2026-06-29",
       "summary": "This episode explores a major reality check for the AI boom, highlighting Ford's return to human engineers and music platform TIDAL's decision to demonetize purely AI-generated tracks. We also dive into the unexpected physical challenges of the tech industry, focusing on a startup tackling bacterial slime in data center cooling systems. Finally, get the latest sports updates on Austin Reaves' official contract extension with the Lakers and the high-stakes kickoff of the World Cup knockout rounds.",
       "keyTopics": [
@@ -160,19 +178,6 @@
         "DoorDash launches Ask DoorDash generative AI chatbot",
         "Deezer AI-generated music detection tool",
         "Seventeen day Santa Barbara Surfline API outage"
-      ]
-    },
-    {
-      "date": "2026-06-10",
-      "summary": "This episode explores the staggering costs of the corporate AI boom, highlighting the eye-popping sums spent per employee and the rising tension between all-in-one tech giants and flexible, open-source alternatives. Plus, discover why SpaceX’s massive valuation may actually hinge on an ambitious plan to build high-speed, secure data centers in space rather than launching rockets. The episode wraps up with the intensifying drama of the 2026 World Cup group stages and a lighthearted update on a ridiculously persistent local surf report outage.",
-      "keyTopics": [
-        "Ramp report on rising corporate AI tool spending",
-        "Niteshift raises seven million dollar seed round",
-        "AI memory research showing degraded reasoning and sycophancy",
-        "Anthropic Fable guardrails blocking cybersecurity research",
-        "SpaceX valuation tied to orbital space data centers",
-        "Santa Barbara Surfline API outage enters sixteenth day",
-        "Market reaction to Apple Intelligence launch and ecosystem"
       ]
     }
   ]
