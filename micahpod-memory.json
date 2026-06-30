@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-06-30",
+      "summary": "Discover how the AI landscape is shifting as California strikes a landmark government deal with Anthropic while federal regulators remain hesitant. This episode also explores a surprising report on how AI integration actually boosts company headcount, the rise of an autonomous marketplace where AI agents hire each other, and the ways product managers are adapting to this fast-evolving tech. Finally, stay tuned for a quick look at local economic trends, from recent restaurant closures to persistent housing demands.",
+      "keyTopics": [
+        "Anthropic California state government Claude partnership",
+        "Federal government regulatory pressure on OpenAI releases",
+        "AI adoption correlation with job headcount growth",
+        "OKX crypto marketplace for autonomous AI agents",
+        "Adapting product management OKRs for AI development",
+        "Sun Belt housing market demand and migration"
+      ]
+    },
+    {
       "date": "2026-06-29",
       "summary": "In this episode, explore the shifting landscape of technology as we dive into the next generation of collaborative AI models, Ford's surprising decision to rehire human engineers, and Micron’s rise in the hardware market. We also unpack a major Supreme Court ruling on federal executive power, the chaotic reality of automated resume scanners, and a massive email data breach. Finally, get the latest real estate updates on national relocation trends to the Sun Belt and a rare bipartisan agreement on homebuyer tax breaks.",
       "keyTopics": [
@@ -176,17 +188,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-06-10",
-      "summary": "Explore the rapidly evolving AI landscape with a look at Anthropic's new Claude 5 models, Meta’s massive infrastructure expansion in India, and the rising interest in space-based data centers. Discover how the music industry is shifting from defense to offense by adopting new tracking technology to attribute and license AI-generated content. Finally, learn how startups are making AI agents functional for businesses and get the latest update on the cooling trends in the real estate market.",
-      "keyTopics": [
-        "Anthropic Claude Fable 5 and Mythos 5 release",
-        "Meta and Reliance India AI data center partnership",
-        "Warner Music Group acquisition of Sureel AI",
-        "Jedify twenty-four million dollar funding round",
-        "SpaceX valuation linked to space-based data centers"
       ]
     }
   ]
