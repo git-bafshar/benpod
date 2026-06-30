@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-06-30</title>
+      <description>Discover how the AI landscape is shifting as California strikes a landmark government deal with Anthropic while federal regulators remain hesitant. This episode also explores a surprising report on how AI integration actually boosts company headcount, the rise of an autonomous marketplace where AI agents hire each other, and the ways product managers are adapting to this fast-evolving tech. Finally, stay tuned for a quick look at local economic trends, from recent restaurant closures to persistent housing demands.</description>
+      <pubDate>Tue, 30 Jun 2026 09:55:13 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-30-095513.mp3" length="4126080" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-06-30-095513.mp3</guid>
+      <itunes:duration>258</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-29</title>
       <description>In this episode, explore the shifting landscape of technology as we dive into the next generation of collaborative AI models, Ford&apos;s surprising decision to rehire human engineers, and Micron’s rise in the hardware market. We also unpack a major Supreme Court ruling on federal executive power, the chaotic reality of automated resume scanners, and a massive email data breach. Finally, get the latest real estate updates on national relocation trends to the Sun Belt and a rare bipartisan agreement on homebuyer tax breaks.</description>
       <pubDate>Mon, 29 Jun 2026 11:30:00 GMT</pubDate>
