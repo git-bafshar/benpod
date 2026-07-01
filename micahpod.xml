@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-01</title>
+      <description>This episode explores Meta&apos;s bold move to challenge cloud giants by selling its excess AI compute power directly to businesses. Analyze the latest waves of regulatory confusion in AI development, Anthropic&apos;s newest product launches, and the aggressive strategies companies are using to win the tech talent war. Finally, discover why the open-source community is pushing back against AI-generated code and reflect on what the retirement of internet pioneer Vinton Cerf means for the future of the web.</description>
+      <pubDate>Wed, 01 Jul 2026 10:10:36 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-01-101036.mp3" length="4552320" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-01-101036.mp3</guid>
+      <itunes:duration>285</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-06-30</title>
       <description>Discover how the AI landscape is shifting as California strikes a landmark government deal with Anthropic while federal regulators remain hesitant. This episode also explores a surprising report on how AI integration actually boosts company headcount, the rise of an autonomous marketplace where AI agents hire each other, and the ways product managers are adapting to this fast-evolving tech. Finally, stay tuned for a quick look at local economic trends, from recent restaurant closures to persistent housing demands.</description>
       <pubDate>Tue, 30 Jun 2026 09:55:13 GMT</pubDate>
