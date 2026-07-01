@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-07-01",
+      "summary": "Dive into a packed episode covering the latest escalations in the AI arms race, from Anthropic’s massive new releases and Google’s desktop assistant to Meta’s surprising move into cloud infrastructure. The discussion also explores the shifting realities of digital ownership through Sony's movie deletions, a growing open-source pushback against AI-generated code, and the retirement of internet pioneer Vinton Cerf. Plus, stay informed with the latest updates on high-stakes NFL contract drama, sports injuries, and ongoing global tensions.",
+      "keyTopics": [
+        "Anthropic launches Claude Sonnet 5 and Claude Science",
+        "Google releases Gemini Spark agentic assistant on Mac",
+        "Meta plans to sell AI cloud infrastructure compute",
+        "Sony PlayStation deletes purchased movies due to licensing",
+        "Godot game engine bans AI-authored code contributions",
+        "Vinton Cerf retires as Google Chief Internet Evangelist",
+        "Brandon Aiyuk escalates contract dispute with SF 49ers",
+        "Privacy-focused Venice AI reaches one billion dollar valuation"
+      ],
+      "articles": [
+        "ESPN Giants News::Giants: Giants' Matt Chapman exits with abdominal strain, set for MRI",
+        "ESPN 49ers News::49ers: Brandon Aiyuk, in limbo with 49ers, shouts 'Go Commanders'"
+      ]
+    },
+    {
       "date": "2026-06-30",
       "summary": "Explore a sudden diplomatic shift between the U.S. and Iran over the Strait of Hormuz, alongside the Golden State Warriors' blockbuster ambitions to target both LeBron James and Anthony Davis. Plus, discover the latest escalation in the AI wars, from Amazon's new $1 billion enterprise engineering initiative to a futuristic crypto marketplace where autonomous bots can actually hire and pay one another.",
       "keyTopics": [
@@ -254,26 +272,6 @@
         "Foreign Policy - Iran::Missile Defense Worked Against Iran. It Might Not Work Against China.",
         "Foreign Policy - Iran::War and Circuses",
         "Foreign Policy - Iran::Trump Backpedals on Planned Iran Strikes, Citing Deal Progress"
-      ]
-    },
-    {
-      "date": "2026-06-11",
-      "summary": "Dive into the latest in tech as Anthropic addresses backlash over its new AI models, alongside emerging tools transforming music streaming and digital organization. Plus, catch up on the sports world's biggest headlines, including a blockbuster NFL trade reshaping the NFC West and a historic ninth-inning comeback in baseball. Finally, stay informed on escalating U.S.-Iran geopolitical tensions and the ongoing football stadium stalemate in Chicago.",
-      "keyTopics": [
-        "Anthropic Claude Fable 5 and Mythos 5 security backlash",
-        "Anthropic Claude Corps enterprise integration initiative",
-        "Deezer AI music detection tool for streaming playlists",
-        "Pool app launches AI screenshot organization tool",
-        "Rams acquire Myles Garrett from Cleveland Browns",
-        "Bryce Eldridge walk-off grand slam for SF Giants",
-        "Escalating US and Iran geopolitical tensions and airstrikes",
-        "Chicago Bears stadium relocation negotiations and stalemate"
-      ],
-      "articles": [
-        "ESPN Giants News::Giants: Eldridge's grand slam caps wild comeback as Giants rally from 8 down in 8th to stun Nats, 11-10",
-        "ESPN 49ers News::49ers: How the 49ers reacted to Rams trading for Myles Garrett",
-        "Foreign Policy - Iran::Iran Is Now More Dangerous Than Ever",
-        "Foreign Policy - Iran::Trump Says More Strikes on Iran Are Coming"
       ]
     }
   ]
