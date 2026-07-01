@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-01</title>
+      <description>Tune in for a jam-packed episode starting with the earth-shattering news that LeBron James is officially leaving the Los Angeles Lakers to enter free agency, rewriting the future of the NBA. We also dive into major moves in the tech sector, including Meta’s surprise entry into cloud computing and a controversial Sony deletion that reignites the debate over digital ownership. Plus, get updates on the intense World Cup knockout stages and a historic retirement from one of the &quot;Fathers of the Internet.&quot;</description>
+      <pubDate>Wed, 01 Jul 2026 09:32:05 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-01-093205.mp3" length="3626304" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-01-093205.mp3</guid>
+      <itunes:duration>227</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-06-30</title>
       <description>This episode explores Amazon’s massive new billion-dollar initiative to dominate enterprise AI by embedding engineers directly into client companies, alongside security updates like Anthropic&apos;s code-watermarking technology. Additionally, get the details on a bizarre online scam involving AI-generated flower seeds, the latest high-stakes NBA offseason drama surrounding the Lakers, and a controversial voting rights proposal in Los Angeles.</description>
       <pubDate>Tue, 30 Jun 2026 09:26:35 GMT</pubDate>
