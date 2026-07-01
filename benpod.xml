@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-01</title>
+      <description>Dive into a packed episode covering the latest escalations in the AI arms race, from Anthropic’s massive new releases and Google’s desktop assistant to Meta’s surprising move into cloud infrastructure. The discussion also explores the shifting realities of digital ownership through Sony&apos;s movie deletions, a growing open-source pushback against AI-generated code, and the retirement of internet pioneer Vinton Cerf. Plus, stay informed with the latest updates on high-stakes NFL contract drama, sports injuries, and ongoing global tensions.</description>
+      <pubDate>Wed, 01 Jul 2026 10:44:28 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-01-104428.mp3" length="5345280" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-01-104428.mp3</guid>
+      <itunes:duration>334</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-06-30</title>
       <description>Explore a sudden diplomatic shift between the U.S. and Iran over the Strait of Hormuz, alongside the Golden State Warriors&apos; blockbuster ambitions to target both LeBron James and Anthony Davis. Plus, discover the latest escalation in the AI wars, from Amazon&apos;s new $1 billion enterprise engineering initiative to a futuristic crypto marketplace where autonomous bots can actually hire and pay one another.</description>
       <pubDate>Tue, 30 Jun 2026 10:31:13 GMT</pubDate>
