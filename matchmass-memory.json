@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-07-01",
+      "summary": "Tune in for a jam-packed episode starting with the earth-shattering news that LeBron James is officially leaving the Los Angeles Lakers to enter free agency, rewriting the future of the NBA. We also dive into major moves in the tech sector, including Meta’s surprise entry into cloud computing and a controversial Sony deletion that reignites the debate over digital ownership. Plus, get updates on the intense World Cup knockout stages and a historic retirement from one of the \"Fathers of the Internet.\"",
+      "keyTopics": [
+        "LeBron James leaving Los Angeles Lakers for free agency",
+        "Meta planning to enter cloud infrastructure business",
+        "Google Gemini Spark assistant released on Mac",
+        "Venice AI raises sixty-five million dollars",
+        "US lifts export controls on Anthropic Claude models",
+        "Vinton Cerf retiring from Google",
+        "Sony PlayStation digital movie deletion controversy"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: LeBron James leaving Lakers prompts reaction from Luka, Magic",
+        "ESPN Lakers News::Lakers: Shams: LeBron will enter free agency, end Lakers tenure",
+        "ESPN Lakers News::Lakers: LeBron James informs Lakers he plans to play elsewhere in 2026-27"
+      ]
+    },
+    {
       "date": "2026-06-30",
       "summary": "This episode explores Amazon’s massive new billion-dollar initiative to dominate enterprise AI by embedding engineers directly into client companies, alongside security updates like Anthropic's code-watermarking technology. Additionally, get the details on a bizarre online scam involving AI-generated flower seeds, the latest high-stakes NBA offseason drama surrounding the Lakers, and a controversial voting rights proposal in Los Angeles.",
       "keyTopics": [
@@ -166,18 +184,6 @@
         "Anthropic and OpenAI fast-track summer IPO plans",
         "Santa Barbara Surfline API outage reaches day eighteen",
         "Starlink transition to global data and infrastructure company"
-      ]
-    },
-    {
-      "date": "2026-06-11",
-      "summary": "Dive into the complicated realities of the AI era as this episode explores Anthropic’s recent apology over \"invisible\" guardrails and the startling revelation that Pokémon Go player data has been used to train military drones. Plus, discover handy new consumer AI tools from DoorDash and Deezer, and get an update on the high-stakes drama unfolding at the 2026 World Cup. It's an engaging look at how everyday technology, data privacy, and global events intersect.",
-      "keyTopics": [
-        "Anthropic apology for invisible Fable AI guardrails",
-        "CEO Dario Amodei single direct report organizational structure",
-        "Niantic Pokemon Go 3D data training military drones",
-        "DoorDash launches Ask DoorDash generative AI chatbot",
-        "Deezer AI-generated music detection tool",
-        "Seventeen day Santa Barbara Surfline API outage"
       ]
     }
   ]
