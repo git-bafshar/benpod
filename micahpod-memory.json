@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-01",
+      "summary": "This episode explores Meta's bold move to challenge cloud giants by selling its excess AI compute power directly to businesses. Analyze the latest waves of regulatory confusion in AI development, Anthropic's newest product launches, and the aggressive strategies companies are using to win the tech talent war. Finally, discover why the open-source community is pushing back against AI-generated code and reflect on what the retirement of internet pioneer Vinton Cerf means for the future of the web.",
+      "keyTopics": [
+        "Meta plans launch of cloud infrastructure business",
+        "Trump administration drops restrictions on Anthropic models",
+        "Anthropic releases Claude Sonnet 5 and Claude Science",
+        "Wayve launches eighty-five million dollar employee tender offer",
+        "Godot Engine bans AI-authored code contributions",
+        "Vinton Cerf retires as Google Chief Internet Evangelist"
+      ]
+    },
+    {
       "date": "2026-06-30",
       "summary": "Discover how the AI landscape is shifting as California strikes a landmark government deal with Anthropic while federal regulators remain hesitant. This episode also explores a surprising report on how AI integration actually boosts company headcount, the rise of an autonomous marketplace where AI agents hire each other, and the ways product managers are adapting to this fast-evolving tech. Finally, stay tuned for a quick look at local economic trends, from recent restaurant closures to persistent housing demands.",
       "keyTopics": [
@@ -170,24 +182,6 @@
         "Anthropic Claude 5 Fable model launch issues",
         "Autonomous AI agent runaway cloud billing risks",
         "Tenth anniversary of Orlando Pulse nightclub tragedy"
-      ]
-    },
-    {
-      "date": "2026-06-11",
-      "summary": "Dive into the rapidly evolving world of AI as this episode explores Anthropic's new enterprise push, the rise of \"botsitting\" in the workplace, and a major safety lawsuit facing xAI. Plus, get the latest on a surprising real estate shift where buyers are gaining leverage despite record-high home prices, followed by a somber tribute marking the tenth anniversary of the Pulse nightclub tragedy.",
-      "keyTopics": [
-        "Anthropic Claude Corps enterprise deployment service",
-        "DoorDash AI chatbot menu search launch",
-        "Pool AI screenshot organization app",
-        "Workforce report on AI assistant botsitting",
-        "Opendoor exit from India outsourcing market",
-        "Former xAI engineer lawsuit over Grok safety",
-        "Pokémon Go data used for military drone navigation",
-        "US median home sale price crosses 400k"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
