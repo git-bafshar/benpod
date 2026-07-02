@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-02</title>
+      <description>Dive into the next phase of the tech boom as industry giants pour billions into on-site AI deployment and venture capitalists shift focus to the critical energy and infrastructure supporting it. On the court, learn about the Golden State Warriors&apos; bold strategic plan to land LeBron James and shake up the NBA offseason. Plus, discover how AI is reshaping everything from patent law and productivity software to smartphone hardware and even online dating.</description>
+      <pubDate>Thu, 02 Jul 2026 10:18:33 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-02-101833.mp3" length="4480320" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-02-101833.mp3</guid>
+      <itunes:duration>280</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-01</title>
       <description>Dive into a packed episode covering the latest escalations in the AI arms race, from Anthropic’s massive new releases and Google’s desktop assistant to Meta’s surprising move into cloud infrastructure. The discussion also explores the shifting realities of digital ownership through Sony&apos;s movie deletions, a growing open-source pushback against AI-generated code, and the retirement of internet pioneer Vinton Cerf. Plus, stay informed with the latest updates on high-stakes NFL contract drama, sports injuries, and ongoing global tensions.</description>
       <pubDate>Wed, 01 Jul 2026 10:44:28 GMT</pubDate>
