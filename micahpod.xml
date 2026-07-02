@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-02</title>
+      <description>The rules of the AI industry are being radically rewritten, from how training data is secured to how the next generation of technology is funded and powered. Discover how Cloudflare is shifting power back to content creators, why investors are pivoting toward physical infrastructure and energy, and how new AI-first platforms are rising to challenge established tech giants. Plus, get a glimpse into the future of autonomous agents, from rumored satellite-connected AI hardware to the wild reality of AI-automated dating.</description>
+      <pubDate>Thu, 02 Jul 2026 09:29:10 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-02-092910.mp3" length="3967104" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-02-092910.mp3</guid>
+      <itunes:duration>248</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-01</title>
       <description>This episode explores Meta&apos;s bold move to challenge cloud giants by selling its excess AI compute power directly to businesses. Analyze the latest waves of regulatory confusion in AI development, Anthropic&apos;s newest product launches, and the aggressive strategies companies are using to win the tech talent war. Finally, discover why the open-source community is pushing back against AI-generated code and reflect on what the retirement of internet pioneer Vinton Cerf means for the future of the web.</description>
       <pubDate>Wed, 01 Jul 2026 10:10:36 GMT</pubDate>
