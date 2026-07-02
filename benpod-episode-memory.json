@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-07-02",
+      "summary": "Dive into the next phase of the tech boom as industry giants pour billions into on-site AI deployment and venture capitalists shift focus to the critical energy and infrastructure supporting it. On the court, learn about the Golden State Warriors' bold strategic plan to land LeBron James and shake up the NBA offseason. Plus, discover how AI is reshaping everything from patent law and productivity software to smartphone hardware and even online dating.",
+      "keyTopics": [
+        "Microsoft $2.5 billion AI deployment company launch",
+        "Ashton Kutcher AI infrastructure and energy venture fund",
+        "Golden State Warriors pursuit of LeBron James",
+        "SpaceX rumored AI handset device prototype",
+        "Japan Supreme Court ruling on AI patent inventors",
+        "Bhavin Turakhia Neo AI-native productivity suite"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Sources: De'Anthony Melton returns to Warriors on 2-year deal",
+        "ESPN Warriors News::Warriors: Shams: Warriors have internal plan to land LeBron James",
+        "ESPN Giants News::Giants: Giants 3B Chapman goes on 10-day IL with strained abdominal"
+      ]
+    },
+    {
       "date": "2026-07-01",
       "summary": "Dive into a packed episode covering the latest escalations in the AI arms race, from Anthropic’s massive new releases and Google’s desktop assistant to Meta’s surprising move into cloud infrastructure. The discussion also explores the shifting realities of digital ownership through Sony's movie deletions, a growing open-source pushback against AI-generated code, and the retirement of internet pioneer Vinton Cerf. Plus, stay informed with the latest updates on high-stakes NFL contract drama, sports injuries, and ongoing global tensions.",
       "keyTopics": [
@@ -253,25 +270,6 @@
         "Foreign Policy - Iran::Netanyahu’s Reelection Could Hinge on Outcome of Iran War",
         "Foreign Policy - Iran::Trump’s Big Weekend Could Derail the G-7",
         "Foreign Policy - Iran::Will Farmers Lose Faith With Trump?"
-      ]
-    },
-    {
-      "date": "2026-06-12",
-      "summary": "This episode dives into the high-stakes diplomatic tension between the U.S. and Iran as planned military strikes are abruptly paused amid conflicting reports of a deal. Plus, explore the massive power shift in Silicon Valley as the \"MANGOS\" era of AI and infrastructure takes over, highlighted by a mind-boggling $12 billion funding round for Jeff Bezos’s new startup. Finally, discover the strategic reasoning behind the San Francisco 49ers' shocking decision to cancel their mandatory minicamp.",
-      "keyTopics": [
-        "US calls off planned military strikes on Iran",
-        "MANGOS tech acronym replacing FAANG for AI era",
-        "First Anthropic Public Record safety testing report",
-        "Anthropic partners with DXC Technology to deploy Claude",
-        "Jeff Bezos AI startup Prometheus raises 12 billion dollars",
-        "AI infrastructure startup Railway raises 100 million dollars",
-        "San Francisco 49ers cancel mandatory minicamp"
-      ],
-      "articles": [
-        "ESPN 49ers News::49ers: 3 reasons the 49ers canceled mandatory minicamp",
-        "Foreign Policy - Iran::Missile Defense Worked Against Iran. It Might Not Work Against China.",
-        "Foreign Policy - Iran::War and Circuses",
-        "Foreign Policy - Iran::Trump Backpedals on Planned Iran Strikes, Citing Deal Progress"
       ]
     }
   ]
