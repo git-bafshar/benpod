@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-02",
+      "summary": "The rules of the AI industry are being radically rewritten, from how training data is secured to how the next generation of technology is funded and powered. Discover how Cloudflare is shifting power back to content creators, why investors are pivoting toward physical infrastructure and energy, and how new AI-first platforms are rising to challenge established tech giants. Plus, get a glimpse into the future of autonomous agents, from rumored satellite-connected AI hardware to the wild reality of AI-automated dating.",
+      "keyTopics": [
+        "Cloudflare policy blocking AI crawlers from publisher sites",
+        "Ashton Kutcher launching AI infrastructure and energy fund",
+        "SpaceX prototype AI handset device development",
+        "Bhavin Turakhia launches Neo AI productivity suite",
+        "GitHub Copilot integrates Kimi K2.7 Code model",
+        "Ben Guez automates Instagram dating with OpenClaw"
+      ]
+    },
+    {
       "date": "2026-07-01",
       "summary": "This episode explores Meta's bold move to challenge cloud giants by selling its excess AI compute power directly to businesses. Analyze the latest waves of regulatory confusion in AI development, Anthropic's newest product launches, and the aggressive strategies companies are using to win the tech talent war. Finally, discover why the open-source community is pushing back against AI-generated code and reflect on what the retirement of internet pioneer Vinton Cerf means for the future of the web.",
       "keyTopics": [
@@ -170,18 +182,6 @@
         "Satellite demonstrates autonomous real-time target detection using onboard AI",
         "Indian AI startup Sarvam achieves unicorn status with HCLTech investment",
         "Anthropic partners with TCS and DXC for Claude enterprise deployment"
-      ]
-    },
-    {
-      "date": "2026-06-12",
-      "summary": "Witness history in the making with a deep dive into SpaceX's record-breaking IPO and the multi-billion-dollar funding boom shaping the future of physical AI and robotics. This episode also explores user feedback on Anthropic's new Claude 5 model, the costly risks of runaway autonomous AI agents, and the latest cooling trends in the housing market. Finally, take a moment to reflect on the tenth anniversary of the Pulse nightclub tragedy and the enduring resilience of the Orlando community.",
-      "keyTopics": [
-        "SpaceX historic initial public offering launch",
-        "Jeff Bezos startup Prometheus twelve billion dollar funding",
-        "Theker modular robotics eighty-five million dollar round",
-        "Anthropic Claude 5 Fable model launch issues",
-        "Autonomous AI agent runaway cloud billing risks",
-        "Tenth anniversary of Orlando Pulse nightclub tragedy"
       ]
     }
   ]
