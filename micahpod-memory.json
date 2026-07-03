@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-03",
+      "summary": "This episode dives into a major reality check for the AI industry, exploring the tension between public hype and technical limits through Meta's internal struggles and Alibaba's potential ban on Anthropic's coding tool over security concerns. We also unpack OpenAI’s unprecedented proposal to donate five percent of its equity to a U.S. sovereign wealth fund, potentially redefining the relationship between big tech and national governments. Finally, stay tuned for a quick look at holiday weekend travel forecasts and the latest housing market trends.",
+      "keyTopics": [
+        "Mark Zuckerberg admits slow progress on Meta AI agents",
+        "Jersey Mike's AI strategy hype in IPO documents",
+        "Meta launch of experimental AI gaming app Pocket",
+        "Alibaba considers ban on Anthropic Claude Code software",
+        "Anthropic in talks with Samsung for custom chips",
+        "Sam Altman proposes OpenAI equity donation to US fund"
+      ]
+    },
+    {
       "date": "2026-07-02",
       "summary": "The rules of the AI industry are being radically rewritten, from how training data is secured to how the next generation of technology is funded and powered. Discover how Cloudflare is shifting power back to content creators, why investors are pivoting toward physical infrastructure and energy, and how new AI-first platforms are rising to challenge established tech giants. Plus, get a glimpse into the future of autonomous agents, from rumored satellite-connected AI hardware to the wild reality of AI-automated dating.",
       "keyTopics": [
@@ -169,19 +181,6 @@
         "Plaud AI software tops 100 million ARR",
         "Robinhood layoffs announced by CEO Vlad Tenev",
         "US real estate market cooling and normalization trends"
-      ]
-    },
-    {
-      "date": "2026-06-15",
-      "summary": "This episode explores the brewing battle over the U.S. government's sudden suspension of Anthropic's latest frontier AI models and the resulting backlash from cybersecurity experts. We also dive into the rapid rise of enterprise AI agents, highlighted by Salesforce's massive $3.6 billion acquisition and new infrastructure to manage digital employee identities. Finally, discover how on-board AI is revolutionizing space satellites and India's accelerating push for sovereign AI technology.",
-      "keyTopics": [
-        "US government suspension of Anthropic Fable and Mythos models",
-        "Cybersecurity experts protest White House ban on Anthropic models",
-        "Salesforce acquires customer service AI startup Fin for $3.6B",
-        "NewCore raises $66M for enterprise AI agent identity management",
-        "Satellite demonstrates autonomous real-time target detection using onboard AI",
-        "Indian AI startup Sarvam achieves unicorn status with HCLTech investment",
-        "Anthropic partners with TCS and DXC for Claude enterprise deployment"
       ]
     }
   ]
