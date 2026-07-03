@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-03</title>
+      <description>Dive into the rapidly evolving landscape of artificial intelligence, exploring high-stakes custom chip battles, enterprise security concerns, and Illinois&apos;s dual approach of regulating classroom deepfakes while funding a massive data center boom. This episode also analyzes a complex public safety paradox in Chicago, the brewing contract drama shaking up the sports world, and new tactical shifts in the national housing market. Tune in for a comprehensive look at the major tech, policy, and sports stories shaping the week.</description>
+      <pubDate>Fri, 03 Jul 2026 10:13:38 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-03-101338.mp3" length="6694272" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-03-101338.mp3</guid>
+      <itunes:duration>418</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-02</title>
       <description>Dive into the next phase of the tech boom as industry giants pour billions into on-site AI deployment and venture capitalists shift focus to the critical energy and infrastructure supporting it. On the court, learn about the Golden State Warriors&apos; bold strategic plan to land LeBron James and shake up the NBA offseason. Plus, discover how AI is reshaping everything from patent law and productivity software to smartphone hardware and even online dating.</description>
       <pubDate>Thu, 02 Jul 2026 10:18:33 GMT</pubDate>
