@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-07-03",
+      "summary": "Dive into the rapidly evolving landscape of artificial intelligence, exploring high-stakes custom chip battles, enterprise security concerns, and Illinois's dual approach of regulating classroom deepfakes while funding a massive data center boom. This episode also analyzes a complex public safety paradox in Chicago, the brewing contract drama shaking up the sports world, and new tactical shifts in the national housing market. Tune in for a comprehensive look at the major tech, policy, and sports stories shaping the week.",
+      "keyTopics": [
+        "Anthropic Samsung custom AI chip partnership talks",
+        "Sam Altman OpenAI equity donation to US sovereign wealth fund",
+        "Alibaba plans ban on Anthropic Claude Code assistant",
+        "Mark Zuckerberg admits Meta AI agent progress is slow",
+        "Illinois law targeting AI deepfakes in schools",
+        "Illinois data center tax credits and infrastructure expansion",
+        "Brandon Aiyuk contract standoff with San Francisco 49ers"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Why re-signing Kristaps Porzingis narrows Warriors' financial flexibility",
+        "ESPN 49ers News::49ers: Mike Evans is fitting right in with the 49ers",
+        "ESPN 49ers News::49ers: Aiyuk: If 49ers cut me, I'll sign with Commanders 'tomorrow'",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::The MOU Is Paying Off Early for Iran"
+      ]
+    },
+    {
       "date": "2026-07-02",
       "summary": "Dive into the next phase of the tech boom as industry giants pour billions into on-site AI deployment and venture capitalists shift focus to the critical energy and infrastructure supporting it. On the court, learn about the Golden State Warriors' bold strategic plan to land LeBron James and shake up the NBA offseason. Plus, discover how AI is reshaping everything from patent law and productivity software to smartphone hardware and even online dating.",
       "keyTopics": [
@@ -250,26 +271,6 @@
         "Foreign Policy - Iran::Everyone Lost the War With Iran",
         "Foreign Policy - Iran::U.S.-Iran Peace Deal Arrives Just in Time for G-7 Summit",
         "Foreign Policy - Iran::The Truce Between the U.S. and Iran Was the Easy Part"
-      ]
-    },
-    {
-      "date": "2026-06-15",
-      "summary": "Explore the heated debate over government AI restrictions as cybersecurity veterans push back, alongside a look at Salesforce's massive $3.6 billion acquisition of customer service platform Fin. This episode also covers the political standoff over the Chicago Bears' stadium, recent sports highlights, and the domestic political and economic ripple effects of rising US-Iran tensions.",
-      "keyTopics": [
-        "Cybersecurity experts protest White House restrictions on Anthropic models",
-        "Salesforce acquires AI customer service platform Fin for $3.6B",
-        "AI agent identity startup NewCore raises $66 million",
-        "Chicago Bears stadium funding dispute and Indiana move rumors",
-        "Tragic passing of former 49ers defensive lineman Aldon Smith",
-        "US-Iran geopolitical tensions impact on Israeli Prime Minister Netanyahu"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Chicago Cubs at San Francisco Giants",
-        "ESPN Giants News::Giants: Giants put reliever Keaton Winn on IL with elbow strain",
-        "ESPN 49ers News::49ers: Former NFL defensive lineman Aldon Smith dies at age 36",
-        "Foreign Policy - Iran::Netanyahu’s Reelection Could Hinge on Outcome of Iran War",
-        "Foreign Policy - Iran::Trump’s Big Weekend Could Derail the G-7",
-        "Foreign Policy - Iran::Will Farmers Lose Faith With Trump?"
       ]
     }
   ]
