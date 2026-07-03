@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-07-03",
+      "summary": "This episode dives into the shifting dynamics of the AI landscape, exploring Meta's reality check on development, Anthropic's custom chip ambitions, and the latest absurd corporate AI hype. The conversation then shifts to the sports world with a breakdown of the Los Angeles Lakers’ audacious franchise reset to acquire superstar Luka Dončić. Finally, get updates on the high-stakes World Cup knockout rounds and a frustrating tech outage affecting holiday weekend surfers.",
+      "keyTopics": [
+        "Meta experimental text-to-game app Pocket release",
+        "Anthropic and Samsung custom AI chip partnership talks",
+        "Alibaba bans Anthropic Claude Code over security concerns",
+        "Jersey Mike's IPO filing highlights AI strategy",
+        "Los Angeles Lakers rebuild around Luka Dončić",
+        "Ongoing Surfline API outage impacts holiday weekend"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: The 35-minute offseason overhaul of the Los Angeles Lakers"
+      ]
+    },
+    {
       "date": "2026-07-02",
       "summary": "Explore the rapidly shifting AI landscape with a look at Microsoft's multi-billion-dollar enterprise push, OpenAI's unique sovereign wealth fund proposal, and Japan's landmark patent ruling. In sports, discover how the Los Angeles Lakers are aggressively rebuilding their roster in the immediate aftermath of LeBron James's departure. Plus, stay updated on the high-stakes drama of the World Cup knockout rounds and a persistent regional tech outage disrupting coastal routines.",
       "keyTopics": [
@@ -175,18 +190,6 @@
         "DOJ intervenes in xAI unpermitted gas turbine dispute",
         "SpaceX IPO validates Starlink orbital data network valuation",
         "Santa Barbara Surfline API outage reaches day 22"
-      ]
-    },
-    {
-      "date": "2026-06-15",
-      "summary": "This episode explores major shifts in the AI landscape, highlighting Salesforce’s massive $3.6 billion acquisition of Fin, Meta’s new data-driven \"AI Mode,\" and the intense cybersecurity backlash surrounding government restrictions on Anthropic's advanced models. We also unpack SpaceX’s highly anticipated IPO and its ambitious vision to build a global data and infrastructure network from low Earth orbit. Plus, get quick updates on the mounting drama of the 2026 World Cup group stages and a legendary local tech outage.",
-      "keyTopics": [
-        "Salesforce acquiring AI customer service platform Fin for Agentforce",
-        "Meta rolling out Facebook AI Mode using public data",
-        "Cybersecurity experts protest export ban on Anthropic AI models",
-        "SpaceX IPO reveals plans for Starlink orbital data centers",
-        "Ongoing group stage match drama in 2026 World Cup",
-        "Twenty-one day Santa Barbara County Surfline API outage"
       ]
     }
   ]
