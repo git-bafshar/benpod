@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-03</title>
+      <description>This episode dives into a major reality check for the AI industry, exploring the tension between public hype and technical limits through Meta&apos;s internal struggles and Alibaba&apos;s potential ban on Anthropic&apos;s coding tool over security concerns. We also unpack OpenAI’s unprecedented proposal to donate five percent of its equity to a U.S. sovereign wealth fund, potentially redefining the relationship between big tech and national governments. Finally, stay tuned for a quick look at holiday weekend travel forecasts and the latest housing market trends.</description>
+      <pubDate>Fri, 03 Jul 2026 09:41:39 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-03-094139.mp3" length="4334016" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-03-094139.mp3</guid>
+      <itunes:duration>271</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-02</title>
       <description>The rules of the AI industry are being radically rewritten, from how training data is secured to how the next generation of technology is funded and powered. Discover how Cloudflare is shifting power back to content creators, why investors are pivoting toward physical infrastructure and energy, and how new AI-first platforms are rising to challenge established tech giants. Plus, get a glimpse into the future of autonomous agents, from rumored satellite-connected AI hardware to the wild reality of AI-automated dating.</description>
       <pubDate>Thu, 02 Jul 2026 09:29:10 GMT</pubDate>
