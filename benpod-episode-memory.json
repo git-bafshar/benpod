@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-07-06",
+      "summary": "Explore the ripple effects of the AI boom in this episode, from Microsoft's massive layoffs and the quiet wind-down of Amazon's Mechanical Turk to a controversial Google Chrome update that installs a massive AI model on users' computers. We also break down shifting geopolitical dynamics in the Middle East, a heartbreaking loss for the Giants on the baseball diamond, and Midjourney's clever legal counter-strike against Hollywood. Finally, get a look at how a new Google commercial drafts the Founding Fathers to advertise its AI collaboration tools.",
+      "keyTopics": [
+        "Microsoft lays off 5,000 workers amid AI realignment",
+        "Amazon closes Mechanical Turk to new customers",
+        "Google Chrome quietly installs 4GB local AI model",
+        "Colorado Rockies defeat San Francisco Giants 7 to 6",
+        "Shifting Middle East alliances and the new Saudi-Iranian order",
+        "Midjourney demands Hollywood studios disclose internal AI usage",
+        "Google Workspace commercial features Founding Fathers using AI"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Colorado Rockies",
+        "Foreign Policy - Iran::Israel Belongs in the New Saudi-Iranian Order",
+        "Foreign Policy - Iran::Angsty in Ankara"
+      ]
+    },
+    {
       "date": "2026-07-03",
       "summary": "Dive into the rapidly evolving landscape of artificial intelligence, exploring high-stakes custom chip battles, enterprise security concerns, and Illinois's dual approach of regulating classroom deepfakes while funding a massive data center boom. This episode also analyzes a complex public safety paradox in Chicago, the brewing contract drama shaking up the sports world, and new tactical shifts in the national housing market. Tune in for a comprehensive look at the major tech, policy, and sports stories shaping the week.",
       "keyTopics": [
@@ -251,26 +269,6 @@
         "Foreign Policy - Iran::Can Ships in the Gulf Take Trump at His Word?",
         "Foreign Policy - Iran::Iran’s Victory Is More Pyrrhic Than It Looks",
         "Foreign Policy - Iran::What Will China Learn From the Iran War?"
-      ]
-    },
-    {
-      "date": "2026-06-16",
-      "summary": "Explore a monumental day in tech and global news, starting with Google’s launch of Android 17 and SpaceX’s historic debut on the public stock market. Dive into the friction surrounding the AI boom, from growing consumer fatigue with tech branding to the government's regulatory battles over AI safety and energy demands. Plus, get crucial updates on a fragile new truce between the U.S. and Iran and the latest headlines shaking up the sports world.",
-      "keyTopics": [
-        "Google Android 17 release with Gemini AI integration",
-        "Consumer backlash against AI branding in marketing",
-        "Anthropic Fable 5 code generation security concerns",
-        "SpaceX official initial public offering",
-        "Department of Justice defense of xAI gas turbines",
-        "Fragile US and Iran truce ahead of G7",
-        "San Francisco Giants Pride Night Bible verse controversy"
-      ],
-      "articles": [
-        "ESPN Giants News::Giants: MLB decries use of personal writings on Pride Night hats",
-        "ESPN 49ers News::49ers: Trent Williams expects 49ers extension to be his last",
-        "Foreign Policy - Iran::Everyone Lost the War With Iran",
-        "Foreign Policy - Iran::U.S.-Iran Peace Deal Arrives Just in Time for G-7 Summit",
-        "Foreign Policy - Iran::The Truce Between the U.S. and Iran Was the Easy Part"
       ]
     }
   ]
