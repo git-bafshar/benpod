@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-07-06",
+      "summary": "Explore a major shift in the tech landscape as this episode covers the sunsetting of Amazon’s Mechanical Turk for new business and the escalating geopolitical tech divide marked by Alibaba’s ban on Anthropic’s coding tool. The discussion also dives into Midjourney’s clever legal strategy against Hollywood studios and Europe's growing role in the AI talent race. Finally, get a look at Sun Belt real estate trends and a humorous breakdown of Google's history-inspired Workspace commercial.",
+      "keyTopics": [
+        "Amazon stops accepting new Mechanical Turk customers",
+        "Alibaba bans Anthropic Claude Code over security concerns",
+        "Midjourney legal motion targets Hollywood studio AI usage",
+        "Station F launches European AI accelerator program",
+        "Google Workspace commercial featuring the Founding Fathers"
+      ]
+    },
+    {
       "date": "2026-07-03",
       "summary": "This episode dives into a major reality check for the AI industry, exploring the tension between public hype and technical limits through Meta's internal struggles and Alibaba's potential ban on Anthropic's coding tool over security concerns. We also unpack OpenAI’s unprecedented proposal to donate five percent of its equity to a U.S. sovereign wealth fund, potentially redefining the relationship between big tech and national governments. Finally, stay tuned for a quick look at holiday weekend travel forecasts and the latest housing market trends.",
       "keyTopics": [
@@ -169,18 +180,6 @@
         "Pinterest launches experimental conversational shopping app Ask Pinterest",
         "Consumer survey shows growing fatigue with AI brand messaging",
         "US real estate market enters slow cooling and normalization phase"
-      ]
-    },
-    {
-      "date": "2026-06-16",
-      "summary": "This episode dives into the rapidly shifting tech and AI landscapes, starting with SpaceX’s staggering $2.7 trillion valuation and the surprising security reasons behind the government's sudden ban on Anthropic's advanced models. Discover how the U.S. government is treating private AI infrastructure as a critical national security asset while everyday AI tools continue to transform the workplace. Plus, get a quick briefing on the shifting dynamics of the cooling real estate market.",
-      "keyTopics": [
-        "SpaceX valuation surges past 2.7 trillion dollars",
-        "US government suspension of Anthropic Fable and Mythos",
-        "DOJ defends xAI gas turbine permitting violation",
-        "Plaud AI software tops 100 million ARR",
-        "Robinhood layoffs announced by CEO Vlad Tenev",
-        "US real estate market cooling and normalization trends"
       ]
     }
   ]
