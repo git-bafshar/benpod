@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-07-06",
+      "summary": "Explore how the AI boom is actively reshaping the job market as we break down Microsoft's major layoffs and Amazon's decision to phase out its pioneering Mechanical Turk platform. Plus, get the latest on the Los Angeles Lakers' aggressive, post-LeBron roster rebuild and the high-stakes drama of the World Cup knockout stage. Finally, find out why a persistent tech outage has local surfers heading back to the beach for old-school wave checks.",
+      "keyTopics": [
+        "Microsoft layoffs of 4,800 workers spark AI job fears",
+        "Amazon phases out new Mechanical Turk customer signups",
+        "Lakers trade Deandre Ayton to Washington Wizards",
+        "Los Angeles Lakers roster rebuild around Luka Dončić",
+        "FIFA World Cup knockout stage tournament progress",
+        "Ongoing Surfline API outage affects beachgoers"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Inside the sterile dissolution of the LeBron-Lakers marriage",
+        "ESPN Lakers News::Lakers: 2026 NBA offseason trade grades: Walker Kessler, Ja Morant deals",
+        "ESPN Lakers News::Lakers: Sources: Lakers trading Ayton to Wizards for Hardy, future picks"
+      ]
+    },
+    {
       "date": "2026-07-03",
       "summary": "This episode dives into the shifting dynamics of the AI landscape, exploring Meta's reality check on development, Anthropic's custom chip ambitions, and the latest absurd corporate AI hype. The conversation then shifts to the sports world with a breakdown of the Los Angeles Lakers’ audacious franchise reset to acquire superstar Luka Dončić. Finally, get updates on the high-stakes World Cup knockout rounds and a frustrating tech outage affecting holiday weekend surfers.",
       "keyTopics": [
@@ -177,19 +194,6 @@
         "Anthropic employees accuse Trump administration of political targeting",
         "Ongoing Santa Barbara Surfline API outage",
         "2026 World Cup group stage progression"
-      ]
-    },
-    {
-      "date": "2026-06-16",
-      "summary": "Explore the growing divide between consumer fatigue over AI buzzwords and the U.S. government’s escalating treatment of AI compute power as critical national infrastructure. This episode also breaks down the strategic vision behind SpaceX’s recent IPO, highlighting Starlink's future as an orbital data network. Finally, catch a quick update on the high-stakes action at the World Cup group stages.",
-      "keyTopics": [
-        "WordPress VIP survey on consumer AI marketing fatigue",
-        "Google Android 17 release with embedded Gemini features",
-        "Plaud AI notetaker crosses 100 million dollars ARR",
-        "Anthropic Claude model error rate spikes",
-        "DOJ intervenes in xAI unpermitted gas turbine dispute",
-        "SpaceX IPO validates Starlink orbital data network valuation",
-        "Santa Barbara Surfline API outage reaches day 22"
       ]
     }
   ]
