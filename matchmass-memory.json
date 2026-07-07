@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-07-07",
+      "summary": "This episode explores the rapidly expanding reach of artificial intelligence, from Anthropic's new mobile agent and anti-scam defense tools to autonomous military deployments and SK Hynix's massive upcoming IPO. The coverage also dives into the sports world, highlighting the latest dramatic moves in the Los Angeles Lakers' aggressive roster rebuild and the high-stakes World Cup knockout stage. Finally, get an update on the ongoing Surfline API outage that has local beachgoers reverting to old-school, analog wave checks.",
+      "keyTopics": [
+        "Anthropic Claude Cowork launch on web and mobile",
+        "Savi seed funding for AI voice scam protection",
+        "Forterra deploys autonomous ground vehicles in Ukraine",
+        "SK Hynix prepares for US IPO",
+        "Rui Hachimura signs with Los Angeles Clippers",
+        "Los Angeles Lakers roster rebuild around Luka Dončić",
+        "Ongoing Surfline API outage impacts surfers"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Sources: Rui Hachimura, Clippers agree to 2-year, $28M deal"
+      ]
+    },
+    {
       "date": "2026-07-06",
       "summary": "Explore how the AI boom is actively reshaping the job market as we break down Microsoft's major layoffs and Amazon's decision to phase out its pioneering Mechanical Turk platform. Plus, get the latest on the Los Angeles Lakers' aggressive, post-LeBron roster rebuild and the high-stakes drama of the World Cup knockout stage. Finally, find out why a persistent tech outage has local surfers heading back to the beach for old-school wave checks.",
       "keyTopics": [
@@ -182,18 +198,6 @@
         "Guardrails PAC tech worker advocacy for AI safety",
         "Slowtech consumer movement resisting AI device attention",
         "Ongoing Santa Barbara Surfline API technical outage"
-      ]
-    },
-    {
-      "date": "2026-06-17",
-      "summary": "Explore the widening gap between public skepticism of AI and the tech industry's rapid acceleration, from Google's new Gemini-powered smart speaker to startups building mathematically verifiable trust. This episode also dives into the escalating political battlefield of tech, unpacking alarming allegations of government targeting from employees at Anthropic. Plus, stay tuned for updates on the high-stakes drama of the 2026 World Cup group stages and a humorous look at a stubborn local mystery.",
-      "keyTopics": [
-        "Pew Research report on consumer AI skepticism",
-        "Gemini-powered Google Home speaker announcement",
-        "Pramaana Labs seed funding for AI formal verification",
-        "Anthropic employees accuse Trump administration of political targeting",
-        "Ongoing Santa Barbara Surfline API outage",
-        "2026 World Cup group stage progression"
       ]
     }
   ]
