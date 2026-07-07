@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-07-07",
+      "summary": "Explore the massive shift from basic AI chatbots to autonomous digital co-workers as next-generation models and workplace integrations redefine how we get things done. This episode also dives into critical geopolitical developments, from a high-stakes NATO summit to maritime tensions in the Strait of Hormuz, before examining a staggering wealth gap in the U.S. housing market.",
+      "keyTopics": [
+        "OpenAI GPT-5.5 and Anthropic Claude Fable agentic models",
+        "Forterra autonomous military ground vehicles in Ukraine",
+        "Startup Savi funding for deepfake scam protection",
+        "Alberta government utilizing Anthropic Claude for cybersecurity",
+        "Salesforce launches rebuilt agentic AI Slackbot",
+        "Donald Trump NATO summit defense spending demands",
+        "Rahm Emanuel US-Israel relationship crossroads speech"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-07-06",
       "summary": "Explore a major shift in the tech landscape as this episode covers the sunsetting of Amazon’s Mechanical Turk for new business and the escalating geopolitical tech divide marked by Alibaba’s ban on Anthropic’s coding tool. The discussion also dives into Midjourney’s clever legal strategy against Hollywood studios and Europe's growing role in the AI talent race. Finally, get a look at Sun Belt real estate trends and a humorous breakdown of Google's history-inspired Workspace commercial.",
       "keyTopics": [
@@ -168,18 +185,6 @@
         "Snap AR glasses market reception versus Pixi messaging app",
         "Railway secures $100 million for AI-native cloud infrastructure",
         "Listen Labs viral billboard recruiting campaign and funding"
-      ]
-    },
-    {
-      "date": "2026-06-17",
-      "summary": "Explore how government scrutiny is unexpectedly boosting enterprise demand for cutting-edge AI, turning a regulatory battle into a powerful marketing tool. This episode also dives into the rise of mathematical safety in AI engineering, major global investments in India’s tech infrastructure, and Pinterest’s new conversational search. Finally, learn why most consumers are already experiencing \"AI fatigue\" and why the smartest brands are ditching the buzzwords to focus on real human benefits.",
-      "keyTopics": [
-        "Anthropic Fable and Mythos government suspension boosts enterprise sales",
-        "Pramaana Labs raises 27 million dollar seed round",
-        "Canadian pension fund investment in Indian data center operator CtrlS",
-        "Pinterest launches experimental conversational shopping app Ask Pinterest",
-        "Consumer survey shows growing fatigue with AI brand messaging",
-        "US real estate market enters slow cooling and normalization phase"
       ]
     }
   ]
