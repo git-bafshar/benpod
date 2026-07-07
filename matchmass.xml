@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-07</title>
+      <description>This episode explores the rapidly expanding reach of artificial intelligence, from Anthropic&apos;s new mobile agent and anti-scam defense tools to autonomous military deployments and SK Hynix&apos;s massive upcoming IPO. The coverage also dives into the sports world, highlighting the latest dramatic moves in the Los Angeles Lakers&apos; aggressive roster rebuild and the high-stakes World Cup knockout stage. Finally, get an update on the ongoing Surfline API outage that has local beachgoers reverting to old-school, analog wave checks.</description>
+      <pubDate>Tue, 07 Jul 2026 09:36:56 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-07-093656.mp3" length="3449472" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-07-093656.mp3</guid>
+      <itunes:duration>216</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-06</title>
       <description>Explore how the AI boom is actively reshaping the job market as we break down Microsoft&apos;s major layoffs and Amazon&apos;s decision to phase out its pioneering Mechanical Turk platform. Plus, get the latest on the Los Angeles Lakers&apos; aggressive, post-LeBron roster rebuild and the high-stakes drama of the World Cup knockout stage. Finally, find out why a persistent tech outage has local surfers heading back to the beach for old-school wave checks.</description>
       <pubDate>Mon, 06 Jul 2026 09:56:52 GMT</pubDate>
