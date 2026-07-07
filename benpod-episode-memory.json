@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-07-07",
+      "summary": "Discover how artificial intelligence is rapidly moving from theory to reality, exploring its deployment on the battlefields of Ukraine, its role in defending against sophisticated phone scams, and the truth behind a headline-grabbing \"AI-run\" cyberattack. This episode also dives into the financial side of the tech boom with SK Hynix's upcoming IPO and the global demand for AI hardware. Finally, stay up to speed on the latest sports drama, including Brandon Aiyuk’s escalating contract standoff and a looming roster deadline for the Golden State Warriors.",
+      "keyTopics": [
+        "Forterra deploys autonomous ATVs in Ukraine conflict zones",
+        "Alberta government uses Anthropic Claude for cybersecurity",
+        "Savi raises seven million for anti-AI scam app",
+        "Clarification on first human-directed AI ransomware attack",
+        "SK Hynix planning multi-billion-dollar US IPO",
+        "Brandon Aiyuk contract negotiations with San Francisco 49ers",
+        "Golden State Warriors deadline to match Quinten Post offer"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Sources: Warriors' Post signing offer sheet with Grizzlies",
+        "ESPN 49ers News::49ers: Brandon Aiyuk blames ex-agent as push to leaves 49ers continues",
+        "ESPN 49ers News::49ers: Fowler: Brandon Aiyuk is lighting money on fire with every Instagram video",
+        "Foreign Policy - Iran::What to Expect at the 2026 NATO Summit"
+      ]
+    },
+    {
       "date": "2026-07-06",
       "summary": "Explore the ripple effects of the AI boom in this episode, from Microsoft's massive layoffs and the quiet wind-down of Amazon's Mechanical Turk to a controversial Google Chrome update that installs a massive AI model on users' computers. We also break down shifting geopolitical dynamics in the Middle East, a heartbreaking loss for the Giants on the baseball diamond, and Midjourney's clever legal counter-strike against Hollywood. Finally, get a look at how a new Google commercial drafts the Founding Fathers to advertise its AI collaboration tools.",
       "keyTopics": [
@@ -247,28 +266,6 @@
         "Foreign Policy - Iran::The Iran War Damaged U.S.-India Ties",
         "Foreign Policy - Iran::Trump Defends His Iran Deal",
         "Foreign Policy - Iran::U.S.-Iran Memorandum of Understanding: Full Text"
-      ]
-    },
-    {
-      "date": "2026-06-17",
-      "summary": "Explore the dual realities of the AI boom as this episode breaks down Google's latest smart speaker and the massive global energy demands of data centers. We also analyze the political friction in Washington over a key national security nomination and the fragile diplomatic truce with Iran. Finally, get crucial updates on a broken federal prison grievance system, a major public health victory in Pakistan, and shifting buyer leverage in the housing market.",
-      "keyTopics": [
-        "Google Gemini-powered Home Speaker announcement",
-        "Anthropic expansion into South Korea AI ecosystem",
-        "Pramaana Labs seed funding for AI formal verification",
-        "Canadian pension fund investment in Indian data center CtrlS",
-        "Senate confirmation hearing for DNI nominee Jay Clayton",
-        "US-Iran truce diplomatic negotiations at G7 summit",
-        "NPR investigation of federal prison grievance system failures",
-        "Pakistan tax elimination on menstrual products and contraceptives"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Atlanta Braves",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Can Ships in the Gulf Take Trump at His Word?",
-        "Foreign Policy - Iran::Iran’s Victory Is More Pyrrhic Than It Looks",
-        "Foreign Policy - Iran::What Will China Learn From the Iran War?"
       ]
     }
   ]
