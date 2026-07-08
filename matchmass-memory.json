@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-08",
+      "summary": "Explore the high-stakes world of artificial intelligence as this episode breaks down SambaNova’s massive one-billion-dollar funding round alongside a major security flaw discovered in GitHub's Copilot. Then, shift gears to sports with an inside look at the Los Angeles Lakers' aggressive roster rebuild and the escalating drama of the World Cup knockout rounds. Finally, get a quick update on a persistent local tech outage keeping surfers in the dark.",
+      "keyTopics": [
+        "SambaNova eleven billion dollar valuation funding round",
+        "GitHub Copilot Workspace GitLost prompt injection vulnerability",
+        "Los Angeles Lakers sign Kevon Looney to contract",
+        "Lakers pursue trade for Warriors forward Jonathan Kuminga",
+        "Ongoing Surfline API outage in Santa Barbara County"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Lakers land center Looney; in pursuit of Kuminga, sources say"
+      ]
+    },
+    {
       "date": "2026-07-07",
       "summary": "This episode explores the rapidly expanding reach of artificial intelligence, from Anthropic's new mobile agent and anti-scam defense tools to autonomous military deployments and SK Hynix's massive upcoming IPO. The coverage also dives into the sports world, highlighting the latest dramatic moves in the Los Angeles Lakers' aggressive roster rebuild and the high-stakes World Cup knockout stage. Finally, get an update on the ongoing Surfline API outage that has local beachgoers reverting to old-school, analog wave checks.",
       "keyTopics": [
@@ -186,18 +200,6 @@
         "US alleges ASML chip-making machine exported to China",
         "2026 World Cup group stage tournament updates",
         "Ongoing Santa Barbara Surfline API data outage"
-      ]
-    },
-    {
-      "date": "2026-06-18",
-      "summary": "This episode explores the rapidly expanding boundaries of artificial intelligence, from a startup training \"world models\" on video game footage to the rise of celebrity AI wellness clones. We also dive into the political landscape with \"Guardrails,\" a new tech-worker-backed PAC fighting for industry safety standards against Big Tech's massive lobbying power. Finally, get a quick update on the high-stakes World Cup group stages and a humorous look at a weeks-long local surf report outage.",
-      "keyTopics": [
-        "General Intuition raising 300 million for world models",
-        "Railway funding round for AI-native cloud infrastructure",
-        "Karamo Brown launches Kē wellness app with AI clone",
-        "Guardrails PAC tech worker advocacy for AI safety",
-        "Slowtech consumer movement resisting AI device attention",
-        "Ongoing Santa Barbara Surfline API technical outage"
       ]
     }
   ]
