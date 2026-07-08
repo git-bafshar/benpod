@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-08</title>
+      <description>Explore the high-stakes world of artificial intelligence as this episode breaks down SambaNova’s massive one-billion-dollar funding round alongside a major security flaw discovered in GitHub&apos;s Copilot. Then, shift gears to sports with an inside look at the Los Angeles Lakers&apos; aggressive roster rebuild and the escalating drama of the World Cup knockout rounds. Finally, get a quick update on a persistent local tech outage keeping surfers in the dark.</description>
+      <pubDate>Wed, 08 Jul 2026 09:05:31 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-08-090531.mp3" length="3083136" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-08-090531.mp3</guid>
+      <itunes:duration>193</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-07</title>
       <description>This episode explores the rapidly expanding reach of artificial intelligence, from Anthropic&apos;s new mobile agent and anti-scam defense tools to autonomous military deployments and SK Hynix&apos;s massive upcoming IPO. The coverage also dives into the sports world, highlighting the latest dramatic moves in the Los Angeles Lakers&apos; aggressive roster rebuild and the high-stakes World Cup knockout stage. Finally, get an update on the ongoing Surfline API outage that has local beachgoers reverting to old-school, analog wave checks.</description>
       <pubDate>Tue, 07 Jul 2026 09:36:56 GMT</pubDate>
