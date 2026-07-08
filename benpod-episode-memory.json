@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-07-08",
+      "summary": "Explore the high-stakes AI race as a massive billion-dollar hardware investment collides with growing security and privacy concerns surrounding top tech tools. This episode also breaks down a major geopolitical realignment in the global energy market, Chicago's multi-billion-dollar lead pipe crisis, and the latest sports updates. Finally, stay protected with a crucial cybersecurity alert about a hidden backdoor in popular home routers.",
+      "keyTopics": [
+        "SambaNova $1B funding and $11B valuation",
+        "ZML open source AI performance software release",
+        "GitHub Copilot GitLost private repository code leak",
+        "Meta Muse Image generator user photo training concerns",
+        "Warriors decline Quinten Post Grizzlies contract match",
+        "Strait of Hormuz global energy route realignment",
+        "Chicago lead service line infrastructure replacement costs",
+        "Tenda router firmware hidden authentication backdoor"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Toronto Blue Jays at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Sources: Grizzlies land Post after Warriors pass on offer sheet",
+        "Foreign Policy - Iran::The Ankara Summit Declaration",
+        "Foreign Policy - Iran::The Global Energy Map Is Being Redrawn in Real Time",
+        "Foreign Policy - Iran::Iran Is Still Fighting a War Against Dissidents Abroad"
+      ]
+    },
+    {
       "date": "2026-07-07",
       "summary": "Discover how artificial intelligence is rapidly moving from theory to reality, exploring its deployment on the battlefields of Ukraine, its role in defending against sophisticated phone scams, and the truth behind a headline-grabbing \"AI-run\" cyberattack. This episode also dives into the financial side of the tech boom with SK Hynix's upcoming IPO and the global demand for AI hardware. Finally, stay up to speed on the latest sports drama, including Brandon Aiyuk’s escalating contract standoff and a looming roster deadline for the Golden State Warriors.",
       "keyTopics": [
@@ -248,24 +269,6 @@
         "ESPN Warriors News::Warriors: Everything we know about a pivotal Golden State Warriors offseason",
         "ESPN Giants News::Giants: Is an MLB trade deadline overhaul ahead for struggling Giants?",
         "ESPN 49ers News::49ers: How the 49ers reacted to Rams trading for Myles Garrett"
-      ]
-    },
-    {
-      "date": "2026-06-18",
-      "summary": "Dive into the major diplomatic breakthrough of a newly signed U.S.-Iran agreement and its sweeping global implications. This episode also explores the shifting landscape of artificial intelligence, highlighting a new grassroots PAC challenging Big Tech's lobbying power and a startup securing massive funding for \"embodied AI\" trained on video games. Finally, get the latest on SpaceX's post-IPO board appointment, a viral game that gamifies gerrymandering, and quick tips for managing daily AI fatigue.",
-      "keyTopics": [
-        "US and Iran nuclear de-escalation agreement signed",
-        "Guardrails PAC launches to advocate for AI safety",
-        "General Intuition raises funding for embodied AI world models",
-        "SpaceX appoints former Sequoia leader Roelof Botha to board",
-        "Gerrymandle viral online puzzle game about redistricting",
-        "How to disable Google Docs Gemini writing assistant popups",
-        "Pixi launches augmented reality messaging app for iOS"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::The Iran War Damaged U.S.-India Ties",
-        "Foreign Policy - Iran::Trump Defends His Iran Deal",
-        "Foreign Policy - Iran::U.S.-Iran Memorandum of Understanding: Full Text"
       ]
     }
   ]
