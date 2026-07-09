@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-09</title>
+      <description>This episode explores the staggering economic power of AI giants and the rising open-source counter-movements aiming to decentralize technology. It also examines how a broken cease-fire in the Middle East threatens to disrupt global energy markets and spark an oil crisis. Finally, learn about a landmark FTC settlement with John Deere that marks a historic victory for the consumer right-to-repair movement.</description>
+      <pubDate>Thu, 09 Jul 2026 10:58:23 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-09-105823.mp3" length="4785024" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-09-105823.mp3</guid>
+      <itunes:duration>299</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-08</title>
       <description>Explore the high-stakes AI race as a massive billion-dollar hardware investment collides with growing security and privacy concerns surrounding top tech tools. This episode also breaks down a major geopolitical realignment in the global energy market, Chicago&apos;s multi-billion-dollar lead pipe crisis, and the latest sports updates. Finally, stay protected with a crucial cybersecurity alert about a hidden backdoor in popular home routers.</description>
       <pubDate>Wed, 08 Jul 2026 10:24:24 GMT</pubDate>
