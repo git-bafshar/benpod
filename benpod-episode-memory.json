@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-07-09",
+      "summary": "This episode explores the staggering economic power of AI giants and the rising open-source counter-movements aiming to decentralize technology. It also examines how a broken cease-fire in the Middle East threatens to disrupt global energy markets and spark an oil crisis. Finally, learn about a landmark FTC settlement with John Deere that marks a historic victory for the consumer right-to-repair movement.",
+      "keyTopics": [
+        "Anthropic releases Claude Reflect personal analytics dashboard",
+        "OpenAI, Anthropic, and SpaceX economic valuation concentration",
+        "Ollama raises sixty-five million dollars from Benchmark",
+        "Collapse of US-Iran cease-fire triggers energy market volatility",
+        "Iranian sea mines threat to Strait of Hormuz shipping",
+        "FTC landmark right-to-repair settlement with John Deere"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::Is the U.S.-Iran Cease-Fire Over?",
+        "Foreign Policy - Iran::Energy Markets’ False Dawn May Be Over",
+        "Foreign Policy - Iran::What Will Happen to Iran’s Sea Mines?"
+      ]
+    },
+    {
       "date": "2026-07-08",
       "summary": "Explore the high-stakes AI race as a massive billion-dollar hardware investment collides with growing security and privacy concerns surrounding top tech tools. This episode also breaks down a major geopolitical realignment in the global energy market, Chicago's multi-billion-dollar lead pipe crisis, and the latest sports updates. Finally, stay protected with a crucial cybersecurity alert about a hidden backdoor in popular home routers.",
       "keyTopics": [
@@ -251,24 +268,6 @@
         "Foreign Policy - Iran::Trump Tests the Limits of Farcepolitik",
         "Foreign Policy - Iran::The Vance Peace Deal",
         "Foreign Policy - Iran::Israeli Officials and U.S. Lawmakers Slam Iran Deal"
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "summary": "This episode dives into the complex political aftermath of the historic U.S.-Iran de-escalation agreement and the escalating global tech war over advanced semiconductor equipment and AI regulations. You will also discover how India is executing a massive, national-scale AI rollout and get the latest updates on major sports shakeups, including a blockbuster NFL trade.",
-      "keyTopics": [
-        "US-Iran nuclear de-escalation agreement domestic political fallout",
-        "US allegations of ASML restricted equipment export to China",
-        "Enforceability challenges of US ban on Anthropic Fable 5",
-        "Mukesh Ambani Reliance national-scale AI deployment in India",
-        "Myles Garrett blockbuster trade to Los Angeles Rams",
-        "San Francisco Giants potential trade deadline player sell-off",
-        "Golden State Warriors offseason roster rebuilding strategy"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Everything we know about a pivotal Golden State Warriors offseason",
-        "ESPN Giants News::Giants: Is an MLB trade deadline overhaul ahead for struggling Giants?",
-        "ESPN 49ers News::49ers: How the 49ers reacted to Rams trading for Myles Garrett"
       ]
     }
   ]
