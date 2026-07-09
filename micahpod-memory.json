@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-09",
+      "summary": "In this episode, explore the rapidly evolving world of AI, from Ollama’s massive open-source funding round to Character.AI’s interactive new \"microdramas\" and Google's latest battle against political deepfakes. Discover how the FTC's landmark \"right to repair\" settlement with John Deere could reshape consumer device ownership forever. Finally, get a quick update on the fiercely competitive summer housing market.",
+      "keyTopics": [
+        "Ollama raises sixty-five million dollars led by Benchmark",
+        "Microsoft Flint visualization language for AI agents",
+        "FableCut browser-based video editor operated by AI",
+        "Character.AI interactive microdramas and character chat",
+        "Google deepfake detection system debunks fake Mitch McConnell image",
+        "FTC right to repair settlement with John Deere",
+        "Low housing inventory drives competitive summer real estate market"
+      ]
+    },
+    {
       "date": "2026-07-08",
       "summary": "Dive into the double-edged sword of the AI boom, from massive hardware investments like SambaNova’s billion-dollar funding round to a critical security flaw exposing private code on GitHub. This episode also explores the industry's shift from digital software to physical tech as top AI talent pivots to space exploration, alongside the familiar controversies surrounding Meta's new image generator. Finally, stay tuned for updates on local council races and the fiercely competitive summer real estate market.",
       "keyTopics": [
@@ -167,23 +180,6 @@
         "Ponytrail local audit trail for AI coding agents",
         "Ambient AI features in Apple iOS 27 update",
         "Meredith Whittaker warning against anthropomorphizing AI chatbots"
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "summary": "Dive into the rapidly evolving AI landscape as the tech sector shifts from interactive chatbots to autonomous digital workforces, fueled by massive funding rounds and strategic corporate spinoffs. This episode also breaks down why the U.S. housing market is stalling due to soaring mortgage payments and canceled contracts, alongside a high-stakes purge in the intelligence community and fragile geopolitical developments abroad.",
-      "keyTopics": [
-        "Snap spinoff of AI video team Dotmo",
-        "Elastic acquisition of DeductiveAI for software debugging",
-        "Baseten $1.5 billion funding round for AI inference",
-        "Anthropic Claude Dispatch autonomous agent management tool",
-        "US allegations of ASML lithography machine export to China",
-        "US housing market mortgage rates and contract cancellations",
-        "Acting intelligence chief Bill Pulte planned staff purge"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
