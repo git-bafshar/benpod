@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-09</title>
+      <description>In this episode, explore the rapidly evolving world of AI, from Ollama’s massive open-source funding round to Character.AI’s interactive new &quot;microdramas&quot; and Google&apos;s latest battle against political deepfakes. Discover how the FTC&apos;s landmark &quot;right to repair&quot; settlement with John Deere could reshape consumer device ownership forever. Finally, get a quick update on the fiercely competitive summer housing market.</description>
+      <pubDate>Thu, 09 Jul 2026 10:29:49 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-09-102949.mp3" length="3805056" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-09-102949.mp3</guid>
+      <itunes:duration>238</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-08</title>
       <description>Dive into the double-edged sword of the AI boom, from massive hardware investments like SambaNova’s billion-dollar funding round to a critical security flaw exposing private code on GitHub. This episode also explores the industry&apos;s shift from digital software to physical tech as top AI talent pivots to space exploration, alongside the familiar controversies surrounding Meta&apos;s new image generator. Finally, stay tuned for updates on local council races and the fiercely competitive summer real estate market.</description>
       <pubDate>Wed, 08 Jul 2026 09:29:55 GMT</pubDate>
