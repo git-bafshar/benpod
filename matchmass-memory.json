@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-07-09",
+      "summary": "Explore the staggering scale of the AI boom with a look at historic tech valuations and a landmark FTC \"right to repair\" victory for farmers. In sports, the episode unpacks the emotional transition of the post-LeBron Lakers and previews the high-stakes drama of the FIFA World Cup knockout rounds. Plus, find out why a lingering local tech outage is forcing Southern California surfers to check the waves the old-fashioned way.",
+      "keyTopics": [
+        "Anthropic OpenAI and SpaceX IPO valuation analysis",
+        "Anthropic Claude Reflect dashboard productivity feature",
+        "Ollama raises sixty-five million dollars for local AI",
+        "FTC John Deere right to repair software settlement",
+        "Lakers transition to Luka Dončić after LeBron James departure",
+        "Ongoing Surfline API outage in Santa Barbara"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Austin Reaves shares text to LeBron after hearing he was leaving Lakers"
+      ]
+    },
+    {
       "date": "2026-07-08",
       "summary": "Explore the high-stakes world of artificial intelligence as this episode breaks down SambaNova’s massive one-billion-dollar funding round alongside a major security flaw discovered in GitHub's Copilot. Then, shift gears to sports with an inside look at the Los Angeles Lakers' aggressive roster rebuild and the escalating drama of the World Cup knockout rounds. Finally, get a quick update on a persistent local tech outage keeping surfers in the dark.",
       "keyTopics": [
@@ -188,18 +203,6 @@
         "Amazon testing Alexa+ with Hindi language support in India",
         "FERC regulatory crackdown on data center power consumption",
         "Ongoing Santa Barbara Surfline API technical outage"
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "summary": "In this episode, explore the fallout of the US government's historic decision to force Anthropic to pull its most powerful AI models from the market over national security concerns. The discussion contrasts this tight Western regulation with India's massive push for ubiquitous AI integration, alongside escalating global tensions over critical chip-making hardware. Plus, get a quick update on the 2026 World Cup and a lighthearted look at a prolonged local surf report outage.",
-      "keyTopics": [
-        "US government bans Anthropic Fable 5 and Mythos 5",
-        "Amazon researchers bypass Anthropic Fable 5 safety guardrails",
-        "Mukesh Ambani mass AI integration plan for India",
-        "US alleges ASML chip-making machine exported to China",
-        "2026 World Cup group stage tournament updates",
-        "Ongoing Santa Barbara Surfline API data outage"
       ]
     }
   ]
