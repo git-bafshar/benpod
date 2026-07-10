@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-10</title>
+      <description>Dive into a jam-packed episode covering OpenAI&apos;s major transitions, from the launch of the GPT-5.6 model and a strategic browser pivot to the sudden departure of its COO. This episode also explores Anthropic’s powerhouse governance move with a former Fed Chairman, a startup that used its own AI agent to raise $100 million, and the latest trends in the scorching summer housing market.</description>
+      <pubDate>Fri, 10 Jul 2026 09:57:41 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-10-095741.mp3" length="3846336" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-10-095741.mp3</guid>
+      <itunes:duration>240</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-09</title>
       <description>In this episode, explore the rapidly evolving world of AI, from Ollama’s massive open-source funding round to Character.AI’s interactive new &quot;microdramas&quot; and Google&apos;s latest battle against political deepfakes. Discover how the FTC&apos;s landmark &quot;right to repair&quot; settlement with John Deere could reshape consumer device ownership forever. Finally, get a quick update on the fiercely competitive summer housing market.</description>
       <pubDate>Thu, 09 Jul 2026 10:29:49 GMT</pubDate>
