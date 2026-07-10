@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-10</title>
+      <description>Explore a turbulent day in tech as OpenAI navigates a major executive departure alongside a new model launch, while rival Anthropic makes a high-profile play for credibility. This episode also breaks down the escalating military tensions between the U.S. and Iran in the Strait of Hormuz, as well as the latest sports buzz surrounding Steph Curry’s comments on teaming up with LeBron James. Finally, discover how autonomous AI agents are redefining everything from venture capital fundraising to software development.</description>
+      <pubDate>Fri, 10 Jul 2026 10:33:37 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-10-103337.mp3" length="5030016" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-10-103337.mp3</guid>
+      <itunes:duration>314</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-09</title>
       <description>This episode explores the staggering economic power of AI giants and the rising open-source counter-movements aiming to decentralize technology. It also examines how a broken cease-fire in the Middle East threatens to disrupt global energy markets and spark an oil crisis. Finally, learn about a landmark FTC settlement with John Deere that marks a historic victory for the consumer right-to-repair movement.</description>
       <pubDate>Thu, 09 Jul 2026 10:58:23 GMT</pubDate>
