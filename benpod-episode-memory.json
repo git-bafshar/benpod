@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-07-10",
+      "summary": "Explore a turbulent day in tech as OpenAI navigates a major executive departure alongside a new model launch, while rival Anthropic makes a high-profile play for credibility. This episode also breaks down the escalating military tensions between the U.S. and Iran in the Strait of Hormuz, as well as the latest sports buzz surrounding Steph Curry’s comments on teaming up with LeBron James. Finally, discover how autonomous AI agents are redefining everything from venture capital fundraising to software development.",
+      "keyTopics": [
+        "OpenAI GPT-5.6 release and Microsoft Copilot integration",
+        "OpenAI Chief Operating Officer Fidji Simo steps down",
+        "OpenAI shuts down Atlas AI-powered web browser",
+        "Anthropic appoints former Fed Chair Ben Bernanke to trust",
+        "Escalating US-Iran conflict threatens Strait of Hormuz oil",
+        "Steph Curry hints at future partnership with LeBron James",
+        "Lyzr raises $100M using autonomous AI fundraising agent"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Colorado Rockies at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Steph Curry acknowledges appeal of playing with LeBron James",
+        "Foreign Policy - Iran::NATO’s Waiting Game",
+        "Foreign Policy - Iran::U.S., Iran Return to the Brink of All-Out War"
+      ]
+    },
+    {
       "date": "2026-07-09",
       "summary": "This episode explores the staggering economic power of AI giants and the rising open-source counter-movements aiming to decentralize technology. It also examines how a broken cease-fire in the Middle East threatens to disrupt global energy markets and spark an oil crisis. Finally, learn about a landmark FTC settlement with John Deere that marks a historic victory for the consumer right-to-repair movement.",
       "keyTopics": [
@@ -250,24 +269,6 @@
         "Foreign Policy - Iran::The U.S. Won the War With Iran",
         "Foreign Policy - Iran::Is the MOU a Treaty or Not? And Why Should We Care?",
         "Foreign Policy - Iran::How the Iran Deal Sets the Stage for More Conflict"
-      ]
-    },
-    {
-      "date": "2026-06-22",
-      "summary": "Dive into the massive financial and environmental costs of the AI boom, featuring a staggering $150 million-a-month compute deal between SpaceX and Reflection AI alongside the competitive fallout from regulatory crackdowns on Anthropic. This episode also analyzes the growing domestic political firestorm surrounding the U.S.-Iran de-escalation agreement. Plus, stay tuned for a quick update on the San Francisco Giants' recent series sweep and some encouraging life expectancy news out of Chicago.",
-      "keyTopics": [
-        "Reflection AI and SpaceX multi-billion dollar compute deal",
-        "AI data center energy and water infrastructure demands",
-        "Anthropic Fable 5 and Mythos 5 federal suspension fallout",
-        "Amazon Alexa Plus testing in India with Hindi support",
-        "US Iran de-escalation agreement domestic political backlash",
-        "San Francisco Giants trade deadline rumors after Marlins sweep"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Miami Marlins",
-        "Foreign Policy - Iran::Trump Tests the Limits of Farcepolitik",
-        "Foreign Policy - Iran::The Vance Peace Deal",
-        "Foreign Policy - Iran::Israeli Officials and U.S. Lawmakers Slam Iran Deal"
       ]
     }
   ]
