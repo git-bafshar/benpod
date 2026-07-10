@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-10</title>
+      <description>Dive into a massive wave of tech news as OpenAI launches its GPT-5.6 model amid major executive shake-ups, and discover how one bold startup used its own AI agent to secure a $100 million funding round. Plus, get ready for the high-stakes drama of the upcoming FIFA World Cup quarterfinals. The episode wraps up with a look at how a prolonged Surfline outage is forcing local surfers to check the waves the old-fashioned way.</description>
+      <pubDate>Fri, 10 Jul 2026 09:28:50 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-10-092850.mp3" length="3015744" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-10-092850.mp3</guid>
+      <itunes:duration>188</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-09</title>
       <description>Explore the staggering scale of the AI boom with a look at historic tech valuations and a landmark FTC &quot;right to repair&quot; victory for farmers. In sports, the episode unpacks the emotional transition of the post-LeBron Lakers and previews the high-stakes drama of the FIFA World Cup knockout rounds. Plus, find out why a lingering local tech outage is forcing Southern California surfers to check the waves the old-fashioned way.</description>
       <pubDate>Thu, 09 Jul 2026 09:31:29 GMT</pubDate>
