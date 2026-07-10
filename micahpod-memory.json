@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-07-10",
+      "summary": "Dive into a jam-packed episode covering OpenAI's major transitions, from the launch of the GPT-5.6 model and a strategic browser pivot to the sudden departure of its COO. This episode also explores Anthropic’s powerhouse governance move with a former Fed Chairman, a startup that used its own AI agent to raise $100 million, and the latest trends in the scorching summer housing market.",
+      "keyTopics": [
+        "OpenAI GPT-5.6 launch and Microsoft Copilot 365 integration",
+        "OpenAI Chief Operating Officer Fidji Simo steps down",
+        "OpenAI shuts down Atlas browser for desktop integration",
+        "Ben Bernanke joins Anthropic Long-Term Benefit Trust",
+        "Lyzr raises one hundred million dollars using AI agents"
+      ]
+    },
+    {
       "date": "2026-07-09",
       "summary": "In this episode, explore the rapidly evolving world of AI, from Ollama’s massive open-source funding round to Character.AI’s interactive new \"microdramas\" and Google's latest battle against political deepfakes. Discover how the FTC's landmark \"right to repair\" settlement with John Deere could reshape consumer device ownership forever. Finally, get a quick update on the fiercely competitive summer housing market.",
       "keyTopics": [
@@ -167,19 +178,6 @@
         "Apple device price hikes driven by on-device ambient AI",
         "TechCrunch tracking of corporate layoffs attributed to AI",
         "Evolution of product management roles in the AI era"
-      ]
-    },
-    {
-      "date": "2026-06-22",
-      "summary": "Explore the shifting dynamics of the AI landscape as the government's crackdown on Anthropic sparks a rise in open-source, \"Sovereign AI\" alternatives. This episode also dives into the practical side of software development, analyzing the cost and auditability of AI coding agents like Goose and Ponytrail. Finally, discover Apple’s subtle integration of ambient AI in iOS 27 and get a crucial reminder on why users must resist treating conversational chatbots as friends.",
-      "keyTopics": [
-        "US government regulation of Anthropic models Fable and Mythos",
-        "Apertus foundation model launch and Sovereign AI concept",
-        "Moebius open-source 0.2B parameter image inpainting model",
-        "Claude Code versus open-source Goose coding agent pricing",
-        "Ponytrail local audit trail for AI coding agents",
-        "Ambient AI features in Apple iOS 27 update",
-        "Meredith Whittaker warning against anthropomorphizing AI chatbots"
       ]
     }
   ]
