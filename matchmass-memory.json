@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-10",
+      "summary": "Dive into a massive wave of tech news as OpenAI launches its GPT-5.6 model amid major executive shake-ups, and discover how one bold startup used its own AI agent to secure a $100 million funding round. Plus, get ready for the high-stakes drama of the upcoming FIFA World Cup quarterfinals. The episode wraps up with a look at how a prolonged Surfline outage is forcing local surfers to check the waves the old-fashioned way.",
+      "keyTopics": [
+        "OpenAI launches GPT-5.6 flagship model",
+        "GPT-5.6 preferred model for Microsoft Copilot 365",
+        "OpenAI Chief Operating Officer Fidji Simo steps down",
+        "OpenAI shuts down Atlas browser for strategic agent pivot",
+        "Lyzr raises 100 million dollar round using AI agent",
+        "2026 FIFA World Cup quarterfinals knockout stage",
+        "Ongoing Surfline API outage in Santa Barbara"
+      ]
+    },
+    {
       "date": "2026-07-09",
       "summary": "Explore the staggering scale of the AI boom with a look at historic tech valuations and a landmark FTC \"right to repair\" victory for farmers. In sports, the episode unpacks the emotional transition of the post-LeBron Lakers and previews the high-stakes drama of the FIFA World Cup knockout rounds. Plus, find out why a lingering local tech outage is forcing Southern California surfers to check the waves the old-fashioned way.",
       "keyTopics": [
@@ -192,17 +205,6 @@
         "OpenAI initiative to patch bugs in open-source software",
         "Federal Energy Regulatory Commission upcoming data center energy orders",
         "World Cup 2026 group stage qualification drama"
-      ]
-    },
-    {
-      "date": "2026-06-22",
-      "summary": "This episode dives into the massive financial and regulatory forces shaping the AI industry, highlighted by SpaceX's multi-billion dollar compute deal with Reflection AI and the market fallout from the government's crackdown on Anthropic. We also explore how the immense power demands of these growing AI data centers are prompting federal energy regulators to intervene. Plus, stay tuned for a quick update on the World Cup group stages and a lighthearted look at a persistent local tech outage.",
-      "keyTopics": [
-        "SpaceX and Reflection AI five billion dollar compute deal",
-        "Anthropic Fable 5 and Mythos 5 regulatory fallout",
-        "Amazon testing Alexa+ with Hindi language support in India",
-        "FERC regulatory crackdown on data center power consumption",
-        "Ongoing Santa Barbara Surfline API technical outage"
       ]
     }
   ]
