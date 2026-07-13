@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-13</title>
+      <description>Explore the latest shifts in the AI landscape as this episode covers a major privacy breach with Grok, OpenAI’s new family-focused strategy, and Meta’s quick reversal on a controversial Instagram feature. Plus, get the breakdown on how LeBron James&apos; changing priorities validate the Lakers&apos; new post-LeBron era, along with updates on the FIFA World Cup and a prolonged tech outage forcing local surfers to go old-school.</description>
+      <pubDate>Mon, 13 Jul 2026 09:39:36 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-13-093936.mp3" length="3649920" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-13-093936.mp3</guid>
+      <itunes:duration>228</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-10</title>
       <description>Dive into a massive wave of tech news as OpenAI launches its GPT-5.6 model amid major executive shake-ups, and discover how one bold startup used its own AI agent to secure a $100 million funding round. Plus, get ready for the high-stakes drama of the upcoming FIFA World Cup quarterfinals. The episode wraps up with a look at how a prolonged Surfline outage is forcing local surfers to check the waves the old-fashioned way.</description>
       <pubDate>Fri, 10 Jul 2026 09:28:50 GMT</pubDate>
