@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-13</title>
+      <description>This episode dives into the escalating battle in tech as Apple officially sues OpenAI, alongside rising military tensions between the U.S. and Iran in the Strait of Hormuz. Discover the impact of Chicago&apos;s looming pension crisis, record-breaking national home prices, and the latest roster shakeups in Bay Area sports. Finally, get a closer look at a troubling new investigation exposing systemic flaws within the U.S. prison grievance system.</description>
+      <pubDate>Mon, 13 Jul 2026 10:44:07 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-13-104407.mp3" length="5109696" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-13-104407.mp3</guid>
+      <itunes:duration>319</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-10</title>
       <description>Explore a turbulent day in tech as OpenAI navigates a major executive departure alongside a new model launch, while rival Anthropic makes a high-profile play for credibility. This episode also breaks down the escalating military tensions between the U.S. and Iran in the Strait of Hormuz, as well as the latest sports buzz surrounding Steph Curry’s comments on teaming up with LeBron James. Finally, discover how autonomous AI agents are redefining everything from venture capital fundraising to software development.</description>
       <pubDate>Fri, 10 Jul 2026 10:33:37 GMT</pubDate>
