@@ -1,6 +1,29 @@
 {
   "episodes": [
     {
+      "date": "2026-07-13",
+      "summary": "This episode dives into the escalating battle in tech as Apple officially sues OpenAI, alongside rising military tensions between the U.S. and Iran in the Strait of Hormuz. Discover the impact of Chicago's looming pension crisis, record-breaking national home prices, and the latest roster shakeups in Bay Area sports. Finally, get a closer look at a troubling new investigation exposing systemic flaws within the U.S. prison grievance system.",
+      "keyTopics": [
+        "Apple lawsuit against OpenAI over trade secret theft",
+        "Grok AI user directory privacy breach",
+        "Meta removes Instagram AI feature after backlash",
+        "US and Iran military conflict in Strait of Hormuz",
+        "Chicago public pension crisis and school funding impact",
+        "US home prices hit all-time high in June",
+        "Warriors hire Frank Vogel as associate head coach",
+        "NPR investigation into broken US prison grievance system"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Sources: Warriors to hire Frank Vogel as associate head coach",
+        "ESPN Warriors News::Warriors: Iguodala: LeBron's interest in Warriors a testament to 'great' Curry's stature",
+        "ESPN Giants News::Giants: Giants select Barry Bonds' nephew Peyton in third round",
+        "ESPN 49ers News::49ers: Mike Evans is fitting right in with the 49ers",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::U.S.-Iran Talks May Continue, but the Cease-Fire Is Over"
+      ]
+    },
+    {
       "date": "2026-07-10",
       "summary": "Explore a turbulent day in tech as OpenAI navigates a major executive departure alongside a new model launch, while rival Anthropic makes a high-profile play for credibility. This episode also breaks down the escalating military tensions between the U.S. and Iran in the Strait of Hormuz, as well as the latest sports buzz surrounding Steph Curry’s comments on teaming up with LeBron James. Finally, discover how autonomous AI agents are redefining everything from venture capital fundraising to software development.",
       "keyTopics": [
@@ -248,27 +271,6 @@
         "ESPN Giants News::Giants: Rafael Devers ridiculous selfish move",
         "Foreign Policy - Iran::Washington’s Middle East Military Presence Is Uniquely Counterproductive",
         "Foreign Policy - Iran::U.S., Iran Rally Support for Interim Peace Deal Abroad"
-      ]
-    },
-    {
-      "date": "2026-06-23",
-      "summary": "Explore the mounting costs of the AI boom, from the high financial barriers facing startups to how AI agents are transforming the hiring landscape. Unpack the intense international debate surrounding the fragile new U.S.-Iran de-escalation agreement and what it means for global stability. Finally, get the latest on the Bay Area sports scene, featuring a dramatic contract standoff for the 49ers and the fallout from a Major League Baseball management misstep.",
-      "keyTopics": [
-        "AI affordability crisis and high compute cost barriers",
-        "Fika Jobs AI agent video hiring platform launch",
-        "OpenAI open-source software vulnerability patching initiative",
-        "US-Iran de-escalation agreement legal status debate",
-        "Brandon Aiyuk San Francisco 49ers contract standoff",
-        "Tragic passing of former NFL star Aldon Smith",
-        "Rob Manfred criticizes Giants Pride Night cap communication"
-      ],
-      "articles": [
-        "ESPN Giants News::Giants: Manfred: Giants' communication to players over Pride caps 'not clear'",
-        "ESPN 49ers News::49ers: Brandon Aiyuk, in limbo with 49ers, shouts 'Go Commanders'",
-        "ESPN 49ers News::49ers: Former NFL defensive lineman Aldon Smith dies at age 36",
-        "Foreign Policy - Iran::The U.S. Won the War With Iran",
-        "Foreign Policy - Iran::Is the MOU a Treaty or Not? And Why Should We Care?",
-        "Foreign Policy - Iran::How the Iran Deal Sets the Stage for More Conflict"
       ]
     }
   ]
