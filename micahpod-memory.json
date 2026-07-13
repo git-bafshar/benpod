@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-13",
+      "summary": "Dive into the escalating tensions in big tech as Apple launches a major trade-secrets lawsuit against OpenAI, while Elon Musk's xAI faces severe backlash over a shocking privacy breach involving its Grok assistant. This episode also breaks down the record-shattering $26.5 billion US IPO of chipmaker SK Hynix, OpenAI's new family-focused product strategy, and Meta's sudden retreat from a controversial Instagram feature. Plus, get a quick update on why the Sun Belt housing market remains stubbornly tight for buyers.",
+      "keyTopics": [
+        "Apple lawsuit against OpenAI alleging trade secret theft",
+        "xAI Grok accused of unauthorized user directory uploads",
+        "SK Hynix historic twenty-six billion dollar US IPO",
+        "OpenAI family and caregiver focused ChatGPT product expansion",
+        "Meta pulls controversial Instagram AI photo-generation feature",
+        "Sun Belt housing market low inventory trends"
+      ]
+    },
+    {
       "date": "2026-07-10",
       "summary": "Dive into a jam-packed episode covering OpenAI's major transitions, from the launch of the GPT-5.6 model and a strategic browser pivot to the sudden departure of its COO. This episode also explores Anthropic’s powerhouse governance move with a former Fed Chairman, a startup that used its own AI agent to raise $100 million, and the latest trends in the scorching summer housing market.",
       "keyTopics": [
@@ -165,19 +177,6 @@
         "Haystack open-source framework for building AI agents",
         "Minimus container images free for software developers",
         "Persistent autonomous AI agents in the workplace"
-      ]
-    },
-    {
-      "date": "2026-06-23",
-      "summary": "Explore the rapid evolution of artificial intelligence as it shifts from simple chatbots to autonomous digital workforces, AI-powered hiring, and advanced cybersecurity tools like OpenAI’s rumored \"GPT-5.5-Cyber.\" This episode also dives into how these technological leaps are driving potential device price hikes, shifting regional housing markets, and triggering restructuring in the modern workplace. Finally, learn how product managers are adapting to the immense pressure of integrating these complex, fast-moving systems into everyday tools.",
-      "keyTopics": [
-        "Rise of persistent autonomous AI agent swarms",
-        "Fika Jobs AI-driven video interview hiring platform",
-        "OpenAI initiative to secure open-source software",
-        "Leaked OpenAI DayBreak GPT-5.5-Cyber model",
-        "Apple device price hikes driven by on-device ambient AI",
-        "TechCrunch tracking of corporate layoffs attributed to AI",
-        "Evolution of product management roles in the AI era"
       ]
     }
   ]
