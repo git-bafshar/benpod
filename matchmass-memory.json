@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-07-13",
+      "summary": "Explore the latest shifts in the AI landscape as this episode covers a major privacy breach with Grok, OpenAI’s new family-focused strategy, and Meta’s quick reversal on a controversial Instagram feature. Plus, get the breakdown on how LeBron James' changing priorities validate the Lakers' new post-LeBron era, along with updates on the FIFA World Cup and a prolonged tech outage forcing local surfers to go old-school.",
+      "keyTopics": [
+        "Grok AI local directory upload privacy breach",
+        "OpenAI hiring PM for family-focused ChatGPT experiences",
+        "Waze update featuring Google Gemini AI features",
+        "Anthropic localizes Claude pricing in India",
+        "Meta retracts Instagram AI remixing feature after backlash",
+        "Rich Paul says LeBron James not chasing rings",
+        "FIFA World Cup quarterfinals conclude heading to semifinals",
+        "Ongoing Surfline API outage impacts surf apps"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Rich Paul on LeBron's next team: 'He's not chasing a ring'"
+      ]
+    },
+    {
       "date": "2026-07-10",
       "summary": "Dive into a massive wave of tech news as OpenAI launches its GPT-5.6 model amid major executive shake-ups, and discover how one bold startup used its own AI agent to secure a $100 million funding round. Plus, get ready for the high-stakes drama of the upcoming FIFA World Cup quarterfinals. The episode wraps up with a look at how a prolonged Surfline outage is forcing local surfers to check the waves the old-fashioned way.",
       "keyTopics": [
@@ -194,17 +211,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Sources: Lakers' Reaves intends to sign 4-year, $185M extension"
-      ]
-    },
-    {
-      "date": "2026-06-23",
-      "summary": "Explore the double-edged sword of AI in the workforce as this episode examines how the technology is simultaneously streamlining job interviews and driving corporate layoffs. Discover OpenAI's strategic new initiative to secure open-source software, and learn about the federal government's imminent regulations targeting the massive energy consumption of AI data centers. Plus, stay tuned for a quick update on World Cup action and a lighthearted check-in on local surf conditions.",
-      "keyTopics": [
-        "Fika Jobs raises four million for AI-driven video interviewing",
-        "TechCrunch tracking tech industry layoffs caused by AI",
-        "OpenAI initiative to patch bugs in open-source software",
-        "Federal Energy Regulatory Commission upcoming data center energy orders",
-        "World Cup 2026 group stage qualification drama"
       ]
     }
   ]
