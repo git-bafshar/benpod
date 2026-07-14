@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-14</title>
+      <description>Explore the growing tension surrounding the AI boom as New York halts data center construction over resource concerns, contrasted with Australia&apos;s unique midday solar energy surplus. This episode also dives into the rise of cost-effective, open-source enterprise AI and the latest consumer integrations on Spotify and Superhuman. Finally, get updates on the post-LeBron Lakers roster rebuild and the upcoming FIFA World Cup semifinals.</description>
+      <pubDate>Tue, 14 Jul 2026 08:28:17 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-14-082817.mp3" length="3895488" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-14-082817.mp3</guid>
+      <itunes:duration>243</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-13</title>
       <description>Explore the latest shifts in the AI landscape as this episode covers a major privacy breach with Grok, OpenAI’s new family-focused strategy, and Meta’s quick reversal on a controversial Instagram feature. Plus, get the breakdown on how LeBron James&apos; changing priorities validate the Lakers&apos; new post-LeBron era, along with updates on the FIFA World Cup and a prolonged tech outage forcing local surfers to go old-school.</description>
       <pubDate>Mon, 13 Jul 2026 09:39:36 GMT</pubDate>
