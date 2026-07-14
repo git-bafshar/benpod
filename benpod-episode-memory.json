@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-14",
+      "summary": "Explore the growing divide in the AI landscape as open-source players secure massive billion-dollar compute deals while industry giants build tighter security fortresses around their models. This episode also dives into how AI is seamlessly integrating into daily life through new conversational features from Spotify and Superhuman, alongside a strategic global research play by Anthropic. Plus, discover a clever new energy policy in Australia that offers citizens free midday electricity to help balance the solar grid.",
+      "keyTopics": [
+        "Reflection AI one billion dollar compute deal with Nebius",
+        "OpenAI mandates hardware backed passkeys for enterprise clients",
+        "Spotify rolls out AI powered conversational music assistant",
+        "Superhuman launches humanlike AI email auto drafting feature",
+        "Anthropic invests ten million dollars in Canadian AI research",
+        "Australia mandates free midday electricity to balance solar grid"
+      ]
+    },
+    {
       "date": "2026-07-13",
       "summary": "This episode dives into the escalating battle in tech as Apple officially sues OpenAI, alongside rising military tensions between the U.S. and Iran in the Strait of Hormuz. Discover the impact of Chicago's looming pension crisis, record-breaking national home prices, and the latest roster shakeups in Bay Area sports. Finally, get a closer look at a troubling new investigation exposing systemic flaws within the U.S. prison grievance system.",
       "keyTopics": [
@@ -251,26 +263,6 @@
         "Foreign Policy - Iran::Will Pakistan’s Iran Gamble Pay Off?",
         "Foreign Policy - Iran::Treasury Chief Bessent Defends Trump’s Iran Deal",
         "Foreign Policy - Iran::What Is Iran’s Nuclear Status Quo?"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "summary": "Explore the latest fronts in the AI arms race, from OpenAI’s reveal of its custom-built \"Jalapeño\" chip to Anthropic’s new Slack-integrated assistant, \"Claude Tag.\" The episode also examines the fragile diplomatic landscape surrounding the U.S.-Iran de-escalation deal and the growing anxiety among Gulf nations. Finally, catch up on sports news featuring dugout drama for the San Francisco Giants and a lighthearted draft-day story from the Golden State Warriors.",
-      "keyTopics": [
-        "OpenAI unveils custom Jalapeño chip co-developed with Broadcom",
-        "Anthropic launches Claude Tag AI integration for Slack",
-        "Reid Hoffman criticizes Elon Musk's xAI as train wreck",
-        "Gulf nations voice anxiety over U.S.-Iran de-escalation agreement",
-        "San Francisco Giants clubhouse tension over Rafael Devers controversy",
-        "Golden State Warriors draft Yaxel Lendeborg in NBA draft"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Athletics Athletics at San Francisco Giants",
-        "ESPN Warriors News::Warriors: New Warrior Yaxel Lendeborg 'used to hate Steph Curry' as Kyrie fan",
-        "ESPN Giants News::Giants: Giants' Rafael Devers apologized to Tony Vitello for reaction",
-        "ESPN Giants News::Giants: Rafael Devers ridiculous selfish move",
-        "Foreign Policy - Iran::Washington’s Middle East Military Presence Is Uniquely Counterproductive",
-        "Foreign Policy - Iran::U.S., Iran Rally Support for Interim Peace Deal Abroad"
       ]
     }
   ]
