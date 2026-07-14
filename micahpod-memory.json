@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-14",
+      "summary": "Discover the latest developments in the rapid AI gold rush, from massive funding rounds for cutting-edge startups to why veteran tech founders are jumping back into the entrepreneurial arena. This episode also explores strategic corporate moves by Microsoft, Anthropic, and Uber as they navigate the shifting landscapes of AI development and product integration. Plus, learn about Australia's innovative free-electricity mandate to balance its solar grid and get a quick update on the stubbornly tight Sun Belt housing market.",
+      "keyTopics": [
+        "PixVerse raises 439 million dollars for world models",
+        "Nous Research in talks to raise 75 million",
+        "Satya Nadella warns against proprietary AI Trojan horse",
+        "Anthropic commits 10 million dollars to Canadian AI",
+        "Uber CPO Sachin Kansal on practical AI integration",
+        "Australia mandates free midday electricity to balance solar",
+        "Former tech founders launching new startups due to FOMO"
+      ]
+    },
+    {
       "date": "2026-07-13",
       "summary": "Dive into the escalating tensions in big tech as Apple launches a major trade-secrets lawsuit against OpenAI, while Elon Musk's xAI faces severe backlash over a shocking privacy breach involving its Grok assistant. This episode also breaks down the record-shattering $26.5 billion US IPO of chipmaker SK Hynix, OpenAI's new family-focused product strategy, and Meta's sudden retreat from a controversial Instagram feature. Plus, get a quick update on why the Sun Belt housing market remains stubbornly tight for buyers.",
       "keyTopics": [
@@ -165,18 +178,6 @@
         "Adobe acquires AI-powered media editing company Topaz Labs",
         "Amazon invests thirteen billion dollars in India AI infrastructure",
         "Wikipedia workers in Britain seek historic union recognition"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "summary": "Discover how artificial intelligence is transforming from a simple tool into an active, always-on teammate with the launch of Anthropic's \"Claude Tag\" in Slack and MoEngage's hyper-personalized customer agents. This episode also breaks down tech investor Reid Hoffman's sharp critiques of xAI, alongside the rise of open-source frameworks like Haystack that are democratizing AI development. Tune in to explore the rapid evolution of persistent digital agents and what this massive shift means for the future of work.",
-      "keyTopics": [
-        "Anthropic launches Claude Tag AI teammate inside Slack",
-        "MoEngage personalized AI agents for customer engagement",
-        "Reid Hoffman calls Elon Musk's xAI a train wreck",
-        "Haystack open-source framework for building AI agents",
-        "Minimus container images free for software developers",
-        "Persistent autonomous AI agents in the workplace"
       ]
     }
   ]
