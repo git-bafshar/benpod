@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-07-14",
+      "summary": "Explore the growing tension surrounding the AI boom as New York halts data center construction over resource concerns, contrasted with Australia's unique midday solar energy surplus. This episode also dives into the rise of cost-effective, open-source enterprise AI and the latest consumer integrations on Spotify and Superhuman. Finally, get updates on the post-LeBron Lakers roster rebuild and the upcoming FIFA World Cup semifinals.",
+      "keyTopics": [
+        "New York state ban on new data center construction",
+        "Australia mandates free midday electricity due to solar glut",
+        "Enterprise adoption of open-source artificial intelligence models",
+        "Reflection AI one billion dollar computing deal with Nebius",
+        "Spotify conversational AI assistant for Premium subscribers",
+        "Los Angeles Lakers post-LeBron James roster rebuild",
+        "Ongoing Santa Barbara Surfline API outage"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: New contract in tow, Austin Reaves ready for Lakers' new era",
+        "ESPN Lakers News::Lakers: Walker Kessler says he'll 'run through a brick wall' for Lakers",
+        "ESPN Lakers News::Lakers: Sources: Lakers to add Ziaire Williams on 1-year, $3M deal"
+      ]
+    },
+    {
       "date": "2026-07-13",
       "summary": "Explore the latest shifts in the AI landscape as this episode covers a major privacy breach with Grok, OpenAI’s new family-focused strategy, and Meta’s quick reversal on a controversial Instagram feature. Plus, get the breakdown on how LeBron James' changing priorities validate the Lakers' new post-LeBron era, along with updates on the FIFA World Cup and a prolonged tech outage forcing local surfers to go old-school.",
       "keyTopics": [
@@ -197,20 +215,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Sources: Lakers' Reaves intends to sign 4-year, $185M max deal"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "summary": "Discover how the AI landscape is shifting as OpenAI challenges chipmaker dominance with its new custom \"Jalapeño\" silicon, while Anthropic integrates deeper into enterprise workflows with \"Claude Tag\" for Slack. This episode also breaks down the high-stakes drama of the World Cup group stages and the massive contract extension keeping Austin Reaves with the Los Angeles Lakers. Finally, get a humorous update on Santa Barbara's ongoing, mysterious surf report outage.",
-      "keyTopics": [
-        "OpenAI Jalapeño custom inference chip with Broadcom",
-        "Anthropic Claude Tag enterprise integration for Slack",
-        "Government forced removal of Anthropic Fable and Mythos",
-        "Austin Reaves Los Angeles Lakers contract extension",
-        "World Cup group stage tournament drama"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Sources: Lakers' Reaves intends to sign 4-year, $185M extension"
       ]
     }
   ]
