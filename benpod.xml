@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-15</title>
+      <description>Dive into the evolving tech landscape as the AI industry shifts its focus—and major funding—from building models to the critical challenge of real-world integration. This episode also breaks down a historic $9.6 billion NFL franchise sale that is redrawing division battle lines, alongside shifting geopolitical strategies in the Strait of Hormuz. Finally, explore the growing threat of AI voice cloning and take a nostalgic look back at the iconic computer systems of *Jurassic Park*.</description>
+      <pubDate>Wed, 15 Jul 2026 09:53:36 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-15-095336.mp3" length="4794240" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-15-095336.mp3</guid>
+      <itunes:duration>300</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-14</title>
       <description>Explore the growing divide in the AI landscape as open-source players secure massive billion-dollar compute deals while industry giants build tighter security fortresses around their models. This episode also dives into how AI is seamlessly integrating into daily life through new conversational features from Spotify and Superhuman, alongside a strategic global research play by Anthropic. Plus, discover a clever new energy policy in Australia that offers citizens free midday electricity to help balance the solar grid.</description>
       <pubDate>Tue, 14 Jul 2026 09:54:21 GMT</pubDate>
