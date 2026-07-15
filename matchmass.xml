@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-15</title>
+      <description>Explore the rapidly shifting AI landscape, from Apple&apos;s strategic partnership with Alibaba in China to Anthropic’s new venture aimed at helping enterprises successfully deploy technology. Plus, catch up on a fiery on-court clash between the Lakers and Clippers, the high-stakes World Cup semifinals, and a prolonged surf report outage that is forcing local surfers back to basics.</description>
+      <pubDate>Wed, 15 Jul 2026 08:39:20 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-15-083920.mp3" length="3380352" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-15-083920.mp3</guid>
+      <itunes:duration>211</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-14</title>
       <description>Explore the growing tension surrounding the AI boom as New York halts data center construction over resource concerns, contrasted with Australia&apos;s unique midday solar energy surplus. This episode also dives into the rise of cost-effective, open-source enterprise AI and the latest consumer integrations on Spotify and Superhuman. Finally, get updates on the post-LeBron Lakers roster rebuild and the upcoming FIFA World Cup semifinals.</description>
       <pubDate>Tue, 14 Jul 2026 08:28:17 GMT</pubDate>
