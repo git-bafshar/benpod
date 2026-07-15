@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-07-15",
+      "summary": "Explore the rapidly shifting AI landscape, from Apple's strategic partnership with Alibaba in China to Anthropic’s new venture aimed at helping enterprises successfully deploy technology. Plus, catch up on a fiery on-court clash between the Lakers and Clippers, the high-stakes World Cup semifinals, and a prolonged surf report outage that is forcing local surfers back to basics.",
+      "keyTopics": [
+        "Apple partners with Alibaba for Apple Intelligence in China",
+        "Anthropic and Blackstone launch Ode AI consulting venture",
+        "OpenAI loses trademark dispute in European Union court",
+        "Heated on-court altercation between Lakers and Clippers",
+        "World Cup tournament advances to the semifinal stage",
+        "Ongoing Surfline API outage disrupts regional surf reports"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Scuffle breaks out between Clippers, Lakers after flagrant foul"
+      ]
+    },
+    {
       "date": "2026-07-14",
       "summary": "Explore the growing tension surrounding the AI boom as New York halts data center construction over resource concerns, contrasted with Australia's unique midday solar energy surplus. This episode also dives into the rise of cost-effective, open-source enterprise AI and the latest consumer integrations on Spotify and Superhuman. Finally, get updates on the post-LeBron Lakers roster rebuild and the upcoming FIFA World Cup semifinals.",
       "keyTopics": [
@@ -201,20 +216,6 @@
         "Anthropic Claude growth in premium paid consumer market",
         "Patronus AI fifty million dollar funding for stress-testing",
         "General Intuition fundraising to train AI on video games"
-      ]
-    },
-    {
-      "date": "2026-06-25",
-      "summary": "Explore the messy realities of the AI boom in this episode, covering Anthropic’s explosive corporate espionage accusations against Alibaba and Ford's humbling decision to rehire hundreds of human engineers. You will also get the details on Amazon's massive $13 billion tech investment in India, Adobe's strategic acquisition of Topaz Labs, and the latest sports updates, including Austin Reaves' blockbuster contract extension.",
-      "keyTopics": [
-        "Anthropic accuses Alibaba of Claude model theft",
-        "Ford rehires engineers after failed AI experiment",
-        "Amazon thirteen billion dollar India AI investment",
-        "Adobe acquisition of Topaz Labs",
-        "Austin Reaves Lakers max contract extension"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Sources: Lakers' Reaves intends to sign 4-year, $185M max deal"
       ]
     }
   ]
