@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-07-15",
+      "summary": "Dive into the evolving tech landscape as the AI industry shifts its focus—and major funding—from building models to the critical challenge of real-world integration. This episode also breaks down a historic $9.6 billion NFL franchise sale that is redrawing division battle lines, alongside shifting geopolitical strategies in the Strait of Hormuz. Finally, explore the growing threat of AI voice cloning and take a nostalgic look back at the iconic computer systems of *Jurassic Park*.",
+      "keyTopics": [
+        "Anthropic and Blackstone back AI integration startup Ode",
+        "Railway raises one hundred million for AI-native cloud infrastructure",
+        "Indian AI coding startup Emergent achieves unicorn status",
+        "Vint Cerf proposes digital passport standards for AI agents",
+        "Strait of Hormuz conflict shifts toward economic shipping tolls",
+        "Vinod Khosla group buys Seattle Seahawks for record price",
+        "Rise of AI voice cloning fraud rendering authentication obsolete"
+      ],
+      "articles": [
+        "ESPN 49ers News::49ers: Khosla-led group agrees to buy Seahawks; sources say $9.6 billion",
+        "Foreign Policy - Iran::How the United States and Iran Can Solve Hormuz",
+        "Foreign Policy - Iran::Trump Pivots His Strait of Hormuz Strategy—Again",
+        "Foreign Policy - Iran::The Gulf States That Iran Thinks It Can Attack"
+      ]
+    },
+    {
       "date": "2026-07-14",
       "summary": "Explore the growing divide in the AI landscape as open-source players secure massive billion-dollar compute deals while industry giants build tighter security fortresses around their models. This episode also dives into how AI is seamlessly integrating into daily life through new conversational features from Spotify and Superhuman, alongside a strategic global research play by Anthropic. Plus, discover a clever new energy policy in Australia that offers citizens free midday electricity to help balance the solar grid.",
       "keyTopics": [
@@ -240,29 +259,6 @@
       ],
       "articles": [
         "Foreign Policy - Iran::Restocking the Pentagon"
-      ]
-    },
-    {
-      "date": "2026-06-25",
-      "summary": "Dive into a monumental day of Supreme Court rulings reshaping U.S. immigration policy, Second Amendment rights, and corporate liability. Plus, discover why one major automaker is reversing course on its AI strategy, and get the latest updates on housing market trends, high-stakes sports drama, and local politics.",
-      "keyTopics": [
-        "Supreme Court rulings expanding executive immigration authority",
-        "Ford rehires 350 engineers after failed AI experiment",
-        "Adobe acquires AI photo and video toolmaker Topaz Labs",
-        "Anthropic accuses Alibaba of stealing Claude AI capabilities",
-        "Diplomatic fallout and defense of US-Iran de-escalation agreement",
-        "Senate Banking Committee passes bipartisan ROAD to Housing Act",
-        "Brandon Aiyuk escalates contract standoff with San Francisco 49ers",
-        "Matthew Brewer enters 2027 Chicago mayoral race"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Al Horford says he's returning to Warriors to play 20th season",
-        "ESPN 49ers News::49ers: Aiyuk: If 49ers cut me, I'll sign with Commanders 'tomorrow'",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Will Pakistan’s Iran Gamble Pay Off?",
-        "Foreign Policy - Iran::Treasury Chief Bessent Defends Trump’s Iran Deal",
-        "Foreign Policy - Iran::What Is Iran’s Nuclear Status Quo?"
       ]
     }
   ]
