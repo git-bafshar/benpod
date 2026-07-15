@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-07-15",
+      "summary": "Explore the rapid evolution of artificial intelligence as it shifts from simple chatbots to autonomous agentic workflows, fueled by a massive wave of specialized industry funding. Plus, learn about downtown Orlando's transition to a fully digital parking system and how climate change is directly reshaping real estate decisions and listing data. Finally, get the latest updates on falling mortgage rates and tropical weather tracking in the Atlantic.",
+      "keyTopics": [
+        "AI coding startup Emergent hits unicorn status",
+        "Former OpenAI researcher Miles Wang drug discovery startup",
+        "Vint Cerf internet standards for AI agents",
+        "Anthropic Claude for Teachers product launch",
+        "Orlando physical parking meter removal transition",
+        "Real estate listing sites climate data integration",
+        "Todd Blanche Senate confirmation hearing"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-07-14",
       "summary": "Discover the latest developments in the rapid AI gold rush, from massive funding rounds for cutting-edge startups to why veteran tech founders are jumping back into the entrepreneurial arena. This episode also explores strategic corporate moves by Microsoft, Anthropic, and Uber as they navigate the shifting landscapes of AI development and product integration. Plus, learn about Australia's innovative free-electricity mandate to balance its solar grid and get a quick update on the stubbornly tight Sun Belt housing market.",
       "keyTopics": [
@@ -165,19 +182,6 @@
         "Salesforce overhauls Slackbot to rival Anthropic Claude Tag",
         "OpenKnowledge open source AI alternative to Notion",
         "Google redesigns search box interface for conversational AI queries"
-      ]
-    },
-    {
-      "date": "2026-06-25",
-      "summary": "This episode unpacks a high-stakes day in tech, starting with Anthropic’s bombshell corporate espionage allegations against Alibaba and OpenAI's strategic pivot into designing custom AI chips. We also dive into the growing geopolitical friction over global chip exports, Adobe's acquisition of Topaz Labs, and Amazon's massive infrastructure investment in India. Finally, discover why Wikipedia workers in Britain are making history with a first-of-its-kind union drive.",
-      "keyTopics": [
-        "Anthropic accuses Alibaba of stealing Claude model capabilities",
-        "OpenAI partners with Broadcom for custom AI chip",
-        "Cerebras stock plummets following first public earnings report",
-        "European tension over US restrictions on ASML exports",
-        "Adobe acquires AI-powered media editing company Topaz Labs",
-        "Amazon invests thirteen billion dollars in India AI infrastructure",
-        "Wikipedia workers in Britain seek historic union recognition"
       ]
     }
   ]
