@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-16",
+      "summary": "This episode dives into the escalating competition in the tech world as Microsoft begins actively competing against its own AI partners, while OpenAI makes a surprise move into physical hardware. Plus, learn why enterprise AI agents are facing a major reality check and what SpaceX's recent stock slip means for the future of commercial space flight. Finally, get a quick update on the stubbornly tight summer housing market and what it means for buyers and sellers.",
+      "keyTopics": [
+        "Microsoft training sales teams to compete with OpenAI",
+        "OpenAI release of Codex coding agent hardware keyboard",
+        "Thinking Machines launch of Inkling open-source AI model",
+        "VentureBeat report on enterprise AI agent deployment challenges",
+        "SpaceX stock price declines below initial IPO price",
+        "Sun Belt real estate market low inventory trends"
+      ]
+    },
+    {
       "date": "2026-07-15",
       "summary": "Explore the rapid evolution of artificial intelligence as it shifts from simple chatbots to autonomous agentic workflows, fueled by a massive wave of specialized industry funding. Plus, learn about downtown Orlando's transition to a fully digital parking system and how climate change is directly reshaping real estate decisions and listing data. Finally, get the latest updates on falling mortgage rates and tropical weather tracking in the Atlantic.",
       "keyTopics": [
@@ -169,19 +181,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-06-26",
-      "summary": "In this episode, we explore the striking contrast between Washington's recent intervention to slow down OpenAI’s next flagship model and Silicon Valley’s massive funding boom for autonomous AI agent infrastructure. We also break down the intensifying platform wars, from Claude’s rise against ChatGPT to Salesforce’s major AI-powered Slackbot redesign. Finally, discover how Google’s historic search box makeover is officially ushering in the era of conversational search.",
-      "keyTopics": [
-        "White House requests OpenAI delay GPT-5.6 release",
-        "Patronus AI raises fifty million dollars for agent testing",
-        "General Intuition raises 320 million for gaming AI training",
-        "Anthropic Claude gaining paid subscriber market share on ChatGPT",
-        "Salesforce overhauls Slackbot to rival Anthropic Claude Tag",
-        "OpenKnowledge open source AI alternative to Notion",
-        "Google redesigns search box interface for conversational AI queries"
       ]
     }
   ]
