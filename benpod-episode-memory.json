@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-16",
+      "summary": "This episode explores the shifting dynamics of the global AI race, highlighting Apple’s strategic partnership with Alibaba and Baidu to launch Apple Intelligence in China, alongside growing commercial competition between Microsoft and its partner OpenAI. It also dives into the rise of highly specialized industrial AI models and China's massive new open-source contender, Kimi 3. Finally, a look at a live-streamed transit attack by teenage hackers in the UK serves as a sobering reminder of everyday cybersecurity vulnerabilities.",
+      "keyTopics": [
+        "Apple launches Apple Intelligence in China with Alibaba and Baidu",
+        "Microsoft trains sales teams to pitch in-house AI models",
+        "Moonshot Kimi 3 open AI model release",
+        "Applied Computing raises Series A for industrial AI models",
+        "Y Combinator founders migrating to OpenAI and Anthropic",
+        "UK teenage hackers jailed for Transport for London cyber-attack"
+      ]
+    },
+    {
       "date": "2026-07-15",
       "summary": "Dive into the evolving tech landscape as the AI industry shifts its focus—and major funding—from building models to the critical challenge of real-world integration. This episode also breaks down a historic $9.6 billion NFL franchise sale that is redrawing division battle lines, alongside shifting geopolitical strategies in the Strait of Hormuz. Finally, explore the growing threat of AI voice cloning and take a nostalgic look back at the iconic computer systems of *Jurassic Park*.",
       "keyTopics": [
@@ -243,22 +255,6 @@
         "ESPN 49ers News::49ers: Brandon Aiyuk blames ex-agent as push to leaves 49ers continues",
         "Foreign Policy - Iran::U.S. Strikes Iran Over Attack on Hormuz Ship",
         "Foreign Policy - Iran::Is Hezbollah Now More an Obligation Than an Asset to Tehran?"
-      ]
-    },
-    {
-      "date": "2026-06-26",
-      "summary": "Discover the high-stakes stories shaping tech and global politics, starting with the White House's unprecedented intervention to slow down OpenAI's next major release while venture capital floods into autonomous AI agents. The episode also untangles a shocking report on the U.S.-Iran situation that hints at a past military conflict, reframing recent diplomatic efforts. Finally, learn how the AI industry is pouring millions into political campaigns to secure legislative influence as federal regulations loom.",
-      "keyTopics": [
-        "White House halts OpenAI GPT 5.6 release",
-        "Anthropic Claude gains on ChatGPT in paid consumer market",
-        "Apple increases prices on MacBooks and iPads",
-        "Patronus AI raises fifty million dollars for testing",
-        "General Intuition raises funding to train AI with games",
-        "Trump comments spark confusion over U.S.-Iran conflict",
-        "AI industry increases campaign contributions in U.S. elections"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::Restocking the Pentagon"
       ]
     }
   ]
