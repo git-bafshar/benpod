@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-16</title>
+      <description>This episode dives into the escalating competition in the tech world as Microsoft begins actively competing against its own AI partners, while OpenAI makes a surprise move into physical hardware. Plus, learn why enterprise AI agents are facing a major reality check and what SpaceX&apos;s recent stock slip means for the future of commercial space flight. Finally, get a quick update on the stubbornly tight summer housing market and what it means for buyers and sellers.</description>
+      <pubDate>Thu, 16 Jul 2026 09:18:47 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-16-091847.mp3" length="4405248" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-16-091847.mp3</guid>
+      <itunes:duration>275</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-15</title>
       <description>Explore the rapid evolution of artificial intelligence as it shifts from simple chatbots to autonomous agentic workflows, fueled by a massive wave of specialized industry funding. Plus, learn about downtown Orlando&apos;s transition to a fully digital parking system and how climate change is directly reshaping real estate decisions and listing data. Finally, get the latest updates on falling mortgage rates and tropical weather tracking in the Atlantic.</description>
       <pubDate>Wed, 15 Jul 2026 09:10:50 GMT</pubDate>
