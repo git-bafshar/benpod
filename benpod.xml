@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-16</title>
+      <description>This episode explores the shifting dynamics of the global AI race, highlighting Apple’s strategic partnership with Alibaba and Baidu to launch Apple Intelligence in China, alongside growing commercial competition between Microsoft and its partner OpenAI. It also dives into the rise of highly specialized industrial AI models and China&apos;s massive new open-source contender, Kimi 3. Finally, a look at a live-streamed transit attack by teenage hackers in the UK serves as a sobering reminder of everyday cybersecurity vulnerabilities.</description>
+      <pubDate>Thu, 16 Jul 2026 10:04:18 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-16-100418.mp3" length="4486848" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-16-100418.mp3</guid>
+      <itunes:duration>280</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-15</title>
       <description>Dive into the evolving tech landscape as the AI industry shifts its focus—and major funding—from building models to the critical challenge of real-world integration. This episode also breaks down a historic $9.6 billion NFL franchise sale that is redrawing division battle lines, alongside shifting geopolitical strategies in the Strait of Hormuz. Finally, explore the growing threat of AI voice cloning and take a nostalgic look back at the iconic computer systems of *Jurassic Park*.</description>
       <pubDate>Wed, 15 Jul 2026 09:53:36 GMT</pubDate>
