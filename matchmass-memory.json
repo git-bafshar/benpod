@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-07-16",
+      "summary": "Dive into the latest in tech and sports, starting with DoorDash's new developer tool for AI food delivery, China's massive upcoming AI model, and OpenAI's surprising ChatGPT-branded basketball. This episode also previews the high-stakes World Cup semifinals and checks in on a prolonged Surfline API outage that is forcing Santa Barbara surfers back to analog methods.",
+      "keyTopics": [
+        "DoorDash command line interface for developer food ordering",
+        "Chinese AI lab Moonshot Kimi 3 model release",
+        "OpenAI ChatGPT branded basketball marketing campaign",
+        "World Cup international soccer semifinals",
+        "Ongoing Surfline API outage in Santa Barbara"
+      ]
+    },
+    {
       "date": "2026-07-15",
       "summary": "Explore the rapidly shifting AI landscape, from Apple's strategic partnership with Alibaba in China to Anthropic’s new venture aimed at helping enterprises successfully deploy technology. Plus, catch up on a fiery on-court clash between the Lakers and Clippers, the high-stakes World Cup semifinals, and a prolonged surf report outage that is forcing local surfers back to basics.",
       "keyTopics": [
@@ -204,18 +215,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: 2026 NBA free agency: Grades for offseason signings, extensions"
-      ]
-    },
-    {
-      "date": "2026-06-26",
-      "summary": "This episode explores the intensifying battle between Washington and Silicon Valley as the White House steps in to delay OpenAI's next major model, prompting a multi-million dollar lobbying surge from the tech sector. We also examine how Anthropic’s Claude is successfully challenging ChatGPT for paid subscribers, alongside massive new funding rounds for startups revolutionizing AI safety and training. Finally, get a quick update on the tense, high-stakes final matches of the 2026 World Cup group stages.",
-      "keyTopics": [
-        "White House pressure on OpenAI GPT 5.6 release",
-        "US government ban on Anthropic Fable and Mythos models",
-        "AI industry election lobbying and regulation spend",
-        "Anthropic Claude growth in premium paid consumer market",
-        "Patronus AI fifty million dollar funding for stress-testing",
-        "General Intuition fundraising to train AI on video games"
       ]
     }
   ]
