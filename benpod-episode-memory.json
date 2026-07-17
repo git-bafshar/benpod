@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-17",
+      "summary": "Dive into the major reality check currently facing the enterprise AI boom, where companies are grappling with significant security risks, runaway costs, and reliability gaps while rushing to deploy autonomous agents. This episode also breaks down the escalating legal battle between Apple and OpenAI over poached talent, as well as exciting new consumer tools from Google, Roblox, and DoorDash that are redefining digital creation and automation.",
+      "keyTopics": [
+        "Enterprise AI agent security and evaluation gaps",
+        "$400 million chip-backed loan for AI inference",
+        "Apple targets former employees at OpenAI with legal letters",
+        "Google Vids personalized AI avatar feature release",
+        "Roblox Build feature launches text-to-game generation on mobile",
+        "DoorDash releases dd-cli command-line tool for AI agents"
+      ]
+    },
+    {
       "date": "2026-07-16",
       "summary": "This episode explores the shifting dynamics of the global AI race, highlighting Apple’s strategic partnership with Alibaba and Baidu to launch Apple Intelligence in China, alongside growing commercial competition between Microsoft and its partner OpenAI. It also dives into the rise of highly specialized industrial AI models and China's massive new open-source contender, Kimi 3. Finally, a look at a live-streamed transit attack by teenage hackers in the UK serves as a sobering reminder of everyday cybersecurity vulnerabilities.",
       "keyTopics": [
@@ -234,27 +246,6 @@
         "Foreign Policy - Iran::For Israel, the Oct. 7 War Is Effectively Over",
         "Foreign Policy - Iran::Iranian Elites Are Not in Agreement About What to Do Next",
         "Foreign Policy - Iran::U.S., Iran Prepare for Talks on Strait of Hormuz"
-      ]
-    },
-    {
-      "date": "2026-06-29",
-      "summary": "Explore the sudden breakdown of the U.S.-Iran de-escalation agreement and what this escalating military conflict means for global stability. Plus, get a reality check on the AI boom as major companies like Ford and TIDAL recalibrate the balance between human expertise and automation. Finally, catch up on high-stakes sports contract drama in the Bay Area and a symbolic political decision out of Illinois.",
-      "keyTopics": [
-        "U.S. military strikes against Iran end de-escalation agreement",
-        "Ford rehires veteran engineers after failed AI experiment",
-        "TIDAL demonetizes purely AI-generated music on its platform",
-        "Brandon Aiyuk contract dispute with San Francisco 49ers",
-        "Draymond Green declines player option with Golden State Warriors",
-        "Micron positioned as next Nvidia for AI memory demand",
-        "Proception settles Tesla trade secrets lawsuit, raises funding"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Atlanta Braves at San Francisco Giants",
-        "ESPN Warriors News::Warriors: How Draymond declining player option could affect NBA, LeBron",
-        "ESPN Warriors News::Warriors: Jimmy Butler shares update on ACL recovery, future with the Warriors",
-        "ESPN 49ers News::49ers: Brandon Aiyuk blames ex-agent as push to leaves 49ers continues",
-        "Foreign Policy - Iran::U.S. Strikes Iran Over Attack on Hormuz Ship",
-        "Foreign Policy - Iran::Is Hezbollah Now More an Obligation Than an Asset to Tehran?"
       ]
     }
   ]
