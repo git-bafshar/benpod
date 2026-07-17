@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-17",
+      "summary": "Get a sobering reality check on enterprise AI as a major new report exposes critical security and performance gaps in business deployments. This episode also dives into the escalating legal feud between Apple and OpenAI, Google's latest feature rollouts, and DoorDash’s new command-line tool built specifically for AI agents. Finally, discover why massive new funding deals are shifting focus toward AI inference chips to power the future of day-to-day tech operations.",
+      "keyTopics": [
+        "VentureBeat report on enterprise AI security and agentic gaps",
+        "Apple legal letters targeting former employees at OpenAI",
+        "Google Vids personalized AI avatars with Gemini Omni",
+        "Google AI Mode integration with third-party device apps",
+        "DoorDash dd-cli command-line interface for AI agents",
+        "Four-hundred million dollar financing shift toward inference chips",
+        "Sun Belt real estate low inventory market stagnation"
+      ]
+    },
+    {
       "date": "2026-07-16",
       "summary": "This episode dives into the escalating competition in the tech world as Microsoft begins actively competing against its own AI partners, while OpenAI makes a surprise move into physical hardware. Plus, learn why enterprise AI agents are facing a major reality check and what SpaceX's recent stock slip means for the future of commercial space flight. Finally, get a quick update on the stubbornly tight summer housing market and what it means for buyers and sellers.",
       "keyTopics": [
@@ -164,23 +177,6 @@
         "OKX crypto marketplace for autonomous AI agents",
         "Adapting product management OKRs for AI development",
         "Sun Belt housing market demand and migration"
-      ]
-    },
-    {
-      "date": "2026-06-29",
-      "summary": "In this episode, explore the shifting landscape of technology as we dive into the next generation of collaborative AI models, Ford's surprising decision to rehire human engineers, and Micron’s rise in the hardware market. We also unpack a major Supreme Court ruling on federal executive power, the chaotic reality of automated resume scanners, and a massive email data breach. Finally, get the latest real estate updates on national relocation trends to the Sun Belt and a rare bipartisan agreement on homebuyer tax breaks.",
-      "keyTopics": [
-        "Next-generation Anthropic Mythos and OpenAI GPT-5.5 models",
-        "Ford rehiring retired engineers after failed AI push",
-        "Micron high-bandwidth memory demand driven by AI",
-        "Inconsistent scoring in HackerRank open-source applicant tracking system",
-        "Major data breach exposing fourteen million ISP email logins",
-        "Supreme Court ruling on Federal Reserve Governor Lisa Cook",
-        "Bipartisan support for first-time homebuyer tax breaks"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
