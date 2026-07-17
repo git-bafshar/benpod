@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-17</title>
+      <description>Get a sobering reality check on enterprise AI as a major new report exposes critical security and performance gaps in business deployments. This episode also dives into the escalating legal feud between Apple and OpenAI, Google&apos;s latest feature rollouts, and DoorDash’s new command-line tool built specifically for AI agents. Finally, discover why massive new funding deals are shifting focus toward AI inference chips to power the future of day-to-day tech operations.</description>
+      <pubDate>Fri, 17 Jul 2026 09:03:46 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-17-090346.mp3" length="4504128" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-17-090346.mp3</guid>
+      <itunes:duration>282</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-16</title>
       <description>This episode dives into the escalating competition in the tech world as Microsoft begins actively competing against its own AI partners, while OpenAI makes a surprise move into physical hardware. Plus, learn why enterprise AI agents are facing a major reality check and what SpaceX&apos;s recent stock slip means for the future of commercial space flight. Finally, get a quick update on the stubbornly tight summer housing market and what it means for buyers and sellers.</description>
       <pubDate>Thu, 16 Jul 2026 09:18:47 GMT</pubDate>
