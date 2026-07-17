@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-17</title>
+      <description>Explore the escalating AI talent wars as Apple targets OpenAI employees with legal warnings, alongside a reality check on the security and cost challenges of corporate AI adoption. This episode also highlights new consumer-facing AI features from Google and Roblox, plus the latest sports buzz surrounding LeBron James&apos;s free agency and the World Cup semifinals.</description>
+      <pubDate>Fri, 17 Jul 2026 08:20:05 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-17-082005.mp3" length="3560832" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-17-082005.mp3</guid>
+      <itunes:duration>223</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-16</title>
       <description>Dive into the latest in tech and sports, starting with DoorDash&apos;s new developer tool for AI food delivery, China&apos;s massive upcoming AI model, and OpenAI&apos;s surprising ChatGPT-branded basketball. This episode also previews the high-stakes World Cup semifinals and checks in on a prolonged Surfline API outage that is forcing Santa Barbara surfers back to analog methods.</description>
       <pubDate>Thu, 16 Jul 2026 08:42:09 GMT</pubDate>
