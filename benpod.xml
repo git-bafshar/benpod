@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-17</title>
+      <description>Dive into the major reality check currently facing the enterprise AI boom, where companies are grappling with significant security risks, runaway costs, and reliability gaps while rushing to deploy autonomous agents. This episode also breaks down the escalating legal battle between Apple and OpenAI over poached talent, as well as exciting new consumer tools from Google, Roblox, and DoorDash that are redefining digital creation and automation.</description>
+      <pubDate>Fri, 17 Jul 2026 09:45:37 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-17-094537.mp3" length="4490112" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-17-094537.mp3</guid>
+      <itunes:duration>281</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-16</title>
       <description>This episode explores the shifting dynamics of the global AI race, highlighting Apple’s strategic partnership with Alibaba and Baidu to launch Apple Intelligence in China, alongside growing commercial competition between Microsoft and its partner OpenAI. It also dives into the rise of highly specialized industrial AI models and China&apos;s massive new open-source contender, Kimi 3. Finally, a look at a live-streamed transit attack by teenage hackers in the UK serves as a sobering reminder of everyday cybersecurity vulnerabilities.</description>
       <pubDate>Thu, 16 Jul 2026 10:04:18 GMT</pubDate>
