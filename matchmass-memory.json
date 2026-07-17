@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-07-17",
+      "summary": "Explore the escalating AI talent wars as Apple targets OpenAI employees with legal warnings, alongside a reality check on the security and cost challenges of corporate AI adoption. This episode also highlights new consumer-facing AI features from Google and Roblox, plus the latest sports buzz surrounding LeBron James's free agency and the World Cup semifinals.",
+      "keyTopics": [
+        "Apple legal letters target OpenAI employees over trade secrets",
+        "VentureBeat report highlights critical gaps in enterprise AI adoption",
+        "Google Vids adds personalized AI avatar creation tool",
+        "Google app AI Mode updated to perform agentic tasks",
+        "Roblox launches text-prompt game creation tool for mobile",
+        "LeBron James centers free agency decision around having fun",
+        "Surfline API outage leaves surfers without digital reports"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: LeBron James not ready to reveal next team, but it will be 'fun'"
+      ]
+    },
+    {
       "date": "2026-07-16",
       "summary": "Dive into the latest in tech and sports, starting with DoorDash's new developer tool for AI food delivery, China's massive upcoming AI model, and OpenAI's surprising ChatGPT-branded basketball. This episode also previews the high-stakes World Cup semifinals and checks in on a prolonged Surfline API outage that is forcing Santa Barbara surfers back to analog methods.",
       "keyTopics": [
@@ -200,21 +216,6 @@
         "ESPN Lakers News::Lakers: Sources: Restricted free agent Duren to meet with Lakers, Kings",
         "ESPN Lakers News::Lakers: Deandre Ayton picks up Lakers option, Marcus Smart opts out",
         "ESPN Lakers News::Lakers: Sources: Warriors eye LeBron, AD moves as Green declines option"
-      ]
-    },
-    {
-      "date": "2026-06-29",
-      "summary": "This episode explores a major reality check for the AI boom, highlighting Ford's return to human engineers and music platform TIDAL's decision to demonetize purely AI-generated tracks. We also dive into the unexpected physical challenges of the tech industry, focusing on a startup tackling bacterial slime in data center cooling systems. Finally, get the latest sports updates on Austin Reaves' official contract extension with the Lakers and the high-stakes kickoff of the World Cup knockout rounds.",
-      "keyTopics": [
-        "Ford rehiring human engineers after AI design failure",
-        "TIDAL demonetizes AI-generated music to protect human artists",
-        "Omen AI raises Series A for data center cooling",
-        "Austin Reaves signs Lakers max contract extension",
-        "World Cup soccer tournament begins knockout rounds",
-        "Surfline API outage continues in Santa Barbara"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: 2026 NBA free agency: Grades for offseason signings, extensions"
       ]
     }
   ]
