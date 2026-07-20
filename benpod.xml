@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-20</title>
+      <description>Explore the double-edged sword of AI, from a twenty-five-dollar experiment that uncovered a half-million-dollar security vulnerability to the intensifying global race between proprietary US models and international open-source rivals. This episode also unpacks how Apple’s escalating legal battle could derail OpenAI&apos;s hardware ambitions and covers a dangerous military escalation targeting civilian infrastructure in the Middle East. Plus, get a reality check on the enterprise AI boom, where companies are rushing to deploy automated agents despite critical security and testing failures.</description>
+      <pubDate>Mon, 20 Jul 2026 10:13:32 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-20-101332.mp3" length="4588800" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-20-101332.mp3</guid>
+      <itunes:duration>287</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-17</title>
       <description>Dive into the major reality check currently facing the enterprise AI boom, where companies are grappling with significant security risks, runaway costs, and reliability gaps while rushing to deploy autonomous agents. This episode also breaks down the escalating legal battle between Apple and OpenAI over poached talent, as well as exciting new consumer tools from Google, Roblox, and DoorDash that are redefining digital creation and automation.</description>
       <pubDate>Fri, 17 Jul 2026 09:45:37 GMT</pubDate>
