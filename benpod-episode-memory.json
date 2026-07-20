@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-07-20",
+      "summary": "Explore the double-edged sword of AI, from a twenty-five-dollar experiment that uncovered a half-million-dollar security vulnerability to the intensifying global race between proprietary US models and international open-source rivals. This episode also unpacks how Apple’s escalating legal battle could derail OpenAI's hardware ambitions and covers a dangerous military escalation targeting civilian infrastructure in the Middle East. Plus, get a reality check on the enterprise AI boom, where companies are rushing to deploy automated agents despite critical security and testing failures.",
+      "keyTopics": [
+        "WordPress vulnerability discovered using GPT-5.6",
+        "China Moonshot AI Kimi 3 open-source model disruption",
+        "Apple trade secrets lawsuit targeting OpenAI hardware plans",
+        "US-Iran conflict escalates to civilian infrastructure targeting",
+        "VentureBeat survey reveals major enterprise AI security incidents",
+        "Nvidia CEO Jensen Huang partnership deals in Japan"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Seattle Mariners",
+        "Foreign Policy - Iran::U.S., Iranian Forces Target Civilian Infrastructure",
+        "Foreign Policy - Iran::How to Isolate Tehran",
+        "Foreign Policy - Iran::The America First Contradiction"
+      ]
+    },
+    {
       "date": "2026-07-17",
       "summary": "Dive into the major reality check currently facing the enterprise AI boom, where companies are grappling with significant security risks, runaway costs, and reliability gaps while rushing to deploy autonomous agents. This episode also breaks down the escalating legal battle between Apple and OpenAI over poached talent, as well as exciting new consumer tools from Google, Roblox, and DoorDash that are redefining digital creation and automation.",
       "keyTopics": [
@@ -226,26 +244,6 @@
       "articles": [
         "ESPN Giants News::Giants: Giants' Matt Chapman exits with abdominal strain, set for MRI",
         "ESPN 49ers News::49ers: Brandon Aiyuk, in limbo with 49ers, shouts 'Go Commanders'"
-      ]
-    },
-    {
-      "date": "2026-06-30",
-      "summary": "Explore a sudden diplomatic shift between the U.S. and Iran over the Strait of Hormuz, alongside the Golden State Warriors' blockbuster ambitions to target both LeBron James and Anthony Davis. Plus, discover the latest escalation in the AI wars, from Amazon's new $1 billion enterprise engineering initiative to a futuristic crypto marketplace where autonomous bots can actually hire and pay one another.",
-      "keyTopics": [
-        "US and Iran direct talks over Strait of Hormuz",
-        "Warriors pursuit of LeBron James and Anthony Davis",
-        "Kristaps Porzingis Golden State Warriors contract extension",
-        "Amazon launches one billion dollar Forward Deployed Engineering organization",
-        "X launches hosted MCP server for AI developers",
-        "OKX marketplace for autonomous AI agent transactions"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Arizona Diamondbacks",
-        "ESPN Warriors News::Warriors: Kristaps Porzingis agrees to 2-year, $40M deal with Warriors",
-        "ESPN Warriors News::Warriors: Sources: Warriors eye LeBron, AD moves as Green declines option",
-        "Foreign Policy - Iran::For Israel, the Oct. 7 War Is Effectively Over",
-        "Foreign Policy - Iran::Iranian Elites Are Not in Agreement About What to Do Next",
-        "Foreign Policy - Iran::U.S., Iran Prepare for Talks on Strait of Hormuz"
       ]
     }
   ]
