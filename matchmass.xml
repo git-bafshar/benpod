@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-20</title>
+      <description>This episode dives into the major reality checks facing the AI industry, from Apple&apos;s legal pressures on OpenAI and YouTube&apos;s new crackdown on &quot;AI slop&quot; to the debate over proprietary versus open-source technology. In sports, discover the shifting culture of the Los Angeles Lakers as Austin Reaves prioritizes the team&apos;s future while LeBron James stirs up free-agency drama. Finally, hear how a prolonged Surfline API outage is forcing surfers back to old-school, analog wave-checking methods.</description>
+      <pubDate>Mon, 20 Jul 2026 08:56:41 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-20-085641.mp3" length="3660288" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-20-085641.mp3</guid>
+      <itunes:duration>229</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-17</title>
       <description>Explore the escalating AI talent wars as Apple targets OpenAI employees with legal warnings, alongside a reality check on the security and cost challenges of corporate AI adoption. This episode also highlights new consumer-facing AI features from Google and Roblox, plus the latest sports buzz surrounding LeBron James&apos;s free agency and the World Cup semifinals.</description>
       <pubDate>Fri, 17 Jul 2026 08:20:05 GMT</pubDate>
