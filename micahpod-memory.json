@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-20",
+      "summary": "Discover how a cheap $25 AI query exposed a major WordPress software flaw, completely shifting the economics of global cybersecurity. This episode also explores NVIDIA's strategic expansion in Japan, the escalating legal battle between Apple and OpenAI, and why prominent figures are warning against AI's \"Trojan horse\" potential. Plus, get the latest on the rising safety concerns surrounding e-bikes and the factors driving the ongoing summer stalemate in the real estate market.",
+      "keyTopics": [
+        "WordPress Remote Code Execution vulnerability found using GPT-5.6",
+        "NVIDIA CEO Jensen Huang tech expansion deals in Japan",
+        "Christopher Nolan criticizes AI as a Trojan horse",
+        "Apple trade secrets lawsuit impacts OpenAI hardware plans",
+        "Surge in e-bike injuries raises micro-mobility safety concerns",
+        "Summer real estate market gridlock driven by low inventory"
+      ]
+    },
+    {
       "date": "2026-07-17",
       "summary": "Get a sobering reality check on enterprise AI as a major new report exposes critical security and performance gaps in business deployments. This episode also dives into the escalating legal feud between Apple and OpenAI, Google's latest feature rollouts, and DoorDash’s new command-line tool built specifically for AI agents. Finally, discover why massive new funding deals are shifting focus toward AI inference chips to power the future of day-to-day tech operations.",
       "keyTopics": [
@@ -165,18 +177,6 @@
         "Wayve launches eighty-five million dollar employee tender offer",
         "Godot Engine bans AI-authored code contributions",
         "Vinton Cerf retires as Google Chief Internet Evangelist"
-      ]
-    },
-    {
-      "date": "2026-06-30",
-      "summary": "Discover how the AI landscape is shifting as California strikes a landmark government deal with Anthropic while federal regulators remain hesitant. This episode also explores a surprising report on how AI integration actually boosts company headcount, the rise of an autonomous marketplace where AI agents hire each other, and the ways product managers are adapting to this fast-evolving tech. Finally, stay tuned for a quick look at local economic trends, from recent restaurant closures to persistent housing demands.",
-      "keyTopics": [
-        "Anthropic California state government Claude partnership",
-        "Federal government regulatory pressure on OpenAI releases",
-        "AI adoption correlation with job headcount growth",
-        "OKX crypto marketplace for autonomous AI agents",
-        "Adapting product management OKRs for AI development",
-        "Sun Belt housing market demand and migration"
       ]
     }
   ]
