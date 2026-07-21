@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-21</title>
+      <description>Dive into the escalating global AI race as the US threatens sanctions on Chinese open-source models amidst domestic leadership shakeups and Anthropic&apos;s landmark $1.5 billion copyright settlement. This episode also explores the overwhelming flood of AI-generated music on streaming platforms like Deezer and how platforms are handling the content surge. Finally, catch up on the LA Lakers&apos; strategic new defensive signing and the latest on a persistent local tech outage.</description>
+      <pubDate>Tue, 21 Jul 2026 08:47:59 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-21-084759.mp3" length="3595968" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-21-084759.mp3</guid>
+      <itunes:duration>225</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-20</title>
       <description>This episode dives into the major reality checks facing the AI industry, from Apple&apos;s legal pressures on OpenAI and YouTube&apos;s new crackdown on &quot;AI slop&quot; to the debate over proprietary versus open-source technology. In sports, discover the shifting culture of the Los Angeles Lakers as Austin Reaves prioritizes the team&apos;s future while LeBron James stirs up free-agency drama. Finally, hear how a prolonged Surfline API outage is forcing surfers back to old-school, analog wave-checking methods.</description>
       <pubDate>Mon, 20 Jul 2026 08:56:41 GMT</pubDate>
