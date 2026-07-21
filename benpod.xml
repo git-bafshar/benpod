@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-21</title>
+      <description>Explore the landmark $1.5 billion copyright settlement that is reshaping the AI industry, alongside major global economic disruptions from a Red Sea shipping blockade and massive new tariffs on Canadian imports. This episode also dives into critical policy challenges in Illinois, including grocery store closures in food deserts and a costly crisis facing the state’s food aid program. Finally, get the latest updates on shifting buyer trends in the national housing market and a quick recap of last night’s sports action.</description>
+      <pubDate>Tue, 21 Jul 2026 10:06:13 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-21-100613.mp3" length="5016192" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-21-100613.mp3</guid>
+      <itunes:duration>314</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-20</title>
       <description>Explore the double-edged sword of AI, from a twenty-five-dollar experiment that uncovered a half-million-dollar security vulnerability to the intensifying global race between proprietary US models and international open-source rivals. This episode also unpacks how Apple’s escalating legal battle could derail OpenAI&apos;s hardware ambitions and covers a dangerous military escalation targeting civilian infrastructure in the Middle East. Plus, get a reality check on the enterprise AI boom, where companies are rushing to deploy automated agents despite critical security and testing failures.</description>
       <pubDate>Mon, 20 Jul 2026 10:13:32 GMT</pubDate>
