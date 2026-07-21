@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-07-21",
+      "summary": "Explore the landmark $1.5 billion copyright settlement that is reshaping the AI industry, alongside major global economic disruptions from a Red Sea shipping blockade and massive new tariffs on Canadian imports. This episode also dives into critical policy challenges in Illinois, including grocery store closures in food deserts and a costly crisis facing the state’s food aid program. Finally, get the latest updates on shifting buyer trends in the national housing market and a quick recap of last night’s sports action.",
+      "keyTopics": [
+        "Anthropic 1.5 billion dollar copyright settlement approval",
+        "Trump fifty percent tariff on Canadian imports",
+        "Houthi rebel Red Sea shipping blockade",
+        "Yellow Banana Chicago grocery store closures",
+        "Illinois SNAP program error rate federal penalty delay",
+        "Deezer daily AI music upload statistics"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Kansas City Royals",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Trump Needs to Defy History to End the Iran War",
+        "Foreign Policy - Iran::Houthis Declare a Naval Blockade on Saudi Arabia"
+      ]
+    },
+    {
       "date": "2026-07-20",
       "summary": "Explore the double-edged sword of AI, from a twenty-five-dollar experiment that uncovered a half-million-dollar security vulnerability to the intensifying global race between proprietary US models and international open-source rivals. This episode also unpacks how Apple’s escalating legal battle could derail OpenAI's hardware ambitions and covers a dangerous military escalation targeting civilian infrastructure in the Middle East. Plus, get a reality check on the enterprise AI boom, where companies are rushing to deploy automated agents despite critical security and testing failures.",
       "keyTopics": [
@@ -226,24 +245,6 @@
         "ESPN Warriors News::Warriors: Sources: De'Anthony Melton returns to Warriors on 2-year deal",
         "ESPN Warriors News::Warriors: Shams: Warriors have internal plan to land LeBron James",
         "ESPN Giants News::Giants: Giants 3B Chapman goes on 10-day IL with strained abdominal"
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "summary": "Dive into a packed episode covering the latest escalations in the AI arms race, from Anthropic’s massive new releases and Google’s desktop assistant to Meta’s surprising move into cloud infrastructure. The discussion also explores the shifting realities of digital ownership through Sony's movie deletions, a growing open-source pushback against AI-generated code, and the retirement of internet pioneer Vinton Cerf. Plus, stay informed with the latest updates on high-stakes NFL contract drama, sports injuries, and ongoing global tensions.",
-      "keyTopics": [
-        "Anthropic launches Claude Sonnet 5 and Claude Science",
-        "Google releases Gemini Spark agentic assistant on Mac",
-        "Meta plans to sell AI cloud infrastructure compute",
-        "Sony PlayStation deletes purchased movies due to licensing",
-        "Godot game engine bans AI-authored code contributions",
-        "Vinton Cerf retires as Google Chief Internet Evangelist",
-        "Brandon Aiyuk escalates contract dispute with SF 49ers",
-        "Privacy-focused Venice AI reaches one billion dollar valuation"
-      ],
-      "articles": [
-        "ESPN Giants News::Giants: Giants' Matt Chapman exits with abdominal strain, set for MRI",
-        "ESPN 49ers News::49ers: Brandon Aiyuk, in limbo with 49ers, shouts 'Go Commanders'"
       ]
     }
   ]
