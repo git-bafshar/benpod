@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-21</title>
+      <description>This episode explores how a landmark $1.5 billion copyright settlement is reshaping the economics of AI, alongside Google’s push into custom silicon and a new wave of robots physically building solar power plants. It also breaks down how AI agents are driving a shift toward smaller, hyper-efficient workplaces and provides a quick update on the stagnant Sun Belt housing market.</description>
+      <pubDate>Tue, 21 Jul 2026 09:15:48 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-21-091548.mp3" length="3959808" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-21-091548.mp3</guid>
+      <itunes:duration>247</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-20</title>
       <description>Discover how a cheap $25 AI query exposed a major WordPress software flaw, completely shifting the economics of global cybersecurity. This episode also explores NVIDIA&apos;s strategic expansion in Japan, the escalating legal battle between Apple and OpenAI, and why prominent figures are warning against AI&apos;s &quot;Trojan horse&quot; potential. Plus, get the latest on the rising safety concerns surrounding e-bikes and the factors driving the ongoing summer stalemate in the real estate market.</description>
       <pubDate>Mon, 20 Jul 2026 09:47:23 GMT</pubDate>
