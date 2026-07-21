@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-07-21",
+      "summary": "Dive into the escalating global AI race as the US threatens sanctions on Chinese open-source models amidst domestic leadership shakeups and Anthropic's landmark $1.5 billion copyright settlement. This episode also explores the overwhelming flood of AI-generated music on streaming platforms like Deezer and how platforms are handling the content surge. Finally, catch up on the LA Lakers' strategic new defensive signing and the latest on a persistent local tech outage.",
+      "keyTopics": [
+        "US sanctions threat on Chinese open AI models",
+        "Resignation at Center for AI Standards and Innovation",
+        "Deezer AI-generated music upload statistics",
+        "Anthropic $1.5 billion copyright settlement approval",
+        "Los Angeles Lakers sign Matisse Thybulle",
+        "Santa Barbara Surfline API outage continues"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Sources: Matisse Thybulle agrees to 1-year deal with Lakers"
+      ]
+    },
+    {
       "date": "2026-07-20",
       "summary": "This episode dives into the major reality checks facing the AI industry, from Apple's legal pressures on OpenAI and YouTube's new crackdown on \"AI slop\" to the debate over proprietary versus open-source technology. In sports, discover the shifting culture of the Los Angeles Lakers as Austin Reaves prioritizes the team's future while LeBron James stirs up free-agency drama. Finally, hear how a prolonged Surfline API outage is forcing surfers back to old-school, analog wave-checking methods.",
       "keyTopics": [
@@ -197,24 +212,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Lakers trade for Jazz C Walker Kessler, sign trio, sources say"
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "summary": "Tune in for a jam-packed episode starting with the earth-shattering news that LeBron James is officially leaving the Los Angeles Lakers to enter free agency, rewriting the future of the NBA. We also dive into major moves in the tech sector, including Meta’s surprise entry into cloud computing and a controversial Sony deletion that reignites the debate over digital ownership. Plus, get updates on the intense World Cup knockout stages and a historic retirement from one of the \"Fathers of the Internet.\"",
-      "keyTopics": [
-        "LeBron James leaving Los Angeles Lakers for free agency",
-        "Meta planning to enter cloud infrastructure business",
-        "Google Gemini Spark assistant released on Mac",
-        "Venice AI raises sixty-five million dollars",
-        "US lifts export controls on Anthropic Claude models",
-        "Vinton Cerf retiring from Google",
-        "Sony PlayStation digital movie deletion controversy"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: LeBron James leaving Lakers prompts reaction from Luka, Magic",
-        "ESPN Lakers News::Lakers: Shams: LeBron will enter free agency, end Lakers tenure",
-        "ESPN Lakers News::Lakers: LeBron James informs Lakers he plans to play elsewhere in 2026-27"
       ]
     }
   ]
