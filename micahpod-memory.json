@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-21",
+      "summary": "This episode explores how a landmark $1.5 billion copyright settlement is reshaping the economics of AI, alongside Google’s push into custom silicon and a new wave of robots physically building solar power plants. It also breaks down how AI agents are driving a shift toward smaller, hyper-efficient workplaces and provides a quick update on the stagnant Sun Belt housing market.",
+      "keyTopics": [
+        "Anthropic $1.5 billion copyright settlement over Claude models",
+        "Google custom AI chip development for Gemini efficiency",
+        "Solar construction robotics startup Gritt raises $34 million",
+        "Leadership turnover at Center for AI Standards and Innovation",
+        "Impact of AI agents on engineering team sizing",
+        "Orlando and Sun Belt housing market summer stalemate"
+      ]
+    },
+    {
       "date": "2026-07-20",
       "summary": "Discover how a cheap $25 AI query exposed a major WordPress software flaw, completely shifting the economics of global cybersecurity. This episode also explores NVIDIA's strategic expansion in Japan, the escalating legal battle between Apple and OpenAI, and why prominent figures are warning against AI's \"Trojan horse\" potential. Plus, get the latest on the rising safety concerns surrounding e-bikes and the factors driving the ongoing summer stalemate in the real estate market.",
       "keyTopics": [
@@ -165,18 +177,6 @@
         "Bhavin Turakhia launches Neo AI productivity suite",
         "GitHub Copilot integrates Kimi K2.7 Code model",
         "Ben Guez automates Instagram dating with OpenClaw"
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "summary": "This episode explores Meta's bold move to challenge cloud giants by selling its excess AI compute power directly to businesses. Analyze the latest waves of regulatory confusion in AI development, Anthropic's newest product launches, and the aggressive strategies companies are using to win the tech talent war. Finally, discover why the open-source community is pushing back against AI-generated code and reflect on what the retirement of internet pioneer Vinton Cerf means for the future of the web.",
-      "keyTopics": [
-        "Meta plans launch of cloud infrastructure business",
-        "Trump administration drops restrictions on Anthropic models",
-        "Anthropic releases Claude Sonnet 5 and Claude Science",
-        "Wayve launches eighty-five million dollar employee tender offer",
-        "Godot Engine bans AI-authored code contributions",
-        "Vinton Cerf retires as Google Chief Internet Evangelist"
       ]
     }
   ]
