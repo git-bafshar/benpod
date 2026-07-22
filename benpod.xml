@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-22</title>
+      <description>From high-stakes AI safety initiatives and soaring enterprise security valuations to growing public backlash against power-hungry data centers, explore the real-world challenges shaping the next phase of the tech boom. Plus, get updates on interactive AI workforce training tools, mounting vulnerabilities in the global oil market, and new venture capital investments in the creator economy.</description>
+      <pubDate>Wed, 22 Jul 2026 10:05:57 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-22-100557.mp3" length="5175360" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-22-100557.mp3</guid>
+      <itunes:duration>323</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-21</title>
       <description>Explore the landmark $1.5 billion copyright settlement that is reshaping the AI industry, alongside major global economic disruptions from a Red Sea shipping blockade and massive new tariffs on Canadian imports. This episode also dives into critical policy challenges in Illinois, including grocery store closures in food deserts and a costly crisis facing the state’s food aid program. Finally, get the latest updates on shifting buyer trends in the national housing market and a quick recap of last night’s sports action.</description>
       <pubDate>Tue, 21 Jul 2026 10:06:13 GMT</pubDate>
