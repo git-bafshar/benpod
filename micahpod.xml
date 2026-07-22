@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-22</title>
+      <description>Explore how the surge of enterprise AI is simultaneously creating billion-dollar cybersecurity vulnerabilities and revolutionizing corporate training through interactive coaching. This breakdown also dives into Anthropic&apos;s strategic efforts to shape tech policy, Meta&apos;s controversial AI bedtime story app, and the low-inventory stalemate currently freezing the real estate market.</description>
+      <pubDate>Wed, 22 Jul 2026 09:21:02 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-22-092102.mp3" length="4496832" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-22-092102.mp3</guid>
+      <itunes:duration>281</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-21</title>
       <description>This episode explores how a landmark $1.5 billion copyright settlement is reshaping the economics of AI, alongside Google’s push into custom silicon and a new wave of robots physically building solar power plants. It also breaks down how AI agents are driving a shift toward smaller, hyper-efficient workplaces and provides a quick update on the stagnant Sun Belt housing market.</description>
       <pubDate>Tue, 21 Jul 2026 09:15:48 GMT</pubDate>
