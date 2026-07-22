@@ -1,6 +1,17 @@
 {
   "episodes": [
     {
+      "date": "2026-07-22",
+      "summary": "Explore how the surge of enterprise AI is simultaneously creating billion-dollar cybersecurity vulnerabilities and revolutionizing corporate training through interactive coaching. This breakdown also dives into Anthropic's strategic efforts to shape tech policy, Meta's controversial AI bedtime story app, and the low-inventory stalemate currently freezing the real estate market.",
+      "keyTopics": [
+        "Glow launches with $1.2B valuation for AI agent security",
+        "Synthesia launches interactive AI Roleplay Sessions for employee coaching",
+        "Anthropic donates $20 million to Public First Action policy group",
+        "Meta tests AI bedtime story generator application",
+        "Sun Belt real estate low inventory summer housing market stalemate"
+      ]
+    },
+    {
       "date": "2026-07-21",
       "summary": "This episode explores how a landmark $1.5 billion copyright settlement is reshaping the economics of AI, alongside Google’s push into custom silicon and a new wave of robots physically building solar power plants. It also breaks down how AI agents are driving a shift toward smaller, hyper-efficient workplaces and provides a quick update on the stagnant Sun Belt housing market.",
       "keyTopics": [
@@ -165,18 +176,6 @@
         "Alibaba considers ban on Anthropic Claude Code software",
         "Anthropic in talks with Samsung for custom chips",
         "Sam Altman proposes OpenAI equity donation to US fund"
-      ]
-    },
-    {
-      "date": "2026-07-02",
-      "summary": "The rules of the AI industry are being radically rewritten, from how training data is secured to how the next generation of technology is funded and powered. Discover how Cloudflare is shifting power back to content creators, why investors are pivoting toward physical infrastructure and energy, and how new AI-first platforms are rising to challenge established tech giants. Plus, get a glimpse into the future of autonomous agents, from rumored satellite-connected AI hardware to the wild reality of AI-automated dating.",
-      "keyTopics": [
-        "Cloudflare policy blocking AI crawlers from publisher sites",
-        "Ashton Kutcher launching AI infrastructure and energy fund",
-        "SpaceX prototype AI handset device development",
-        "Bhavin Turakhia launches Neo AI productivity suite",
-        "GitHub Copilot integrates Kimi K2.7 Code model",
-        "Ben Guez automates Instagram dating with OpenClaw"
       ]
     }
   ]
