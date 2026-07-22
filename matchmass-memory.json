@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-22",
+      "summary": "Explore the real-world consequences of the AI boom, highlighted by a landmark $1.5 billion copyright settlement, growing public pushback against power-hungry data centers, and new frontiers in AI cybersecurity and workforce training. Plus, catch up on high-stakes sports updates from the FIFA World Cup knockout rounds to free agency rumors surrounding the Lakers. Finally, a persistent local tech outage offers a lighthearted reminder of the limits—and irony—of modern technology.",
+      "keyTopics": [
+        "Anthropic $1.5 billion copyright lawsuit settlement approval",
+        "Public NIMBY backlash against AI data centers",
+        "AI agent security startup Glow launches with $1.2B valuation",
+        "Synthesia AI Roleplay Sessions launch for enterprise avatar training",
+        "LeBron James free agency and Lakers roster developments",
+        "FIFA World Cup knockout stage updates",
+        "Ongoing Santa Barbara Surfline API outage"
+      ]
+    },
+    {
       "date": "2026-07-21",
       "summary": "Dive into the escalating global AI race as the US threatens sanctions on Chinese open-source models amidst domestic leadership shakeups and Anthropic's landmark $1.5 billion copyright settlement. This episode also explores the overwhelming flood of AI-generated music on streaming platforms like Deezer and how platforms are handling the content surge. Finally, catch up on the LA Lakers' strategic new defensive signing and the latest on a persistent local tech outage.",
       "keyTopics": [
@@ -197,21 +210,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: The 35-minute offseason overhaul of the Los Angeles Lakers"
-      ]
-    },
-    {
-      "date": "2026-07-02",
-      "summary": "Explore the rapidly shifting AI landscape with a look at Microsoft's multi-billion-dollar enterprise push, OpenAI's unique sovereign wealth fund proposal, and Japan's landmark patent ruling. In sports, discover how the Los Angeles Lakers are aggressively rebuilding their roster in the immediate aftermath of LeBron James's departure. Plus, stay updated on the high-stakes drama of the World Cup knockout rounds and a persistent regional tech outage disrupting coastal routines.",
-      "keyTopics": [
-        "Microsoft $2.5 billion AI deployment services initiative",
-        "OpenAI proposed equity donation to US sovereign wealth fund",
-        "Japan Supreme Court ruling on AI patent inventors",
-        "Los Angeles Lakers post-LeBron rebuild and Walker Kessler trade",
-        "2026 World Cup knockout stage tournament progression",
-        "Surfline API outage impacting Santa Barbara surf checks"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Lakers trade for Jazz C Walker Kessler, sign trio, sources say"
       ]
     }
   ]
