@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-23",
+      "summary": "This episode explores the escalating AI race, from a ten-billion-dollar startup challenging Nvidia’s hardware dominance to the heated geopolitical debate over restricting access to Chinese open-source models. It also uncovers the staggering financial debt and massive energy consumption threatening the long-term sustainability of the AI boom. Plus, get quick updates on the NBA off-season holding pattern, ongoing World Cup knockout action, and a relatable local tech outage.",
+      "keyTopics": [
+        "Etched AI chip startup $10.3B valuation and Nvidia challenge",
+        "US tech startup pushback against Chinese open-source AI sanctions",
+        "Moonshot Kimi AI training similarities to Anthropic Claude 3",
+        "AI data center energy consumption and hidden compute credit debt",
+        "Lakers offseason holding pattern during LeBron James free agency",
+        "Ongoing Surfline API outage impacting Santa Barbara surfers"
+      ]
+    },
+    {
       "date": "2026-07-22",
       "summary": "Explore the real-world consequences of the AI boom, highlighted by a landmark $1.5 billion copyright settlement, growing public pushback against power-hungry data centers, and new frontiers in AI cybersecurity and workforce training. Plus, catch up on high-stakes sports updates from the FIFA World Cup knockout rounds to free agency rumors surrounding the Lakers. Finally, a persistent local tech outage offers a lighthearted reminder of the limits—and irony—of modern technology.",
       "keyTopics": [
@@ -195,21 +207,6 @@
         "ESPN Lakers News::Lakers: Inside the sterile dissolution of the LeBron-Lakers marriage",
         "ESPN Lakers News::Lakers: 2026 NBA offseason trade grades: Walker Kessler, Ja Morant deals",
         "ESPN Lakers News::Lakers: Sources: Lakers trading Ayton to Wizards for Hardy, future picks"
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "summary": "This episode dives into the shifting dynamics of the AI landscape, exploring Meta's reality check on development, Anthropic's custom chip ambitions, and the latest absurd corporate AI hype. The conversation then shifts to the sports world with a breakdown of the Los Angeles Lakers’ audacious franchise reset to acquire superstar Luka Dončić. Finally, get updates on the high-stakes World Cup knockout rounds and a frustrating tech outage affecting holiday weekend surfers.",
-      "keyTopics": [
-        "Meta experimental text-to-game app Pocket release",
-        "Anthropic and Samsung custom AI chip partnership talks",
-        "Alibaba bans Anthropic Claude Code over security concerns",
-        "Jersey Mike's IPO filing highlights AI strategy",
-        "Los Angeles Lakers rebuild around Luka Dončić",
-        "Ongoing Surfline API outage impacts holiday weekend"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: The 35-minute offseason overhaul of the Los Angeles Lakers"
       ]
     }
   ]
