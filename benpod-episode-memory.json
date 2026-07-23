@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-07-23",
+      "summary": "This episode uncovers the hidden financial strains behind the AI boom, from massive shadow debt and shifting hardware budgets to the security risks of rushed enterprise adoption. It also examines a changing global landscape, highlighting China's rising frontier AI models and the geopolitical tensions threatening volatile energy markets. Discover how high-stakes financial gambles and technological rivalries are reshaping the future of tech, business, and global stability.",
+      "keyTopics": [
+        "Hidden corporate debt and cloud credit shadow financing in AI",
+        "IBM mainframe sales decline driven by AI infrastructure spending",
+        "Etched $10.3 billion valuation for GPU-free AI inference chips",
+        "Nvidia lunar GPU mission and market saturation strategy",
+        "Moonshot AI Kimi 3 open-source model capabilities validation",
+        "Iran oil market leverage amidst depleted Western strategic reserves",
+        "Enterprise AI compute gap and agent security risks"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::Trump’s Epic Fury Can’t Resolve His Iran Quagmire"
+      ]
+    },
+    {
       "date": "2026-07-22",
       "summary": "From high-stakes AI safety initiatives and soaring enterprise security valuations to growing public backlash against power-hungry data centers, explore the real-world challenges shaping the next phase of the tech boom. Plus, get updates on interactive AI workforce training tools, mounting vulnerabilities in the global oil market, and new venture capital investments in the creator economy.",
       "keyTopics": [
@@ -224,27 +240,6 @@
         "ESPN Giants::Giants Recap: San Francisco Giants at Colorado Rockies",
         "Foreign Policy - Iran::Israel Belongs in the New Saudi-Iranian Order",
         "Foreign Policy - Iran::Angsty in Ankara"
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "summary": "Dive into the rapidly evolving landscape of artificial intelligence, exploring high-stakes custom chip battles, enterprise security concerns, and Illinois's dual approach of regulating classroom deepfakes while funding a massive data center boom. This episode also analyzes a complex public safety paradox in Chicago, the brewing contract drama shaking up the sports world, and new tactical shifts in the national housing market. Tune in for a comprehensive look at the major tech, policy, and sports stories shaping the week.",
-      "keyTopics": [
-        "Anthropic Samsung custom AI chip partnership talks",
-        "Sam Altman OpenAI equity donation to US sovereign wealth fund",
-        "Alibaba plans ban on Anthropic Claude Code assistant",
-        "Mark Zuckerberg admits Meta AI agent progress is slow",
-        "Illinois law targeting AI deepfakes in schools",
-        "Illinois data center tax credits and infrastructure expansion",
-        "Brandon Aiyuk contract standoff with San Francisco 49ers"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Why re-signing Kristaps Porzingis narrows Warriors' financial flexibility",
-        "ESPN 49ers News::49ers: Mike Evans is fitting right in with the 49ers",
-        "ESPN 49ers News::49ers: Aiyuk: If 49ers cut me, I'll sign with Commanders 'tomorrow'",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::The MOU Is Paying Off Early for Iran"
       ]
     }
   ]
