@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-23</title>
+      <description>This episode explores the escalating AI race, from a ten-billion-dollar startup challenging Nvidia’s hardware dominance to the heated geopolitical debate over restricting access to Chinese open-source models. It also uncovers the staggering financial debt and massive energy consumption threatening the long-term sustainability of the AI boom. Plus, get quick updates on the NBA off-season holding pattern, ongoing World Cup knockout action, and a relatable local tech outage.</description>
+      <pubDate>Thu, 23 Jul 2026 08:58:15 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-23-085815.mp3" length="3661632" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-23-085815.mp3</guid>
+      <itunes:duration>229</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-22</title>
       <description>Explore the real-world consequences of the AI boom, highlighted by a landmark $1.5 billion copyright settlement, growing public pushback against power-hungry data centers, and new frontiers in AI cybersecurity and workforce training. Plus, catch up on high-stakes sports updates from the FIFA World Cup knockout rounds to free agency rumors surrounding the Lakers. Finally, a persistent local tech outage offers a lighthearted reminder of the limits—and irony—of modern technology.</description>
       <pubDate>Wed, 22 Jul 2026 08:46:22 GMT</pubDate>
