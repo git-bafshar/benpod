@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-23</title>
+      <description>This episode uncovers the hidden financial strains behind the AI boom, from massive shadow debt and shifting hardware budgets to the security risks of rushed enterprise adoption. It also examines a changing global landscape, highlighting China&apos;s rising frontier AI models and the geopolitical tensions threatening volatile energy markets. Discover how high-stakes financial gambles and technological rivalries are reshaping the future of tech, business, and global stability.</description>
+      <pubDate>Thu, 23 Jul 2026 10:10:52 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-23-101052.mp3" length="4356480" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-23-101052.mp3</guid>
+      <itunes:duration>272</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-22</title>
       <description>From high-stakes AI safety initiatives and soaring enterprise security valuations to growing public backlash against power-hungry data centers, explore the real-world challenges shaping the next phase of the tech boom. Plus, get updates on interactive AI workforce training tools, mounting vulnerabilities in the global oil market, and new venture capital investments in the creator economy.</description>
       <pubDate>Wed, 22 Jul 2026 10:05:57 GMT</pubDate>
