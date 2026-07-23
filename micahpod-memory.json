@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-07-23",
+      "summary": "This episode explores escalating global tensions as the U.S. government accuses a Chinese firm of stealing advanced AI model technology, triggering potential sanctions and fueling debates over open-source security. Meanwhile, the staggering financial costs of the AI boom are dramatically altering corporate budgets, sparking targeted enterprise software investments, and creating record cloud profits. Finally, the discussion turns to the physical footprint of tech innovation, examining shifting real estate dynamics and rising local pushback against new AI data center developments.",
+      "keyTopics": [
+        "US sanctions threat against Moonshot for distilling Anthropic Fable",
+        "IBM stock crash from AI spending cannibalizing legacy hardware",
+        "Google Cloud record profits offset Alphabet massive AI spending",
+        "OpenAI and Anthropic lobbying alliance against open-weight AI",
+        "ServiceNow forty million dollar investment in BusinessNext vertical AI",
+        "US pending home sales drop to three month low",
+        "Majority of Americans oppose local AI data center construction"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-07-22",
       "summary": "Explore how the surge of enterprise AI is simultaneously creating billion-dollar cybersecurity vulnerabilities and revolutionizing corporate training through interactive coaching. This breakdown also dives into Anthropic's strategic efforts to shape tech policy, Meta's controversial AI bedtime story app, and the low-inventory stalemate currently freezing the real estate market.",
       "keyTopics": [
@@ -164,18 +181,6 @@
         "Midjourney legal motion targets Hollywood studio AI usage",
         "Station F launches European AI accelerator program",
         "Google Workspace commercial featuring the Founding Fathers"
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "summary": "This episode dives into a major reality check for the AI industry, exploring the tension between public hype and technical limits through Meta's internal struggles and Alibaba's potential ban on Anthropic's coding tool over security concerns. We also unpack OpenAI’s unprecedented proposal to donate five percent of its equity to a U.S. sovereign wealth fund, potentially redefining the relationship between big tech and national governments. Finally, stay tuned for a quick look at holiday weekend travel forecasts and the latest housing market trends.",
-      "keyTopics": [
-        "Mark Zuckerberg admits slow progress on Meta AI agents",
-        "Jersey Mike's AI strategy hype in IPO documents",
-        "Meta launch of experimental AI gaming app Pocket",
-        "Alibaba considers ban on Anthropic Claude Code software",
-        "Anthropic in talks with Samsung for custom chips",
-        "Sam Altman proposes OpenAI equity donation to US fund"
       ]
     }
   ]
