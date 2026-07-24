@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-07-24",
+      "summary": "Unpack the potential geopolitical fallout following claimed military attacks on critical Amazon Web Services infrastructure in the Middle East. Discover how the AI battle is shifting to the desktop as OpenAI and Anthropic launch advanced voice assistants, while AMD takes aim at Nvidia's hardware dominance. Plus, explore the complicated world of AI security, from guardrails hampering ethical hackers to new automated defenses fighting AI-driven phishing attacks.",
+      "keyTopics": [
+        "IRGC claims attack on AWS data center in Bahrain",
+        "OpenAI ChatGPT and Anthropic Claude launch desktop voice mode",
+        "AMD Helios rack-scale system challenges Nvidia AI hardware dominance",
+        "AI safety guardrails impeding white hat cybersecurity research",
+        "AegisAI raises $36 million for AI phishing defense"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::How Iran Gained the Upper Hand",
+        "Foreign Policy - Iran::Is the Red Sea the New Hormuz Crisis?",
+        "Foreign Policy - Iran::There’s Only One Way Out of Trump’s Reckless War"
+      ]
+    },
+    {
       "date": "2026-07-23",
       "summary": "This episode uncovers the hidden financial strains behind the AI boom, from massive shadow debt and shifting hardware budgets to the security risks of rushed enterprise adoption. It also examines a changing global landscape, highlighting China's rising frontier AI models and the geopolitical tensions threatening volatile energy markets. Discover how high-stakes financial gambles and technological rivalries are reshaping the future of tech, business, and global stability.",
       "keyTopics": [
@@ -222,24 +238,6 @@
         "ESPN 49ers News::49ers: Brandon Aiyuk blames ex-agent as push to leaves 49ers continues",
         "ESPN 49ers News::49ers: Fowler: Brandon Aiyuk is lighting money on fire with every Instagram video",
         "Foreign Policy - Iran::What to Expect at the 2026 NATO Summit"
-      ]
-    },
-    {
-      "date": "2026-07-06",
-      "summary": "Explore the ripple effects of the AI boom in this episode, from Microsoft's massive layoffs and the quiet wind-down of Amazon's Mechanical Turk to a controversial Google Chrome update that installs a massive AI model on users' computers. We also break down shifting geopolitical dynamics in the Middle East, a heartbreaking loss for the Giants on the baseball diamond, and Midjourney's clever legal counter-strike against Hollywood. Finally, get a look at how a new Google commercial drafts the Founding Fathers to advertise its AI collaboration tools.",
-      "keyTopics": [
-        "Microsoft lays off 5,000 workers amid AI realignment",
-        "Amazon closes Mechanical Turk to new customers",
-        "Google Chrome quietly installs 4GB local AI model",
-        "Colorado Rockies defeat San Francisco Giants 7 to 6",
-        "Shifting Middle East alliances and the new Saudi-Iranian order",
-        "Midjourney demands Hollywood studios disclose internal AI usage",
-        "Google Workspace commercial features Founding Fathers using AI"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Colorado Rockies",
-        "Foreign Policy - Iran::Israel Belongs in the New Saudi-Iranian Order",
-        "Foreign Policy - Iran::Angsty in Ankara"
       ]
     }
   ]
