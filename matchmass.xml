@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-24</title>
+      <description>This episode covers major developments across tech and global news, starting with OpenAI bringing its real-time advanced voice feature to the ChatGPT desktop app. It also unpacks Midjourney&apos;s unexpected acquisition of astrology app Co-Star and what it signals for the future of consumer AI platforms. Finally, the discussion tackles a serious geopolitical escalation following unconfirmed claims of a physical attack on an AWS data center in Bahrain.</description>
+      <pubDate>Fri, 24 Jul 2026 08:35:34 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-24-083534.mp3" length="3914304" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-24-083534.mp3</guid>
+      <itunes:duration>245</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-23</title>
       <description>This episode explores the escalating AI race, from a ten-billion-dollar startup challenging Nvidia’s hardware dominance to the heated geopolitical debate over restricting access to Chinese open-source models. It also uncovers the staggering financial debt and massive energy consumption threatening the long-term sustainability of the AI boom. Plus, get quick updates on the NBA off-season holding pattern, ongoing World Cup knockout action, and a relatable local tech outage.</description>
       <pubDate>Thu, 23 Jul 2026 08:58:15 GMT</pubDate>
