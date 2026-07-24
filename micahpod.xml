@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-24</title>
+      <description>This episode covers a major geopolitical escalation following claims of a physical attack on an Amazon Web Services data center in Bahrain, alongside AMD&apos;s new Helios system taking on Nvidia in the AI hardware race. It explores the complex role of artificial intelligence in cybersecurity, highlighting AI-driven anti-phishing defenses and the challenges safety guardrails pose for ethical security researchers. Additional topics include Runway&apos;s new AI Model Router, a reality check on building production-ready AI applications, and local updates on Orlando&apos;s weather and real estate market.</description>
+      <pubDate>Fri, 24 Jul 2026 09:17:04 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-24-091704.mp3" length="4358016" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-24-091704.mp3</guid>
+      <itunes:duration>272</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-23</title>
       <description>This episode explores escalating global tensions as the U.S. government accuses a Chinese firm of stealing advanced AI model technology, triggering potential sanctions and fueling debates over open-source security. Meanwhile, the staggering financial costs of the AI boom are dramatically altering corporate budgets, sparking targeted enterprise software investments, and creating record cloud profits. Finally, the discussion turns to the physical footprint of tech innovation, examining shifting real estate dynamics and rising local pushback against new AI data center developments.</description>
       <pubDate>Thu, 23 Jul 2026 09:23:43 GMT</pubDate>
