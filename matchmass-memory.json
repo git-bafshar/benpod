@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-24",
+      "summary": "This episode covers major developments across tech and global news, starting with OpenAI bringing its real-time advanced voice feature to the ChatGPT desktop app. It also unpacks Midjourney's unexpected acquisition of astrology app Co-Star and what it signals for the future of consumer AI platforms. Finally, the discussion tackles a serious geopolitical escalation following unconfirmed claims of a physical attack on an AWS data center in Bahrain.",
+      "keyTopics": [
+        "OpenAI ChatGPT Advanced Voice Mode desktop app release",
+        "Midjourney acquisition of astrology app Co-Star",
+        "Iranian IRGC claimed attack on AWS Bahrain data center",
+        "Physical security risks to cloud and AI data centers",
+        "FIFA World Cup knockout stages updates",
+        "Ongoing multi-day Surfline API service outage"
+      ]
+    },
+    {
       "date": "2026-07-23",
       "summary": "This episode explores the escalating AI race, from a ten-billion-dollar startup challenging Nvidia’s hardware dominance to the heated geopolitical debate over restricting access to Chinese open-source models. It also uncovers the staggering financial debt and massive energy consumption threatening the long-term sustainability of the AI boom. Plus, get quick updates on the NBA off-season holding pattern, ongoing World Cup knockout action, and a relatable local tech outage.",
       "keyTopics": [
@@ -190,23 +202,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Sources: Rui Hachimura, Clippers agree to 2-year, $28M deal"
-      ]
-    },
-    {
-      "date": "2026-07-06",
-      "summary": "Explore how the AI boom is actively reshaping the job market as we break down Microsoft's major layoffs and Amazon's decision to phase out its pioneering Mechanical Turk platform. Plus, get the latest on the Los Angeles Lakers' aggressive, post-LeBron roster rebuild and the high-stakes drama of the World Cup knockout stage. Finally, find out why a persistent tech outage has local surfers heading back to the beach for old-school wave checks.",
-      "keyTopics": [
-        "Microsoft layoffs of 4,800 workers spark AI job fears",
-        "Amazon phases out new Mechanical Turk customer signups",
-        "Lakers trade Deandre Ayton to Washington Wizards",
-        "Los Angeles Lakers roster rebuild around Luka Dončić",
-        "FIFA World Cup knockout stage tournament progress",
-        "Ongoing Surfline API outage affects beachgoers"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Inside the sterile dissolution of the LeBron-Lakers marriage",
-        "ESPN Lakers News::Lakers: 2026 NBA offseason trade grades: Walker Kessler, Ja Morant deals",
-        "ESPN Lakers News::Lakers: Sources: Lakers trading Ayton to Wizards for Hardy, future picks"
       ]
     }
   ]
