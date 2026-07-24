@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-24</title>
+      <description>Unpack the potential geopolitical fallout following claimed military attacks on critical Amazon Web Services infrastructure in the Middle East. Discover how the AI battle is shifting to the desktop as OpenAI and Anthropic launch advanced voice assistants, while AMD takes aim at Nvidia&apos;s hardware dominance. Plus, explore the complicated world of AI security, from guardrails hampering ethical hackers to new automated defenses fighting AI-driven phishing attacks.</description>
+      <pubDate>Fri, 24 Jul 2026 09:58:18 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-24-095818.mp3" length="5000640" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-24-095818.mp3</guid>
+      <itunes:duration>313</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-23</title>
       <description>This episode uncovers the hidden financial strains behind the AI boom, from massive shadow debt and shifting hardware budgets to the security risks of rushed enterprise adoption. It also examines a changing global landscape, highlighting China&apos;s rising frontier AI models and the geopolitical tensions threatening volatile energy markets. Discover how high-stakes financial gambles and technological rivalries are reshaping the future of tech, business, and global stability.</description>
       <pubDate>Thu, 23 Jul 2026 10:10:52 GMT</pubDate>
