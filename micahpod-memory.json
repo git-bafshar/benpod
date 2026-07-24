@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-24",
+      "summary": "This episode covers a major geopolitical escalation following claims of a physical attack on an Amazon Web Services data center in Bahrain, alongside AMD's new Helios system taking on Nvidia in the AI hardware race. It explores the complex role of artificial intelligence in cybersecurity, highlighting AI-driven anti-phishing defenses and the challenges safety guardrails pose for ethical security researchers. Additional topics include Runway's new AI Model Router, a reality check on building production-ready AI applications, and local updates on Orlando's weather and real estate market.",
+      "keyTopics": [
+        "IRGC claim of attack on AWS Bahrain data center",
+        "AMD Helios rack-scale AI supercomputer launch",
+        "Runway AI Model Router release",
+        "AegisAI $36 million funding for AI phishing defense",
+        "AI model safety guardrails impacting white hat vulnerability research",
+        "Anthropic Claude voice mode update with agentic features",
+        "Sun Belt residential real estate summer stalemate"
+      ]
+    },
+    {
       "date": "2026-07-23",
       "summary": "This episode explores escalating global tensions as the U.S. government accuses a Chinese firm of stealing advanced AI model technology, triggering potential sanctions and fueling debates over open-source security. Meanwhile, the staggering financial costs of the AI boom are dramatically altering corporate budgets, sparking targeted enterprise software investments, and creating record cloud profits. Finally, the discussion turns to the physical footprint of tech innovation, examining shifting real estate dynamics and rising local pushback against new AI data center developments.",
       "keyTopics": [
@@ -170,17 +183,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-07-06",
-      "summary": "Explore a major shift in the tech landscape as this episode covers the sunsetting of Amazon’s Mechanical Turk for new business and the escalating geopolitical tech divide marked by Alibaba’s ban on Anthropic’s coding tool. The discussion also dives into Midjourney’s clever legal strategy against Hollywood studios and Europe's growing role in the AI talent race. Finally, get a look at Sun Belt real estate trends and a humorous breakdown of Google's history-inspired Workspace commercial.",
-      "keyTopics": [
-        "Amazon stops accepting new Mechanical Turk customers",
-        "Alibaba bans Anthropic Claude Code over security concerns",
-        "Midjourney legal motion targets Hollywood studio AI usage",
-        "Station F launches European AI accelerator program",
-        "Google Workspace commercial featuring the Founding Fathers"
       ]
     }
   ]
