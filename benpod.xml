@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-27</title>
+      <description>This episode explores major developments across the tech landscape, highlighting Ilya Sutskever&apos;s new Nvidia-backed rival to OpenAI, Anthropic&apos;s enterprise expansion, and massive seed funding for physical AI robotics. It also covers key sports updates regarding the San Francisco 49ers&apos; pre-season setbacks and breaks down a geopolitical analysis of Iran&apos;s fortified islands in the Persian Gulf. Finally, the discussion touches on AI lobbying efforts, an NFC-based app blocker, and Minecraft&apos;s rising hardware requirements.</description>
+      <pubDate>Mon, 27 Jul 2026 10:44:07 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-27-104407.mp3" length="5404608" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-27-104407.mp3</guid>
+      <itunes:duration>338</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-24</title>
       <description>Unpack the potential geopolitical fallout following claimed military attacks on critical Amazon Web Services infrastructure in the Middle East. Discover how the AI battle is shifting to the desktop as OpenAI and Anthropic launch advanced voice assistants, while AMD takes aim at Nvidia&apos;s hardware dominance. Plus, explore the complicated world of AI security, from guardrails hampering ethical hackers to new automated defenses fighting AI-driven phishing attacks.</description>
       <pubDate>Fri, 24 Jul 2026 09:58:18 GMT</pubDate>
