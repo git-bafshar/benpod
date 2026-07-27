@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-27",
+      "summary": "Discover the latest high-stakes developments in tech, starting with a groundbreaking autonomous AI cyberattack against OpenAI and the turbulent rollout of Anthropic's new Claude Opus 5 model. This episode also explores how artificial intelligence is driving corporate workforce shifts, fueling the search for training data, and revolutionizing robotics control, concluding with a quick update on the current real estate market stalemate.",
+      "keyTopics": [
+        "Alleged first autonomous AI agent cyberattack targets OpenAI",
+        "Hugging Face CEO Clem Delangue demands radical transparency",
+        "Anthropic Claude Opus 5 launch faces elevated user errors",
+        "Monday.com attributes workforce reductions to AI efficiency gains",
+        "AI labs digitize physical books amid training data shortages",
+        "Robotics startup Enigma secures $70 million seed funding",
+        "Sun Belt real estate housing market summer stalemate"
+      ]
+    },
+    {
       "date": "2026-07-24",
       "summary": "This episode covers a major geopolitical escalation following claims of a physical attack on an Amazon Web Services data center in Bahrain, alongside AMD's new Helios system taking on Nvidia in the AI hardware race. It explores the complex role of artificial intelligence in cybersecurity, highlighting AI-driven anti-phishing defenses and the challenges safety guardrails pose for ethical security researchers. Additional topics include Runway's new AI Model Router, a reality check on building production-ready AI applications, and local updates on Orlando's weather and real estate market.",
       "keyTopics": [
@@ -166,23 +179,6 @@
         "Meta launches Muse Image generator amid training data concerns",
         "Former OpenAI executive Kevin Weil joins Stoke Space board",
         "Orlando, Denver, and San Diego summer housing market trends"
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "summary": "Explore the massive shift from basic AI chatbots to autonomous digital co-workers as next-generation models and workplace integrations redefine how we get things done. This episode also dives into critical geopolitical developments, from a high-stakes NATO summit to maritime tensions in the Strait of Hormuz, before examining a staggering wealth gap in the U.S. housing market.",
-      "keyTopics": [
-        "OpenAI GPT-5.5 and Anthropic Claude Fable agentic models",
-        "Forterra autonomous military ground vehicles in Ukraine",
-        "Startup Savi funding for deepfake scam protection",
-        "Alberta government utilizing Anthropic Claude for cybersecurity",
-        "Salesforce launches rebuilt agentic AI Slackbot",
-        "Donald Trump NATO summit defense spending demands",
-        "Rahm Emanuel US-Israel relationship crossroads speech"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
