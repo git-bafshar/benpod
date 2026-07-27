@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-27</title>
+      <description>This episode breaks down the seismic shift in professional basketball as LeBron James officially departs the Los Angeles Lakers for the Philadelphia 76ers, forcing a major franchise pivot in LA. Meanwhile, artificial intelligence continues to redefine the digital landscape, highlighted by Google’s rapidly expanding AI search summaries and a landmark computing partnership between Safe Superintelligence and Nvidia. The conversation wraps up with a look at the growing energy demands of tech infrastructure, AI lobbying efforts in Washington, and regional updates.</description>
+      <pubDate>Mon, 27 Jul 2026 09:27:10 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-27-092710.mp3" length="3938112" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-27-092710.mp3</guid>
+      <itunes:duration>246</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-24</title>
       <description>This episode covers major developments across tech and global news, starting with OpenAI bringing its real-time advanced voice feature to the ChatGPT desktop app. It also unpacks Midjourney&apos;s unexpected acquisition of astrology app Co-Star and what it signals for the future of consumer AI platforms. Finally, the discussion tackles a serious geopolitical escalation following unconfirmed claims of a physical attack on an AWS data center in Bahrain.</description>
       <pubDate>Fri, 24 Jul 2026 08:35:34 GMT</pubDate>
