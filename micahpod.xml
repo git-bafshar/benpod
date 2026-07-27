@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-27</title>
+      <description>Discover the latest high-stakes developments in tech, starting with a groundbreaking autonomous AI cyberattack against OpenAI and the turbulent rollout of Anthropic&apos;s new Claude Opus 5 model. This episode also explores how artificial intelligence is driving corporate workforce shifts, fueling the search for training data, and revolutionizing robotics control, concluding with a quick update on the current real estate market stalemate.</description>
+      <pubDate>Mon, 27 Jul 2026 10:10:07 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-27-101007.mp3" length="4419072" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-27-101007.mp3</guid>
+      <itunes:duration>276</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-24</title>
       <description>This episode covers a major geopolitical escalation following claims of a physical attack on an Amazon Web Services data center in Bahrain, alongside AMD&apos;s new Helios system taking on Nvidia in the AI hardware race. It explores the complex role of artificial intelligence in cybersecurity, highlighting AI-driven anti-phishing defenses and the challenges safety guardrails pose for ethical security researchers. Additional topics include Runway&apos;s new AI Model Router, a reality check on building production-ready AI applications, and local updates on Orlando&apos;s weather and real estate market.</description>
       <pubDate>Fri, 24 Jul 2026 09:17:04 GMT</pubDate>
