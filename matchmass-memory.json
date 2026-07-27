@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-07-27",
+      "summary": "This episode breaks down the seismic shift in professional basketball as LeBron James officially departs the Los Angeles Lakers for the Philadelphia 76ers, forcing a major franchise pivot in LA. Meanwhile, artificial intelligence continues to redefine the digital landscape, highlighted by Google’s rapidly expanding AI search summaries and a landmark computing partnership between Safe Superintelligence and Nvidia. The conversation wraps up with a look at the growing energy demands of tech infrastructure, AI lobbying efforts in Washington, and regional updates.",
+      "keyTopics": [
+        "LeBron James signs two-year contract with Philadelphia 76ers",
+        "Ilya Sutskever's Safe Superintelligence partners with Nvidia",
+        "Google AI Overviews appear in 43 percent of search queries",
+        "AI companies reach record levels of lobbying spending",
+        "TechCrunch Disrupt focuses on AI energy and infrastructure strain",
+        "LA Mayor Karen Bass Inside Safe homelessness program challenges"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: LeBron James signs with the 76ers: Grade, reaction, winners"
+      ]
+    },
+    {
       "date": "2026-07-24",
       "summary": "This episode covers major developments across tech and global news, starting with OpenAI bringing its real-time advanced voice feature to the ChatGPT desktop app. It also unpacks Midjourney's unexpected acquisition of astrology app Co-Star and what it signals for the future of consumer AI platforms. Finally, the discussion tackles a serious geopolitical escalation following unconfirmed claims of a physical attack on an AWS data center in Bahrain.",
       "keyTopics": [
@@ -186,22 +201,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Lakers land center Looney; in pursuit of Kuminga, sources say"
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "summary": "This episode explores the rapidly expanding reach of artificial intelligence, from Anthropic's new mobile agent and anti-scam defense tools to autonomous military deployments and SK Hynix's massive upcoming IPO. The coverage also dives into the sports world, highlighting the latest dramatic moves in the Los Angeles Lakers' aggressive roster rebuild and the high-stakes World Cup knockout stage. Finally, get an update on the ongoing Surfline API outage that has local beachgoers reverting to old-school, analog wave checks.",
-      "keyTopics": [
-        "Anthropic Claude Cowork launch on web and mobile",
-        "Savi seed funding for AI voice scam protection",
-        "Forterra deploys autonomous ground vehicles in Ukraine",
-        "SK Hynix prepares for US IPO",
-        "Rui Hachimura signs with Los Angeles Clippers",
-        "Los Angeles Lakers roster rebuild around Luka Dončić",
-        "Ongoing Surfline API outage impacts surfers"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Sources: Rui Hachimura, Clippers agree to 2-year, $28M deal"
       ]
     }
   ]
