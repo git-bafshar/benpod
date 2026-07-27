@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-07-27",
+      "summary": "This episode explores major developments across the tech landscape, highlighting Ilya Sutskever's new Nvidia-backed rival to OpenAI, Anthropic's enterprise expansion, and massive seed funding for physical AI robotics. It also covers key sports updates regarding the San Francisco 49ers' pre-season setbacks and breaks down a geopolitical analysis of Iran's fortified islands in the Persian Gulf. Finally, the discussion touches on AI lobbying efforts, an NFC-based app blocker, and Minecraft's rising hardware requirements.",
+      "keyTopics": [
+        "Safe Superintelligence partners with Nvidia for GPU scaling",
+        "Anthropic expands enterprise Claude integration partnership with Cognizant",
+        "Physical AI startup Enigma raises 70 million seed round",
+        "AI companies record Washington lobbying spending on regulations",
+        "49ers coach Kyle Shanahan injured ahead of training camp",
+        "Iran military fortification of strategic Persian Gulf islands",
+        "Minecraft Java Edition increases recommended RAM requirement to 16GB"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Los Angeles Angels at San Francisco Giants",
+        "ESPN 49ers News::49ers: Kyle Shanahan injured in a car accident",
+        "ESPN 49ers News::49ers: 49ers GM Lynch focused on 'players that are here,' not WR Aiyuk",
+        "ESPN 49ers News::49ers: 49ers' Kyle Shanahan to be limited in camp after car crash",
+        "Foreign Policy - Iran::Iran’s Arsenal Starts With Its Islands",
+        "Foreign Policy - Iran::How a U.S. Ground Operation in Iran Could Unfold"
+      ]
+    },
+    {
       "date": "2026-07-24",
       "summary": "Unpack the potential geopolitical fallout following claimed military attacks on critical Amazon Web Services infrastructure in the Middle East. Discover how the AI battle is shifting to the desktop as OpenAI and Anthropic launch advanced voice assistants, while AMD takes aim at Nvidia's hardware dominance. Plus, explore the complicated world of AI security, from guardrails hampering ethical hackers to new automated defenses fighting AI-driven phishing attacks.",
       "keyTopics": [
@@ -219,25 +240,6 @@
         "Foreign Policy - Iran::The Ankara Summit Declaration",
         "Foreign Policy - Iran::The Global Energy Map Is Being Redrawn in Real Time",
         "Foreign Policy - Iran::Iran Is Still Fighting a War Against Dissidents Abroad"
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "summary": "Discover how artificial intelligence is rapidly moving from theory to reality, exploring its deployment on the battlefields of Ukraine, its role in defending against sophisticated phone scams, and the truth behind a headline-grabbing \"AI-run\" cyberattack. This episode also dives into the financial side of the tech boom with SK Hynix's upcoming IPO and the global demand for AI hardware. Finally, stay up to speed on the latest sports drama, including Brandon Aiyuk’s escalating contract standoff and a looming roster deadline for the Golden State Warriors.",
-      "keyTopics": [
-        "Forterra deploys autonomous ATVs in Ukraine conflict zones",
-        "Alberta government uses Anthropic Claude for cybersecurity",
-        "Savi raises seven million for anti-AI scam app",
-        "Clarification on first human-directed AI ransomware attack",
-        "SK Hynix planning multi-billion-dollar US IPO",
-        "Brandon Aiyuk contract negotiations with San Francisco 49ers",
-        "Golden State Warriors deadline to match Quinten Post offer"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Sources: Warriors' Post signing offer sheet with Grizzlies",
-        "ESPN 49ers News::49ers: Brandon Aiyuk blames ex-agent as push to leaves 49ers continues",
-        "ESPN 49ers News::49ers: Fowler: Brandon Aiyuk is lighting money on fire with every Instagram video",
-        "Foreign Policy - Iran::What to Expect at the 2026 NATO Summit"
       ]
     }
   ]
