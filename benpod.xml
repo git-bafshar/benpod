@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-28</title>
+      <description>Dive into the shifting landscape of artificial intelligence, covering Anthropic&apos;s stance on open-source safety risks, massive cloud compute costs for startups, Microsoft&apos;s advice on avoiding single-vendor lock-in, and the rapid growth of specialized voice-cloning tools. Plus, get the latest sports updates on a San Francisco Giants shutout victory alongside the 49ers&apos; ongoing contract holdout drama. Finally, examine developing geopolitical tensions as Donald Trump and Benjamin Netanyahu reportedly clash over military strategy toward Iran.</description>
+      <pubDate>Tue, 28 Jul 2026 10:23:47 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-28-102347.mp3" length="4905984" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-28-102347.mp3</guid>
+      <itunes:duration>307</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-27</title>
       <description>This episode explores major developments across the tech landscape, highlighting Ilya Sutskever&apos;s new Nvidia-backed rival to OpenAI, Anthropic&apos;s enterprise expansion, and massive seed funding for physical AI robotics. It also covers key sports updates regarding the San Francisco 49ers&apos; pre-season setbacks and breaks down a geopolitical analysis of Iran&apos;s fortified islands in the Persian Gulf. Finally, the discussion touches on AI lobbying efforts, an NFC-based app blocker, and Minecraft&apos;s rising hardware requirements.</description>
       <pubDate>Mon, 27 Jul 2026 10:44:07 GMT</pubDate>
