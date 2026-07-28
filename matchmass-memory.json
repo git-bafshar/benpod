@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-28",
+      "summary": "This episode explores how the explosive energy demands of AI are pushing the U.S. power grid to its limits, forcing utility operators to consider power rationing for data centers despite massive, multi-million-dollar compute investments. It also breaks down the escalating policy debate surrounding open-source AI safety risks, alongside a brief update on the World Cup tournament.",
+      "keyTopics": [
+        "PJM Interconnection considering data center power cuts",
+        "Recursive Superintelligence signs $410M AWS compute deal",
+        "Fish Audio raises $52M seed round for voice AI",
+        "Anthropic CEO Dario Amodei stance on open-weight AI models",
+        "FIFA World Cup schedule pause ahead of quarterfinals",
+        "Ongoing Surfline API outage in Santa Barbara County"
+      ]
+    },
+    {
       "date": "2026-07-27",
       "summary": "This episode breaks down the seismic shift in professional basketball as LeBron James officially departs the Los Angeles Lakers for the Philadelphia 76ers, forcing a major franchise pivot in LA. Meanwhile, artificial intelligence continues to redefine the digital landscape, highlighted by Google’s rapidly expanding AI search summaries and a landmark computing partnership between Safe Superintelligence and Nvidia. The conversation wraps up with a look at the growing energy demands of tech infrastructure, AI lobbying efforts in Washington, and regional updates.",
       "keyTopics": [
@@ -187,20 +199,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Austin Reaves shares text to LeBron after hearing he was leaving Lakers"
-      ]
-    },
-    {
-      "date": "2026-07-08",
-      "summary": "Explore the high-stakes world of artificial intelligence as this episode breaks down SambaNova’s massive one-billion-dollar funding round alongside a major security flaw discovered in GitHub's Copilot. Then, shift gears to sports with an inside look at the Los Angeles Lakers' aggressive roster rebuild and the escalating drama of the World Cup knockout rounds. Finally, get a quick update on a persistent local tech outage keeping surfers in the dark.",
-      "keyTopics": [
-        "SambaNova eleven billion dollar valuation funding round",
-        "GitHub Copilot Workspace GitLost prompt injection vulnerability",
-        "Los Angeles Lakers sign Kevon Looney to contract",
-        "Lakers pursue trade for Warriors forward Jonathan Kuminga",
-        "Ongoing Surfline API outage in Santa Barbara County"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Lakers land center Looney; in pursuit of Kuminga, sources say"
       ]
     }
   ]
