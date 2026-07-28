@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-28</title>
+      <description>This episode explores the fallout from Anthropic’s recent data privacy leak and turbulent product launch, as well as Microsoft&apos;s strategic warning for businesses to adopt multi-model AI strategies. It also covers major industry shifts, including Google&apos;s redesign of its iconic search box into an AI-first interface and a startup&apos;s massive $410 million compute deal with AWS. Finally, the discussion examines local Florida updates regarding a proposed &quot;hurricane hardening tax&quot; and the ongoing stalemate in the real estate market.</description>
+      <pubDate>Tue, 28 Jul 2026 09:29:49 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-28-092949.mp3" length="4964352" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-28-092949.mp3</guid>
+      <itunes:duration>310</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-27</title>
       <description>Discover the latest high-stakes developments in tech, starting with a groundbreaking autonomous AI cyberattack against OpenAI and the turbulent rollout of Anthropic&apos;s new Claude Opus 5 model. This episode also explores how artificial intelligence is driving corporate workforce shifts, fueling the search for training data, and revolutionizing robotics control, concluding with a quick update on the current real estate market stalemate.</description>
       <pubDate>Mon, 27 Jul 2026 10:10:07 GMT</pubDate>
