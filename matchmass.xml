@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-28</title>
+      <description>This episode explores how the explosive energy demands of AI are pushing the U.S. power grid to its limits, forcing utility operators to consider power rationing for data centers despite massive, multi-million-dollar compute investments. It also breaks down the escalating policy debate surrounding open-source AI safety risks, alongside a brief update on the World Cup tournament.</description>
+      <pubDate>Tue, 28 Jul 2026 09:08:28 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-28-090828.mp3" length="3711744" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-28-090828.mp3</guid>
+      <itunes:duration>232</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-27</title>
       <description>This episode breaks down the seismic shift in professional basketball as LeBron James officially departs the Los Angeles Lakers for the Philadelphia 76ers, forcing a major franchise pivot in LA. Meanwhile, artificial intelligence continues to redefine the digital landscape, highlighted by Google’s rapidly expanding AI search summaries and a landmark computing partnership between Safe Superintelligence and Nvidia. The conversation wraps up with a look at the growing energy demands of tech infrastructure, AI lobbying efforts in Washington, and regional updates.</description>
       <pubDate>Mon, 27 Jul 2026 09:27:10 GMT</pubDate>
