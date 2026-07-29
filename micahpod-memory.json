@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-29",
+      "summary": "This episode explores a major shift in the tech landscape as industry leaders call to decelerate the AI race following recent security threats. We dive into the booming AI cybersecurity market—highlighting billion-dollar acquisitions, bot-detection tools, and alarming new risks like self-propagating AI worms embedded in everyday documents. Plus, get quick updates on high-profile startup legal drama over alleged tech theft and the continuing stalemate in the Sun Belt housing market.",
+      "keyTopics": [
+        "Sam Altman calls for slowing AI development after security incident",
+        "Cyera acquires Oasis Security for $1B to protect AI agents",
+        "AI worms self-propagating through Microsoft Copilot for Word",
+        "Spur Intelligence raises $200M for AI bot detection",
+        "Pangram raises $9M for AI content detection software",
+        "Runlayer sues Rippling over alleged stolen product idea",
+        "Sun Belt housing market enters ongoing summer stalemate"
+      ]
+    },
+    {
       "date": "2026-07-28",
       "summary": "This episode explores the fallout from Anthropic’s recent data privacy leak and turbulent product launch, as well as Microsoft's strategic warning for businesses to adopt multi-model AI strategies. It also covers major industry shifts, including Google's redesign of its iconic search box into an AI-first interface and a startup's massive $410 million compute deal with AWS. Finally, the discussion examines local Florida updates regarding a proposed \"hurricane hardening tax\" and the ongoing stalemate in the real estate market.",
       "keyTopics": [
@@ -167,19 +180,6 @@
         "OpenAI shuts down Atlas browser for desktop integration",
         "Ben Bernanke joins Anthropic Long-Term Benefit Trust",
         "Lyzr raises one hundred million dollars using AI agents"
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "summary": "In this episode, explore the rapidly evolving world of AI, from Ollama’s massive open-source funding round to Character.AI’s interactive new \"microdramas\" and Google's latest battle against political deepfakes. Discover how the FTC's landmark \"right to repair\" settlement with John Deere could reshape consumer device ownership forever. Finally, get a quick update on the fiercely competitive summer housing market.",
-      "keyTopics": [
-        "Ollama raises sixty-five million dollars led by Benchmark",
-        "Microsoft Flint visualization language for AI agents",
-        "FableCut browser-based video editor operated by AI",
-        "Character.AI interactive microdramas and character chat",
-        "Google deepfake detection system debunks fake Mitch McConnell image",
-        "FTC right to repair settlement with John Deere",
-        "Low housing inventory drives competitive summer real estate market"
       ]
     }
   ]
