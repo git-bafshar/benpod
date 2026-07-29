@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-29</title>
+      <description>This episode explores a major shift in the tech landscape as industry leaders call to decelerate the AI race following recent security threats. We dive into the booming AI cybersecurity market—highlighting billion-dollar acquisitions, bot-detection tools, and alarming new risks like self-propagating AI worms embedded in everyday documents. Plus, get quick updates on high-profile startup legal drama over alleged tech theft and the continuing stalemate in the Sun Belt housing market.</description>
+      <pubDate>Wed, 29 Jul 2026 09:44:47 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-29-094447.mp3" length="3948480" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-29-094447.mp3</guid>
+      <itunes:duration>247</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-28</title>
       <description>This episode explores the fallout from Anthropic’s recent data privacy leak and turbulent product launch, as well as Microsoft&apos;s strategic warning for businesses to adopt multi-model AI strategies. It also covers major industry shifts, including Google&apos;s redesign of its iconic search box into an AI-first interface and a startup&apos;s massive $410 million compute deal with AWS. Finally, the discussion examines local Florida updates regarding a proposed &quot;hurricane hardening tax&quot; and the ongoing stalemate in the real estate market.</description>
       <pubDate>Tue, 28 Jul 2026 09:29:49 GMT</pubDate>
