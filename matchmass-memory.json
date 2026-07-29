@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-07-29",
+      "summary": "Explore the rapidly evolving AI landscape, from Martha Stewart’s new home-assistant startup to the high-stakes race for AI detection and cybersecurity against emerging digital threats. In sports news, break down the Los Angeles Lakers’ initial strategic moves as they target key veterans and young talent to navigate the post-LeBron James era. Plus, get a quick update on the World Cup quarterfinals alongside a lighthearted tech outage affecting local surf reports.",
+      "keyTopics": [
+        "Martha Stewart co-founding home management AI startup Hint",
+        "Pangram $9M funding for AI content detection software",
+        "Spur Intelligence $200M raise for bot traffic detection",
+        "Cyera $1B acquisition of Oasis Security for AI agents",
+        "Document-borne AI worm threats in Microsoft Copilot for Word",
+        "Lakers targeting DeMar DeRozan, Klay Thompson, and Jonathan Kuminga",
+        "Ongoing Surfline API outage affecting Santa Barbara surf reports"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Shams: DeRozan, Thompson and Kuminga names to watch in the post-LeBron market"
+      ]
+    },
+    {
       "date": "2026-07-28",
       "summary": "This episode explores how the explosive energy demands of AI are pushing the U.S. power grid to its limits, forcing utility operators to consider power rationing for data centers despite massive, multi-million-dollar compute investments. It also breaks down the escalating policy debate surrounding open-source AI safety risks, alongside a brief update on the World Cup tournament.",
       "keyTopics": [
@@ -184,21 +200,6 @@
         "Lyzr raises 100 million dollar round using AI agent",
         "2026 FIFA World Cup quarterfinals knockout stage",
         "Ongoing Surfline API outage in Santa Barbara"
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "summary": "Explore the staggering scale of the AI boom with a look at historic tech valuations and a landmark FTC \"right to repair\" victory for farmers. In sports, the episode unpacks the emotional transition of the post-LeBron Lakers and previews the high-stakes drama of the FIFA World Cup knockout rounds. Plus, find out why a lingering local tech outage is forcing Southern California surfers to check the waves the old-fashioned way.",
-      "keyTopics": [
-        "Anthropic OpenAI and SpaceX IPO valuation analysis",
-        "Anthropic Claude Reflect dashboard productivity feature",
-        "Ollama raises sixty-five million dollars for local AI",
-        "FTC John Deere right to repair software settlement",
-        "Lakers transition to Luka Dončić after LeBron James departure",
-        "Ongoing Surfline API outage in Santa Barbara"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Austin Reaves shares text to LeBron after hearing he was leaving Lakers"
       ]
     }
   ]
