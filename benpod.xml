@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-29</title>
+      <description>Explore major global developments as direct military strikes flare up between the U.S. and Iran, alongside alarming cybersecurity news regarding self-propagating AI worms targeting Microsoft Word. Plus, get the latest on high-stakes political shakeups in Chicago, shifting national real estate trends, and key sports updates across the Bay Area.</description>
+      <pubDate>Wed, 29 Jul 2026 10:09:50 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-29-100950.mp3" length="4737984" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-29-100950.mp3</guid>
+      <itunes:duration>296</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-28</title>
       <description>Dive into the shifting landscape of artificial intelligence, covering Anthropic&apos;s stance on open-source safety risks, massive cloud compute costs for startups, Microsoft&apos;s advice on avoiding single-vendor lock-in, and the rapid growth of specialized voice-cloning tools. Plus, get the latest sports updates on a San Francisco Giants shutout victory alongside the 49ers&apos; ongoing contract holdout drama. Finally, examine developing geopolitical tensions as Donald Trump and Benjamin Netanyahu reportedly clash over military strategy toward Iran.</description>
       <pubDate>Tue, 28 Jul 2026 10:23:47 GMT</pubDate>
