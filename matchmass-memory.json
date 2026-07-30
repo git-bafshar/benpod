@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-30",
+      "summary": "This episode dives into the stark realities of the AI boom, exploring how a critical shortage of specialized engineers and failures in basic cybersecurity fundamentals are creating unexpected bottlenecks for tech implementation. The discussion also touches on major industry moves like Nscale acquiring Anyscale, the high-stakes kickoff of the World Cup quarterfinals, and a surprisingly persistent local surf report outage.",
+      "keyTopics": [
+        "US AI talent shortage of forward-deployed engineers",
+        "Hugging Face breach and traditional cybersecurity failures",
+        "Mark Zuckerberg on Meta AI consumer app development",
+        "Nscale acquisition of AI workload startup Anyscale",
+        "2026 World Cup tournament quarterfinal matchups",
+        "Santa Barbara ongoing Surfline API outage"
+      ]
+    },
+    {
       "date": "2026-07-29",
       "summary": "Explore the rapidly evolving AI landscape, from Martha Stewart’s new home-assistant startup to the high-stakes race for AI detection and cybersecurity against emerging digital threats. In sports news, break down the Los Angeles Lakers’ initial strategic moves as they target key veterans and young talent to navigate the post-LeBron James era. Plus, get a quick update on the World Cup quarterfinals alongside a lighthearted tech outage affecting local surf reports.",
       "keyTopics": [
@@ -187,19 +199,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Rich Paul on LeBron's next team: 'He's not chasing a ring'"
-      ]
-    },
-    {
-      "date": "2026-07-10",
-      "summary": "Dive into a massive wave of tech news as OpenAI launches its GPT-5.6 model amid major executive shake-ups, and discover how one bold startup used its own AI agent to secure a $100 million funding round. Plus, get ready for the high-stakes drama of the upcoming FIFA World Cup quarterfinals. The episode wraps up with a look at how a prolonged Surfline outage is forcing local surfers to check the waves the old-fashioned way.",
-      "keyTopics": [
-        "OpenAI launches GPT-5.6 flagship model",
-        "GPT-5.6 preferred model for Microsoft Copilot 365",
-        "OpenAI Chief Operating Officer Fidji Simo steps down",
-        "OpenAI shuts down Atlas browser for strategic agent pivot",
-        "Lyzr raises 100 million dollar round using AI agent",
-        "2026 FIFA World Cup quarterfinals knockout stage",
-        "Ongoing Surfline API outage in Santa Barbara"
       ]
     }
   ]
