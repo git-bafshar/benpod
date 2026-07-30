@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-07-30",
+      "summary": "This episode covers critical global and tech developments, beginning with the expanding U.S.-Iran military conflict and new joint strikes in Iraq. It delves into the AI industry's severe talent shortage of specialized integration engineers, as well as Microsoft's high-stakes strategic shift to compete directly against its own partners. Additional topics include essential cybersecurity lessons from the Hugging Face breach, fresh venture funding for AI infrastructure compliance, and concerning training camp injury news for the San Francisco 49ers.",
+      "keyTopics": [
+        "US-Saudi joint strikes on Iran-backed militias in Iraq",
+        "Critical shortage of enterprise AI forward-deployed engineers",
+        "Microsoft competes directly against OpenAI with homegrown AI models",
+        "Hugging Face breach highlights traditional cybersecurity failures",
+        "Dili raises $21.7 million Series A led by Khosla Ventures",
+        "San Francisco 49ers rookie Ricky Pearsall knee injury concerns"
+      ],
+      "articles": [
+        "ESPN 49ers News::49ers: 49ers have 'concern' over Pearsall's latest knee flare-up",
+        "Foreign Policy - Iran::U.S.-Saudi Strikes Add a New Front to the Iran War",
+        "Foreign Policy - Iran::How to End the Iran War"
+      ]
+    },
+    {
       "date": "2026-07-29",
       "summary": "Explore major global developments as direct military strikes flare up between the U.S. and Iran, alongside alarming cybersecurity news regarding self-propagating AI worms targeting Microsoft Word. Plus, get the latest on high-stakes political shakeups in Chicago, shifting national real estate trends, and key sports updates across the Bay Area.",
       "keyTopics": [
@@ -227,25 +244,6 @@
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis",
         "Foreign Policy - Iran::U.S.-Iran Talks May Continue, but the Cease-Fire Is Over"
-      ]
-    },
-    {
-      "date": "2026-07-10",
-      "summary": "Explore a turbulent day in tech as OpenAI navigates a major executive departure alongside a new model launch, while rival Anthropic makes a high-profile play for credibility. This episode also breaks down the escalating military tensions between the U.S. and Iran in the Strait of Hormuz, as well as the latest sports buzz surrounding Steph Curry’s comments on teaming up with LeBron James. Finally, discover how autonomous AI agents are redefining everything from venture capital fundraising to software development.",
-      "keyTopics": [
-        "OpenAI GPT-5.6 release and Microsoft Copilot integration",
-        "OpenAI Chief Operating Officer Fidji Simo steps down",
-        "OpenAI shuts down Atlas AI-powered web browser",
-        "Anthropic appoints former Fed Chair Ben Bernanke to trust",
-        "Escalating US-Iran conflict threatens Strait of Hormuz oil",
-        "Steph Curry hints at future partnership with LeBron James",
-        "Lyzr raises $100M using autonomous AI fundraising agent"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Colorado Rockies at San Francisco Giants",
-        "ESPN Warriors News::Warriors: Steph Curry acknowledges appeal of playing with LeBron James",
-        "Foreign Policy - Iran::NATO’s Waiting Game",
-        "Foreign Policy - Iran::U.S., Iran Return to the Brink of All-Out War"
       ]
     }
   ]
