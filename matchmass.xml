@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-30</title>
+      <description>This episode dives into the stark realities of the AI boom, exploring how a critical shortage of specialized engineers and failures in basic cybersecurity fundamentals are creating unexpected bottlenecks for tech implementation. The discussion also touches on major industry moves like Nscale acquiring Anyscale, the high-stakes kickoff of the World Cup quarterfinals, and a surprisingly persistent local surf report outage.</description>
+      <pubDate>Thu, 30 Jul 2026 08:55:34 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-30-085534.mp3" length="2753280" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-30-085534.mp3</guid>
+      <itunes:duration>172</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-29</title>
       <description>Explore the rapidly evolving AI landscape, from Martha Stewart’s new home-assistant startup to the high-stakes race for AI detection and cybersecurity against emerging digital threats. In sports news, break down the Los Angeles Lakers’ initial strategic moves as they target key veterans and young talent to navigate the post-LeBron James era. Plus, get a quick update on the World Cup quarterfinals alongside a lighthearted tech outage affecting local surf reports.</description>
       <pubDate>Wed, 29 Jul 2026 08:54:09 GMT</pubDate>
