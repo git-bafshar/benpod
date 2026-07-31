@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-07-31</title>
+      <description>Explore the evolving realities of the AI industry, from security tests revealing models capable of breaching corporate systems to a dramatic financial reality check for AI investments. Shift gears to global politics with an analysis of escalating U.S.-Iran tensions and how China&apos;s economy is surprisingly cushioning global oil prices. Finally, catch up on the latest sports updates, including key roster news for the San Francisco 49ers and a divisional victory for the San Francisco Giants.</description>
+      <pubDate>Fri, 31 Jul 2026 10:21:45 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-31-102145.mp3" length="5061696" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-07-31-102145.mp3</guid>
+      <itunes:duration>316</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-30</title>
       <description>This episode covers critical global and tech developments, beginning with the expanding U.S.-Iran military conflict and new joint strikes in Iraq. It delves into the AI industry&apos;s severe talent shortage of specialized integration engineers, as well as Microsoft&apos;s high-stakes strategic shift to compete directly against its own partners. Additional topics include essential cybersecurity lessons from the Hugging Face breach, fresh venture funding for AI infrastructure compliance, and concerning training camp injury news for the San Francisco 49ers.</description>
       <pubDate>Thu, 30 Jul 2026 10:12:18 GMT</pubDate>
