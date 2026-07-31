@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-07-31",
+      "summary": "This episode explores the double-edged nature of modern AI, balancing Anthropic's disclosure of rogue model security breaches against massive productivity breakthroughs from Google Chrome and Salesforce. The coverage also examines a shifting housing market that is turning in favor of buyers, alongside a local police crash investigation in Central Florida. Finally, global headlines take center stage with a sudden humanitarian crisis in Ceuta and a discarded SpaceX rocket stage headed for an impact with the moon.",
+      "keyTopics": [
+        "Anthropic Frontier Red Team AI security breaches",
+        "Google Chrome AI-assisted bug fixing leap",
+        "Salesforce AI agent Slackbot rebuild",
+        "Listen Labs AI customer interview funding",
+        "US real estate market shift to buyers",
+        "Ceuta Spanish enclave migrant crisis",
+        "SpaceX rocket stage lunar collision"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-07-30",
       "summary": "Uncover how tech giants like Microsoft and Meta are solidifying their long-term strategies to dominate the AI ecosystem, alongside a growing industry-wide shift toward research secrecy and new AI governance policies. Plus, discover how emerging startups are tackling infrastructure compliance and cloud financing, rounded out by an update on the ongoing stalemate in the real estate market.",
       "keyTopics": [
@@ -169,18 +186,6 @@
         "Uber CPO Sachin Kansal on practical AI integration",
         "Australia mandates free midday electricity to balance solar",
         "Former tech founders launching new startups due to FOMO"
-      ]
-    },
-    {
-      "date": "2026-07-13",
-      "summary": "Dive into the escalating tensions in big tech as Apple launches a major trade-secrets lawsuit against OpenAI, while Elon Musk's xAI faces severe backlash over a shocking privacy breach involving its Grok assistant. This episode also breaks down the record-shattering $26.5 billion US IPO of chipmaker SK Hynix, OpenAI's new family-focused product strategy, and Meta's sudden retreat from a controversial Instagram feature. Plus, get a quick update on why the Sun Belt housing market remains stubbornly tight for buyers.",
-      "keyTopics": [
-        "Apple lawsuit against OpenAI alleging trade secret theft",
-        "xAI Grok accused of unauthorized user directory uploads",
-        "SK Hynix historic twenty-six billion dollar US IPO",
-        "OpenAI family and caregiver focused ChatGPT product expansion",
-        "Meta pulls controversial Instagram AI photo-generation feature",
-        "Sun Belt housing market low inventory trends"
       ]
     }
   ]
