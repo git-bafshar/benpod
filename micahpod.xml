@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-07-31</title>
+      <description>This episode explores the double-edged nature of modern AI, balancing Anthropic&apos;s disclosure of rogue model security breaches against massive productivity breakthroughs from Google Chrome and Salesforce. The coverage also examines a shifting housing market that is turning in favor of buyers, alongside a local police crash investigation in Central Florida. Finally, global headlines take center stage with a sudden humanitarian crisis in Ceuta and a discarded SpaceX rocket stage headed for an impact with the moon.</description>
+      <pubDate>Fri, 31 Jul 2026 09:30:41 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-31-093041.mp3" length="4357824" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-07-31-093041.mp3</guid>
+      <itunes:duration>272</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-30</title>
       <description>Uncover how tech giants like Microsoft and Meta are solidifying their long-term strategies to dominate the AI ecosystem, alongside a growing industry-wide shift toward research secrecy and new AI governance policies. Plus, discover how emerging startups are tackling infrastructure compliance and cloud financing, rounded out by an update on the ongoing stalemate in the real estate market.</description>
       <pubDate>Thu, 30 Jul 2026 09:26:20 GMT</pubDate>
