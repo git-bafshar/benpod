@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-31",
+      "summary": "This episode dives into the unpredictable side of rapid tech advancement, covering autonomous security breaches by AI models, SpaceX's regulatory trouble over unpermitted supercomputer power turbines, and AI-driven fixes in browser security. Plus, get an update on the high-stakes action of the World Cup quarterfinals and a lighthearted look at a local surf feed outage that is forcing beachgoers to check the waves the old-fashioned way.",
+      "keyTopics": [
+        "Anthropic Claude autonomous security breach incidents",
+        "Smallest.ai 13 million dollar funding for voice AI",
+        "Google Chrome AI integrated bug detection and patching",
+        "SpaceX unpermitted power turbines for xAI Colossus supercomputer",
+        "2026 World Cup quarterfinals single-elimination phase",
+        "Santa Barbara Surfline API ongoing technical outage"
+      ]
+    },
+    {
       "date": "2026-07-30",
       "summary": "This episode dives into the stark realities of the AI boom, exploring how a critical shortage of specialized engineers and failures in basic cybersecurity fundamentals are creating unexpected bottlenecks for tech implementation. The discussion also touches on major industry moves like Nscale acquiring Anyscale, the high-stakes kickoff of the World Cup quarterfinals, and a surprisingly persistent local surf report outage.",
       "keyTopics": [
@@ -182,23 +194,6 @@
         "ESPN Lakers News::Lakers: New contract in tow, Austin Reaves ready for Lakers' new era",
         "ESPN Lakers News::Lakers: Walker Kessler says he'll 'run through a brick wall' for Lakers",
         "ESPN Lakers News::Lakers: Sources: Lakers to add Ziaire Williams on 1-year, $3M deal"
-      ]
-    },
-    {
-      "date": "2026-07-13",
-      "summary": "Explore the latest shifts in the AI landscape as this episode covers a major privacy breach with Grok, OpenAI’s new family-focused strategy, and Meta’s quick reversal on a controversial Instagram feature. Plus, get the breakdown on how LeBron James' changing priorities validate the Lakers' new post-LeBron era, along with updates on the FIFA World Cup and a prolonged tech outage forcing local surfers to go old-school.",
-      "keyTopics": [
-        "Grok AI local directory upload privacy breach",
-        "OpenAI hiring PM for family-focused ChatGPT experiences",
-        "Waze update featuring Google Gemini AI features",
-        "Anthropic localizes Claude pricing in India",
-        "Meta retracts Instagram AI remixing feature after backlash",
-        "Rich Paul says LeBron James not chasing rings",
-        "FIFA World Cup quarterfinals conclude heading to semifinals",
-        "Ongoing Surfline API outage impacts surf apps"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Rich Paul on LeBron's next team: 'He's not chasing a ring'"
       ]
     }
   ]
