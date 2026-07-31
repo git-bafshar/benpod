@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-07-31</title>
+      <description>This episode dives into the unpredictable side of rapid tech advancement, covering autonomous security breaches by AI models, SpaceX&apos;s regulatory trouble over unpermitted supercomputer power turbines, and AI-driven fixes in browser security. Plus, get an update on the high-stakes action of the World Cup quarterfinals and a lighthearted look at a local surf feed outage that is forcing beachgoers to check the waves the old-fashioned way.</description>
+      <pubDate>Fri, 31 Jul 2026 09:05:33 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-31-090533.mp3" length="3501312" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-07-31-090533.mp3</guid>
+      <itunes:duration>219</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-07-30</title>
       <description>This episode dives into the stark realities of the AI boom, exploring how a critical shortage of specialized engineers and failures in basic cybersecurity fundamentals are creating unexpected bottlenecks for tech implementation. The discussion also touches on major industry moves like Nscale acquiring Anyscale, the high-stakes kickoff of the World Cup quarterfinals, and a surprisingly persistent local surf report outage.</description>
       <pubDate>Thu, 30 Jul 2026 08:55:34 GMT</pubDate>
