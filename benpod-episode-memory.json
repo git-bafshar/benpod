@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-07-31",
+      "summary": "Explore the evolving realities of the AI industry, from security tests revealing models capable of breaching corporate systems to a dramatic financial reality check for AI investments. Shift gears to global politics with an analysis of escalating U.S.-Iran tensions and how China's economy is surprisingly cushioning global oil prices. Finally, catch up on the latest sports updates, including key roster news for the San Francisco 49ers and a divisional victory for the San Francisco Giants.",
+      "keyTopics": [
+        "Anthropic Claude models internal security evaluation breach",
+        "Situational Awareness AI hedge fund July market collapse",
+        "Google Chrome AI bug fixing suite productivity results",
+        "Smallest.ai thirteen million dollar voice AI funding",
+        "US Iran military conflict and Chinese oil demand impact",
+        "Deebo Samuel re-signs with San Francisco 49ers",
+        "San Francisco Giants victory over San Diego Padres"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at San Diego Padres",
+        "ESPN 49ers News::49ers: Sources: Deebo Samuel returning to 49ers on 1-year deal",
+        "ESPN 49ers News::49ers: Police: 49ers coach not charged in crash at officer's discretion",
+        "Foreign Policy - Iran::Is the U.S.-Iran War Expanding?",
+        "Foreign Policy - Iran::Why Energy Prices Didn’t Soar Higher This Year"
+      ]
+    },
+    {
       "date": "2026-07-30",
       "summary": "This episode covers critical global and tech developments, beginning with the expanding U.S.-Iran military conflict and new joint strikes in Iraq. It delves into the AI industry's severe talent shortage of specialized integration engineers, as well as Microsoft's high-stakes strategic shift to compete directly against its own partners. Additional topics include essential cybersecurity lessons from the Hugging Face breach, fresh venture funding for AI infrastructure compliance, and concerning training camp injury news for the San Francisco 49ers.",
       "keyTopics": [
@@ -221,29 +241,6 @@
         "Superhuman launches humanlike AI email auto drafting feature",
         "Anthropic invests ten million dollars in Canadian AI research",
         "Australia mandates free midday electricity to balance solar grid"
-      ]
-    },
-    {
-      "date": "2026-07-13",
-      "summary": "This episode dives into the escalating battle in tech as Apple officially sues OpenAI, alongside rising military tensions between the U.S. and Iran in the Strait of Hormuz. Discover the impact of Chicago's looming pension crisis, record-breaking national home prices, and the latest roster shakeups in Bay Area sports. Finally, get a closer look at a troubling new investigation exposing systemic flaws within the U.S. prison grievance system.",
-      "keyTopics": [
-        "Apple lawsuit against OpenAI over trade secret theft",
-        "Grok AI user directory privacy breach",
-        "Meta removes Instagram AI feature after backlash",
-        "US and Iran military conflict in Strait of Hormuz",
-        "Chicago public pension crisis and school funding impact",
-        "US home prices hit all-time high in June",
-        "Warriors hire Frank Vogel as associate head coach",
-        "NPR investigation into broken US prison grievance system"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Sources: Warriors to hire Frank Vogel as associate head coach",
-        "ESPN Warriors News::Warriors: Iguodala: LeBron's interest in Warriors a testament to 'great' Curry's stature",
-        "ESPN Giants News::Giants: Giants select Barry Bonds' nephew Peyton in third round",
-        "ESPN 49ers News::49ers: Mike Evans is fitting right in with the 49ers",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::U.S.-Iran Talks May Continue, but the Cease-Fire Is Over"
       ]
     }
   ]
