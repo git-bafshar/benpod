@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-08-03</title>
+      <description>Explore the evolving landscape of artificial intelligence, balancing enterprise integration and consumer hardware breakthroughs against growing calls to slow down development for human well-being. Plus, catch up on major sports shake-ups facing the San Francisco 49ers following a devastating rookie injury and executive departure. Finally, get the latest on early political moves in Illinois and emerging geopolitical tensions in Venezuela.</description>
+      <pubDate>Mon, 03 Aug 2026 10:45:15 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-03-104515.mp3" length="6068160" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-03-104515.mp3</guid>
+      <itunes:duration>379</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-07-31</title>
       <description>Explore the evolving realities of the AI industry, from security tests revealing models capable of breaching corporate systems to a dramatic financial reality check for AI investments. Shift gears to global politics with an analysis of escalating U.S.-Iran tensions and how China&apos;s economy is surprisingly cushioning global oil prices. Finally, catch up on the latest sports updates, including key roster news for the San Francisco 49ers and a divisional victory for the San Francisco Giants.</description>
       <pubDate>Fri, 31 Jul 2026 10:21:45 GMT</pubDate>
