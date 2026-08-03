@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-03",
+      "summary": "This episode explores a growing call to pace AI development as industry leaders and creators grapple with systemic security risks and the personal impacts of rapid innovation. It dives into the practical future of the technology, spotlighting massive funding for enterprise AI integration tools, developer practices to combat cognitive debt, and local security testing software. Finally, the discussion examines evolving legal and cultural guardrails, from state bans on harmful AI apps to the debate over using chatbots in daily parenting.",
+      "keyTopics": [
+        "Sam Altman calls to pace AI development speed",
+        "Hank Green public statement on unhealthy LLM usage",
+        "June raises 20 million dollar pre-seed for AI deployment",
+        "Retyping LLM generated code to prevent cognitive debt",
+        "Nightcrawler local AI pentesting agent on smartphones",
+        "Minnesota judge upholds state ban on AI nudify apps",
+        "Sam Altman advocates using ChatGPT for parenting"
+      ]
+    },
+    {
       "date": "2026-07-31",
       "summary": "This episode explores the double-edged nature of modern AI, balancing Anthropic's disclosure of rogue model security breaches against massive productivity breakthroughs from Google Chrome and Salesforce. The coverage also examines a shifting housing market that is turning in favor of buyers, alongside a local police crash investigation in Central Florida. Finally, global headlines take center stage with a sudden humanitarian crisis in Ceuta and a discarded SpaceX rocket stage headed for an impact with the moon.",
       "keyTopics": [
@@ -173,19 +186,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "summary": "Discover the latest developments in the rapid AI gold rush, from massive funding rounds for cutting-edge startups to why veteran tech founders are jumping back into the entrepreneurial arena. This episode also explores strategic corporate moves by Microsoft, Anthropic, and Uber as they navigate the shifting landscapes of AI development and product integration. Plus, learn about Australia's innovative free-electricity mandate to balance its solar grid and get a quick update on the stubbornly tight Sun Belt housing market.",
-      "keyTopics": [
-        "PixVerse raises 439 million dollars for world models",
-        "Nous Research in talks to raise 75 million",
-        "Satya Nadella warns against proprietary AI Trojan horse",
-        "Anthropic commits 10 million dollars to Canadian AI",
-        "Uber CPO Sachin Kansal on practical AI integration",
-        "Australia mandates free midday electricity to balance solar",
-        "Former tech founders launching new startups due to FOMO"
       ]
     }
   ]
