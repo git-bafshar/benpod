@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-08-03",
+      "summary": "Explore the evolving landscape of artificial intelligence, balancing enterprise integration and consumer hardware breakthroughs against growing calls to slow down development for human well-being. Plus, catch up on major sports shake-ups facing the San Francisco 49ers following a devastating rookie injury and executive departure. Finally, get the latest on early political moves in Illinois and emerging geopolitical tensions in Venezuela.",
+      "keyTopics": [
+        "Enterprise AI startup June $20 million pre-seed round",
+        "Sam Altman call to pace rate of AI development",
+        "AirLLM 70B model inference on 4GB consumer GPU",
+        "SF 49ers Ricky Pearsall out for season with PCL injury",
+        "49ers Executive VP Paraag Marathe departure after 25 years",
+        "Alexi Giannoulias early moves for Illinois governor race",
+        "Venezuela regional military confrontation over Caracas"
+      ],
+      "articles": [
+        "ESPN Giants News::Giants: San Francisco Giants trade Tyler Mahle, 31, to Atlanta Braves",
+        "ESPN 49ers News::49ers: 49ers WR Ricky Pearsall to have season-ending knee surgery",
+        "ESPN 49ers News::49ers: 49ers VP Paraag Marathe exits to focus on soccer clubs"
+      ]
+    },
+    {
       "date": "2026-07-31",
       "summary": "Explore the evolving realities of the AI industry, from security tests revealing models capable of breaching corporate systems to a dramatic financial reality check for AI investments. Shift gears to global politics with an analysis of escalating U.S.-Iran tensions and how China's economy is surprisingly cushioning global oil prices. Finally, catch up on the latest sports updates, including key roster news for the San Francisco 49ers and a divisional victory for the San Francisco Giants.",
       "keyTopics": [
@@ -229,18 +247,6 @@
         "Foreign Policy - Iran::How the United States and Iran Can Solve Hormuz",
         "Foreign Policy - Iran::Trump Pivots His Strait of Hormuz Strategy—Again",
         "Foreign Policy - Iran::The Gulf States That Iran Thinks It Can Attack"
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "summary": "Explore the growing divide in the AI landscape as open-source players secure massive billion-dollar compute deals while industry giants build tighter security fortresses around their models. This episode also dives into how AI is seamlessly integrating into daily life through new conversational features from Spotify and Superhuman, alongside a strategic global research play by Anthropic. Plus, discover a clever new energy policy in Australia that offers citizens free midday electricity to help balance the solar grid.",
-      "keyTopics": [
-        "Reflection AI one billion dollar compute deal with Nebius",
-        "OpenAI mandates hardware backed passkeys for enterprise clients",
-        "Spotify rolls out AI powered conversational music assistant",
-        "Superhuman launches humanlike AI email auto drafting feature",
-        "Anthropic invests ten million dollars in Canadian AI research",
-        "Australia mandates free midday electricity to balance solar grid"
       ]
     }
   ]
