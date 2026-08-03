@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-03</title>
+      <description>This episode explores a growing call to pace AI development as industry leaders and creators grapple with systemic security risks and the personal impacts of rapid innovation. It dives into the practical future of the technology, spotlighting massive funding for enterprise AI integration tools, developer practices to combat cognitive debt, and local security testing software. Finally, the discussion examines evolving legal and cultural guardrails, from state bans on harmful AI apps to the debate over using chatbots in daily parenting.</description>
+      <pubDate>Mon, 03 Aug 2026 10:14:57 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-03-101457.mp3" length="4609536" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-03-101457.mp3</guid>
+      <itunes:duration>288</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-07-31</title>
       <description>This episode explores the double-edged nature of modern AI, balancing Anthropic&apos;s disclosure of rogue model security breaches against massive productivity breakthroughs from Google Chrome and Salesforce. The coverage also examines a shifting housing market that is turning in favor of buyers, alongside a local police crash investigation in Central Florida. Finally, global headlines take center stage with a sudden humanitarian crisis in Ceuta and a discarded SpaceX rocket stage headed for an impact with the moon.</description>
       <pubDate>Fri, 31 Jul 2026 09:30:41 GMT</pubDate>
