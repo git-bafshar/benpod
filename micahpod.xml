@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-04</title>
+      <description>Explore the growing philosophical rifts in the AI industry alongside radical new concepts in technology infrastructure, from portable data center pods to orbital laser networks. Learn how startups are attempting to infuse human &quot;taste&quot; and accessible &quot;vibe-coding&quot; into modern models while the housing market remains locked in a summer stalemate. Finally, discover how Ray Bradbury’s classic sci-fi story—set on August 4, 2026—serves as a haunting cautionary tale about the dangers of automation without human purpose.</description>
+      <pubDate>Tue, 04 Aug 2026 09:46:45 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-04-094645.mp3" length="4293696" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-04-094645.mp3</guid>
+      <itunes:duration>268</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-03</title>
       <description>This episode explores a growing call to pace AI development as industry leaders and creators grapple with systemic security risks and the personal impacts of rapid innovation. It dives into the practical future of the technology, spotlighting massive funding for enterprise AI integration tools, developer practices to combat cognitive debt, and local security testing software. Finally, the discussion examines evolving legal and cultural guardrails, from state bans on harmful AI apps to the debate over using chatbots in daily parenting.</description>
       <pubDate>Mon, 03 Aug 2026 10:14:57 GMT</pubDate>
