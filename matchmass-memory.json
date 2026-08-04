@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-08-04",
+      "summary": "A major NBA era comes to a close as LeBron James officially leaves the Lakers for the 76ers, forcing Los Angeles into a full-scale rebuild. Meanwhile, the fast-growing AI boom hits an infrastructure wall as Texas pauses new data center developments to protect its power grid amid rising legal battles and new AI-powered music tools. Plus, take a look at the chilling real-world timing of Ray Bradbury’s classic automation story set on this exact date in 2026.",
+      "keyTopics": [
+        "LeBron James signs with Philadelphia 76ers ending Lakers era",
+        "Texas Governor Greg Abbott halts new AI data center construction",
+        "Runware launches modular Sonic Inference Pod data center solution",
+        "Apple expands trade secret investigation into former employees at OpenAI",
+        "Spotify partners with Merlin for AI-generated music remixes",
+        "Ray Bradbury sci-fi story 'There Will Come Soft Rains' anniversary"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: LeBron James signs with the 76ers: Grade, reaction, winners"
+      ]
+    },
+    {
       "date": "2026-08-03",
       "summary": "This episode explores the central tension in artificial intelligence, contrasting calls from tech leaders and creators to slow down with the aggressive venture capital funding driving rapid adoption. From psychological reflections on AI addiction to legal battles over harmful applications, the conversation highlights the real-world impacts of technology on society. Plus, get quick updates on the Lakers' offseason, the upcoming World Cup final, and a surprisingly persistent surf forecast outage.",
       "keyTopics": [
@@ -173,21 +188,6 @@
         "OpenAI ChatGPT branded basketball marketing campaign",
         "World Cup international soccer semifinals",
         "Ongoing Surfline API outage in Santa Barbara"
-      ]
-    },
-    {
-      "date": "2026-07-15",
-      "summary": "Explore the rapidly shifting AI landscape, from Apple's strategic partnership with Alibaba in China to Anthropic’s new venture aimed at helping enterprises successfully deploy technology. Plus, catch up on a fiery on-court clash between the Lakers and Clippers, the high-stakes World Cup semifinals, and a prolonged surf report outage that is forcing local surfers back to basics.",
-      "keyTopics": [
-        "Apple partners with Alibaba for Apple Intelligence in China",
-        "Anthropic and Blackstone launch Ode AI consulting venture",
-        "OpenAI loses trademark dispute in European Union court",
-        "Heated on-court altercation between Lakers and Clippers",
-        "World Cup tournament advances to the semifinal stage",
-        "Ongoing Surfline API outage disrupts regional surf reports"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Scuffle breaks out between Clippers, Lakers after flagrant foul"
       ]
     }
   ]
