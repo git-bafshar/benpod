@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-08-04",
+      "summary": "This episode dives into the escalating artificial intelligence landscape, highlighting Apple's legal actions against OpenAI, fiery comments from Palantir's CEO, and new hardware developments in portable data centers and space-laser communications. Beyond tech, the briefing covers stalled U.S.-Iran diplomatic negotiations, mounting wide receiver injury troubles for the San Francisco 49ers, and recent trade deadline moves by the San Francisco Giants. The discussion concludes with a look at Ray Bradbury’s classic short story \"There Will Come Soft Rains,\" offering a timely reflection on automation on the exact date in which the story is set.",
+      "keyTopics": [
+        "Apple trade secrets investigation into former employees joining OpenAI",
+        "Palantir CEO Alex Karp attacks AI frontier labs during earnings",
+        "Runware unveils Sonic Inference Pod modular data center",
+        "Endeavour Optical Networks plans space laser internet backbone",
+        "Iran denies active peace negotiations following canceled US strikes",
+        "San Francisco 49ers wide receiver injuries and roster turmoil",
+        "San Francisco Giants trade Robbie Ray to Padres"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Texas Rangers",
+        "ESPN Giants News::Giants: Yankees acquire left fielder Heliot Ramos, 26, from Giants",
+        "ESPN Giants News::Giants: Padres get Robbie Ray, Casey Mize in trades with Giants, Tigers",
+        "ESPN 49ers News::49ers: Mike Evans joins list of injured 49ers WRs",
+        "ESPN 49ers News::49ers: Deebo Samuel on reunion with 49ers: 'Just matter of time'",
+        "Foreign Policy - Iran::Iran Denies Peace Talks After the United States Cancels Military Strikes",
+        "Foreign Policy - Iran::A Saudi-Emirati Thaw Can Help Contain Iran"
+      ]
+    },
+    {
       "date": "2026-08-03",
       "summary": "Explore the evolving landscape of artificial intelligence, balancing enterprise integration and consumer hardware breakthroughs against growing calls to slow down development for human well-being. Plus, catch up on major sports shake-ups facing the San Francisco 49ers following a devastating rookie injury and executive departure. Finally, get the latest on early political moves in Illinois and emerging geopolitical tensions in Venezuela.",
       "keyTopics": [
@@ -228,25 +250,6 @@
         "Applied Computing raises Series A for industrial AI models",
         "Y Combinator founders migrating to OpenAI and Anthropic",
         "UK teenage hackers jailed for Transport for London cyber-attack"
-      ]
-    },
-    {
-      "date": "2026-07-15",
-      "summary": "Dive into the evolving tech landscape as the AI industry shifts its focus—and major funding—from building models to the critical challenge of real-world integration. This episode also breaks down a historic $9.6 billion NFL franchise sale that is redrawing division battle lines, alongside shifting geopolitical strategies in the Strait of Hormuz. Finally, explore the growing threat of AI voice cloning and take a nostalgic look back at the iconic computer systems of *Jurassic Park*.",
-      "keyTopics": [
-        "Anthropic and Blackstone back AI integration startup Ode",
-        "Railway raises one hundred million for AI-native cloud infrastructure",
-        "Indian AI coding startup Emergent achieves unicorn status",
-        "Vint Cerf proposes digital passport standards for AI agents",
-        "Strait of Hormuz conflict shifts toward economic shipping tolls",
-        "Vinod Khosla group buys Seattle Seahawks for record price",
-        "Rise of AI voice cloning fraud rendering authentication obsolete"
-      ],
-      "articles": [
-        "ESPN 49ers News::49ers: Khosla-led group agrees to buy Seahawks; sources say $9.6 billion",
-        "Foreign Policy - Iran::How the United States and Iran Can Solve Hormuz",
-        "Foreign Policy - Iran::Trump Pivots His Strait of Hormuz Strategy—Again",
-        "Foreign Policy - Iran::The Gulf States That Iran Thinks It Can Attack"
       ]
     }
   ]
