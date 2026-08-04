@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-04",
+      "summary": "Explore the growing philosophical rifts in the AI industry alongside radical new concepts in technology infrastructure, from portable data center pods to orbital laser networks. Learn how startups are attempting to infuse human \"taste\" and accessible \"vibe-coding\" into modern models while the housing market remains locked in a summer stalemate. Finally, discover how Ray Bradbury’s classic sci-fi story—set on August 4, 2026—serves as a haunting cautionary tale about the dangers of automation without human purpose.",
+      "keyTopics": [
+        "Palantir CEO Alex Karp criticizes frontier AI labs",
+        "Runware announces Sonic Inference Pod modular data centers",
+        "EON satellite space laser communications network",
+        "US housing market summer stalemate and inventory gridlock",
+        "Design Arena raises 8 million to evaluate AI output taste",
+        "AWS partners with Superblocks for enterprise vibe coding",
+        "Ray Bradbury story August 4 2026 warns on automation"
+      ]
+    },
+    {
       "date": "2026-08-03",
       "summary": "This episode explores a growing call to pace AI development as industry leaders and creators grapple with systemic security risks and the personal impacts of rapid innovation. It dives into the practical future of the technology, spotlighting massive funding for enterprise AI integration tools, developer practices to combat cognitive debt, and local security testing software. Finally, the discussion examines evolving legal and cultural guardrails, from state bans on harmful AI apps to the debate over using chatbots in daily parenting.",
       "keyTopics": [
@@ -169,23 +182,6 @@
         "VentureBeat report on enterprise AI agent deployment challenges",
         "SpaceX stock price declines below initial IPO price",
         "Sun Belt real estate market low inventory trends"
-      ]
-    },
-    {
-      "date": "2026-07-15",
-      "summary": "Explore the rapid evolution of artificial intelligence as it shifts from simple chatbots to autonomous agentic workflows, fueled by a massive wave of specialized industry funding. Plus, learn about downtown Orlando's transition to a fully digital parking system and how climate change is directly reshaping real estate decisions and listing data. Finally, get the latest updates on falling mortgage rates and tropical weather tracking in the Atlantic.",
-      "keyTopics": [
-        "AI coding startup Emergent hits unicorn status",
-        "Former OpenAI researcher Miles Wang drug discovery startup",
-        "Vint Cerf internet standards for AI agents",
-        "Anthropic Claude for Teachers product launch",
-        "Orlando physical parking meter removal transition",
-        "Real estate listing sites climate data integration",
-        "Todd Blanche Senate confirmation hearing"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
