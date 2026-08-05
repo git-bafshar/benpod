@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-05</title>
+      <description>This episode breaks down Anthropic’s massive $10 billion cloud deal and key policy hire alongside new safety warnings regarding the rapid rise of open-source AI models. Discover how practical AI is advancing through private on-device desktop tools and high-altitude weather balloons. Plus, get quick updates on SpaceX&apos;s integration with Tesla, TIME Magazine’s novel AI scraping strategy, and the lingering housing market gridlock.</description>
+      <pubDate>Wed, 05 Aug 2026 09:42:14 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-05-094214.mp3" length="4887744" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-05-094214.mp3</guid>
+      <itunes:duration>305</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-04</title>
       <description>Explore the growing philosophical rifts in the AI industry alongside radical new concepts in technology infrastructure, from portable data center pods to orbital laser networks. Learn how startups are attempting to infuse human &quot;taste&quot; and accessible &quot;vibe-coding&quot; into modern models while the housing market remains locked in a summer stalemate. Finally, discover how Ray Bradbury’s classic sci-fi story—set on August 4, 2026—serves as a haunting cautionary tale about the dangers of automation without human purpose.</description>
       <pubDate>Tue, 04 Aug 2026 09:46:45 GMT</pubDate>
