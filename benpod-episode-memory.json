@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-05",
+      "summary": "Delve into AI’s major shift toward custom chip design and high-stakes global policy, alongside practical applications like AI-powered weather forecasting and local, on-device processing. The episode also examines the growing industry debate surrounding Silicon Valley's AI hype, followed by brief updates on geopolitical tensions with Iran and recent Bay Area sports headlines.",
+      "keyTopics": [
+        "Anthropic custom AI chip design team",
+        "Mariano-Florentino Cuéllar joins Anthropic as Chief Global Affairs Officer",
+        "WindBorne Systems Series B for AI weather forecasting",
+        "MacPaw and Liquid AI local on-device AI assistant",
+        "US and Iran geopolitical tension and diplomatic standoff",
+        "San Francisco 49ers injuries and Paraag Marathe departure",
+        "San Francisco Giants trade pitcher Robbie Ray to Padres"
+      ]
+    },
+    {
       "date": "2026-08-04",
       "summary": "This episode dives into the escalating artificial intelligence landscape, highlighting Apple's legal actions against OpenAI, fiery comments from Palantir's CEO, and new hardware developments in portable data centers and space-laser communications. Beyond tech, the briefing covers stalled U.S.-Iran diplomatic negotiations, mounting wide receiver injury troubles for the San Francisco 49ers, and recent trade deadline moves by the San Francisco Giants. The discussion concludes with a look at Ray Bradbury’s classic short story \"There Will Come Soft Rains,\" offering a timely reflection on automation on the exact date in which the story is set.",
       "keyTopics": [
@@ -238,18 +251,6 @@
         "Google Vids personalized AI avatar feature release",
         "Roblox Build feature launches text-to-game generation on mobile",
         "DoorDash releases dd-cli command-line tool for AI agents"
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "summary": "This episode explores the shifting dynamics of the global AI race, highlighting Apple’s strategic partnership with Alibaba and Baidu to launch Apple Intelligence in China, alongside growing commercial competition between Microsoft and its partner OpenAI. It also dives into the rise of highly specialized industrial AI models and China's massive new open-source contender, Kimi 3. Finally, a look at a live-streamed transit attack by teenage hackers in the UK serves as a sobering reminder of everyday cybersecurity vulnerabilities.",
-      "keyTopics": [
-        "Apple launches Apple Intelligence in China with Alibaba and Baidu",
-        "Microsoft trains sales teams to pitch in-house AI models",
-        "Moonshot Kimi 3 open AI model release",
-        "Applied Computing raises Series A for industrial AI models",
-        "Y Combinator founders migrating to OpenAI and Anthropic",
-        "UK teenage hackers jailed for Transport for London cyber-attack"
       ]
     }
   ]
