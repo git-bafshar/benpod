@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-05",
+      "summary": "This episode breaks down Anthropic’s massive $10 billion cloud deal and key policy hire alongside new safety warnings regarding the rapid rise of open-source AI models. Discover how practical AI is advancing through private on-device desktop tools and high-altitude weather balloons. Plus, get quick updates on SpaceX's integration with Tesla, TIME Magazine’s novel AI scraping strategy, and the lingering housing market gridlock.",
+      "keyTopics": [
+        "Anthropic $10 billion Volta AI cloud infrastructure deal",
+        "Mariano-Florentino Cuéllar joins Anthropic as Chief Global Affairs Officer",
+        "SaferAI report warns on Z.ai GLM-5.2 open-weight model safety",
+        "MacPaw and Liquid AI on-device Mac AI assistant Eney",
+        "WindBorne Systems $37M Series B for AI weather forecasting balloons",
+        "SpaceX buys $330 million of Tesla Megapacks for power infrastructure",
+        "TIME Magazine monetizes AI scraping with text-embedded ads"
+      ]
+    },
+    {
       "date": "2026-08-04",
       "summary": "Explore the growing philosophical rifts in the AI industry alongside radical new concepts in technology infrastructure, from portable data center pods to orbital laser networks. Learn how startups are attempting to infuse human \"taste\" and accessible \"vibe-coding\" into modern models while the housing market remains locked in a summer stalemate. Finally, discover how Ray Bradbury’s classic sci-fi story—set on August 4, 2026—serves as a haunting cautionary tale about the dangers of automation without human purpose.",
       "keyTopics": [
@@ -170,18 +183,6 @@
         "DoorDash dd-cli command-line interface for AI agents",
         "Four-hundred million dollar financing shift toward inference chips",
         "Sun Belt real estate low inventory market stagnation"
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "summary": "This episode dives into the escalating competition in the tech world as Microsoft begins actively competing against its own AI partners, while OpenAI makes a surprise move into physical hardware. Plus, learn why enterprise AI agents are facing a major reality check and what SpaceX's recent stock slip means for the future of commercial space flight. Finally, get a quick update on the stubbornly tight summer housing market and what it means for buyers and sellers.",
-      "keyTopics": [
-        "Microsoft training sales teams to compete with OpenAI",
-        "OpenAI release of Codex coding agent hardware keyboard",
-        "Thinking Machines launch of Inkling open-source AI model",
-        "VentureBeat report on enterprise AI agent deployment challenges",
-        "SpaceX stock price declines below initial IPO price",
-        "Sun Belt real estate market low inventory trends"
       ]
     }
   ]
