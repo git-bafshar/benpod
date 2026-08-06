@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-06</title>
+      <description>This episode explores the massive capital flooding into AI infrastructure alongside the rise of personal, action-oriented AI agents in everyday apps like Google Maps. It also examines pressing legal and safety challenges, including watermarking battles over AI-generated music and sobering research on human error in automation supervision. Finally, catch up on key tech developments, from leadership shakeups at Google DeepMind to multi-million-dollar funding rounds shaping enterprise AI.</description>
+      <pubDate>Thu, 06 Aug 2026 09:40:37 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-06-094037.mp3" length="4351296" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-06-094037.mp3</guid>
+      <itunes:duration>272</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-05</title>
       <description>This episode breaks down Anthropic’s massive $10 billion cloud deal and key policy hire alongside new safety warnings regarding the rapid rise of open-source AI models. Discover how practical AI is advancing through private on-device desktop tools and high-altitude weather balloons. Plus, get quick updates on SpaceX&apos;s integration with Tesla, TIME Magazine’s novel AI scraping strategy, and the lingering housing market gridlock.</description>
       <pubDate>Wed, 05 Aug 2026 09:42:14 GMT</pubDate>
