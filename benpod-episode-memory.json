@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-08-06",
+      "summary": "This episode dives into major tech headlines, including executive shakeups at Google DeepMind and escalating legal battles between Apple and OpenAI. It also explores pressing political and economic news, from rising gas prices and housing market trends to proposed federal deregulations and historic global health milestones in Asia. Finally, get the latest sports update on a key contract renewal keeping a championship NBA core together for another run.",
+      "keyTopics": [
+        "Google DeepMind leadership shakeup and Jeff Dean departure",
+        "OpenAI legal defense against Apple trade secret theft lawsuit",
+        "Mirendil hundred million dollar cloud deal with Google Cloud",
+        "Governor JB Pritzker demand for oil company windfall refunds",
+        "Cambodia early achievement of UN 2030 HIV treatment targets",
+        "US housing market slowdown and falling pending home sales",
+        "Draymond Green one year contract extension with Warriors"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Draymond Green returns to Warriors on 1-year, $27.7M deal",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-08-05",
       "summary": "Delve into AI’s major shift toward custom chip design and high-stakes global policy, alongside practical applications like AI-powered weather forecasting and local, on-device processing. The episode also examines the growing industry debate surrounding Silicon Valley's AI hype, followed by brief updates on geopolitical tensions with Iran and recent Bay Area sports headlines.",
       "keyTopics": [
@@ -239,18 +257,6 @@
         "Foreign Policy - Iran::U.S., Iranian Forces Target Civilian Infrastructure",
         "Foreign Policy - Iran::How to Isolate Tehran",
         "Foreign Policy - Iran::The America First Contradiction"
-      ]
-    },
-    {
-      "date": "2026-07-17",
-      "summary": "Dive into the major reality check currently facing the enterprise AI boom, where companies are grappling with significant security risks, runaway costs, and reliability gaps while rushing to deploy autonomous agents. This episode also breaks down the escalating legal battle between Apple and OpenAI over poached talent, as well as exciting new consumer tools from Google, Roblox, and DoorDash that are redefining digital creation and automation.",
-      "keyTopics": [
-        "Enterprise AI agent security and evaluation gaps",
-        "$400 million chip-backed loan for AI inference",
-        "Apple targets former employees at OpenAI with legal letters",
-        "Google Vids personalized AI avatar feature release",
-        "Roblox Build feature launches text-to-game generation on mobile",
-        "DoorDash releases dd-cli command-line tool for AI agents"
       ]
     }
   ]
