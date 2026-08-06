@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-06",
+      "summary": "This episode explores the massive capital flooding into AI infrastructure alongside the rise of personal, action-oriented AI agents in everyday apps like Google Maps. It also examines pressing legal and safety challenges, including watermarking battles over AI-generated music and sobering research on human error in automation supervision. Finally, catch up on key tech developments, from leadership shakeups at Google DeepMind to multi-million-dollar funding rounds shaping enterprise AI.",
+      "keyTopics": [
+        "Mirendil $100M Google Cloud deal for self-improving AI",
+        "Railway $100M Series B for AI cloud infrastructure",
+        "Google Maps rollout of agentic action features",
+        "Suno audio watermarking response to music copyright lawsuits",
+        "AI agent human supervision study revealing automation bias",
+        "Google DeepMind leadership changes and Jeff Dean departure",
+        "Omilia $67 million funding round for customer support AI"
+      ]
+    },
+    {
       "date": "2026-08-05",
       "summary": "This episode breaks down Anthropic’s massive $10 billion cloud deal and key policy hire alongside new safety warnings regarding the rapid rise of open-source AI models. Discover how practical AI is advancing through private on-device desktop tools and high-altitude weather balloons. Plus, get quick updates on SpaceX's integration with Tesla, TIME Magazine’s novel AI scraping strategy, and the lingering housing market gridlock.",
       "keyTopics": [
@@ -170,19 +183,6 @@
         "Apple trade secrets lawsuit impacts OpenAI hardware plans",
         "Surge in e-bike injuries raises micro-mobility safety concerns",
         "Summer real estate market gridlock driven by low inventory"
-      ]
-    },
-    {
-      "date": "2026-07-17",
-      "summary": "Get a sobering reality check on enterprise AI as a major new report exposes critical security and performance gaps in business deployments. This episode also dives into the escalating legal feud between Apple and OpenAI, Google's latest feature rollouts, and DoorDash’s new command-line tool built specifically for AI agents. Finally, discover why massive new funding deals are shifting focus toward AI inference chips to power the future of day-to-day tech operations.",
-      "keyTopics": [
-        "VentureBeat report on enterprise AI security and agentic gaps",
-        "Apple legal letters targeting former employees at OpenAI",
-        "Google Vids personalized AI avatars with Gemini Omni",
-        "Google AI Mode integration with third-party device apps",
-        "DoorDash dd-cli command-line interface for AI agents",
-        "Four-hundred million dollar financing shift toward inference chips",
-        "Sun Belt real estate low inventory market stagnation"
       ]
     }
   ]
