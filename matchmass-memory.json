@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-08-06",
+      "summary": "From OpenAI’s aggressive push into free features and smart hardware to a sobering study on the fallibility of human AI oversight, this episode breaks down the biggest shifts in technology. Discover how innovative startups are leveraging AI to automate business creation and reinvent modern dating apps. Plus, get the latest on the tension surrounding the Lakers' front office following LeBron James' departure and a look at ongoing tech outages.",
+      "keyTopics": [
+        "OpenAI ChatGPT unlimited free text chats release",
+        "OpenAI smart speaker hardware leaks",
+        "Study on human supervisor failure in AI safety",
+        "OpenAI legal strategy in Apple trade secrets lawsuit",
+        "Naïve $28.5M funding for vibe-coding business automation",
+        "AI matchmaking dating apps for Gen Z",
+        "Los Angeles Lakers roster strategy post-LeBron James",
+        "Ongoing Surfline API outage and GitHub Actions downtime"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Luka Doncic's ex-fiancée withdraws child support petition"
+      ]
+    },
+    {
       "date": "2026-08-05",
       "summary": "Explore the evolving AI ecosystem as top developers venture into custom chip design to cut costs and publishers like TIME Magazine begin monetizing AI web scrapers. Plus, learn how AI-driven search is unexpectedly boosting sales for e-commerce businesses, along with updates on the Lakers' high-stakes rebuild and a long-running local tech outage.",
       "keyTopics": [
@@ -172,22 +189,6 @@
       "articles": [
         "ESPN Lakers News::Lakers: McMenamin: Austin Reaves' pay cut gives Lakers financial flexibility",
         "ESPN Lakers News::Lakers: LeBron, still mum on decision, riles up fans with 76ers mantra"
-      ]
-    },
-    {
-      "date": "2026-07-17",
-      "summary": "Explore the escalating AI talent wars as Apple targets OpenAI employees with legal warnings, alongside a reality check on the security and cost challenges of corporate AI adoption. This episode also highlights new consumer-facing AI features from Google and Roblox, plus the latest sports buzz surrounding LeBron James's free agency and the World Cup semifinals.",
-      "keyTopics": [
-        "Apple legal letters target OpenAI employees over trade secrets",
-        "VentureBeat report highlights critical gaps in enterprise AI adoption",
-        "Google Vids adds personalized AI avatar creation tool",
-        "Google app AI Mode updated to perform agentic tasks",
-        "Roblox launches text-prompt game creation tool for mobile",
-        "LeBron James centers free agency decision around having fun",
-        "Surfline API outage leaves surfers without digital reports"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: LeBron James not ready to reveal next team, but it will be 'fun'"
       ]
     }
   ]
