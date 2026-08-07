@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-08-07",
+      "summary": "This episode explores major developments across technology and accountability, including Meta's nearly $1 billion fine over child safety and Anthropic's new biology safeguards for future AI models. It highlights real-world AI applications—from DeepMind’s cyclone forecasting and emergency call triage to OpenAI's latest product updates and hardware rumors. Finally, the coverage wraps up with a look at an AI back-office automation startup and the ongoing gridlock in the housing market.",
+      "keyTopics": [
+        "Meta fined $942 million in New Mexico child safety case",
+        "Anthropic details biology safeguards to mitigate bio-risk misuse",
+        "Google DeepMind announces WeatherNext AI model for cyclone forecasting",
+        "New Orleans tests Carbyne AI-powered 911 emergency call triage",
+        "OpenAI removes ChatGPT message caps for free tier users",
+        "Rumored OpenAI smart speaker targeted at $300 to $400 price",
+        "AI back-office startup Naïve raises $28.5 million",
+        "US housing market gridlock caused by mortgage rate lock-in"
+      ]
+    },
+    {
       "date": "2026-08-06",
       "summary": "This episode explores the massive capital flooding into AI infrastructure alongside the rise of personal, action-oriented AI agents in everyday apps like Google Maps. It also examines pressing legal and safety challenges, including watermarking battles over AI-generated music and sobering research on human error in automation supervision. Finally, catch up on key tech developments, from leadership shakeups at Google DeepMind to multi-million-dollar funding rounds shaping enterprise AI.",
       "keyTopics": [
@@ -171,18 +185,6 @@
         "Leadership turnover at Center for AI Standards and Innovation",
         "Impact of AI agents on engineering team sizing",
         "Orlando and Sun Belt housing market summer stalemate"
-      ]
-    },
-    {
-      "date": "2026-07-20",
-      "summary": "Discover how a cheap $25 AI query exposed a major WordPress software flaw, completely shifting the economics of global cybersecurity. This episode also explores NVIDIA's strategic expansion in Japan, the escalating legal battle between Apple and OpenAI, and why prominent figures are warning against AI's \"Trojan horse\" potential. Plus, get the latest on the rising safety concerns surrounding e-bikes and the factors driving the ongoing summer stalemate in the real estate market.",
-      "keyTopics": [
-        "WordPress Remote Code Execution vulnerability found using GPT-5.6",
-        "NVIDIA CEO Jensen Huang tech expansion deals in Japan",
-        "Christopher Nolan criticizes AI as a Trojan horse",
-        "Apple trade secrets lawsuit impacts OpenAI hardware plans",
-        "Surge in e-bike injuries raises micro-mobility safety concerns",
-        "Summer real estate market gridlock driven by low inventory"
       ]
     }
   ]
