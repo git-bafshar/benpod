@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-07</title>
+      <description>This episode explores major developments across technology and accountability, including Meta&apos;s nearly $1 billion fine over child safety and Anthropic&apos;s new biology safeguards for future AI models. It highlights real-world AI applications—from DeepMind’s cyclone forecasting and emergency call triage to OpenAI&apos;s latest product updates and hardware rumors. Finally, the coverage wraps up with a look at an AI back-office automation startup and the ongoing gridlock in the housing market.</description>
+      <pubDate>Fri, 07 Aug 2026 08:39:44 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-07-083944.mp3" length="3956352" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-07-083944.mp3</guid>
+      <itunes:duration>247</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-06</title>
       <description>This episode explores the massive capital flooding into AI infrastructure alongside the rise of personal, action-oriented AI agents in everyday apps like Google Maps. It also examines pressing legal and safety challenges, including watermarking battles over AI-generated music and sobering research on human error in automation supervision. Finally, catch up on key tech developments, from leadership shakeups at Google DeepMind to multi-million-dollar funding rounds shaping enterprise AI.</description>
       <pubDate>Thu, 06 Aug 2026 09:40:37 GMT</pubDate>
