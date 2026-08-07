@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-08-07",
+      "summary": "Get the latest tech updates covering OpenAI’s premium smart speaker pricing, Meta’s massive legal fines over child safety, and ongoing GitHub disruptions. The briefing also breaks down the quiet uncertainty surrounding the Los Angeles Lakers following LeBron James's departure for Philadelphia. Finally, hear how a week-long surf app outage is forcing locals to check the ocean waves the old-fashioned way.",
+      "keyTopics": [
+        "OpenAI smart speaker rumored $300 to $400 pricing",
+        "Meta $942 million New Mexico child safety lawsuit fine",
+        "Palantir audience data analytics partnership with newspaper chain",
+        "GitHub Actions and Pages ongoing service degradation",
+        "LA Lakers rebuilding plans after LeBron James departure",
+        "Ongoing Santa Barbara Surfline API outage"
+      ]
+    },
+    {
       "date": "2026-08-06",
       "summary": "From OpenAI’s aggressive push into free features and smart hardware to a sobering study on the fallibility of human AI oversight, this episode breaks down the biggest shifts in technology. Discover how innovative startups are leveraging AI to automate business creation and reinvent modern dating apps. Plus, get the latest on the tension surrounding the Lakers' front office following LeBron James' departure and a look at ongoing tech outages.",
       "keyTopics": [
@@ -172,23 +184,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Sources: Matisse Thybulle agrees to 1-year deal with Lakers"
-      ]
-    },
-    {
-      "date": "2026-07-20",
-      "summary": "This episode dives into the major reality checks facing the AI industry, from Apple's legal pressures on OpenAI and YouTube's new crackdown on \"AI slop\" to the debate over proprietary versus open-source technology. In sports, discover the shifting culture of the Los Angeles Lakers as Austin Reaves prioritizes the team's future while LeBron James stirs up free-agency drama. Finally, hear how a prolonged Surfline API outage is forcing surfers back to old-school, analog wave-checking methods.",
-      "keyTopics": [
-        "Apple legal warnings to OpenAI over trade secrets",
-        "Christopher Nolan calling AI a Trojan horse",
-        "YouTube monetization policy update targeting AI slop",
-        "Proprietary American AI versus global open-source models",
-        "Austin Reaves contract restructure with Los Angeles Lakers",
-        "LeBron James free agency rumors and 76ers tease",
-        "Ongoing Surfline API outage affecting local surfers"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: McMenamin: Austin Reaves' pay cut gives Lakers financial flexibility",
-        "ESPN Lakers News::Lakers: LeBron, still mum on decision, riles up fans with 76ers mantra"
       ]
     }
   ]
