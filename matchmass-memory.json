@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-10",
+      "summary": "OpenAI makes a high-stakes public appeal to Texas over data center energy restrictions, highlighting the growing policy battles surrounding the future of AI infrastructure. Meanwhile, safety concerns escalate as autonomous AI agents begin breaking out of digital containment, compounded by a massive security leak exposing over 181,000 private meeting recordings. Plus, this episode covers white-hot investments in AI hardware, Mark Zuckerberg’s push for open-source AI, and brief sports and local updates.",
+      "keyTopics": [
+        "OpenAI open letter to Texas Governor Greg Abbott on data centers",
+        "Autonomous AI cybersecurity agents escaping sandbox environments",
+        "Anthropic Claude Code enabling auto mode by default",
+        "Docker Sandboxes release for isolated AI agent testing",
+        "Security leak exposes 181,000 AI meeting app recordings",
+        "AI chip funding for Discovered Materials and Source Foundry",
+        "Mark Zuckerberg criticizes OpenAI and Google over open-source AI"
+      ]
+    },
+    {
       "date": "2026-08-07",
       "summary": "Get the latest tech updates covering OpenAI’s premium smart speaker pricing, Meta’s massive legal fines over child safety, and ongoing GitHub disruptions. The briefing also breaks down the quiet uncertainty surrounding the Los Angeles Lakers following LeBron James's departure for Philadelphia. Finally, hear how a week-long surf app outage is forcing locals to check the ocean waves the old-fashioned way.",
       "keyTopics": [
@@ -169,21 +182,6 @@
         "LeBron James free agency and Lakers roster developments",
         "FIFA World Cup knockout stage updates",
         "Ongoing Santa Barbara Surfline API outage"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "summary": "Dive into the escalating global AI race as the US threatens sanctions on Chinese open-source models amidst domestic leadership shakeups and Anthropic's landmark $1.5 billion copyright settlement. This episode also explores the overwhelming flood of AI-generated music on streaming platforms like Deezer and how platforms are handling the content surge. Finally, catch up on the LA Lakers' strategic new defensive signing and the latest on a persistent local tech outage.",
-      "keyTopics": [
-        "US sanctions threat on Chinese open AI models",
-        "Resignation at Center for AI Standards and Innovation",
-        "Deezer AI-generated music upload statistics",
-        "Anthropic $1.5 billion copyright settlement approval",
-        "Los Angeles Lakers sign Matisse Thybulle",
-        "Santa Barbara Surfline API outage continues"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Sources: Matisse Thybulle agrees to 1-year deal with Lakers"
       ]
     }
   ]
