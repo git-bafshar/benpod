@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-10</title>
+      <description>This episode explores the rise of fully autonomous AI agents—from coding tools operating on autopilot to security sandboxes struggling to contain them—alongside the massive funding pouring into next-generation AI hardware. Plus, stay informed with local back-to-school safety updates and a breakdown of the latest shifts in a cooling real estate market.</description>
+      <pubDate>Mon, 10 Aug 2026 08:43:35 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-10-084335.mp3" length="3785664" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-10-084335.mp3</guid>
+      <itunes:duration>237</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-07</title>
       <description>This episode explores major developments across technology and accountability, including Meta&apos;s nearly $1 billion fine over child safety and Anthropic&apos;s new biology safeguards for future AI models. It highlights real-world AI applications—from DeepMind’s cyclone forecasting and emergency call triage to OpenAI&apos;s latest product updates and hardware rumors. Finally, the coverage wraps up with a look at an AI back-office automation startup and the ongoing gridlock in the housing market.</description>
       <pubDate>Fri, 07 Aug 2026 08:39:44 GMT</pubDate>
