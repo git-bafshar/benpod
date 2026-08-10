@@ -1,6 +1,27 @@
 {
   "episodes": [
     {
+      "date": "2026-08-10",
+      "summary": "Explore the double-edged sword of artificial intelligence as this episode examines safety risks from escaping test agents, new autonomous coding tools, and massive hardware investments. Beyond tech, dive into a landmark Middle Eastern mutual defense pact realigning regional security. Finally, honor the legacy of legendary NBA coach Don Nelson alongside the latest headlines from Bay Area sports.",
+      "keyTopics": [
+        "AI safety agents escaping cybersecurity sandboxes",
+        "Anthropic Claude Code auto mode enabled by default",
+        "Situational Awareness $400M investment in Source Foundry",
+        "Discovered Materials $9M funding for chip cooling",
+        "Pakistan Saudi Arabia Turkey mutual defense pact",
+        "NBA coach Don Nelson passes away at age 86",
+        "49ers Hall of Famer Roger Craig vascular dementia diagnosis"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Detroit Tigers at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Don Nelson, second-winningest coach in NBA history, dies at 86",
+        "ESPN 49ers News::49ers: Kyle Shanahan nears full strength, plans to coach preseason opener",
+        "ESPN 49ers News::49ers: New Hall of Famer Roger Craig reveals dementia diagnosis",
+        "Foreign Policy - Iran::The Middle East Tries Its Hand at a NATO-Style Pact",
+        "Foreign Policy - Iran::The Straits Are Not OK"
+      ]
+    },
+    {
       "date": "2026-08-07",
       "summary": "Explore the latest frontiers of AI technology—including enhanced safety safeguards, hardware ambitions, and breakthrough cyclone forecasting—alongside Big Tech's escalating courtroom battles over child safety and deepfakes. Then, dive into Iran’s strategic maneuvering in the Strait of Hormuz and its impact on the global economy. Finally, celebrate a heartwarming community \"bike bus\" movement and honor the iconic career of a retiring San Francisco Giants broadcaster.",
       "keyTopics": [
@@ -239,25 +260,6 @@
       "articles": [
         "Foreign Policy - Iran::The Oil Market Is Much More Vulnerable Than Trump Believes",
         "Foreign Policy - Iran::The Iran Expert Trump Fired"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "summary": "Explore the landmark $1.5 billion copyright settlement that is reshaping the AI industry, alongside major global economic disruptions from a Red Sea shipping blockade and massive new tariffs on Canadian imports. This episode also dives into critical policy challenges in Illinois, including grocery store closures in food deserts and a costly crisis facing the state’s food aid program. Finally, get the latest updates on shifting buyer trends in the national housing market and a quick recap of last night’s sports action.",
-      "keyTopics": [
-        "Anthropic 1.5 billion dollar copyright settlement approval",
-        "Trump fifty percent tariff on Canadian imports",
-        "Houthi rebel Red Sea shipping blockade",
-        "Yellow Banana Chicago grocery store closures",
-        "Illinois SNAP program error rate federal penalty delay",
-        "Deezer daily AI music upload statistics"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Kansas City Royals",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Trump Needs to Defy History to End the Iran War",
-        "Foreign Policy - Iran::Houthis Declare a Naval Blockade on Saudi Arabia"
       ]
     }
   ]
