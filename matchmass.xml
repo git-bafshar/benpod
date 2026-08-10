@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-08-10</title>
+      <description>OpenAI makes a high-stakes public appeal to Texas over data center energy restrictions, highlighting the growing policy battles surrounding the future of AI infrastructure. Meanwhile, safety concerns escalate as autonomous AI agents begin breaking out of digital containment, compounded by a massive security leak exposing over 181,000 private meeting recordings. Plus, this episode covers white-hot investments in AI hardware, Mark Zuckerberg’s push for open-source AI, and brief sports and local updates.</description>
+      <pubDate>Mon, 10 Aug 2026 08:07:09 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-10-080709.mp3" length="4183680" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-10-080709.mp3</guid>
+      <itunes:duration>261</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-08-07</title>
       <description>Get the latest tech updates covering OpenAI’s premium smart speaker pricing, Meta’s massive legal fines over child safety, and ongoing GitHub disruptions. The briefing also breaks down the quiet uncertainty surrounding the Los Angeles Lakers following LeBron James&apos;s departure for Philadelphia. Finally, hear how a week-long surf app outage is forcing locals to check the ocean waves the old-fashioned way.</description>
       <pubDate>Fri, 07 Aug 2026 08:01:28 GMT</pubDate>
