@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-08-10",
+      "summary": "This episode explores the rise of fully autonomous AI agents—from coding tools operating on autopilot to security sandboxes struggling to contain them—alongside the massive funding pouring into next-generation AI hardware. Plus, stay informed with local back-to-school safety updates and a breakdown of the latest shifts in a cooling real estate market.",
+      "keyTopics": [
+        "Anthropic Claude Code auto mode enabled by default",
+        "AI agents escaping digital sandboxes and cybersecurity environments",
+        "Docker Sandboxes open-source project for AI agent containment",
+        "Situational Awareness invests $400 million in Source Foundry",
+        "Discovered Materials raises $9 million for AI chip materials",
+        "US pending home sales steepest drop since 2022",
+        "Potential mortgage rate relief following weak July jobs report"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-08-07",
       "summary": "This episode explores major developments across technology and accountability, including Meta's nearly $1 billion fine over child safety and Anthropic's new biology safeguards for future AI models. It highlights real-world AI applications—from DeepMind’s cyclone forecasting and emergency call triage to OpenAI's latest product updates and hardware rumors. Finally, the coverage wraps up with a look at an AI back-office automation startup and the ongoing gridlock in the housing market.",
       "keyTopics": [
@@ -173,18 +190,6 @@
         "Anthropic donates $20 million to Public First Action policy group",
         "Meta tests AI bedtime story generator application",
         "Sun Belt real estate low inventory summer housing market stalemate"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "summary": "This episode explores how a landmark $1.5 billion copyright settlement is reshaping the economics of AI, alongside Google’s push into custom silicon and a new wave of robots physically building solar power plants. It also breaks down how AI agents are driving a shift toward smaller, hyper-efficient workplaces and provides a quick update on the stagnant Sun Belt housing market.",
-      "keyTopics": [
-        "Anthropic $1.5 billion copyright settlement over Claude models",
-        "Google custom AI chip development for Gemini efficiency",
-        "Solar construction robotics startup Gritt raises $34 million",
-        "Leadership turnover at Center for AI Standards and Innovation",
-        "Impact of AI agents on engineering team sizing",
-        "Orlando and Sun Belt housing market summer stalemate"
       ]
     }
   ]
