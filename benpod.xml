@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-08-11</title>
+      <description>This episode dives into tech’s push for AI authenticity, featuring new transparency initiatives from Anthropic and Spotify alongside massive financial moves from OpenAI and Meta. It also explores high-stakes, real-world AI applications in emergency response and oil exploration, plus urban vertical farming concepts in vacant city skyscrapers. Finally, get the latest Bay Area sports updates with a major injury blow for the San Francisco Giants and a championship fan-favorite return for the Golden State Warriors.</description>
+      <pubDate>Tue, 11 Aug 2026 09:20:51 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-11-092051.mp3" length="5639808" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-11-092051.mp3</guid>
+      <itunes:duration>352</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-08-10</title>
       <description>Explore the double-edged sword of artificial intelligence as this episode examines safety risks from escaping test agents, new autonomous coding tools, and massive hardware investments. Beyond tech, dive into a landmark Middle Eastern mutual defense pact realigning regional security. Finally, honor the legacy of legendary NBA coach Don Nelson alongside the latest headlines from Bay Area sports.</description>
       <pubDate>Mon, 10 Aug 2026 09:20:58 GMT</pubDate>
