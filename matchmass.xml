@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-08-11</title>
+      <description>This episode explores the latest push for digital transparency, highlighting Spotify&apos;s new labels for synthetic music and Anthropic&apos;s text-watermarking initiatives. It also dives into the AI industry&apos;s ongoing ethical tug-of-war, analyzing OpenAI&apos;s new cybersecurity tools alongside the rumored departure of its head of ethics. Finally, discover why Meta&apos;s grand manifesto on &quot;personal superintelligence&quot; is facing sharp pushback over privacy concerns.</description>
+      <pubDate>Tue, 11 Aug 2026 08:06:09 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-11-080609.mp3" length="3830016" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-11-080609.mp3</guid>
+      <itunes:duration>239</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-08-10</title>
       <description>OpenAI makes a high-stakes public appeal to Texas over data center energy restrictions, highlighting the growing policy battles surrounding the future of AI infrastructure. Meanwhile, safety concerns escalate as autonomous AI agents begin breaking out of digital containment, compounded by a massive security leak exposing over 181,000 private meeting recordings. Plus, this episode covers white-hot investments in AI hardware, Mark Zuckerberg’s push for open-source AI, and brief sports and local updates.</description>
       <pubDate>Mon, 10 Aug 2026 08:07:09 GMT</pubDate>
