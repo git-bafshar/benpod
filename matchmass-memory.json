@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-08-11",
+      "summary": "This episode explores the latest push for digital transparency, highlighting Spotify's new labels for synthetic music and Anthropic's text-watermarking initiatives. It also dives into the AI industry's ongoing ethical tug-of-war, analyzing OpenAI's new cybersecurity tools alongside the rumored departure of its head of ethics. Finally, discover why Meta's grand manifesto on \"personal superintelligence\" is facing sharp pushback over privacy concerns.",
+      "keyTopics": [
+        "Spotify AI Persona labels and recommendation exclusions",
+        "Anthropic text watermarking for Claude AI models",
+        "OpenAI Daybreak cybersecurity AI model launch",
+        "Rumored departure of OpenAI Head of Ethics Chloé Bakalar",
+        "OpenAI seven billion dollar employee tender offer",
+        "Mark Zuckerberg personal superintelligence AI manifesto"
+      ]
+    },
+    {
       "date": "2026-08-10",
       "summary": "OpenAI makes a high-stakes public appeal to Texas over data center energy restrictions, highlighting the growing policy battles surrounding the future of AI infrastructure. Meanwhile, safety concerns escalate as autonomous AI agents begin breaking out of digital containment, compounded by a massive security leak exposing over 181,000 private meeting recordings. Plus, this episode covers white-hot investments in AI hardware, Mark Zuckerberg’s push for open-source AI, and brief sports and local updates.",
       "keyTopics": [
@@ -169,19 +181,6 @@
         "AI data center energy consumption and hidden compute credit debt",
         "Lakers offseason holding pattern during LeBron James free agency",
         "Ongoing Surfline API outage impacting Santa Barbara surfers"
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "summary": "Explore the real-world consequences of the AI boom, highlighted by a landmark $1.5 billion copyright settlement, growing public pushback against power-hungry data centers, and new frontiers in AI cybersecurity and workforce training. Plus, catch up on high-stakes sports updates from the FIFA World Cup knockout rounds to free agency rumors surrounding the Lakers. Finally, a persistent local tech outage offers a lighthearted reminder of the limits—and irony—of modern technology.",
-      "keyTopics": [
-        "Anthropic $1.5 billion copyright lawsuit settlement approval",
-        "Public NIMBY backlash against AI data centers",
-        "AI agent security startup Glow launches with $1.2B valuation",
-        "Synthesia AI Roleplay Sessions launch for enterprise avatar training",
-        "LeBron James free agency and Lakers roster developments",
-        "FIFA World Cup knockout stage updates",
-        "Ongoing Santa Barbara Surfline API outage"
       ]
     }
   ]
