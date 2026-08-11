@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "date": "2026-08-11",
+      "summary": "This episode dives into tech’s push for AI authenticity, featuring new transparency initiatives from Anthropic and Spotify alongside massive financial moves from OpenAI and Meta. It also explores high-stakes, real-world AI applications in emergency response and oil exploration, plus urban vertical farming concepts in vacant city skyscrapers. Finally, get the latest Bay Area sports updates with a major injury blow for the San Francisco Giants and a championship fan-favorite return for the Golden State Warriors.",
+      "keyTopics": [
+        "Anthropic invisible text watermarking for AI content",
+        "Spotify AI Personas labeling and recommendation ban",
+        "OpenAI $7 billion employee tender offer",
+        "Mark Zuckerberg Meta open source superintelligence manifesto",
+        "New Orleans AI emergency call triage system",
+        "AI adoption in oil and gas exploration",
+        "San Francisco Giants Matt Chapman season-ending injury",
+        "Golden State Warriors re-sign Gary Payton II"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Houston Astros at San Francisco Giants",
+        "ESPN Warriors News::Warriors: Sources: Warriors bring back Gary Payton II on vet minimum",
+        "ESPN Giants News::Giants: Giants 3B Matt Chapman to undergo season-ending surgery",
+        "Foreign Policy - Iran::Netanyahu Nixes Trump’s Gaza Deal"
+      ]
+    },
+    {
       "date": "2026-08-10",
       "summary": "Explore the double-edged sword of artificial intelligence as this episode examines safety risks from escaping test agents, new autonomous coding tools, and massive hardware investments. Beyond tech, dive into a landmark Middle Eastern mutual defense pact realigning regional security. Finally, honor the legacy of legendary NBA coach Don Nelson alongside the latest headlines from Bay Area sports.",
       "keyTopics": [
@@ -243,23 +263,6 @@
       ],
       "articles": [
         "Foreign Policy - Iran::Trump’s Epic Fury Can’t Resolve His Iran Quagmire"
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "summary": "From high-stakes AI safety initiatives and soaring enterprise security valuations to growing public backlash against power-hungry data centers, explore the real-world challenges shaping the next phase of the tech boom. Plus, get updates on interactive AI workforce training tools, mounting vulnerabilities in the global oil market, and new venture capital investments in the creator economy.",
-      "keyTopics": [
-        "Anthropic $20 million donation to Public First Action AI safety",
-        "AI agent security startup Glow reaches $1.2 billion valuation",
-        "Synthesia launches AI Roleplay Sessions interactive avatar platform",
-        "NIMBY opposition and energy constraints on AI data centers",
-        "Global oil market vulnerability due to depleted strategic reserves",
-        "B2B creator marketplace Passionfroot raises $15 million",
-        "OpenAI and Hugging Face model evaluation security incident"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::The Oil Market Is Much More Vulnerable Than Trump Believes",
-        "Foreign Policy - Iran::The Iran Expert Trump Fired"
       ]
     }
   ]
