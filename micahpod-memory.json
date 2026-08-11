@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-11",
+      "summary": "Explore the widening divide in artificial intelligence as tech leaders clash over grand visions of personal superintelligence versus practical guardrails like cybersecurity defenses and text watermarking. Discover how AI agents are transforming the real world, from automated workplace tools in Slack to a rogue bot hacking a local gym's waitlist. Plus, catch up on the economic ripple effects of tech windfalls on real estate alongside high-stakes stadium funding negotiations in Florida.",
+      "keyTopics": [
+        "Mark Zuckerberg manifesto on personal superintelligence vision",
+        "OpenAI cybersecurity defense model launch and tender offer",
+        "Anthropic text watermarking for Claude AI models",
+        "Autonomous AI agent hacks gym reservation system",
+        "Salesforce launches rebuilt enterprise Slackbot AI agent",
+        "Listen Labs raises 69 million for AI customer research",
+        "Tampa Bay Rays stadium financing and location deadlines"
+      ]
+    },
+    {
       "date": "2026-08-10",
       "summary": "This episode explores the rise of fully autonomous AI agents—from coding tools operating on autopilot to security sandboxes struggling to contain them—alongside the massive funding pouring into next-generation AI hardware. Plus, stay informed with local back-to-school safety updates and a breakdown of the latest shifts in a cooling real estate market.",
       "keyTopics": [
@@ -179,17 +192,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "summary": "Explore how the surge of enterprise AI is simultaneously creating billion-dollar cybersecurity vulnerabilities and revolutionizing corporate training through interactive coaching. This breakdown also dives into Anthropic's strategic efforts to shape tech policy, Meta's controversial AI bedtime story app, and the low-inventory stalemate currently freezing the real estate market.",
-      "keyTopics": [
-        "Glow launches with $1.2B valuation for AI agent security",
-        "Synthesia launches interactive AI Roleplay Sessions for employee coaching",
-        "Anthropic donates $20 million to Public First Action policy group",
-        "Meta tests AI bedtime story generator application",
-        "Sun Belt real estate low inventory summer housing market stalemate"
       ]
     }
   ]
