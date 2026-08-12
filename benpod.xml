@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-08-12</title>
+      <description>Explore the latest shifting tides in tech, from high-level executive shakeups at OpenAI and Google Gemini&apos;s massive user milestones to how AI is reshaping software engineering careers and straining local power grids. The episode also dives into controversial allegations surrounding Meta&apos;s content monetization tactics, followed by the latest sports update on Steph Curry’s future with the Golden State Warriors.</description>
+      <pubDate>Wed, 12 Aug 2026 09:21:24 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-12-092124.mp3" length="4412928" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-12-092124.mp3</guid>
+      <itunes:duration>276</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-08-11</title>
       <description>This episode dives into tech’s push for AI authenticity, featuring new transparency initiatives from Anthropic and Spotify alongside massive financial moves from OpenAI and Meta. It also explores high-stakes, real-world AI applications in emergency response and oil exploration, plus urban vertical farming concepts in vacant city skyscrapers. Finally, get the latest Bay Area sports updates with a major injury blow for the San Francisco Giants and a championship fan-favorite return for the Golden State Warriors.</description>
       <pubDate>Tue, 11 Aug 2026 09:20:51 GMT</pubDate>
