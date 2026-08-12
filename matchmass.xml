@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-08-12</title>
+      <description>Explore the latest shifts in technology and sports, featuring Google’s newest hardware lineup and the rapid expansion of Gemini AI alongside OpenAI&apos;s strategic desktop updates. Then, dive into a historic sports bombshell as the Los Angeles Lakers are set to sell for a record-shattering $12.5 billion to a powerhouse media and venture capital consortium.</description>
+      <pubDate>Wed, 12 Aug 2026 08:05:09 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-12-080509.mp3" length="3292800" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-12-080509.mp3</guid>
+      <itunes:duration>206</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-08-11</title>
       <description>This episode explores the latest push for digital transparency, highlighting Spotify&apos;s new labels for synthetic music and Anthropic&apos;s text-watermarking initiatives. It also dives into the AI industry&apos;s ongoing ethical tug-of-war, analyzing OpenAI&apos;s new cybersecurity tools alongside the rumored departure of its head of ethics. Finally, discover why Meta&apos;s grand manifesto on &quot;personal superintelligence&quot; is facing sharp pushback over privacy concerns.</description>
       <pubDate>Tue, 11 Aug 2026 08:06:09 GMT</pubDate>
