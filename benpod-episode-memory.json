@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-08-12",
+      "summary": "Explore the latest shifting tides in tech, from high-level executive shakeups at OpenAI and Google Gemini's massive user milestones to how AI is reshaping software engineering careers and straining local power grids. The episode also dives into controversial allegations surrounding Meta's content monetization tactics, followed by the latest sports update on Steph Curry’s future with the Golden State Warriors.",
+      "keyTopics": [
+        "OpenAI Chief Operating Officer Brad Lightcap departure",
+        "Google Gemini reaches one billion user milestone",
+        "AI code-testing startup Blacksmith valuation surge",
+        "Debate over AI replacing mid-level software engineers",
+        "Meta alleged payments to creators for rage-bait content",
+        "AI data center expansion straining global power grids",
+        "Mike Dunleavy on Stephen Curry remaining with Warriors"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Curry still on track to finish career with Warriors, GM says"
+      ]
+    },
+    {
       "date": "2026-08-11",
       "summary": "This episode dives into tech’s push for AI authenticity, featuring new transparency initiatives from Anthropic and Spotify alongside massive financial moves from OpenAI and Meta. It also explores high-stakes, real-world AI applications in emergency response and oil exploration, plus urban vertical farming concepts in vacant city skyscrapers. Finally, get the latest Bay Area sports updates with a major injury blow for the San Francisco Giants and a championship fan-favorite return for the Golden State Warriors.",
       "keyTopics": [
@@ -247,22 +263,6 @@
         "Foreign Policy - Iran::How Iran Gained the Upper Hand",
         "Foreign Policy - Iran::Is the Red Sea the New Hormuz Crisis?",
         "Foreign Policy - Iran::There’s Only One Way Out of Trump’s Reckless War"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "summary": "This episode uncovers the hidden financial strains behind the AI boom, from massive shadow debt and shifting hardware budgets to the security risks of rushed enterprise adoption. It also examines a changing global landscape, highlighting China's rising frontier AI models and the geopolitical tensions threatening volatile energy markets. Discover how high-stakes financial gambles and technological rivalries are reshaping the future of tech, business, and global stability.",
-      "keyTopics": [
-        "Hidden corporate debt and cloud credit shadow financing in AI",
-        "IBM mainframe sales decline driven by AI infrastructure spending",
-        "Etched $10.3 billion valuation for GPU-free AI inference chips",
-        "Nvidia lunar GPU mission and market saturation strategy",
-        "Moonshot AI Kimi 3 open-source model capabilities validation",
-        "Iran oil market leverage amidst depleted Western strategic reserves",
-        "Enterprise AI compute gap and agent security risks"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::Trump’s Epic Fury Can’t Resolve His Iran Quagmire"
       ]
     }
   ]
