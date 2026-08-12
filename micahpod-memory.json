@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-12",
+      "summary": "Explore major shifts at the forefront of AI, from executive departures at OpenAI to Google Gemini reaching one billion users and sparking a landmark redesign of Google Search. Learn how innovative startups are pushing AI into scientific discovery and automated code testing as market demand surges. Plus, examine the controversial ethics of social media engagement algorithms alongside a breakdown of the taxpayer costs behind Florida's deportation policies.",
+      "keyTopics": [
+        "OpenAI COO Brad Lightcap departure",
+        "Google Gemini app reaches one billion user milestone",
+        "Google Search redesign replaces ten blue links with AI",
+        "AI code-testing startup Blacksmith valuation jumps tenfold",
+        "Discovered Materials AI agents for materials discovery",
+        "Allegations of Facebook paying creators for rage-bait content",
+        "Axios report on Florida immigration policy taxpayer costs"
+      ]
+    },
+    {
       "date": "2026-08-11",
       "summary": "Explore the widening divide in artificial intelligence as tech leaders clash over grand visions of personal superintelligence versus practical guardrails like cybersecurity defenses and text watermarking. Discover how AI agents are transforming the real world, from automated workplace tools in Slack to a rogue bot hacking a local gym's waitlist. Plus, catch up on the economic ripple effects of tech windfalls on real estate alongside high-stakes stadium funding negotiations in Florida.",
       "keyTopics": [
@@ -175,23 +188,6 @@
         "AI model safety guardrails impacting white hat vulnerability research",
         "Anthropic Claude voice mode update with agentic features",
         "Sun Belt residential real estate summer stalemate"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "summary": "This episode explores escalating global tensions as the U.S. government accuses a Chinese firm of stealing advanced AI model technology, triggering potential sanctions and fueling debates over open-source security. Meanwhile, the staggering financial costs of the AI boom are dramatically altering corporate budgets, sparking targeted enterprise software investments, and creating record cloud profits. Finally, the discussion turns to the physical footprint of tech innovation, examining shifting real estate dynamics and rising local pushback against new AI data center developments.",
-      "keyTopics": [
-        "US sanctions threat against Moonshot for distilling Anthropic Fable",
-        "IBM stock crash from AI spending cannibalizing legacy hardware",
-        "Google Cloud record profits offset Alphabet massive AI spending",
-        "OpenAI and Anthropic lobbying alliance against open-weight AI",
-        "ServiceNow forty million dollar investment in BusinessNext vertical AI",
-        "US pending home sales drop to three month low",
-        "Majority of Americans oppose local AI data center construction"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
