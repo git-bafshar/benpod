@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-08-12",
+      "summary": "Explore the latest shifts in technology and sports, featuring Google’s newest hardware lineup and the rapid expansion of Gemini AI alongside OpenAI's strategic desktop updates. Then, dive into a historic sports bombshell as the Los Angeles Lakers are set to sell for a record-shattering $12.5 billion to a powerhouse media and venture capital consortium.",
+      "keyTopics": [
+        "Made by Google Pixel 11 and Pixel Watch 5 launch",
+        "Google Pixel Tag tracker launch competing with Apple AirTag",
+        "Google Gemini app reaches one billion user milestone",
+        "OpenAI releases native ChatGPT desktop app for Linux",
+        "Malicious vulnerability scanners disguising as Anthropic ClaudeBot",
+        "Josh Kushner and Bob Iger acquiring LA Lakers for $12.5B"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Sources: Josh Kushner, Bob Iger to buy Lakers for $12.5B",
+        "ESPN Lakers News::Lakers: LeBron James signs with the 76ers: Grade, reaction, winners",
+        "ESPN Lakers News::Lakers: Shams: DeRozan, Thompson and Kuminga names to watch in the post-LeBron market"
+      ]
+    },
+    {
       "date": "2026-08-11",
       "summary": "This episode explores the latest push for digital transparency, highlighting Spotify's new labels for synthetic music and Anthropic's text-watermarking initiatives. It also dives into the AI industry's ongoing ethical tug-of-war, analyzing OpenAI's new cybersecurity tools alongside the rumored departure of its head of ethics. Finally, discover why Meta's grand manifesto on \"personal superintelligence\" is facing sharp pushback over privacy concerns.",
       "keyTopics": [
@@ -169,18 +186,6 @@
         "Physical security risks to cloud and AI data centers",
         "FIFA World Cup knockout stages updates",
         "Ongoing multi-day Surfline API service outage"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "summary": "This episode explores the escalating AI race, from a ten-billion-dollar startup challenging Nvidia’s hardware dominance to the heated geopolitical debate over restricting access to Chinese open-source models. It also uncovers the staggering financial debt and massive energy consumption threatening the long-term sustainability of the AI boom. Plus, get quick updates on the NBA off-season holding pattern, ongoing World Cup knockout action, and a relatable local tech outage.",
-      "keyTopics": [
-        "Etched AI chip startup $10.3B valuation and Nvidia challenge",
-        "US tech startup pushback against Chinese open-source AI sanctions",
-        "Moonshot Kimi AI training similarities to Anthropic Claude 3",
-        "AI data center energy consumption and hidden compute credit debt",
-        "Lakers offseason holding pattern during LeBron James free agency",
-        "Ongoing Surfline API outage impacting Santa Barbara surfers"
       ]
     }
   ]
