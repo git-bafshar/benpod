@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-08-13</title>
+      <description>This episode dives into the growing tensions around AI ethics and transparency, highlighting Anthropic&apos;s new reasoning benchmark, user backlash over AI watermarking, and Twitch’s controversial opt-out policy for training data. It also explores skyrocketing tech startup valuations, Pakistan&apos;s strategic shifts within the new &quot;Mecca Pact,&quot; and a major milestone in green aviation with the flight of the world&apos;s largest electric aircraft. Finally, top AI pioneers weigh in on the critical debates surrounding regulation, open-source models, and the future of the technology.</description>
+      <pubDate>Thu, 13 Aug 2026 09:23:23 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-13-092323.mp3" length="5653824" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-13-092323.mp3</guid>
+      <itunes:duration>353</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-08-12</title>
       <description>Explore the latest shifting tides in tech, from high-level executive shakeups at OpenAI and Google Gemini&apos;s massive user milestones to how AI is reshaping software engineering careers and straining local power grids. The episode also dives into controversial allegations surrounding Meta&apos;s content monetization tactics, followed by the latest sports update on Steph Curry’s future with the Golden State Warriors.</description>
       <pubDate>Wed, 12 Aug 2026 09:21:24 GMT</pubDate>
