@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-08-13",
+      "summary": "This episode dives into the growing tensions around AI ethics and transparency, highlighting Anthropic's new reasoning benchmark, user backlash over AI watermarking, and Twitch’s controversial opt-out policy for training data. It also explores skyrocketing tech startup valuations, Pakistan's strategic shifts within the new \"Mecca Pact,\" and a major milestone in green aviation with the flight of the world's largest electric aircraft. Finally, top AI pioneers weigh in on the critical debates surrounding regulation, open-source models, and the future of the technology.",
+      "keyTopics": [
+        "Anthropic Conceptual Reasoning Index benchmark release",
+        "User backlash against Anthropic Claude invisible watermarking",
+        "Amazon Twitch default opt-out AI training policy",
+        "Cognition AI $40 billion valuation funding round",
+        "Pakistan strategic impact from Mecca Pact alliance",
+        "Heart Aerospace ES-30 electric plane first flight",
+        "Ai4 conference debate with Hinton, Li, and Ng"
+      ],
+      "articles": [
+        "Foreign Policy - Iran::What Does the Mecca Pact Deliver Pakistan?",
+        "Foreign Policy - Iran::The Houthis Are Risking Everything for Iran",
+        "Foreign Policy - Iran::A Middle Eastern NATO?"
+      ]
+    },
+    {
       "date": "2026-08-12",
       "summary": "Explore the latest shifting tides in tech, from high-level executive shakeups at OpenAI and Google Gemini's massive user milestones to how AI is reshaping software engineering careers and straining local power grids. The episode also dives into controversial allegations surrounding Meta's content monetization tactics, followed by the latest sports update on Steph Curry’s future with the Golden State Warriors.",
       "keyTopics": [
@@ -247,22 +265,6 @@
         "ESPN 49ers News::49ers: 49ers' Kyle Shanahan to be limited in camp after car crash",
         "Foreign Policy - Iran::Iran’s Arsenal Starts With Its Islands",
         "Foreign Policy - Iran::How a U.S. Ground Operation in Iran Could Unfold"
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "summary": "Unpack the potential geopolitical fallout following claimed military attacks on critical Amazon Web Services infrastructure in the Middle East. Discover how the AI battle is shifting to the desktop as OpenAI and Anthropic launch advanced voice assistants, while AMD takes aim at Nvidia's hardware dominance. Plus, explore the complicated world of AI security, from guardrails hampering ethical hackers to new automated defenses fighting AI-driven phishing attacks.",
-      "keyTopics": [
-        "IRGC claims attack on AWS data center in Bahrain",
-        "OpenAI ChatGPT and Anthropic Claude launch desktop voice mode",
-        "AMD Helios rack-scale system challenges Nvidia AI hardware dominance",
-        "AI safety guardrails impeding white hat cybersecurity research",
-        "AegisAI raises $36 million for AI phishing defense"
-      ],
-      "articles": [
-        "Foreign Policy - Iran::How Iran Gained the Upper Hand",
-        "Foreign Policy - Iran::Is the Red Sea the New Hormuz Crisis?",
-        "Foreign Policy - Iran::There’s Only One Way Out of Trump’s Reckless War"
       ]
     }
   ]
