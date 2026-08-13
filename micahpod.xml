@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-13</title>
+      <description>This episode examines the mounting tension around AI data ethics and transparency, focusing on Amazon’s default training policy for Twitch creators and user backlash over Anthropic’s safety watermarks. It also highlights the staggering multi-billion-dollar valuations driving AI startups like Cognition, alongside the ongoing debate among industry pioneers over regulation and open-source models. Finally, explore a novel security threat where cybercriminals spoof legitimate AI bots to secretly scan websites for vulnerabilities.</description>
+      <pubDate>Thu, 13 Aug 2026 08:44:33 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-13-084433.mp3" length="4390080" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-13-084433.mp3</guid>
+      <itunes:duration>274</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-12</title>
       <description>Explore major shifts at the forefront of AI, from executive departures at OpenAI to Google Gemini reaching one billion users and sparking a landmark redesign of Google Search. Learn how innovative startups are pushing AI into scientific discovery and automated code testing as market demand surges. Plus, examine the controversial ethics of social media engagement algorithms alongside a breakdown of the taxpayer costs behind Florida&apos;s deportation policies.</description>
       <pubDate>Wed, 12 Aug 2026 08:43:16 GMT</pubDate>
