@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-08-13</title>
+      <description>Explore the high-stakes battles shaping the future of AI, from contrasting corporate strategies for training models to user pushback over text watermarks and autonomous agent risks. Plus, legendary MVP Russell Westbrook officially retires after an unforgettable 18-season NBA career, marking a major transformation for the Lakers. Finally, get a local update on a surprisingly persistent Surfline outage affecting Santa Barbara surfers.</description>
+      <pubDate>Thu, 13 Aug 2026 08:04:59 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-13-080459.mp3" length="3111552" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-13-080459.mp3</guid>
+      <itunes:duration>194</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-08-12</title>
       <description>Explore the latest shifts in technology and sports, featuring Google’s newest hardware lineup and the rapid expansion of Gemini AI alongside OpenAI&apos;s strategic desktop updates. Then, dive into a historic sports bombshell as the Los Angeles Lakers are set to sell for a record-shattering $12.5 billion to a powerhouse media and venture capital consortium.</description>
       <pubDate>Wed, 12 Aug 2026 08:05:09 GMT</pubDate>
