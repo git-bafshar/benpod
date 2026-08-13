@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-08-13",
+      "summary": "This episode examines the mounting tension around AI data ethics and transparency, focusing on Amazon’s default training policy for Twitch creators and user backlash over Anthropic’s safety watermarks. It also highlights the staggering multi-billion-dollar valuations driving AI startups like Cognition, alongside the ongoing debate among industry pioneers over regulation and open-source models. Finally, explore a novel security threat where cybercriminals spoof legitimate AI bots to secretly scan websites for vulnerabilities.",
+      "keyTopics": [
+        "Amazon Twitch default AI model training policy",
+        "Anthropic Claude AI text watermarking user backlash",
+        "Cognition Devin AI funding round at 40 billion valuation",
+        "Thrive Holdings 2 billion dollar enterprise AI funding round",
+        "Ai4 panel featuring Geoffrey Hinton Fei-Fei Li Andrew Ng",
+        "Security threat spoofing ClaudeBot AI crawlers for vulnerability scans"
+      ]
+    },
+    {
       "date": "2026-08-12",
       "summary": "Explore major shifts at the forefront of AI, from executive departures at OpenAI to Google Gemini reaching one billion users and sparking a landmark redesign of Google Search. Learn how innovative startups are pushing AI into scientific discovery and automated code testing as market demand surges. Plus, examine the controversial ethics of social media engagement algorithms alongside a breakdown of the taxpayer costs behind Florida's deportation policies.",
       "keyTopics": [
@@ -175,19 +187,6 @@
         "AI labs digitize physical books amid training data shortages",
         "Robotics startup Enigma secures $70 million seed funding",
         "Sun Belt real estate housing market summer stalemate"
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "summary": "This episode covers a major geopolitical escalation following claims of a physical attack on an Amazon Web Services data center in Bahrain, alongside AMD's new Helios system taking on Nvidia in the AI hardware race. It explores the complex role of artificial intelligence in cybersecurity, highlighting AI-driven anti-phishing defenses and the challenges safety guardrails pose for ethical security researchers. Additional topics include Runway's new AI Model Router, a reality check on building production-ready AI applications, and local updates on Orlando's weather and real estate market.",
-      "keyTopics": [
-        "IRGC claim of attack on AWS Bahrain data center",
-        "AMD Helios rack-scale AI supercomputer launch",
-        "Runway AI Model Router release",
-        "AegisAI $36 million funding for AI phishing defense",
-        "AI model safety guardrails impacting white hat vulnerability research",
-        "Anthropic Claude voice mode update with agentic features",
-        "Sun Belt residential real estate summer stalemate"
       ]
     }
   ]
