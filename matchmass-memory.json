@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-08-14",
+      "summary": "Explore the historic $12.5 billion sale of the Los Angeles Lakers and what this record-breaking deal means for the future of the franchise and the NBA. Plus, dive into the rapidly shifting AI landscape, covering OpenAI's new high-speed model update, massive venture funding milestones, and a looming energy crisis that could drastically drive up computing costs. The episode wraps up with a lighthearted look at an ongoing local tech outage leaving Santa Barbara surfers in the dark.",
+      "keyTopics": [
+        "Los Angeles Lakers $12.5 billion sale to Kushner and Iger",
+        "OpenAI GPT-5.6 Sol Ultrafast mode launch",
+        "Databricks $5 billion funding round at $190 billion valuation",
+        "Rising natural gas prices impacting AI data center energy costs",
+        "Surfline API outage ongoing in Santa Barbara County"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Lakers sold at $12.5 billion valuation: NBA execs, agents react",
+        "ESPN Lakers News::Lakers: Lakers' $12 billion purchase tops record U.S. sports team sales",
+        "ESPN Lakers News::Lakers: Ramona Shelburne: Lakers sale came together incredibly fast"
+      ]
+    },
+    {
       "date": "2026-08-13",
       "summary": "Explore the high-stakes battles shaping the future of AI, from contrasting corporate strategies for training models to user pushback over text watermarks and autonomous agent risks. Plus, legendary MVP Russell Westbrook officially retires after an unforgettable 18-season NBA career, marking a major transformation for the Lakers. Finally, get a local update on a surprisingly persistent Surfline outage affecting Santa Barbara surfers.",
       "keyTopics": [
@@ -175,21 +191,6 @@
         "Anthropic CEO Dario Amodei stance on open-weight AI models",
         "FIFA World Cup schedule pause ahead of quarterfinals",
         "Ongoing Surfline API outage in Santa Barbara County"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "summary": "This episode breaks down the seismic shift in professional basketball as LeBron James officially departs the Los Angeles Lakers for the Philadelphia 76ers, forcing a major franchise pivot in LA. Meanwhile, artificial intelligence continues to redefine the digital landscape, highlighted by Google’s rapidly expanding AI search summaries and a landmark computing partnership between Safe Superintelligence and Nvidia. The conversation wraps up with a look at the growing energy demands of tech infrastructure, AI lobbying efforts in Washington, and regional updates.",
-      "keyTopics": [
-        "LeBron James signs two-year contract with Philadelphia 76ers",
-        "Ilya Sutskever's Safe Superintelligence partners with Nvidia",
-        "Google AI Overviews appear in 43 percent of search queries",
-        "AI companies reach record levels of lobbying spending",
-        "TechCrunch Disrupt focuses on AI energy and infrastructure strain",
-        "LA Mayor Karen Bass Inside Safe homelessness program challenges"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: LeBron James signs with the 76ers: Grade, reaction, winners"
       ]
     }
   ]
