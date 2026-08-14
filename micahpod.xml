@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-14</title>
+      <description>Explore the wild frontiers of artificial intelligence as new research reveals unexpected &quot;turf wars&quot; between interacting AI agents, alongside massive industry funding rounds and major enterprise partnerships between giants like IBM and OpenAI. This episode also breaks down the critical &quot;competence versus judgment&quot; gap challenging workplace AI adoption, followed by an update on the persistent gridlock in today&apos;s housing market.</description>
+      <pubDate>Fri, 14 Aug 2026 08:40:14 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-14-084014.mp3" length="4331520" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-14-084014.mp3</guid>
+      <itunes:duration>271</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-13</title>
       <description>This episode examines the mounting tension around AI data ethics and transparency, focusing on Amazon’s default training policy for Twitch creators and user backlash over Anthropic’s safety watermarks. It also highlights the staggering multi-billion-dollar valuations driving AI startups like Cognition, alongside the ongoing debate among industry pioneers over regulation and open-source models. Finally, explore a novel security threat where cybercriminals spoof legitimate AI bots to secretly scan websites for vulnerabilities.</description>
       <pubDate>Thu, 13 Aug 2026 08:44:33 GMT</pubDate>
