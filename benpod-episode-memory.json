@@ -1,6 +1,28 @@
 {
   "episodes": [
     {
+      "date": "2026-08-14",
+      "summary": "Explore the staggering scale of the AI boom as soaring industry valuations meet mounting energy challenges for data center giants. Dive into key regional and national headlines, including the Chicago Bears' dramatic stadium pivot toward Indiana, Illinois policy updates, and the latest shifts in the housing market. The episode wraps up with essential highlights and injury news from around the NFL.",
+      "keyTopics": [
+        "Databricks $5 billion funding round at $190 billion valuation",
+        "OpenAI GPT-5.6 Sol Ultrafast mode announcement",
+        "AI data center demand tripling natural gas prices forecast",
+        "Chicago Bears pivot stadium focus to Hammond Indiana",
+        "Illinois statewide student classroom cellphone ban",
+        "Illinois audit reveals $78.5 million standby contractor waste",
+        "US housing market active buyers hit record low"
+      ],
+      "articles": [
+        "ESPN 49ers::49ers Recap: Tennessee Titans at San Francisco 49ers",
+        "ESPN Warriors News::Warriors: Warriors GM 'confident' Steph Curry will finish career in Golden State",
+        "ESPN 49ers News::49ers: 49ers' Ricky Pearsall has knee surgery, targets 9-month recovery",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::The Iran War Has Left the U.S. Dangerously Exposed",
+        "Foreign Policy - Iran::Mojtaba Khamenei Is Planning for a Long War"
+      ]
+    },
+    {
       "date": "2026-08-13",
       "summary": "This episode dives into the growing tensions around AI ethics and transparency, highlighting Anthropic's new reasoning benchmark, user backlash over AI watermarking, and Twitch’s controversial opt-out policy for training data. It also explores skyrocketing tech startup valuations, Pakistan's strategic shifts within the new \"Mecca Pact,\" and a major milestone in green aviation with the flight of the world's largest electric aircraft. Finally, top AI pioneers weigh in on the critical debates surrounding regulation, open-source models, and the future of the technology.",
       "keyTopics": [
@@ -244,27 +266,6 @@
         "ESPN Giants News::Giants: Giants 3B Casey Schmitt exits win early with knee injury",
         "ESPN 49ers News::49ers: Brandon Aiyuk remains on 49ers' reserve/did not report list",
         "Foreign Policy - Iran::What to Expect at the Trump-Netanyahu Showdown"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "summary": "This episode explores major developments across the tech landscape, highlighting Ilya Sutskever's new Nvidia-backed rival to OpenAI, Anthropic's enterprise expansion, and massive seed funding for physical AI robotics. It also covers key sports updates regarding the San Francisco 49ers' pre-season setbacks and breaks down a geopolitical analysis of Iran's fortified islands in the Persian Gulf. Finally, the discussion touches on AI lobbying efforts, an NFC-based app blocker, and Minecraft's rising hardware requirements.",
-      "keyTopics": [
-        "Safe Superintelligence partners with Nvidia for GPU scaling",
-        "Anthropic expands enterprise Claude integration partnership with Cognizant",
-        "Physical AI startup Enigma raises 70 million seed round",
-        "AI companies record Washington lobbying spending on regulations",
-        "49ers coach Kyle Shanahan injured ahead of training camp",
-        "Iran military fortification of strategic Persian Gulf islands",
-        "Minecraft Java Edition increases recommended RAM requirement to 16GB"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Los Angeles Angels at San Francisco Giants",
-        "ESPN 49ers News::49ers: Kyle Shanahan injured in a car accident",
-        "ESPN 49ers News::49ers: 49ers GM Lynch focused on 'players that are here,' not WR Aiyuk",
-        "ESPN 49ers News::49ers: 49ers' Kyle Shanahan to be limited in camp after car crash",
-        "Foreign Policy - Iran::Iran’s Arsenal Starts With Its Islands",
-        "Foreign Policy - Iran::How a U.S. Ground Operation in Iran Could Unfold"
       ]
     }
   ]
