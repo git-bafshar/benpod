@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-08-14</title>
+      <description>Explore the historic $12.5 billion sale of the Los Angeles Lakers and what this record-breaking deal means for the future of the franchise and the NBA. Plus, dive into the rapidly shifting AI landscape, covering OpenAI&apos;s new high-speed model update, massive venture funding milestones, and a looming energy crisis that could drastically drive up computing costs. The episode wraps up with a lighthearted look at an ongoing local tech outage leaving Santa Barbara surfers in the dark.</description>
+      <pubDate>Fri, 14 Aug 2026 07:59:04 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-14-075904.mp3" length="3224640" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-14-075904.mp3</guid>
+      <itunes:duration>202</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-08-13</title>
       <description>Explore the high-stakes battles shaping the future of AI, from contrasting corporate strategies for training models to user pushback over text watermarks and autonomous agent risks. Plus, legendary MVP Russell Westbrook officially retires after an unforgettable 18-season NBA career, marking a major transformation for the Lakers. Finally, get a local update on a surprisingly persistent Surfline outage affecting Santa Barbara surfers.</description>
       <pubDate>Thu, 13 Aug 2026 08:04:59 GMT</pubDate>
