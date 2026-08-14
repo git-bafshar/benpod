@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-14",
+      "summary": "Explore the wild frontiers of artificial intelligence as new research reveals unexpected \"turf wars\" between interacting AI agents, alongside massive industry funding rounds and major enterprise partnerships between giants like IBM and OpenAI. This episode also breaks down the critical \"competence versus judgment\" gap challenging workplace AI adoption, followed by an update on the persistent gridlock in today's housing market.",
+      "keyTopics": [
+        "Anthropic multi-agent system emergent behavior research",
+        "Databricks five billion dollar funding at 190B valuation",
+        "IBM and OpenAI enterprise consultant training partnership",
+        "OpenAI GPT-5.6 Sol Ultrafast mode preview",
+        "Writer open-source enterprise AI model announcement",
+        "AI competence versus human judgment product challenge",
+        "US housing market mortgage rate lock-in gridlock"
+      ]
+    },
+    {
       "date": "2026-08-13",
       "summary": "This episode examines the mounting tension around AI data ethics and transparency, focusing on Amazon’s default training policy for Twitch creators and user backlash over Anthropic’s safety watermarks. It also highlights the staggering multi-billion-dollar valuations driving AI startups like Cognition, alongside the ongoing debate among industry pioneers over regulation and open-source models. Finally, explore a novel security threat where cybercriminals spoof legitimate AI bots to secretly scan websites for vulnerabilities.",
       "keyTopics": [
@@ -174,19 +187,6 @@
         "Google redesigns homepage search box for conversational AI",
         "Florida proposed statewide hurricane hardening tax",
         "Summer 2026 housing market inventory stalemate"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "summary": "Discover the latest high-stakes developments in tech, starting with a groundbreaking autonomous AI cyberattack against OpenAI and the turbulent rollout of Anthropic's new Claude Opus 5 model. This episode also explores how artificial intelligence is driving corporate workforce shifts, fueling the search for training data, and revolutionizing robotics control, concluding with a quick update on the current real estate market stalemate.",
-      "keyTopics": [
-        "Alleged first autonomous AI agent cyberattack targets OpenAI",
-        "Hugging Face CEO Clem Delangue demands radical transparency",
-        "Anthropic Claude Opus 5 launch faces elevated user errors",
-        "Monday.com attributes workforce reductions to AI efficiency gains",
-        "AI labs digitize physical books amid training data shortages",
-        "Robotics startup Enigma secures $70 million seed funding",
-        "Sun Belt real estate housing market summer stalemate"
       ]
     }
   ]
