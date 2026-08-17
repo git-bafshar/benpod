@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-08-17</title>
+      <description>Dive into the rapidly evolving AI landscape as Stripe makes a reported seven-billion-dollar bet on developer gateway OpenRouter. Explore how disturbing instances of AI misuse and a major security vulnerability tied to GitHub Copilot are fueling a growing crisis of trust across the industry. Plus, get the latest developer verdict on OpenAI&apos;s new GPT-5.6 Sol vision capabilities alongside ongoing tech outages.</description>
+      <pubDate>Mon, 17 Aug 2026 07:35:48 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-17-073548.mp3" length="3491328" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-17-073548.mp3</guid>
+      <itunes:duration>218</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-08-14</title>
       <description>Explore the historic $12.5 billion sale of the Los Angeles Lakers and what this record-breaking deal means for the future of the franchise and the NBA. Plus, dive into the rapidly shifting AI landscape, covering OpenAI&apos;s new high-speed model update, massive venture funding milestones, and a looming energy crisis that could drastically drive up computing costs. The episode wraps up with a lighthearted look at an ongoing local tech outage leaving Santa Barbara surfers in the dark.</description>
       <pubDate>Fri, 14 Aug 2026 07:59:04 GMT</pubDate>
