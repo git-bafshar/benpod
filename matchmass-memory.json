@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-08-17",
+      "summary": "Dive into the rapidly evolving AI landscape as Stripe makes a reported seven-billion-dollar bet on developer gateway OpenRouter. Explore how disturbing instances of AI misuse and a major security vulnerability tied to GitHub Copilot are fueling a growing crisis of trust across the industry. Plus, get the latest developer verdict on OpenAI's new GPT-5.6 Sol vision capabilities alongside ongoing tech outages.",
+      "keyTopics": [
+        "Stripe acquisition of OpenRouter for seven billion dollars",
+        "xAI Grok explicit image controversy and AI trust deficit",
+        "Anthropic CEO Dario Amodei on AI trust crisis",
+        "GitHub Copilot autofix blamed for Snowflake Jira compromise",
+        "OpenAI GPT-5.6 Sol Ultrafast vision model developer feedback",
+        "Ongoing Surfline API outage in Santa Barbara"
+      ]
+    },
+    {
       "date": "2026-08-14",
       "summary": "Explore the historic $12.5 billion sale of the Los Angeles Lakers and what this record-breaking deal means for the future of the franchise and the NBA. Plus, dive into the rapidly shifting AI landscape, covering OpenAI's new high-speed model update, massive venture funding milestones, and a looming energy crisis that could drastically drive up computing costs. The episode wraps up with a lighthearted look at an ongoing local tech outage leaving Santa Barbara surfers in the dark.",
       "keyTopics": [
@@ -179,18 +191,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: Shams: DeRozan, Thompson and Kuminga names to watch in the post-LeBron market"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "summary": "This episode explores how the explosive energy demands of AI are pushing the U.S. power grid to its limits, forcing utility operators to consider power rationing for data centers despite massive, multi-million-dollar compute investments. It also breaks down the escalating policy debate surrounding open-source AI safety risks, alongside a brief update on the World Cup tournament.",
-      "keyTopics": [
-        "PJM Interconnection considering data center power cuts",
-        "Recursive Superintelligence signs $410M AWS compute deal",
-        "Fish Audio raises $52M seed round for voice AI",
-        "Anthropic CEO Dario Amodei stance on open-weight AI models",
-        "FIFA World Cup schedule pause ahead of quarterfinals",
-        "Ongoing Surfline API outage in Santa Barbara County"
       ]
     }
   ]
