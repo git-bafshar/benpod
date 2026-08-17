@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-17</title>
+      <description>This episode explores the shifting landscape of artificial intelligence, spotlighting Stripe’s massive seven-billion-dollar acquisition of OpenRouter and the rising value of AI infrastructure. Delve into the deepening debate over AI trust and safety—from real-world tool misuse and Anthropic&apos;s controversial text watermarking to Google DeepMind&apos;s breakthrough cyclone forecasting model. Plus, get quick updates on the nationwide housing market gridlock and regional public safety trends.</description>
+      <pubDate>Mon, 17 Aug 2026 08:21:27 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-17-082127.mp3" length="3785664" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-17-082127.mp3</guid>
+      <itunes:duration>237</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-14</title>
       <description>Explore the wild frontiers of artificial intelligence as new research reveals unexpected &quot;turf wars&quot; between interacting AI agents, alongside massive industry funding rounds and major enterprise partnerships between giants like IBM and OpenAI. This episode also breaks down the critical &quot;competence versus judgment&quot; gap challenging workplace AI adoption, followed by an update on the persistent gridlock in today&apos;s housing market.</description>
       <pubDate>Fri, 14 Aug 2026 08:40:14 GMT</pubDate>
