@@ -1,6 +1,25 @@
 {
   "episodes": [
     {
+      "date": "2026-08-17",
+      "summary": "Explore the high-stakes world of AI as Stripe makes a massive $7 billion move to acquire OpenRouter amid an industry-wide crisis of trust and new technological breakthroughs in vision models. Then, unpack the resurging debate over Illinois highway tolls and the challenges of funding public infrastructure. Finally, catch up on Bay Area sports headlines, from San Francisco being named the host of the 2028 MLB All-Star Game to George Kittle’s ambitious injury comeback for the 49ers.",
+      "keyTopics": [
+        "Stripe acquisition of OpenRouter for seven billion dollars",
+        "Wispr AI dictation 280 million dollar funding round",
+        "Grok image abuse allegations and AI crisis of trust",
+        "OpenAI GPT-5.6 Sol vision model capabilities",
+        "Darren Bailey Illinois Tollway funding debate",
+        "Oracle Park selected for 2028 MLB All-Star Game",
+        "49ers George Kittle targeting Week 1 injury return"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: Colorado Rockies at San Francisco Giants",
+        "ESPN Giants News::Giants: San Francisco Giants to host 2028 MLB All-Star Game",
+        "ESPN 49ers News::49ers: Kittle eyeing Week 1 return",
+        "ESPN 49ers News::49ers: 49ers' George Kittle eyes return to practice, opener in Australia"
+      ]
+    },
+    {
       "date": "2026-08-14",
       "summary": "Explore the staggering scale of the AI boom as soaring industry valuations meet mounting energy challenges for data center giants. Dive into key regional and national headlines, including the Chicago Bears' dramatic stadium pivot toward Indiana, Illinois policy updates, and the latest shifts in the housing market. The episode wraps up with essential highlights and injury news from around the NFL.",
       "keyTopics": [
@@ -247,25 +266,6 @@
         "Foreign Policy - Iran::Trump’s Diplomatic Doubleheader",
         "Foreign Policy - Iran::Washington Can’t Keep Ignoring Minab",
         "Foreign Policy - Iran::The Economic War on Iran Is—and Isn’t—Working"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "summary": "Dive into the shifting landscape of artificial intelligence, covering Anthropic's stance on open-source safety risks, massive cloud compute costs for startups, Microsoft's advice on avoiding single-vendor lock-in, and the rapid growth of specialized voice-cloning tools. Plus, get the latest sports updates on a San Francisco Giants shutout victory alongside the 49ers' ongoing contract holdout drama. Finally, examine developing geopolitical tensions as Donald Trump and Benjamin Netanyahu reportedly clash over military strategy toward Iran.",
-      "keyTopics": [
-        "Anthropic CEO Dario Amodei position on open-weight AI models",
-        "Recursive Superintelligence $410M AWS cloud compute deal",
-        "Satya Nadella multi-model enterprise AI gateway strategy",
-        "Fish Audio $52M seed round for synthetic voice models",
-        "San Francisco Giants victory and Casey Schmitt knee injury",
-        "San Francisco 49ers receiver Brandon Aiyuk training camp holdout",
-        "Donald Trump and Benjamin Netanyahu rift over Iran strategy"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: Milwaukee Brewers at San Francisco Giants",
-        "ESPN Giants News::Giants: Giants 3B Casey Schmitt exits win early with knee injury",
-        "ESPN 49ers News::49ers: Brandon Aiyuk remains on 49ers' reserve/did not report list",
-        "Foreign Policy - Iran::What to Expect at the Trump-Netanyahu Showdown"
       ]
     }
   ]
