@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-08-17</title>
+      <description>Explore the high-stakes world of AI as Stripe makes a massive $7 billion move to acquire OpenRouter amid an industry-wide crisis of trust and new technological breakthroughs in vision models. Then, unpack the resurging debate over Illinois highway tolls and the challenges of funding public infrastructure. Finally, catch up on Bay Area sports headlines, from San Francisco being named the host of the 2028 MLB All-Star Game to George Kittle’s ambitious injury comeback for the 49ers.</description>
+      <pubDate>Mon, 17 Aug 2026 08:41:06 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-17-084106.mp3" length="4879680" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-17-084106.mp3</guid>
+      <itunes:duration>305</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-08-14</title>
       <description>Explore the staggering scale of the AI boom as soaring industry valuations meet mounting energy challenges for data center giants. Dive into key regional and national headlines, including the Chicago Bears&apos; dramatic stadium pivot toward Indiana, Illinois policy updates, and the latest shifts in the housing market. The episode wraps up with essential highlights and injury news from around the NFL.</description>
       <pubDate>Fri, 14 Aug 2026 09:16:52 GMT</pubDate>
