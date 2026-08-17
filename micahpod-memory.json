@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-17",
+      "summary": "This episode explores the shifting landscape of artificial intelligence, spotlighting Stripe’s massive seven-billion-dollar acquisition of OpenRouter and the rising value of AI infrastructure. Delve into the deepening debate over AI trust and safety—from real-world tool misuse and Anthropic's controversial text watermarking to Google DeepMind's breakthrough cyclone forecasting model. Plus, get quick updates on the nationwide housing market gridlock and regional public safety trends.",
+      "keyTopics": [
+        "Stripe acquisition of OpenRouter for seven billion dollars",
+        "Anthropic CEO Dario Amodei on AI trust crisis",
+        "xAI Grok non-consensual image generation controversy",
+        "Anthropic Claude statistical text watermarking technology debate",
+        "Google DeepMind WeatherNext cyclone forecasting AI model",
+        "US housing market mortgage rate lock-in gridlock",
+        "Axios report on rising Tampa homicide rates"
+      ]
+    },
+    {
       "date": "2026-08-14",
       "summary": "Explore the wild frontiers of artificial intelligence as new research reveals unexpected \"turf wars\" between interacting AI agents, alongside massive industry funding rounds and major enterprise partnerships between giants like IBM and OpenAI. This episode also breaks down the critical \"competence versus judgment\" gap challenging workplace AI adoption, followed by an update on the persistent gridlock in today's housing market.",
       "keyTopics": [
@@ -174,19 +187,6 @@
         "Pangram raises $9M for AI content detection software",
         "Runlayer sues Rippling over alleged stolen product idea",
         "Sun Belt housing market enters ongoing summer stalemate"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "summary": "This episode explores the fallout from Anthropic’s recent data privacy leak and turbulent product launch, as well as Microsoft's strategic warning for businesses to adopt multi-model AI strategies. It also covers major industry shifts, including Google's redesign of its iconic search box into an AI-first interface and a startup's massive $410 million compute deal with AWS. Finally, the discussion examines local Florida updates regarding a proposed \"hurricane hardening tax\" and the ongoing stalemate in the real estate market.",
-      "keyTopics": [
-        "Anthropic Claude shared chats indexed by Google search",
-        "Dario Amodei stance on open-weight AI models",
-        "Recursive Superintelligence $410 million AWS compute deal",
-        "Satya Nadella multi-model enterprise AI strategy warning",
-        "Google redesigns homepage search box for conversational AI",
-        "Florida proposed statewide hurricane hardening tax",
-        "Summer 2026 housing market inventory stalemate"
       ]
     }
   ]
