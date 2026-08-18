@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-18",
+      "summary": "This episode dives into the latest high-stakes moves across tech, exploring Anthropic’s staggering revenue growth, Groq’s strategic pivot to cloud services, and Nvidia’s massive new infrastructure investments. Unpack the controversial lengths companies are going to for AI training data, from Amazon physically destroying rare books to Google buying bankrupt airline records at auction. Plus, learn about Fairphone’s official U.S. launch for repairable hardware enthusiasts and an innovative climate initiative using AI to eliminate heat-trapping airplane contrails.",
+      "keyTopics": [
+        "Anthropic annualized revenue reaches 65 billion dollars",
+        "Groq pivots to neocloud services using Nvidia chips",
+        "Amazon scans and destroys rare books for training data",
+        "Google purchases Spirit Airlines bankruptcy data for AI training",
+        "Nvidia invests 1.5 billion in SoftBank OpenAI datacenter",
+        "Fairphone modular repairable smartphones launch in US",
+        "AI flight path optimization to reduce airplane contrails"
+      ]
+    },
+    {
       "date": "2026-08-17",
       "summary": "Explore the high-stakes world of AI as Stripe makes a massive $7 billion move to acquire OpenRouter amid an industry-wide crisis of trust and new technological breakthroughs in vision models. Then, unpack the resurging debate over Illinois highway tolls and the challenges of funding public infrastructure. Finally, catch up on Bay Area sports headlines, from San Francisco being named the host of the 2028 MLB All-Star Game to George Kittle’s ambitious injury comeback for the 49ers.",
       "keyTopics": [
@@ -241,31 +254,6 @@
         "ESPN 49ers News::49ers: 49ers have 'concern' over Pearsall's latest knee flare-up",
         "Foreign Policy - Iran::U.S.-Saudi Strikes Add a New Front to the Iran War",
         "Foreign Policy - Iran::How to End the Iran War"
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "summary": "Explore major global developments as direct military strikes flare up between the U.S. and Iran, alongside alarming cybersecurity news regarding self-propagating AI worms targeting Microsoft Word. Plus, get the latest on high-stakes political shakeups in Chicago, shifting national real estate trends, and key sports updates across the Bay Area.",
-      "keyTopics": [
-        "US and Iran direct military conflict escalation",
-        "Self-replicating AI worm threat in Microsoft Copilot for Word",
-        "Cyera acquires Oasis Security in one billion dollar deal",
-        "Chicago acting Chief Financial Officer resigns ahead of budget planning",
-        "DNC excludes Illinois from 2028 early presidential primary schedule",
-        "Declining Canadian buyer demand for US real estate on Redfin",
-        "Draymond Green signs one-year deal with Golden State Warriors"
-      ],
-      "articles": [
-        "ESPN Warriors News::Warriors: Draymond Green returns to Warriors on 1-year, $27.7M deal",
-        "ESPN Giants News::Giants: Harrison Bader's foot injury complicated by scooter crash",
-        "ESPN Giants News::Giants: Giants' Schmitt to IL as MRI shows torn meniscus in left knee",
-        "ESPN 49ers News::49ers: Kyle Shanahan: Car crash was my fault, accident report wrong",
-        "ESPN 49ers News::49ers: Kyle Shanahan nearly lost eye in car crash, says friend Chris Simms",
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis",
-        "Foreign Policy - Iran::Trump’s Diplomatic Doubleheader",
-        "Foreign Policy - Iran::Washington Can’t Keep Ignoring Minab",
-        "Foreign Policy - Iran::The Economic War on Iran Is—and Isn’t—Working"
       ]
     }
   ]
