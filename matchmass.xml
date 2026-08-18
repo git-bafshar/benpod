@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-08-18</title>
+      <description>Explore seismic shifts across tech and sports in this episode, starting with Anthropic’s staggering leap to $65 billion in annualized revenue alongside OpenAI’s rollout of ChatGPT for Teens. Then, dive into the high-stakes drama surrounding the Los Angeles Lakers as Jeanie Buss mounts a legal battle against her siblings to contest the franchise&apos;s record $12.5 billion sale.</description>
+      <pubDate>Tue, 18 Aug 2026 07:40:42 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-18-074042.mp3" length="3135552" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-18-074042.mp3</guid>
+      <itunes:duration>196</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-08-17</title>
       <description>Dive into the rapidly evolving AI landscape as Stripe makes a reported seven-billion-dollar bet on developer gateway OpenRouter. Explore how disturbing instances of AI misuse and a major security vulnerability tied to GitHub Copilot are fueling a growing crisis of trust across the industry. Plus, get the latest developer verdict on OpenAI&apos;s new GPT-5.6 Sol vision capabilities alongside ongoing tech outages.</description>
       <pubDate>Mon, 17 Aug 2026 07:35:48 GMT</pubDate>
