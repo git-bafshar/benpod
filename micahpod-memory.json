@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-08-18",
+      "summary": "Explore the explosive economics and extreme data-gathering tactics fueling the AI boom, alongside the opening arguments in a landmark federal youth safety trial against Meta. Plus, get key insights into Florida's primary election day, innovative debt-free workforce training programs, and the ongoing gridlock in the national housing market.",
+      "keyTopics": [
+        "Anthropic annualized revenue hits 65 billion dollars",
+        "Aggressive AI training data acquisition by Amazon and Google",
+        "Nvidia investment in SoftBank data center for OpenAI",
+        "OpenAI GPT-5.6 Sol fifty percent price cut",
+        "Meta federal trial over youth mental health impact",
+        "Google acquihire of Relay startup for Chrome AI",
+        "Florida primary election day for local offices"
+      ],
+      "articles": [
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis"
+      ]
+    },
+    {
       "date": "2026-08-17",
       "summary": "This episode explores the shifting landscape of artificial intelligence, spotlighting Stripe’s massive seven-billion-dollar acquisition of OpenRouter and the rising value of AI infrastructure. Delve into the deepening debate over AI trust and safety—from real-world tool misuse and Anthropic's controversial text watermarking to Google DeepMind's breakthrough cyclone forecasting model. Plus, get quick updates on the nationwide housing market gridlock and regional public safety trends.",
       "keyTopics": [
@@ -174,19 +191,6 @@
         "OpenJDK interim policy on AI-generated code contributions",
         "Dili Series A funding for AI infrastructure compliance",
         "Carolina Cloud interest payouts on unused compute credits"
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "summary": "This episode explores a major shift in the tech landscape as industry leaders call to decelerate the AI race following recent security threats. We dive into the booming AI cybersecurity market—highlighting billion-dollar acquisitions, bot-detection tools, and alarming new risks like self-propagating AI worms embedded in everyday documents. Plus, get quick updates on high-profile startup legal drama over alleged tech theft and the continuing stalemate in the Sun Belt housing market.",
-      "keyTopics": [
-        "Sam Altman calls for slowing AI development after security incident",
-        "Cyera acquires Oasis Security for $1B to protect AI agents",
-        "AI worms self-propagating through Microsoft Copilot for Word",
-        "Spur Intelligence raises $200M for AI bot detection",
-        "Pangram raises $9M for AI content detection software",
-        "Runlayer sues Rippling over alleged stolen product idea",
-        "Sun Belt housing market enters ongoing summer stalemate"
       ]
     }
   ]
