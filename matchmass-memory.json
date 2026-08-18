@@ -1,6 +1,24 @@
 {
   "episodes": [
     {
+      "date": "2026-08-18",
+      "summary": "Explore seismic shifts across tech and sports in this episode, starting with Anthropic’s staggering leap to $65 billion in annualized revenue alongside OpenAI’s rollout of ChatGPT for Teens. Then, dive into the high-stakes drama surrounding the Los Angeles Lakers as Jeanie Buss mounts a legal battle against her siblings to contest the franchise's record $12.5 billion sale.",
+      "keyTopics": [
+        "Anthropic surges to $65 billion in annualized revenue",
+        "OpenAI launches ChatGPT for Teens with parental controls",
+        "Google acqui-hires Relay startup team for Chrome AI",
+        "Jeanie Buss contests $12.5 billion Lakers franchise sale",
+        "Josh Kushner and Bob Iger Lakers acquisition roadblock",
+        "Persistent Surfline API outage in Santa Barbara County"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Shelburne reveals what's behind Jeanie Buss' Lakers ownership battle",
+        "ESPN Lakers News::Lakers: Shelburne: Jeanie Buss to contest siblings' sale of family share in Lakers",
+        "ESPN Lakers News::Lakers: Jeanie Buss contesting family's vote to sell stake in Lakers",
+        "ESPN Lakers News::Lakers: Sources: Jeanie out as Buss family sells last stake in Lakers"
+      ]
+    },
+    {
       "date": "2026-08-17",
       "summary": "Dive into the rapidly evolving AI landscape as Stripe makes a reported seven-billion-dollar bet on developer gateway OpenRouter. Explore how disturbing instances of AI misuse and a major security vulnerability tied to GitHub Copilot are fueling a growing crisis of trust across the industry. Plus, get the latest developer verdict on OpenAI's new GPT-5.6 Sol vision capabilities alongside ongoing tech outages.",
       "keyTopics": [
@@ -175,22 +193,6 @@
         "Nscale acquisition of AI workload startup Anyscale",
         "2026 World Cup tournament quarterfinal matchups",
         "Santa Barbara ongoing Surfline API outage"
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "summary": "Explore the rapidly evolving AI landscape, from Martha Stewart’s new home-assistant startup to the high-stakes race for AI detection and cybersecurity against emerging digital threats. In sports news, break down the Los Angeles Lakers’ initial strategic moves as they target key veterans and young talent to navigate the post-LeBron James era. Plus, get a quick update on the World Cup quarterfinals alongside a lighthearted tech outage affecting local surf reports.",
-      "keyTopics": [
-        "Martha Stewart co-founding home management AI startup Hint",
-        "Pangram $9M funding for AI content detection software",
-        "Spur Intelligence $200M raise for bot traffic detection",
-        "Cyera $1B acquisition of Oasis Security for AI agents",
-        "Document-borne AI worm threats in Microsoft Copilot for Word",
-        "Lakers targeting DeMar DeRozan, Klay Thompson, and Jonathan Kuminga",
-        "Ongoing Surfline API outage affecting Santa Barbara surf reports"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: Shams: DeRozan, Thompson and Kuminga names to watch in the post-LeBron market"
       ]
     }
   ]
