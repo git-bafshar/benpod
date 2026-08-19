@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-19</title>
+      <description>This episode explores the full spectrum of the AI boom, from astronomical valuations in next-gen hardware and Cursor’s bold challenge to GitHub, to critical new safety safeguards across the industry. Plus, discover how AI is tackling relatable, everyday tech headaches—like coding custom printer drivers from scratch—and how Apple plans to balance privacy with rumored camera-equipped AirPods.</description>
+      <pubDate>Wed, 19 Aug 2026 08:23:10 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-19-082310.mp3" length="4155264" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-19-082310.mp3</guid>
+      <itunes:duration>260</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-18</title>
       <description>Explore the explosive economics and extreme data-gathering tactics fueling the AI boom, alongside the opening arguments in a landmark federal youth safety trial against Meta. Plus, get key insights into Florida&apos;s primary election day, innovative debt-free workforce training programs, and the ongoing gridlock in the national housing market.</description>
       <pubDate>Tue, 18 Aug 2026 08:23:07 GMT</pubDate>
