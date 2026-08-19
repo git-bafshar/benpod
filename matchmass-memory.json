@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-08-19",
+      "summary": "Dive into the high-stakes family feud brewing over the record-breaking $12.5 billion sale of the Los Angeles Lakers as the Buss siblings unite against team governor Jeanie Buss. In tech, explore how recent security concerns are shaking up developer trust, paving the way for Cursor to challenge GitHub alongside new AI safety pushes from OpenAI and Calendly. Plus, discover how breakthrough \"hollow-core\" fiber optic cables could dramatically accelerate the physical infrastructure powering the AI boom.",
+      "keyTopics": [
+        "Buss family dispute over Los Angeles Lakers sale",
+        "Cursor code-hosting platform launch challenging GitHub",
+        "OpenAI AI model safeguards after Hugging Face breach",
+        "Calendly Callie AI assistant and meeting summarizer launch",
+        "Relativity Networks hollow-core fiber funding for AI",
+        "Surfline API persistent outage in Santa Barbara"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Five Buss siblings 'united' in decision to sell Lakers shares"
+      ]
+    },
+    {
       "date": "2026-08-18",
       "summary": "Explore seismic shifts across tech and sports in this episode, starting with Anthropic’s staggering leap to $65 billion in annualized revenue alongside OpenAI’s rollout of ChatGPT for Teens. Then, dive into the high-stakes drama surrounding the Los Angeles Lakers as Jeanie Buss mounts a legal battle against her siblings to contest the franchise's record $12.5 billion sale.",
       "keyTopics": [
@@ -181,18 +196,6 @@
         "SpaceX unpermitted power turbines for xAI Colossus supercomputer",
         "2026 World Cup quarterfinals single-elimination phase",
         "Santa Barbara Surfline API ongoing technical outage"
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "summary": "This episode dives into the stark realities of the AI boom, exploring how a critical shortage of specialized engineers and failures in basic cybersecurity fundamentals are creating unexpected bottlenecks for tech implementation. The discussion also touches on major industry moves like Nscale acquiring Anyscale, the high-stakes kickoff of the World Cup quarterfinals, and a surprisingly persistent local surf report outage.",
-      "keyTopics": [
-        "US AI talent shortage of forward-deployed engineers",
-        "Hugging Face breach and traditional cybersecurity failures",
-        "Mark Zuckerberg on Meta AI consumer app development",
-        "Nscale acquisition of AI workload startup Anyscale",
-        "2026 World Cup tournament quarterfinal matchups",
-        "Santa Barbara ongoing Surfline API outage"
       ]
     }
   ]
