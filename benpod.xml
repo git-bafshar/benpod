@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-08-19</title>
+      <description>Explore the accelerating momentum of the AI boom, from specialized chipmaker Etched’s skyrocketing valuation and next-generation fiber optics to Cursor’s bold challenge against GitHub. The episode also examines OpenAI’s latest safety measures following industry security breaches and unpacks a blunt foreign policy stance linking Middle East conflict to domestic energy prices. Plus, catch the latest sports updates on a tough outing for the San Francisco Giants and the 49ers’ preseason plans for Christian McCaffrey.</description>
+      <pubDate>Wed, 19 Aug 2026 08:46:34 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-19-084634.mp3" length="5115648" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-19-084634.mp3</guid>
+      <itunes:duration>320</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-08-18</title>
       <description>This episode dives into the latest high-stakes moves across tech, exploring Anthropic’s staggering revenue growth, Groq’s strategic pivot to cloud services, and Nvidia’s massive new infrastructure investments. Unpack the controversial lengths companies are going to for AI training data, from Amazon physically destroying rare books to Google buying bankrupt airline records at auction. Plus, learn about Fairphone’s official U.S. launch for repairable hardware enthusiasts and an innovative climate initiative using AI to eliminate heat-trapping airplane contrails.</description>
       <pubDate>Tue, 18 Aug 2026 08:44:04 GMT</pubDate>
