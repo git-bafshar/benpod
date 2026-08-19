@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-08-19",
+      "summary": "Explore the accelerating momentum of the AI boom, from specialized chipmaker Etched’s skyrocketing valuation and next-generation fiber optics to Cursor’s bold challenge against GitHub. The episode also examines OpenAI’s latest safety measures following industry security breaches and unpacks a blunt foreign policy stance linking Middle East conflict to domestic energy prices. Plus, catch the latest sports updates on a tough outing for the San Francisco Giants and the 49ers’ preseason plans for Christian McCaffrey.",
+      "keyTopics": [
+        "Etched $21 billion valuation and Jane Street investment",
+        "Relativity Networks hollow-core fiber optic funding for data centers",
+        "Cursor AI-native code hosting launch challenging GitHub",
+        "OpenAI model security safeguards following Hugging Face breach",
+        "J.D. Vance remarks on Iran conflict and energy prices",
+        "Christian McCaffrey 49ers training camp practice status"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Cleveland Guardians",
+        "ESPN 49ers News::49ers: Shanahan dismisses idea RB McCaffrey sitting out for new deal",
+        "Foreign Policy - Iran::Vance Pitches a New Objective for the Iran War"
+      ]
+    },
+    {
       "date": "2026-08-18",
       "summary": "This episode dives into the latest high-stakes moves across tech, exploring Anthropic’s staggering revenue growth, Groq’s strategic pivot to cloud services, and Nvidia’s massive new infrastructure investments. Unpack the controversial lengths companies are going to for AI training data, from Amazon physically destroying rare books to Google buying bankrupt airline records at auction. Plus, learn about Fairphone’s official U.S. launch for repairable hardware enthusiasts and an innovative climate initiative using AI to eliminate heat-trapping airplane contrails.",
       "keyTopics": [
@@ -237,23 +254,6 @@
         "ESPN 49ers News::49ers: Police: 49ers coach not charged in crash at officer's discretion",
         "Foreign Policy - Iran::Is the U.S.-Iran War Expanding?",
         "Foreign Policy - Iran::Why Energy Prices Didn’t Soar Higher This Year"
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "summary": "This episode covers critical global and tech developments, beginning with the expanding U.S.-Iran military conflict and new joint strikes in Iraq. It delves into the AI industry's severe talent shortage of specialized integration engineers, as well as Microsoft's high-stakes strategic shift to compete directly against its own partners. Additional topics include essential cybersecurity lessons from the Hugging Face breach, fresh venture funding for AI infrastructure compliance, and concerning training camp injury news for the San Francisco 49ers.",
-      "keyTopics": [
-        "US-Saudi joint strikes on Iran-backed militias in Iraq",
-        "Critical shortage of enterprise AI forward-deployed engineers",
-        "Microsoft competes directly against OpenAI with homegrown AI models",
-        "Hugging Face breach highlights traditional cybersecurity failures",
-        "Dili raises $21.7 million Series A led by Khosla Ventures",
-        "San Francisco 49ers rookie Ricky Pearsall knee injury concerns"
-      ],
-      "articles": [
-        "ESPN 49ers News::49ers: 49ers have 'concern' over Pearsall's latest knee flare-up",
-        "Foreign Policy - Iran::U.S.-Saudi Strikes Add a New Front to the Iran War",
-        "Foreign Policy - Iran::How to End the Iran War"
       ]
     }
   ]
