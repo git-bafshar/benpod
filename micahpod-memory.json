@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-08-19",
+      "summary": "This episode explores the full spectrum of the AI boom, from astronomical valuations in next-gen hardware and Cursor’s bold challenge to GitHub, to critical new safety safeguards across the industry. Plus, discover how AI is tackling relatable, everyday tech headaches—like coding custom printer drivers from scratch—and how Apple plans to balance privacy with rumored camera-equipped AirPods.",
+      "keyTopics": [
+        "Etched AI chip startup valuation hits 21 billion",
+        "Relativity Networks hollow-core fiber funding for AI networking",
+        "Cursor launches AI-native code hosting platform rivaling GitHub",
+        "OpenAI post-training security safeguards after Hugging Face breach",
+        "Anthropic Claude generates functional legacy printer driver on macOS",
+        "Apple rumored camera-enabled AirPods privacy architecture"
+      ]
+    },
+    {
       "date": "2026-08-18",
       "summary": "Explore the explosive economics and extreme data-gathering tactics fueling the AI boom, alongside the opening arguments in a landmark federal youth safety trial against Meta. Plus, get key insights into Florida's primary election day, innovative debt-free workforce training programs, and the ongoing gridlock in the national housing market.",
       "keyTopics": [
@@ -179,18 +191,6 @@
       "articles": [
         "News Feeds::News Update",
         "Real Estate Analysis::Real Estate Market Analysis"
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "summary": "Uncover how tech giants like Microsoft and Meta are solidifying their long-term strategies to dominate the AI ecosystem, alongside a growing industry-wide shift toward research secrecy and new AI governance policies. Plus, discover how emerging startups are tackling infrastructure compliance and cloud financing, rounded out by an update on the ongoing stalemate in the real estate market.",
-      "keyTopics": [
-        "Microsoft homegrown AI models and OpenAI partnership shift",
-        "Meta personal AI agents and Llama enterprise expansion",
-        "Decline in open research publishing by top AI labs",
-        "OpenJDK interim policy on AI-generated code contributions",
-        "Dili Series A funding for AI infrastructure compliance",
-        "Carolina Cloud interest payouts on unused compute credits"
       ]
     }
   ]
