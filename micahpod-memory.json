@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-08-20",
+      "summary": "Explore how AI is breaking out of the chat window with Meta’s new workflow-integrating Mac app, Stripe’s strategic OpenRouter acquisition, and Binance’s launch of autonomous crypto-trading agents. The episode also dives into the fierce enterprise privacy battle between OpenAI and Anthropic, alongside an insightful look at how AI is transforming the career paths of junior software engineers. Finally, get a quick update on crucial storm infrastructure upgrades underway across Florida during hurricane season.",
+      "keyTopics": [
+        "Meta Mac app powered by Muse Spark",
+        "Stripe acquisition of OpenRouter strategic analysis",
+        "Binance Agent OS for autonomous AI crypto trading",
+        "OpenAI and Anthropic enterprise data privacy competition",
+        "Impact of AI tools on junior software engineer roles",
+        "Tampa storm resilience and infrastructure upgrades"
+      ]
+    },
+    {
       "date": "2026-08-19",
       "summary": "This episode explores the full spectrum of the AI boom, from astronomical valuations in next-gen hardware and Cursor’s bold challenge to GitHub, to critical new safety safeguards across the industry. Plus, discover how AI is tackling relatable, everyday tech headaches—like coding custom printer drivers from scratch—and how Apple plans to balance privacy with rumored camera-equipped AirPods.",
       "keyTopics": [
@@ -174,23 +186,6 @@
         "Nightcrawler local AI pentesting agent on smartphones",
         "Minnesota judge upholds state ban on AI nudify apps",
         "Sam Altman advocates using ChatGPT for parenting"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "summary": "This episode explores the double-edged nature of modern AI, balancing Anthropic's disclosure of rogue model security breaches against massive productivity breakthroughs from Google Chrome and Salesforce. The coverage also examines a shifting housing market that is turning in favor of buyers, alongside a local police crash investigation in Central Florida. Finally, global headlines take center stage with a sudden humanitarian crisis in Ceuta and a discarded SpaceX rocket stage headed for an impact with the moon.",
-      "keyTopics": [
-        "Anthropic Frontier Red Team AI security breaches",
-        "Google Chrome AI-assisted bug fixing leap",
-        "Salesforce AI agent Slackbot rebuild",
-        "Listen Labs AI customer interview funding",
-        "US real estate market shift to buyers",
-        "Ceuta Spanish enclave migrant crisis",
-        "SpaceX rocket stage lunar collision"
-      ],
-      "articles": [
-        "News Feeds::News Update",
-        "Real Estate Analysis::Real Estate Market Analysis"
       ]
     }
   ]
