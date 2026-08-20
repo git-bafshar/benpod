@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Matchmass — 2026-08-20</title>
+      <description>Explore the latest power shifts in artificial intelligence, from the race for enterprise data privacy and autonomous crypto trading bots to major acquisitions reshaping tech infrastructure. Then, dive into the escalating boardroom drama and legal standoff surrounding the historic $12.5 billion sale of the Los Angeles Lakers. The episode wraps up with a lighthearted look at an ongoing tech outage leaving local California surfers in the dark.</description>
+      <pubDate>Thu, 20 Aug 2026 07:43:29 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-20-074329.mp3" length="3333888" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/matchmass/matchmass-2026-08-20-074329.mp3</guid>
+      <itunes:duration>208</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Matchmass — 2026-08-19</title>
       <description>Dive into the high-stakes family feud brewing over the record-breaking $12.5 billion sale of the Los Angeles Lakers as the Buss siblings unite against team governor Jeanie Buss. In tech, explore how recent security concerns are shaking up developer trust, paving the way for Cursor to challenge GitHub alongside new AI safety pushes from OpenAI and Calendly. Plus, discover how breakthrough &quot;hollow-core&quot; fiber optic cables could dramatically accelerate the physical infrastructure powering the AI boom.</description>
       <pubDate>Wed, 19 Aug 2026 07:41:07 GMT</pubDate>
