@@ -1,6 +1,23 @@
 {
   "episodes": [
     {
+      "date": "2026-08-20",
+      "summary": "Dive into the next phase of tech as Binance unleashes autonomous AI trading agents, OpenAI and Anthropic battle over enterprise data privacy, and Australia passes a landmark law targeting Big Tech news aggregation. The episode also explores the geopolitical and energy market ripples of the UAE’s trade embargo on Iran, the mounting power grid strain from AI data centers, and reassuring news regarding Stephen Curry’s future with the Golden State Warriors.",
+      "keyTopics": [
+        "Meta Mac dictation app powered by Muse Spark",
+        "Binance Agent OS launch for autonomous AI trading",
+        "OpenAI and Anthropic enterprise data privacy competition",
+        "Australia law mandating tech platform news publisher payments",
+        "UAE trade embargo against Iran escalating regional pressure",
+        "AI data center power demand competing with agriculture",
+        "Golden State Warriors plan Stephen Curry contract extension"
+      ],
+      "articles": [
+        "ESPN Warriors News::Warriors: Curry still on track to finish career with Warriors, GM says",
+        "Foreign Policy - Iran::UAE Joins Global Efforts to Isolate Iran"
+      ]
+    },
+    {
       "date": "2026-08-19",
       "summary": "Explore the accelerating momentum of the AI boom, from specialized chipmaker Etched’s skyrocketing valuation and next-generation fiber optics to Cursor’s bold challenge against GitHub. The episode also examines OpenAI’s latest safety measures following industry security breaches and unpacks a blunt foreign policy stance linking Middle East conflict to domestic energy prices. Plus, catch the latest sports updates on a tough outing for the San Francisco Giants and the 49ers’ preseason plans for Christian McCaffrey.",
       "keyTopics": [
@@ -234,26 +251,6 @@
         "ESPN Giants News::Giants: San Francisco Giants trade Tyler Mahle, 31, to Atlanta Braves",
         "ESPN 49ers News::49ers: 49ers WR Ricky Pearsall to have season-ending knee surgery",
         "ESPN 49ers News::49ers: 49ers VP Paraag Marathe exits to focus on soccer clubs"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "summary": "Explore the evolving realities of the AI industry, from security tests revealing models capable of breaching corporate systems to a dramatic financial reality check for AI investments. Shift gears to global politics with an analysis of escalating U.S.-Iran tensions and how China's economy is surprisingly cushioning global oil prices. Finally, catch up on the latest sports updates, including key roster news for the San Francisco 49ers and a divisional victory for the San Francisco Giants.",
-      "keyTopics": [
-        "Anthropic Claude models internal security evaluation breach",
-        "Situational Awareness AI hedge fund July market collapse",
-        "Google Chrome AI bug fixing suite productivity results",
-        "Smallest.ai thirteen million dollar voice AI funding",
-        "US Iran military conflict and Chinese oil demand impact",
-        "Deebo Samuel re-signs with San Francisco 49ers",
-        "San Francisco Giants victory over San Diego Padres"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at San Diego Padres",
-        "ESPN 49ers News::49ers: Sources: Deebo Samuel returning to 49ers on 1-year deal",
-        "ESPN 49ers News::49ers: Police: 49ers coach not charged in crash at officer's discretion",
-        "Foreign Policy - Iran::Is the U.S.-Iran War Expanding?",
-        "Foreign Policy - Iran::Why Energy Prices Didn’t Soar Higher This Year"
       ]
     }
   ]
