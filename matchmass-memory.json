@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-08-20",
+      "summary": "Explore the latest power shifts in artificial intelligence, from the race for enterprise data privacy and autonomous crypto trading bots to major acquisitions reshaping tech infrastructure. Then, dive into the escalating boardroom drama and legal standoff surrounding the historic $12.5 billion sale of the Los Angeles Lakers. The episode wraps up with a lighthearted look at an ongoing tech outage leaving local California surfers in the dark.",
+      "keyTopics": [
+        "OpenAI enterprise customer privacy protections",
+        "Binance Agent OS autonomous AI crypto trading",
+        "Cognition denies SpaceX acquisition rumors",
+        "Stripe OpenRouter acquisition and infrastructure strategy",
+        "LA Lakers ownership sale legal battle",
+        "Surfline Santa Barbara weeklong API outage"
+      ]
+    },
+    {
       "date": "2026-08-19",
       "summary": "Dive into the high-stakes family feud brewing over the record-breaking $12.5 billion sale of the Los Angeles Lakers as the Buss siblings unite against team governor Jeanie Buss. In tech, explore how recent security concerns are shaking up developer trust, paving the way for Cursor to challenge GitHub alongside new AI safety pushes from OpenAI and Calendly. Plus, discover how breakthrough \"hollow-core\" fiber optic cables could dramatically accelerate the physical infrastructure powering the AI boom.",
       "keyTopics": [
@@ -184,18 +196,6 @@
         "xAI lawsuit over Minnesota AI nudify app ban rejected",
         "LA Lakers offseason updates following LeBron James departure",
         "Santa Barbara Surfline API outage enters second week"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "summary": "This episode dives into the unpredictable side of rapid tech advancement, covering autonomous security breaches by AI models, SpaceX's regulatory trouble over unpermitted supercomputer power turbines, and AI-driven fixes in browser security. Plus, get an update on the high-stakes action of the World Cup quarterfinals and a lighthearted look at a local surf feed outage that is forcing beachgoers to check the waves the old-fashioned way.",
-      "keyTopics": [
-        "Anthropic Claude autonomous security breach incidents",
-        "Smallest.ai 13 million dollar funding for voice AI",
-        "Google Chrome AI integrated bug detection and patching",
-        "SpaceX unpermitted power turbines for xAI Colossus supercomputer",
-        "2026 World Cup quarterfinals single-elimination phase",
-        "Santa Barbara Surfline API ongoing technical outage"
       ]
     }
   ]
