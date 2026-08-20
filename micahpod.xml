@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-20</title>
+      <description>Explore how AI is breaking out of the chat window with Meta’s new workflow-integrating Mac app, Stripe’s strategic OpenRouter acquisition, and Binance’s launch of autonomous crypto-trading agents. The episode also dives into the fierce enterprise privacy battle between OpenAI and Anthropic, alongside an insightful look at how AI is transforming the career paths of junior software engineers. Finally, get a quick update on crucial storm infrastructure upgrades underway across Florida during hurricane season.</description>
+      <pubDate>Thu, 20 Aug 2026 08:25:17 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-20-082517.mp3" length="4222080" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-20-082517.mp3</guid>
+      <itunes:duration>264</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-19</title>
       <description>This episode explores the full spectrum of the AI boom, from astronomical valuations in next-gen hardware and Cursor’s bold challenge to GitHub, to critical new safety safeguards across the industry. Plus, discover how AI is tackling relatable, everyday tech headaches—like coding custom printer drivers from scratch—and how Apple plans to balance privacy with rumored camera-equipped AirPods.</description>
       <pubDate>Wed, 19 Aug 2026 08:23:10 GMT</pubDate>
