@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-21</title>
+      <description>Dive into the booming AI data preparation gold rush and the volatile enterprise showdown between OpenAI and Anthropic as tech giants race for market dominance. This episode also explores AI’s creep into everyday messaging, Google&apos;s latest search concessions for publishers, and the hidden environmental and cultural costs of the boom—from data center cooling constraints to the destruction of physical books for training data.</description>
+      <pubDate>Fri, 21 Aug 2026 08:24:55 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-21-082455.mp3" length="4436544" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-21-082455.mp3</guid>
+      <itunes:duration>277</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-20</title>
       <description>Explore how AI is breaking out of the chat window with Meta’s new workflow-integrating Mac app, Stripe’s strategic OpenRouter acquisition, and Binance’s launch of autonomous crypto-trading agents. The episode also dives into the fierce enterprise privacy battle between OpenAI and Anthropic, alongside an insightful look at how AI is transforming the career paths of junior software engineers. Finally, get a quick update on crucial storm infrastructure upgrades underway across Florida during hurricane season.</description>
       <pubDate>Thu, 20 Aug 2026 08:25:17 GMT</pubDate>
