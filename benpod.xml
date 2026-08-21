@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Ben — 2026-08-21</title>
+      <description>Explore the rapidly shifting AI landscape as tech giants battle for enterprise loyalty, while the surge in training data and data center demands sparks both massive profits and cultural concerns. The discussion also dives into the impact of consumer AI tools on everyday communication and the rising phenomenon of &quot;AI-blindness.&quot; Finally, shift gears to the NFL to break down key roster bubble battles and standout plays from the 49ers&apos; dominant preseason victory.</description>
+      <pubDate>Fri, 21 Aug 2026 08:47:54 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-21-084754.mp3" length="4113408" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/benpod/benpod-2026-08-21-084754.mp3</guid>
+      <itunes:duration>257</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Ben — 2026-08-20</title>
       <description>Dive into the next phase of tech as Binance unleashes autonomous AI trading agents, OpenAI and Anthropic battle over enterprise data privacy, and Australia passes a landmark law targeting Big Tech news aggregation. The episode also explores the geopolitical and energy market ripples of the UAE’s trade embargo on Iran, the mounting power grid strain from AI data centers, and reassuring news regarding Stephen Curry’s future with the Golden State Warriors.</description>
       <pubDate>Thu, 20 Aug 2026 08:49:21 GMT</pubDate>
