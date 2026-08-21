@@ -1,6 +1,22 @@
 {
   "episodes": [
     {
+      "date": "2026-08-21",
+      "summary": "Explore the rapidly shifting AI landscape as tech giants battle for enterprise loyalty, while the surge in training data and data center demands sparks both massive profits and cultural concerns. The discussion also dives into the impact of consumer AI tools on everyday communication and the rising phenomenon of \"AI-blindness.\" Finally, shift gears to the NFL to break down key roster bubble battles and standout plays from the 49ers' dominant preseason victory.",
+      "keyTopics": [
+        "OpenAI versus Anthropic enterprise customer adoption volatility",
+        "Micro1 reaches 500 million dollar AI data run rate",
+        "Physical rare book destruction for AI model training data",
+        "OpenAI ChatGPT plugin integration for Apple Messages",
+        "AI-blindness phenomenon and synthetic media skepticism",
+        "AI data center cooling and water consumption challenges",
+        "San Francisco 49ers preseason victory over LA Chargers"
+      ],
+      "articles": [
+        "ESPN 49ers::49ers Recap: San Francisco 49ers at Los Angeles Chargers"
+      ]
+    },
+    {
       "date": "2026-08-20",
       "summary": "Dive into the next phase of tech as Binance unleashes autonomous AI trading agents, OpenAI and Anthropic battle over enterprise data privacy, and Australia passes a landmark law targeting Big Tech news aggregation. The episode also explores the geopolitical and energy market ripples of the UAE’s trade embargo on Iran, the mounting power grid strain from AI data centers, and reassuring news regarding Stephen Curry’s future with the Golden State Warriors.",
       "keyTopics": [
@@ -233,24 +249,6 @@
         "ESPN 49ers News::49ers: Deebo Samuel on reunion with 49ers: 'Just matter of time'",
         "Foreign Policy - Iran::Iran Denies Peace Talks After the United States Cancels Military Strikes",
         "Foreign Policy - Iran::A Saudi-Emirati Thaw Can Help Contain Iran"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "summary": "Explore the evolving landscape of artificial intelligence, balancing enterprise integration and consumer hardware breakthroughs against growing calls to slow down development for human well-being. Plus, catch up on major sports shake-ups facing the San Francisco 49ers following a devastating rookie injury and executive departure. Finally, get the latest on early political moves in Illinois and emerging geopolitical tensions in Venezuela.",
-      "keyTopics": [
-        "Enterprise AI startup June $20 million pre-seed round",
-        "Sam Altman call to pace rate of AI development",
-        "AirLLM 70B model inference on 4GB consumer GPU",
-        "SF 49ers Ricky Pearsall out for season with PCL injury",
-        "49ers Executive VP Paraag Marathe departure after 25 years",
-        "Alexi Giannoulias early moves for Illinois governor race",
-        "Venezuela regional military confrontation over Caracas"
-      ],
-      "articles": [
-        "ESPN Giants News::Giants: San Francisco Giants trade Tyler Mahle, 31, to Atlanta Braves",
-        "ESPN 49ers News::49ers: 49ers WR Ricky Pearsall to have season-ending knee surgery",
-        "ESPN 49ers News::49ers: 49ers VP Paraag Marathe exits to focus on soccer clubs"
       ]
     }
   ]
