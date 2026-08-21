@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-08-21",
+      "summary": "Dive into the booming AI data preparation gold rush and the volatile enterprise showdown between OpenAI and Anthropic as tech giants race for market dominance. This episode also explores AI’s creep into everyday messaging, Google's latest search concessions for publishers, and the hidden environmental and cultural costs of the boom—from data center cooling constraints to the destruction of physical books for training data.",
+      "keyTopics": [
+        "Micro1 $500 million run rate data preparation",
+        "OpenAI and Anthropic enterprise market share battle",
+        "ChatGPT integration for Apple Messages",
+        "Google preferred source feature for publishers",
+        "Data center water consumption and cooling solutions",
+        "Physical book destruction for AI training data"
+      ]
+    },
+    {
       "date": "2026-08-20",
       "summary": "Explore how AI is breaking out of the chat window with Meta’s new workflow-integrating Mac app, Stripe’s strategic OpenRouter acquisition, and Binance’s launch of autonomous crypto-trading agents. The episode also dives into the fierce enterprise privacy battle between OpenAI and Anthropic, alongside an insightful look at how AI is transforming the career paths of junior software engineers. Finally, get a quick update on crucial storm infrastructure upgrades underway across Florida during hurricane season.",
       "keyTopics": [
@@ -173,19 +185,6 @@
         "Design Arena raises 8 million to evaluate AI output taste",
         "AWS partners with Superblocks for enterprise vibe coding",
         "Ray Bradbury story August 4 2026 warns on automation"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "summary": "This episode explores a growing call to pace AI development as industry leaders and creators grapple with systemic security risks and the personal impacts of rapid innovation. It dives into the practical future of the technology, spotlighting massive funding for enterprise AI integration tools, developer practices to combat cognitive debt, and local security testing software. Finally, the discussion examines evolving legal and cultural guardrails, from state bans on harmful AI apps to the debate over using chatbots in daily parenting.",
-      "keyTopics": [
-        "Sam Altman calls to pace AI development speed",
-        "Hank Green public statement on unhealthy LLM usage",
-        "June raises 20 million dollar pre-seed for AI deployment",
-        "Retyping LLM generated code to prevent cognitive debt",
-        "Nightcrawler local AI pentesting agent on smartphones",
-        "Minnesota judge upholds state ban on AI nudify apps",
-        "Sam Altman advocates using ChatGPT for parenting"
       ]
     }
   ]
