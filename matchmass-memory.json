@@ -1,6 +1,21 @@
 {
   "episodes": [
     {
+      "date": "2026-08-21",
+      "summary": "This episode dives into the volatile battle for enterprise AI dominance and the ambitious push to launch orbital data centers into space. Back on the ground, the historic $12.5 billion sale of the Los Angeles Lakers faces fresh boardroom drama as a key minority owner pushes back against the takeover. Tune in for an insightful breakdown of rapid tech shifts, infrastructure challenges, and high-stakes sports business.",
+      "keyTopics": [
+        "OpenAI clawing back enterprise market share from Anthropic",
+        "Micro1 reaches $500M run rate for AI training data",
+        "Starcloud raises $250M for orbital space data centers",
+        "Patrick Soon-Shiong refuses to sell Lakers minority stake",
+        "Josh Kushner and Bob Iger Lakers acquisition bid",
+        "Surfline API outage disruption across Santa Barbara"
+      ],
+      "articles": [
+        "ESPN Lakers News::Lakers: Lakers minority owner Dr. Patrick Soon-Shiong not selling 4% stake"
+      ]
+    },
+    {
       "date": "2026-08-20",
       "summary": "Explore the latest power shifts in artificial intelligence, from the race for enterprise data privacy and autonomous crypto trading bots to major acquisitions reshaping tech infrastructure. Then, dive into the escalating boardroom drama and legal standoff surrounding the historic $12.5 billion sale of the Los Angeles Lakers. The episode wraps up with a lighthearted look at an ongoing tech outage leaving local California surfers in the dark.",
       "keyTopics": [
@@ -184,18 +199,6 @@
       ],
       "articles": [
         "ESPN Lakers News::Lakers: LeBron James signs with the 76ers: Grade, reaction, winners"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "summary": "This episode explores the central tension in artificial intelligence, contrasting calls from tech leaders and creators to slow down with the aggressive venture capital funding driving rapid adoption. From psychological reflections on AI addiction to legal battles over harmful applications, the conversation highlights the real-world impacts of technology on society. Plus, get quick updates on the Lakers' offseason, the upcoming World Cup final, and a surprisingly persistent surf forecast outage.",
-      "keyTopics": [
-        "Sam Altman call to pace AI development rate",
-        "AI deployment startup June $20 million pre-seed round",
-        "Hank Green reflection on AI usage and dopamine feedback",
-        "xAI lawsuit over Minnesota AI nudify app ban rejected",
-        "LA Lakers offseason updates following LeBron James departure",
-        "Santa Barbara Surfline API outage enters second week"
       ]
     }
   ]
