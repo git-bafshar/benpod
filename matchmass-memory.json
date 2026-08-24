@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-08-24",
+      "summary": "Dive into the latest artificial intelligence shakeups, from reports of a potential $13 billion acquisition of open-source hub Hugging Face to emerging questions about Anthropic's enterprise pricing strategy. This episode also explores the intrigue surrounding a mysterious new model dubbed Ox Alpha, a major breakthrough with an FDA-cleared Alzheimer’s test, and the latest quiet developments in the multi-billion-dollar battle to buy the Los Angeles Lakers.",
+      "keyTopics": [
+        "Reported $13 billion Hugging Face acquisition offers",
+        "Anthropic premium model enterprise adoption and pricing challenges",
+        "Mystery surrounding new Ox Alpha AI model release",
+        "FDA clearance of Alzheimer's disease diagnostic blood test",
+        "Los Angeles Lakers $12.5 billion ownership sale dispute",
+        "Ongoing Surfline API outage affecting Santa Barbara"
+      ]
+    },
+    {
       "date": "2026-08-21",
       "summary": "This episode dives into the volatile battle for enterprise AI dominance and the ambitious push to launch orbital data centers into space. Back on the ground, the historic $12.5 billion sale of the Los Angeles Lakers faces fresh boardroom drama as a key minority owner pushes back against the takeover. Tune in for an insightful breakdown of rapid tech shifts, infrastructure challenges, and high-stakes sports business.",
       "keyTopics": [
@@ -184,21 +196,6 @@
         "Shopify report on AI search traffic growth",
         "Los Angeles Lakers post-LeBron James roster rebuild",
         "Ongoing Surfline API outage in Santa Barbara"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "summary": "A major NBA era comes to a close as LeBron James officially leaves the Lakers for the 76ers, forcing Los Angeles into a full-scale rebuild. Meanwhile, the fast-growing AI boom hits an infrastructure wall as Texas pauses new data center developments to protect its power grid amid rising legal battles and new AI-powered music tools. Plus, take a look at the chilling real-world timing of Ray Bradbury’s classic automation story set on this exact date in 2026.",
-      "keyTopics": [
-        "LeBron James signs with Philadelphia 76ers ending Lakers era",
-        "Texas Governor Greg Abbott halts new AI data center construction",
-        "Runware launches modular Sonic Inference Pod data center solution",
-        "Apple expands trade secret investigation into former employees at OpenAI",
-        "Spotify partners with Merlin for AI-generated music remixes",
-        "Ray Bradbury sci-fi story 'There Will Come Soft Rains' anniversary"
-      ],
-      "articles": [
-        "ESPN Lakers News::Lakers: LeBron James signs with the 76ers: Grade, reaction, winners"
       ]
     }
   ]
