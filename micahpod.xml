@@ -17,6 +17,14 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Daily Micah — 2026-08-24</title>
+      <description>Explore the evolving AI landscape as top-tier models face user pushback over cost and efficiency, alongside the buzz surrounding a mysterious high-performing AI named Ox Alpha. The episode also dives into real-world applications transforming business and daily routines—from smart family calendars and automated user interviews to AI pitch coaching at Harvard. Finally, unpack the mounting copyright battles over AI training data and celebrate a major medical milestone with the FDA&apos;s clearance of a groundbreaking Alzheimer’s blood test.</description>
+      <pubDate>Mon, 24 Aug 2026 08:26:01 GMT</pubDate>
+      <enclosure url="https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-24-082601.mp3" length="4143168" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://git-bafshar.github.io/benpod/micahpod/micahpod-2026-08-24-082601.mp3</guid>
+      <itunes:duration>259</itunes:duration>
+    </item>
+    <item>
       <title>The Daily Micah — 2026-08-21</title>
       <description>Dive into the booming AI data preparation gold rush and the volatile enterprise showdown between OpenAI and Anthropic as tech giants race for market dominance. This episode also explores AI’s creep into everyday messaging, Google&apos;s latest search concessions for publishers, and the hidden environmental and cultural costs of the boom—from data center cooling constraints to the destruction of physical books for training data.</description>
       <pubDate>Fri, 21 Aug 2026 08:24:55 GMT</pubDate>
