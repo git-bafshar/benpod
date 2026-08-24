@@ -1,6 +1,29 @@
 {
   "episodes": [
     {
+      "date": "2026-08-24",
+      "summary": "This episode dives into major tech developments, from a rumored $13 billion acquisition of open-source AI giant Hugging Face to Anthropic's market challenges, alongside escalating global tensions as the U.S. prepares sweeping new economic sanctions against Iran. Plus, unpack how the AI data center boom is driving up local property taxes for homeowners and what a recent surge in cancelled contracts reveals about the shifting real estate market. The rundown wraps with essential sports headlines, featuring key NFL preseason injury recoveries and the latest MLB action.",
+      "keyTopics": [
+        "Hugging Face $13 billion acquisition talks",
+        "Anthropic high-cost flagship Claude model adoption struggle",
+        "US Treasury sweeping economic sanctions on Iran",
+        "Cook County property tax shifts and data center subsidies",
+        "Sean Grayson prison death in Sonya Massey case",
+        "US home-purchase contract cancellations three-year high",
+        "San Francisco 49ers injury returns and roster trade"
+      ],
+      "articles": [
+        "ESPN Giants::Giants Recap: San Francisco Giants at Boston Red Sox",
+        "ESPN Warriors News::Warriors: Warriors GM 'confident' Steph Curry will finish career in Golden State",
+        "ESPN 49ers News::49ers: Sources: 49ers trade Zamir White to Saints for Deion Jones",
+        "ESPN 49ers News::49ers: 49ers activate Kittle from PUP list; McCaffrey returns to practice",
+        "News Feeds::News Update",
+        "Real Estate Analysis::Real Estate Market Analysis",
+        "Foreign Policy - Iran::Trump Needs China’s Help to Effectively Sanction Iran",
+        "Foreign Policy - Iran::Trump’s Tech Tensions"
+      ]
+    },
+    {
       "date": "2026-08-21",
       "summary": "Explore the rapidly shifting AI landscape as tech giants battle for enterprise loyalty, while the surge in training data and data center demands sparks both massive profits and cultural concerns. The discussion also dives into the impact of consumer AI tools on everyday communication and the rising phenomenon of \"AI-blindness.\" Finally, shift gears to the NFL to break down key roster bubble battles and standout plays from the 49ers' dominant preseason victory.",
       "keyTopics": [
@@ -227,28 +250,6 @@
         "US and Iran geopolitical tension and diplomatic standoff",
         "San Francisco 49ers injuries and Paraag Marathe departure",
         "San Francisco Giants trade pitcher Robbie Ray to Padres"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "summary": "This episode dives into the escalating artificial intelligence landscape, highlighting Apple's legal actions against OpenAI, fiery comments from Palantir's CEO, and new hardware developments in portable data centers and space-laser communications. Beyond tech, the briefing covers stalled U.S.-Iran diplomatic negotiations, mounting wide receiver injury troubles for the San Francisco 49ers, and recent trade deadline moves by the San Francisco Giants. The discussion concludes with a look at Ray Bradbury’s classic short story \"There Will Come Soft Rains,\" offering a timely reflection on automation on the exact date in which the story is set.",
-      "keyTopics": [
-        "Apple trade secrets investigation into former employees joining OpenAI",
-        "Palantir CEO Alex Karp attacks AI frontier labs during earnings",
-        "Runware unveils Sonic Inference Pod modular data center",
-        "Endeavour Optical Networks plans space laser internet backbone",
-        "Iran denies active peace negotiations following canceled US strikes",
-        "San Francisco 49ers wide receiver injuries and roster turmoil",
-        "San Francisco Giants trade Robbie Ray to Padres"
-      ],
-      "articles": [
-        "ESPN Giants::Giants Recap: San Francisco Giants at Texas Rangers",
-        "ESPN Giants News::Giants: Yankees acquire left fielder Heliot Ramos, 26, from Giants",
-        "ESPN Giants News::Giants: Padres get Robbie Ray, Casey Mize in trades with Giants, Tigers",
-        "ESPN 49ers News::49ers: Mike Evans joins list of injured 49ers WRs",
-        "ESPN 49ers News::49ers: Deebo Samuel on reunion with 49ers: 'Just matter of time'",
-        "Foreign Policy - Iran::Iran Denies Peace Talks After the United States Cancels Military Strikes",
-        "Foreign Policy - Iran::A Saudi-Emirati Thaw Can Help Contain Iran"
       ]
     }
   ]
